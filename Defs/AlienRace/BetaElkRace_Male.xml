@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.ThingDef_AlienRace ParentName="BaseBetaPawn">
+    <defName>BetaElk_Male</defName>
+    <label>beta-humanoid (elk)</label>
+    <description>A "Beta", a Beta Class Humanoid Lifeform. Part human and part animal. The property of the Corporation that created them. The Galactic Workers Alliance secured semi-human rights for Betas, and now some have purchased their freedom.</description>
+
+    <statBases>
+      <MarketValue>2000</MarketValue>
+      <!-- elks are quick -->
+      <MoveSpeed>4.7</MoveSpeed>
+      <!-- elks are strong -->
+      <CarryingCapacity>75</CarryingCapacity>
+      <!-- elks suck at mining -->
+      <MiningSpeed>0.9</MiningSpeed>
+    </statBases>
+
+    <tools>
+      <li>
+          <label>left fist</label>
+          <capacities>
+              <li>Blunt</li>
+          </capacities>
+          <power>8.2</power>
+          <cooldownTime>2</cooldownTime>
+          <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+          <surpriseAttack>
+              <extraMeleeDamages>
+                  <li>
+                      <def>Stun</def>
+                      <amount>14</amount>
+                  </li>
+              </extraMeleeDamages>
+          </surpriseAttack>
+      </li>
+      <li>
+          <label>right fist</label>
+          <capacities>
+              <li>Blunt</li>
+          </capacities>
+          <power>8.2</power>
+          <cooldownTime>2</cooldownTime>
+          <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+          <surpriseAttack>
+              <extraMeleeDamages>
+                  <li>
+                      <def>Stun</def>
+                      <amount>14</amount>
+                  </li>
+              </extraMeleeDamages>
+          </surpriseAttack>
+      </li>
+      <li>
+          <label>teeth</label>
+          <capacities>
+              <li>Bite</li>
+          </capacities>
+          <power>8.2</power>
+          <cooldownTime>2</cooldownTime>
+          <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+          <chanceFactor>0.07</chanceFactor>
+      </li>
+      <li>
+          <label>head</label>
+          <capacities>
+              <li>Blunt</li>
+          </capacities>
+          <power>5</power>
+          <cooldownTime>2</cooldownTime>
+          <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+          <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+          <chanceFactor>0.2</chanceFactor>
+      </li>
+      <li>
+        <label>Antlers</label>
+        <capacities>
+          <li>Poke</li>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.5</chanceFactor>
+        <surpriseAttack>
+            <extraMeleeDamages>
+                <li>
+                    <def>Stun</def>
+                    <amount>14</amount>
+                </li>
+            </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+    </tools>
+
+    <alienRace>
+      <generalSettings>
+        <maleGenderProbability>1.0</maleGenderProbability>
+        <notXenophobistTowards>
+          <li>BetaElk_Female</li>
+        </notXenophobistTowards>
+        <alienPartGenerator>
+          <alienbodytypes>
+          </alienbodytypes>
+          <useGenderedHeads>false</useGenderedHeads>
+          <alienskincolorgen Class="ColorGenerator_Options">
+            <options>
+              <!-- #7f725d -->
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.498, 0.447, 0.364)</only>
+              </li>
+              <!-- #ba8759 -->
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.729, 0.529, 0.349)</only>
+              </li>
+              <!-- #958772 -->
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.584, 0.529, 0.447)</only>
+              </li>
+              <!-- #836d55 -->
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.513, 0.427, 0.333)</only>
+              </li>
+              <!-- #7e5a58 -->
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.494, 0.352, 0.345)</only>
+              </li>
+            </options>
+          </alienskincolorgen>
+          <headOffset>(0,.1)</headOffset>
+          <bodyAddons>
+            <li>
+              <path>Betas/BetaElk/Head/Antler</path>
+              <bodyPart>AmputatableAntler</bodyPart>
+              <drawSize>1</drawSize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <layerOffset>-0.01</layerOffset>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Average_Normal>(-.4,1)</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <crownTypes>
+                    <Average_Normal>(0,1.4)</Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <crownTypes>
+                    <Average_Normal>(-.55,1.1)</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+              <useSkinColor>false</useSkinColor>
+            </li>
+            <li>
+              <path>Betas/BetaElk/Head/Ear</path>
+              <bodyPart>AmputatableEar</bodyPart>
+              <drawSize>1</drawSize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <layerOffset>0</layerOffset>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Average_Normal>(-.41,.6)</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <crownTypes>
+                    <Average_Normal>(0,.9)</Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <crownTypes>
+                    <Average_Normal>(-.48,.6)</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+              <hiddenUnderApparelFor>
+                <li>FullHead</li>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+              <useSkinColor>true</useSkinColor>
+            </li>
+          </bodyAddons>
+          <useSkincolorForHair>true</useSkincolorForHair>
+        </alienPartGenerator>
+
+        <forcedRaceTraitEntries>
+          <li>
+            <!-- elk males spend puberty crashing their antlers together -->
+            <defName>Brawler</defName>
+            <chance>70</chance>
+            <commonalityFemale>0</commonalityFemale>
+            <commonalityMale>100</commonalityMale>
+          </li>
+          <li>
+            <!-- elks are pretty nervous -->
+            <defName>Nerves</defName>
+            <chance>60</chance>
+            <degree>-1</degree>
+          </li>
+        </forcedRaceTraitEntries>
+
+      </generalSettings>
+
+
+      <graphicPaths>
+        <li>
+          <head>Betas/BetaElk/Head/</head>
+        </li>
+      </graphicPaths>
+
+
+      <hairSettings>
+        <hasHair>true</hasHair>
+      </hairSettings>
+
+    </alienRace>
+
+    <race>
+      <!-- basic leather -->
+      <leatherDef>Leather_Plain</leatherDef>
+      <!-- need gendered body defs -->
+      <body>HumanWithAntler</body>
+      <lifeStageAges>
+        <li>
+          <def>BetaAdult</def>
+          <minAge>18</minAge>
+          <soundWounded>Pawn_Deer_Wounded</soundWounded>
+          <soundDeath>Pawn_Deer_Death</soundDeath>
+          <soundCall>Pawn_Deer_Call</soundCall>
+          <soundAngry>Pawn_Deer_Angry</soundAngry>
+        </li>
+
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+  </AlienRace.ThingDef_AlienRace>
+</Defs>

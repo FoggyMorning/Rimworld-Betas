@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.ThingDef_AlienRace ParentName="BaseBetaPawn">
+    <defName>BetaElk_Female</defName>
+    <label>beta-humanoid (elk)</label>
+    <description>A "Beta", a Beta Class Humanoid Lifeform. Part human and part animal. The property of the Corporation that created them. The Galactic Workers Alliance secured semi-human rights for Betas, and now some have purchased their freedom.</description>
+
+    <statBases>
+      <MarketValue>2000</MarketValue>
+      <!-- elks are quick -->
+      <MoveSpeed>5.0</MoveSpeed>
+      <!-- elks are strong -->
+      <CarryingCapacity>65</CarryingCapacity>
+    </statBases>
+    <!-- elk tools are basic becaue female can't use antlers and gendered tools are not a thing -->
+
+    <alienRace>
+      <generalSettings>
+        <maleGenderProbability>0.0</maleGenderProbability>
+        <notXenophobistTowards>
+          <li>BetaElk_Male</li>
+        </notXenophobistTowards>
+        <alienPartGenerator>
+          <alienbodytypes>
+          </alienbodytypes>
+          <useGenderedHeads>false</useGenderedHeads>
+          <alienskincolorgen Class="ColorGenerator_Options">
+            <options>
+              <!-- #7f725d -->
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.498, 0.447, 0.364)</only>
+              </li>
+              <!-- #ba8759 -->
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.729, 0.529, 0.349)</only>
+              </li>
+              <!-- #958772 -->
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.584, 0.529, 0.447)</only>
+              </li>
+              <!-- #836d55 -->
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.513, 0.427, 0.333)</only>
+              </li>
+              <!-- #7e5a58 -->
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.494, 0.352, 0.345)</only>
+              </li>
+            </options>
+          </alienskincolorgen>
+          <headOffset>(0,.1)</headOffset>
+          <bodyAddons>
+            <li>
+              <path>Betas/BetaElk/Head/Ear</path>
+              <bodyPart>AmputatableEar</bodyPart>
+              <drawSize>1</drawSize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <layerOffset>0</layerOffset>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Average_Normal>(-.41,.6)</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <crownTypes>
+                    <Average_Normal>(0,.9)</Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <crownTypes>
+                    <Average_Normal>(-.48,.6)</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+              <hiddenUnderApparelFor>
+                <li>FullHead</li>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+              <useSkinColor>true</useSkinColor>
+               
+               
+            </li>
+          </bodyAddons>
+          <useSkincolorForHair>true</useSkincolorForHair>
+        </alienPartGenerator>
+
+        <forcedRaceTraitEntries>
+          <li>
+            <!-- elks are pretty nervous -->
+            <defName>Nerves</defName>
+            <chance>60</chance>
+            <degree>-1</degree>
+          </li>
+        </forcedRaceTraitEntries>
+
+      </generalSettings>
+
+
+      <graphicPaths>
+        <li>
+          <head>Betas/BetaElk/Head/</head>
+        </li>
+      </graphicPaths>
+
+
+      <hairSettings>
+        <hasHair>true</hasHair>
+      </hairSettings>
+
+    </alienRace>
+
+    <race>
+      <!-- basic leather -->
+      <leatherDef>Leather_Plain</leatherDef>
+      <lifeStageAges>
+        <li>
+          <def>BetaAdult</def>
+          <minAge>18</minAge>
+          <soundWounded>Pawn_Deer_Wounded</soundWounded>
+          <soundDeath>Pawn_Deer_Death</soundDeath>
+          <soundCall>Pawn_Deer_Call</soundCall>
+          <soundAngry>Pawn_Deer_Angry</soundAngry>
+        </li>
+
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+  </AlienRace.ThingDef_AlienRace>
+</Defs>

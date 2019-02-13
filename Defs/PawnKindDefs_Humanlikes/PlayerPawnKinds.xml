@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <PawnKindDef Abstract="True" Name="BasePlayerBetaPawnKind">
+    <combatPower>30</combatPower>
+    <isFighter>false</isFighter>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+    <defaultFactionType>PlayerColony</defaultFactionType>
+    <backstoryCategories>
+      <li>Civil</li>
+    </backstoryCategories>
+    <chemicalAddictionChance>0.06</chemicalAddictionChance>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelMoney>
+      <min>350</min>
+      <max>600</max>
+    </apparelMoney>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+    <techHediffsChance>0.03</techHediffsChance>
+    <techHediffsMoney>
+      <min>50</min>
+      <max>800</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+    </techHediffsTags>
+  </PawnKindDef>
+
+
+  <PawnKindDef ParentName="BasePlayerBetaPawnKind">
+    <defName>BetaBearPlayer</defName>
+    <race>BetaBear</race>
+    <label>colonist (Bear beta)</label>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BasePlayerBetaPawnKind">
+    <defName>BetaCamelPlayer</defName>
+    <race>BetaCamel</race>
+    <label>colonist (camel beta)</label>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BasePlayerBetaPawnKind">
+    <defName>BetaElephantPlayer</defName>
+    <race>BetaElephant</race>
+    <label>colonist (elephant beta)</label>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BasePlayerBetaPawnKind">
+    <defName>BetaElkPlayer_Male</defName>
+    <race>BetaElk_Male</race>
+    <label>colonist (elk beta)</label>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BasePlayerBetaPawnKind">
+    <defName>BetaElkPlayer_Female</defName>
+    <race>BetaElk_Female</race>
+    <label>colonist (elk beta)</label>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BasePlayerBetaPawnKind">
+    <defName>BetaFoxPlayer</defName>
+    <race>BetaFox</race>
+    <label>colonist (fox beta)</label>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BasePlayerBetaPawnKind">
+    <defName>BetaGazellePlayer</defName>
+    <race>BetaGazelle</race>
+    <label>colonist (gazelle beta)</label>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BasePlayerBetaPawnKind">
+    <defName>BetaLynxPlayer</defName>
+    <race>BetaLynx</race>
+    <label>colonist (lynx beta)</label>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BasePlayerBetaPawnKind">
+    <defName>BetaHogPlayer</defName>
+    <race>BetaHog</race>
+    <label>colonist (hog beta)</label>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BasePlayerBetaPawnKind">
+    <defName>BetaRaccoonPlayer</defName>
+    <race>BetaRaccoon</race>
+    <label>colonist (raccoon beta)</label>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BasePlayerBetaPawnKind">
+    <defName>BetaWolfPlayer</defName>
+    <race>BetaWolf</race>
+    <label>colonist (wolf beta)</label>
+  </PawnKindDef>
+</Defs>
+
