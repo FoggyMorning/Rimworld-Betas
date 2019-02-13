@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<ModMetaData>
+  
+		<name>Beta-humanoids</name>
+  
+		<author>Foggy Morning</author>
+  
+		<url>https://github.com/FoggyMorning/Rimworld-Betas</url>
+  
+		<supportedVersions><li>1.0</li></supportedVersions>
+
+		<description>
+		Inspired by the "BeastMan Tribals" mod.   https://steamcommunity.com/id/joeglass/myworkshopfiles/?appid=294100
+		Includes new textures and makes them available to the New Arrivals faction.
+		New textures for the Powered Marine Helmet as well to allow for (short) snouts.
+
+
+		Bear:
+			Advantages:
+				Larger than humans with increased health. Increased comfortable temperature range. 
+			Disadvantages:
+				Works slower, increased chance for Greedy and Gourmand negative traits.
+
+		Camels:
+			Advantages:
+				Comfortable at higher temps. Lowered hunger rate. Increased chance of Ascetic trait.
+			Disadvantages:
+				Increased Chance of Abrasive trait.
+		
+		Elephants:
+			Advantages:
+				Much larger than humans with increased health.  Increased social impact. Slightly increased chance of Good Memory and Kind traits.
+			Disadvantages:
+				Increased hunger rate.
+		
+		Elk:
+			Advantages:
+				Larger than humans.  Move slightly faster. Males have much higher chance to get the Brawler trait to represent the antlers.  
+			Disadvantages:
+				Increased chance to have the Nervous trait.
+		
+		Fox:
+			Advantages:
+			 	Research slightly faster.  Chance to get the Night owl trait.
+			Disadvantages:
+				Smaller than humans with decreased health. Slight chance to get the Too Smart trait. 
+		
+		Gazelle:
+			Advantages:
+			 	Move very fast.  Slight chance for Brawler and Nimble traits.
+			Disadvantages:
+				Smaller than humans with decreased health. Greatly reduced mining speed. 
+		
+		Lynx:
+			Advantages:
+			 	Increased movement speed. Chance to gain Night owl trait.
+			Disadvantages:
+				Smaller than humans with decreased health. Chance to gain the Psychopath trait.
+		
+		Hog:
+			Advantages:
+			 	Chance to gain the FastLearner trait.
+			Disadvantages:
+				Smaller than humans with decreased health. Chance to gain the Cannibal trait.
+		
+		Raccoon:
+			Advantages:
+			 	Doesn't get bad thoughts for eating kibble or insect meat.  100% chance to gain the Night owl trait.
+			Disadvantages:
+				Smaller than humans with decreased health. Decreased movement speed. 
+		
+		Wolf:
+			Advantages:
+			 	Increased move speed.  Increased chance to gain the Psychic Sensitivity 1 trait.
+			Disadvantages:
+			 	Increased chance to gain the Psychic Sensitivity 1 trait.
+
+		</description>
+	
+</ModMetaData>

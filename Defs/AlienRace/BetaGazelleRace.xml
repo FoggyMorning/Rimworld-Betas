@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.ThingDef_AlienRace ParentName="BaseBetaPawn">
+    <defName>BetaGazelle</defName>
+    <label>beta-humanoid (gazelle)</label>
+    <description>A "Beta", a Beta Class Humanoid Lifeform. Part human and part animal. The property of the Corporation that created them. The Galactic Workers Alliance secured semi-human rights for Betas, and now some have purchased their freedom.</description>
+
+    <statBases>
+      <LeatherAmount>30</LeatherAmount>
+      <MarketValue>2000</MarketValue>
+      <!-- super fast -->
+      <MoveSpeed>6.0</MoveSpeed>
+      <CarryingCapacity>40</CarryingCapacity>
+      <!-- horns don't fit in the mines -->
+      <MiningSpeed>0.4</MiningSpeed>
+    </statBases>
+
+    <tools>
+      <li>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5.5</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5.5</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.07</chanceFactor>
+      </li>
+      <li>
+        <label>Antlers</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+
+    <alienRace>
+
+      <generalSettings>
+        <humanRecipeImport>true</humanRecipeImport>
+        <alienPartGenerator>
+          <alienbodytypes>
+          </alienbodytypes>
+          <aliencrowntypes>
+            <li>New_Average_Normal</li>
+          </aliencrowntypes>
+          <customDrawSize>(.9, .9)</customDrawSize>
+          <customHeadDrawSize>(1,1)</customHeadDrawSize>
+          <customPortraitDrawSize>(.9,.9)</customPortraitDrawSize>
+          <customPortraitHeadDrawSize>(1,1)</customPortraitHeadDrawSize>
+          <headOffset>(0,.08)</headOffset>
+          <useGenderedHeads>false</useGenderedHeads>
+          <alienskincolorgen Class="ColorGenerator_Options">
+            <options>
+              <!-- #b69135 -->
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.713, 0.568, 0.207,1)</only>
+              </li>
+              <!-- #d8ab3b -->
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.847, 0.670, 0.231,1)</only>
+              </li>
+              <!-- #a77d16 -->
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.654, 0.490, 0.086,1)</only>
+              </li>
+              <!-- #744339 -->
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.454, 0.262, 0.223)</only>
+              </li>
+              <!-- #744339 -->
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.631, 0.494, 0.333)</only>
+              </li>
+            </options>
+          </alienskincolorgen>
+          <bodyAddons>
+            <li>
+              <path>Betas/BetaGazelle/Head/Antler</path>
+              <bodyPart>AmputatableAntler</bodyPart>
+              <drawSize>1</drawSize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <layerOffset>-0.01</layerOffset>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <New_Average_Normal>(-.42,.68)</New_Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <crownTypes>
+                    <New_Average_Normal>(0,.91)</New_Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <Male>(.1,0)</Male>
+                    <Female>(0,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
+                  <crownTypes>
+                    <New_Average_Normal>(-.5,.6)</New_Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+              <useSkinColor>false</useSkinColor>
+               
+               
+            </li>
+            <li>
+              <path>Betas/BetaGazelle/Head/Ear</path>
+              <bodyPart>AmputatableEar</bodyPart>
+              <drawSize>.75</drawSize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <layerOffset>0</layerOffset>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <New_Average_Normal>(-.43,.85)</New_Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <crownTypes>
+                    <New_Average_Normal>(0,.96)</New_Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <Male>(.03,.01)</Male>
+                    <Female>(0,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
+                  <crownTypes>
+                    <New_Average_Normal>(-.5,.64)</New_Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+              <hiddenUnderApparelFor>
+                <li>FullHead</li>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+              <useSkinColor>true</useSkinColor>
+               
+               
+            </li>
+          </bodyAddons>
+          <useSkincolorForHair>true</useSkincolorForHair>
+        </alienPartGenerator>
+
+        <forcedRaceTraitEntries>
+          <li>
+            <!-- nimble as fuck -->
+            <defName>Nimble</defName>
+            <chance>20</chance>
+          </li>
+          <li>
+            <!-- head bangin -->
+            <defName>Brawler</defName>
+            <chance>20</chance>
+          </li>
+        </forcedRaceTraitEntries>
+      </generalSettings>
+
+
+      <graphicPaths>
+        <li>
+          <body>Betas/BetaGazelle/Body/</body>
+          <head>Betas/BetaGazelle/Head/</head>
+        </li>
+      </graphicPaths>
+
+
+      <hairSettings>
+        <hasHair>true</hasHair>
+      </hairSettings>
+    </alienRace>
+
+    <race>
+      <leatherDef>Leather_Plain</leatherDef>
+      <body>HumanWithAntler</body>
+      <baseBodySize>0.7</baseBodySize>
+      <baseHungerRate>1.0</baseHungerRate>
+      <baseHealthScale>0.7</baseHealthScale>
+      <lifeStageAges>
+        <li>
+          <def>BetaAdult</def>
+          <minAge>18</minAge>
+          <soundWounded>Pawn_Deer_Wounded</soundWounded>
+          <soundDeath>Pawn_Deer_Death</soundDeath>
+          <soundCall>Pawn_Deer_Call</soundCall>
+          <soundAngry>Pawn_Deer_Angry</soundAngry>
+        </li>
+
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+  </AlienRace.ThingDef_AlienRace>
+</Defs>

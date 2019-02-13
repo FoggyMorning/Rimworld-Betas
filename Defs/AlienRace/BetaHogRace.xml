@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.ThingDef_AlienRace ParentName="BaseBetaPawn">
+    <defName>BetaHog</defName>
+    <label>beta-humanoid (hog)</label>
+    <description>A "Beta", a Beta Class Humanoid Lifeform. Part human and part animal. The property of the Corporation that created them. The Galactic Workers Alliance secured semi-human rights for Betas, and now some have purchased their freedom.</description>
+
+    <statBases>
+      <LeatherAmount>30</LeatherAmount>
+      <MarketValue>1500</MarketValue>
+    </statBases>
+
+    <tools>
+      <li>
+        <label>tusk</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>9.7</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>TuskAttackTool</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>8.5</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+
+    <alienRace>
+
+      <generalSettings>
+        <humanRecipeImport>true</humanRecipeImport>
+        <alienPartGenerator>
+          <aliencrowntypes>
+            <li>Average_Normal</li>
+          </aliencrowntypes>
+          <alienbodytypes>
+          </alienbodytypes>
+          <customDrawSize>(.8, .8)</customDrawSize>
+          <customHeadDrawSize>(.8,.8)</customHeadDrawSize>
+          <customPortraitDrawSize>(.8,.8)</customPortraitDrawSize>
+          <customPortraitHeadDrawSize>(.8,.8)</customPortraitHeadDrawSize>
+          <headOffset>(0, 0)</headOffset>
+          <useGenderedHeads>false</useGenderedHeads>
+          <alienskincolorgen Class="ColorGenerator_Options">
+            <options>
+              <!-- #907757 -->
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.564, 0.466, 0.341)</only>
+              </li>
+              <!-- #4c3221 -->
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.298, 0.196, 0.129)</only>
+              </li>
+              <!-- #5c1c0c -->
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.360, 0.109, 0.047)</only>
+              </li>
+              <!-- #d4a464 -->
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.831, 0.643, 0.392)</only>
+              </li>
+              <!-- #554a40 -->
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.333, 0.290, 0.250)</only>
+              </li>
+            </options>
+          </alienskincolorgen>
+          <alienhaircolorgen Class="ColorGenerator_Options">
+            <options>
+              <!-- #907757 -->
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.564, 0.466, 0.341)</only>
+              </li>
+              <!-- #4c3221 -->
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.298, 0.196, 0.129)</only>
+              </li>
+              <!-- #5c1c0c -->
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.360, 0.109, 0.047)</only>
+              </li>
+              <!-- #d4a464 -->
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.831, 0.643, 0.392)</only>
+              </li>
+              <!-- #554a40 -->
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.333, 0.290, 0.250)</only>
+              </li>
+            </options>
+          </alienhaircolorgen>
+          <bodyAddons>
+            <li>
+              <path>Betas/BetaHog/Head/Ear</path>
+              <bodyPart>AmputatableEar</bodyPart>
+              <drawSize>.8</drawSize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <layerOffset>0</layerOffset>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Average_Normal>(-.42,.53)</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <crownTypes>
+                    <Average_Normal>(0,.83)</Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <Male>(0.05,.00)</Male>
+                    <Female>(0,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>(-.53,.48)</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+              <hiddenUnderApparelFor>
+                <li>FullHead</li>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+              <useSkinColor>true</useSkinColor>
+               
+               
+            </li>
+            <li>
+              <path>Betas/BetaHog/Head/Tusk</path>
+              <bodyPart>Tusk</bodyPart>
+              <drawSize>.8</drawSize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <layerOffset>0</layerOffset>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Average_Normal>(-.42,.54)</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <Male>(.05,.00)</Male>
+                    <Female>(0,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>(-.50,.54)</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+              <hiddenUnderApparelFor>
+                <li>FullHead</li>
+              </hiddenUnderApparelFor>
+              <useSkinColor>false</useSkinColor>
+               
+              <!-- <drawForFemale>false</drawForFemale> -->
+            </li>
+          </bodyAddons>
+        </alienPartGenerator>
+
+        <forcedRaceTraitEntries>
+          <li>
+            <!-- hogs are smart -->
+            <defName>FastLearner</defName>
+            <chance>20</chance>
+          </li>
+          <li>
+            <!-- https://youtu.be/2xUynRdzzsM -->
+            <defName>Cannibal</defName>
+            <chance>20</chance>
+          </li>
+        </forcedRaceTraitEntries>
+      </generalSettings>
+
+      <graphicPaths>
+        <li>
+          <head>Betas/BetaHog/Head/</head>
+        </li>
+      </graphicPaths>
+
+      <hairSettings>
+        <hasHair>true</hasHair>
+        <getsGreyAt>50</getsGreyAt>
+        <hairTags>
+          <!-- hog man males can have mohawks -->
+          <li>BetaHog</li>
+        </hairTags>
+      </hairSettings>
+    </alienRace>
+
+    <race>
+      <leatherDef>Leather_Pig</leatherDef>
+      <body>HumanWithTusks</body>
+      <baseBodySize>0.9</baseBodySize>
+      <baseHealthScale>0.9</baseHealthScale>
+      <lifeStageAges>
+        <li>
+          <def>BetaAdult</def>
+          <minAge>18</minAge>
+          <soundWounded>Pawn_Wildboar_Wounded</soundWounded>
+          <soundDeath>Pawn_Wildboar_Death</soundDeath>
+          <soundCall>Pawn_Wildboar_Call</soundCall>
+          <soundAngry>Pawn_Wildboar_Angry</soundAngry>
+        </li>
+
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+
+  </AlienRace.ThingDef_AlienRace>
+</Defs>
