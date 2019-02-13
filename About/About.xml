@@ -11,9 +11,9 @@
 		<supportedVersions><li>1.0</li></supportedVersions>
 
 		<description>
-		Inspired by the "BeastMan Tribals" mod.  
-		Includes new art and makes them only available to the New Arrivals faction.
-		New Art for the Powered Marine Helmet to allow for snouts.
+		Inspired by the "BeastMan Tribals" mod.   https://steamcommunity.com/id/joeglass/myworkshopfiles/?appid=294100
+		Includes new textures and makes them available to the New Arrivals faction.
+		New textures for the Powered Marine Helmet as well to allow for (short) snouts.
 
 
 		Bear:
@@ -32,7 +32,7 @@
 			Advantages:
 				Much larger than humans with increased health.  Increased social impact. Slightly increased chance of Good Memory and Kind traits.
 			Disadvantages:
-				Doubled hunger rate.
+				Increased hunger rate.
 		
 		Elk:
 			Advantages:
@@ -66,7 +66,7 @@
 		
 		Raccoon:
 			Advantages:
-			 	100% chance to gain the Night owl trait.
+			 	Doesn't get bad thoughts for eating kibble or insect meat.  100% chance to gain the Night owl trait.
 			Disadvantages:
 				Smaller than humans with decreased health. Decreased movement speed. 
 		

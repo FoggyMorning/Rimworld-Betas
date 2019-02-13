@@ -57,6 +57,20 @@
     </tools>
 
     <alienRace>
+      <thoughtSettings>
+          <cannotReceiveThoughts>
+            <!-- raccoons are famed trash pandas, so lets make them be non-picky eaters -->
+            <li>AteKibble</li>
+            <li>AteInsectMeatDirect</li>
+            <li>AteInsectMeatAsIngredient</li>
+          </cannotReceiveThoughts>
+
+          <ateThoughtSpecific>
+          </ateThoughtSpecific>
+
+          <replacerList>
+          </replacerList>
+      </thoughtSettings>
 
       <generalSettings>
         <humanRecipeImport>true</humanRecipeImport>

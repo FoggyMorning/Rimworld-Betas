@@ -8,7 +8,8 @@
     <statBases>
       <LeatherAmount>30</LeatherAmount>
       <MarketValue>1500</MarketValue>
-      <MoveSpeed>5.0</MoveSpeed>
+      <MoveSpeed>4.8</MoveSpeed>
+		  <HuntingStealth>2</HuntingStealth>
     </statBases>
 
     <tools>

@@ -33,6 +33,7 @@
 
 
   <PawnKindDef ParentName="BasePlayerBetaPawnKind">
+    <combatPower>40</combatPower>
     <defName>BetaBearPlayer</defName>
     <race>BetaBear</race>
     <label>colonist (Bear beta)</label>
@@ -45,12 +46,14 @@
   </PawnKindDef>
 
   <PawnKindDef ParentName="BasePlayerBetaPawnKind">
+    <combatPower>40</combatPower>
     <defName>BetaElephantPlayer</defName>
     <race>BetaElephant</race>
     <label>colonist (elephant beta)</label>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BasePlayerBetaPawnKind">
+    <combatPower>35</combatPower>
     <defName>BetaElkPlayer_Male</defName>
     <race>BetaElk_Male</race>
     <label>colonist (elk beta)</label>
