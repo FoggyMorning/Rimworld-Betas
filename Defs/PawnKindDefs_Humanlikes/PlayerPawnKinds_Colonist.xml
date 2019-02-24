@@ -4,7 +4,6 @@
   <PawnKindDef Abstract="True" Name="BasePlayerBetaPawnKind">
     <combatPower>30</combatPower>
     <isFighter>false</isFighter>
-    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
     <forceNormalGearQuality>true</forceNormalGearQuality>
     <defaultFactionType>PlayerColony</defaultFactionType>
     <backstoryCategories>

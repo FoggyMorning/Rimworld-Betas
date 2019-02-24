@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <BetaHumanoids.ModTitle>Beta-Humanoids</BetaHumanoids.ModTitle>
+  <BetaHumanoids.Include_BetaBear>Include Bear Betas</BetaHumanoids.Include_BetaBear>
+  <BetaHumanoids.Include_BetaCamel>Include Camel Betas</BetaHumanoids.Include_BetaCamel>
+  <BetaHumanoids.Include_BetaElephant>Include Elephant Betas</BetaHumanoids.Include_BetaElephant>
+  <BetaHumanoids.Include_BetaElk>Include Elk Betas</BetaHumanoids.Include_BetaElk>
+  <BetaHumanoids.Include_BetaFox>Include Fox Betas</BetaHumanoids.Include_BetaFox>
+  <BetaHumanoids.Include_BetaGazelle>Include Gazelle Betas</BetaHumanoids.Include_BetaGazelle>
+  <BetaHumanoids.Include_BetaHog>Include Hog Betas</BetaHumanoids.Include_BetaHog>
+  <BetaHumanoids.Include_BetaLynx>Include Lynx Betas</BetaHumanoids.Include_BetaLynx>
+  <BetaHumanoids.Include_BetaRaccoon>Include Raccoon Betas</BetaHumanoids.Include_BetaRaccoon>
+  <BetaHumanoids.Include_BetaWolf>Include Wolf Betas</BetaHumanoids.Include_BetaWolf>
+
+
+  <BetaHumanoids.spawnChanceVeryLow>(Minimum - Colonists and Tribespeople of this species will NOT appear)</BetaHumanoids.spawnChanceVeryLow>
+  <BetaHumanoids.spawnChanceLow>(Low chance for Colonists and Tribespeople of this species to appear)</BetaHumanoids.spawnChanceLow>
+  <BetaHumanoids.spawnChanceNormal>(Normal chance for Colonists and Tribespeople of this species to appear)</BetaHumanoids.spawnChanceNormal>
+  <BetaHumanoids.spawnChanceHigh>(High chance for Colonists and Tribespeople of this species to appear)</BetaHumanoids.spawnChanceHigh>
+  <BetaHumanoids.spawnChanceVeryHigh>(Very High chance for Colonists and Tribespeople of this species to appear)</BetaHumanoids.spawnChanceVeryHigh>
+  <BetaHumanoids.spawnChanceInsane>(Maximum - This species will appear frequently, but Human colonists will no longer appear)</BetaHumanoids.spawnChanceInsane>
+
+</LanguageData>

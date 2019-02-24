@@ -11,10 +11,21 @@
 		<supportedVersions><li>1.0</li></supportedVersions>
 
 		<description>
-		Inspired by the "BeastMan Tribals" mod.   https://steamcommunity.com/id/joeglass/myworkshopfiles/?appid=294100
-		Includes new textures and makes them available to the New Arrivals faction.
-		New textures for the Powered Marine Helmet as well to allow for (short) snouts.
+		A Beta Class Humanoid Lifeform. Part human and part animal. The property of the Corporation that created them.
+		
+		Their job: Justification and Pacification of new worlds. Find exploitable resources and elimniate dangerous indigenous lifeforms.
+		
+		The Galactic Workers Alliance secured semi-human rights for Betas through a series of punishing strikes, forcing the Corporations to allow the Betas to buyback the cost of their birth and training.
+		
+		Now some "Betas" have managed to purchase their freedom and begun to make their way to the Rim.
 
+		[H1]What does this mod do?[/H1]
+		The "Beta-humanoids" mod gives a chance for the Beta-humanoids races to be available at Colony start (PlayerColony and PlayerTribe), and to later appear as refugees, wanderers, and slaves. 		
+		I tried to make the Beta's heads look correct with the vanilla hats and helmets, however the Powered Marine Helmet would not work, and I had to make new textures for it to allow for (short) snouts. 
+        Includes an Options menu where you can set the chance for each Beta race type to appear.
+		
+		Races added:
+		Elephants and Hogs Betas have a tusk attack; Bears, Lynx, Fox, and Raccoon Betas have claw and bite attacks; and Gazelle and Male Elks have horn attacks. All damage values are based on the animals they are created from.
 
 		Bear:
 			Advantages:
@@ -75,7 +86,15 @@
 			 	Increased move speed.  Increased chance to gain the Psychic Sensitivity 1 trait.
 			Disadvantages:
 			 	Increased chance to gain the Psychic Sensitivity 1 trait.
+		
 
+
+		Inspired by the "BeastMan Tribals" mod.   https://steamcommunity.com/id/joeglass/myworkshopfiles/?appid=294100
+		The "BeastMan Tribals" mod creates Beastmen that can appear as tribal factions. 
+		Both mods can be active at the same time.
+
+		Fluff inspired by the long defunct RPG "Justifiers".  https://rpggeek.com/rpg/1185/justifiers-rpg
+		
 		</description>
 	
 </ModMetaData>
