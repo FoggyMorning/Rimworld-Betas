@@ -37,25 +37,23 @@ namespace BetaHumanoids
         private Vector2 pos = new Vector2(0, 0);
         public void DoWindowContents(Rect canvas)
         {
-            const float HEIGHT = 70;
-            float WIDTH = canvas.width;
+            Listing_Standard list = new Listing_Standard
+            {
+                ColumnWidth = canvas.width - 20
+            };
+            list.Begin(canvas);
 
-            float x = canvas.x;
-            float y = canvas.y + 20;
-            Widgets.BeginScrollView(new Rect(x, y, WIDTH + 16, 500), ref pos, new Rect(canvas.x, canvas.y, WIDTH, HEIGHT * RaceIdentif.Length * 20));
+            list.Gap();
+            Rect scrollView = new Rect(canvas.x, canvas.y, canvas.width, canvas.height * RaceIdentif.Length);
+            list.BeginScrollView(canvas, ref pos, ref scrollView);
 
             for (int i = 0; i < RaceIdentif.Length; i++)
             {
-                Widgets.Label(new Rect(x, y, WIDTH, 32), ("BetaHumanoids.Include_" + RaceIdentif[i]).Translate() + GetspawnChanceLabel(SpawnChance[i]));
-                y += 30;
-                SpawnChance[i] = Widgets.HorizontalSlider(new Rect(x + 80, y, 200, 32), SpawnChance[i], 0f, 10f);
-                if (Widgets.ButtonText(new Rect(x + 300, y - 2, 100, 28), "Reset".Translate()))
-                {
-                    SpawnChance[i] = defaultSpawnChance;
-                }
-                y += 30;
+                list.DrawSlider(("BetaHumanoids.Include_" + RaceIdentif[i]).Translate() + " " + GetspawnChanceLabel(SpawnChance[i]), 
+                    ref SpawnChance[i], ref spawnChanceString[i], 0f, 10f);
+                list.Gap(24);
             }
-            Widgets.EndScrollView();
+            list.EndScrollView(ref scrollView);
         }
         public override void ExposeData()
         {
@@ -99,7 +97,11 @@ namespace BetaHumanoids
             }
             return "BetaHumanoids.spawnChanceInsane".Translate();
         }
-        public static void DrawSlider(Listing_Standard list, string label, ref float value, ref string buffer, float min, float max)
+    }
+
+    public static class LSUtil
+    {
+        public static void DrawSlider(this Listing_Standard list, string label, ref float value, ref string buffer, float min, float max)
         {
             float f;
             string s = buffer;
@@ -120,10 +122,6 @@ namespace BetaHumanoids
                 buffer = ((int)value).ToString();
             }
         }
-    }
-
-    public static class LSUtil
-    {
         public static string ModTextEntryLabeled(this Listing_Standard ls, string label, string buffer, int lineCount = 1)
         {
             Rect rect = ls.GetRect(Text.LineHeight * (float)lineCount);
