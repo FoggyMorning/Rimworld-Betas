@@ -28,6 +28,7 @@
 					<aliencrowntypes>
 						<li>Average_Normal</li>
 					</aliencrowntypes>
+          <useGenderedHeads>true</useGenderedHeads>
           <bodyAddons>
             <li>
               <path>Betas/BetaCamel/Head/Ears</path>
@@ -62,7 +63,6 @@
             </li>
           </bodyAddons>
           <headOffset>( 0, 0.1 )</headOffset>
-          <useGenderedHeads>false</useGenderedHeads>
           <alienskincolorgen Class="ColorGenerator_Options">
             <options>
               <!-- #c19a6b -->

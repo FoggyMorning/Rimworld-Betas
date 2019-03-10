@@ -77,7 +77,7 @@
           <customPortraitDrawSize>(.8,.8)</customPortraitDrawSize>
           <customPortraitHeadDrawSize>(.8,.8)</customPortraitHeadDrawSize>
           <headOffset>(0, 0)</headOffset>
-          <useGenderedHeads>false</useGenderedHeads>
+          <useGenderedHeads>true</useGenderedHeads>
           <alienskincolorgen Class="ColorGenerator_Options">
             <options>
               <!-- #907757 -->

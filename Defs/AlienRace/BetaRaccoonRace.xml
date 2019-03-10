@@ -82,7 +82,7 @@
           <customPortraitDrawSize>(.65,.65)</customPortraitDrawSize>
           <customPortraitHeadDrawSize>(.65,.65)</customPortraitHeadDrawSize>
           <headOffset>(0, -.1)</headOffset>
-          <useGenderedHeads>false</useGenderedHeads>
+          <useGenderedHeads>true</useGenderedHeads>
           <alienskincolorgen Class="ColorGenerator_Options">
             <options>
               <!-- #7b7e80 to #626566 -->
@@ -149,6 +149,7 @@
       <graphicPaths>
         <li>
           <head>Betas/BetaRaccoon/Head/</head>
+          <body>Betas/BetaRaccoon/Body/</body>
         </li>
       </graphicPaths>
 

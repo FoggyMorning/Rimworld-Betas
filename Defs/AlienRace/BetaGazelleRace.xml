@@ -81,14 +81,14 @@
           <alienbodytypes>
           </alienbodytypes>
           <aliencrowntypes>
-            <li>New_Average_Normal</li>
+            <li>Average_Normal</li>
           </aliencrowntypes>
           <customDrawSize>(.9, .9)</customDrawSize>
           <customHeadDrawSize>(1,1)</customHeadDrawSize>
           <customPortraitDrawSize>(.9,.9)</customPortraitDrawSize>
           <customPortraitHeadDrawSize>(1,1)</customPortraitHeadDrawSize>
           <headOffset>(0,.08)</headOffset>
-          <useGenderedHeads>false</useGenderedHeads>
+          <useGenderedHeads>true</useGenderedHeads>
           <alienskincolorgen Class="ColorGenerator_Options">
             <options>
               <!-- #b69135 -->
@@ -120,7 +120,7 @@
           </alienskincolorgen>
           <bodyAddons>
             <li>
-              <path>Betas/BetaGazelle/Head/Antler</path>
+              <path>Betas/BetaGazelle/Antler/Right/FrontOfHead/RightAntler_Front</path>
               <bodyPart>AmputatableAntler</bodyPart>
               <drawSize>1</drawSize>
               <inFrontOfBody>true</inFrontOfBody>
@@ -128,12 +128,12 @@
               <offsets>
                 <south>
                   <crownTypes>
-                    <New_Average_Normal>(-.42,.68)</New_Average_Normal>
+                    <Average_Normal>(-.42,.68)</Average_Normal>
                   </crownTypes>
                 </south>
                 <north>
                   <crownTypes>
-                    <New_Average_Normal>(0,.91)</New_Average_Normal>
+                    <Average_Normal>(0,.91)</Average_Normal>
                   </crownTypes>
                 </north>
                 <east>
@@ -145,16 +145,113 @@
                     <Hulk>(0,0)</Hulk>
                   </bodyTypes>
                   <crownTypes>
-                    <New_Average_Normal>(-.5,.6)</New_Average_Normal>
+                    <Average_Normal>(-.5,.6)</Average_Normal>
                   </crownTypes>
                 </east>
               </offsets>
               <useSkinColor>false</useSkinColor>
-               
-               
             </li>
             <li>
-              <path>Betas/BetaGazelle/Head/Ear</path>
+              <path>Betas/BetaGazelle/Antler/Right/RearOfHead/RightAntler_Rear</path>
+              <bodyPart>AmputatableAntler</bodyPart>
+              <drawSize>1</drawSize>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <inFrontOfBody>false</inFrontOfBody>
+              <layerOffset>-0.01</layerOffset>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Average_Normal>(-.42,.68)</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <crownTypes>
+                    <Average_Normal>(0,.91)</Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <Male>(.1,0)</Male>
+                    <Female>(0,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>(-.5,.6)</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+              <useSkinColor>false</useSkinColor>
+            </li>
+            <li>
+              <path>Betas/BetaGazelle/Antler/Left/FrontOfHead/LeftAntler_Front</path>
+              <bodyPart>AmputatableAntler</bodyPart>
+              <drawSize>1</drawSize>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <inFrontOfBody>true</inFrontOfBody>
+              <layerOffset>-0.01</layerOffset>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Average_Normal>(-.42,.68)</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <crownTypes>
+                    <Average_Normal>(0,.91)</Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <Male>(.1,0)</Male>
+                    <Female>(0,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>(-.5,.6)</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+              <useSkinColor>false</useSkinColor>
+            </li>
+            <li>
+              <path>Betas/BetaGazelle/Antler/Left/RearOfHead/LeftAntler_Rear</path>
+              <bodyPart>AmputatableAntler</bodyPart>
+              <drawSize>1</drawSize>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <inFrontOfBody>false</inFrontOfBody>
+              <layerOffset>-0.01</layerOffset>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Average_Normal>(-.42,.68)</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <crownTypes>
+                    <Average_Normal>(0,.91)</Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <Male>(.1,0)</Male>
+                    <Female>(0,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>(-.5,.6)</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+              <useSkinColor>false</useSkinColor>
+            </li>
+            <li>
+              <path>Betas/BetaGazelle/Ear/Left/FrontOfHead/Ear</path>
               <bodyPart>AmputatableEar</bodyPart>
               <drawSize>.75</drawSize>
               <inFrontOfBody>true</inFrontOfBody>
@@ -162,12 +259,12 @@
               <offsets>
                 <south>
                   <crownTypes>
-                    <New_Average_Normal>(-.43,.85)</New_Average_Normal>
+                    <Average_Normal>(-.43,.85)</Average_Normal>
                   </crownTypes>
                 </south>
                 <north>
                   <crownTypes>
-                    <New_Average_Normal>(0,.96)</New_Average_Normal>
+                    <Average_Normal>(0,.96)</Average_Normal>
                   </crownTypes>
                 </north>
                 <east>
@@ -179,7 +276,7 @@
                     <Hulk>(0,0)</Hulk>
                   </bodyTypes>
                   <crownTypes>
-                    <New_Average_Normal>(-.5,.64)</New_Average_Normal>
+                    <Average_Normal>(-.5,.64)</Average_Normal>
                   </crownTypes>
                 </east>
               </offsets>
@@ -188,8 +285,117 @@
                 <li>UpperHead</li>
               </hiddenUnderApparelFor>
               <useSkinColor>true</useSkinColor>
-               
-               
+            </li>
+            <li>
+              <path>Betas/BetaGazelle/Ear/Left/RearOfHead/Ear</path>
+              <bodyPart>AmputatableEar</bodyPart>
+              <drawSize>.75</drawSize>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <inFrontOfBody>false</inFrontOfBody>
+              <layerOffset>0</layerOffset>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Average_Normal>(-.43,.85)</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <crownTypes>
+                    <Average_Normal>(0,.96)</Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <Male>(.03,.01)</Male>
+                    <Female>(0,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>(-.5,.64)</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+              <hiddenUnderApparelFor>
+                <li>FullHead</li>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+              <useSkinColor>true</useSkinColor>
+            </li>
+            <li>
+              <path>Betas/BetaGazelle/Ear/Right/FrontOfHead/Ear</path>
+              <bodyPart>AmputatableEar</bodyPart>
+              <drawSize>.75</drawSize>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <inFrontOfBody>true</inFrontOfBody>
+              <layerOffset>0</layerOffset>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Average_Normal>(-.43,.85)</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <crownTypes>
+                    <Average_Normal>(0,.96)</Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <Male>(.03,.01)</Male>
+                    <Female>(0,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>(-.5,.64)</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+              <hiddenUnderApparelFor>
+                <li>FullHead</li>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+              <useSkinColor>true</useSkinColor>
+            </li>
+            <li>
+              <path>Betas/BetaGazelle/Ear/Right/RearOfHead/Ear</path>
+              <bodyPart>AmputatableEar</bodyPart>
+              <drawSize>.75</drawSize>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <inFrontOfBody>false</inFrontOfBody>
+              <layerOffset>0</layerOffset>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Average_Normal>(-.43,.85)</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <crownTypes>
+                    <Average_Normal>(0,.96)</Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <Male>(.03,.01)</Male>
+                    <Female>(0,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>(-.5,.64)</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+              <hiddenUnderApparelFor>
+                <li>FullHead</li>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+              <useSkinColor>true</useSkinColor>
             </li>
           </bodyAddons>
           <useSkincolorForHair>true</useSkincolorForHair>

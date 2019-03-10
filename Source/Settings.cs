@@ -5,6 +5,7 @@ using AlienRace;
 using System;
 using System.Reflection;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace BetaHumanoids
 {
@@ -25,13 +26,23 @@ namespace BetaHumanoids
     }
     public class Settings : ModSettings
     {
+        public static string[] RaceIdentif = new string[] {
+            "BetaBear",
+            "BetaCamel",
+            "BetaCroc",
+            "BetaElephant",
+            "BetaElk",
+            "BetaFox",
+            "BetaGazelle",
+            "BetaHog",
+            "BetaLynx",
+            "BetaRaccoon",
+            "BetaWolf"
+        };
+        private static int num = RaceIdentif.Length;
         const float defaultSpawnChance = 6f;
-        public string[] RaceIdentif = new string[] { "BetaBear", "BetaCamel", "BetaElephant", "BetaElk",
-            "BetaFox", "BetaGazelle", "BetaHog", "BetaLynx", "BetaRaccoon", "BetaWolf" };
-        public float[] SpawnChance = new float[] { defaultSpawnChance, defaultSpawnChance, defaultSpawnChance,
-            defaultSpawnChance, defaultSpawnChance, defaultSpawnChance, defaultSpawnChance, defaultSpawnChance,
-            defaultSpawnChance, defaultSpawnChance };
-        private string[] spawnChanceString = new string[] { "", "", "", "", "", "", "", "", "", "" };
+        public float[] SpawnChance = Enumerable.Repeat(defaultSpawnChance, num).ToArray();
+        private string[] spawnChanceString = Enumerable.Repeat("", num).ToArray();
 
 
         private Vector2 pos = new Vector2(0, 0);
@@ -43,10 +54,10 @@ namespace BetaHumanoids
             };
             list.Begin(canvas);
 
-            list.Gap();
             Rect scrollView = new Rect(canvas.x, canvas.y, canvas.width, canvas.height * RaceIdentif.Length);
             list.BeginScrollView(canvas, ref pos, ref scrollView);
 
+            list.Gap(60);
             for (int i = 0; i < RaceIdentif.Length; i++)
             {
                 list.DrawSlider(("BetaHumanoids.Include_" + RaceIdentif[i]).Translate() + " " + GetspawnChanceLabel(SpawnChance[i]), 
@@ -54,6 +65,7 @@ namespace BetaHumanoids
                 list.Gap(24);
             }
             list.EndScrollView(ref scrollView);
+            list.End();
         }
         public override void ExposeData()
         {
@@ -206,7 +218,7 @@ namespace BetaHumanoids
         }
         private static void Init()
         {
-            LSUtil.LoadASpecies(SettingsController.Settings.RaceIdentif, SettingsController.Settings.SpawnChance);
+            LSUtil.LoadASpecies(Settings.RaceIdentif, SettingsController.Settings.SpawnChance);
         }
     }
 }

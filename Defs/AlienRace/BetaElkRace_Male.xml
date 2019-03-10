@@ -102,7 +102,7 @@
         <alienPartGenerator>
           <alienbodytypes>
           </alienbodytypes>
-          <useGenderedHeads>false</useGenderedHeads>
+          <useGenderedHeads>true</useGenderedHeads>
           <alienskincolorgen Class="ColorGenerator_Options">
             <options>
               <!-- #7f725d -->

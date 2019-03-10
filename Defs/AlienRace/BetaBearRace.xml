@@ -100,10 +100,10 @@
           <aliencrowntypes>
             <li>Average_Normal</li>
           </aliencrowntypes>
+          <useGenderedHeads>true</useGenderedHeads>
           <alienbodytypes>
           </alienbodytypes>
           <headOffset>(0,.2)</headOffset>
-          <useGenderedHeads>false</useGenderedHeads>
           <customDrawSize>( 1.50, 1.50 )</customDrawSize>
           <customHeadDrawSize>( 1.2, 1.2 )</customHeadDrawSize>
           <customPortraitDrawSize>( 1.5, 1.5 )</customPortraitDrawSize>

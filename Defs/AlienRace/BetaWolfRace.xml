@@ -85,14 +85,14 @@
 
         <alienPartGenerator>
           <aliencrowntypes>
-            <li>New_Average_Normal</li>
+            <li>Average_Normal</li>
           </aliencrowntypes>
           <customDrawSize>(1, 1)</customDrawSize>
           <customHeadDrawSize>(1,1)</customHeadDrawSize>
           <customPortraitDrawSize>(1,1)</customPortraitDrawSize>
           <customPortraitHeadDrawSize>(1,1)</customPortraitHeadDrawSize>
           <headOffset>(0, .07)</headOffset>
-          <useGenderedHeads>false</useGenderedHeads>
+          <useGenderedHeads>true</useGenderedHeads>
           <alienskincolorgen Class="ColorGenerator_Options">
             <options>
               <!-- #f2f0e6 -->
@@ -163,12 +163,12 @@
               <offsets>
                 <south>
                   <crownTypes>
-                    <New_Average_Normal>(-.4,.60)</New_Average_Normal>
+                    <Average_Normal>(-.4,.60)</Average_Normal>
                   </crownTypes>
                 </south>
                 <north>
                   <crownTypes>
-                    <New_Average_Normal>(0,.90)</New_Average_Normal>
+                    <Average_Normal>(0,.90)</Average_Normal>
                   </crownTypes>
                 </north>
                 <east>
@@ -180,7 +180,7 @@
                     <Hulk>(0,0)</Hulk>
                   </bodyTypes>
                   <crownTypes>
-                    <New_Average_Normal>(-.55,.59)</New_Average_Normal>
+                    <Average_Normal>(-.55,.59)</Average_Normal>
                   </crownTypes>
                 </east>
               </offsets>

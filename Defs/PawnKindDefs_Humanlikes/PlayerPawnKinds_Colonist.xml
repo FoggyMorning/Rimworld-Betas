@@ -99,5 +99,12 @@
     <race>BetaWolf</race>
     <label>colonist (wolf beta)</label>
   </PawnKindDef>
+  
+  <PawnKindDef ParentName="BasePlayerBetaPawnKind">
+    <combatPower>40</combatPower>
+    <defName>BetaCrocPlayer</defName>
+    <race>BetaCroc</race>
+    <label>colonist (croc beta)</label>
+  </PawnKindDef>
 </Defs>
 

@@ -83,7 +83,7 @@
           <customPortraitDrawSize>(.75, .75)</customPortraitDrawSize>
           <customPortraitHeadDrawSize>(.75,.75)</customPortraitHeadDrawSize>
           <headOffset>(0,-.05)</headOffset>
-          <useGenderedHeads>false</useGenderedHeads>
+          <useGenderedHeads>true</useGenderedHeads>
           <alienskincolorgen Class="ColorGenerator_Options">
             <options>
               <!-- #64120c -->
@@ -152,6 +152,7 @@
                
                
             </li>
+            <!--
             <li>
               <path>Betas/BetaFox/Head/Fringe</path>
               <bodyPart>Jaw</bodyPart>
@@ -179,6 +180,7 @@
                
                
             </li>
+            -->
           </bodyAddons>
           <useSkincolorForHair>true</useSkincolorForHair>
         </alienPartGenerator>

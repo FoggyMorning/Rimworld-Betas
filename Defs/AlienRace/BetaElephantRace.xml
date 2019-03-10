@@ -93,12 +93,15 @@
       <generalSettings>
         <humanRecipeImport>true</humanRecipeImport>
         <alienPartGenerator>
+          <aliencrowntypes>
+            <li>Average_Normal</li>
+          </aliencrowntypes>
+          <useGenderedHeads>true</useGenderedHeads>
           <customDrawSize>(1.75, 1.75)</customDrawSize>
           <customHeadDrawSize>(1.5,1.5)</customHeadDrawSize>
           <customPortraitDrawSize>(1.75, 1.75)</customPortraitDrawSize>
           <customPortraitHeadDrawSize>(1.5,1.5)</customPortraitHeadDrawSize>
           <headOffset>(0, .3)</headOffset>
-          <useGenderedHeads>false</useGenderedHeads>
           <bodyAddons>
             <li>
               <path>Betas/BetaElephant/Head/Ear</path>

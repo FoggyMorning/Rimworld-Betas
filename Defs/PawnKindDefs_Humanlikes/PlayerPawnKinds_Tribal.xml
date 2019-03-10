@@ -30,6 +30,12 @@
     <techHediffsChance>0.02</techHediffsChance>
   </PawnKindDef>
 
+  <PawnKindDef ParentName="BasePlayerBetaPawnKind_Tribal">
+    <combatPower>40</combatPower>
+    <defName>BetaCrocPlayer_Tribal</defName>
+    <race>BetaCroc</race>
+    <label>member (croc beta)</label>
+  </PawnKindDef>
 
   <PawnKindDef ParentName="BasePlayerBetaPawnKind_Tribal">
     <combatPower>40</combatPower>

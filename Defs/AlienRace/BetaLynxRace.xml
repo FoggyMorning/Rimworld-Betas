@@ -89,8 +89,8 @@
           <customHeadDrawSize>(.75,.75</customHeadDrawSize>
           <customPortraitDrawSize>(.75, .75)</customPortraitDrawSize>
           <customPortraitHeadDrawSize>(.75, .75)</customPortraitHeadDrawSize>
-          <headOffset>(0, -.1)</headOffset>
-          <useGenderedHeads>false</useGenderedHeads>
+          <headOffset>(0, -.05)</headOffset>
+          <useGenderedHeads>true</useGenderedHeads>
           <alienskincolorgen Class="ColorGenerator_Options">
             <options>
               <!-- #8b6245 -->
@@ -130,12 +130,12 @@
               <offsets>
                 <south>
                   <crownTypes>
-                    <Average_Normal>(-.43,.45)</Average_Normal>
+                    <Average_Normal>(-.43,.50)</Average_Normal>
                   </crownTypes>
                 </south>
                 <north>
                   <crownTypes>
-                    <Average_Normal>(0,.8)</Average_Normal>
+                    <Average_Normal>(0,.85)</Average_Normal>
                   </crownTypes>
                 </north>
                 <east>
@@ -147,7 +147,7 @@
                     <Hulk>(0,0)</Hulk>
                   </bodyTypes>
                   <crownTypes>
-                    <Average_Normal>(-.53,.46)</Average_Normal>
+                    <Average_Normal>(-.53,.5)</Average_Normal>
                   </crownTypes>
                 </east>
               </offsets>
@@ -168,12 +168,12 @@
               <offsets>
                 <south>
                   <crownTypes>
-                    <Average_Normal>(-.42,.45)</Average_Normal>
+                    <Average_Normal>(-.42,.5)</Average_Normal>
                   </crownTypes>
                 </south>
                 <north>
                   <crownTypes>
-                    <Average_Normal>(0,.8)</Average_Normal>
+                    <Average_Normal>(0,.9)</Average_Normal>
                   </crownTypes>
                 </north>
                 <east>
@@ -185,7 +185,7 @@
                     <Hulk>(0,0)</Hulk>
                   </bodyTypes>
                   <crownTypes>
-                    <Average_Normal>(-.53,.46)</Average_Normal>
+                    <Average_Normal>(-.53,.5)</Average_Normal>
                   </crownTypes>
                 </east>
               </offsets>
