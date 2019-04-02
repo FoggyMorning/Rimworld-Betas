@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+<!-- Chance will be overwritten by in-game settings -->
   <AlienRace.RaceSettings>
     <defName>BetaRaceSettings</defName>
     <pawnKindSettings>
@@ -12,7 +13,7 @@
               <kindDefs>
                 <li>BetaBearPlayer</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -25,7 +26,7 @@
               <kindDefs>
                 <li>BetaCamelPlayer</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -38,7 +39,7 @@
               <kindDefs>
                 <li>BetaElephantPlayer</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -51,7 +52,7 @@
               <kindDefs>
                 <li>BetaElkPlayer_Male</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -64,7 +65,7 @@
               <kindDefs>
                 <li>BetaElkPlayer_Female</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -77,7 +78,7 @@
               <kindDefs>
                 <li>BetaFoxPlayer</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -90,7 +91,7 @@
               <kindDefs>
                 <li>BetaGazellePlayer</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -103,7 +104,7 @@
               <kindDefs>
                 <li>BetaLynxPlayer</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -116,7 +117,7 @@
               <kindDefs>
                 <li>BetaHogPlayer</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -129,7 +130,7 @@
               <kindDefs>
                 <li>BetaRaccoonPlayer</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -142,7 +143,7 @@
               <kindDefs>
                 <li>BetaWolfPlayer</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -155,7 +156,7 @@
               <kindDefs>
                 <li>BetaCrocPlayer</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -168,7 +169,7 @@
               <kindDefs>
                 <li>BetaCrocPlayer_Tribal</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -181,7 +182,7 @@
               <kindDefs>
                 <li>BetaBearPlayer_Tribal</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -194,7 +195,7 @@
               <kindDefs>
                 <li>BetaCamelPlayer_Tribal</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -207,7 +208,7 @@
               <kindDefs>
                 <li>BetaElephantPlayer_Tribal</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -220,7 +221,7 @@
               <kindDefs>
                 <li>BetaElkPlayer_Male_Tribal</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -233,7 +234,7 @@
               <kindDefs>
                 <li>BetaElkPlayer_Female_Tribal</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -246,7 +247,7 @@
               <kindDefs>
                 <li>BetaFoxPlayer_Tribal</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -259,7 +260,7 @@
               <kindDefs>
                 <li>BetaGazellePlayer_Tribal</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -272,7 +273,7 @@
               <kindDefs>
                 <li>BetaLynxPlayer_Tribal</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -285,7 +286,7 @@
               <kindDefs>
                 <li>BetaHogPlayer_Tribal</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -298,7 +299,7 @@
               <kindDefs>
                 <li>BetaRaccoonPlayer_Tribal</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -311,7 +312,7 @@
               <kindDefs>
                 <li>BetaWolfPlayer_Tribal</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -328,7 +329,7 @@
               <kindDefs>
                 <li>BetaBearPlayer</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -341,7 +342,7 @@
               <kindDefs>
                 <li>BetaCamelPlayer</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -354,7 +355,7 @@
               <kindDefs>
                 <li>BetaElephantPlayer</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -367,7 +368,7 @@
               <kindDefs>
                 <li>BetaElkPlayer_Male</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -380,7 +381,7 @@
               <kindDefs>
                 <li>BetaElkPlayer_Female</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -393,7 +394,7 @@
               <kindDefs>
                 <li>BetaFoxPlayer</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -406,7 +407,7 @@
               <kindDefs>
                 <li>BetaGazellePlayer</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -419,7 +420,7 @@
               <kindDefs>
                 <li>BetaLynxPlayer</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -432,7 +433,7 @@
               <kindDefs>
                 <li>BetaHogPlayer</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -445,7 +446,7 @@
               <kindDefs>
                 <li>BetaRaccoonPlayer</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -458,7 +459,7 @@
               <kindDefs>
                 <li>BetaWolfPlayer</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -471,7 +472,7 @@
               <kindDefs>
                 <li>BetaCrocPlayer</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -484,7 +485,7 @@
               <kindDefs>
                 <li>BetaBearPlayer_Tribal</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -497,7 +498,7 @@
               <kindDefs>
                 <li>BetaCrocPlayer_Tribal</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -510,7 +511,7 @@
               <kindDefs>
                 <li>BetaCamelPlayer_Tribal</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -523,7 +524,7 @@
               <kindDefs>
                 <li>BetaElephantPlayer_Tribal</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -536,7 +537,7 @@
               <kindDefs>
                 <li>BetaElkPlayer_Male_Tribal</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -549,7 +550,7 @@
               <kindDefs>
                 <li>BetaElkPlayer_Female_Tribal</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -562,7 +563,7 @@
               <kindDefs>
                 <li>BetaFoxPlayer_Tribal</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -575,7 +576,7 @@
               <kindDefs>
                 <li>BetaGazellePlayer_Tribal</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -588,7 +589,7 @@
               <kindDefs>
                 <li>BetaLynxPlayer_Tribal</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -601,7 +602,7 @@
               <kindDefs>
                 <li>BetaHogPlayer_Tribal</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -614,7 +615,7 @@
               <kindDefs>
                 <li>BetaRaccoonPlayer_Tribal</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -627,7 +628,7 @@
               <kindDefs>
                 <li>BetaWolfPlayer_Tribal</li>
               </kindDefs>
-              <chance>50</chance>
+              <chance>15</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -643,145 +644,145 @@
           <kindDefs>
             <li>BetaBearPlayer</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaCamelPlayer</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaElephantPlayer</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaElkPlayer_Male</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaElkPlayer_Female</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaFoxPlayer</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaGazellePlayer</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaLynxPlayer</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaHogPlayer</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaRaccoonPlayer</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaWolfPlayer</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaBearPlayer_Tribal</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaCrocPlayer</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaCrocPlayer_Tribal</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaCamelPlayer_Tribal</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaElephantPlayer_Tribal</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaElkPlayer_Male_Tribal</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaElkPlayer_Female_Tribal</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaFoxPlayer_Tribal</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaGazellePlayer_Tribal</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaLynxPlayer_Tribal</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaHogPlayer_Tribal</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaRaccoonPlayer_Tribal</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaWolfPlayer_Tribal</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
       </alienslavekinds>
 
@@ -791,145 +792,145 @@
           <kindDefs>
             <li>BetaBearPlayer</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaCamelPlayer</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaElephantPlayer</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaElkPlayer_Male</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaElkPlayer_Female</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaFoxPlayer</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaGazellePlayer</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaLynxPlayer</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaHogPlayer</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaRaccoonPlayer</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaWolfPlayer</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaCrocPlayer</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaCrocPlayer_Tribal</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaBearPlayer_Tribal</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaCamelPlayer_Tribal</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaElephantPlayer_Tribal</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaElkPlayer_Male_Tribal</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaElkPlayer_Female_Tribal</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaFoxPlayer_Tribal</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaGazellePlayer_Tribal</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaLynxPlayer_Tribal</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaHogPlayer_Tribal</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaRaccoonPlayer_Tribal</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
         <li>
           <kindDefs>
             <li>BetaWolfPlayer_Tribal</li>
           </kindDefs>
-          <chance>50</chance>
+          <chance>15</chance>
         </li>
       </alienrefugeekinds>
     </pawnKindSettings>

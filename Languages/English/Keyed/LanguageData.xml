@@ -4,6 +4,7 @@
   <BetaHumanoids.ModTitle>Beta-Humanoids</BetaHumanoids.ModTitle>
   <BetaHumanoids.Include_BetaBear>Include Bear Betas</BetaHumanoids.Include_BetaBear>
   <BetaHumanoids.Include_BetaCamel>Include Camel Betas</BetaHumanoids.Include_BetaCamel>
+  <BetaHumanoids.Include_BetaCroc>Include Crocodile/Alligator Betas</BetaHumanoids.Include_BetaCroc>
   <BetaHumanoids.Include_BetaElephant>Include Elephant Betas</BetaHumanoids.Include_BetaElephant>
   <BetaHumanoids.Include_BetaElk>Include Elk Betas</BetaHumanoids.Include_BetaElk>
   <BetaHumanoids.Include_BetaFox>Include Fox Betas</BetaHumanoids.Include_BetaFox>
@@ -14,11 +15,10 @@
   <BetaHumanoids.Include_BetaWolf>Include Wolf Betas</BetaHumanoids.Include_BetaWolf>
 
 
-  <BetaHumanoids.spawnChanceVeryLow>(Minimum - Colonists and Tribespeople of this species will NOT appear)</BetaHumanoids.spawnChanceVeryLow>
-  <BetaHumanoids.spawnChanceLow>(Low chance for Colonists and Tribespeople of this species to appear)</BetaHumanoids.spawnChanceLow>
-  <BetaHumanoids.spawnChanceNormal>(Normal chance for Colonists and Tribespeople of this species to appear)</BetaHumanoids.spawnChanceNormal>
-  <BetaHumanoids.spawnChanceHigh>(High chance for Colonists and Tribespeople of this species to appear)</BetaHumanoids.spawnChanceHigh>
-  <BetaHumanoids.spawnChanceVeryHigh>(Very High chance for Colonists and Tribespeople of this species to appear)</BetaHumanoids.spawnChanceVeryHigh>
-  <BetaHumanoids.spawnChanceInsane>(Maximum - This species will appear frequently, but Human colonists will no longer appear)</BetaHumanoids.spawnChanceInsane>
-
+  <BetaHumanoids.IncludeHeader>Percentage chance that the race will randomly appear.</BetaHumanoids.IncludeHeader>
+  <BetaHumanoids.IncludeSubHeader>At 0% the race will no longer appear.  At 100% a race will appear frequently, but Humans will rarely appear.</BetaHumanoids.IncludeSubHeader>
+  <BetaHumanoids.IncludeInPirate>Include in Pirate Faction.</BetaHumanoids.IncludeInPirate>
+  <BetaHumanoids.IncludeInOutlander>Include in Outlander Factions.</BetaHumanoids.IncludeInOutlander>
+  <BetaHumanoids.IncludeInTribal>Include in Tribal Factions.</BetaHumanoids.IncludeInTribal>
+  
 </LanguageData>
