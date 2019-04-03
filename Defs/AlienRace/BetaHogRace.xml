@@ -206,8 +206,8 @@
                 <li>FullHead</li>
               </hiddenUnderApparelFor>
               <useSkinColor>false</useSkinColor>
-               
-              <!-- <drawForFemale>false</drawForFemale> -->
+               <!-- females don't have visible tusks -->
+              <drawForFemale>false</drawForFemale>
             </li>
           </bodyAddons>
         </alienPartGenerator>
