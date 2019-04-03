@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <PawnKindDef Abstract="True" Name="BasePlayerBetaPawnKind">
+  <!-- trying to get some pawns for the Prepare Carefully mod -->
+  <PawnKindDef Abstract="True" Name="BasePlayerBetaPawnKindOutlanderCivil">
     <combatPower>30</combatPower>
     <isFighter>false</isFighter>
     <forceNormalGearQuality>true</forceNormalGearQuality>
-    <defaultFactionType>PlayerColony</defaultFactionType>
+    <defaultFactionType>OutlanderCivil</defaultFactionType>
     <backstoryCategories>
       <li>Civil</li>
     </backstoryCategories>
@@ -31,78 +32,78 @@
   </PawnKindDef>
 
 
-  <PawnKindDef ParentName="BasePlayerBetaPawnKind">
+  <PawnKindDef ParentName="BasePlayerBetaPawnKindOutlanderCivil">
     <combatPower>40</combatPower>
-    <defName>BetaBearPlayer</defName>
+    <defName>BetaBearPlayerOutlanderCivil</defName>
     <race>BetaBear</race>
-    <label>colonist (bear beta)</label>
+    <label>colonist (Bear beta)</label>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="BasePlayerBetaPawnKind">
-    <defName>BetaCamelPlayer</defName>
+  <PawnKindDef ParentName="BasePlayerBetaPawnKindOutlanderCivil">
+    <defName>BetaCamelPlayerOutlanderCivil</defName>
     <race>BetaCamel</race>
     <label>colonist (camel beta)</label>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="BasePlayerBetaPawnKind">
+  <PawnKindDef ParentName="BasePlayerBetaPawnKindOutlanderCivil">
     <combatPower>40</combatPower>
-    <defName>BetaElephantPlayer</defName>
+    <defName>BetaElephantPlayerOutlanderCivil</defName>
     <race>BetaElephant</race>
     <label>colonist (elephant beta)</label>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="BasePlayerBetaPawnKind">
+  <PawnKindDef ParentName="BasePlayerBetaPawnKindOutlanderCivil">
     <combatPower>35</combatPower>
-    <defName>BetaElkPlayer_Male</defName>
+    <defName>BetaElkPlayer_MaleOutlanderCivil</defName>
     <race>BetaElk_Male</race>
     <label>colonist (elk beta)</label>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="BasePlayerBetaPawnKind">
-    <defName>BetaElkPlayer_Female</defName>
+  <PawnKindDef ParentName="BasePlayerBetaPawnKindOutlanderCivil">
+    <defName>BetaElkPlayer_FemaleOutlanderCivil</defName>
     <race>BetaElk_Female</race>
     <label>colonist (elk beta)</label>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="BasePlayerBetaPawnKind">
-    <defName>BetaFoxPlayer</defName>
+  <PawnKindDef ParentName="BasePlayerBetaPawnKindOutlanderCivil">
+    <defName>BetaFoxPlayerOutlanderCivil</defName>
     <race>BetaFox</race>
     <label>colonist (fox beta)</label>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="BasePlayerBetaPawnKind">
-    <defName>BetaGazellePlayer</defName>
+  <PawnKindDef ParentName="BasePlayerBetaPawnKindOutlanderCivil">
+    <defName>BetaGazellePlayerOutlanderCivil</defName>
     <race>BetaGazelle</race>
     <label>colonist (gazelle beta)</label>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="BasePlayerBetaPawnKind">
-    <defName>BetaLynxPlayer</defName>
+  <PawnKindDef ParentName="BasePlayerBetaPawnKindOutlanderCivil">
+    <defName>BetaLynxPlayerOutlanderCivil</defName>
     <race>BetaLynx</race>
     <label>colonist (lynx beta)</label>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="BasePlayerBetaPawnKind">
-    <defName>BetaHogPlayer</defName>
+  <PawnKindDef ParentName="BasePlayerBetaPawnKindOutlanderCivil">
+    <defName>BetaHogPlayerOutlanderCivil</defName>
     <race>BetaHog</race>
     <label>colonist (hog beta)</label>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="BasePlayerBetaPawnKind">
-    <defName>BetaRaccoonPlayer</defName>
+  <PawnKindDef ParentName="BasePlayerBetaPawnKindOutlanderCivil">
+    <defName>BetaRaccoonPlayerOutlanderCivil</defName>
     <race>BetaRaccoon</race>
     <label>colonist (raccoon beta)</label>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="BasePlayerBetaPawnKind">
-    <defName>BetaWolfPlayer</defName>
+  <PawnKindDef ParentName="BasePlayerBetaPawnKindOutlanderCivil">
+    <defName>BetaWolfPlayerOutlanderCivil</defName>
     <race>BetaWolf</race>
     <label>colonist (wolf beta)</label>
   </PawnKindDef>
   
-  <PawnKindDef ParentName="BasePlayerBetaPawnKind">
+  <PawnKindDef ParentName="BasePlayerBetaPawnKindOutlanderCivil">
     <combatPower>40</combatPower>
-    <defName>BetaCrocPlayer</defName>
+    <defName>BetaCrocPlayerOutlanderCivil</defName>
     <race>BetaCroc</race>
     <label>colonist (croc beta)</label>
   </PawnKindDef>

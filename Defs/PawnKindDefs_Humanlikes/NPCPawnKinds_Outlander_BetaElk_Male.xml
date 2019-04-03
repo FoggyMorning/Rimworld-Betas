@@ -31,7 +31,7 @@
 
   <PawnKindDef ParentName="OutlanderBase_BetaHumanoids_BetaElk_Male">
     <defName>Villager_BetaHumanoids_BetaElk_Male</defName>
-    <label>villager</label>
+    <label>villager (elk beta)</label>
     <combatPower>35</combatPower>
     <itemQuality>Poor</itemQuality>
     <isFighter>false</isFighter>
@@ -65,7 +65,7 @@
 
   <PawnKindDef ParentName="OutlanderBase_BetaHumanoids_BetaElk_Male">
     <defName>Town_Guard_BetaHumanoids_BetaElk_Male</defName>
-    <label>town guard</label>
+    <label>town guard (elk beta)</label>
     <combatPower>55</combatPower>
     <isFighter>true</isFighter>
     <gearHealthRange>
@@ -101,7 +101,7 @@
 
   <PawnKindDef ParentName="OutlanderBase_BetaHumanoids_BetaElk_Male">
     <defName>Town_Trader_BetaHumanoids_BetaElk_Male</defName>
-    <label>town trader</label>
+    <label>town trader (elk beta)</label>
     <trader>true</trader>
     <combatPower>40</combatPower>
     <isFighter>false</isFighter>
@@ -143,7 +143,7 @@
 
   <PawnKindDef ParentName="OutlanderBase_BetaHumanoids_BetaElk_Male">
     <defName>Town_Councilman_BetaHumanoids_BetaElk_Male</defName>
-    <label>town councilman</label>
+    <label>town councilman (elk beta)</label>
     <labelPlural>town councilmen</labelPlural>
     <combatPower>40</combatPower>
     <factionLeader>true</factionLeader>

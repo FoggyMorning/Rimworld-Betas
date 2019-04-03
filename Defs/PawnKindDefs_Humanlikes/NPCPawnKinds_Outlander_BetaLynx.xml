@@ -31,7 +31,7 @@
 
   <PawnKindDef ParentName="OutlanderBase_BetaHumanoids_BetaLynx">
     <defName>Villager_BetaHumanoids_BetaLynx</defName>
-    <label>villager</label>
+    <label>villager (lynx beta)</label>
     <combatPower>35</combatPower>
     <itemQuality>Poor</itemQuality>
     <isFighter>false</isFighter>
@@ -65,7 +65,7 @@
 
   <PawnKindDef ParentName="OutlanderBase_BetaHumanoids_BetaLynx">
     <defName>Town_Guard_BetaHumanoids_BetaLynx</defName>
-    <label>town guard</label>
+    <label>town guard (lynx beta)</label>
     <combatPower>55</combatPower>
     <isFighter>true</isFighter>
     <gearHealthRange>
@@ -101,7 +101,7 @@
 
   <PawnKindDef ParentName="OutlanderBase_BetaHumanoids_BetaLynx">
     <defName>Town_Trader_BetaHumanoids_BetaLynx</defName>
-    <label>town trader</label>
+    <label>town trader (lynx beta)</label>
     <trader>true</trader>
     <combatPower>40</combatPower>
     <isFighter>false</isFighter>
@@ -143,7 +143,7 @@
 
   <PawnKindDef ParentName="OutlanderBase_BetaHumanoids_BetaLynx">
     <defName>Town_Councilman_BetaHumanoids_BetaLynx</defName>
-    <label>town councilman</label>
+    <label>town councilman (lynx beta)</label>
     <labelPlural>town councilmen</labelPlural>
     <combatPower>40</combatPower>
     <factionLeader>true</factionLeader>

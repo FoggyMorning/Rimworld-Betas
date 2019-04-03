@@ -17,7 +17,7 @@
 
     <PawnKindDef ParentName="PirateBase_BetaHumanoids_BetaCroc">
         <defName>Drifter_BetaHumanoids_BetaCroc</defName>
-        <label>drifter</label>
+        <label>drifter (croc beta)</label>
         <combatPower>35</combatPower>
         <invNutrition>0</invNutrition>
         <gearHealthRange>
@@ -116,7 +116,7 @@
 
     <PawnKindDef ParentName="PirateScavTierBase_BetaHumanoids_BetaCroc">
         <defName>Scavenger_BetaHumanoids_BetaCroc</defName>
-        <label>scavenger gunner</label>
+        <label>scavenger gunner (croc beta)</label>
         <apparelMoney>
             <min>300</min>
             <max>500</max>
@@ -132,7 +132,7 @@
 
     <PawnKindDef ParentName="PirateScavTierBase_BetaHumanoids_BetaCroc">
         <defName>Thrasher_BetaHumanoids_BetaCroc</defName>
-        <label>scavenger thrasher</label>
+        <label>scavenger thrasher (croc beta)</label>
         <canBeSapper>true</canBeSapper>
         <apparelMoney>
             <min>300</min>
@@ -156,7 +156,7 @@
 
     <PawnKindDef ParentName="PirateBase_BetaHumanoids_BetaCroc">
         <defName>Pirate_BetaHumanoids_BetaCroc</defName>
-        <label>pirate gunner</label>
+        <label>pirate gunner (croc beta)</label>
         <combatPower>65</combatPower>
         <maxGenerationAge>65</maxGenerationAge>
         <gearHealthRange>

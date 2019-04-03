@@ -31,7 +31,7 @@
 
   <PawnKindDef ParentName="OutlanderBase_BetaHumanoids_BetaCroc">
     <defName>Villager_BetaHumanoids_BetaCroc</defName>
-    <label>villager</label>
+    <label>villager (croc beta)</label>
     <combatPower>35</combatPower>
     <itemQuality>Poor</itemQuality>
     <isFighter>false</isFighter>
@@ -65,7 +65,7 @@
 
   <PawnKindDef ParentName="OutlanderBase_BetaHumanoids_BetaCroc">
     <defName>Town_Guard_BetaHumanoids_BetaCroc</defName>
-    <label>town guard</label>
+    <label>town guard (croc beta)</label>
     <combatPower>55</combatPower>
     <isFighter>true</isFighter>
     <gearHealthRange>
@@ -101,7 +101,7 @@
 
   <PawnKindDef ParentName="OutlanderBase_BetaHumanoids_BetaCroc">
     <defName>Town_Trader_BetaHumanoids_BetaCroc</defName>
-    <label>town trader</label>
+    <label>town trader (croc beta)</label>
     <trader>true</trader>
     <combatPower>40</combatPower>
     <isFighter>false</isFighter>
@@ -143,7 +143,7 @@
 
   <PawnKindDef ParentName="OutlanderBase_BetaHumanoids_BetaCroc">
     <defName>Town_Councilman_BetaHumanoids_BetaCroc</defName>
-    <label>town councilman</label>
+    <label>town councilman (croc beta)</label>
     <labelPlural>town councilmen</labelPlural>
     <combatPower>40</combatPower>
     <factionLeader>true</factionLeader>

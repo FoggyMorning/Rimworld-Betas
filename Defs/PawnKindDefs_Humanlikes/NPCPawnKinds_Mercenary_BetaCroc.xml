@@ -75,7 +75,7 @@
 
 	<PawnKindDef ParentName="GrenadierBase_BetaHumanoids_BetaCroc">
 		<defName>Grenadier_Destructive_BetaHumanoids_BetaCroc</defName>
-		<label>grenadier</label>
+		<label>grenadier (croc beta)</label>
     <canBeSapper>true</canBeSapper>
 		<weaponTags>
 			<li>GrenadeDestructive</li>
@@ -84,7 +84,7 @@
 
 	<PawnKindDef ParentName="GrenadierBase_BetaHumanoids_BetaCroc">
 		<defName>Grenadier_EMP_BetaHumanoids_BetaCroc</defName>
-		<label>EMP grenadier</label>
+		<label>EMP grenadier (croc beta)</label>
 		<weaponTags>
 			<li>GrenadeEMP</li>
 		</weaponTags>
@@ -106,7 +106,7 @@
 
   <PawnKindDef ParentName="MercenaryMidTierBase_BetaHumanoids_BetaCroc">
     <defName>Mercenary_Gunner_BetaHumanoids_BetaCroc</defName>
-    <label>mercenary gunner</label>
+    <label>mercenary gunner (croc beta)</label>
     <combatPower>90</combatPower>
     <gearHealthRange>
       <min>0.7</min>
@@ -159,7 +159,7 @@
 
   <PawnKindDef ParentName="MercenaryMidTierBase_BetaHumanoids_BetaCroc">
     <defName>Mercenary_Sniper_BetaHumanoids_BetaCroc</defName>
-    <label>mercenary sniper</label>
+    <label>mercenary sniper (croc beta)</label>
     <combatPower>110</combatPower>
     <gearHealthRange>
       <min>0.7</min>
@@ -206,7 +206,7 @@
   
   <PawnKindDef ParentName="MercenaryMidTierBase_BetaHumanoids_BetaCroc">
     <defName>Mercenary_Slasher_BetaHumanoids_BetaCroc</defName>
-    <label>mercenary slasher</label>
+    <label>mercenary slasher (croc beta)</label>
     <combatPower>150</combatPower>
     <canBeSapper>true</canBeSapper>
     <gearHealthRange>
@@ -258,7 +258,7 @@
 
   <PawnKindDef ParentName="MercenaryMidTierBase_BetaHumanoids_BetaCroc">
     <defName>Mercenary_Heavy_BetaHumanoids_BetaCroc</defName>
-    <label>heavy mercenary</label>
+    <label>heavy mercenary (croc beta)</label>
     <labelPlural>heavy mercenaries</labelPlural>
     <combatPower>150</combatPower>
     <gearHealthRange>
@@ -333,7 +333,7 @@
 
   <PawnKindDef ParentName="MercenaryEliteTierBase_BetaHumanoids_BetaCroc">
     <defName>PirateBoss_BetaHumanoids_BetaCroc</defName>
-    <label>boss</label>
+    <label>boss (croc beta)</label>
     <labelPlural>bosses</labelPlural>
     <factionLeader>true</factionLeader>
     <baseRecruitDifficulty>0.90</baseRecruitDifficulty>
@@ -354,7 +354,7 @@
 
   <PawnKindDef ParentName="MercenaryEliteTierBase_BetaHumanoids_BetaCroc">
     <defName>Mercenary_Elite_BetaHumanoids_BetaCroc</defName>
-    <label>elite mercenary</label>
+    <label>elite mercenary (croc beta)</label>
     <labelPlural>elite mercenaries</labelPlural>
     <inventoryOptions>
       <skipChance>0.8</skipChance>

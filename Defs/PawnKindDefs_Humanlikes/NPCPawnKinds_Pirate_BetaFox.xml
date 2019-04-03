@@ -17,7 +17,7 @@
 
     <PawnKindDef ParentName="PirateBase_BetaHumanoids_BetaFox">
         <defName>Drifter_BetaHumanoids_BetaFox</defName>
-        <label>drifter</label>
+        <label>drifter (fox beta)</label>
         <combatPower>35</combatPower>
         <invNutrition>0</invNutrition>
         <gearHealthRange>
@@ -116,7 +116,7 @@
 
     <PawnKindDef ParentName="PirateScavTierBase_BetaHumanoids_BetaFox">
         <defName>Scavenger_BetaHumanoids_BetaFox</defName>
-        <label>scavenger gunner</label>
+        <label>scavenger gunner (fox beta)</label>
         <apparelMoney>
             <min>300</min>
             <max>500</max>
@@ -132,7 +132,7 @@
 
     <PawnKindDef ParentName="PirateScavTierBase_BetaHumanoids_BetaFox">
         <defName>Thrasher_BetaHumanoids_BetaFox</defName>
-        <label>scavenger thrasher</label>
+        <label>scavenger thrasher (fox beta)</label>
         <canBeSapper>true</canBeSapper>
         <apparelMoney>
             <min>300</min>
@@ -156,7 +156,7 @@
 
     <PawnKindDef ParentName="PirateBase_BetaHumanoids_BetaFox">
         <defName>Pirate_BetaHumanoids_BetaFox</defName>
-        <label>pirate gunner</label>
+        <label>pirate gunner (fox beta)</label>
         <combatPower>65</combatPower>
         <maxGenerationAge>65</maxGenerationAge>
         <gearHealthRange>

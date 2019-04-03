@@ -1,12 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+  <!-- trying to get some pawns for the Prepare Carefully mod -->
+  
 
-  <PawnKindDef Abstract="True" Name="BasePlayerBetaPawnKind_Tribal">
+  <PawnKindDef Abstract="True" Name="BasePlayerBetaPawnKind_TribalTribeCivil">
     <combatPower>30</combatPower>
     <isFighter>false</isFighter>
     <label>member</label>
     <race>Human</race>
-    <defaultFactionType>PlayerTribe</defaultFactionType>
+    <defaultFactionType>TribeCivil</defaultFactionType>
     <backstoryCategories>
       <li>Tribal</li>
     </backstoryCategories>
@@ -29,78 +31,78 @@
     <techHediffsChance>0.02</techHediffsChance>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="BasePlayerBetaPawnKind_Tribal">
+  <PawnKindDef ParentName="BasePlayerBetaPawnKind_TribalTribeCivil">
     <combatPower>40</combatPower>
-    <defName>BetaCrocPlayer_Tribal</defName>
+    <defName>BetaCrocPlayer_TribalTribeCivil</defName>
     <race>BetaCroc</race>
     <label>member (croc beta)</label>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="BasePlayerBetaPawnKind_Tribal">
+  <PawnKindDef ParentName="BasePlayerBetaPawnKind_TribalTribeCivil">
     <combatPower>40</combatPower>
-    <defName>BetaBearPlayer_Tribal</defName>
+    <defName>BetaBearPlayer_TribalTribeCivil</defName>
     <race>BetaBear</race>
-    <label>member (bear beta)</label>
+    <label>member (Bear beta)</label>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="BasePlayerBetaPawnKind_Tribal">
-    <defName>BetaCamelPlayer_Tribal</defName>
+  <PawnKindDef ParentName="BasePlayerBetaPawnKind_TribalTribeCivil">
+    <defName>BetaCamelPlayer_TribalTribeCivil</defName>
     <race>BetaCamel</race>
     <label>member (camel beta)</label>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="BasePlayerBetaPawnKind_Tribal">
+  <PawnKindDef ParentName="BasePlayerBetaPawnKind_TribalTribeCivil">
     <combatPower>40</combatPower>
-    <defName>BetaElephantPlayer_Tribal</defName>
+    <defName>BetaElephantPlayer_TribalTribeCivil</defName>
     <race>BetaElephant</race>
     <label>member (elephant beta)</label>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="BasePlayerBetaPawnKind_Tribal">
+  <PawnKindDef ParentName="BasePlayerBetaPawnKind_TribalTribeCivil">
     <combatPower>35</combatPower>
-    <defName>BetaElkPlayer_Male_Tribal</defName>
+    <defName>BetaElkPlayer_Male_TribalTribeCivil</defName>
     <race>BetaElk_Male</race>
     <label>member (elk beta)</label>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="BasePlayerBetaPawnKind_Tribal">
-    <defName>BetaElkPlayer_Female_Tribal</defName>
+  <PawnKindDef ParentName="BasePlayerBetaPawnKind_TribalTribeCivil">
+    <defName>BetaElkPlayer_Female_TribalTribeCivil</defName>
     <race>BetaElk_Female</race>
     <label>member (elk beta)</label>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="BasePlayerBetaPawnKind_Tribal">
-    <defName>BetaFoxPlayer_Tribal</defName>
+  <PawnKindDef ParentName="BasePlayerBetaPawnKind_TribalTribeCivil">
+    <defName>BetaFoxPlayer_TribalTribeCivil</defName>
     <race>BetaFox</race>
     <label>member (fox beta)</label>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="BasePlayerBetaPawnKind_Tribal">
-    <defName>BetaGazellePlayer_Tribal</defName>
+  <PawnKindDef ParentName="BasePlayerBetaPawnKind_TribalTribeCivil">
+    <defName>BetaGazellePlayer_TribalTribeCivil</defName>
     <race>BetaGazelle</race>
     <label>member (gazelle beta)</label>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="BasePlayerBetaPawnKind_Tribal">
-    <defName>BetaLynxPlayer_Tribal</defName>
+  <PawnKindDef ParentName="BasePlayerBetaPawnKind_TribalTribeCivil">
+    <defName>BetaLynxPlayer_TribalTribeCivil</defName>
     <race>BetaLynx</race>
     <label>member (lynx beta)</label>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="BasePlayerBetaPawnKind_Tribal">
-    <defName>BetaHogPlayer_Tribal</defName>
+  <PawnKindDef ParentName="BasePlayerBetaPawnKind_TribalTribeCivil">
+    <defName>BetaHogPlayer_TribalTribeCivil</defName>
     <race>BetaHog</race>
     <label>member (hog beta)</label>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="BasePlayerBetaPawnKind_Tribal">
-    <defName>BetaRaccoonPlayer_Tribal</defName>
+  <PawnKindDef ParentName="BasePlayerBetaPawnKind_TribalTribeCivil">
+    <defName>BetaRaccoonPlayer_TribalTribeCivil</defName>
     <race>BetaRaccoon</race>
     <label>member (raccoon beta)</label>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="BasePlayerBetaPawnKind_Tribal">
-    <defName>BetaWolfPlayer_Tribal</defName>
+  <PawnKindDef ParentName="BasePlayerBetaPawnKind_TribalTribeCivil">
+    <defName>BetaWolfPlayer_TribalTribeCivil</defName>
     <race>BetaWolf</race>
     <label>member (wolf beta)</label>
   </PawnKindDef>

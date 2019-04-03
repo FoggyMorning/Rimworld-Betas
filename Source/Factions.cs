@@ -189,13 +189,18 @@ namespace BetaHumanoids
                     defname = pawnKindLabel + "_BetaHumanoids_Beta" + label + "_Female";
                 }
             }
-            createNewPawnKind(PawnKindDef.Named(pawnKindLabel), label, defname);
+            //createNewPawnKind(PawnKindDef.Named(pawnKindLabel), label, defname);
+            if (DefDatabase<PawnKindDef>.GetNamedSilentFail(defname) == null)
+            {
+                return null;
+            }
             return new PawnGenOption
             {
                 selectionWeight = sw,
                 kind = PawnKindDef.Named(defname)
             };
         }
+        /*
         private static void createNewPawnKind(PawnKindDef pkOld, string label, string defname)
         {
             // if it already exists then don't recreate it
@@ -271,5 +276,6 @@ namespace BetaHumanoids
             DefDatabase<PawnKindDef>.ErrorCheckAllDefs();
             DefDatabase<PawnKindDef>.ResolveAllReferences();
         }
+        */
     }
 }

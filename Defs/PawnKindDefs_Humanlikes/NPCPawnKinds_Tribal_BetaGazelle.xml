@@ -20,7 +20,7 @@
 
     <PawnKindDef ParentName="TribalBase_BetaHumanoids_BetaGazelle">
         <defName>Tribal_Penitent_BetaHumanoids_BetaGazelle</defName>
-        <label>penitent</label>
+        <label>penitent (gazelle beta)</label>
         <combatPower>35</combatPower>
         <chemicalAddictionChance>0.10</chemicalAddictionChance>
         <invNutrition>0</invNutrition>
@@ -54,7 +54,7 @@
 
     <PawnKindDef ParentName="TribalBase_BetaHumanoids_BetaGazelle">
         <defName>Tribal_Archer_BetaHumanoids_BetaGazelle</defName>
-        <label>archer</label>
+        <label>archer (gazelle beta)</label>
         <combatPower>48</combatPower>
         <itemQuality>Poor</itemQuality>
         <gearHealthRange>
@@ -86,7 +86,7 @@
 
     <PawnKindDef ParentName="TribalBase_BetaHumanoids_BetaGazelle">
         <defName>Tribal_Warrior_BetaHumanoids_BetaGazelle</defName>
-        <label>warrior</label>
+        <label>warrior (gazelle beta)</label>
         <combatPower>60</combatPower>
         <itemQuality>Poor</itemQuality>
         <canBeSapper>true</canBeSapper>
@@ -109,7 +109,7 @@
 
     <PawnKindDef ParentName="TribalBase_BetaHumanoids_BetaGazelle" Name="Tribal_Hunter_BetaHumanoids_BetaGazelle">
         <defName>Tribal_Hunter</defName>
-        <label>hunter</label>
+        <label>hunter (gazelle beta)</label>
         <combatPower>65</combatPower>
         <gearHealthRange>
             <min>0.5</min>
@@ -130,7 +130,7 @@
 
     <PawnKindDef ParentName="Tribal_Hunter_BetaHumanoids_BetaGazelle">
         <defName>Tribal_Trader_BetaHumanoids_BetaGazelle</defName>
-        <label>trader</label>
+        <label>trader (gazelle beta)</label>
         <trader>true</trader>
         <apparelRequired Inherit="False">
             <li>Apparel_TribalHeaddress</li>
@@ -141,7 +141,7 @@
 
     <PawnKindDef ParentName="TribalBase_BetaHumanoids_BetaGazelle">
         <defName>Tribal_Berserker_BetaHumanoids_BetaGazelle</defName>
-        <label>berserker</label>
+        <label>berserker (gazelle beta)</label>
         <combatPower>90</combatPower>
         <canBeSapper>true</canBeSapper>
         <apparelMoney>
@@ -159,7 +159,7 @@
 
     <PawnKindDef ParentName="TribalBase_BetaHumanoids_BetaGazelle">
         <defName>Tribal_HeavyArcher_BetaHumanoids_BetaGazelle</defName>
-        <label>heavy archer</label>
+        <label>heavy archer (gazelle beta)</label>
         <combatPower>90</combatPower>
         <apparelMoney>
             <min>200</min>
@@ -199,7 +199,7 @@
 
     <PawnKindDef ParentName="TribalChiefBase_BetaHumanoids_BetaGazelle">
         <defName>Tribal_ChiefMelee_BetaHumanoids_BetaGazelle</defName>
-        <label>berserker chief</label>
+        <label>berserker chief (gazelle beta)</label>
         <weaponTags>
             <li>NeolithicMeleeAdvanced</li>
             <li>MedievalMeleeAdvanced</li>
@@ -208,7 +208,7 @@
 
     <PawnKindDef ParentName="TribalChiefBase_BetaHumanoids_BetaGazelle">
         <defName>Tribal_ChiefRanged_BetaHumanoids_BetaGazelle</defName>
-        <label>archer chief</label>
+        <label>archer chief (gazelle beta)</label>
         <weaponTags>
             <li>NeolithicRangedChief</li>
         </weaponTags>
