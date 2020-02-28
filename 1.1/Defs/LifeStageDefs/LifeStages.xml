@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <LifeStageDef>
+    <defName>BetaTeenager</defName>
+    <label>teenager</label>
+    <adjective>teenage</adjective>
+    <reproductive>false</reproductive>
+    <bodySizeFactor>0.85</bodySizeFactor>
+    <healthScaleFactor>0.90</healthScaleFactor>
+    <meleeDamageFactor>0.75</meleeDamageFactor>
+    <statFactors>
+      <MoveSpeed>0.95</MoveSpeed>
+    </statFactors>
+  </LifeStageDef>
+  
+  <LifeStageDef>
+    <defName>BetaAdult</defName>
+    <label>adult</label>
+    <visible>false</visible>
+    <reproductive>false</reproductive>
+  </LifeStageDef>
+
+  
+</Defs>
