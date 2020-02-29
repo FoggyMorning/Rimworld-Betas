@@ -1,28 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <PawnKindDef Abstract="True" Name="BasePlayerBetaPawnKind_Tribal">
-    <combatPower>30</combatPower>
-    <isFighter>false</isFighter>
-    <label>member</label>
+  <PawnKindDef Abstract="True" Name="BasePlayerBetaPawnKind_Tribal" ParentName="BasePlayerPawnKind">
     <race>Human</race>
     <defaultFactionType>PlayerTribe</defaultFactionType>
-    <backstoryCategories>
-      <li>Tribal</li>
-    </backstoryCategories>
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <apparelTags>
       <li>Neolithic</li>
     </apparelTags>
-    <apparelMoney>
-      <min>200</min>
-      <max>200</max>
-    </apparelMoney>
+    <apparelMoney>200~200</apparelMoney>
     <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
-    <techHediffsMoney>
-      <min>50</min>
-      <max>50</max>
-    </techHediffsMoney>
+    <techHediffsMoney>50~50</techHediffsMoney>
     <techHediffsTags>
       <li>Poor</li>
     </techHediffsTags>

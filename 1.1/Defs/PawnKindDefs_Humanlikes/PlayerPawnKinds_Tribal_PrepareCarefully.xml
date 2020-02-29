@@ -2,29 +2,16 @@
 <Defs>
   <!-- trying to get some pawns for the Prepare Carefully mod -->
   
-
-  <PawnKindDef Abstract="True" Name="BasePlayerBetaPawnKind_TribalTribeCivil">
-    <combatPower>30</combatPower>
-    <isFighter>false</isFighter>
-    <label>member</label>
+  <PawnKindDef Abstract="True" Name="BasePlayerBetaPawnKind_TribalTribeCivil" ParentName="BasePlayerPawnKind">
     <race>Human</race>
-    <defaultFactionType>TribeCivil</defaultFactionType>
-    <backstoryCategories>
-      <li>Tribal</li>
-    </backstoryCategories>
+    <defaultFactionType>PlayerTribe</defaultFactionType>
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <apparelTags>
       <li>Neolithic</li>
     </apparelTags>
-    <apparelMoney>
-      <min>200</min>
-      <max>200</max>
-    </apparelMoney>
+    <apparelMoney>200~200</apparelMoney>
     <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
-    <techHediffsMoney>
-      <min>50</min>
-      <max>50</max>
-    </techHediffsMoney>
+    <techHediffsMoney>50~50</techHediffsMoney>
     <techHediffsTags>
       <li>Poor</li>
     </techHediffsTags>

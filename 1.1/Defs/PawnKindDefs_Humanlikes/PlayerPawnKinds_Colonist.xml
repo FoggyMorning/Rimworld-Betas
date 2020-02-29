@@ -1,32 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <PawnKindDef Abstract="True" Name="BasePlayerBetaPawnKind">
-    <combatPower>30</combatPower>
-    <isFighter>false</isFighter>
-    <forceNormalGearQuality>true</forceNormalGearQuality>
+  <PawnKindDef Abstract="True" Name="BasePlayerBetaPawnKind" ParentName="BasePlayerPawnKind">
     <defaultFactionType>PlayerColony</defaultFactionType>
-    <backstoryCategories>
-      <li>Civil</li>
-    </backstoryCategories>
     <chemicalAddictionChance>0.06</chemicalAddictionChance>
     <apparelTags>
       <li>IndustrialBasic</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
-    <apparelMoney>
-      <min>350</min>
-      <max>600</max>
-    </apparelMoney>
+    <apparelMoney>350~600</apparelMoney>
     <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
     <techHediffsChance>0.03</techHediffsChance>
-    <techHediffsMoney>
-      <min>50</min>
-      <max>800</max>
-    </techHediffsMoney>
+    <techHediffsMoney>50~800</techHediffsMoney>
     <techHediffsTags>
       <li>Poor</li>
       <li>Simple</li>
+      <li>ImplantEmpireCommon</li>
     </techHediffsTags>
   </PawnKindDef>
 
