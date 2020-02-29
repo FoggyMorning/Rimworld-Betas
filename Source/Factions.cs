@@ -189,7 +189,7 @@ namespace BetaHumanoids
                     defname = pawnKindLabel + "_BetaHumanoids_Beta" + label + "_Female";
                 }
             }
-            //createNewPawnKind(PawnKindDef.Named(pawnKindLabel), label, defname);
+            createNewPawnKind(PawnKindDef.Named(pawnKindLabel), label, defname);
             if (DefDatabase<PawnKindDef>.GetNamedSilentFail(defname) == null)
             {
                 return null;
@@ -200,7 +200,7 @@ namespace BetaHumanoids
                 kind = PawnKindDef.Named(defname)
             };
         }
-        /*
+        
         private static void createNewPawnKind(PawnKindDef pkOld, string label, string defname)
         {
             // if it already exists then don't recreate it
@@ -228,7 +228,6 @@ namespace BetaHumanoids
             pk.combatEnhancingDrugsChance = pkOld.combatEnhancingDrugsChance;
             pk.combatEnhancingDrugsCount = new IntRange(min: pkOld.combatEnhancingDrugsCount.min, max: pkOld.combatEnhancingDrugsCount.max);
             pk.combatPower = pkOld.combatPower;
-            pk.defPackage = pkOld.defPackage;
             pk.defaultFactionType = pkOld.defaultFactionType;
             pk.description = pkOld.description;
             pk.destroyGearOnDrop = pkOld.destroyGearOnDrop;
@@ -276,6 +275,6 @@ namespace BetaHumanoids
             DefDatabase<PawnKindDef>.ErrorCheckAllDefs();
             DefDatabase<PawnKindDef>.ResolveAllReferences();
         }
-        */
+        
     }
 }
