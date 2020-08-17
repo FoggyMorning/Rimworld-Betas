@@ -115,6 +115,15 @@ namespace BetaHumanoids
                         f.pawnGroupMakers[x] = addPawnKindsToFactions(g[x], labels[i], chances[i]);
                     }
                 }
+                if (SettingsController.Settings.IncludeInTribal)
+                {
+                    FactionDef f = DefDatabase<FactionDef>.GetNamed("TribeSavage", true);
+                    PawnGroupMaker[] g = f.pawnGroupMakers.ToArray();
+                    for (int x = 0; x < g.Length; x++)
+                    {
+                        f.pawnGroupMakers[x] = addPawnKindsToFactions(g[x], labels[i], chances[i]);
+                    }
+                }
 
             }
         }
