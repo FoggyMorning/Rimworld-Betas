@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <BodyPartDef>
+    <defName>AmputatableEar</defName>
+    <label>left ear</label>
+    <hitPoints>12</hitPoints>
+    <frostbiteVulnerability>5</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+    <beautyRelated>true</beautyRelated>
+    <tags>
+      <li>HearingSource</li>
+    </tags>
+    <canSuggestAmputation>true</canSuggestAmputation>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>AmputatableTusk</defName>
+    <label>tusk</label>
+    <hitPoints>20</hitPoints>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+    <canSuggestAmputation>true</canSuggestAmputation>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>AmputatableTrunk</defName>
+    <label>trunk</label>
+    <hitPoints>15</hitPoints>
+    <frostbiteVulnerability>5</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>ManipulationLimbCore</li>
+    </tags>
+    <canSuggestAmputation>true</canSuggestAmputation>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>AmputatableAntler</defName>
+    <label>antler</label>
+    <hitPoints>20</hitPoints>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+    <canSuggestAmputation>true</canSuggestAmputation>
+  </BodyPartDef>
+
+</Defs>

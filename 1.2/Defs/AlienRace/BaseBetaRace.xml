@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <AlienRace.ThingDef_AlienRace ParentName="BasePawn" Abstract="True" Name="BaseBetaPawn">
+
+        <alienRace>
+
+            <generalSettings>
+                <humanRecipeImport>true</humanRecipeImport>
+                <maleGenderProbability>0.5</maleGenderProbability>
+
+                <factionRelations>
+                </factionRelations>
+
+                <chemicalSettings>
+                </chemicalSettings>
+                <maxDamageForSocialfight>6</maxDamageForSocialfight>
+            </generalSettings>
+
+
+            <thoughtSettings>
+                <cannotReceiveThoughts>
+                </cannotReceiveThoughts>
+
+                <ateThoughtSpecific>
+                </ateThoughtSpecific>
+
+                <replacerList>
+                </replacerList>
+            </thoughtSettings>
+
+            <raceRestriction>
+            </raceRestriction>
+            
+            <relationSettings>
+                <relationChanceModifierLover>1</relationChanceModifierLover>
+                <relationChanceModifierExLover>1</relationChanceModifierExLover>
+
+                <relationChanceModifierFiance>1</relationChanceModifierFiance>
+                <relationChanceModifierSpouse>1</relationChanceModifierSpouse>
+                <relationChanceModifierExSpouse>1</relationChanceModifierExSpouse>
+
+                <!-- Betas are vat-grown from sperm and eggs harvested from other Betas by the corporations that create them. When the Beta is sexually mature.
+                    After the sperm and eggs are harvested, the Beta are sterilized. 
+                    Even free Betas are sterile, and the procedure to reverse this is rare and expensive.
+                    As a consequence they have no true family structure and one sperm donor may have offspring with many different egg donors.  -->
+                <relationChanceModifierParent>.1</relationChanceModifierParent>
+                <relationChanceModifierChild>.1</relationChanceModifierChild>
+                <relationChanceModifierSibling>.1</relationChanceModifierSibling>
+
+                <renamer>
+                <li>
+                    <relation>Parent</relation>
+                    <label>Sperm Donor</label>
+                    <femaleLabel>Egg Donor</femaleLabel>
+                </li>
+                <li>
+                    <relation>Sibling</relation>
+                    <label>Biological Sibling</label>
+                    <femaleLabel>Biological Sibling</femaleLabel>
+                </li>
+                <li>
+                    <relation>Child</relation>
+                    <label>Biological Offspring</label>
+                    <femaleLabel>Biological Offspring</femaleLabel>
+                </li>
+                </renamer>
+            </relationSettings>
+        </alienRace>
+
+        <statBases>
+            <MarketValue>1750</MarketValue>
+            <MoveSpeed>4.6</MoveSpeed>
+            <Flammability>1.0</Flammability>
+            <ComfyTemperatureMin>16</ComfyTemperatureMin>
+            <ComfyTemperatureMax>26</ComfyTemperatureMax>
+            <LeatherAmount>50</LeatherAmount>
+        </statBases>
+
+        <race>
+            <thinkTreeMain>Humanlike</thinkTreeMain>
+            <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+            <intelligence>Humanlike</intelligence>
+            <makesFootprints>true</makesFootprints>
+            <lifeExpectancy>100</lifeExpectancy>
+            <leatherDef>Leather_Human</leatherDef>
+            <nameCategory>HumanStandard</nameCategory>
+            <body>HumanWithAmputatableEar</body>
+            <baseBodySize>1</baseBodySize>
+            <baseHealthScale>1</baseHealthScale>
+            <foodType>OmnivoreHuman</foodType>
+            <gestationPeriodDays>45</gestationPeriodDays>
+            <meatMarketValue>0.1</meatMarketValue>
+            <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
+            <manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
+            <lifeStageAges>
+                <li>
+                    <def>BetaTeenager</def>
+                    <minAge>13</minAge>
+                </li>
+                <li>
+                    <def>BetaAdult</def>
+                    <minAge>16</minAge>
+                </li>
+            </lifeStageAges>
+            <litterSizeCurve>
+                <points>
+                    <li>(0.5, 0)</li>
+                    <li>(1, 1)</li>
+                    <li>(1.01, 0.02)</li>
+                    <li>(3.5, 0)</li>
+                </points>
+            </litterSizeCurve>
+            <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+            <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+            <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+            <specialShadowData>
+                <volume>(0.3, 0.8, 0.4)</volume>
+                <offset>(0,0,-0.3)</offset>
+            </specialShadowData>
+            <ageGenerationCurve>
+                <points>
+                    <li>(14,0)</li>
+                    <li>(16,100)</li>
+                    <li>(50,100)</li>
+                    <li>(60,30)</li>
+                    <li>(70,18)</li>
+                    <li>(80,10)</li>
+                    <li>(90,3)</li>
+                    <li>(100,0)</li>
+                </points>
+            </ageGenerationCurve>
+            <hediffGiverSets>
+                <li>BetaHumanoid_OrganicStandard</li>
+                <li>Human</li>
+            </hediffGiverSets>
+            
+        </race>
+        <recipes>
+            <li>InstallArchotechEye</li>
+            <li>InstallArchotechArm</li>
+            <li>InstallArchotechLeg</li>
+            <li>InstallPowerClaw</li>
+            <li>InstallBionicEye</li>
+            <li>InstallBionicArm</li>
+            <li>InstallBionicLeg</li>
+            <li>InstallBionicSpine</li>
+            <li>InstallBionicHeart</li>
+            <li>InstallBionicStomach</li>
+            <li>BetaHumanoids_InstallBionicEar</li>
+            <li>InstallSimpleProstheticArm</li>
+            <li>InstallSimpleProstheticLeg</li>
+            <li>InstallSimpleProstheticHeart</li>
+            <li>BetaHumanoids_InstallCochlearImplant</li>
+            <li>InstallPegLeg</li>
+            <li>InstallWoodenFoot</li>
+            <li>InstallDenture</li>
+            <li>InstallJoywire</li>
+            <li>InstallPainstopper</li>
+            <li>InstallNaturalHeart</li>
+            <li>InstallNaturalLung</li>
+            <li>InstallNaturalKidney</li>
+            <li>InstallNaturalLiver</li>
+            <li>ExciseCarcinoma</li>
+            <li>AdministerMechSerumHealer</li>
+            <li>RemoveBodyPart</li>
+            <li>Euthanize</li>
+            <li>Anesthetize</li>
+        </recipes>
+
+    </AlienRace.ThingDef_AlienRace>
+
+</Defs>

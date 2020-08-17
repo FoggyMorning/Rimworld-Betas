@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.ThingDef_AlienRace ParentName="BaseBetaPawn">
+    <defName>BetaCroc</defName>
+    <label>beta-humanoid (crocodile)</label>
+    <description>A "Beta", a Beta Class Humanoid Lifeform. Part human and part animal. The property of the Corporation that created them. The Galactic Workers Alliance secured semi-human rights for Betas, and now some have purchased their freedom.</description>
+
+    <statBases>
+      <!-- not very fast walkers -->
+      <MoveSpeed>4.3</MoveSpeed>
+      <!-- extra mass -->
+      <Mass>70</Mass>
+      <ComfyTemperatureMin>6</ComfyTemperatureMin>
+      <ComfyTemperatureMax>46</ComfyTemperatureMax>
+      <!-- extra leather -->
+      <LeatherAmount>60</LeatherAmount>
+      <!-- extra value -->
+      <MarketValue>2750</MarketValue>
+      <!-- extra carrying capacity -->
+      <CarryingCapacity>70</CarryingCapacity>
+
+      <!--Crocs are big and scary so have a stronger social impact-->
+      <SocialImpact>1.1</SocialImpact>
+    </statBases>
+
+    <tools>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>powerful bite</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>23.6</power>
+        <cooldownTime>2.6</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>1</chanceFactor>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+
+    <alienRace>
+      <thoughtSettings>
+        <cannotReceiveThoughts>
+          <!-- Aquatic and cold blooded-->
+          <li>SleptInHeat</li>
+          <li>SoakingWet</li>
+        </cannotReceiveThoughts>
+
+        <ateThoughtSpecific>
+        </ateThoughtSpecific>
+
+        <replacerList>
+        </replacerList>
+      </thoughtSettings>
+      <generalSettings>
+        <humanRecipeImport>true</humanRecipeImport>
+        <alienPartGenerator>
+          <aliencrowntypes>
+            <li>Average_Normal</li>
+            <li>Narrow_Wide</li>
+          </aliencrowntypes>
+          <useGenderedHeads>true</useGenderedHeads>
+          <alienbodytypes>
+            <li>Fat</li>
+            <li>Male</li>
+            <li>Female</li>
+            <li>Thin</li>
+            <li>Hulk</li>
+          </alienbodytypes>
+          <headOffset>( 0,0 )</headOffset>
+          <customDrawSize>( 1, 1 )</customDrawSize>
+          <customHeadDrawSize>( 1, 1 )</customHeadDrawSize>
+          <customPortraitDrawSize>( 1, 1 )</customPortraitDrawSize>
+          <customPortraitHeadDrawSize>( 1, 1 )</customPortraitHeadDrawSize>
+          <colorChannels>
+            <li>
+                <name>skin</name>
+                <first Class="ColorGenerator_Options">
+                  <options>
+                    <!-- dark green #245c26-->
+                    <li>
+                      <weight>10</weight>
+                      <only>RGBA(0.141, 0.360, 0.149,1)</only>
+                    </li>
+                    <!-- dark green #468b46 -->
+                    <li>
+                      <weight>10</weight>
+                      <only>RGBA(0.274, 0.545, 0.274,1)</only>
+                    </li>
+                    <!-- dark green #638c65 -->
+                    <li>
+                      <weight>10</weight>
+                      <only>RGBA(0.388, 0.549, 0.396,1)</only>
+                    </li>
+                  </options>
+                </first>
+                <second Class="ColorGenerator_Options">
+                  <options>
+                    <!-- yellow green #bbc615 -->
+                    <li>
+                      <weight>8</weight>
+                      <only>RGBA(0.733, 0.776, 0.082,1)</only>
+                    </li>
+                    <!-- yellow green #b7c62a -->
+                    <li>
+                      <weight>8</weight>
+                      <only>RGBA(0.717, 0.776, 0.164,1)</only>
+                    </li>
+                    <!-- yellow green #d7daa4 -->
+                    <li>
+                      <weight>8</weight>
+                      <only>RGBA(0.843, 0.854, 0.643,1)</only>
+                    </li>
+                  </options>
+                </second>
+            </li>
+        </colorChannels>
+        </alienPartGenerator>
+
+
+
+        <forcedRaceTraitEntries>
+          <li>
+            <!-- Croc skin is very tough -->
+            <defName>Tough</defName>
+            <chance>100</chance>
+          </li>
+        </forcedRaceTraitEntries>
+      </generalSettings>
+
+
+      <graphicPaths>
+        <li>
+          <head>Betas/BetaCroc/Head/</head>
+          <body>Betas/BetaCroc/Body/</body>
+        </li>
+      </graphicPaths>
+
+
+      <hairSettings>
+        <hasHair>false</hasHair>
+      </hairSettings>
+
+    </alienRace>
+
+    <race>
+      <leatherDef>Leather_Lizard</leatherDef>
+      <manhunterOnDamageChance>0.80</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.80</manhunterOnTameFailChance>
+
+      <lifeStageAges>
+        <li>
+          <def>BetaAdult_Croc1</def>
+          <minAge>18</minAge>
+        </li>
+        <li>
+          <def>BetaAdult_Croc2</def>
+          <minAge>25</minAge>
+        </li>
+        <li>
+          <def>BetaAdult_Croc3</def>
+          <minAge>30</minAge>
+        </li>
+        <li>
+          <def>BetaAdult_Croc4</def>
+          <minAge>50</minAge>
+        </li>
+      </lifeStageAges>
+
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+
+  </AlienRace.ThingDef_AlienRace>
+
+</Defs>

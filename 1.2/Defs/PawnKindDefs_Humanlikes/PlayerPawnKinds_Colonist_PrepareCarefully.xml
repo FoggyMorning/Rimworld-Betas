@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- trying to get some pawns for the Prepare Carefully mod -->
+  <PawnKindDef Abstract="True" Name="BasePlayerBetaPawnKindOutlanderCivil" ParentName="BasePlayerPawnKind">
+    <defaultFactionType>OutlanderCivil</defaultFactionType>
+    <chemicalAddictionChance>0.06</chemicalAddictionChance>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <apparelMoney>350~600</apparelMoney>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+    <techHediffsChance>0.03</techHediffsChance>
+    <techHediffsMoney>50~800</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+  </PawnKindDef>
+
+
+  <PawnKindDef ParentName="BasePlayerBetaPawnKindOutlanderCivil">
+    <combatPower>40</combatPower>
+    <defName>BetaBearPlayerOutlanderCivil</defName>
+    <race>BetaBear</race>
+    <label>colonist (Bear beta)</label>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BasePlayerBetaPawnKindOutlanderCivil">
+    <defName>BetaCamelPlayerOutlanderCivil</defName>
+    <race>BetaCamel</race>
+    <label>colonist (camel beta)</label>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BasePlayerBetaPawnKindOutlanderCivil">
+    <combatPower>40</combatPower>
+    <defName>BetaElephantPlayerOutlanderCivil</defName>
+    <race>BetaElephant</race>
+    <label>colonist (elephant beta)</label>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BasePlayerBetaPawnKindOutlanderCivil">
+    <combatPower>35</combatPower>
+    <defName>BetaElkPlayer_MaleOutlanderCivil</defName>
+    <race>BetaElk_Male</race>
+    <label>colonist (elk beta)</label>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BasePlayerBetaPawnKindOutlanderCivil">
+    <defName>BetaElkPlayer_FemaleOutlanderCivil</defName>
+    <race>BetaElk_Female</race>
+    <label>colonist (elk beta)</label>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BasePlayerBetaPawnKindOutlanderCivil">
+    <defName>BetaFoxPlayerOutlanderCivil</defName>
+    <race>BetaFox</race>
+    <label>colonist (fox beta)</label>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BasePlayerBetaPawnKindOutlanderCivil">
+    <defName>BetaGazellePlayerOutlanderCivil</defName>
+    <race>BetaGazelle</race>
+    <label>colonist (gazelle beta)</label>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BasePlayerBetaPawnKindOutlanderCivil">
+    <defName>BetaLynxPlayerOutlanderCivil</defName>
+    <race>BetaLynx</race>
+    <label>colonist (lynx beta)</label>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BasePlayerBetaPawnKindOutlanderCivil">
+    <defName>BetaHogPlayerOutlanderCivil</defName>
+    <race>BetaHog</race>
+    <label>colonist (hog beta)</label>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BasePlayerBetaPawnKindOutlanderCivil">
+    <defName>BetaRaccoonPlayerOutlanderCivil</defName>
+    <race>BetaRaccoon</race>
+    <label>colonist (raccoon beta)</label>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BasePlayerBetaPawnKindOutlanderCivil">
+    <defName>BetaWolfPlayerOutlanderCivil</defName>
+    <race>BetaWolf</race>
+    <label>colonist (wolf beta)</label>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="BasePlayerBetaPawnKindOutlanderCivil">
+    <combatPower>40</combatPower>
+    <defName>BetaCrocPlayerOutlanderCivil</defName>
+    <race>BetaCroc</race>
+    <label>colonist (croc beta)</label>
+  </PawnKindDef>
+</Defs>
+
