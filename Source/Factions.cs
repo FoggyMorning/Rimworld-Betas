@@ -21,7 +21,7 @@ namespace BetaHumanoids
                         {
                             foreach (PawnKindEntry pke in sc.pawnKindEntries)
                             {
-                                if (pke.kindDefs.Any(k => k.Contains(label)))
+                                if (pke.kindDefs.Any(k => k.label.Contains(label)))
                                 {
                                     pke.chance = chances[i];
                                 };
@@ -31,7 +31,7 @@ namespace BetaHumanoids
                         {
                             foreach (PawnKindEntry pke in awk.pawnKindEntries)
                             {
-                                if (pke.kindDefs.Any(k => k.Contains(label)))
+                                if (pke.kindDefs.Any(k => k.label.Contains(label)))
                                 {
                                     pke.chance = chances[i];
                                 };
@@ -39,14 +39,14 @@ namespace BetaHumanoids
                         };
                         foreach (PawnKindEntry pke in rs.pawnKindSettings.alienrefugeekinds)
                         {
-                            if (pke.kindDefs.Any(k => k.Contains(label)))
+                            if (pke.kindDefs.Any(k => k.label.Contains(label)))
                             {
                                 pke.chance = chances[i];
                             };
                         };
                         foreach (PawnKindEntry pke in rs.pawnKindSettings.alienslavekinds)
                         {
-                            if (pke.kindDefs.Any(k => k.Contains(label)))
+                            if (pke.kindDefs.Any(k => k.label.Contains(label)))
                             {
                                 pke.chance = chances[i];
                             };
