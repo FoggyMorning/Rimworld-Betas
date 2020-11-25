@@ -1,7 +1,7 @@
 ﻿
 using System;
 using System.Reflection;
-using Harmony;
+using HarmonyLib;
 using Verse;
 
 namespace BetaHumanoids
@@ -11,11 +11,11 @@ namespace BetaHumanoids
     {
         static Main()
         {
-            HarmonyInstance harmony = HarmonyInstance.Create("com.rimworld.mod.FoggyMorning.BetaHumanoids");
+            var harmony = new Harmony("com.rimworld.mod.FoggyMorning.BetaHumanoids");
             harmony.PatchAll(Assembly.GetExecutingAssembly());
-            LongEventHandler.QueueLongEvent(new Action(Init), "LibraryStartup", false, null);
+            LongEventHandler.QueueLongEvent(new Action(InitLib), "LibraryStartup", false, null);
         }
-        private static void Init()
+        private static void InitLib()
         {
             string[] labels = SettingsController.Settings.labels;
             float[] chances = SettingsController.Settings.SpawnChance;
