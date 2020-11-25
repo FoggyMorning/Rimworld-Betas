@@ -1,3 +1,3 @@
 # Rimworld-Betas
 mod for rimworld
-https://github.com/FoggyMorning/Rimworld-Betas
+https://steamcommunity.com/sharedfiles/filedetails/?id=1654061947
