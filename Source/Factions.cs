@@ -76,7 +76,7 @@ namespace BetaHumanoids
                     PawnGroupMaker[] g = f.pawnGroupMakers.ToArray();
                     for (int x = 0; x < g.Length; x++)
                     {
-                        f.pawnGroupMakers[x] = addPawnKindsToFactions(g[x], labels[i], chances[i]);
+                        f.pawnGroupMakers[x] = AddPawnKindsToFactions(g[x], labels[i], chances[i]);
                     }
                 }
                 if (SettingsController.Settings.IncludeInOutlander)
@@ -85,7 +85,7 @@ namespace BetaHumanoids
                     PawnGroupMaker[] g = f.pawnGroupMakers.ToArray();
                     for (int x = 0; x < g.Length; x++)
                     {
-                        f.pawnGroupMakers[x] = addPawnKindsToFactions(g[x], labels[i], chances[i]);
+                        f.pawnGroupMakers[x] = AddPawnKindsToFactions(g[x], labels[i], chances[i]);
                     }
                 }
                 if (SettingsController.Settings.IncludeInOutlander)
@@ -94,7 +94,7 @@ namespace BetaHumanoids
                     PawnGroupMaker[] g = f.pawnGroupMakers.ToArray();
                     for (int x = 0; x < g.Length; x++)
                     {
-                        f.pawnGroupMakers[x] = addPawnKindsToFactions(g[x], labels[i], chances[i]);
+                        f.pawnGroupMakers[x] = AddPawnKindsToFactions(g[x], labels[i], chances[i]);
                     }
                 }
                 if (SettingsController.Settings.IncludeInTribal)
@@ -103,7 +103,7 @@ namespace BetaHumanoids
                     PawnGroupMaker[] g = f.pawnGroupMakers.ToArray();
                     for (int x = 0; x < g.Length; x++)
                     {
-                        f.pawnGroupMakers[x] = addPawnKindsToFactions(g[x], labels[i], chances[i]);
+                        f.pawnGroupMakers[x] = AddPawnKindsToFactions(g[x], labels[i], chances[i]);
                     }
                 }
                 if (SettingsController.Settings.IncludeInTribal)
@@ -112,7 +112,7 @@ namespace BetaHumanoids
                     PawnGroupMaker[] g = f.pawnGroupMakers.ToArray();
                     for (int x = 0; x < g.Length; x++)
                     {
-                        f.pawnGroupMakers[x] = addPawnKindsToFactions(g[x], labels[i], chances[i]);
+                        f.pawnGroupMakers[x] = AddPawnKindsToFactions(g[x], labels[i], chances[i]);
                     }
                 }
                 if (SettingsController.Settings.IncludeInTribal)
@@ -121,7 +121,7 @@ namespace BetaHumanoids
                     PawnGroupMaker[] g = f.pawnGroupMakers.ToArray();
                     for (int x = 0; x < g.Length; x++)
                     {
-                        f.pawnGroupMakers[x] = addPawnKindsToFactions(g[x], labels[i], chances[i]);
+                        f.pawnGroupMakers[x] = AddPawnKindsToFactions(g[x], labels[i], chances[i]);
                     }
                 }
 
@@ -129,7 +129,7 @@ namespace BetaHumanoids
         }
 
 
-        private static PawnGroupMaker addPawnKindsToFactions(PawnGroupMaker pgm, string label, float chance)
+        private static PawnGroupMaker AddPawnKindsToFactions(PawnGroupMaker pgm, string label, float chance)
         {
             if (label == "Elk")
             {
@@ -139,14 +139,14 @@ namespace BetaHumanoids
                 PawnGenOption[] optionsElkMale = pgm.options.ToArray();
                 for (int i = 0; i < optionsElkMale.Length; i++)
                 {
-                PawnGenOption pgo = makePawnGenOption(optionsElkMale[i], label, chance);
-                    if (pgo != null) { pgm.addPawn(pgo, false); }
+                PawnGenOption pgo = MakePawnGenOption(optionsElkMale[i], label, chance);
+                    if (pgo != null) { pgm.AddPawn(pgo, false); }
                 }
                 PawnGenOption[] guardsElkMale = pgm.guards.ToArray();
                 for (int j = 0; j < guardsElkMale.Length; j++)
                 {
-                    PawnGenOption pgo = makePawnGenOption(guardsElkMale[j], label, chance);
-                    if (pgo != null) { pgm.addPawn(pgo, true); }
+                    PawnGenOption pgo = MakePawnGenOption(guardsElkMale[j], label, chance);
+                    if (pgo != null) { pgm.AddPawn(pgo, true); }
                 }
                 SettingsController.Settings.ElkMale = false;
             }
@@ -154,18 +154,18 @@ namespace BetaHumanoids
             PawnGenOption[] options = pgm.options.ToArray();
             for (int i = 0; i < options.Length; i++)
             {
-                PawnGenOption pgo = makePawnGenOption(options[i], label, chance);
-                if (pgo != null) { pgm.addPawn(pgo, false); }
+                PawnGenOption pgo = MakePawnGenOption(options[i], label, chance);
+                if (pgo != null) { pgm.AddPawn(pgo, false); }
             }
             PawnGenOption[] guards = pgm.guards.ToArray();
             for (int j = 0; j < guards.Length; j++)
             {
-                PawnGenOption pgo = makePawnGenOption(guards[j], label, chance);
-                if (pgo != null) { pgm.addPawn(pgo, true); }
+                PawnGenOption pgo = MakePawnGenOption(guards[j], label, chance);
+                if (pgo != null) { pgm.AddPawn(pgo, true); }
             }
             return pgm;
         }
-        private static void addPawn(this PawnGroupMaker pgm, PawnGenOption pgo, bool isTrader = false)
+        private static void AddPawn(this PawnGroupMaker pgm, PawnGenOption pgo, bool isTrader = false)
         {
             if (pgo.kind == null) { return; };
             if (isTrader)
@@ -175,10 +175,10 @@ namespace BetaHumanoids
             }
             pgm.options.Add(pgo);
         }
-        private static PawnGenOption makePawnGenOption(PawnGenOption existing, string label, float chance)
+        private static PawnGenOption MakePawnGenOption(PawnGenOption existing, string label, float chance)
         {
             string pawnKindLabel = existing.kind.defName;
-            float sw = existing.selectionWeight * chance / 10;
+            float sw = existing.selectionWeight * 0.075f;
 
             // if it is one of our defs then don't recreate it
             // if some alien race other than a Human then don't risk copying it
@@ -186,19 +186,24 @@ namespace BetaHumanoids
             {
                 return null;
             }
-            string defname = pawnKindLabel + "_BetaHumanoids_Beta" + label;
+            string defname = "Beta" + label + "_" + pawnKindLabel;
             if (label == "Elk")
             { 
-                // Elks are separate races based on gender due to the antlers.  // so need to do twice
+                // Elks are separate races based on gender due to the antlers.  so need to add gender
                 if (SettingsController.Settings.ElkMale)
                 {
-                    defname = pawnKindLabel + "_BetaHumanoids_Beta" + label + "_Male";
+                    defname += "Beta" + label + "_Male_" + pawnKindLabel;
                 } else
                 {
-                    defname = pawnKindLabel + "_BetaHumanoids_Beta" + label + "_Female";
+                    defname += "Beta" + label + "_Female_" + pawnKindLabel;
                 }
             }
-            //createNewPawnKind(PawnKindDef.Named(pawnKindLabel), label, defname);
+            PawnKindDef pkOld = PawnKindDef.Named(pawnKindLabel);
+            if (pkOld.factionLeader)
+            {
+                return null;
+            }
+            CreateNewPawnKind(pkOld, label, defname);
             if (DefDatabase<PawnKindDef>.GetNamedSilentFail(defname) == null)
             {
                 return null;
@@ -209,62 +214,87 @@ namespace BetaHumanoids
                 kind = PawnKindDef.Named(defname)
             };
         }
-        /*
-        private static void createNewPawnKind(PawnKindDef pkOld, string label, string defname)
+
+        private static void CreateNewPawnKind(PawnKindDef pkOld, string label, string defname)
         {
             // if it already exists then don't recreate it
             if (DefDatabase<PawnKindDef>.GetNamedSilentFail(defname) != null)
             {
                 return;
             }
-            PawnKindDef pk = new PawnKindDef();
-            pk.defName = defname;
-            pk.label = pkOld.label + " (" + label + ")";
+            PawnKindDef pk = new PawnKindDef
+            {
+                defName = defname,
+                label = pkOld.label + " (Beta" + label + ")",
 
-            pk.apparelRequired = pkOld.apparelRequired.ListFullCopyOrNull<ThingDef>();
-            pk.apparelTags = pkOld.apparelTags.ListFullCopyOrNull<string>();
-            pk.apparelAllowHeadgearChance = pkOld.apparelAllowHeadgearChance;
-            pk.aiAvoidCover = pkOld.aiAvoidCover;
-            pk.apparelColor = pkOld.apparelColor;
-            pk.apparelIgnoreSeasons = pkOld.apparelIgnoreSeasons;
-            pk.apparelMoney = new FloatRange(min: pkOld.apparelMoney.min, max: pkOld.apparelMoney.max);
-            pk.backstoryCategories = pkOld.backstoryCategories.ListFullCopyOrNull<string>();
-            pk.backstoryCryptosleepCommonality = pkOld.backstoryCryptosleepCommonality;
-            pk.baseRecruitDifficulty = pkOld.baseRecruitDifficulty;
-            pk.canArriveManhunter = pkOld.canArriveManhunter;
-            pk.canBeSapper = pkOld.canBeSapper;
-            pk.chemicalAddictionChance = pkOld.chemicalAddictionChance;
-            pk.combatEnhancingDrugsChance = pkOld.combatEnhancingDrugsChance;
-            pk.combatEnhancingDrugsCount = new IntRange(min: pkOld.combatEnhancingDrugsCount.min, max: pkOld.combatEnhancingDrugsCount.max);
-            pk.combatPower = pkOld.combatPower;
-            pk.defPackage = pkOld.defPackage;
-            pk.defaultFactionType = pkOld.defaultFactionType;
-            pk.description = pkOld.description;
-            pk.destroyGearOnDrop = pkOld.destroyGearOnDrop;
-            pk.ecoSystemWeight = pkOld.ecoSystemWeight;
-            pk.factionLeader = pkOld.factionLeader;
-            pk.fixedInventory = pkOld.fixedInventory.ListFullCopyOrNull<ThingDefCountClass>();
-            pk.fleeHealthThresholdRange = new FloatRange(min: pkOld.fleeHealthThresholdRange.min, max: pkOld.fleeHealthThresholdRange.max);
-            pk.forceNormalGearQuality = pkOld.forceNormalGearQuality;
-            pk.gearHealthRange = new FloatRange(min: pkOld.gearHealthRange.min, max: pkOld.gearHealthRange.max);
-            pk.generated = pkOld.generated;
-            pk.inventoryOptions = pkOld.inventoryOptions;
-            pk.invFoodDef = pkOld.invFoodDef;
-            pk.invNutrition = pkOld.invNutrition;
-            pk.isFighter = pkOld.isFighter;
-            pk.itemQuality = pkOld.itemQuality;
-            pk.lifeStages = pkOld.lifeStages;
-            pk.maxGenerationAge = pkOld.maxGenerationAge;
-            pk.minGenerationAge = pkOld.minGenerationAge;
-            pk.modContentPack = pkOld.modContentPack;
-            pk.modExtensions = pkOld.modExtensions;
+                allowRoyalApparelRequirements = pkOld.allowRoyalApparelRequirements,
+                allowRoyalRoomRequirements = pkOld.allowRoyalRoomRequirements,
+                alternateGraphicChance = pkOld.alternateGraphicChance,
+                alternateGraphics = pkOld.alternateGraphics.ListFullCopyOrNull<AlternateGraphic>(),
+                apparelRequired = pkOld.apparelRequired.ListFullCopyOrNull<ThingDef>(),
+                apparelDisallowTags = pkOld.apparelDisallowTags.ListFullCopyOrNull<string>(),
+                apparelTags = pkOld.apparelTags.ListFullCopyOrNull<string>(),
+                apparelAllowHeadgearChance = pkOld.apparelAllowHeadgearChance,
+                aiAvoidCover = pkOld.aiAvoidCover,
+                apparelColor = pkOld.apparelColor,
+                apparelIgnoreSeasons = pkOld.apparelIgnoreSeasons,
+                apparelMoney = new FloatRange(min: pkOld.apparelMoney.min, max: pkOld.apparelMoney.max),
+                backstoryCategories = pkOld.backstoryCategories.ListFullCopyOrNull<string>(),
+                backstoryFilters = pkOld.backstoryFilters.ListFullCopyOrNull<BackstoryCategoryFilter>(),
+                backstoryFiltersOverride = pkOld.backstoryFiltersOverride.ListFullCopyOrNull<BackstoryCategoryFilter>(),
+                backstoryCryptosleepCommonality = pkOld.backstoryCryptosleepCommonality,
+                baseRecruitDifficulty = pkOld.baseRecruitDifficulty,
+                biocodeWeaponChance = pkOld.biocodeWeaponChance,
+                canArriveManhunter = pkOld.canArriveManhunter,
+                canBeSapper = pkOld.canBeSapper,
+                chemicalAddictionChance = pkOld.chemicalAddictionChance,
+                combatEnhancingDrugsChance = pkOld.combatEnhancingDrugsChance,
+                combatEnhancingDrugsCount = pkOld.combatEnhancingDrugsCount,
+                combatPower = pkOld.combatPower,
+                defaultFactionType = pkOld.defaultFactionType,
+                description = pkOld.description,
+                defendPointRadius = pkOld.defendPointRadius,
+                destroyGearOnDrop = pkOld.destroyGearOnDrop,
+                disallowedTraits = pkOld.disallowedTraits.ListFullCopyOrNull<TraitDef>(),
+                ecoSystemWeight = pkOld.ecoSystemWeight,
+                factionLeader = pkOld.factionLeader,
+                fixedInventory = pkOld.fixedInventory.ListFullCopyOrNull<ThingDefCountClass>(),
+                fleeHealthThresholdRange = new FloatRange(min: pkOld.fleeHealthThresholdRange.min, max: pkOld.fleeHealthThresholdRange.max),
+                forceNormalGearQuality = pkOld.forceNormalGearQuality,
+                gearHealthRange = new FloatRange(min: pkOld.gearHealthRange.min, max: pkOld.gearHealthRange.max),
+                generated = pkOld.generated,
+                inventoryOptions = pkOld.inventoryOptions,
+                invFoodDef = pkOld.invFoodDef,
+                invNutrition = pkOld.invNutrition,
+                isFighter = pkOld.isFighter,
+                itemQuality = pkOld.itemQuality,
+                labelMale = pkOld.labelMale,
+                labelMalePlural = pkOld.labelMalePlural,
+                labelFemale = pkOld.labelFemale,
+                labelFemalePlural = pkOld.labelFemalePlural,
+                labelPlural = pkOld.labelPlural,
+                lifeStages = pkOld.lifeStages.ListFullCopyOrNull<PawnKindLifeStage>(),
+                maxGenerationAge = pkOld.maxGenerationAge,
+                minGenerationAge = pkOld.minGenerationAge,
+                modContentPack = pkOld.modContentPack,
+                modExtensions = pkOld.modExtensions,
+                royalTitleChance = pkOld.royalTitleChance,
+                skills = pkOld.skills.ListFullCopyOrNull<SkillRange>()
+            };
+            pk.specificApparelRequirements = pkOld.specificApparelRequirements.ListFullCopyOrNull<SpecificApparelRequirement>();
             pk.trader = pkOld.trader;
+            pk.titleSelectOne = pkOld.titleSelectOne.ListFullCopyOrNull<RoyalTitleDef>();
+            pk.techHediffsRequired = pkOld.techHediffsRequired.ListFullCopyOrNull<ThingDef>();
             pk.techHediffsChance = pkOld.techHediffsChance;
+            pk.techHediffsMaxAmount = pkOld.techHediffsMaxAmount;
             pk.techHediffsMoney = new FloatRange(min: pkOld.techHediffsMoney.min, max: pkOld.techHediffsMoney.max);
             pk.techHediffsTags = pkOld.techHediffsTags.ListFullCopyOrNull<string>();
+            pk.techHediffsDisallowTags = pkOld.techHediffsDisallowTags.ListFullCopyOrNull<string>();
             pk.weaponMoney = new FloatRange(min: pkOld.weaponMoney.min, max: pkOld.weaponMoney.max);
             pk.weaponTags = pkOld.weaponTags.ListFullCopyOrNull<string>();
             pk.wildGroupSize = pkOld.wildGroupSize;
+            pk.initialResistanceRange = pkOld.initialResistanceRange.GetValueOrDefault();
+            pk.initialWillRange = pkOld.initialWillRange.GetValueOrDefault();
 
             switch (label)
             {
@@ -282,9 +312,6 @@ namespace BetaHumanoids
                     break;
             }
             DefDatabase<PawnKindDef>.Add(pk);
-            DefDatabase<PawnKindDef>.ErrorCheckAllDefs();
-            DefDatabase<PawnKindDef>.ResolveAllReferences();
         }
-        */
     }
 }

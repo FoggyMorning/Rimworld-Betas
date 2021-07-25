@@ -34,7 +34,7 @@ namespace BetaHumanoids
             "Wolf"
         };
         public string[] labels = RaceIdentif;
-        private static int num = RaceIdentif.Length;
+        private readonly static int num = RaceIdentif.Length;
         const float defaultSpawnChance = 1.5f;
         public float[] SpawnChance = Enumerable.Repeat(defaultSpawnChance, num).ToArray();
         public bool IncludeInPirate = false;
@@ -43,7 +43,6 @@ namespace BetaHumanoids
         // Elks are separate races based on gender due to the antlers.  // so need to do twice
         public bool ElkMale = false;
 
-        private Vector2 pos = new Vector2(0, 0);
         public void DoWindowContents(Rect canvas)
         {
             Listing_Standard list = new Listing_Standard
@@ -52,9 +51,6 @@ namespace BetaHumanoids
             };
             list.Begin(canvas);
 
-            Rect scrollView = new Rect(canvas.x, canvas.y, canvas.width + 1.50f, canvas.height );
-
-            list.BeginScrollView(canvas, ref pos, ref scrollView);
 
             list.Gap(60);
             list.GapLine();
@@ -79,7 +75,6 @@ namespace BetaHumanoids
             rect = list.GetRect(Text.LineHeight).LeftPart(0.5f);
             Widgets.CheckboxLabeled(rect, ("BetaHumanoids.IncludeInTribal").Translate(), ref IncludeInTribal);
 
-            list.EndScrollView(ref scrollView);
 
             list.End();
         }

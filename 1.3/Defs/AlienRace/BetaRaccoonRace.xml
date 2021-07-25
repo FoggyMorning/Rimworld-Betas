@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.ThingDef_AlienRace ParentName="BaseBetaPawn">
+    <defName>BetaRaccoon</defName>
+    <label>beta-humanoid (raccoon)</label>
+    <description>A "Beta", a Beta Class Humanoid Lifeform. Part human and part animal. The property of the Corporation that created them. The Galactic Workers Alliance secured semi-human rights for Betas, and now some have purchased their freedom.</description>
+
+    <statBases>
+      <Mass>30</Mass>
+      <LeatherAmount>30</LeatherAmount>
+      <MarketValue>1000</MarketValue>
+      <!-- small boy moves slower -->
+      <MoveSpeed>4.1</MoveSpeed>
+      <CarryingCapacity>30</CarryingCapacity>
+    </statBases>
+
+    <tools>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.07</chanceFactor>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+
+    <alienRace>
+      <thoughtSettings>
+          <cannotReceiveThoughts>
+            <!-- raccoons are famed trash pandas, so lets make them be non-picky eaters -->
+            <li>AteKibble</li>
+            <li>AteInsectMeatDirect</li>
+            <li>AteInsectMeatAsIngredient</li>
+          </cannotReceiveThoughts>
+
+          <ateThoughtSpecific>
+          </ateThoughtSpecific>
+
+          <replacerList>
+          </replacerList>
+      </thoughtSettings>
+
+      <generalSettings>
+        <humanRecipeImport>true</humanRecipeImport>
+        <alienPartGenerator>
+          <alienbodytypes>
+          </alienbodytypes>
+          <customDrawSize>(.65, .65)</customDrawSize>
+          <customHeadDrawSize>(.65,.65)</customHeadDrawSize>
+          <customPortraitDrawSize>(.65,.65)</customPortraitDrawSize>
+          <customPortraitHeadDrawSize>(.65,.65)</customPortraitHeadDrawSize>
+          <headOffset>(0, -.1)</headOffset>
+          <useGenderedHeads>true</useGenderedHeads>
+          <colorChannels>
+            <li>
+              <name>skin</name>
+              <first Class="ColorGenerator_Options">
+            <options>
+              <!-- #7b7e80 to #626566 -->
+              <li>
+                <weight>10</weight>
+                <min>RGBA(0.482, 0.494, 0.501,1)</min>
+                <max>RGBA(0.384, 0.396, 0.4,1)</max>
+              </li>
+            </options>
+              </first>
+              <second Class="AlienRace.ColorGenerator_CustomAlienChannel">
+                  <colorChannel>skin_1</colorChannel>
+              </second>
+            </li>
+          </colorChannels>
+          <bodyAddons>
+            <li>
+              <path>Betas/BetaRaccoon/Head/Ear</path>
+              <bodyPart>AmputatableEar</bodyPart>
+              <drawSize>.65</drawSize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.2 )</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.2 )</Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <Male>( 0.02, 0.0 )</Male>
+                    <Female>(0,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>( -0.1, 0.2 )</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+              <hiddenUnderApparelFor>
+                <li>FullHead</li>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+               
+               
+            </li>
+          </bodyAddons>
+        </alienPartGenerator>
+
+        <forcedRaceTraitEntries>
+          <li>
+            <!-- obvs -->
+            <defName>NightOwl</defName>
+            <chance>100</chance>
+          </li>
+        </forcedRaceTraitEntries>
+      </generalSettings>
+
+
+      <graphicPaths>
+        <li>
+          <head>Betas/BetaRaccoon/Head/</head>
+          <body>Betas/BetaRaccoon/Body/</body>
+        </li>
+      </graphicPaths>
+
+      <styleSettings>
+        <li>
+          <key>HairDef</key>
+          <value>
+            <hasStyle>true</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+      </styleSettings>
+    </alienRace>
+
+    <race>
+      <leatherDef>Leather_Light</leatherDef>
+      <baseBodySize>0.7</baseBodySize>
+      <baseHealthScale>0.7</baseHealthScale>
+      <lifeStageAges>
+        <li>
+          <def>BetaAdult</def>
+          <minAge>18</minAge>
+          <soundWounded>Pawn_Boomrat_Wounded</soundWounded>
+          <soundDeath>Pawn_Boomrat_Death</soundDeath>
+          <soundCall>Pawn_Boomrat_Call</soundCall>
+          <soundAngry>Pawn_Boomrat_Angry</soundAngry>
+        </li>
+
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+  </AlienRace.ThingDef_AlienRace>
+</Defs>

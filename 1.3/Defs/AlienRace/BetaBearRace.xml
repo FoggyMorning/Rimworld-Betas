@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.ThingDef_AlienRace ParentName="BaseBetaPawn">
+    <defName>BetaBear</defName>
+    <label>beta-humanoid (bear)</label>
+    <description>A "Beta", a Beta Class Humanoid Lifeform. Part human and part animal. The property of the Corporation that created them. The Galactic Workers Alliance secured semi-human rights for Betas, and now some have purchased their freedom.</description>
+
+    <statBases>
+      <!-- extra mass -->
+      <Mass>70</Mass>
+      <!-- fur and blubber provide some temp resistance -->
+      <ComfyTemperatureMin>6</ComfyTemperatureMin>
+      <ComfyTemperatureMax>36</ComfyTemperatureMax>
+      <!-- extra leather -->
+      <LeatherAmount>60</LeatherAmount>
+      <!-- extra value -->
+      <MarketValue>2750</MarketValue>
+      <!-- extra carrying capacity -->
+      <CarryingCapacity>80</CarryingCapacity>
+
+      <!--bears are lazy and work slower-->
+      <!--bears are big and scary so have a stronger social impact-->
+      <ResearchSpeed>0.9</ResearchSpeed>
+      <MiningSpeed>0.9</MiningSpeed>
+      <SocialImpact>1.1</SocialImpact>
+      <PlantWorkSpeed>0.9</PlantWorkSpeed>
+      <ConstructionSpeed>0.9</ConstructionSpeed>
+    </statBases>
+
+    <tools>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>powerful bite</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>23.6</power>
+        <cooldownTime>2.6</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.5</chanceFactor>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+
+    <alienRace>
+      <generalSettings>
+        <humanRecipeImport>true</humanRecipeImport>
+        <alienPartGenerator>
+          <aliencrowntypes>
+            <li>Average_Normal</li>
+          </aliencrowntypes>
+          <useGenderedHeads>true</useGenderedHeads>
+          <alienbodytypes>
+          </alienbodytypes>
+          <headOffset>(0,.2)</headOffset>
+          <customDrawSize>( 1.50, 1.50 )</customDrawSize>
+          <customHeadDrawSize>( 1.2, 1.2 )</customHeadDrawSize>
+          <customPortraitDrawSize>( 1.5, 1.5 )</customPortraitDrawSize>
+          <customPortraitHeadDrawSize>( 1.2, 1.2 )</customPortraitHeadDrawSize>
+          <colorChannels>
+            <li>
+                <name>skin</name>
+                <first Class="ColorGenerator_Options">
+                  <options>
+                  <!-- light browns -->
+                    <li>
+                      <weight>20</weight>
+                      <only>RGBA(0.439, 0.369, 0.282)</only>
+                    </li>
+                    <li>
+                      <weight>10</weight>
+                      <only>RGBA(0.592, 0.443, 0.207)</only>
+                    </li>
+                    <li>
+                      <weight>10</weight>
+                      <only>RGBA(0.600, 0.419, 0.360)</only>
+                    </li>
+                    <!-- dark brown -->
+                    <li>
+                      <weight>10</weight>
+                      <only>RGBA(0.345, 0.188, 0.133)</only>
+                    </li>
+                    <!-- black bear -->
+                    <li>
+                      <weight>10</weight>
+                      <only>RGBA(0.219, 0.176, 0.160)</only>
+                    </li>
+                    <!-- polar bear colors -->
+                    <li>
+                      <weight>10</weight>
+                      <only>RGBA(0.780, 0.792, 0.772)</only>
+                    </li>
+                    <li>
+                      <weight>10</weight>
+                      <only>RGBA(0.862, 0.866, 0.847)</only>
+                    </li>
+                  </options>
+                </first>
+                <second Class="AlienRace.ColorGenerator_CustomAlienChannel">
+                    <colorChannel>skin_1</colorChannel>
+                </second>
+            </li>
+          </colorChannels>
+          <bodyAddons>
+            <li>
+              <path>Betas/BetaBear/Head/Ears</path>
+              <bodyPart>AmputatableEar</bodyPart>
+              <drawSize>1.2</drawSize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <crownTypes>
+                    <Average_Normal>( -0.1, 0.3 )</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+              <hiddenUnderApparelFor>
+                <li>FullHead</li>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+            </li>
+          </bodyAddons>
+        </alienPartGenerator>
+
+
+
+        <forcedRaceTraitEntries>
+          <li>
+            <!-- where does a bear beta sleep?  Where ever he/she wants -->
+            <defName>Greedy</defName>
+            <chance>50</chance>
+          </li>
+          <li>
+            <!-- how much food does a bear beta eat? all of it. -->
+            <defName>Gourmand</defName>
+            <chance>50</chance>
+          </li>
+        </forcedRaceTraitEntries>
+      </generalSettings>
+
+
+      <graphicPaths>
+        <li>
+          <head>Betas/BetaBear/Head/</head>
+        </li>
+      </graphicPaths>
+
+
+      <styleSettings>
+        <li>
+          <key>HairDef</key>
+          <value>
+            <hasStyle>true</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+      </styleSettings>
+
+    </alienRace>
+
+    <race>
+      <!-- special leather -->
+      <leatherDef>Leather_Bear</leatherDef>
+      <!-- big bodies -->
+      <baseBodySize>1.5</baseBodySize>
+      <baseHealthScale>1.5</baseHealthScale>
+
+      <lifeStageAges>
+        <li>
+          <def>BetaAdult</def>
+          <minAge>18</minAge>
+          <soundWounded>Pawn_Bear_Injured</soundWounded>
+          <soundDeath>Pawn_Bear_Death</soundDeath>
+          <soundCall>Pawn_Bear_Call</soundCall>
+          <soundAngry>Pawn_Bear_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+
+  </AlienRace.ThingDef_AlienRace>
+</Defs>

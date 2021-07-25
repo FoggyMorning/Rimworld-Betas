@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.ThingDef_AlienRace ParentName="BaseBetaPawn">
+    <defName>BetaLynx</defName>
+    <label>beta-humanoid (lynx)</label>
+    <description>A "Beta", a Beta Class Humanoid Lifeform. Part human and part animal. The property of the Corporation that created them. The Galactic Workers Alliance secured semi-human rights for Betas, and now some have purchased their freedom.</description>
+
+    <statBases>
+      <LeatherAmount>30</LeatherAmount>
+      <MarketValue>1500</MarketValue>
+      <MoveSpeed>4.8</MoveSpeed>
+		  <HuntingStealth>2</HuntingStealth>
+    </statBases>
+
+    <tools>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.02</chanceFactor>
+      </li>
+    </tools>
+
+    <alienRace>
+
+      <generalSettings>
+        <humanRecipeImport>true</humanRecipeImport>
+        <alienPartGenerator>
+          <alienbodytypes>
+          </alienbodytypes>
+          <customDrawSize>(.75, .75)</customDrawSize>
+          <customHeadDrawSize>(.75,.75</customHeadDrawSize>
+          <customPortraitDrawSize>(.75, .75)</customPortraitDrawSize>
+          <customPortraitHeadDrawSize>(.75, .75)</customPortraitHeadDrawSize>
+          <headOffset>(0, -.05)</headOffset>
+          <useGenderedHeads>true</useGenderedHeads>
+          <colorChannels>
+            <li>
+              <name>skin</name>
+              <first Class="ColorGenerator_Options">
+            <options>
+              <!-- #8b6245 -->
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.545, 0.384, 0.270,1)</only>
+              </li>
+              <!--  #8e7652 -->
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.556, 0.462, 0.321,1)</only>
+              </li>
+              <!-- #85754e -->
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.521, 0.458, 0.305,1)</only>
+              </li>
+              <!-- #c7b8a5 -->
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.780, 0.721, 0.647,1)</only>
+              </li>
+              <!-- #f6f3f0 -->
+              <li>
+                <weight>10</weight>
+                <only>RGBA(0.964, 0.952, 0.941,1)</only>
+              </li>
+            </options>
+              </first>
+              <second Class="AlienRace.ColorGenerator_CustomAlienChannel">
+                  <colorChannel>skin_1</colorChannel>
+              </second>
+            </li>
+          </colorChannels>
+          <bodyAddons>
+            <li>
+              <path>Betas/BetaLynx/Head/Ear</path>
+              <bodyPart>AmputatableEar</bodyPart>
+              <inFrontOfBody>true</inFrontOfBody>
+              <drawSize>.75</drawSize>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <Male>(0.0,0.0)</Male>
+                    <Female>(0,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>( -0.1, 0.3 )</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+              <hiddenUnderApparelFor>
+                <li>FullHead</li>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+               
+               
+            </li>
+            <li>
+              <path>Betas/BetaLynx/Head/Fringe</path>
+              <bodyPart>Jaw</bodyPart>
+              <inFrontOfBody>true</inFrontOfBody>
+              <drawSize>.75</drawSize>
+              <offsets>
+                <south>
+              <layerOffset>-.3</layerOffset>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+              <layerOffset>-.3</layerOffset>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+              <layerOffset>-.3</layerOffset>
+                  <bodyTypes>
+                    <Male>(0.05,.00)</Male>
+                    <Female>(0,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+              <hiddenUnderApparelFor>
+                <li>FullHead</li>
+              </hiddenUnderApparelFor>
+               
+               
+            </li>
+          </bodyAddons>
+        </alienPartGenerator>
+
+        <forcedRaceTraitEntries>
+          <li>
+            <!-- vicious predator -->
+            <defName>Psychopath</defName>
+            <commonalityFemale>50</commonalityFemale>
+          </li>
+          <li>
+            <!-- night adapted -->
+            <defName>NightOwl</defName>
+            <chance>50</chance>
+          </li>
+        </forcedRaceTraitEntries>
+
+
+      </generalSettings>
+
+
+      <graphicPaths>
+        <li>
+          <body>Betas/BetaLynx/Body/</body>
+          <head>Betas/BetaLynx/Head/</head>
+        </li>
+      </graphicPaths>
+
+
+      <styleSettings>
+        <li>
+          <key>HairDef</key>
+          <value>
+            <hasStyle>true</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+      </styleSettings>
+
+    </alienRace>
+
+    <race>
+      <leatherDef>Leather_Panthera</leatherDef>
+      <baseBodySize>0.8</baseBodySize>
+      <baseHungerRate>1.0</baseHungerRate>
+      <baseHealthScale>0.8</baseHealthScale>
+      <lifeStageAges>
+        <li>
+          <def>BetaAdult</def>
+          <minAge>18</minAge>
+          <soundWounded>Pawn_Cougar_Injured</soundWounded>
+          <soundDeath>Pawn_Cougar_Death</soundDeath>
+          <soundAngry>Pawn_Cougar_Angry</soundAngry>
+        </li>
+
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+  </AlienRace.ThingDef_AlienRace>
+</Defs>
