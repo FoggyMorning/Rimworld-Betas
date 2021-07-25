@@ -168,7 +168,7 @@
                 </north>
                 <east>
                   <crownTypes>
-                    <Average_Normal>( -0.09, 0.28 )</Average_Normal>
+                    <Average_Normal>( -0.2, 0.3 )</Average_Normal>
                     <Bear_VHD>( -0.15, 0.3 )</Bear_VHD>
                   </crownTypes>
                 </east>
@@ -203,7 +203,7 @@
                 </north>
                 <east>
                   <crownTypes>
-                    <Average_Normal>( -0.09, 0.28 )</Average_Normal>
+                    <Average_Normal>( -0.2, 0.3 )</Average_Normal>
                     <!-- <Bear_VHD>( -0.15, 0.3 )</Bear_VHD> -->
                   </crownTypes>
                 </east>

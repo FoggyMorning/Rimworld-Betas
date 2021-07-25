@@ -122,7 +122,7 @@
                   </crownTypes>
                 </north>
                 <east>
-                  <layerOffset>-0.3</layerOffset>
+                  <layerOffset>-0.25</layerOffset>
                   <bodyTypes>
                     <Male>( 0.02, 0.0 )</Male>
                     <Female>(0,0)</Female>
@@ -131,7 +131,7 @@
                     <Hulk>(0,0)</Hulk>
                   </bodyTypes>
                   <crownTypes>
-                    <Average_Normal>( -0.1, 0.2 )</Average_Normal>
+                    <Average_Normal>( -0.2, 0.2 )</Average_Normal>
                   </crownTypes>
                 </east>
               </offsets>
@@ -163,7 +163,7 @@
                   </crownTypes>
                 </north>
                 <east>
-                  <layerOffset>-0.3</layerOffset>
+                  <layerOffset>-0.25</layerOffset>
                   <bodyTypes>
                     <Male>( 0.02, 0.0 )</Male>
                     <Female>(0,0)</Female>
@@ -172,7 +172,7 @@
                     <Hulk>(0,0)</Hulk>
                   </bodyTypes>
                   <crownTypes>
-                    <Average_Normal>( -0.1, 0.2 )</Average_Normal>
+                    <Average_Normal>( -0.2, 0.2 )</Average_Normal>
                   </crownTypes>
                 </east>
               </offsets>
