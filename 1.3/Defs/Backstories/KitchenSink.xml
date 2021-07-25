@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+  <AlienRace.BackstoryDef>
+    <defName>BetaHumanoids_BackStory_Child_Laborer</defName>
+    <title>Tradesperson</title>
+    <titleShort>Tradesperson</titleShort>
+    <baseDescription>[PAWN_nameDef] was bioengineered and birthed fully grown already enslaved by the corporations.  
+They emerged from the birthing vats with a basic level of education in skills useful to their masters.</baseDescription>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <disallowedTraits>
+      <li>
+        <defName>Industriousness</defName>
+        <degree>-1</degree>
+      </li>
+      <li>
+        <defName>Industriousness</defName>
+        <degree>-2</degree>
+      </li>
+    </disallowedTraits>
+    <requiredWorkTags>
+      <li>ManualSkilled</li>
+      <li>Crafting</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>BetaHumanoids_BackStory_SpawnCategory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>BetaHumanoids_BackStory_Child_Medic</defName>
+    <title>CorpSec Medic</title>
+    <titleShort>Medic</titleShort>
+    <baseDescription>CorpSec Medics serve in the Corporate security and armed forces attached to provide first aid and battlefield triage.  On Justifier teams they are indespinsible as medics.  Medics start life as Junior Officers and with luck can afford their buyback from the Corps after a full career.</baseDescription>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Medicine</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Caring</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>BetaHumanoids_BackStory_SpawnCategory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+
+  <AlienRace.BackstoryDef>
+    <defName>BetaHumanoids_BackStory_Child_Scout</defName>
+    <title>CorpSec Scout</title>
+    <titleShort>Scout</titleShort>
+    <baseDescription>CorpSec scouts serve in the Corporate security and armed forces as mobile light infantry.  On Justifier teams their skills as scouts, hunters, and knowledge of foraging are greatly prized.</baseDescription>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Animals</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <disallowedTraits>
+      <li>
+        <defName>Undergrounder</defName>
+      </li>
+      <li>
+        <defName>SpeedOffset</defName>
+        <degree>-1</degree>
+      </li>
+    </disallowedTraits>
+    <spawnCategories>
+      <li>BetaHumanoids_BackStory_SpawnCategory</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>BetaHumanoids_BackStory_Child_Soldier</defName>
+    <title>Corporate Security</title>
+    <titleShort>CorpSec</titleShort>
+    <baseDescription>[PAWN_nameDef] was bioengineered and birthed fully grown already enslaved by the corporations.  
+They emerged from the birthing vats with a basic level of education in skills useful to their masters.</baseDescription>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>BetaHumanoids_BackStory_SpawnCategory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+
+  <AlienRace.BackstoryDef>
+    <defName>BetaHumanoids_BackStory_Child_Student</defName>
+    <title>Student</title>
+    <titleShort>Student</titleShort>
+    <baseDescription>[PAWN_nameDef] was bioengineered and birthed fully grown already enslaved by the corporations.  
+They emerged from the birthing vats with a basic level of education in skills useful to their masters. 
+Some are then sent directly to advanced schools to learn complex subjects like engineering and science.</baseDescription>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <disallowedTraits>
+      <li>
+        <defName>SlowLearner</defName>
+      </li>
+    </disallowedTraits>
+    <spawnCategories>
+      <li>BetaHumanoids_BackStory_SpawnCategory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+
+  <AlienRace.BackstoryDef>
+    <defName>BetaHumanoids_BackStory_Adult_LifeScientist</defName>
+    <title>Life Scientist</title>
+    <titleShort>Biologist</titleShort>
+    <baseDescription>After emerging from the corporate college, [PAWN_nameDef] was assigned to a research team that specialized in the life sciences.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Caring</li>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>BetaHumanoids_BackStory_SpawnCategory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>BetaHumanoids_BackStory_Adult_Geology</defName>
+    <title>Earth Scientist</title>
+    <titleShort>Geologist</titleShort>
+    <baseDescription>After emerging from the corporate college, [PAWN_nameDef] was assigned to a research team that specialized in the earth sciences.</baseDescription>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Mining</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>BetaHumanoids_BackStory_SpawnCategory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+  <AlienRace.BackstoryDef>
+    <defName>BetaHumanoids_BackStory_Adult_Enlisted</defName>
+    <title>Corporate Soldier</title>
+    <titleShort>Soldier</titleShort>
+    <baseDescription>[PAWN_nameDef] served as a soldier in the coporate armies and survived multiple battles. Desipite never making it to an officer's rank they managed to get enough hazard pay to buy their freedom.</baseDescription>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <spawnCategories>
+      <li>BetaHumanoids_BackStory_SpawnCategory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+<!-- 
+  <AlienRace.BackstoryDef>
+    <defName>BetaHumanoids_ExampleBackstorySoldier</defName>
+    <title>Soldier of the Empire</title>
+    <titleShort>Soldier</titleShort>
+    <baseDescription>[PAWN_nameDef] is a soldier for the Empire</baseDescription>
+    <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>BetaHumanoids_BackStory_SpawnCategory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+      <li>
+        <defName>Beauty</defName>
+        <degree>2</degree>
+        <chance>50</chance>
+      </li>
+      <li>
+        <defName>Gay</defName>
+        <chance>50</chance>
+      </li>
+      <li>
+        <defName>Psychopath</defName>
+      </li>
+    </forcedTraits>
+    <disallowedTraits>
+      <li>
+        <defName>SpeedOffset</defName>
+        <degree>2</degree>
+        <chance>50</chance>
+      </li>
+      <li>
+        <defName>Kind</defName>
+        <chance>50</chance>
+      </li>
+      <li>
+        <defName>Bloodlust</defName>
+      </li>
+    </disallowedTraits>
+    <workDisables>
+      <li>Artistic</li>
+    </workDisables>
+    <workAllows>
+      <li>Animals</li>
+    </workAllows>
+    <maleCommonality>50</maleCommonality>
+    <femaleCommonality>50</femaleCommonality>
+    <linkedBackstory>RandomBackstoryDefname</linkedBackstory>
+    <relationSettings>
+    </relationSettings>
+    <forcedHediffs>
+      <li>hediffName</li>
+    </forcedHediffs>
+    <forcedItems>
+      <Luciferium>7~25</Luciferium>
+    </forcedItems>
+    <bioAgeRange>
+      <min>15</min>
+      <max>70</max>
+    </bioAgeRange>
+    <chronoAgeRange>
+      <min>15</min>
+      <max>70</max>
+    </chronoAgeRange>
+
+  </AlienRace.BackstoryDef> -->
+
+
+</Defs>
