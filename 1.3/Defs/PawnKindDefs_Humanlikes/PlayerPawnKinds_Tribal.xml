@@ -22,14 +22,14 @@
     <combatPower>40</combatPower>
     <defName>BetaCrocPlayer_Tribal</defName>
     <race>BetaCroc</race>
-    <label>member (croc beta)</label>
+    <label>member (crocodile beta)</label>
   </PawnKindDef>
   <PawnKindDef ParentName="BasePlayerBetaPawnKind_Tribal">
     <defaultFactionType>TribeCivil</defaultFactionType>
     <combatPower>40</combatPower>
     <defName>BetaCrocPlayer_Tribal_PrepareCarefully</defName>
     <race>BetaCroc</race>
-    <label>member (croc beta)</label>
+    <label>member (crocodile beta)</label>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BasePlayerBetaPawnKind_Tribal">
@@ -75,25 +75,25 @@
   <PawnKindDef ParentName="BasePlayerBetaPawnKind_Tribal">
     <defaultFactionType>TribeCivil</defaultFactionType>
     <combatPower>35</combatPower>
-    <defName>BetaElkPlayer_Male_Tribal_PrepareCarefully</defName>
+    <defName>BetaElk_MalePlayer_Tribal_PrepareCarefully</defName>
     <race>BetaElk_Male</race>
     <label>member (elk beta)</label>
   </PawnKindDef>
   <PawnKindDef ParentName="BasePlayerBetaPawnKind_Tribal">
     <combatPower>35</combatPower>
-    <defName>BetaElkPlayer_Male_Tribal</defName>
+    <defName>BetaElk_MalePlayer_Tribal</defName>
     <race>BetaElk_Male</race>
     <label>member (elk beta)</label>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BasePlayerBetaPawnKind_Tribal">
     <defaultFactionType>TribeCivil</defaultFactionType>
-    <defName>BetaElkPlayer_Female_Tribal_PrepareCarefully</defName>
+    <defName>BetaElk_FemalePlayer_Tribal_PrepareCarefully</defName>
     <race>BetaElk_Female</race>
     <label>member (elk beta)</label>
   </PawnKindDef>
   <PawnKindDef ParentName="BasePlayerBetaPawnKind_Tribal">
-    <defName>BetaElkPlayer_Female_Tribal</defName>
+    <defName>BetaElk_FemalePlayer_Tribal</defName>
     <race>BetaElk_Female</race>
     <label>member (elk beta)</label>
   </PawnKindDef>

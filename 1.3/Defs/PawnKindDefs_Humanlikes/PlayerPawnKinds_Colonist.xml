@@ -20,7 +20,6 @@
     <initialResistanceRange>13~21</initialResistanceRange>
   </PawnKindDef>
 
-
   <PawnKindDef ParentName="BasePlayerBetaPawnKind">
     <combatPower>40</combatPower>
     <defName>BetaBearPlayer</defName>
@@ -43,13 +42,13 @@
 
   <PawnKindDef ParentName="BasePlayerBetaPawnKind">
     <combatPower>35</combatPower>
-    <defName>BetaElkPlayer_Male</defName>
+    <defName>BetaElk_MalePlayer</defName>
     <race>BetaElk_Male</race>
     <label>colonist (elk beta)</label>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BasePlayerBetaPawnKind">
-    <defName>BetaElkPlayer_Female</defName>
+    <defName>BetaElk_FemalePlayer</defName>
     <race>BetaElk_Female</race>
     <label>colonist (elk beta)</label>
   </PawnKindDef>
@@ -94,9 +93,8 @@
     <combatPower>40</combatPower>
     <defName>BetaCrocPlayer</defName>
     <race>BetaCroc</race>
-    <label>colonist (croc beta)</label>
+    <label>colonist (crocodile beta)</label>
   </PawnKindDef>
-
   
   <PawnKindDef ParentName="BasePlayerBetaPawnKind">
     <defaultFactionType>OutlanderCivil</defaultFactionType>
@@ -124,28 +122,28 @@
   <PawnKindDef ParentName="BasePlayerBetaPawnKind">
     <defaultFactionType>OutlanderCivil</defaultFactionType>
     <combatPower>35</combatPower>
-    <defName>BetaElkPlayer_Male_PrepareCarefully</defName>
+    <defName>BetaElk_MalePlayer_PrepareCarefully</defName>
     <race>BetaElk_Male</race>
     <label>colonist (elk beta)</label>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BasePlayerBetaPawnKind">
     <defaultFactionType>OutlanderCivil</defaultFactionType>
-    <defName>BetaElkPlayer_Female_PrepareCarefully</defName>
+    <defName>BetaElk_FemalePlayer_PrepareCarefully</defName>
     <race>BetaElk_Female</race>
     <label>colonist (elk beta)</label>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BasePlayerBetaPawnKind">
     <defaultFactionType>OutlanderCivil</defaultFactionType>
-    <defName>BetaFoxPlayer_PrepareCarefully</defName>
+    <defName>BetaFoxPlayerPrepareCarefully</defName>
     <race>BetaFox</race>
     <label>colonist (fox beta)</label>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BasePlayerBetaPawnKind">
     <defaultFactionType>OutlanderCivil</defaultFactionType>
-    <defName>BetaGazellePlayer_PrepareCarefully</defName>
+    <defName>BetaGazellePlayerPrepareCarefully</defName>
     <race>BetaGazelle</race>
     <label>colonist (gazelle beta)</label>
   </PawnKindDef>
@@ -183,7 +181,7 @@
     <combatPower>40</combatPower>
     <defName>BetaCrocPlayer_PrepareCarefully</defName>
     <race>BetaCroc</race>
-    <label>colonist (croc beta)</label>
+    <label>colonist (crocodile beta)</label>
   </PawnKindDef>
 </Defs>
 
