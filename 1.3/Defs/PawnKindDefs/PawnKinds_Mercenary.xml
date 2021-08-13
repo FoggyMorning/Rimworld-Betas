@@ -210,7 +210,8 @@
     <label>smoke grenadier (beta-wolf)</label>
     <defName>BetaWolf_Grenadier_Smoke</defName>
   </PawnKindDef>
-  <PawnKindDef Abstract="True" Name="BetaHumanoids_Mercenary_Gunner" ParentName="MercenaryGunnerBase">
+  <PawnKindDef Abstract="True" Name="BetaHumanoids_Mercenary_Gunner"
+    ParentName="MercenaryGunnerBase">
     <defName>BetaHumanoids_Mercenary_Gunner</defName>
     <initialResistanceRange>6~10</initialResistanceRange>
   </PawnKindDef>
@@ -274,7 +275,8 @@
     <label>mercenary gunner (beta-wolf)</label>
     <defName>BetaWolf_Mercenary_Gunner</defName>
   </PawnKindDef>
-  <PawnKindDef Abstract="True" Name="BetaHumanoids_Mercenary_Gunner_Acidifier" ParentName="MercenaryGunnerBase">
+  <PawnKindDef Abstract="True" Name="BetaHumanoids_Mercenary_Gunner_Acidifier"
+    ParentName="MercenaryGunnerBase">
     <defName>BetaHumanoids_Mercenary_Gunner_Acidifier</defName>
     <techHediffsRequired>
       <li>DeathAcidifier</li>
@@ -341,7 +343,8 @@
     <label>mercenary gunner (beta-wolf)</label>
     <defName>BetaWolf_Mercenary_Gunner_Acidifier</defName>
   </PawnKindDef>
-  <PawnKindDef Abstract="True" Name="BetaHumanoids_Mercenary_Sniper" ParentName="MercenarySniperBase">
+  <PawnKindDef Abstract="True" Name="BetaHumanoids_Mercenary_Sniper"
+    ParentName="MercenarySniperBase">
     <defName>BetaHumanoids_Mercenary_Sniper</defName>
     <initialResistanceRange>13~20</initialResistanceRange>
   </PawnKindDef>
@@ -405,7 +408,8 @@
     <label>mercenary sniper (beta-wolf)</label>
     <defName>BetaWolf_Mercenary_Sniper</defName>
   </PawnKindDef>
-  <PawnKindDef Abstract="True" Name="BetaHumanoids_Mercenary_Sniper_Acidifier" ParentName="MercenarySniperBase">
+  <PawnKindDef Abstract="True" Name="BetaHumanoids_Mercenary_Sniper_Acidifier"
+    ParentName="MercenarySniperBase">
     <defName>BetaHumanoids_Mercenary_Sniper_Acidifier</defName>
     <techHediffsRequired>
       <li>DeathAcidifier</li>
@@ -472,7 +476,8 @@
     <label>mercenary sniper (beta-wolf)</label>
     <defName>BetaWolf_Mercenary_Sniper_Acidifier</defName>
   </PawnKindDef>
-  <PawnKindDef Abstract="True" Name="BetaHumanoids_Mercenary_Slasher" ParentName="MercenarySlasherBase">
+  <PawnKindDef Abstract="True" Name="BetaHumanoids_Mercenary_Slasher"
+    ParentName="MercenarySlasherBase">
     <defName>BetaHumanoids_Mercenary_Slasher</defName>
     <initialResistanceRange>10~16</initialResistanceRange>
   </PawnKindDef>
@@ -536,7 +541,8 @@
     <label>mercenary slasher (beta-wolf)</label>
     <defName>BetaWolf_Mercenary_Slasher</defName>
   </PawnKindDef>
-  <PawnKindDef Abstract="True" Name="BetaHumanoids_Mercenary_Slasher_Acidifier" ParentName="MercenarySlasherBase">
+  <PawnKindDef Abstract="True" Name="BetaHumanoids_Mercenary_Slasher_Acidifier"
+    ParentName="MercenarySlasherBase">
     <defName>BetaHumanoids_Mercenary_Slasher_Acidifier</defName>
     <techHediffsRequired>
       <li>DeathAcidifier</li>
@@ -603,7 +609,8 @@
     <label>mercenary slasher (beta-wolf)</label>
     <defName>BetaWolf_Mercenary_Slasher_Acidifier</defName>
   </PawnKindDef>
-  <PawnKindDef Abstract="True" Name="BetaHumanoids_Mercenary_Heavy" ParentName="MercenaryMidTierBase">
+  <PawnKindDef Abstract="True" Name="BetaHumanoids_Mercenary_Heavy"
+    ParentName="MercenaryMidTierBase">
     <defName>BetaHumanoids_Mercenary_Heavy</defName>
     <label>heavy mercenary</label>
     <labelPlural>heavy mercenaries</labelPlural>
@@ -818,7 +825,8 @@
     <label>elite mercenary (beta-wolf)</label>
     <defName>BetaWolf_Mercenary_Elite</defName>
   </PawnKindDef>
-  <PawnKindDef Abstract="True" Name="BetaHumanoids_Mercenary_Elite_Acidifier" ParentName="MercenaryEliteBase">
+  <PawnKindDef Abstract="True" Name="BetaHumanoids_Mercenary_Elite_Acidifier"
+    ParentName="MercenaryEliteBase">
     <defName>BetaHumanoids_Mercenary_Elite_Acidifier</defName>
     <techHediffsRequired>
       <li>DeathAcidifier</li>

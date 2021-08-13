@@ -96,6 +96,7 @@
       <generalSettings>
         <humanRecipeImport>true</humanRecipeImport>
         <alienPartGenerator>
+          <borderScale>3</borderScale>
           <aliencrowntypes>
             <li>Average_Normal</li>
           </aliencrowntypes>
@@ -137,7 +138,7 @@
               <hiddenUnderApparelFor>
                 <li>UpperHead</li>
               </hiddenUnderApparelFor>
-              <hiddenUnderApparelTag >
+              <hiddenUnderApparelTag>
                 <li>BetaHumanoids_EarsTag</li>
               </hiddenUnderApparelTag>
             </li>
@@ -171,7 +172,7 @@
               <hiddenUnderApparelFor>
                 <li>UpperHead</li>
               </hiddenUnderApparelFor>
-              <hiddenUnderApparelTag >
+              <hiddenUnderApparelTag>
                 <li>BetaHumanoids_EarsTag</li>
               </hiddenUnderApparelTag>
             </li>
