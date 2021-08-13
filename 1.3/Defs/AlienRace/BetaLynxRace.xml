@@ -158,10 +158,6 @@
                   </crownTypes>
                 </east>
               </offsets>
-              <hiddenUnderApparelFor>
-                <li>FullHead</li>
-                <li>UpperHead</li>
-              </hiddenUnderApparelFor>
                
                
             </li>
@@ -197,9 +193,6 @@
                   </crownTypes>
                 </east>
               </offsets>
-              <hiddenUnderApparelFor>
-                <li>FullHead</li>
-              </hiddenUnderApparelFor>
                
                
             </li>

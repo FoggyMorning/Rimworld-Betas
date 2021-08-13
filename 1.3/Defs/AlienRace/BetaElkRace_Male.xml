@@ -17,59 +17,59 @@
 
     <tools>
       <li>
-          <label>left fist</label>
-          <capacities>
-              <li>Blunt</li>
-          </capacities>
-          <power>8.2</power>
-          <cooldownTime>2</cooldownTime>
-          <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
-          <surpriseAttack>
-              <extraMeleeDamages>
-                  <li>
-                      <def>Stun</def>
-                      <amount>14</amount>
-                  </li>
-              </extraMeleeDamages>
-          </surpriseAttack>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
       </li>
       <li>
-          <label>right fist</label>
-          <capacities>
-              <li>Blunt</li>
-          </capacities>
-          <power>8.2</power>
-          <cooldownTime>2</cooldownTime>
-          <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
-          <surpriseAttack>
-              <extraMeleeDamages>
-                  <li>
-                      <def>Stun</def>
-                      <amount>14</amount>
-                  </li>
-              </extraMeleeDamages>
-          </surpriseAttack>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
       </li>
       <li>
-          <label>teeth</label>
-          <capacities>
-              <li>Bite</li>
-          </capacities>
-          <power>8.2</power>
-          <cooldownTime>2</cooldownTime>
-          <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-          <chanceFactor>0.07</chanceFactor>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.07</chanceFactor>
       </li>
       <li>
-          <label>head</label>
-          <capacities>
-              <li>Blunt</li>
-          </capacities>
-          <power>5</power>
-          <cooldownTime>2</cooldownTime>
-          <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-          <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-          <chanceFactor>0.2</chanceFactor>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
       </li>
       <li>
         <label>Antlers</label>
@@ -83,12 +83,12 @@
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.5</chanceFactor>
         <surpriseAttack>
-            <extraMeleeDamages>
-                <li>
-                    <def>Stun</def>
-                    <amount>14</amount>
-                </li>
-            </extraMeleeDamages>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
         </surpriseAttack>
       </li>
     </tools>
@@ -100,6 +100,7 @@
           <li>BetaElk_Female</li>
         </notXenophobistTowards>
         <alienPartGenerator>
+          <borderScale>3</borderScale>
           <alienbodytypes>
           </alienbodytypes>
           <useGenderedHeads>true</useGenderedHeads>
@@ -107,36 +108,36 @@
             <li>
               <name>skin</name>
               <first Class="ColorGenerator_Options">
-            <options>
-              <!-- #7f725d -->
-              <li>
-                <weight>10</weight>
-                <only>RGBA(0.498, 0.447, 0.364,1)</only>
-              </li>
-              <!-- #ba8759 -->
-              <li>
-                <weight>10</weight>
-                <only>RGBA(0.729, 0.529, 0.349,1)</only>
-              </li>
-              <!-- #958772 -->
-              <li>
-                <weight>10</weight>
-                <only>RGBA(0.584, 0.529, 0.447,1)</only>
-              </li>
-              <!-- #836d55 -->
-              <li>
-                <weight>10</weight>
-                <only>RGBA(0.513, 0.427, 0.333,1)</only>
-              </li>
-              <!-- #7e5a58 -->
-              <li>
-                <weight>10</weight>
-                <only>RGBA(0.494, 0.352, 0.345,1)</only>
-              </li>
-            </options>
+                <options>
+                  <!-- #7f725d -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.498, 0.447, 0.364,1)</only>
+                  </li>
+                  <!-- #ba8759 -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.729, 0.529, 0.349,1)</only>
+                  </li>
+                  <!-- #958772 -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.584, 0.529, 0.447,1)</only>
+                  </li>
+                  <!-- #836d55 -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.513, 0.427, 0.333,1)</only>
+                  </li>
+                  <!-- #7e5a58 -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.494, 0.352, 0.345,1)</only>
+                  </li>
+                </options>
               </first>
               <second Class="AlienRace.ColorGenerator_CustomAlienChannel">
-                  <colorChannel>skin_1</colorChannel>
+                <colorChannel>skin_1</colorChannel>
               </second>
             </li>
           </colorChannels>
@@ -149,19 +150,19 @@
               <inFrontOfBody>true</inFrontOfBody>
               <offsets>
                 <south>
-              <layerOffset>-0.01</layerOffset>
+                  <layerOffset>-0.01</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.8 )</Average_Normal>
                   </crownTypes>
                 </south>
                 <north>
-              <layerOffset>-0.01</layerOffset>
+                  <layerOffset>-0.01</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.8 )</Average_Normal>
                   </crownTypes>
                 </north>
                 <east>
-              <layerOffset>-0.01</layerOffset>
+                  <layerOffset>-0.01</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.8 )</Average_Normal>
                   </crownTypes>
@@ -190,10 +191,6 @@
                   </crownTypes>
                 </east>
               </offsets>
-              <hiddenUnderApparelFor>
-                <li>FullHead</li>
-                <li>UpperHead</li>
-              </hiddenUnderApparelFor>
             </li>
           </bodyAddons>
         </alienPartGenerator>

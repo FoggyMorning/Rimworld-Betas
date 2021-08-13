@@ -97,6 +97,7 @@
       <generalSettings>
         <humanRecipeImport>true</humanRecipeImport>
         <alienPartGenerator>
+        <borderScale>2</borderScale>
           <aliencrowntypes>
             <li>Average_Normal</li>
           </aliencrowntypes>
@@ -110,46 +111,46 @@
           <customPortraitHeadDrawSize>( 1.2, 1.2 )</customPortraitHeadDrawSize>
           <colorChannels>
             <li>
-                <name>skin</name>
-                <first Class="ColorGenerator_Options">
-                  <options>
+              <name>skin</name>
+              <first Class="ColorGenerator_Options">
+                <options>
                   <!-- light browns -->
-                    <li>
-                      <weight>20</weight>
-                      <only>RGBA(0.439, 0.369, 0.282)</only>
-                    </li>
-                    <li>
-                      <weight>10</weight>
-                      <only>RGBA(0.592, 0.443, 0.207)</only>
-                    </li>
-                    <li>
-                      <weight>10</weight>
-                      <only>RGBA(0.600, 0.419, 0.360)</only>
-                    </li>
-                    <!-- dark brown -->
-                    <li>
-                      <weight>10</weight>
-                      <only>RGBA(0.345, 0.188, 0.133)</only>
-                    </li>
-                    <!-- black bear -->
-                    <li>
-                      <weight>10</weight>
-                      <only>RGBA(0.219, 0.176, 0.160)</only>
-                    </li>
-                    <!-- polar bear colors -->
-                    <li>
-                      <weight>10</weight>
-                      <only>RGBA(0.780, 0.792, 0.772)</only>
-                    </li>
-                    <li>
-                      <weight>10</weight>
-                      <only>RGBA(0.862, 0.866, 0.847)</only>
-                    </li>
-                  </options>
-                </first>
-                <second Class="AlienRace.ColorGenerator_CustomAlienChannel">
-                    <colorChannel>skin_1</colorChannel>
-                </second>
+                  <li>
+                    <weight>20</weight>
+                    <only>RGBA(0.439, 0.369, 0.282)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.592, 0.443, 0.207)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.600, 0.419, 0.360)</only>
+                  </li>
+                  <!-- dark brown -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.345, 0.188, 0.133)</only>
+                  </li>
+                  <!-- black bear -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.219, 0.176, 0.160)</only>
+                  </li>
+                  <!-- polar bear colors -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.780, 0.792, 0.772)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.862, 0.866, 0.847)</only>
+                  </li>
+                </options>
+              </first>
+              <second Class="AlienRace.ColorGenerator_CustomAlienChannel">
+                <colorChannel>skin_1</colorChannel>
+              </second>
             </li>
           </colorChannels>
           <bodyAddons>
@@ -161,7 +162,7 @@
               <offsets>
                 <south>
                   <crownTypes>
-                    <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                    <Average_Normal>( 0.0, 0.5 )</Average_Normal>
                   </crownTypes>
                 </south>
                 <north>
@@ -171,14 +172,10 @@
                 </north>
                 <east>
                   <crownTypes>
-                    <Average_Normal>( -0.1, 0.3 )</Average_Normal>
+                    <Average_Normal>( -0.18, 0.4 )</Average_Normal>
                   </crownTypes>
                 </east>
               </offsets>
-              <hiddenUnderApparelFor>
-                <li>FullHead</li>
-                <li>UpperHead</li>
-              </hiddenUnderApparelFor>
             </li>
           </bodyAddons>
         </alienPartGenerator>

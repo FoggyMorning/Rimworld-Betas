@@ -76,6 +76,11 @@
       <generalSettings>
         <humanRecipeImport>true</humanRecipeImport>
         <alienPartGenerator>
+          <aliencrowntypes>
+            <li>Average_Normal</li>
+            <li>Average_Normal1</li>
+          </aliencrowntypes>
+          <useGenderedHeads>true</useGenderedHeads>
           <alienbodytypes>
           </alienbodytypes>
           <customDrawSize>(.75, .75)</customDrawSize>
@@ -83,41 +88,40 @@
           <customPortraitDrawSize>(.75, .75)</customPortraitDrawSize>
           <customPortraitHeadDrawSize>(.75,.75)</customPortraitHeadDrawSize>
           <headOffset>(0,-.05)</headOffset>
-          <useGenderedHeads>true</useGenderedHeads>
           <colorChannels>
             <li>
               <name>skin</name>
               <first Class="ColorGenerator_Options">
-            <options>
-              <!-- #64120c -->
-              <li>
-                <weight>10</weight>
-                <only>RGBA(0.392, 0.070, 0.047,1)</only>
-              </li>
-              <!-- #985629 -->
-              <li>
-                <weight>90</weight>
-                <only>RGBA(0.596, 0.337, 0.160,1)</only>
-              </li>
-              <!-- #a87a65 -->
-              <li>
-                <weight>90</weight>
-                <only>RGBA(0.658, 0.478, 0.396,1)</only>
-              </li>
-              <!-- #50453f -->
-              <li>
-                <weight>90</weight>
-                <only>RGBA(0.313, 0.270, 0.247,1)</only>
-              </li>
-              <!-- #773d38 -->
-              <li>
-                <weight>90</weight>
-                <only>RGBA(0.466, 0.239, 0.219,1)</only>
-              </li>
-            </options>
+                <options>
+                  <!-- #64120c -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.392, 0.070, 0.047,1)</only>
+                  </li>
+                  <!-- #985629 -->
+                  <li>
+                    <weight>90</weight>
+                    <only>RGBA(0.596, 0.337, 0.160,1)</only>
+                  </li>
+                  <!-- #a87a65 -->
+                  <li>
+                    <weight>90</weight>
+                    <only>RGBA(0.658, 0.478, 0.396,1)</only>
+                  </li>
+                  <!-- #50453f -->
+                  <li>
+                    <weight>90</weight>
+                    <only>RGBA(0.313, 0.270, 0.247,1)</only>
+                  </li>
+                  <!-- #773d38 -->
+                  <li>
+                    <weight>90</weight>
+                    <only>RGBA(0.466, 0.239, 0.219,1)</only>
+                  </li>
+                </options>
               </first>
               <second Class="AlienRace.ColorGenerator_CustomAlienChannel">
-                  <colorChannel>skin_1</colorChannel>
+                <colorChannel>skin_1</colorChannel>
               </second>
             </li>
           </colorChannels>
@@ -129,31 +133,39 @@
               <inFrontOfBody>true</inFrontOfBody>
               <offsets>
                 <south>
-                  <crownTypes> 
+                  <crownTypes>
                     <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                    <Average_Normal1>( 0.0, 0.3 )</Average_Normal1>
                   </crownTypes>
                 </south>
                 <north>
+                  <bodyTypes>
+                    <Male>(0.0, 0.04)</Male>
+                    <Female>(0,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
                   <crownTypes>
-                    <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                    <Average_Normal>( 0.0, 0.305 )</Average_Normal>
+                    <Average_Normal1>( 0.0, 0.305 )</Average_Normal1>
                   </crownTypes>
                 </north>
                 <east>
-									<bodyTypes>
-										<Male>(.04,0)</Male>
-										<Female>(0,0)</Female>
-										<Fat>(0,0)</Fat>
-										<Thin>(0,0)</Thin>
-										<Hulk>(0,0)</Hulk>
-									</bodyTypes>
+                  <bodyTypes>
+                    <Male>(-0.043,-0.0014)</Male>
+                    <Female>(-0.05,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
                   <crownTypes>
-                    <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                    <Average_Normal>( -0.06, 0.28 )</Average_Normal>
+                    <Average_Normal1>( -0.06, 0.28 )</Average_Normal1>
                   </crownTypes>
                 </east>
               </offsets>
               <hiddenUnderApparelFor>
-                <li>FullHead</li>
-                <li>UpperHead</li>
               </hiddenUnderApparelFor>
             </li>
           </bodyAddons>

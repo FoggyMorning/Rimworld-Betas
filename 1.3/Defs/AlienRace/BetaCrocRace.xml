@@ -109,47 +109,47 @@
           <customPortraitHeadDrawSize>( 1, 1 )</customPortraitHeadDrawSize>
           <colorChannels>
             <li>
-                <name>skin</name>
-                <first Class="ColorGenerator_Options">
-                  <options>
-                    <!-- dark green #245c26-->
-                    <li>
-                      <weight>10</weight>
-                      <only>RGBA(0.141, 0.360, 0.149,1)</only>
-                    </li>
-                    <!-- dark green #468b46 -->
-                    <li>
-                      <weight>10</weight>
-                      <only>RGBA(0.274, 0.545, 0.274,1)</only>
-                    </li>
-                    <!-- dark green #638c65 -->
-                    <li>
-                      <weight>10</weight>
-                      <only>RGBA(0.388, 0.549, 0.396,1)</only>
-                    </li>
-                  </options>
-                </first>
-                <second Class="ColorGenerator_Options">
-                  <options>
-                    <!-- yellow green #bbc615 -->
-                    <li>
-                      <weight>8</weight>
-                      <only>RGBA(0.733, 0.776, 0.082,1)</only>
-                    </li>
-                    <!-- yellow green #b7c62a -->
-                    <li>
-                      <weight>8</weight>
-                      <only>RGBA(0.717, 0.776, 0.164,1)</only>
-                    </li>
-                    <!-- yellow green #d7daa4 -->
-                    <li>
-                      <weight>8</weight>
-                      <only>RGBA(0.843, 0.854, 0.643,1)</only>
-                    </li>
-                  </options>
-                </second>
+              <name>skin</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <!-- dark green #245c26-->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.141, 0.360, 0.149,1)</only>
+                  </li>
+                  <!-- dark green #468b46 -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.274, 0.545, 0.274,1)</only>
+                  </li>
+                  <!-- dark green #638c65 -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.388, 0.549, 0.396,1)</only>
+                  </li>
+                </options>
+              </first>
+              <second Class="ColorGenerator_Options">
+                <options>
+                  <!-- yellow green #bbc615 -->
+                  <li>
+                    <weight>8</weight>
+                    <only>RGBA(0.733, 0.776, 0.082,1)</only>
+                  </li>
+                  <!-- yellow green #b7c62a -->
+                  <li>
+                    <weight>8</weight>
+                    <only>RGBA(0.717, 0.776, 0.164,1)</only>
+                  </li>
+                  <!-- yellow green #d7daa4 -->
+                  <li>
+                    <weight>8</weight>
+                    <only>RGBA(0.843, 0.854, 0.643,1)</only>
+                  </li>
+                </options>
+              </second>
             </li>
-        </colorChannels>
+          </colorChannels>
         </alienPartGenerator>
 
 

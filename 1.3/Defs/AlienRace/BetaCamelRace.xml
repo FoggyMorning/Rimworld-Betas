@@ -106,14 +106,10 @@
                     </north>
                     <east>
                         <crownTypes>
-                            <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                            <Average_Normal>( -0.22, 0.34 )</Average_Normal>
                         </crownTypes>
                     </east>
                 </offsets>
-                <hiddenUnderApparelFor>
-                  <li>FullHead</li>
-                  <li>UpperHead</li>
-                </hiddenUnderApparelFor>
                
                
             </li>
@@ -188,7 +184,7 @@
         <li>
           <key>BeardDef</key>
           <value>
-            <hasStyle>true</hasStyle>
+            <hasStyle>false</hasStyle>
           </value>
         </li>
       </styleSettings>

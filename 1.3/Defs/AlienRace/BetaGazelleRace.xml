@@ -291,10 +291,6 @@
                   </crownTypes>
                 </east>
               </offsets>
-              <hiddenUnderApparelFor>
-                <li>FullHead</li>
-                <li>UpperHead</li>
-              </hiddenUnderApparelFor>
             </li>
             <li>
               <path>Betas/BetaGazelle/Ear/Left/RearOfHead/Ear</path>
@@ -326,10 +322,6 @@
                   </crownTypes>
                 </east>
               </offsets>
-              <hiddenUnderApparelFor>
-                <li>FullHead</li>
-                <li>UpperHead</li>
-              </hiddenUnderApparelFor>
             </li>
             <li>
               <path>Betas/BetaGazelle/Ear/Right/FrontOfHead/Ear</path>
@@ -361,10 +353,6 @@
                   </crownTypes>
                 </east>
               </offsets>
-              <hiddenUnderApparelFor>
-                <li>FullHead</li>
-                <li>UpperHead</li>
-              </hiddenUnderApparelFor>
             </li>
             <li>
               <path>Betas/BetaGazelle/Ear/Right/RearOfHead/Ear</path>
@@ -396,10 +384,6 @@
                   </crownTypes>
                 </east>
               </offsets>
-              <hiddenUnderApparelFor>
-                <li>FullHead</li>
-                <li>UpperHead</li>
-              </hiddenUnderApparelFor>
             </li>
           </bodyAddons>
         </alienPartGenerator>

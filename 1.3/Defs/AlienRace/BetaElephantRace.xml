@@ -93,6 +93,7 @@
       <generalSettings>
         <humanRecipeImport>true</humanRecipeImport>
         <alienPartGenerator>
+          <borderScale>3</borderScale>
           <aliencrowntypes>
             <li>Average_Normal</li>
           </aliencrowntypes>
@@ -128,9 +129,6 @@
                   </crownTypes>
                 </east>
               </offsets>
-              <hiddenUnderApparelFor>
-                <li>FullHead</li>
-              </hiddenUnderApparelFor>
 
 
             </li>
@@ -193,7 +191,7 @@
                     <Hulk>(0,0)</Hulk>
                   </bodyTypes>
                   <crownTypes>
-                    <Average_Normal>( -0.1, 0.6 )</Average_Normal>
+                    <Average_Normal>( -0.09, 0.638 )</Average_Normal>
                   </crownTypes>
                 </east>
               </offsets>
