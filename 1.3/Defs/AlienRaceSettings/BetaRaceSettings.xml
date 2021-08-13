@@ -13,8 +13,6 @@
                 <li>BetaBearPlayer</li>
                 <li>BetaCamelPlayer</li>
                 <li>BetaElephantPlayer</li>
-                <li>BetaElk_MalePlayer</li>
-                <li>BetaElk_FemalePlayer</li>
                 <li>BetaFoxPlayer</li>
                 <li>BetaGazellePlayer</li>
                 <li>BetaLynxPlayer</li>
@@ -24,6 +22,20 @@
                 <li>BetaCrocPlayer</li>
               </kindDefs>
               <chance>70</chance>
+            </li>
+          </pawnKindEntries>
+          <factionDefs>
+            <li>PlayerColony</li>
+          </factionDefs>
+        </li>
+        <li>
+          <pawnKindEntries>
+            <li>
+              <kindDefs>
+                <li>BetaElk_MalePlayer</li>
+                <li>BetaElk_FemalePlayer</li>
+              </kindDefs>
+              <chance>10</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -54,6 +66,20 @@
             <li>PlayerTribe</li>
           </factionDefs>
         </li>
+        <li>
+          <pawnKindEntries>
+            <li>
+              <kindDefs>
+                <li>BetaElk_MalePlayer_Tribal</li>
+                <li>BetaElk_FemalePlayer_Tribal</li>
+              </kindDefs>
+              <chance>10</chance>
+            </li>
+          </pawnKindEntries>
+          <factionDefs>
+            <li>PlayerTribe</li>
+          </factionDefs>
+        </li>
       </startingColonists>
 
       <!-- wanderers -->
@@ -70,10 +96,6 @@
                 <li>BetaCrocPlayer_Tribal</li>
                 <li>BetaElephantPlayer</li>
                 <li>BetaElephantPlayer_Tribal</li>
-                <li>BetaElk_MalePlayer</li>
-                <li>BetaElk_MalePlayer_Tribal</li>
-                <li>BetaElk_FemalePlayer</li>
-                <li>BetaElk_FemalePlayer_Tribal</li>
                 <li>BetaFoxPlayer</li>
                 <li>BetaFoxPlayer_Tribal</li>
                 <li>BetaGazellePlayer</li>
@@ -88,6 +110,25 @@
                 <li>BetaWolfPlayer_Tribal</li>
               </kindDefs>
               <chance>70</chance>
+            </li>
+          </pawnKindEntries>
+          <factionDefs>
+            <li>PlayerColony</li>
+            <li>OutlanderCivil</li>
+            <li>OutlanderRough</li>
+            <li>PlayerTribe</li>
+          </factionDefs>
+        </li>
+        <li>
+          <pawnKindEntries>
+            <li>
+              <kindDefs>
+                <li>BetaElk_MalePlayer</li>
+                <li>BetaElk_MalePlayer_Tribal</li>
+                <li>BetaElk_FemalePlayer</li>
+                <li>BetaElk_FemalePlayer_Tribal</li>
+              </kindDefs>
+              <chance>10</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
@@ -119,10 +160,24 @@
           </kindDefs>
           <chance>70</chance>
         </li>
+        <li>
+          <kindDefs>
+            <li>BetaElk_Male_Slave</li>
+            <li>BetaElk_Female_Slave</li>
+          </kindDefs>
+          <chance>10</chance>
+        </li>
       </alienslavekinds>
 
       <!-- drop pod refugees -->
       <alienrefugeekinds>
+        <li>
+          <kindDefs>
+            <li>BetaElk_MalePlayer</li>
+            <li>BetaElk_FemalePlayer</li>
+          </kindDefs>
+          <chance>10</chance>
+        </li>
         <li>
           <kindDefs>
             <li>BetaBearPlayer</li>
