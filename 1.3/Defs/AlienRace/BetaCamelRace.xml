@@ -13,7 +13,8 @@
       <MarketValue>2000</MarketValue>
       <!-- beasts of burden -->
       <CarryingCapacity>90</CarryingCapacity>
-      <!--camels like to spit-->
+      <!--camels
+      like to spit-->
       <SocialImpact>0.75</SocialImpact>
     </statBases>
 
@@ -121,7 +122,7 @@
               <hiddenUnderApparelFor>
                 <li>UpperHead</li>
               </hiddenUnderApparelFor>
-              <hiddenUnderApparelTag >
+              <hiddenUnderApparelTag>
                 <li>BetaHumanoids_EarsTag</li>
               </hiddenUnderApparelTag>
             </li>
@@ -159,7 +160,7 @@
               <hiddenUnderApparelFor>
                 <li>UpperHead</li>
               </hiddenUnderApparelFor>
-              <hiddenUnderApparelTag >
+              <hiddenUnderApparelTag>
                 <li>BetaHumanoids_EarsTag</li>
               </hiddenUnderApparelTag>
             </li>
@@ -203,9 +204,6 @@
             </li>
           </colorChannels>
         </alienPartGenerator>
-
-
-
 
 
         <forcedRaceTraitEntries>

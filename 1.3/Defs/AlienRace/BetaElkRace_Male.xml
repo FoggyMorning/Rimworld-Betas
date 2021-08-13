@@ -101,6 +101,7 @@
           <li>BetaElk_Female</li>
         </notXenophobistTowards>
         <alienPartGenerator>
+          <borderScale>3</borderScale>
           <alienbodytypes>
             <li>Male</li>
             <li>Thin</li>
@@ -229,7 +230,7 @@
               <hiddenUnderApparelFor>
                 <li>UpperHead</li>
               </hiddenUnderApparelFor>
-              <hiddenUnderApparelTag >
+              <hiddenUnderApparelTag>
                 <li>BetaHumanoids_EarsTag</li>
               </hiddenUnderApparelTag>
             </li>
@@ -261,7 +262,7 @@
               <hiddenUnderApparelFor>
                 <li>UpperHead</li>
               </hiddenUnderApparelFor>
-              <hiddenUnderApparelTag >
+              <hiddenUnderApparelTag>
                 <li>BetaHumanoids_EarsTag</li>
               </hiddenUnderApparelTag>
             </li>

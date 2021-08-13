@@ -15,8 +15,10 @@
       <!-- extra carrying capacity -->
       <CarryingCapacity>80</CarryingCapacity>
 
-      <!--bears are lazy and work slower-->
-      <!--bears are big and scary so have a stronger social impact-->
+      <!--bears
+      are lazy and work slower-->
+      <!--bears
+      are big and scary so have a stronger social impact-->
       <ResearchSpeed>0.9</ResearchSpeed>
       <MiningSpeed>0.9</MiningSpeed>
       <SocialImpact>1.1</SocialImpact>
@@ -94,6 +96,7 @@
       <generalSettings>
         <humanRecipeImport>true</humanRecipeImport>
         <alienPartGenerator>
+          <borderScale>2</borderScale>
           <aliencrowntypes>
             <li>Average_Normal</li>
             <!-- <li>Bear_VHD</li> -->
@@ -176,7 +179,7 @@
               <hiddenUnderApparelFor>
                 <li>UpperHead</li>
               </hiddenUnderApparelFor>
-              <hiddenUnderApparelTag >
+              <hiddenUnderApparelTag>
                 <li>BetaHumanoids_EarsTag</li>
               </hiddenUnderApparelTag>
             </li>
@@ -211,13 +214,12 @@
               <hiddenUnderApparelFor>
                 <li>UpperHead</li>
               </hiddenUnderApparelFor>
-              <hiddenUnderApparelTag >
+              <hiddenUnderApparelTag>
                 <li>BetaHumanoids_EarsTag</li>
               </hiddenUnderApparelTag>
             </li>
           </bodyAddons>
         </alienPartGenerator>
-
 
 
         <forcedRaceTraitEntries>

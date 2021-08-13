@@ -55,6 +55,10 @@
         ..\..\..\..\MyPrograms\Steam\steamapps\workshop\content\294100\818773962\Assemblies\HugsLib.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="HugsLib">
+      <HintPath>..\..\..\..\MyPrograms\Steam\steamapps\workshop\content\294100\818773962\Assemblies\HugsLib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />

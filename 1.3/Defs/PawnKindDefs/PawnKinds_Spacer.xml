@@ -67,7 +67,8 @@
     <label>space refugee (beta-wolf)</label>
     <defName>BetaWolf_SpaceRefugee</defName>
   </PawnKindDef>
-  <PawnKindDef Abstract="True" Name="BetaHumanoids_SpaceRefugee_Clothed" ParentName="SpaceRefugeeBase">
+  <PawnKindDef Abstract="True" Name="BetaHumanoids_SpaceRefugee_Clothed"
+    ParentName="SpaceRefugeeBase">
     <defName>BetaHumanoids_SpaceRefugee_Clothed</defName>
     <label>space refugee</label>
     <apparelMoney>200~1000</apparelMoney>
