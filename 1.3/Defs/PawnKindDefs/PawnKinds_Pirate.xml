@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-  <PawnKindDef ParentName="PirateBase" Abstract="True" Name="BetaHumanoids_Drifter">
+  <PawnKindDef Abstract="True" Name="BetaHumanoids_Drifter" ParentName="PirateBase">
     <defName>BetaHumanoids_Drifter</defName>
     <label>drifter</label>
     <combatPower>35</combatPower>
@@ -32,72 +32,6 @@
       </subOptionsChooseOne>
     </inventoryOptions>
     <initialWillRange>0~1</initialWillRange>
-    <initialResistanceRange>7~12</initialResistanceRange>
-  </PawnKindDef>
-  <PawnKindDef ParentName="PirateScavTierBase" Abstract="True" Name="BetaHumanoids_Scavenger">
-    <defName>BetaHumanoids_Scavenger</defName>
-    <label>scavenger gunner</label>
-    <apparelMoney>300~500</apparelMoney>
-    <weaponMoney>200~300</weaponMoney>
-    <weaponTags>
-      <li>Gun</li>
-    </weaponTags>
-    <initialResistanceRange>17~26</initialResistanceRange>
-  </PawnKindDef>
-  <PawnKindDef ParentName="PirateScavTierBase" Abstract="True" Name="BetaHumanoids_Thrasher">
-    <defName>BetaHumanoids_Thrasher</defName>
-    <label>scavenger thrasher</label>
-    <race>Human</race>
-    <canBeSapper>true</canBeSapper>
-    <apparelMoney>300~800</apparelMoney>
-    <apparelTags>
-      <li>Outlander</li>
-    </apparelTags>
-    <weaponMoney>100~160</weaponMoney>
-    <weaponTags>
-      <li>NeolithicMeleeBasic</li>
-      <li>MedievalMeleeBasic</li>
-      <li>MedievalMeleeDecent</li>
-    </weaponTags>
-    <initialResistanceRange>14~23</initialResistanceRange>
-  </PawnKindDef>
-  <PawnKindDef ParentName="PirateBase" Abstract="True" Name="BetaHumanoids_Pirate">
-    <defName>BetaHumanoids_Pirate</defName>
-    <label>pirate gunner</label>
-    <race>Human</race>
-    <combatPower>65</combatPower>
-    <maxGenerationAge>65</maxGenerationAge>
-    <gearHealthRange>0.7~2.3</gearHealthRange>
-    <apparelMoney>400~1000</apparelMoney>
-    <apparelTags>
-      <li>IndustrialBasic</li>
-      <li>IndustrialAdvanced</li>
-      <li>IndustrialMilitaryBasic</li>
-      <li>IndustrialMilitaryAdvanced</li>
-    </apparelTags>
-    <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
-    <weaponMoney>250~345</weaponMoney>
-    <weaponTags>
-      <li>Gun</li>
-    </weaponTags>
-    <techHediffsChance>0.04</techHediffsChance>
-    <techHediffsMoney>50~800</techHediffsMoney>
-    <techHediffsTags>
-      <li>Poor</li>
-      <li>Simple</li>
-      <li>ImplantEmpireCommon</li>
-    </techHediffsTags>
-    <inventoryOptions>
-      <skipChance>0.9</skipChance>
-      <subOptionsChooseOne>
-        <li>
-          <thingDef>MedicineIndustrial</thingDef>
-          <countRange>1</countRange>
-        </li>
-      </subOptionsChooseOne>
-    </inventoryOptions>
-    <biocodeWeaponChance>0.2</biocodeWeaponChance>
-    <initialWillRange>2~3</initialWillRange>
     <initialResistanceRange>7~12</initialResistanceRange>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Drifter">
@@ -160,6 +94,16 @@
     <label>drifter (beta-wolf)</label>
     <defName>BetaWolf_Drifter</defName>
   </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="BetaHumanoids_Scavenger" ParentName="PirateScavTierBase">
+    <defName>BetaHumanoids_Scavenger</defName>
+    <label>scavenger gunner</label>
+    <apparelMoney>300~500</apparelMoney>
+    <weaponMoney>200~300</weaponMoney>
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+    <initialResistanceRange>17~26</initialResistanceRange>
+  </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Scavenger">
     <race>BetaBear</race>
     <label>scavenger gunner (beta-bear)</label>
@@ -220,6 +164,23 @@
     <label>scavenger gunner (beta-wolf)</label>
     <defName>BetaWolf_Scavenger</defName>
   </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="BetaHumanoids_Thrasher" ParentName="PirateScavTierBase">
+    <defName>BetaHumanoids_Thrasher</defName>
+    <label>scavenger thrasher</label>
+    <race>Human</race>
+    <canBeSapper>true</canBeSapper>
+    <apparelMoney>300~800</apparelMoney>
+    <apparelTags>
+      <li>Outlander</li>
+    </apparelTags>
+    <weaponMoney>100~160</weaponMoney>
+    <weaponTags>
+      <li>NeolithicMeleeBasic</li>
+      <li>MedievalMeleeBasic</li>
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+    <initialResistanceRange>14~23</initialResistanceRange>
+  </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Thrasher">
     <race>BetaBear</race>
     <label>scavenger thrasher (beta-bear)</label>
@@ -279,6 +240,45 @@
     <race>BetaWolf</race>
     <label>scavenger thrasher (beta-wolf)</label>
     <defName>BetaWolf_Thrasher</defName>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="BetaHumanoids_Pirate" ParentName="PirateBase">
+    <defName>BetaHumanoids_Pirate</defName>
+    <label>pirate gunner</label>
+    <race>Human</race>
+    <combatPower>65</combatPower>
+    <maxGenerationAge>65</maxGenerationAge>
+    <gearHealthRange>0.7~2.3</gearHealthRange>
+    <apparelMoney>400~1000</apparelMoney>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>IndustrialMilitaryBasic</li>
+      <li>IndustrialMilitaryAdvanced</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
+    <weaponMoney>250~345</weaponMoney>
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+    <techHediffsChance>0.04</techHediffsChance>
+    <techHediffsMoney>50~800</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+    <inventoryOptions>
+      <skipChance>0.9</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+    <biocodeWeaponChance>0.2</biocodeWeaponChance>
+    <initialWillRange>2~3</initialWillRange>
+    <initialResistanceRange>7~12</initialResistanceRange>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Pirate">
     <race>BetaBear</race>
