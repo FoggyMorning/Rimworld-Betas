@@ -96,7 +96,6 @@
       <generalSettings>
         <humanRecipeImport>true</humanRecipeImport>
         <alienPartGenerator>
-          <borderScale>3</borderScale>
           <aliencrowntypes>
             <li>Average_Normal</li>
           </aliencrowntypes>

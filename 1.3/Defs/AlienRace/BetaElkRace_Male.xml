@@ -101,7 +101,6 @@
           <li>BetaElk_Female</li>
         </notXenophobistTowards>
         <alienPartGenerator>
-          <borderScale>3</borderScale>
           <alienbodytypes>
             <li>Male</li>
             <li>Thin</li>
