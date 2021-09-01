@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BodyPartNaturalBase">
+    <defName>BetaHumanoids_Thing_Biological_Trunk_Elephant</defName>
+    <label>elephant trunk</label>
+    <description>A biological elephant trunk. Used to direct sound waves to the ear.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>BetaHumanoids_Install_Biological_Trunk_Elephant</RecipeDef>
+    </descriptionHyperlinks>
+    <statBases>
+      <MarketValue>10</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="BodyPartProstheticBase">
+    <defName>BetaHumanoids_Thing_Prosthetic_Trunk_Elephant</defName>
+    <label>elephant trunk prosthesis</label>
+    <description>An elephant trunk prosthesis made of simple materials. It is attached to the head and helps the wearer feel normal even if it does not provide any great benefit to the wearer's manipulation.</description>
+
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <unfinishedThingDef>UnfinishedHealthItemProsthetic</unfinishedThingDef>
+      <researchPrerequisite>Prosthetics</researchPrerequisite>
+    </recipeMaker>
+
+    <stuffCategories Inherit="false">
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>30</costStuffCount>
+    <statBases>
+      <Mass>1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+    <descriptionHyperlinks>
+      <RecipeDef>BetaHumanoids_Install_Prosthetic_Trunk_Elephant</RecipeDef>
+    </descriptionHyperlinks>
+  </ThingDef>
+
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>BetaHumanoids_Thing_Bionic_Trunk_Elephant</defName>
+    <descriptionHyperlinks>
+      <RecipeDef>BetaHumanoids_Install_Bionic_Trunk_Elephant</RecipeDef>
+    </descriptionHyperlinks>
+    <label>bionic elephant trunk</label>
+    <description>An advanced elephant trunk prosthesis. It consists of a lightweight and flexible mechanical device anchored to the skull with artifical muscle fibers and controlled by a neural interface. It increases the manipulation potential of a trunk beyond that of a biolgical part.</description>
+    <costList>
+      <Synthread>20</Synthread>
+      <Plasteel>10</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <statBases>
+      <Mass>1</Mass>
+    </statBases>
+  </ThingDef>
+
+</Defs>

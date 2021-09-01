@@ -79,7 +79,6 @@
           <li>BetaElk_Male</li>
         </notXenophobistTowards>
         <alienPartGenerator>
-          <borderScale>2</borderScale>
           <aliencrowntypes>
             <li>Average_Normal</li>
           </aliencrowntypes>
@@ -126,8 +125,34 @@
           <headOffset>(0,.1)</headOffset>
           <bodyAddons>
             <li>
-              <path>Betas/BetaElk/Head/Ear</path>
-              <bodyPart>AmputatableEar</bodyPart>
+              <path>Betas/BetaElk/Ears/Ear_Left</path>
+              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Left</bodyPart>
+              <drawSize>1</drawSize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.35 )</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <crownTypes>
+                    <Average_Normal>( -0.1, 0.3 )</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+
+
+            </li>
+            <li>
+              <path>Betas/BetaElk/Ears/Ear_Right</path>
+              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Right</bodyPart>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
               <drawSize>1</drawSize>
               <inFrontOfBody>true</inFrontOfBody>
               <offsets>
@@ -207,5 +232,10 @@
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
+    <recipes>
+      <li>BetaHumanoids_Install_Biological_OuterEar_Normal</li>
+      <li>BetaHumanoids_Install_Prosthetic_OuterEar_Normal</li>
+      <li>BetaHumanoids_Install_Bionic_OuterEar_Normal</li>
+    </recipes>
   </AlienRace.ThingDef_AlienRace>
 </Defs>

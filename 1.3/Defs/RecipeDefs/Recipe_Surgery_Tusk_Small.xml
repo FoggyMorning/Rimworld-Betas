@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>BetaHumanoids_Install_Prosthetic_Tusk_Small</defName>
+    <label>install small tusk prosthesis</label>
+    <description>Install a small tusk prosthesis.</description>
+    <descriptionHyperlinks>
+      <ThingDef>BetaHumanoids_Thing_Prosthetic_Tusk_Small</ThingDef>
+      <HediffDef>BetaHumanoids_Hediff_Prosthetic_Tusk_Small</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing a small tusk prosthesis.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BetaHumanoids_Thing_Prosthetic_Tusk_Small</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>BetaHumanoids_Thing_Prosthetic_Tusk_Small</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>BetaHumanoids_BodyPart_Tusk_Small_Left</li>
+      <li>BetaHumanoids_BodyPart_Tusk_Small_Right</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>BetaHumanoids_Hediff_Prosthetic_Tusk_Small</addsHediff>
+  </RecipeDef>
+
+</Defs>

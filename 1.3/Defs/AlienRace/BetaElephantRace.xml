@@ -89,24 +89,24 @@
     </tools>
 
     <alienRace>
-
       <generalSettings>
         <humanRecipeImport>true</humanRecipeImport>
         <alienPartGenerator>
-          <borderScale>3</borderScale>
           <aliencrowntypes>
             <li>Average_Normal</li>
           </aliencrowntypes>
           <useGenderedHeads>true</useGenderedHeads>
           <customDrawSize>(1.65, 1.65)</customDrawSize>
+          <borderScale>2</borderScale>
+          <atlasScale>2</atlasScale>
           <customHeadDrawSize>(1.4,1.4)</customHeadDrawSize>
           <customPortraitDrawSize>(1.65, 1.65)</customPortraitDrawSize>
           <customPortraitHeadDrawSize>(1.4,1.4)</customPortraitHeadDrawSize>
           <headOffset>(0, .3)</headOffset>
           <bodyAddons>
             <li>
-              <path>Betas/BetaElephant/Head/Ear</path>
-              <bodyPart>AmputatableEar</bodyPart>
+              <path>Betas/BetaElephant/Ears/Ear_Left</path>
+              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Large_Left</bodyPart>
               <drawSize>1.4</drawSize>
               <inFrontOfBody>false</inFrontOfBody>
               <offsets>
@@ -129,17 +129,42 @@
                   </crownTypes>
                 </east>
               </offsets>
-
-
             </li>
             <li>
-              <path>Betas/BetaElephant/Head/Tusk</path>
-              <bodyPart>AmputatableTusk</bodyPart>
+              <path>Betas/BetaElephant/Ears/Ear_Right</path>
+              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Large_Right</bodyPart>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
               <drawSize>1.4</drawSize>
               <inFrontOfBody>false</inFrontOfBody>
               <offsets>
                 <south>
-              <layerOffset>-1.002</layerOffset>
+                  <layerOffset>-1.003</layerOffset>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.6 )</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <layerOffset>-1.003</layerOffset>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.6 )</Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <layerOffset>-1.003</layerOffset>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.6 )</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+            </li>
+            <li>
+              <path>Betas/BetaElephant/Tusks/Tusk_Left</path>
+              <bodyPart>BetaHumanoids_BodyPart_Tusk_Elephant_Left</bodyPart>
+              <drawSize>1.4</drawSize>
+              <inFrontOfBody>false</inFrontOfBody>
+              <offsets>
+                <south>
+                  <layerOffset>-1.002</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.6 )</Average_Normal>
                   </crownTypes>
@@ -149,7 +174,7 @@
                   </crownTypes>
                 </north>
                 <east>
-              <layerOffset>-1.002</layerOffset>
+                  <layerOffset>-1.002</layerOffset>
                   <bodyTypes>
                     <Male>(.08,.04)</Male>
                     <Female>(0,0)</Female>
@@ -162,17 +187,16 @@
                   </crownTypes>
                 </east>
               </offsets>
-
-
             </li>
             <li>
-              <path>Betas/BetaElephant/Head/Trunk</path>
-              <bodyPart>AmputatableTrunk</bodyPart>
+              <path>Betas/BetaElephant/Tusks/Tusk_Right</path>
+              <bodyPart>BetaHumanoids_BodyPart_Tusk_Elephant_Right</bodyPart>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
               <drawSize>1.4</drawSize>
               <inFrontOfBody>false</inFrontOfBody>
               <offsets>
                 <south>
-              <layerOffset>-1.001</layerOffset>
+                  <layerOffset>-1.002</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.6 )</Average_Normal>
                   </crownTypes>
@@ -182,7 +206,38 @@
                   </crownTypes>
                 </north>
                 <east>
-              <layerOffset>-1.001</layerOffset>
+                  <layerOffset>-1.002</layerOffset>
+                  <bodyTypes>
+                    <Male>(.08,.04)</Male>
+                    <Female>(0,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.65 )</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+            </li>
+            <li>
+              <path>Betas/BetaElephant/Trunk/Trunk</path>
+              <bodyPart>BetaHumanoids_BodyPart_Trunk_Elephant</bodyPart>
+              <drawSize>1.4</drawSize>
+              <inFrontOfBody>false</inFrontOfBody>
+              <offsets>
+                <south>
+                  <layerOffset>-1.001</layerOffset>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.6 )</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <crownTypes>
+                  </crownTypes>
+                </north>
+                <east>
+                  <layerOffset>-1.001</layerOffset>
                   <bodyTypes>
                     <Male>(.04,.01)</Male>
                     <Female>(0,0)</Female>
@@ -195,8 +250,6 @@
                   </crownTypes>
                 </east>
               </offsets>
-
-
             </li>
           </bodyAddons>
           <colorChannels>
@@ -238,8 +291,6 @@
           </colorChannels>
         </alienPartGenerator>
 
-
-
         <forcedRaceTraitEntries>
           <li>
             <!-- never forget hurhur -->
@@ -252,8 +303,6 @@
             <chance>20</chance>
           </li>
         </forcedRaceTraitEntries>
-
-
       </generalSettings>
 
 
@@ -278,15 +327,13 @@
           </value>
         </li>
       </styleSettings>
-
-
     </alienRace>
 
     <race>
+      <body>BetaHumanoids_Bodies_BetaElephant</body>
       <!-- live longer than other betas -->
       <lifeExpectancy>100</lifeExpectancy>
       <leatherDef>Leather_Elephant</leatherDef>
-      <body>HumanWithTrunkAndTusks</body>
       <!-- big boys -->
       <baseBodySize>1.75</baseBodySize>
       <baseHealthScale>1.75</baseHealthScale>
@@ -301,7 +348,6 @@
           <soundCall>Pawn_Elephant_Call</soundCall>
           <soundAngry>Pawn_Elephant_Angry</soundAngry>
         </li>
-
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
@@ -319,7 +365,14 @@
         </points>
       </ageGenerationCurve>
     </race>
-
-
+    <recipes>
+      <li>BetaHumanoids_Install_Biological_OuterEar_Large</li>
+      <li>BetaHumanoids_Install_Prosthetic_OuterEar_Large</li>
+      <li>BetaHumanoids_Install_Bionic_OuterEar_Large</li>
+      <li>BetaHumanoids_Install_Biological_Trunk_Elephant</li>
+      <li>BetaHumanoids_Install_Prosthetic_Trunk_Elephant</li>
+      <li>BetaHumanoids_Install_Bionic_Trunk_Elephant</li>
+      <li>BetaHumanoids_Install_Prosthetic_Tusk_Elephant</li>
+    </recipes>
   </AlienRace.ThingDef_AlienRace>
 </Defs>

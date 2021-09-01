@@ -58,18 +58,18 @@
 
     <alienRace>
       <thoughtSettings>
-          <cannotReceiveThoughts>
-            <!-- raccoons are famed trash pandas, so lets make them be non-picky eaters -->
-            <li>AteKibble</li>
-            <li>AteInsectMeatDirect</li>
-            <li>AteInsectMeatAsIngredient</li>
-          </cannotReceiveThoughts>
+        <cannotReceiveThoughts>
+          <!-- raccoons are famed trash pandas, so lets make them be non-picky eaters -->
+          <li>AteKibble</li>
+          <li>AteInsectMeatDirect</li>
+          <li>AteInsectMeatAsIngredient</li>
+        </cannotReceiveThoughts>
 
-          <ateThoughtSpecific>
-          </ateThoughtSpecific>
+        <ateThoughtSpecific>
+        </ateThoughtSpecific>
 
-          <replacerList>
-          </replacerList>
+        <replacerList>
+        </replacerList>
       </thoughtSettings>
 
       <generalSettings>
@@ -87,24 +87,24 @@
             <li>
               <name>skin</name>
               <first Class="ColorGenerator_Options">
-            <options>
-              <!-- #7b7e80 to #626566 -->
-              <li>
-                <weight>10</weight>
-                <min>RGBA(0.482, 0.494, 0.501,1)</min>
-                <max>RGBA(0.384, 0.396, 0.4,1)</max>
-              </li>
-            </options>
+                <options>
+                  <!-- #7b7e80 to #626566 -->
+                  <li>
+                    <weight>10</weight>
+                    <min>RGBA(0.482, 0.494, 0.501,1)</min>
+                    <max>RGBA(0.384, 0.396, 0.4,1)</max>
+                  </li>
+                </options>
               </first>
               <second Class="AlienRace.ColorGenerator_CustomAlienChannel">
-                  <colorChannel>skin_1</colorChannel>
+                <colorChannel>skin_1</colorChannel>
               </second>
             </li>
           </colorChannels>
           <bodyAddons>
             <li>
-              <path>Betas/BetaRaccoon/Head/Ear</path>
-              <bodyPart>AmputatableEar</bodyPart>
+              <path>Betas/BetaRaccoon/Ears/Ear_Left</path>
+              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Left</bodyPart>
               <drawSize>.65</drawSize>
               <inFrontOfBody>true</inFrontOfBody>
               <offsets>
@@ -131,8 +131,41 @@
                   </crownTypes>
                 </east>
               </offsets>
-               
-               
+
+
+            </li>
+            <li>
+              <path>Betas/BetaRaccoon/Ears/Ear_Right</path>
+              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Right</bodyPart>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <drawSize>.65</drawSize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.2 )</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.2 )</Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <Male>( 0.02, 0.0 )</Male>
+                    <Female>(0,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>( -0.1, 0.2 )</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+
+
             </li>
           </bodyAddons>
         </alienPartGenerator>
@@ -189,5 +222,10 @@
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
+    <recipes>
+      <li>BetaHumanoids_Install_Biological_OuterEar_Normal</li>
+      <li>BetaHumanoids_Install_Prosthetic_OuterEar_Normal</li>
+      <li>BetaHumanoids_Install_Bionic_OuterEar_Normal</li>
+    </recipes>
   </AlienRace.ThingDef_AlienRace>
 </Defs>

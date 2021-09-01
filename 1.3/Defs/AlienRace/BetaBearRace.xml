@@ -11,8 +11,6 @@
       <!-- fur and blubber provide some temp resistance -->
       <ComfyTemperatureMin>6</ComfyTemperatureMin>
       <ComfyTemperatureMax>36</ComfyTemperatureMax>
-      <!-- extra leather -->
-      <LeatherAmount>60</LeatherAmount>
       <!-- extra value -->
       <MarketValue>2750</MarketValue>
       <!-- extra carrying capacity -->
@@ -97,18 +95,13 @@
       <generalSettings>
         <humanRecipeImport>true</humanRecipeImport>
         <alienPartGenerator>
-        <borderScale>2</borderScale>
           <aliencrowntypes>
             <li>Average_Normal</li>
+            <!-- <li>Bear_VHD</li> -->
           </aliencrowntypes>
           <useGenderedHeads>true</useGenderedHeads>
           <alienbodytypes>
           </alienbodytypes>
-          <headOffset>(0,.2)</headOffset>
-          <customDrawSize>( 1.50, 1.50 )</customDrawSize>
-          <customHeadDrawSize>( 1.2, 1.2 )</customHeadDrawSize>
-          <customPortraitDrawSize>( 1.5, 1.5 )</customPortraitDrawSize>
-          <customPortraitHeadDrawSize>( 1.2, 1.2 )</customPortraitHeadDrawSize>
           <colorChannels>
             <li>
               <name>skin</name>
@@ -155,24 +148,54 @@
           </colorChannels>
           <bodyAddons>
             <li>
-              <path>Betas/BetaBear/Head/Ears</path>
-              <bodyPart>AmputatableEar</bodyPart>
-              <drawSize>1.2</drawSize>
+              <path>Betas/BetaBear/Ears/Ears_Right</path>
+              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Right</bodyPart>
+              <drawSize>1</drawSize>
               <inFrontOfBody>true</inFrontOfBody>
               <offsets>
                 <south>
                   <crownTypes>
-                    <Average_Normal>( 0.0, 0.5 )</Average_Normal>
+                    <Average_Normal>( 0.0, 0.329 )</Average_Normal>
+                    <!-- <Bear_VHD>( 0.0, 0.347 )</Bear_VHD> -->
                   </crownTypes>
                 </south>
                 <north>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                    <!-- <Bear_VHD>( 0.0, 0.27 )</Bear_VHD> -->
                   </crownTypes>
                 </north>
                 <east>
                   <crownTypes>
-                    <Average_Normal>( -0.18, 0.4 )</Average_Normal>
+                    <Average_Normal>( -0.09, 0.28 )</Average_Normal>
+                    <Bear_VHD>( -0.15, 0.3 )</Bear_VHD>
+                  </crownTypes>
+                </east>
+              </offsets>
+            </li>
+            <li>
+              <path>Betas/BetaBear/Ears/Ears_Left</path>
+              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Left</bodyPart>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <drawSize>1</drawSize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.329 )</Average_Normal>
+                    <!-- <Bear_VHD>( 0.0, 0.347 )</Bear_VHD> -->
+                  </crownTypes>
+                </south>
+                <north>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                    <!-- <Bear_VHD>( 0.0, 0.27 )</Bear_VHD> -->
+                  </crownTypes>
+                </north>
+                <east>
+                  <crownTypes>
+                    <Average_Normal>( -0.09, 0.28 )</Average_Normal>
+                    <!-- <Bear_VHD>( -0.15, 0.3 )</Bear_VHD> -->
                   </crownTypes>
                 </east>
               </offsets>
@@ -224,9 +247,6 @@
     <race>
       <!-- special leather -->
       <leatherDef>Leather_Bear</leatherDef>
-      <!-- big bodies -->
-      <baseBodySize>1.5</baseBodySize>
-      <baseHealthScale>1.5</baseHealthScale>
 
       <lifeStageAges>
         <li>
@@ -243,6 +263,10 @@
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
-
+    <recipes>
+      <li>BetaHumanoids_Install_Biological_OuterEar_Normal</li>
+      <li>BetaHumanoids_Install_Prosthetic_OuterEar_Normal</li>
+      <li>BetaHumanoids_Install_Bionic_OuterEar_Normal</li>
+    </recipes>
   </AlienRace.ThingDef_AlienRace>
 </Defs>

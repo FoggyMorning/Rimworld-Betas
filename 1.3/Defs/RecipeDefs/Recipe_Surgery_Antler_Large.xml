@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>BetaHumanoids_Install_Prosthetic_Antler_Large</defName>
+    <label>install large antler prosthesis</label>
+    <description>Install a large antler prosthesis.</description>
+    <descriptionHyperlinks>
+      <ThingDef>BetaHumanoids_Thing_Prosthetic_Antler_Large</ThingDef>
+      <HediffDef>BetaHumanoids_Hediff_Prosthetic_Antler_Large</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing a large antler prosthesis.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BetaHumanoids_Thing_Prosthetic_Antler_Large</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>BetaHumanoids_Thing_Prosthetic_Antler_Large</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>BetaHumanoids_BodyPart_Antler_Large_Left</li>
+      <li>BetaHumanoids_BodyPart_Antler_Large_Right</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>BetaHumanoids_Hediff_Prosthetic_Antler_Large</addsHediff>
+  </RecipeDef>
+
+</Defs>

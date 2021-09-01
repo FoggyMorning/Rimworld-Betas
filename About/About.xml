@@ -30,14 +30,9 @@
 		<li>erdelf.HumanoidAlienRaces</li>
 	</loadAfter>
 
-	<description>
-		Updated for 1.3!
-		What does this mod do? Add eleven new Humanoid Species. Allows whether these Species are part of the various factions.
-		
-		A Beta Class Humanoid Lifeform. Part human and part animal. The property of the Corporation that created them.
-		Their job: Justification and Pacification of new worlds. Find exploitable resources and elimniate dangerous indigenous lifeforms.
-		The Galactic Workers Alliance secured semi-human rights for Betas through a series of punishing strikes, forcing the Corporations to allow the Betas to buyback the cost of their birth and training.
-		Now some "Betas" have managed to purchase their freedom and begun to make their way to the Rim.
+	<description>Updated for 1.3!  
+The "Beta-humanoids" mod gives a chance for the Beta-humanoids races to be available at Colony start (PlayerColony and PlayerTribe), and to later appear as refugees, wanderers, and slaves.
+I tried to make the Beta's heads look correct with the vanilla hats and helmets, however the Powered Marine Helmet would not work, and I had to make new textures for it to allow for (short) snouts
 	</description>
 
 </ModMetaData>

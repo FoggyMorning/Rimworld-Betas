@@ -82,43 +82,43 @@
             <li>
               <name>skin</name>
               <first Class="ColorGenerator_Options">
-            <options>
-              <!-- #907757 -->
-              <li>
-                <weight>10</weight>
-                <only>RGBA(0.564, 0.466, 0.341,1)</only>
-              </li>
-              <!-- #4c3221 -->
-              <li>
-                <weight>10</weight>
-                <only>RGBA(0.298, 0.196, 0.129,1)</only>
-              </li>
-              <!-- #5c1c0c -->
-              <li>
-                <weight>10</weight>
-                <only>RGBA(0.360, 0.109, 0.047,1)</only>
-              </li>
-              <!-- #d4a464 -->
-              <li>
-                <weight>10</weight>
-                <only>RGBA(0.831, 0.643, 0.392,1)</only>
-              </li>
-              <!-- #554a40 -->
-              <li>
-                <weight>10</weight>
-                <only>RGBA(0.333, 0.290, 0.250,1)</only>
-              </li>
-            </options>
+                <options>
+                  <!-- #907757 -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.564, 0.466, 0.341,1)</only>
+                  </li>
+                  <!-- #4c3221 -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.298, 0.196, 0.129,1)</only>
+                  </li>
+                  <!-- #5c1c0c -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.360, 0.109, 0.047,1)</only>
+                  </li>
+                  <!-- #d4a464 -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.831, 0.643, 0.392,1)</only>
+                  </li>
+                  <!-- #554a40 -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.333, 0.290, 0.250,1)</only>
+                  </li>
+                </options>
               </first>
               <second Class="AlienRace.ColorGenerator_CustomAlienChannel">
-                  <colorChannel>skin_1</colorChannel>
+                <colorChannel>skin_1</colorChannel>
               </second>
             </li>
           </colorChannels>
           <bodyAddons>
             <li>
-              <path>Betas/BetaHog/Head/Ear</path>
-              <bodyPart>AmputatableEar</bodyPart>
+              <path>Betas/BetaHog/Ears/Ear_Left</path>
+              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Left</bodyPart>
               <drawSize>.8</drawSize>
               <inFrontOfBody>true</inFrontOfBody>
               <offsets>
@@ -145,12 +145,45 @@
                   </crownTypes>
                 </east>
               </offsets>
-               
-               
+
+
             </li>
             <li>
-              <path>Betas/BetaHog/Head/Tusk</path>
-              <bodyPart>AmputatableTusk</bodyPart>
+              <path>Betas/BetaHog/Ears/Ear_Right</path>
+              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Right</bodyPart>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <drawSize>.8</drawSize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <Male>(0.05,.00)</Male>
+                    <Female>(0,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>( -0.1, 0.3 )</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+
+
+            </li>
+            <li>
+              <path>Betas/BetaHog/Tusks/Tusk_Left</path>
+              <bodyPart>BetaHumanoids_BodyPart_Tusk_Small_Left</bodyPart>
               <drawSize>.8</drawSize>
               <inFrontOfBody>true</inFrontOfBody>
               <offsets>
@@ -177,7 +210,40 @@
               <hiddenUnderApparelFor>
                 <li>FullHead</li>
               </hiddenUnderApparelFor>
-               <!-- females don't have visible tusks -->
+              <!-- females don't have visible tusks -->
+              <drawForFemale>false</drawForFemale>
+            </li>
+            <li>
+              <path>Betas/BetaHog/Tusks/Tusk_Right</path>
+              <bodyPart>BetaHumanoids_BodyPart_Tusk_Small_Right</bodyPart>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <drawSize>.8</drawSize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.32 )</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <Male>( 0.05, 0.00)</Male>
+                    <Female>(0,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>( -0.12, 0.37 )</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+              <hiddenUnderApparelFor>
+                <li>FullHead</li>
+              </hiddenUnderApparelFor>
+              <!-- females don't have visible tusks -->
               <drawForFemale>false</drawForFemale>
             </li>
           </bodyAddons>
@@ -224,7 +290,7 @@
 
     <race>
       <leatherDef>Leather_Pig</leatherDef>
-      <body>HumanWithTusks</body>
+      <body>BetaHumanoids_Bodies_HumanLikeWithSmallTusks</body>
       <baseBodySize>0.9</baseBodySize>
       <baseHealthScale>0.9</baseHealthScale>
       <lifeStageAges>
@@ -242,6 +308,12 @@
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
+    <recipes>
+      <li>BetaHumanoids_Install_Biological_OuterEar_Normal</li>
+      <li>BetaHumanoids_Install_Prosthetic_OuterEar_Normal</li>
+      <li>BetaHumanoids_Install_Bionic_OuterEar_Normal</li>
+      <li>BetaHumanoids_Install_Prosthetic_Tusk_Small</li>
+    </recipes>
 
   </AlienRace.ThingDef_AlienRace>
 </Defs>

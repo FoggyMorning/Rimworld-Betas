@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BodyPartProstheticBase">
+    <defName>BetaHumanoids_Thing_Prosthetic_Antler_Large</defName>
+    <label>large antler prosthesis</label>
+    <description>An large antler prosthesis made of simple materials.</description>
+
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <unfinishedThingDef>UnfinishedHealthItemProsthetic</unfinishedThingDef>
+      <researchPrerequisite>Prosthetics</researchPrerequisite>
+    </recipeMaker>
+
+    <stuffCategories Inherit="false">
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>5</costStuffCount>
+    <statBases>
+      <Mass>.5</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+    <descriptionHyperlinks>
+      <RecipeDef>BetaHumanoids_Install_Prosthetic_Antler_Large</RecipeDef>
+    </descriptionHyperlinks>
+  </ThingDef>
+
+</Defs>

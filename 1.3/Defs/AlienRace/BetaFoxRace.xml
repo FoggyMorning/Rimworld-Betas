@@ -127,8 +127,51 @@
           </colorChannels>
           <bodyAddons>
             <li>
-              <path>Betas/BetaFox/Head/Ear</path>
-              <bodyPart>AmputatableEar</bodyPart>
+              <path>Betas/BetaFox/Ears/Ear_Left</path>
+              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Left</bodyPart>
+              <drawSize>.75</drawSize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                    <Average_Normal1>( 0.0, 0.3 )</Average_Normal1>
+                  </crownTypes>
+                </south>
+                <north>
+                  <bodyTypes>
+                    <Male>(0.0, 0.04)</Male>
+                    <Female>(0,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.305 )</Average_Normal>
+                    <Average_Normal1>( 0.0, 0.305 )</Average_Normal1>
+                  </crownTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <Male>(-0.043,-0.0014)</Male>
+                    <Female>(-0.05,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>( -0.06, 0.28 )</Average_Normal>
+                    <Average_Normal1>( -0.06, 0.28 )</Average_Normal1>
+                  </crownTypes>
+                </east>
+              </offsets>
+              <hiddenUnderApparelFor>
+              </hiddenUnderApparelFor>
+            </li>
+            <li>
+              <path>Betas/BetaFox/Ears/Ear_Right</path>
+              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Right</bodyPart>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
               <drawSize>.75</drawSize>
               <inFrontOfBody>true</inFrontOfBody>
               <offsets>
@@ -230,6 +273,11 @@
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
+    <recipes>
+      <li>BetaHumanoids_Install_Biological_OuterEar_Normal</li>
+      <li>BetaHumanoids_Install_Prosthetic_OuterEar_Normal</li>
+      <li>BetaHumanoids_Install_Bionic_OuterEar_Normal</li>
+    </recipes>
 
   </AlienRace.ThingDef_AlienRace>
 </Defs>

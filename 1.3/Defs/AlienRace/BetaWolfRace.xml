@@ -133,8 +133,8 @@
           </colorChannels>
           <bodyAddons>
             <li>
-              <path>Betas/BetaWolf/Head/Ear</path>
-              <bodyPart>AmputatableEar</bodyPart>
+              <path>Betas/BetaWolf/Ears/Ear_Left</path>
+              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Left</bodyPart>
               <drawSize>1</drawSize>
               <inFrontOfBody>true</inFrontOfBody>
               <offsets>
@@ -164,8 +164,40 @@
                   </crownTypes>
                 </east>
               </offsets>
-
-
+            </li>
+            <li>
+              <path>Betas/BetaWolf/Ears/Ear_Right</path>
+              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Right</bodyPart>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <drawSize>1</drawSize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <offsets>
+                <south>
+                  <layerOffset>1.01</layerOffset>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.41 )</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <layerOffset>1.01</layerOffset>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.35 )</Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <layerOffset>1.01</layerOffset>
+                  <bodyTypes>
+                    <Male>( 0.19, 0 )</Male>
+                    <Female>(0,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>( -0.26, 0.34 )</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
             </li>
           </bodyAddons>
         </alienPartGenerator>
@@ -223,6 +255,11 @@
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
+    <recipes>
+      <li>BetaHumanoids_Install_Biological_OuterEar_Normal</li>
+      <li>BetaHumanoids_Install_Prosthetic_OuterEar_Normal</li>
+      <li>BetaHumanoids_Install_Bionic_OuterEar_Normal</li>
+    </recipes>
 
   </AlienRace.ThingDef_AlienRace>
 </Defs>

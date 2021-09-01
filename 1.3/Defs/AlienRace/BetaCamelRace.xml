@@ -16,64 +16,64 @@
       <!--camels like to spit-->
       <SocialImpact>0.75</SocialImpact>
     </statBases>
-    
-        <tools>
+
+    <tools>
+      <li>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
             <li>
-                <label>left fist</label>
-                <capacities>
-                    <li>Blunt</li>
-                </capacities>
-                <power>8.2</power>
-                <cooldownTime>2</cooldownTime>
-                <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
-                <surpriseAttack>
-                    <extraMeleeDamages>
-                        <li>
-                            <def>Stun</def>
-                            <amount>14</amount>
-                        </li>
-                    </extraMeleeDamages>
-                </surpriseAttack>
+              <def>Stun</def>
+              <amount>14</amount>
             </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
             <li>
-                <label>right fist</label>
-                <capacities>
-                    <li>Blunt</li>
-                </capacities>
-                <power>8.2</power>
-                <cooldownTime>2</cooldownTime>
-                <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
-                <surpriseAttack>
-                    <extraMeleeDamages>
-                        <li>
-                            <def>Stun</def>
-                            <amount>14</amount>
-                        </li>
-                    </extraMeleeDamages>
-                </surpriseAttack>
+              <def>Stun</def>
+              <amount>14</amount>
             </li>
-            <li>
-                <label>teeth</label>
-                <capacities>
-                    <li>Bite</li>
-                </capacities>
-                <power>8.2</power>
-                <cooldownTime>2</cooldownTime>
-                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-                <chanceFactor>0.07</chanceFactor>
-            </li>
-            <li>
-                <label>head</label>
-                <capacities>
-                    <li>Blunt</li>
-                </capacities>
-                <power>5</power>
-                <cooldownTime>2</cooldownTime>
-                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-                <chanceFactor>0.2</chanceFactor>
-            </li>
-        </tools>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.07</chanceFactor>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
 
 
     <alienRace>
@@ -83,75 +83,113 @@
         <alienPartGenerator>
           <alienbodytypes>
           </alienbodytypes>
-					<aliencrowntypes>
-						<li>Average_Normal</li>
-					</aliencrowntypes>
+          <aliencrowntypes>
+            <li>Average_Normal</li>
+          </aliencrowntypes>
           <useGenderedHeads>true</useGenderedHeads>
           <bodyAddons>
             <li>
-              <path>Betas/BetaCamel/Head/Ears</path>
-              <bodyPart>AmputatableEar</bodyPart>
+              <path>Betas/BetaCamel/Ears/Ear_Right</path>
+              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Right</bodyPart>
               <drawSize>1</drawSize>
               <inFrontOfBody>true</inFrontOfBody>
-                <offsets>
-                    <south>
-                        <crownTypes>
-                            <Average_Normal>( 0.0, 0.3 )</Average_Normal>
-                        </crownTypes>
-                    </south>
-                    <north>
-                        <crownTypes>
-                            <Average_Normal>( 0.0, 0.3 )</Average_Normal>
-                        </crownTypes>
-                    </north>
-                    <east>
-                        <crownTypes>
-                            <Average_Normal>( -0.22, 0.34 )</Average_Normal>
-                        </crownTypes>
-                    </east>
-                </offsets>
-               
-               
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.4 )</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <crownTypes>
+                    <Average_Normal>( 0.025, 0.35 )</Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <crownTypes>
+                    <Average_Normal>( -0.22, 0.34 )</Average_Normal>
+                  </crownTypes>
+                </east>
+                <!-- is not visible -->
+                <west>
+                  <crownTypes>
+                    <Average_Normal>( 0, 0 )</Average_Normal>
+                  </crownTypes>
+                </west>
+              </offsets>
+
+
+            </li>
+            <li>
+              <path>Betas/BetaCamel/Ears/Ear_Left</path>
+              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Left</bodyPart>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <drawSize>1</drawSize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Average_Normal>( -0.013, 0.364 )</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <crownTypes>
+                    <Average_Normal>( -0.013, 0.364 )</Average_Normal>
+                  </crownTypes>
+                </north>
+                <west>
+                  <crownTypes>
+                    <Average_Normal>( -0.117, 0.3 )</Average_Normal>
+                  </crownTypes>
+                </west>
+                <!-- is not visible -->
+                <east>
+                  <crownTypes>
+                    <Average_Normal>( -0.0, 0.0 )</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+
+
             </li>
           </bodyAddons>
           <headOffset>( 0, 0.1 )</headOffset>
           <colorChannels>
             <li>
-                <name>skin</name>
-                <first Class="ColorGenerator_Options">
-                  <options>
-                    <!-- #c19a6b -->
-                    <li>
-                      <weight>10</weight>
-                      <only>RGBA(0.756, 0.603, 0.419,1)</only>
-                    </li>
-                    <!-- #927B51 -->
-                    <li>
-                      <weight>10</weight>
-                      <only>RGBA(0.572, 0.482, 0.317,1)</only>
-                    </li>
-                    <!-- #813a16 -->
-                    <li>
-                      <weight>10</weight>
-                      <only>RGBA(0.505, 0.227, 0.086,1)</only>
-                    </li>
-                    <!-- #b3916d -->
-                    <li>
-                      <weight>10</weight>
-                      <only>RGBA(0.701, 0.568, 0.427,1)</only>
-                    </li>
-                    <!-- #a6773f -->
-                    <li>
-                      <weight>10</weight>
-                      <only>RGBA(0.650, 0.466, 0.247,1)</only>
-                    </li>
-                  </options>
-                </first>
-                <second Class="AlienRace.ColorGenerator_CustomAlienChannel">
-                    <colorChannel>skin_1</colorChannel>
-                </second>
+              <name>skin</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <!-- #c19a6b -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.756, 0.603, 0.419,1)</only>
+                  </li>
+                  <!-- #927B51 -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.572, 0.482, 0.317,1)</only>
+                  </li>
+                  <!-- #813a16 -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.505, 0.227, 0.086,1)</only>
+                  </li>
+                  <!-- #b3916d -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.701, 0.568, 0.427,1)</only>
+                  </li>
+                  <!-- #a6773f -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.650, 0.466, 0.247,1)</only>
+                  </li>
+                </options>
+              </first>
+              <second Class="AlienRace.ColorGenerator_CustomAlienChannel">
+                <colorChannel>skin_1</colorChannel>
+              </second>
             </li>
-        </colorChannels>
+          </colorChannels>
         </alienPartGenerator>
 
 
@@ -188,7 +226,7 @@
           </value>
         </li>
       </styleSettings>
-      
+
       <graphicPaths>
         <li>
           <head>Betas/BetaCamel/Head/</head>
@@ -218,8 +256,13 @@
       <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
-     
+
     </race>
+    <recipes>
+      <li>BetaHumanoids_Install_Biological_OuterEar_Normal</li>
+      <li>BetaHumanoids_Install_Prosthetic_OuterEar_Normal</li>
+      <li>BetaHumanoids_Install_Bionic_OuterEar_Normal</li>
+    </recipes>
 
 
   </AlienRace.ThingDef_AlienRace>

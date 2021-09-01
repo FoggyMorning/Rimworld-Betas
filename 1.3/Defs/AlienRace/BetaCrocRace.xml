@@ -190,6 +190,7 @@
     </alienRace>
 
     <race>
+      <body>Human</body>
       <leatherDef>Leather_Lizard</leatherDef>
       <manhunterOnDamageChance>0.80</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0.80</manhunterOnTameFailChance>

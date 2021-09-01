@@ -9,7 +9,7 @@
       <LeatherAmount>30</LeatherAmount>
       <MarketValue>1500</MarketValue>
       <MoveSpeed>4.8</MoveSpeed>
-		  <HuntingStealth>2</HuntingStealth>
+      <HuntingStealth>2</HuntingStealth>
     </statBases>
 
     <tools>
@@ -95,43 +95,43 @@
             <li>
               <name>skin</name>
               <first Class="ColorGenerator_Options">
-            <options>
-              <!-- #8b6245 -->
-              <li>
-                <weight>10</weight>
-                <only>RGBA(0.545, 0.384, 0.270,1)</only>
-              </li>
-              <!--  #8e7652 -->
-              <li>
-                <weight>10</weight>
-                <only>RGBA(0.556, 0.462, 0.321,1)</only>
-              </li>
-              <!-- #85754e -->
-              <li>
-                <weight>10</weight>
-                <only>RGBA(0.521, 0.458, 0.305,1)</only>
-              </li>
-              <!-- #c7b8a5 -->
-              <li>
-                <weight>10</weight>
-                <only>RGBA(0.780, 0.721, 0.647,1)</only>
-              </li>
-              <!-- #f6f3f0 -->
-              <li>
-                <weight>10</weight>
-                <only>RGBA(0.964, 0.952, 0.941,1)</only>
-              </li>
-            </options>
+                <options>
+                  <!-- #8b6245 -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.545, 0.384, 0.270,1)</only>
+                  </li>
+                  <!--  #8e7652 -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.556, 0.462, 0.321,1)</only>
+                  </li>
+                  <!-- #85754e -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.521, 0.458, 0.305,1)</only>
+                  </li>
+                  <!-- #c7b8a5 -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.780, 0.721, 0.647,1)</only>
+                  </li>
+                  <!-- #f6f3f0 -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.964, 0.952, 0.941,1)</only>
+                  </li>
+                </options>
               </first>
               <second Class="AlienRace.ColorGenerator_CustomAlienChannel">
-                  <colorChannel>skin_1</colorChannel>
+                <colorChannel>skin_1</colorChannel>
               </second>
             </li>
           </colorChannels>
           <bodyAddons>
             <li>
-              <path>Betas/BetaLynx/Head/Ear</path>
-              <bodyPart>AmputatableEar</bodyPart>
+              <path>Betas/BetaLynx/Ears/Ear_Left</path>
+              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Left</bodyPart>
               <inFrontOfBody>true</inFrontOfBody>
               <drawSize>.75</drawSize>
               <offsets>
@@ -158,8 +158,41 @@
                   </crownTypes>
                 </east>
               </offsets>
-               
-               
+
+
+            </li>
+            <li>
+              <path>Betas/BetaLynx/Ears/Ear_Right</path>
+              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Right</bodyPart>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <inFrontOfBody>true</inFrontOfBody>
+              <drawSize>.75</drawSize>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <Male>(0.0,0.0)</Male>
+                    <Female>(0,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>( -0.1, 0.3 )</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+
+
             </li>
             <li>
               <path>Betas/BetaLynx/Head/Fringe</path>
@@ -168,19 +201,19 @@
               <drawSize>.75</drawSize>
               <offsets>
                 <south>
-              <layerOffset>-.3</layerOffset>
+                  <layerOffset>-.3</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.3 )</Average_Normal>
                   </crownTypes>
                 </south>
                 <north>
-              <layerOffset>-.3</layerOffset>
+                  <layerOffset>-.3</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.3 )</Average_Normal>
                   </crownTypes>
                 </north>
                 <east>
-              <layerOffset>-.3</layerOffset>
+                  <layerOffset>-.3</layerOffset>
                   <bodyTypes>
                     <Male>(0.05,.00)</Male>
                     <Female>(0,0)</Female>
@@ -193,8 +226,8 @@
                   </crownTypes>
                 </east>
               </offsets>
-               
-               
+
+
             </li>
           </bodyAddons>
         </alienPartGenerator>
@@ -260,5 +293,10 @@
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
+    <recipes>
+      <li>BetaHumanoids_Install_Biological_OuterEar_Normal</li>
+      <li>BetaHumanoids_Install_Prosthetic_OuterEar_Normal</li>
+      <li>BetaHumanoids_Install_Bionic_OuterEar_Normal</li>
+    </recipes>
   </AlienRace.ThingDef_AlienRace>
 </Defs>

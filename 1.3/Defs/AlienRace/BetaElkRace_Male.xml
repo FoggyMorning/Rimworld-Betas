@@ -100,7 +100,6 @@
           <li>BetaElk_Female</li>
         </notXenophobistTowards>
         <alienPartGenerator>
-          <borderScale>3</borderScale>
           <alienbodytypes>
           </alienbodytypes>
           <useGenderedHeads>true</useGenderedHeads>
@@ -144,8 +143,8 @@
           <headOffset>(0,.1)</headOffset>
           <bodyAddons>
             <li>
-              <path>Betas/BetaElk/Head/Antler</path>
-              <bodyPart>AmputatableAntler</bodyPart>
+              <path>Betas/BetaElk/Antlers/Antler_Left</path>
+              <bodyPart>BetaHumanoids_BodyPart_Antler_Large_Left</bodyPart>
               <drawSize>1</drawSize>
               <inFrontOfBody>true</inFrontOfBody>
               <offsets>
@@ -170,8 +169,58 @@
               </offsets>
             </li>
             <li>
-              <path>Betas/BetaElk/Head/Ear</path>
-              <bodyPart>AmputatableEar</bodyPart>
+              <path>Betas/BetaElk/Antlers/Antler_Right</path>
+              <bodyPart>BetaHumanoids_BodyPart_Antler_Large_Right</bodyPart>
+              <drawSize>1</drawSize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <offsets>
+                <south>
+                  <layerOffset>-0.01</layerOffset>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.8 )</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <layerOffset>-0.01</layerOffset>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.8 )</Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <layerOffset>-0.01</layerOffset>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.8 )</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+            </li>
+            <li>
+              <path>Betas/BetaElk/Ears/Ear_Left</path>
+              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Left</bodyPart>
+              <drawSize>1</drawSize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <crownTypes>
+                    <Average_Normal>( -0.1, 0.3 )</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+            </li>
+            <li>
+              <path>Betas/BetaElk/Ears/Ear_Right</path>
+              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Right</bodyPart>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
               <drawSize>1</drawSize>
               <inFrontOfBody>true</inFrontOfBody>
               <offsets>
@@ -241,7 +290,7 @@
       <!-- basic leather -->
       <leatherDef>Leather_Plain</leatherDef>
       <!-- need gendered body defs -->
-      <body>HumanWithAntler</body>
+      <body>BetaHumanoids_Bodies_HumanLikeWithAntlers</body>
       <lifeStageAges>
         <li>
           <def>BetaAdult</def>
@@ -257,5 +306,11 @@
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
+    <recipes>
+      <li>BetaHumanoids_Install_Biological_OuterEar_Normal</li>
+      <li>BetaHumanoids_Install_Prosthetic_OuterEar_Normal</li>
+      <li>BetaHumanoids_Install_Bionic_OuterEar_Normal</li>
+      <li>BetaHumanoids_Install_Prosthetic_Antler_Large</li>
+    </recipes>
   </AlienRace.ThingDef_AlienRace>
 </Defs>
