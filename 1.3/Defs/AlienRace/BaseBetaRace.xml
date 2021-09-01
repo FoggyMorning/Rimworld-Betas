@@ -39,10 +39,12 @@
         <relationChanceModifierSpouse>1</relationChanceModifierSpouse>
         <relationChanceModifierExSpouse>1</relationChanceModifierExSpouse>
 
-        <!-- Betas are vat-grown from sperm and eggs harvested from other Betas by the corporations that create them. When the Beta is sexually mature.
+        <!-- Betas are vat-grown from sperm and eggs harvested from other Betas by the corporations
+        that create them. When the Beta is sexually mature.
                     After the sperm and eggs are harvested, the Beta are sterilized. 
                     Even free Betas are sterile, and the procedure to reverse this is rare and expensive.
-                    As a consequence they have no true family structure and one sperm donor may have offspring with many different egg donors.  -->
+                    As a consequence they have no true family structure and one sperm donor may have offspring with
+        many different egg donors.  -->
         <relationChanceModifierParent>.1</relationChanceModifierParent>
         <relationChanceModifierChild>.1</relationChanceModifierChild>
         <relationChanceModifierSibling>.1</relationChanceModifierSibling>
