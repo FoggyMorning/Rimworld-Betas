@@ -171,6 +171,7 @@
             <li>
               <path>Betas/BetaElk/Antlers/Antler_Right</path>
               <bodyPart>BetaHumanoids_BodyPart_Antler_Large_Right</bodyPart>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
               <drawSize>1</drawSize>
               <inFrontOfBody>true</inFrontOfBody>
               <offsets>
