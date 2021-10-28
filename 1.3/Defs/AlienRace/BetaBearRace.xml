@@ -3,8 +3,7 @@
   <AlienRace.ThingDef_AlienRace ParentName="BaseBetaPawn">
     <defName>BetaBear</defName>
     <label>beta-humanoid (bear)</label>
-    <description>A "Beta", a Beta Class Humanoid Lifeform. Part human and part animal. The property of the Corporation that created them. The Galactic Workers Alliance secured semi-human rights for Betas, and now some have purchased their freedom.</description>
-
+    <description>A "Beta", a Beta Class Humanoid Lifeform. Part human and part Bear.</description>
     <statBases>
       <!-- extra mass -->
       <Mass>70</Mass>

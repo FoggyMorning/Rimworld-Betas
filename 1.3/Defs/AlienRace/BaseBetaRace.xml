@@ -135,7 +135,7 @@
         <li>OrganicStandard</li>
         <li>Human</li>
       </hediffGiverSets>
-
+      <useMeatFrom>Human</useMeatFrom>
     </race>
 
   </AlienRace.ThingDef_AlienRace>
