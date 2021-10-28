@@ -103,22 +103,26 @@
           </colorChannels>
           <bodyAddons>
             <li>
+              <drawnDesiccated>false</drawnDesiccated>
               <path>Betas/BetaRaccoon/Ears/Ear_Left</path>
               <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Left</bodyPart>
               <drawSize>.65</drawSize>
               <inFrontOfBody>true</inFrontOfBody>
               <offsets>
                 <south>
+                  <layerOffset>-0.3</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.2 )</Average_Normal>
                   </crownTypes>
                 </south>
                 <north>
+                  <layerOffset>0.3</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.2 )</Average_Normal>
                   </crownTypes>
                 </north>
                 <east>
+                  <layerOffset>-0.3</layerOffset>
                   <bodyTypes>
                     <Male>( 0.02, 0.0 )</Male>
                     <Female>(0,0)</Female>
@@ -131,10 +135,15 @@
                   </crownTypes>
                 </east>
               </offsets>
-
-
+              <hiddenUnderApparelFor>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag >
+                <li>BetaHumanoids_EarsTag</li>
+              </hiddenUnderApparelTag>
             </li>
             <li>
+              <drawnDesiccated>false</drawnDesiccated>
               <path>Betas/BetaRaccoon/Ears/Ear_Right</path>
               <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Right</bodyPart>
               <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
@@ -142,16 +151,19 @@
               <inFrontOfBody>true</inFrontOfBody>
               <offsets>
                 <south>
+                  <layerOffset>-0.3</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.2 )</Average_Normal>
                   </crownTypes>
                 </south>
                 <north>
+                  <layerOffset>0.3</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.2 )</Average_Normal>
                   </crownTypes>
                 </north>
                 <east>
+                  <layerOffset>-0.3</layerOffset>
                   <bodyTypes>
                     <Male>( 0.02, 0.0 )</Male>
                     <Female>(0,0)</Female>
@@ -164,8 +176,12 @@
                   </crownTypes>
                 </east>
               </offsets>
-
-
+              <hiddenUnderApparelFor>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag >
+                <li>BetaHumanoids_EarsTag</li>
+              </hiddenUnderApparelTag>
             </li>
           </bodyAddons>
         </alienPartGenerator>
@@ -196,6 +212,12 @@
         </li>
         <li>
           <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>TattooDef</key>
           <value>
             <hasStyle>false</hasStyle>
           </value>

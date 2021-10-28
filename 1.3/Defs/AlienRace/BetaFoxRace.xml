@@ -127,6 +127,7 @@
           </colorChannels>
           <bodyAddons>
             <li>
+              <drawnDesiccated>false</drawnDesiccated>
               <path>Betas/BetaFox/Ears/Ear_Left</path>
               <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Left</bodyPart>
               <drawSize>.75</drawSize>
@@ -139,6 +140,7 @@
                   </crownTypes>
                 </south>
                 <north>
+                  <layerOffset>0.3</layerOffset>
                   <bodyTypes>
                     <Male>(0.0, 0.04)</Male>
                     <Female>(0,0)</Female>
@@ -166,9 +168,14 @@
                 </east>
               </offsets>
               <hiddenUnderApparelFor>
+                <li>UpperHead</li>
               </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag >
+                <li>BetaHumanoids_EarsTag</li>
+              </hiddenUnderApparelTag>
             </li>
             <li>
+              <drawnDesiccated>false</drawnDesiccated>
               <path>Betas/BetaFox/Ears/Ear_Right</path>
               <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Right</bodyPart>
               <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
@@ -182,6 +189,7 @@
                   </crownTypes>
                 </south>
                 <north>
+                  <layerOffset>0.3</layerOffset>
                   <bodyTypes>
                     <Male>(0.0, 0.04)</Male>
                     <Female>(0,0)</Female>
@@ -209,7 +217,11 @@
                 </east>
               </offsets>
               <hiddenUnderApparelFor>
+                <li>UpperHead</li>
               </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag >
+                <li>BetaHumanoids_EarsTag</li>
+              </hiddenUnderApparelTag>
             </li>
           </bodyAddons>
         </alienPartGenerator>
@@ -246,6 +258,12 @@
         </li>
         <li>
           <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>TattooDef</key>
           <value>
             <hasStyle>false</hasStyle>
           </value>

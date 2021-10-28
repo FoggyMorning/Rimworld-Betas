@@ -55,7 +55,7 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>8.2</power>
+        <power>4</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <chanceFactor>0.07</chanceFactor>
@@ -68,28 +68,29 @@
         <power>5</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <chanceFactor>0.2</chanceFactor>
+        <chanceFactor>0.02</chanceFactor>
       </li>
       <li>
-        <label>Antlers</label>
+        <label>left antler</label>
         <capacities>
           <li>Poke</li>
           <li>Blunt</li>
         </capacities>
-        <power>7</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
+        <power>4</power>
+        <cooldownTime>4</cooldownTime>
+        <linkedBodyPartsGroup>AntlerAttackToolLeft</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <chanceFactor>0.5</chanceFactor>
-        <surpriseAttack>
-          <extraMeleeDamages>
-            <li>
-              <def>Stun</def>
-              <amount>14</amount>
-            </li>
-          </extraMeleeDamages>
-        </surpriseAttack>
+      </li>
+      <li>
+        <label>right antler</label>
+        <capacities>
+          <li>Poke</li>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>4</cooldownTime>
+        <linkedBodyPartsGroup>AntlerAttackToolRight</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
       </li>
     </tools>
 
@@ -101,8 +102,14 @@
         </notXenophobistTowards>
         <alienPartGenerator>
           <alienbodytypes>
+            <li>Male</li>
+            <li>Thin</li>
+            <li>Fat</li>
+            <li>Hulk</li>
           </alienbodytypes>
           <useGenderedHeads>true</useGenderedHeads>
+          <borderScale>2</borderScale>
+          <atlasScale>2</atlasScale>
           <colorChannels>
             <li>
               <name>skin</name>
@@ -155,7 +162,7 @@
                   </crownTypes>
                 </south>
                 <north>
-                  <layerOffset>-0.01</layerOffset>
+                  <layerOffset>0.3</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.8 )</Average_Normal>
                   </crownTypes>
@@ -182,7 +189,7 @@
                   </crownTypes>
                 </south>
                 <north>
-                  <layerOffset>-0.01</layerOffset>
+                  <layerOffset>0.3</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.8 )</Average_Normal>
                   </crownTypes>
@@ -196,6 +203,7 @@
               </offsets>
             </li>
             <li>
+              <drawnDesiccated>false</drawnDesiccated>
               <path>Betas/BetaElk/Ears/Ear_Left</path>
               <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Left</bodyPart>
               <drawSize>1</drawSize>
@@ -207,6 +215,7 @@
                   </crownTypes>
                 </south>
                 <north>
+                  <layerOffset>0.3</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.3 )</Average_Normal>
                   </crownTypes>
@@ -217,8 +226,15 @@
                   </crownTypes>
                 </east>
               </offsets>
+              <hiddenUnderApparelFor>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag >
+                <li>BetaHumanoids_EarsTag</li>
+              </hiddenUnderApparelTag>
             </li>
             <li>
+              <drawnDesiccated>false</drawnDesiccated>
               <path>Betas/BetaElk/Ears/Ear_Right</path>
               <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Right</bodyPart>
               <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
@@ -231,6 +247,7 @@
                   </crownTypes>
                 </south>
                 <north>
+                  <layerOffset>0.3</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.3 )</Average_Normal>
                   </crownTypes>
@@ -241,6 +258,12 @@
                   </crownTypes>
                 </east>
               </offsets>
+              <hiddenUnderApparelFor>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag >
+                <li>BetaHumanoids_EarsTag</li>
+              </hiddenUnderApparelTag>
             </li>
           </bodyAddons>
         </alienPartGenerator>
@@ -279,6 +302,12 @@
         </li>
         <li>
           <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>TattooDef</key>
           <value>
             <hasStyle>false</hasStyle>
           </value>

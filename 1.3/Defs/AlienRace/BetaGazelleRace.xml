@@ -55,21 +55,32 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>7</power>
+        <power>4</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <chanceFactor>0.07</chanceFactor>
       </li>
       <li>
-        <label>Antlers</label>
+        <label>left antler</label>
         <capacities>
           <li>Poke</li>
         </capacities>
-        <power>7</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
+        <power>4</power>
+        <cooldownTime>4</cooldownTime>
+        <linkedBodyPartsGroup>AntlerAttackToolLeft</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <chanceFactor>0.2</chanceFactor>
+        <chanceFactor>0.1</chanceFactor>
+      </li>
+      <li>
+        <label>right antler</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>4</cooldownTime>
+        <linkedBodyPartsGroup>AntlerAttackToolRight</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.1</chanceFactor>
       </li>
     </tools>
 
@@ -140,7 +151,7 @@
                   </crownTypes>
                 </south>
                 <north>
-                  <layerOffset>-0.01</layerOffset>
+                  <layerOffset>0.3</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.3 )</Average_Normal>
                   </crownTypes>
@@ -174,7 +185,7 @@
                   </crownTypes>
                 </south>
                 <north>
-                  <layerOffset>-0.01</layerOffset>
+                  <layerOffset>0.3</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.3 )</Average_Normal>
                   </crownTypes>
@@ -208,7 +219,7 @@
                   </crownTypes>
                 </south>
                 <north>
-                  <layerOffset>-0.01</layerOffset>
+                  <layerOffset>0.3</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.3 )</Average_Normal>
                   </crownTypes>
@@ -242,7 +253,7 @@
                   </crownTypes>
                 </south>
                 <north>
-                  <layerOffset>-0.01</layerOffset>
+                  <layerOffset>0.3</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.3 )</Average_Normal>
                   </crownTypes>
@@ -263,6 +274,7 @@
               </offsets>
             </li>
             <li>
+              <drawnDesiccated>false</drawnDesiccated>
               <path>Betas/BetaGazelle/Ear/Left/FrontOfHead/Ear</path>
               <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Left</bodyPart>
               <drawSize>.75</drawSize>
@@ -274,6 +286,7 @@
                   </crownTypes>
                 </south>
                 <north>
+                  <layerOffset>0.3</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.4 )</Average_Normal>
                   </crownTypes>
@@ -291,8 +304,15 @@
                   </crownTypes>
                 </east>
               </offsets>
+              <hiddenUnderApparelFor>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag >
+                <li>BetaHumanoids_EarsTag</li>
+              </hiddenUnderApparelTag>
             </li>
             <li>
+              <drawnDesiccated>false</drawnDesiccated>
               <path>Betas/BetaGazelle/Ear/Left/RearOfHead/Ear</path>
               <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Left</bodyPart>
               <drawSize>.75</drawSize>
@@ -305,6 +325,7 @@
                   </crownTypes>
                 </south>
                 <north>
+                  <layerOffset>0.3</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.4 )</Average_Normal>
                   </crownTypes>
@@ -322,8 +343,15 @@
                   </crownTypes>
                 </east>
               </offsets>
+              <hiddenUnderApparelFor>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag >
+                <li>BetaHumanoids_EarsTag</li>
+              </hiddenUnderApparelTag>
             </li>
             <li>
+              <drawnDesiccated>false</drawnDesiccated>
               <path>Betas/BetaGazelle/Ear/Right/FrontOfHead/Ear</path>
               <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Right</bodyPart>
               <drawSize>.75</drawSize>
@@ -353,8 +381,15 @@
                   </crownTypes>
                 </east>
               </offsets>
+              <hiddenUnderApparelFor>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag >
+                <li>BetaHumanoids_EarsTag</li>
+              </hiddenUnderApparelTag>
             </li>
             <li>
+              <drawnDesiccated>false</drawnDesiccated>
               <path>Betas/BetaGazelle/Ear/Right/RearOfHead/Ear</path>
               <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Right</bodyPart>
               <drawSize>.75</drawSize>
@@ -384,6 +419,12 @@
                   </crownTypes>
                 </east>
               </offsets>
+              <hiddenUnderApparelFor>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag >
+                <li>BetaHumanoids_EarsTag</li>
+              </hiddenUnderApparelTag>
             </li>
           </bodyAddons>
         </alienPartGenerator>
@@ -420,6 +461,12 @@
         </li>
         <li>
           <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>TattooDef</key>
           <value>
             <hasStyle>false</hasStyle>
           </value>

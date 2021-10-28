@@ -89,6 +89,7 @@
           <useGenderedHeads>true</useGenderedHeads>
           <bodyAddons>
             <li>
+              <drawnDesiccated>false</drawnDesiccated>
               <path>Betas/BetaCamel/Ears/Ear_Right</path>
               <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Right</bodyPart>
               <drawSize>1</drawSize>
@@ -100,6 +101,7 @@
                   </crownTypes>
                 </south>
                 <north>
+                  <layerOffset>0.3</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.025, 0.35 )</Average_Normal>
                   </crownTypes>
@@ -116,10 +118,15 @@
                   </crownTypes>
                 </west>
               </offsets>
-
-
+              <hiddenUnderApparelFor>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag >
+                <li>BetaHumanoids_EarsTag</li>
+              </hiddenUnderApparelTag>
             </li>
             <li>
+              <drawnDesiccated>false</drawnDesiccated>
               <path>Betas/BetaCamel/Ears/Ear_Left</path>
               <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Left</bodyPart>
               <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
@@ -132,6 +139,7 @@
                   </crownTypes>
                 </south>
                 <north>
+                  <layerOffset>0.3</layerOffset>
                   <crownTypes>
                     <Average_Normal>( -0.013, 0.364 )</Average_Normal>
                   </crownTypes>
@@ -148,8 +156,12 @@
                   </crownTypes>
                 </east>
               </offsets>
-
-
+              <hiddenUnderApparelFor>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag >
+                <li>BetaHumanoids_EarsTag</li>
+              </hiddenUnderApparelTag>
             </li>
           </bodyAddons>
           <headOffset>( 0, 0.1 )</headOffset>
@@ -221,6 +233,12 @@
         </li>
         <li>
           <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>TattooDef</key>
           <value>
             <hasStyle>false</hasStyle>
           </value>

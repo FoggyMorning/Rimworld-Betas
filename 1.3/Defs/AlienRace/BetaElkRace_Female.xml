@@ -83,6 +83,10 @@
             <li>Average_Normal</li>
           </aliencrowntypes>
           <alienbodytypes>
+            <li>Female</li>
+            <li>Thin</li>
+            <li>Fat</li>
+            <li>Hulk</li>
           </alienbodytypes>
           <useGenderedHeads>true</useGenderedHeads>
           <colorChannels>
@@ -125,6 +129,7 @@
           <headOffset>(0,.1)</headOffset>
           <bodyAddons>
             <li>
+              <drawnDesiccated>false</drawnDesiccated>
               <path>Betas/BetaElk/Ears/Ear_Left</path>
               <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Left</bodyPart>
               <drawSize>1</drawSize>
@@ -136,6 +141,7 @@
                   </crownTypes>
                 </south>
                 <north>
+                  <layerOffset>0.3</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.3 )</Average_Normal>
                   </crownTypes>
@@ -146,10 +152,15 @@
                   </crownTypes>
                 </east>
               </offsets>
-
-
+              <hiddenUnderApparelFor>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag >
+                <li>BetaHumanoids_EarsTag</li>
+              </hiddenUnderApparelTag>
             </li>
             <li>
+              <drawnDesiccated>false</drawnDesiccated>
               <path>Betas/BetaElk/Ears/Ear_Right</path>
               <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Right</bodyPart>
               <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
@@ -162,6 +173,7 @@
                   </crownTypes>
                 </south>
                 <north>
+                  <layerOffset>0.3</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.3 )</Average_Normal>
                   </crownTypes>
@@ -172,8 +184,12 @@
                   </crownTypes>
                 </east>
               </offsets>
-
-
+              <hiddenUnderApparelFor>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag >
+                <li>BetaHumanoids_EarsTag</li>
+              </hiddenUnderApparelTag>
             </li>
           </bodyAddons>
         </alienPartGenerator>
@@ -206,6 +222,12 @@
         </li>
         <li>
           <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>TattooDef</key>
           <value>
             <hasStyle>false</hasStyle>
           </value>

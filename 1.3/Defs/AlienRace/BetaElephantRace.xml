@@ -18,32 +18,14 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>8.2</power>
+        <power>9.9</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>14</amount>
-            </li>
-          </extraMeleeDamages>
-        </surpriseAttack>
-      </li>
-      <li>
-        <label>tusk</label>
-        <capacities>
-          <li>Scratch</li>
-          <li>Stab</li>
-        </capacities>
-        <power>25</power>
-        <cooldownTime>2.6</cooldownTime>
-        <linkedBodyPartsGroup>TuskAttackTool</linkedBodyPartsGroup>
-        <surpriseAttack>
-          <extraMeleeDamages>
-            <li>
-              <def>Stun</def>
-              <amount>14</amount>
+              <amount>20</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -53,26 +35,48 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>16.9</power>
+        <power>9.9</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>14</amount>
+              <amount>20</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
+      </li>
+      <li>
+        <label>left tusk</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2.6</cooldownTime>
+        <linkedBodyPartsGroup>BetaHumanoids_TuskAttackToolLeft</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
+      </li>
+      <li>
+        <label>right tusk</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2.6</cooldownTime>
+        <linkedBodyPartsGroup>BetaHumanoids_TuskAttackToolRight</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
       </li>
       <li>
         <label>trunk</label>
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>8</power>
+        <power>4</power>
         <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <linkedBodyPartsGroup>BetaHumanoids_TrunkAttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.07</chanceFactor>
       </li>
       <li>
@@ -80,11 +84,11 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>14</power>
+        <power>7</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <chanceFactor>0.2</chanceFactor>
+        <chanceFactor>0.02</chanceFactor>
       </li>
     </tools>
 
@@ -105,6 +109,7 @@
           <headOffset>(0, .3)</headOffset>
           <bodyAddons>
             <li>
+              <drawnDesiccated>false</drawnDesiccated>
               <path>Betas/BetaElephant/Ears/Ear_Left</path>
               <bodyPart>BetaHumanoids_BodyPart_OuterEar_Large_Left</bodyPart>
               <drawSize>1.4</drawSize>
@@ -117,7 +122,7 @@
                   </crownTypes>
                 </south>
                 <north>
-                  <layerOffset>-1.003</layerOffset>
+                  <layerOffset>0.3</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.6 )</Average_Normal>
                   </crownTypes>
@@ -129,8 +134,15 @@
                   </crownTypes>
                 </east>
               </offsets>
+              <hiddenUnderApparelFor>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag >
+                <li>BetaHumanoids_EarsTag</li>
+              </hiddenUnderApparelTag>
             </li>
             <li>
+              <drawnDesiccated>false</drawnDesiccated>
               <path>Betas/BetaElephant/Ears/Ear_Right</path>
               <bodyPart>BetaHumanoids_BodyPart_OuterEar_Large_Right</bodyPart>
               <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
@@ -144,7 +156,7 @@
                   </crownTypes>
                 </south>
                 <north>
-                  <layerOffset>-1.003</layerOffset>
+                  <layerOffset>0.3</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.6 )</Average_Normal>
                   </crownTypes>
@@ -156,6 +168,12 @@
                   </crownTypes>
                 </east>
               </offsets>
+              <hiddenUnderApparelFor>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag >
+                <li>BetaHumanoids_EarsTag</li>
+              </hiddenUnderApparelTag>
             </li>
             <li>
               <path>Betas/BetaElephant/Tusks/Tusk_Left</path>
@@ -221,6 +239,7 @@
               </offsets>
             </li>
             <li>
+              <drawnDesiccated>false</drawnDesiccated>
               <path>Betas/BetaElephant/Trunk/Trunk</path>
               <bodyPart>BetaHumanoids_BodyPart_Trunk_Elephant</bodyPart>
               <drawSize>1.4</drawSize>
@@ -322,6 +341,12 @@
         </li>
         <li>
           <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>TattooDef</key>
           <value>
             <hasStyle>false</hasStyle>
           </value>

@@ -234,7 +234,8 @@
                       <coverage>0.1</coverage>
                       <customLabel>left tusk</customLabel>
                       <groups>
-                        <li>TuskAttackTool</li>
+                        <li>FullHead</li>
+                        <li>BetaHumanoids_TuskAttackToolLeft</li>
                       </groups>
                     </li>
                     <li>
@@ -242,7 +243,8 @@
                       <coverage>0.1</coverage>
                       <customLabel>right tusk</customLabel>
                       <groups>
-                        <li>TuskAttackTool</li>
+                        <li>FullHead</li>
+                        <li>BetaHumanoids_TuskAttackToolRight</li>
                       </groups>
                     </li>
                     <li>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BodyPartGroupDef>
+    <defName>AntlerAttackToolLeft</defName>
+    <label>left antler</label>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>AntlerAttackToolRight</defName>
+    <label>right antler</label>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>BetaHumanoids_TrunkAttackTool</defName>
+    <label>trunk</label>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>BetaHumanoids_TuskAttackToolRight</defName>
+    <label>right tusk</label>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>BetaHumanoids_TuskAttackToolLeft</defName>
+    <label>left tusk</label>
+  </BodyPartGroupDef>
+
+</Defs>

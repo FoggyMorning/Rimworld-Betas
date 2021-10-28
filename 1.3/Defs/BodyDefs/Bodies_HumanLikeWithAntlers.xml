@@ -137,7 +137,7 @@
                   <groups>
                     <li>UpperHead</li>
                     <li>FullHead</li>
-                    <li>HornAttackTool</li>
+                    <li>AntlerAttackToolLeft</li>
                   </groups>
                 </li>
                 <li>
@@ -147,7 +147,7 @@
                   <groups>
                     <li>UpperHead</li>
                     <li>FullHead</li>
-                    <li>HornAttackTool</li>
+                    <li>AntlerAttackToolRight</li>
                   </groups>
                 </li>
                 <li>

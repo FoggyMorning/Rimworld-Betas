@@ -185,8 +185,13 @@
             <hasStyle>false</hasStyle>
           </value>
         </li>
+        <li>
+          <key>TattooDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
       </styleSettings>
-
     </alienRace>
 
     <race>

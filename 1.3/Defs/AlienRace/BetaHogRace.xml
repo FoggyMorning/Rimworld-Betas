@@ -12,14 +12,26 @@
 
     <tools>
       <li>
-        <label>tusk</label>
+        <label>left tusk</label>
         <capacities>
           <li>Scratch</li>
           <li>Stab</li>
         </capacities>
-        <power>9.7</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>TuskAttackTool</linkedBodyPartsGroup>
+        <power>4.7</power>
+        <cooldownTime>3</cooldownTime>
+        <linkedBodyPartsGroup>BetaHumanoids_TuskAttackToolLeft</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
+      </li>
+      <li>
+        <label>right tusk</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>4.7</power>
+        <cooldownTime>3</cooldownTime>
+        <linkedBodyPartsGroup>BetaHumanoids_TuskAttackToolRight</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
       </li>
       <li>
         <label>left fist</label>
@@ -44,7 +56,7 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>8.5</power>
+        <power>4.5</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <chanceFactor>0.7</chanceFactor>
@@ -58,7 +70,7 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <chanceFactor>0.2</chanceFactor>
+        <chanceFactor>0.02</chanceFactor>
       </li>
     </tools>
 
@@ -117,22 +129,26 @@
           </colorChannels>
           <bodyAddons>
             <li>
+              <drawnDesiccated>false</drawnDesiccated>
               <path>Betas/BetaHog/Ears/Ear_Left</path>
               <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Left</bodyPart>
               <drawSize>.8</drawSize>
               <inFrontOfBody>true</inFrontOfBody>
               <offsets>
                 <south>
+                  <layerOffset>-0.3</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.3 )</Average_Normal>
                   </crownTypes>
                 </south>
                 <north>
+                  <layerOffset>0.3</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.3 )</Average_Normal>
                   </crownTypes>
                 </north>
                 <east>
+                  <layerOffset>-0.3</layerOffset>
                   <bodyTypes>
                     <Male>(0.05,.00)</Male>
                     <Female>(0,0)</Female>
@@ -145,10 +161,15 @@
                   </crownTypes>
                 </east>
               </offsets>
-
-
+              <hiddenUnderApparelFor>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag >
+                <li>BetaHumanoids_EarsTag</li>
+              </hiddenUnderApparelTag>
             </li>
             <li>
+              <drawnDesiccated>false</drawnDesiccated>
               <path>Betas/BetaHog/Ears/Ear_Right</path>
               <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Right</bodyPart>
               <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
@@ -156,16 +177,19 @@
               <inFrontOfBody>true</inFrontOfBody>
               <offsets>
                 <south>
+                  <layerOffset>-0.3</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.3 )</Average_Normal>
                   </crownTypes>
                 </south>
                 <north>
+                  <layerOffset>0.3</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.3 )</Average_Normal>
                   </crownTypes>
                 </north>
                 <east>
+                  <layerOffset>-0.3</layerOffset>
                   <bodyTypes>
                     <Male>(0.05,.00)</Male>
                     <Female>(0,0)</Female>
@@ -178,8 +202,12 @@
                   </crownTypes>
                 </east>
               </offsets>
-
-
+              <hiddenUnderApparelFor>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag >
+                <li>BetaHumanoids_EarsTag</li>
+              </hiddenUnderApparelTag>
             </li>
             <li>
               <path>Betas/BetaHog/Tusks/Tusk_Left</path>
@@ -188,6 +216,7 @@
               <inFrontOfBody>true</inFrontOfBody>
               <offsets>
                 <south>
+                  <layerOffset>-0.3</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.32 )</Average_Normal>
                   </crownTypes>
@@ -195,6 +224,7 @@
                 <north>
                 </north>
                 <east>
+                  <layerOffset>-0.3</layerOffset>
                   <bodyTypes>
                     <Male>( 0.05, 0.00)</Male>
                     <Female>(0,0)</Female>
@@ -221,6 +251,7 @@
               <inFrontOfBody>true</inFrontOfBody>
               <offsets>
                 <south>
+                  <layerOffset>-0.3</layerOffset>
                   <crownTypes>
                     <Average_Normal>( 0.0, 0.32 )</Average_Normal>
                   </crownTypes>
@@ -228,6 +259,7 @@
                 <north>
                 </north>
                 <east>
+                  <layerOffset>-0.3</layerOffset>
                   <bodyTypes>
                     <Male>( 0.05, 0.00)</Male>
                     <Female>(0,0)</Female>
@@ -281,6 +313,12 @@
         </li>
         <li>
           <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>TattooDef</key>
           <value>
             <hasStyle>false</hasStyle>
           </value>
