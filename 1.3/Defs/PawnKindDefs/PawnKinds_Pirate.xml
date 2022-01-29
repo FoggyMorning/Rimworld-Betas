@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef Abstract="True" Name="BetaHumanoids_Drifter" ParentName="PirateBase">
+    <defName>BetaHumanoids_Drifter</defName>
+    <label>drifter</label>
+    <combatPower>35</combatPower>
+    <invNutrition>0</invNutrition>
+    <gearHealthRange>0.2~0.6</gearHealthRange>
+    <itemQuality>Poor</itemQuality>
+    <apparelMoney>90~280</apparelMoney>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+    </apparelTags>
+    <weaponMoney>60~200</weaponMoney>
+    <weaponTags>
+      <li>MedievalMeleeBasic</li>
+      <li>NeolithicMeleeBasic</li>
+    </weaponTags>
+    <techHediffsMoney>50~50</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.15</techHediffsChance>
+    <inventoryOptions>
+      <skipChance>0.9</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>MedicineHerbal</thingDef>
+          <countRange>1</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+    <initialWillRange>0~1</initialWillRange>
+    <initialResistanceRange>7~12</initialResistanceRange>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Drifter">
+    <race>BetaBear</race>
+    <label>drifter (beta-bear)</label>
+    <defName>BetaBear_Drifter</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Drifter">
+    <race>BetaCamel</race>
+    <label>drifter (beta-camel)</label>
+    <defName>BetaCamel_Drifter</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Drifter">
+    <race>BetaCroc</race>
+    <label>drifter (beta-croc)</label>
+    <defName>BetaCroc_Drifter</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Drifter">
+    <race>BetaElephant</race>
+    <label>drifter (beta-elephant)</label>
+    <defName>BetaElephant_Drifter</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Drifter">
+    <race>BetaElk_Male</race>
+    <label>drifter (beta-elk)</label>
+    <defName>BetaElk_Male_Drifter</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Drifter">
+    <race>BetaElk_Female</race>
+    <label>drifter (beta-elk)</label>
+    <defName>BetaElk_Female_Drifter</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Drifter">
+    <race>BetaFox</race>
+    <label>drifter (beta-fox)</label>
+    <defName>BetaFox_Drifter</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Drifter">
+    <race>BetaGazelle</race>
+    <label>drifter (beta-gazelle)</label>
+    <defName>BetaGazelle_Drifter</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Drifter">
+    <race>BetaHog</race>
+    <label>drifter (beta-hog)</label>
+    <defName>BetaHog_Drifter</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Drifter">
+    <race>BetaLynx</race>
+    <label>drifter (beta-lynx)</label>
+    <defName>BetaLynx_Drifter</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Drifter">
+    <race>BetaRaccoon</race>
+    <label>drifter (beta-racoon)</label>
+    <defName>BetaRaccoon_Drifter</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Drifter">
+    <race>BetaWolf</race>
+    <label>drifter (beta-wolf)</label>
+    <defName>BetaWolf_Drifter</defName>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="BetaHumanoids_Scavenger" ParentName="PirateScavTierBase">
+    <defName>BetaHumanoids_Scavenger</defName>
+    <label>scavenger gunner</label>
+    <apparelMoney>300~500</apparelMoney>
+    <weaponMoney>200~300</weaponMoney>
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+    <initialResistanceRange>17~26</initialResistanceRange>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Scavenger">
+    <race>BetaBear</race>
+    <label>scavenger gunner (beta-bear)</label>
+    <defName>BetaBear_Scavenger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Scavenger">
+    <race>BetaCamel</race>
+    <label>scavenger gunner (beta-camel)</label>
+    <defName>BetaCamel_Scavenger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Scavenger">
+    <race>BetaCroc</race>
+    <label>scavenger gunner (beta-croc)</label>
+    <defName>BetaCroc_Scavenger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Scavenger">
+    <race>BetaElephant</race>
+    <label>scavenger gunner (beta-elephant)</label>
+    <defName>BetaElephant_Scavenger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Scavenger">
+    <race>BetaElk_Male</race>
+    <label>scavenger gunner (beta-elk)</label>
+    <defName>BetaElk_Male_Scavenger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Scavenger">
+    <race>BetaElk_Female</race>
+    <label>scavenger gunner (beta-elk)</label>
+    <defName>BetaElk_Female_Scavenger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Scavenger">
+    <race>BetaFox</race>
+    <label>scavenger gunner (beta-fox)</label>
+    <defName>BetaFox_Scavenger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Scavenger">
+    <race>BetaGazelle</race>
+    <label>scavenger gunner (beta-gazelle)</label>
+    <defName>BetaGazelle_Scavenger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Scavenger">
+    <race>BetaHog</race>
+    <label>scavenger gunner (beta-hog)</label>
+    <defName>BetaHog_Scavenger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Scavenger">
+    <race>BetaLynx</race>
+    <label>scavenger gunner (beta-lynx)</label>
+    <defName>BetaLynx_Scavenger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Scavenger">
+    <race>BetaRaccoon</race>
+    <label>scavenger gunner (beta-racoon)</label>
+    <defName>BetaRaccoon_Scavenger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Scavenger">
+    <race>BetaWolf</race>
+    <label>scavenger gunner (beta-wolf)</label>
+    <defName>BetaWolf_Scavenger</defName>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="BetaHumanoids_Thrasher" ParentName="PirateScavTierBase">
+    <defName>BetaHumanoids_Thrasher</defName>
+    <label>scavenger thrasher</label>
+    <race>Human</race>
+    <canBeSapper>true</canBeSapper>
+    <apparelMoney>300~800</apparelMoney>
+    <apparelTags>
+      <li>Outlander</li>
+    </apparelTags>
+    <weaponMoney>100~160</weaponMoney>
+    <weaponTags>
+      <li>NeolithicMeleeBasic</li>
+      <li>MedievalMeleeBasic</li>
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+    <initialResistanceRange>14~23</initialResistanceRange>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Thrasher">
+    <race>BetaBear</race>
+    <label>scavenger thrasher (beta-bear)</label>
+    <defName>BetaBear_Thrasher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Thrasher">
+    <race>BetaCamel</race>
+    <label>scavenger thrasher (beta-camel)</label>
+    <defName>BetaCamel_Thrasher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Thrasher">
+    <race>BetaCroc</race>
+    <label>scavenger thrasher (beta-croc)</label>
+    <defName>BetaCroc_Thrasher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Thrasher">
+    <race>BetaElephant</race>
+    <label>scavenger thrasher (beta-elephant)</label>
+    <defName>BetaElephant_Thrasher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Thrasher">
+    <race>BetaElk_Male</race>
+    <label>scavenger thrasher (beta-elk)</label>
+    <defName>BetaElk_Male_Thrasher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Thrasher">
+    <race>BetaElk_Female</race>
+    <label>scavenger thrasher (beta-elk)</label>
+    <defName>BetaElk_Female_Thrasher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Thrasher">
+    <race>BetaFox</race>
+    <label>scavenger thrasher (beta-fox)</label>
+    <defName>BetaFox_Thrasher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Thrasher">
+    <race>BetaGazelle</race>
+    <label>scavenger thrasher (beta-gazelle)</label>
+    <defName>BetaGazelle_Thrasher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Thrasher">
+    <race>BetaHog</race>
+    <label>scavenger thrasher (beta-hog)</label>
+    <defName>BetaHog_Thrasher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Thrasher">
+    <race>BetaLynx</race>
+    <label>scavenger thrasher (beta-lynx)</label>
+    <defName>BetaLynx_Thrasher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Thrasher">
+    <race>BetaRaccoon</race>
+    <label>scavenger thrasher (beta-racoon)</label>
+    <defName>BetaRaccoon_Thrasher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Thrasher">
+    <race>BetaWolf</race>
+    <label>scavenger thrasher (beta-wolf)</label>
+    <defName>BetaWolf_Thrasher</defName>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="BetaHumanoids_Pirate" ParentName="PirateBase">
+    <defName>BetaHumanoids_Pirate</defName>
+    <label>pirate gunner</label>
+    <race>Human</race>
+    <combatPower>65</combatPower>
+    <maxGenerationAge>65</maxGenerationAge>
+    <gearHealthRange>0.7~2.3</gearHealthRange>
+    <apparelMoney>400~1000</apparelMoney>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>IndustrialMilitaryBasic</li>
+      <li>IndustrialMilitaryAdvanced</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
+    <weaponMoney>250~345</weaponMoney>
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+    <techHediffsChance>0.04</techHediffsChance>
+    <techHediffsMoney>50~800</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+    <inventoryOptions>
+      <skipChance>0.9</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>MedicineIndustrial</thingDef>
+          <countRange>1</countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+    <biocodeWeaponChance>0.2</biocodeWeaponChance>
+    <initialWillRange>2~3</initialWillRange>
+    <initialResistanceRange>7~12</initialResistanceRange>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Pirate">
+    <race>BetaBear</race>
+    <label>pirate gunner (beta-bear)</label>
+    <defName>BetaBear_Pirate</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Pirate">
+    <race>BetaCamel</race>
+    <label>pirate gunner (beta-camel)</label>
+    <defName>BetaCamel_Pirate</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Pirate">
+    <race>BetaCroc</race>
+    <label>pirate gunner (beta-croc)</label>
+    <defName>BetaCroc_Pirate</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Pirate">
+    <race>BetaElephant</race>
+    <label>pirate gunner (beta-elephant)</label>
+    <defName>BetaElephant_Pirate</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Pirate">
+    <race>BetaElk_Male</race>
+    <label>pirate gunner (beta-elk)</label>
+    <defName>BetaElk_Male_Pirate</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Pirate">
+    <race>BetaElk_Female</race>
+    <label>pirate gunner (beta-elk)</label>
+    <defName>BetaElk_Female_Pirate</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Pirate">
+    <race>BetaFox</race>
+    <label>pirate gunner (beta-fox)</label>
+    <defName>BetaFox_Pirate</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Pirate">
+    <race>BetaGazelle</race>
+    <label>pirate gunner (beta-gazelle)</label>
+    <defName>BetaGazelle_Pirate</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Pirate">
+    <race>BetaHog</race>
+    <label>pirate gunner (beta-hog)</label>
+    <defName>BetaHog_Pirate</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Pirate">
+    <race>BetaLynx</race>
+    <label>pirate gunner (beta-lynx)</label>
+    <defName>BetaLynx_Pirate</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Pirate">
+    <race>BetaRaccoon</race>
+    <label>pirate gunner (beta-racoon)</label>
+    <defName>BetaRaccoon_Pirate</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Pirate">
+    <race>BetaWolf</race>
+    <label>pirate gunner (beta-wolf)</label>
+    <defName>BetaWolf_Pirate</defName>
+  </PawnKindDef>
+</Defs>

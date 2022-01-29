@@ -1,100 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-	<ModMetaData>
-  
-		<name>Beta-humanoids</name>
-  
-		<author>Foggy Morning</author>
-  
-		<url>https://github.com/FoggyMorning/Rimworld-Betas</url>
-  
-		<supportedVersions><li>1.0</li></supportedVersions>
+<ModMetaData>
+	<name>Beta-humanoids</name>
+	<author>Foggy Morning</author>
+	<url>https://github.com/FoggyMorning/Rimworld-Betas</url>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+		<li>1.2</li>
+		<li>1.3</li>
+	</supportedVersions>
+	<packageId>FoggyMorning.BetaHumanoids</packageId>
+	<modDependencies>
+		<li>
+			<packageId>erdelf.HumanoidAlienRaces</packageId>
+			<displayName>Humanoid Alien Races 2.0</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>brrainz.harmony</li>
+		<li>erdelf.HumanoidAlienRaces</li>
+	</loadAfter>
 
-		<description>
-		A Beta Class Humanoid Lifeform. Part human and part animal. The property of the Corporation that created them.
-		
-		Their job: Justification and Pacification of new worlds. Find exploitable resources and elimniate dangerous indigenous lifeforms.
-		
-		The Galactic Workers Alliance secured semi-human rights for Betas through a series of punishing strikes, forcing the Corporations to allow the Betas to buyback the cost of their birth and training.
-		
-		Now some "Betas" have managed to purchase their freedom and begun to make their way to the Rim.
+	<description>Updated for 1.3!  
+The "Beta-humanoids" mod gives a chance for the Beta-humanoids races to be available at Colony start (PlayerColony and PlayerTribe), and to later appear as refugees, wanderers, and slaves.
+I tried to make the Beta's heads look correct with the vanilla hats and helmets, however the Powered Marine Helmet would not work, and I had to make new textures for it to allow for (short) snouts
+	</description>
 
-		[H1]What does this mod do?[/H1]
-		The "Beta-humanoids" mod gives a chance for the Beta-humanoids races to be available at Colony start (PlayerColony and PlayerTribe), and to later appear as refugees, wanderers, and slaves. 		
-		I tried to make the Beta's heads look correct with the vanilla hats and helmets, however the Powered Marine Helmet would not work, and I had to make new textures for it to allow for (short) snouts. 
-        Includes an Options menu where you can set the chance for each Beta race type to appear.
-		
-		Races added:
-		Elephants and Hogs Betas have a tusk attack; Bears, Lynx, Fox, and Raccoon Betas have claw and bite attacks; and Gazelle and Male Elks have horn attacks. All damage values are based on the animals they are created from.
-
-		Bear:
-			Advantages:
-				Larger than humans with increased health. Increased comfortable temperature range. 
-			Disadvantages:
-				Works slower, increased chance for Greedy and Gourmand negative traits.
-
-		Camels:
-			Advantages:
-				Comfortable at higher temps. Lowered hunger rate. Increased chance of Ascetic trait.
-			Disadvantages:
-				Increased Chance of Abrasive trait.
-		
-		Elephants:
-			Advantages:
-				Much larger than humans with increased health.  Increased social impact. Slightly increased chance of Good Memory and Kind traits.
-			Disadvantages:
-				Increased hunger rate.
-		
-		Elk:
-			Advantages:
-				Larger than humans.  Move slightly faster. Males have much higher chance to get the Brawler trait to represent the antlers.  
-			Disadvantages:
-				Increased chance to have the Nervous trait.
-		
-		Fox:
-			Advantages:
-			 	Research slightly faster.  Chance to get the Night owl trait.
-			Disadvantages:
-				Smaller than humans with decreased health. Slight chance to get the Too Smart trait. 
-		
-		Gazelle:
-			Advantages:
-			 	Move very fast.  Slight chance for Brawler and Nimble traits.
-			Disadvantages:
-				Smaller than humans with decreased health. Greatly reduced mining speed. 
-		
-		Lynx:
-			Advantages:
-			 	Increased movement speed. Chance to gain Night owl trait.
-			Disadvantages:
-				Smaller than humans with decreased health. Chance to gain the Psychopath trait.
-		
-		Hog:
-			Advantages:
-			 	Chance to gain the FastLearner trait.
-			Disadvantages:
-				Smaller than humans with decreased health. Chance to gain the Cannibal trait.
-		
-		Raccoon:
-			Advantages:
-			 	Doesn't get bad thoughts for eating kibble or insect meat.  100% chance to gain the Night owl trait.
-			Disadvantages:
-				Smaller than humans with decreased health. Decreased movement speed. 
-		
-		Wolf:
-			Advantages:
-			 	Increased move speed.  Increased chance to gain the Psychic Sensitivity 1 trait.
-			Disadvantages:
-			 	Increased chance to gain the Psychic Sensitivity 1 trait.
-		
-
-
-		Inspired by the "BeastMan Tribals" mod.   https://steamcommunity.com/id/joeglass/myworkshopfiles/?appid=294100
-		The "BeastMan Tribals" mod creates Beastmen that can appear as tribal factions. 
-		Both mods can be active at the same time.
-
-		Fluff inspired by the long defunct RPG "Justifiers".  https://rpggeek.com/rpg/1185/justifiers-rpg
-		
-		</description>
-	
 </ModMetaData>

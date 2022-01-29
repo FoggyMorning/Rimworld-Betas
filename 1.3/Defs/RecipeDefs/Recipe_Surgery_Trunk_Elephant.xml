@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
+    <defName>BetaHumanoids_Install_Biological_Trunk_Elephant</defName>
+    <label>graft elephant trunk</label>
+    <description>Graft a biological elephant trunk.</description>
+    <descriptionHyperlinks>
+      <ThingDef>BetaHumanoids_Thing_Biological_Trunk_Elephant</ThingDef>
+    </descriptionHyperlinks>
+    <jobString>An elephant trunk.</jobString>
+    <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>6</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BetaHumanoids_Thing_Biological_Trunk_Elephant</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>BetaHumanoids_Thing_Biological_Trunk_Elephant</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>BetaHumanoids_BodyPart_Trunk_Elephant</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>BetaHumanoids_Install_Prosthetic_Trunk_Elephant</defName>
+    <label>install elephant trunk prosthesis</label>
+    <description>Install an elephant trunk prosthesis.</description>
+    <descriptionHyperlinks>
+      <ThingDef>BetaHumanoids_Thing_Prosthetic_Trunk_Elephant</ThingDef>
+      <HediffDef>BetaHumanoids_Hediff_Prosthetic_Trunk_Elephant</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing an elephant trunk prosthesis.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BetaHumanoids_Thing_Prosthetic_Trunk_Elephant</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>BetaHumanoids_Thing_Prosthetic_Trunk_Elephant</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>BetaHumanoids_BodyPart_Trunk_Elephant</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>BetaHumanoids_Hediff_Prosthetic_Trunk_Elephant</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>BetaHumanoids_Install_Bionic_Trunk_Elephant</defName>
+    <label>install bionic elephant trunk</label>
+    <description>Install a bionic elephant trunk.</description>
+    <descriptionHyperlinks>
+      <ThingDef>BetaHumanoids_Thing_Bionic_Trunk_Elephant</ThingDef>
+      <HediffDef>BetaHumanoids_Hediff_Bionic_Trunk_Elephant</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing a bionic elephant trunk.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BetaHumanoids_Thing_Bionic_Trunk_Elephant</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>BetaHumanoids_Thing_Bionic_Trunk_Elephant</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>BetaHumanoids_BodyPart_Trunk_Elephant</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>BetaHumanoids_Hediff_Bionic_Trunk_Elephant</addsHediff>
+  </RecipeDef>
+
+</Defs>

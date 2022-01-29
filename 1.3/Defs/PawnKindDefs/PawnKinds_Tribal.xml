@@ -1,0 +1,694 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef Abstract="True" Name="BetaHumanoids_Tribal_Penitent" ParentName="TribalBase">
+    <defName>BetaHumanoids_Tribal_Penitent</defName>
+    <label>penitent</label>
+    <combatPower>40</combatPower>
+    <chemicalAddictionChance>0.10</chemicalAddictionChance>
+    <invNutrition>0</invNutrition>
+    <itemQuality>Poor</itemQuality>
+    <gearHealthRange>0.2~1.1</gearHealthRange>
+    <apparelMoney>50~100</apparelMoney>
+    <weaponMoney>90~150</weaponMoney>
+    <weaponTags>
+      <li>NeolithicMeleeBasic</li>
+    </weaponTags>
+    <techHediffsMoney>50~50</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.15</techHediffsChance>
+    <initialWillRange>0~1</initialWillRange>
+    <initialResistanceRange>10~17</initialResistanceRange>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Penitent">
+    <race>BetaBear</race>
+    <label>penitent (beta-bear)</label>
+    <defName>BetaBear_Tribal_Penitent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Penitent">
+    <race>BetaCamel</race>
+    <label>penitent (beta-camel)</label>
+    <defName>BetaCamel_Tribal_Penitent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Penitent">
+    <race>BetaCroc</race>
+    <label>penitent (beta-croc)</label>
+    <defName>BetaCroc_Tribal_Penitent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Penitent">
+    <race>BetaElephant</race>
+    <label>penitent (beta-elephant)</label>
+    <defName>BetaElephant_Tribal_Penitent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Penitent">
+    <race>BetaElk_Male</race>
+    <label>penitent (beta-elk)</label>
+    <defName>BetaElk_Male_Tribal_Penitent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Penitent">
+    <race>BetaElk_Female</race>
+    <label>penitent (beta-elk)</label>
+    <defName>BetaElk_Female_Tribal_Penitent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Penitent">
+    <race>BetaFox</race>
+    <label>penitent (beta-fox)</label>
+    <defName>BetaFox_Tribal_Penitent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Penitent">
+    <race>BetaGazelle</race>
+    <label>penitent (beta-gazelle)</label>
+    <defName>BetaGazelle_Tribal_Penitent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Penitent">
+    <race>BetaHog</race>
+    <label>penitent (beta-hog)</label>
+    <defName>BetaHog_Tribal_Penitent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Penitent">
+    <race>BetaLynx</race>
+    <label>penitent (beta-lynx)</label>
+    <defName>BetaLynx_Tribal_Penitent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Penitent">
+    <race>BetaRaccoon</race>
+    <label>penitent (beta-racoon)</label>
+    <defName>BetaRaccoon_Tribal_Penitent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Penitent">
+    <race>BetaWolf</race>
+    <label>penitent (beta-wolf)</label>
+    <defName>BetaWolf_Tribal_Penitent</defName>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="BetaHumanoids_Tribal_Archer" ParentName="TribalBase">
+    <defName>BetaHumanoids_Tribal_Archer</defName>
+    <label>archer</label>
+    <combatPower>45</combatPower>
+    <itemQuality>Poor</itemQuality>
+    <gearHealthRange>0.5~1.8</gearHealthRange>
+    <apparelMoney>180~350</apparelMoney>
+    <weaponMoney>80~80</weaponMoney>
+    <weaponTags>
+      <li>NeolithicRangedBasic</li>
+    </weaponTags>
+    <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
+    <techHediffsMoney>50~50</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.03</techHediffsChance>
+    <initialWillRange>1~3</initialWillRange>
+    <initialResistanceRange>17~27</initialResistanceRange>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Archer">
+    <race>BetaBear</race>
+    <label>archer (beta-bear)</label>
+    <defName>BetaBear_Tribal_Archer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Archer">
+    <race>BetaCamel</race>
+    <label>archer (beta-camel)</label>
+    <defName>BetaCamel_Tribal_Archer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Archer">
+    <race>BetaCroc</race>
+    <label>archer (beta-croc)</label>
+    <defName>BetaCroc_Tribal_Archer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Archer">
+    <race>BetaElephant</race>
+    <label>archer (beta-elephant)</label>
+    <defName>BetaElephant_Tribal_Archer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Archer">
+    <race>BetaElk_Male</race>
+    <label>archer (beta-elk)</label>
+    <defName>BetaElk_Male_Tribal_Archer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Archer">
+    <race>BetaElk_Female</race>
+    <label>archer (beta-elk)</label>
+    <defName>BetaElk_Female_Tribal_Archer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Archer">
+    <race>BetaFox</race>
+    <label>archer (beta-fox)</label>
+    <defName>BetaFox_Tribal_Archer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Archer">
+    <race>BetaGazelle</race>
+    <label>archer (beta-gazelle)</label>
+    <defName>BetaGazelle_Tribal_Archer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Archer">
+    <race>BetaHog</race>
+    <label>archer (beta-hog)</label>
+    <defName>BetaHog_Tribal_Archer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Archer">
+    <race>BetaLynx</race>
+    <label>archer (beta-lynx)</label>
+    <defName>BetaLynx_Tribal_Archer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Archer">
+    <race>BetaRaccoon</race>
+    <label>archer (beta-racoon)</label>
+    <defName>BetaRaccoon_Tribal_Archer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Archer">
+    <race>BetaWolf</race>
+    <label>archer (beta-wolf)</label>
+    <defName>BetaWolf_Tribal_Archer</defName>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="BetaHumanoids_Tribal_Warrior" ParentName="TribalBase">
+    <defName>BetaHumanoids_Tribal_Warrior</defName>
+    <label>warrior</label>
+    <combatPower>50</combatPower>
+    <itemQuality>Poor</itemQuality>
+    <canBeSapper>true</canBeSapper>
+    <gearHealthRange>0.5~1.8</gearHealthRange>
+    <apparelMoney>200~300</apparelMoney>
+    <apparelRequired>
+      <li>Apparel_WarVeil</li>
+    </apparelRequired>
+    <weaponMoney>150~150</weaponMoney>
+    <weaponTags>
+      <li>NeolithicMeleeDecent</li>
+    </weaponTags>
+    <initialWillRange>1~3</initialWillRange>
+    <initialResistanceRange>5~9</initialResistanceRange>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Warrior">
+    <race>BetaBear</race>
+    <label>warrior (beta-bear)</label>
+    <defName>BetaBear_Tribal_Warrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Warrior">
+    <race>BetaCamel</race>
+    <label>warrior (beta-camel)</label>
+    <defName>BetaCamel_Tribal_Warrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Warrior">
+    <race>BetaCroc</race>
+    <label>warrior (beta-croc)</label>
+    <defName>BetaCroc_Tribal_Warrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Warrior">
+    <race>BetaElephant</race>
+    <label>warrior (beta-elephant)</label>
+    <defName>BetaElephant_Tribal_Warrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Warrior">
+    <race>BetaElk_Male</race>
+    <label>warrior (beta-elk)</label>
+    <defName>BetaElk_Male_Tribal_Warrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Warrior">
+    <race>BetaElk_Female</race>
+    <label>warrior (beta-elk)</label>
+    <defName>BetaElk_Female_Tribal_Warrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Warrior">
+    <race>BetaFox</race>
+    <label>warrior (beta-fox)</label>
+    <defName>BetaFox_Tribal_Warrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Warrior">
+    <race>BetaGazelle</race>
+    <label>warrior (beta-gazelle)</label>
+    <defName>BetaGazelle_Tribal_Warrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Warrior">
+    <race>BetaHog</race>
+    <label>warrior (beta-hog)</label>
+    <defName>BetaHog_Tribal_Warrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Warrior">
+    <race>BetaLynx</race>
+    <label>warrior (beta-lynx)</label>
+    <defName>BetaLynx_Tribal_Warrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Warrior">
+    <race>BetaRaccoon</race>
+    <label>warrior (beta-racoon)</label>
+    <defName>BetaRaccoon_Tribal_Warrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Warrior">
+    <race>BetaWolf</race>
+    <label>warrior (beta-wolf)</label>
+    <defName>BetaWolf_Tribal_Warrior</defName>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="BetaHumanoids_Tribal_Hunter" ParentName="TribalBase">
+    <defName>BetaHumanoids_Tribal_Hunter</defName>
+    <label>hunter</label>
+    <combatPower>60</combatPower>
+    <backstoryFiltersOverride>
+      <li>
+        <categoriesAdulthood>
+          <li>TribalHunter</li>
+        </categoriesAdulthood>
+      </li>
+    </backstoryFiltersOverride>
+    <gearHealthRange>0.5~1.8</gearHealthRange>
+    <apparelMoney>200~300</apparelMoney>
+    <apparelRequired>
+      <li>Apparel_WarVeil</li>
+    </apparelRequired>
+    <weaponMoney>100~100</weaponMoney>
+    <weaponTags>
+      <li>NeolithicRangedDecent</li>
+    </weaponTags>
+    <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
+    <initialWillRange>2~4</initialWillRange>
+    <initialResistanceRange>10~16</initialResistanceRange>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Hunter">
+    <race>BetaBear</race>
+    <label>hunter (beta-bear)</label>
+    <defName>BetaBear_Tribal_Hunter</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Hunter">
+    <race>BetaCamel</race>
+    <label>hunter (beta-camel)</label>
+    <defName>BetaCamel_Tribal_Hunter</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Hunter">
+    <race>BetaCroc</race>
+    <label>hunter (beta-croc)</label>
+    <defName>BetaCroc_Tribal_Hunter</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Hunter">
+    <race>BetaElephant</race>
+    <label>hunter (beta-elephant)</label>
+    <defName>BetaElephant_Tribal_Hunter</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Hunter">
+    <race>BetaElk_Male</race>
+    <label>hunter (beta-elk)</label>
+    <defName>BetaElk_Male_Tribal_Hunter</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Hunter">
+    <race>BetaElk_Female</race>
+    <label>hunter (beta-elk)</label>
+    <defName>BetaElk_Female_Tribal_Hunter</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Hunter">
+    <race>BetaFox</race>
+    <label>hunter (beta-fox)</label>
+    <defName>BetaFox_Tribal_Hunter</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Hunter">
+    <race>BetaGazelle</race>
+    <label>hunter (beta-gazelle)</label>
+    <defName>BetaGazelle_Tribal_Hunter</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Hunter">
+    <race>BetaHog</race>
+    <label>hunter (beta-hog)</label>
+    <defName>BetaHog_Tribal_Hunter</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Hunter">
+    <race>BetaLynx</race>
+    <label>hunter (beta-lynx)</label>
+    <defName>BetaLynx_Tribal_Hunter</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Hunter">
+    <race>BetaRaccoon</race>
+    <label>hunter (beta-racoon)</label>
+    <defName>BetaRaccoon_Tribal_Hunter</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Hunter">
+    <race>BetaWolf</race>
+    <label>hunter (beta-wolf)</label>
+    <defName>BetaWolf_Tribal_Hunter</defName>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="BetaHumanoids_Tribal_Trader" ParentName="Tribal_Hunter">
+    <defName>BetaHumanoids_Tribal_Trader</defName>
+    <label>trader</label>
+    <trader>true</trader>
+    <apparelRequired Inherit="False">
+      <li>Apparel_TribalHeaddress</li>
+    </apparelRequired>
+    <initialWillRange>2~4</initialWillRange>
+    <initialResistanceRange>9~15</initialResistanceRange>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
+    <race>BetaBear</race>
+    <label>trader (beta-bear)</label>
+    <defName>BetaBear_Tribal_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
+    <race>BetaCamel</race>
+    <label>trader (beta-camel)</label>
+    <defName>BetaCamel_Tribal_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
+    <race>BetaCroc</race>
+    <label>trader (beta-croc)</label>
+    <defName>BetaCroc_Tribal_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
+    <race>BetaElephant</race>
+    <label>trader (beta-elephant)</label>
+    <defName>BetaElephant_Tribal_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
+    <race>BetaElk_Male</race>
+    <label>trader (beta-elk)</label>
+    <defName>BetaElk_Male_Tribal_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
+    <race>BetaElk_Female</race>
+    <label>trader (beta-elk)</label>
+    <defName>BetaElk_Female_Tribal_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
+    <race>BetaFox</race>
+    <label>trader (beta-fox)</label>
+    <defName>BetaFox_Tribal_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
+    <race>BetaGazelle</race>
+    <label>trader (beta-gazelle)</label>
+    <defName>BetaGazelle_Tribal_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
+    <race>BetaHog</race>
+    <label>trader (beta-hog)</label>
+    <defName>BetaHog_Tribal_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
+    <race>BetaLynx</race>
+    <label>trader (beta-lynx)</label>
+    <defName>BetaLynx_Tribal_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
+    <race>BetaRaccoon</race>
+    <label>trader (beta-racoon)</label>
+    <defName>BetaRaccoon_Tribal_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
+    <race>BetaWolf</race>
+    <label>trader (beta-wolf)</label>
+    <defName>BetaWolf_Tribal_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="BetaHumanoids_Tribal_Berserker" ParentName="TribalBase">
+    <defName>BetaHumanoids_Tribal_Berserker</defName>
+    <label>berserker</label>
+    <combatPower>65</combatPower>
+    <canBeSapper>true</canBeSapper>
+    <apparelMoney>200~550</apparelMoney>
+    <apparelRequired>
+      <li>Apparel_WarMask</li>
+    </apparelRequired>
+    <weaponMoney>300~300</weaponMoney>
+    <weaponTags>
+      <li>NeolithicMeleeAdvanced</li>
+    </weaponTags>
+    <initialWillRange>2~4</initialWillRange>
+    <initialResistanceRange>13~20</initialResistanceRange>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Berserker">
+    <race>BetaBear</race>
+    <label>berserker (beta-bear)</label>
+    <defName>BetaBear_Tribal_Berserker</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Berserker">
+    <race>BetaCamel</race>
+    <label>berserker (beta-camel)</label>
+    <defName>BetaCamel_Tribal_Berserker</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Berserker">
+    <race>BetaCroc</race>
+    <label>berserker (beta-croc)</label>
+    <defName>BetaCroc_Tribal_Berserker</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Berserker">
+    <race>BetaElephant</race>
+    <label>berserker (beta-elephant)</label>
+    <defName>BetaElephant_Tribal_Berserker</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Berserker">
+    <race>BetaElk_Male</race>
+    <label>berserker (beta-elk)</label>
+    <defName>BetaElk_Male_Tribal_Berserker</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Berserker">
+    <race>BetaElk_Female</race>
+    <label>berserker (beta-elk)</label>
+    <defName>BetaElk_Female_Tribal_Berserker</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Berserker">
+    <race>BetaFox</race>
+    <label>berserker (beta-fox)</label>
+    <defName>BetaFox_Tribal_Berserker</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Berserker">
+    <race>BetaGazelle</race>
+    <label>berserker (beta-gazelle)</label>
+    <defName>BetaGazelle_Tribal_Berserker</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Berserker">
+    <race>BetaHog</race>
+    <label>berserker (beta-hog)</label>
+    <defName>BetaHog_Tribal_Berserker</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Berserker">
+    <race>BetaLynx</race>
+    <label>berserker (beta-lynx)</label>
+    <defName>BetaLynx_Tribal_Berserker</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Berserker">
+    <race>BetaRaccoon</race>
+    <label>berserker (beta-racoon)</label>
+    <defName>BetaRaccoon_Tribal_Berserker</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_Berserker">
+    <race>BetaWolf</race>
+    <label>berserker (beta-wolf)</label>
+    <defName>BetaWolf_Tribal_Berserker</defName>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="BetaHumanoids_Tribal_HeavyArcher" ParentName="TribalBase">
+    <defName>BetaHumanoids_Tribal_HeavyArcher</defName>
+    <label>heavy archer</label>
+    <combatPower>75</combatPower>
+    <apparelMoney>200~550</apparelMoney>
+    <apparelRequired>
+      <li>Apparel_WarMask</li>
+    </apparelRequired>
+    <weaponMoney>250~250</weaponMoney>
+    <weaponTags>
+      <li>NeolithicRangedHeavy</li>
+    </weaponTags>
+    <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
+    <initialWillRange>2~4</initialWillRange>
+    <initialResistanceRange>14~22</initialResistanceRange>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_HeavyArcher">
+    <race>BetaBear</race>
+    <label>heavy archer (beta-bear)</label>
+    <defName>BetaBear_Tribal_HeavyArcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_HeavyArcher">
+    <race>BetaCamel</race>
+    <label>heavy archer (beta-camel)</label>
+    <defName>BetaCamel_Tribal_HeavyArcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_HeavyArcher">
+    <race>BetaCroc</race>
+    <label>heavy archer (beta-croc)</label>
+    <defName>BetaCroc_Tribal_HeavyArcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_HeavyArcher">
+    <race>BetaElephant</race>
+    <label>heavy archer (beta-elephant)</label>
+    <defName>BetaElephant_Tribal_HeavyArcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_HeavyArcher">
+    <race>BetaElk_Male</race>
+    <label>heavy archer (beta-elk)</label>
+    <defName>BetaElk_Male_Tribal_HeavyArcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_HeavyArcher">
+    <race>BetaElk_Female</race>
+    <label>heavy archer (beta-elk)</label>
+    <defName>BetaElk_Female_Tribal_HeavyArcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_HeavyArcher">
+    <race>BetaFox</race>
+    <label>heavy archer (beta-fox)</label>
+    <defName>BetaFox_Tribal_HeavyArcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_HeavyArcher">
+    <race>BetaGazelle</race>
+    <label>heavy archer (beta-gazelle)</label>
+    <defName>BetaGazelle_Tribal_HeavyArcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_HeavyArcher">
+    <race>BetaHog</race>
+    <label>heavy archer (beta-hog)</label>
+    <defName>BetaHog_Tribal_HeavyArcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_HeavyArcher">
+    <race>BetaLynx</race>
+    <label>heavy archer (beta-lynx)</label>
+    <defName>BetaLynx_Tribal_HeavyArcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_HeavyArcher">
+    <race>BetaRaccoon</race>
+    <label>heavy archer (beta-racoon)</label>
+    <defName>BetaRaccoon_Tribal_HeavyArcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_HeavyArcher">
+    <race>BetaWolf</race>
+    <label>heavy archer (beta-wolf)</label>
+    <defName>BetaWolf_Tribal_HeavyArcher</defName>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="BetaHumanoids_Tribal_ChiefMelee" ParentName="TribalChiefBase">
+    <defName>BetaHumanoids_Tribal_ChiefMelee</defName>
+    <label>berserker chief</label>
+    <weaponTags>
+      <li>NeolithicMeleeAdvanced</li>
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+    <initialResistanceRange>38~58</initialResistanceRange>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefMelee">
+    <race>BetaBear</race>
+    <label>berserker chief (beta-bear)</label>
+    <defName>BetaBear_Tribal_ChiefMelee</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefMelee">
+    <race>BetaCamel</race>
+    <label>berserker chief (beta-camel)</label>
+    <defName>BetaCamel_Tribal_ChiefMelee</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefMelee">
+    <race>BetaCroc</race>
+    <label>berserker chief (beta-croc)</label>
+    <defName>BetaCroc_Tribal_ChiefMelee</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefMelee">
+    <race>BetaElephant</race>
+    <label>berserker chief (beta-elephant)</label>
+    <defName>BetaElephant_Tribal_ChiefMelee</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefMelee">
+    <race>BetaElk_Male</race>
+    <label>berserker chief (beta-elk)</label>
+    <defName>BetaElk_Male_Tribal_ChiefMelee</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefMelee">
+    <race>BetaElk_Female</race>
+    <label>berserker chief (beta-elk)</label>
+    <defName>BetaElk_Female_Tribal_ChiefMelee</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefMelee">
+    <race>BetaFox</race>
+    <label>berserker chief (beta-fox)</label>
+    <defName>BetaFox_Tribal_ChiefMelee</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefMelee">
+    <race>BetaGazelle</race>
+    <label>berserker chief (beta-gazelle)</label>
+    <defName>BetaGazelle_Tribal_ChiefMelee</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefMelee">
+    <race>BetaHog</race>
+    <label>berserker chief (beta-hog)</label>
+    <defName>BetaHog_Tribal_ChiefMelee</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefMelee">
+    <race>BetaLynx</race>
+    <label>berserker chief (beta-lynx)</label>
+    <defName>BetaLynx_Tribal_ChiefMelee</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefMelee">
+    <race>BetaRaccoon</race>
+    <label>berserker chief (beta-racoon)</label>
+    <defName>BetaRaccoon_Tribal_ChiefMelee</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefMelee">
+    <race>BetaWolf</race>
+    <label>berserker chief (beta-wolf)</label>
+    <defName>BetaWolf_Tribal_ChiefMelee</defName>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="BetaHumanoids_Tribal_ChiefRanged" ParentName="TribalChiefBase">
+    <defName>BetaHumanoids_Tribal_ChiefRanged</defName>
+    <label>archer chief</label>
+    <weaponTags>
+      <li>NeolithicRangedChief</li>
+    </weaponTags>
+    <disallowedTraits>
+      <li>Brawler</li>
+    </disallowedTraits>
+    <initialResistanceRange>16~26</initialResistanceRange>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefRanged">
+    <race>BetaBear</race>
+    <label>archer chief (beta-bear)</label>
+    <defName>BetaBear_Tribal_ChiefRanged</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefRanged">
+    <race>BetaCamel</race>
+    <label>archer chief (beta-camel)</label>
+    <defName>BetaCamel_Tribal_ChiefRanged</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefRanged">
+    <race>BetaCroc</race>
+    <label>archer chief (beta-croc)</label>
+    <defName>BetaCroc_Tribal_ChiefRanged</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefRanged">
+    <race>BetaElephant</race>
+    <label>archer chief (beta-elephant)</label>
+    <defName>BetaElephant_Tribal_ChiefRanged</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefRanged">
+    <race>BetaElk_Male</race>
+    <label>archer chief (beta-elk)</label>
+    <defName>BetaElk_Male_Tribal_ChiefRanged</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefRanged">
+    <race>BetaElk_Female</race>
+    <label>archer chief (beta-elk)</label>
+    <defName>BetaElk_Female_Tribal_ChiefRanged</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefRanged">
+    <race>BetaFox</race>
+    <label>archer chief (beta-fox)</label>
+    <defName>BetaFox_Tribal_ChiefRanged</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefRanged">
+    <race>BetaGazelle</race>
+    <label>archer chief (beta-gazelle)</label>
+    <defName>BetaGazelle_Tribal_ChiefRanged</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefRanged">
+    <race>BetaHog</race>
+    <label>archer chief (beta-hog)</label>
+    <defName>BetaHog_Tribal_ChiefRanged</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefRanged">
+    <race>BetaLynx</race>
+    <label>archer chief (beta-lynx)</label>
+    <defName>BetaLynx_Tribal_ChiefRanged</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefRanged">
+    <race>BetaRaccoon</race>
+    <label>archer chief (beta-racoon)</label>
+    <defName>BetaRaccoon_Tribal_ChiefRanged</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefRanged">
+    <race>BetaWolf</race>
+    <label>archer chief (beta-wolf)</label>
+    <defName>BetaWolf_Tribal_ChiefRanged</defName>
+  </PawnKindDef>
+</Defs>

@@ -1,0 +1,505 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.ThingDef_AlienRace ParentName="BaseBetaPawn">
+    <defName>BetaGazelle</defName>
+    <label>beta-humanoid (gazelle)</label>
+    <description>A "Beta", a Beta Class Humanoid Lifeform. Part human and part Gazelle or Antelope.</description>
+
+    <statBases>
+      <LeatherAmount>30</LeatherAmount>
+      <MarketValue>2000</MarketValue>
+      <!-- super fast -->
+      <MoveSpeed>6.0</MoveSpeed>
+      <CarryingCapacity>40</CarryingCapacity>
+      <!-- horns don't fit in the mines -->
+      <MiningSpeed>0.4</MiningSpeed>
+    </statBases>
+
+    <tools>
+      <li>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5.5</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5.5</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.07</chanceFactor>
+      </li>
+      <li>
+        <label>left antler</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>4</cooldownTime>
+        <linkedBodyPartsGroup>AntlerAttackToolLeft</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.1</chanceFactor>
+      </li>
+      <li>
+        <label>right antler</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>4</cooldownTime>
+        <linkedBodyPartsGroup>AntlerAttackToolRight</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.1</chanceFactor>
+      </li>
+    </tools>
+
+    <alienRace>
+
+      <generalSettings>
+        <humanRecipeImport>true</humanRecipeImport>
+        <alienPartGenerator>
+          <alienbodytypes>
+          </alienbodytypes>
+          <aliencrowntypes>
+            <li>Average_Normal</li>
+          </aliencrowntypes>
+          <customDrawSize>(.9, .9)</customDrawSize>
+          <customHeadDrawSize>(1,1)</customHeadDrawSize>
+          <customPortraitDrawSize>(.9,.9)</customPortraitDrawSize>
+          <customPortraitHeadDrawSize>(1,1)</customPortraitHeadDrawSize>
+          <headOffset>(0,.08)</headOffset>
+          <useGenderedHeads>true</useGenderedHeads>
+          <colorChannels>
+            <li>
+              <name>skin</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <!-- #b69135 -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.713, 0.568, 0.207,1)</only>
+                  </li>
+                  <!-- #d8ab3b -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.847, 0.670, 0.231,1)</only>
+                  </li>
+                  <!-- #a77d16 -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.654, 0.490, 0.086,1)</only>
+                  </li>
+                  <!-- #744339 -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.454, 0.262, 0.223,1)</only>
+                  </li>
+                  <!-- #744339 -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.631, 0.494, 0.333,1)</only>
+                  </li>
+                </options>
+              </first>
+              <second Class="AlienRace.ColorGenerator_CustomAlienChannel">
+                <colorChannel>skin_1</colorChannel>
+              </second>
+            </li>
+          </colorChannels>
+          <bodyAddons>
+            <li>
+              <path>Betas/BetaGazelle/Antler/Right/FrontOfHead/RightAntler_Front</path>
+              <bodyPart>BetaHumanoids_BodyPart_Antler_Large_Right</bodyPart>
+              <drawSize>1</drawSize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <offsets>
+                <south>
+                  <layerOffset>-0.01</layerOffset>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <layerOffset>0.3</layerOffset>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <layerOffset>-0.01</layerOffset>
+                  <bodyTypes>
+                    <Male>(.1,0)</Male>
+                    <Female>(0,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+            </li>
+            <li>
+              <path>Betas/BetaGazelle/Antler/Right/RearOfHead/RightAntler_Rear</path>
+              <bodyPart>BetaHumanoids_BodyPart_Antler_Large_Right</bodyPart>
+              <drawSize>1</drawSize>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <inFrontOfBody>false</inFrontOfBody>
+              <offsets>
+                <south>
+                  <layerOffset>-0.01</layerOffset>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <layerOffset>0.3</layerOffset>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <layerOffset>-0.01</layerOffset>
+                  <bodyTypes>
+                    <Male>(.1,0)</Male>
+                    <Female>(0,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+            </li>
+            <li>
+              <path>Betas/BetaGazelle/Antler/Left/FrontOfHead/LeftAntler_Front</path>
+              <bodyPart>BetaHumanoids_BodyPart_Antler_Large_Left</bodyPart>
+              <drawSize>1</drawSize>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <inFrontOfBody>true</inFrontOfBody>
+              <offsets>
+                <south>
+                  <layerOffset>-0.01</layerOffset>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <layerOffset>0.3</layerOffset>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <layerOffset>-0.01</layerOffset>
+                  <bodyTypes>
+                    <Male>(.1,0)</Male>
+                    <Female>(0,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+            </li>
+            <li>
+              <path>Betas/BetaGazelle/Antler/Left/RearOfHead/LeftAntler_Rear</path>
+              <bodyPart>BetaHumanoids_BodyPart_Antler_Large_Left</bodyPart>
+              <drawSize>1</drawSize>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <inFrontOfBody>false</inFrontOfBody>
+              <offsets>
+                <south>
+                  <layerOffset>-0.01</layerOffset>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <layerOffset>0.3</layerOffset>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <layerOffset>-0.01</layerOffset>
+                  <bodyTypes>
+                    <Male>(.1,0)</Male>
+                    <Female>(0,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.3 )</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+            </li>
+            <li>
+              <drawnDesiccated>false</drawnDesiccated>
+              <path>Betas/BetaGazelle/Ear/Left/FrontOfHead/Ear</path>
+              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Left</bodyPart>
+              <drawSize>.75</drawSize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.4 )</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <layerOffset>0.3</layerOffset>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.4 )</Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <Male>(.03,.01)</Male>
+                    <Female>(0,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.4 )</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+              <hiddenUnderApparelFor>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag >
+                <li>BetaHumanoids_EarsTag</li>
+              </hiddenUnderApparelTag>
+            </li>
+            <li>
+              <drawnDesiccated>false</drawnDesiccated>
+              <path>Betas/BetaGazelle/Ear/Left/RearOfHead/Ear</path>
+              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Left</bodyPart>
+              <drawSize>.75</drawSize>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <inFrontOfBody>false</inFrontOfBody>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.4 )</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <layerOffset>0.3</layerOffset>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.4 )</Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <Male>(.03,.01)</Male>
+                    <Female>(0,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.4 )</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+              <hiddenUnderApparelFor>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag >
+                <li>BetaHumanoids_EarsTag</li>
+              </hiddenUnderApparelTag>
+            </li>
+            <li>
+              <drawnDesiccated>false</drawnDesiccated>
+              <path>Betas/BetaGazelle/Ear/Right/FrontOfHead/Ear</path>
+              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Right</bodyPart>
+              <drawSize>.75</drawSize>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <inFrontOfBody>true</inFrontOfBody>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.4 )</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.4 )</Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <Male>(.03,.01)</Male>
+                    <Female>(0,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.4 )</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+              <hiddenUnderApparelFor>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag >
+                <li>BetaHumanoids_EarsTag</li>
+              </hiddenUnderApparelTag>
+            </li>
+            <li>
+              <drawnDesiccated>false</drawnDesiccated>
+              <path>Betas/BetaGazelle/Ear/Right/RearOfHead/Ear</path>
+              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Right</bodyPart>
+              <drawSize>.75</drawSize>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <inFrontOfBody>false</inFrontOfBody>
+              <offsets>
+                <south>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.4 )</Average_Normal>
+                  </crownTypes>
+                </south>
+                <north>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.4 )</Average_Normal>
+                  </crownTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <Male>(.03,.01)</Male>
+                    <Female>(0,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>( 0.0, 0.4 )</Average_Normal>
+                  </crownTypes>
+                </east>
+              </offsets>
+              <hiddenUnderApparelFor>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag >
+                <li>BetaHumanoids_EarsTag</li>
+              </hiddenUnderApparelTag>
+            </li>
+          </bodyAddons>
+        </alienPartGenerator>
+
+        <forcedRaceTraitEntries>
+          <li>
+            <!-- nimble as fuck -->
+            <defName>Nimble</defName>
+            <chance>20</chance>
+          </li>
+          <li>
+            <!-- head bangin -->
+            <defName>Brawler</defName>
+            <chance>20</chance>
+          </li>
+        </forcedRaceTraitEntries>
+      </generalSettings>
+
+
+      <graphicPaths>
+        <li>
+          <body>Betas/BetaGazelle/Body/</body>
+          <head>Betas/BetaGazelle/Head/</head>
+        </li>
+      </graphicPaths>
+
+
+      <styleSettings>
+        <li>
+          <key>HairDef</key>
+          <value>
+            <hasStyle>true</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>TattooDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+      </styleSettings>
+    </alienRace>
+
+    <race>
+      <leatherDef>Leather_Plain</leatherDef>
+      <body>BetaHumanoids_Bodies_HumanLikeWithAntlers</body>
+      <baseBodySize>0.7</baseBodySize>
+      <baseHungerRate>1.0</baseHungerRate>
+      <baseHealthScale>0.7</baseHealthScale>
+      <lifeStageAges>
+        <li>
+          <def>BetaAdult</def>
+          <minAge>18</minAge>
+          <soundWounded>Pawn_Deer_Wounded</soundWounded>
+          <soundDeath>Pawn_Deer_Death</soundDeath>
+          <soundCall>Pawn_Deer_Call</soundCall>
+          <soundAngry>Pawn_Deer_Angry</soundAngry>
+        </li>
+
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+    <recipes>
+      <li>BetaHumanoids_Install_Biological_OuterEar_Normal</li>
+      <li>BetaHumanoids_Install_Prosthetic_OuterEar_Normal</li>
+      <li>BetaHumanoids_Install_Bionic_OuterEar_Normal</li>
+      <li>BetaHumanoids_Install_Prosthetic_Antler_Large</li>
+    </recipes>
+  </AlienRace.ThingDef_AlienRace>
+</Defs>

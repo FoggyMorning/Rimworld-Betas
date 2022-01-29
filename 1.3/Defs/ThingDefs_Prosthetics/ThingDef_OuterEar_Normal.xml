@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BodyPartNaturalBase">
+    <defName>BetaHumanoids_Thing_Biological_OuterEar_Normal</defName>
+    <label>outer ear</label>
+    <description>A biological outer ear. Used to direct sound waves to the ear.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>BetaHumanoids_Install_Biological_OuterEar_Normal</RecipeDef>
+    </descriptionHyperlinks>
+    <statBases>
+      <MarketValue>10</MarketValue>
+      <Mass>.1</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="BodyPartProstheticBase">
+    <defName>BetaHumanoids_Thing_Prosthetic_OuterEar_Normal</defName>
+    <label>outer ear prosthesis</label>
+    <description>An outer ear prosthesis made of simple materials. It is attached to the head and helps the wearer feel normal even if it does not provide any great benefit to the wearer's hearing.</description>
+
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <unfinishedThingDef>UnfinishedHealthItemProsthetic</unfinishedThingDef>
+      <researchPrerequisite>Prosthetics</researchPrerequisite>
+    </recipeMaker>
+
+    <stuffCategories Inherit="false">
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>15</costStuffCount>
+    <statBases>
+      <Mass>.5</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+    <descriptionHyperlinks>
+      <RecipeDef>BetaHumanoids_Install_Prosthetic_OuterEar_Normal</RecipeDef>
+    </descriptionHyperlinks>
+  </ThingDef>
+
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>BetaHumanoids_Thing_Bionic_OuterEar_Normal</defName>
+    <descriptionHyperlinks>
+      <RecipeDef>BetaHumanoids_Install_Bionic_OuterEar_Normal</RecipeDef>
+    </descriptionHyperlinks>
+    <label>bionic outer ear</label>
+    <description>An advanced outer ear prosthesis. It consists of a lightweight and flexible shell anchored to the skull with artifical muscle fibers and controlled by a neural interface. It increases the hearing potential of an ear considerably by efficiently focusing sound waves to the canal.</description>
+    <costList>
+      <Synthread>10</Synthread>
+      <Plasteel>1</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <statBases>
+      <Mass>1</Mass>
+    </statBases>
+  </ThingDef>
+
+</Defs>
