@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HairDef>
+    <defName>BetaHogMohawk</defName>
+    <label>Mohawk</label>
+    <texPath>Betas/BetaHog/Hair/Mohawk</texPath>
+    <styleTags>
+        <li>BetaHog</li>
+    </styleTags>
+    <styleGender>Male</styleGender>
+  </HairDef>
+  <HairDef>
+    <defName>BetaNoHair</defName>
+    <label>No Hair</label>
+    <texPath>Betas/BetaHog/Hair/NoHair</texPath>
+    <styleTags>
+        <li>BetaHog</li>
+    </styleTags>
+  </HairDef>
+</Defs>

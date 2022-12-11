@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BodyPartNaturalBase">
+    <defName>BetaHumanoids_Thing_Biological_OuterEar_Large</defName>
+    <label>large sized outer ear</label>
+    <description>A biological large sized outer ear. Used to direct sound waves to the ear.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>BetaHumanoids_Install_Biological_OuterEar_Large</RecipeDef>
+    </descriptionHyperlinks>
+    <statBases>
+      <MarketValue>10</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="BodyPartProstheticBase">
+    <defName>BetaHumanoids_Thing_Prosthetic_OuterEar_Large</defName>
+    <label>large sized outer ear prosthesis</label>
+    <description>An large sized outer ear prosthesis made of simple materials. It is attached to the head and helps the wearer feel normal even if it does not provide any great benefit to the wearer's hearing.</description>
+
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <unfinishedThingDef>UnfinishedHealthItemProsthetic</unfinishedThingDef>
+      <researchPrerequisite>Prosthetics</researchPrerequisite>
+    </recipeMaker>
+
+    <stuffCategories Inherit="false">
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>20</costStuffCount>
+    <statBases>
+      <Mass>1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+    <descriptionHyperlinks>
+      <RecipeDef>BetaHumanoids_Install_Prosthetic_OuterEar_Large</RecipeDef>
+    </descriptionHyperlinks>
+  </ThingDef>
+
+  <ThingDef ParentName="BodyPartBionicBase">
+    <defName>BetaHumanoids_Thing_Bionic_OuterEar_Large</defName>
+    <descriptionHyperlinks>
+      <RecipeDef>BetaHumanoids_Install_Bionic_OuterEar_Large</RecipeDef>
+    </descriptionHyperlinks>
+    <label>bionic large sized outer ear</label>
+    <description>An advanced large sized outer ear prosthesis. It consists of a lightweight and flexible shell anchored to the skull with artifical muscle fibers and controlled by a neural interface. It increases the hearing potential of an ear considerably by efficiently focusing sound waves to the canal.</description>
+    <costList>
+      <Synthread>20</Synthread>
+      <Plasteel>5</Plasteel>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <statBases>
+      <Mass>2</Mass>
+    </statBases>
+  </ThingDef>
+
+</Defs>

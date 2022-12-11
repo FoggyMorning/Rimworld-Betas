@@ -1,5 +1,6 @@
 ﻿using Verse;
 using AlienRace;
+using System.Collections.Generic;
 
 namespace BetaHumanoids
 {
@@ -7,63 +8,117 @@ namespace BetaHumanoids
     {
         public static void AdjustSpawnChance()
         {
-            UpdateRaceSettings(ref SettingsController.Settings.Bear);
-            UpdateRaceSettings(ref SettingsController.Settings.Camel);
-            UpdateRaceSettings(ref SettingsController.Settings.Croc);
-            UpdateRaceSettings(ref SettingsController.Settings.Elephant);
-            UpdateRaceSettings(ref SettingsController.Settings.Elk);
-            UpdateRaceSettings(ref SettingsController.Settings.Fox);
-            UpdateRaceSettings(ref SettingsController.Settings.Gazelle);
-            UpdateRaceSettings(ref SettingsController.Settings.Hog);
-            UpdateRaceSettings(ref SettingsController.Settings.Lynx);
-            UpdateRaceSettings(ref SettingsController.Settings.Raccoon);
-            UpdateRaceSettings(ref SettingsController.Settings.Wolf);
+            List<SpeciesControl> x = new List<SpeciesControl> {
+                SettingsController.Settings.Bear,
+                SettingsController.Settings.Camel,
+                SettingsController.Settings.Croc,
+                SettingsController.Settings.Elephant,
+                SettingsController.Settings.Elk,
+                SettingsController.Settings.Fox,
+                SettingsController.Settings.Gazelle,
+                SettingsController.Settings.Hog,
+                SettingsController.Settings.Lynx,
+                SettingsController.Settings.Raccoon,
+                SettingsController.Settings.Wolf,
+                };
+            UpdateRaceSettings(x);
         }
 
-        private static void UpdateRaceSettings(ref SpeciesControl speciesControl)
+        private static void UpdateRaceSettings(List<SpeciesControl> speciesControl)
         {
-            foreach(string label in speciesControl.DefNames)
-            { 
-                foreach (RaceSettings rs in DefDatabase<RaceSettings>.AllDefsListForReading)
+            RaceSettings rs = DefDatabase<RaceSettings>.AllDefsListForReading.Find(x => x.defName == "BetaRaceSettings");
+            if (rs == null) { return;  }
+            if (speciesControl.Any(s => s.Colonist == false))
+            {
+                List<string> defNames = new List<string> { };
+                foreach (SpeciesControl s in speciesControl)
                 {
-                    if (rs.defName == "BetaRaceSettings")
+                    if (!s.Colonist)
                     {
-                        foreach (FactionPawnKindEntry sc in rs.pawnKindSettings.startingColonists)
+                        foreach (string defname in s.DefNames)
                         {
-                            foreach (PawnKindEntry pke in sc.pawnKindEntries)
-                            {
-                                if (pke.kindDefs.Exists(k => k.race.Equals(label)))
-                                {
-                                    pke.chance = speciesControl.Colonist ? label.Contains("_Male") || label.Contains("_Female") ? SettingsController.Settings.spawnChance/10 :  SettingsController.Settings.spawnChance : 0f;
-                                };
-                            };
-                        };
-                        foreach (FactionPawnKindEntry awk in rs.pawnKindSettings.alienwandererkinds)
-                        {
-                            foreach (PawnKindEntry pke in awk.pawnKindEntries)
-                            {
-                                if (pke.kindDefs.Exists(k => k.race.Equals(label)))
-                                {
-                                    pke.chance = speciesControl.Wanderer ? label.Contains("_Male") || label.Contains("_Female") ? SettingsController.Settings.spawnChance / 10 : SettingsController.Settings.spawnChance : 0f;
-                                };
-                            };
-                        };
-                        foreach (PawnKindEntry pke in rs.pawnKindSettings.alienrefugeekinds)
-                        {
-                            if (pke.kindDefs.Exists(k => k.race.Equals(label)))
-                            {
-                                pke.chance = speciesControl.Refugee ? label.Contains("_Male") || label.Contains("_Female") ? SettingsController.Settings.spawnChance / 10 : SettingsController.Settings.spawnChance : 0f;
-                            };
-                        };
-                        foreach (PawnKindEntry pke in rs.pawnKindSettings.alienslavekinds)
-                        {
-                            if (pke.kindDefs.Exists(k => k.race.Equals(label)))
-                            {
-                                pke.chance = speciesControl.Slave ? label.Contains("_Male") || label.Contains("_Female") ? SettingsController.Settings.spawnChance / 10 : SettingsController.Settings.spawnChance : 0f;
-                            };
-                        };
+                            defNames.Add(defname);
+                        }
                     }
-                }
+                }; 
+                foreach (FactionPawnKindEntry sc in rs.pawnKindSettings.startingColonists)
+                {
+                    foreach (PawnKindEntry pke in sc.pawnKindEntries)
+                    {
+                        
+                        if (pke.kindDefs.Exists(k => defNames.Any(d => k.race.defName == d)))
+                        {
+                            pke.chance = 0f;
+                        };
+                    };
+                };
+            }
+            if (speciesControl.Any(s => s.Wanderer == false))
+            {
+                List<string> defNames = new List<string> { };
+                foreach (SpeciesControl s in speciesControl)
+                {
+                    if (!s.Wanderer)
+                    {
+                        foreach (string defname in s.DefNames)
+                        {
+                            defNames.Add(defname);
+                        }
+                    }
+                };
+                foreach (FactionPawnKindEntry sc in rs.pawnKindSettings.alienwandererkinds)
+                {
+                    foreach (PawnKindEntry pke in sc.pawnKindEntries)
+                    {
+
+                        if (pke.kindDefs.Exists(k => defNames.Any(d => k.race.defName == d)))
+                        {
+                            pke.chance = 0f;
+                        };
+                    };
+                };
+            }
+            if (speciesControl.Any(s => s.Refugee == false))
+            {
+                List<string> defNames = new List<string> { };
+                foreach (SpeciesControl s in speciesControl)
+                {
+                    if (!s.Refugee)
+                    {
+                        foreach (string defname in s.DefNames)
+                        {
+                            defNames.Add(defname);
+                        }
+                    }
+                };
+                foreach (PawnKindEntry pke in rs.pawnKindSettings.alienrefugeekinds)
+                {
+                    if (pke.kindDefs.Exists(k => defNames.Any(d => k.race.defName == d)))
+                    {
+                        pke.chance = 0f;
+                    };
+                };
+            }
+            if (speciesControl.Any(s => s.Slave == false))
+            {
+                List<string> defNames = new List<string> { };
+                foreach (SpeciesControl s in speciesControl)
+                {
+                    if (!s.Slave)
+                    {
+                        foreach (string defname in s.DefNames)
+                        {
+                            defNames.Add(defname);
+                        }
+                    }
+                };
+                foreach (PawnKindEntry pke in rs.pawnKindSettings.alienslavekinds)
+                {
+                    if (pke.kindDefs.Exists(k => defNames.Any(d => k.race.defName == d)))
+                    {
+                        pke.chance = 0f;
+                    };
+                };
             }
         }
     }

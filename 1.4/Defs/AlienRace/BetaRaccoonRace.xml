@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.ThingDef_AlienRace ParentName="BaseBetaPawn">
+    <defName>BetaRaccoon</defName>
+    <label>beta-humanoid (raccoon)</label>
+    <description>A "Beta", a Beta Class Humanoid Lifeform. Part human and part Raccoon.</description>
+    <statBases>
+      <Mass>30</Mass>
+      <LeatherAmount>30</LeatherAmount>
+      <MarketValue>1000</MarketValue>
+      <!-- small boy moves slower -->
+      <MoveSpeed>4.1</MoveSpeed>
+      <CarryingCapacity>30</CarryingCapacity>
+    </statBases>
+    <tools Inherit="False">
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.07</chanceFactor>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <alienRace>
+      <thoughtSettings>
+        <cannotReceiveThoughts>
+          <!-- raccoons are famed trash pandas, so lets make them be non-picky eaters -->
+          <li>AteKibble</li>
+          <li>AteInsectMeatDirect</li>
+          <li>AteInsectMeatAsIngredient</li>
+        </cannotReceiveThoughts>
+        <ateThoughtSpecific></ateThoughtSpecific>
+        <replacerList></replacerList>
+      </thoughtSettings>
+      <generalSettings>
+        <alienPartGenerator>
+          <headTypes Inherit="False">
+            <li>BetaHumanoids_BetaRaccoon_Male_Average_Normal</li>
+            <li>BetaHumanoids_BetaRaccoon_Female_Average_Normal</li>
+          </headTypes>
+          <customDrawSize>(.65, .65)</customDrawSize>
+          <customHeadDrawSize>(.65,.65)</customHeadDrawSize>
+          <customPortraitDrawSize>(.65,.65)</customPortraitDrawSize>
+          <customPortraitHeadDrawSize>(.65,.65)</customPortraitHeadDrawSize>
+          <headOffset>(0, -.1)</headOffset>
+          <colorChannels Inherit="False">
+            <li>
+              <name>skin</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <!-- #7b7e80 to #626566 -->
+                  <li>
+                    <weight>10</weight>
+                    <min>RGBA(0.482, 0.494, 0.501,1)</min>
+                    <max>RGBA(0.384, 0.396, 0.4,1)</max>
+                  </li>
+                </options>
+              </first>
+            </li>
+          </colorChannels>
+          <bodyAddons Inherit="False">
+            <li>
+              <drawnDesiccated>false</drawnDesiccated>
+              <path>Betas/BetaRaccoon/Ears/Ear_Left</path>
+              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Left</bodyPart>
+              <drawSize>.65</drawSize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <offsets>
+                <south>
+                  <layerOffset>-0.3</layerOffset>
+                  <headTypes Inherit="False">
+                    <BetaHumanoids_BetaRaccoon_Male_Average_Normal>( 0.0, 0.2 )</BetaHumanoids_BetaRaccoon_Male_Average_Normal>
+                    <BetaHumanoids_BetaRaccoon_Female_Average_Normal>( 0.0, 0.2 )</BetaHumanoids_BetaRaccoon_Female_Average_Normal>
+                  </headTypes>
+                </south>
+                <north>
+                  <layerOffset>0.3</layerOffset>
+                  <headTypes Inherit="False">
+                    <BetaHumanoids_BetaRaccoon_Male_Average_Normal>( 0.0, 0.2 )</BetaHumanoids_BetaRaccoon_Male_Average_Normal>
+                    <BetaHumanoids_BetaRaccoon_Female_Average_Normal>( 0.0, 0.2 )</BetaHumanoids_BetaRaccoon_Female_Average_Normal>
+                  </headTypes>
+                </north>
+                <east>
+                  <layerOffset>-0.25</layerOffset>
+                  <bodyTypes>
+                    <Male>( 0.02, 0.0 )</Male>
+                    <Female>(0,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
+                  <headTypes Inherit="False">
+                    <BetaHumanoids_BetaRaccoon_Male_Average_Normal>( -0.2, 0.2 )</BetaHumanoids_BetaRaccoon_Male_Average_Normal>
+                    <BetaHumanoids_BetaRaccoon_Female_Average_Normal>( -0.2, 0.2 )</BetaHumanoids_BetaRaccoon_Female_Average_Normal>
+                  </headTypes>
+                </east>
+              </offsets>
+              <hiddenUnderApparelFor>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag>
+                <li>BetaHumanoids_EarsTag</li>
+              </hiddenUnderApparelTag>
+            </li>
+            <li>
+              <drawnDesiccated>false</drawnDesiccated>
+              <path>Betas/BetaRaccoon/Ears/Ear_Right</path>
+              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Right</bodyPart>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <drawSize>.65</drawSize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <offsets>
+                <south>
+                  <layerOffset>-0.3</layerOffset>
+                  <headTypes Inherit="False">
+                    <BetaHumanoids_BetaRaccoon_Male_Average_Normal>( 0.0, 0.2 )</BetaHumanoids_BetaRaccoon_Male_Average_Normal>
+                    <BetaHumanoids_BetaRaccoon_Female_Average_Normal>( 0.0, 0.2 )</BetaHumanoids_BetaRaccoon_Female_Average_Normal>
+                  </headTypes>
+                </south>
+                <north>
+                  <layerOffset>0.3</layerOffset>
+                  <headTypes Inherit="False">
+                    <BetaHumanoids_BetaRaccoon_Male_Average_Normal>( 0.0, 0.2 )</BetaHumanoids_BetaRaccoon_Male_Average_Normal>
+                    <BetaHumanoids_BetaRaccoon_Female_Average_Normal>( 0.0, 0.2 )</BetaHumanoids_BetaRaccoon_Female_Average_Normal>
+                  </headTypes>
+                </north>
+                <east>
+                  <layerOffset>-0.25</layerOffset>
+                  <bodyTypes>
+                    <Male>( 0.02, 0.0 )</Male>
+                    <Female>(0,0)</Female>
+                    <Fat>(0,0)</Fat>
+                    <Thin>(0,0)</Thin>
+                    <Hulk>(0,0)</Hulk>
+                  </bodyTypes>
+                  <headTypes Inherit="False">
+                    <BetaHumanoids_BetaRaccoon_Male_Average_Normal>( -0.2, 0.2 )</BetaHumanoids_BetaRaccoon_Male_Average_Normal>
+                    <BetaHumanoids_BetaRaccoon_Female_Average_Normal>( -0.2, 0.2 )</BetaHumanoids_BetaRaccoon_Female_Average_Normal>
+                  </headTypes>
+                </east>
+              </offsets>
+              <hiddenUnderApparelFor>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag>
+                <li>BetaHumanoids_EarsTag</li>
+              </hiddenUnderApparelTag>
+            </li>
+          </bodyAddons>
+          <anchorReplacements>
+            <li>
+              <originalTag>RightEye</originalTag>
+              <replacement>
+                <rotation>South</rotation>
+                <tag>RightEye</tag>
+                <offset>(-0.095, 0, 0.24)</offset>
+                <canMirror>true</canMirror>
+                <range>0</range>
+                <layer>Head</layer>
+                <debugColor>( 0, 0, 0, 1 )</debugColor>
+              </replacement>
+            </li>
+            <li>
+              <originalTag>LeftEye</originalTag>
+              <replacement>
+                <rotation>South</rotation>
+                <tag>LeftEye</tag>
+                <canMirror>true</canMirror>
+                <offset>(0.095, 0, 0.24)</offset>
+                <range>0</range>
+                <layer>Head</layer>
+                <debugColor>( 0, 0, 0, 1 )</debugColor>
+              </replacement>
+            </li>
+            <li>
+              <originalTag>RightEye</originalTag>
+              <replacement>
+                <rotation>East</rotation>
+                <tag>RightEye</tag>
+                <canMirror>false</canMirror>
+                <range>0</range>
+                <layer>Head</layer>
+                <debugColor>( 0, 0, 0, 1 )</debugColor>
+              </replacement>
+              <offsets>
+                <east>
+                  <bodyTypes>
+                    <Male>( 0.1,0.24)</Male>
+                    <Female>( 0.2,0.24)</Female>
+                    <Hulk>( 0.17,0.24)</Hulk>
+                    <Thin>( 0.17,0.24)</Thin>
+                    <Fat>( 0.17,0.24)</Fat>
+                  </bodyTypes>
+                </east>
+              </offsets>
+            </li>
+            <li>
+              <originalTag>LeftEye</originalTag>
+              <replacement>
+                <rotation>West</rotation>
+                <tag>LeftEye</tag>
+                <canMirror>false</canMirror>
+                <range>0</range>
+                <layer>Head</layer>
+                <debugColor>( 0, 0, 0, 1 )</debugColor>
+              </replacement>
+              <offsets>
+                <west>
+                  <bodyTypes>
+                    <Male>( -0.1,0.24)</Male>
+                    <Female>( -0.2,0.24)</Female>
+                    <Hulk>( -0.17,0.24)</Hulk>
+                    <Thin>( -0.17,0.24)</Thin>
+                    <Fat>( -0.17,0.24)</Fat>
+                  </bodyTypes>
+                </west>
+              </offsets>
+            </li>
+          </anchorReplacements>
+        </alienPartGenerator>
+        <forcedRaceTraitEntries>
+          <li>
+            <!-- obvs -->
+            <defName>NightOwl</defName>
+            <chance>100</chance>
+          </li>
+        </forcedRaceTraitEntries>
+      </generalSettings>
+      <graphicPaths>
+        <head>Betas/BetaRaccoon/Head/</head>
+        <body>Betas/BetaRaccoon/Body/</body>
+      </graphicPaths>
+      <styleSettings>
+        <li>
+          <key>HairDef</key>
+          <value>
+            <hasStyle>true</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>TattooDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+      </styleSettings>
+    </alienRace>
+    <race>
+      <leatherDef>Leather_Light</leatherDef>
+      <baseBodySize>0.7</baseBodySize>
+      <baseHealthScale>0.7</baseHealthScale>
+      <lifeStageAges>
+        <li>
+          <def>BetaAdult</def>
+          <minAge>18</minAge>
+          <soundWounded>Pawn_Boomrat_Wounded</soundWounded>
+          <soundDeath>Pawn_Boomrat_Death</soundDeath>
+          <soundCall>Pawn_Boomrat_Call</soundCall>
+          <soundAngry>Pawn_Boomrat_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <recipes>
+      <li>BetaHumanoids_Install_Biological_OuterEar_Normal</li>
+      <li>BetaHumanoids_Install_Prosthetic_OuterEar_Normal</li>
+      <li>BetaHumanoids_Install_Bionic_OuterEar_Normal</li>
+    </recipes>
+  </AlienRace.ThingDef_AlienRace>
+</Defs>

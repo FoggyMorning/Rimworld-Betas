@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.ThingDef_AlienRace ParentName="BaseBetaPawn">
+    <defName>BetaBear</defName>
+    <label>beta-humanoid (bear)</label>
+    <description>A "Beta", a Beta Class Humanoid Lifeform. Part human and part Bear.</description>
+    <statBases>
+      <!-- extra mass -->
+      <Mass>70</Mass>
+      <!-- fur and blubber provide some temp resistance -->
+      <ComfyTemperatureMin>6</ComfyTemperatureMin>
+      <ComfyTemperatureMax>36</ComfyTemperatureMax>
+      <!-- extra value -->
+      <MarketValue>2750</MarketValue>
+      <!-- extra carrying capacity -->
+      <CarryingCapacity>80</CarryingCapacity>
+
+      <!--bears are lazy and work slower-->
+      <!--bears are big and scary so have a stronger social impact-->
+      <ResearchSpeed>0.9</ResearchSpeed>
+      <MiningSpeed>0.9</MiningSpeed>
+      <SocialImpact>1.1</SocialImpact>
+      <PlantWorkSpeed>0.9</PlantWorkSpeed>
+      <ConstructionSpeed>0.9</ConstructionSpeed>
+    </statBases>
+    <tools Inherit="False">
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>powerful bite</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>23.6</power>
+        <cooldownTime>2.6</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.5</chanceFactor>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <alienRace>
+      <generalSettings>
+        <alienPartGenerator>
+          <headTypes Inherit="False">
+            <li>BetaHumanoids_BetaBear_Male_Average_Normal</li>
+            <li>BetaHumanoids_BetaBear_Female_Average_Normal</li>
+          </headTypes>
+          <colorChannels Inherit="False">
+            <li>
+              <name>skin</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <!-- light browns -->
+                  <li>
+                    <weight>20</weight>
+                    <only>RGBA(0.439, 0.369, 0.282)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.592, 0.443, 0.207)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.600, 0.419, 0.360)</only>
+                  </li>
+                  <!-- dark brown -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.345, 0.188, 0.133)</only>
+                  </li>
+                  <!-- black bear -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.219, 0.176, 0.160)</only>
+                  </li>
+                  <!-- polar bear colors -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.780, 0.792, 0.772)</only>
+                  </li>
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.862, 0.866, 0.847)</only>
+                  </li>
+                </options>
+              </first>
+            </li>
+          </colorChannels>
+          <bodyAddons Inherit="False">
+            <li>
+              <!-- <defaultOffset>Head</defaultOffset> -->
+              <alignWithHead>true</alignWithHead>
+              <drawnDesiccated>false</drawnDesiccated>
+              <path>Betas/BetaBear/Ears/Ears_Right</path>
+              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Right</bodyPart>
+              <drawSize>1</drawSize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <hiddenUnderApparelFor>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag>
+                <li>BetaHumanoids_EarsTag</li>
+              </hiddenUnderApparelTag>
+            </li>
+            <li>
+              <!-- <defaultOffset>Head</defaultOffset> -->
+              <alignWithHead>true</alignWithHead>
+              <drawnDesiccated>false</drawnDesiccated>
+              <path>Betas/BetaBear/Ears/Ears_Left</path>
+              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Left</bodyPart>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <drawSize>1</drawSize>
+              <inFrontOfBody>true</inFrontOfBody>
+              <hiddenUnderApparelFor>
+                <li>UpperHead</li>
+              </hiddenUnderApparelFor>
+              <hiddenUnderApparelTag>
+                <li>BetaHumanoids_EarsTag</li>
+              </hiddenUnderApparelTag>
+            </li>
+          </bodyAddons>
+          <anchorReplacements Inherit="False">
+            <li>
+              <originalTag>RightEye</originalTag>
+              <replacement>
+                <rotation>South</rotation>
+                <tag>RightEye</tag>
+                <offset>(-0.095, 0, 0.30)</offset>
+                <canMirror>true</canMirror>
+                <range>0</range>
+                <layer>Head</layer>
+                <debugColor>(0, 0, 0, 1)</debugColor>
+              </replacement>
+            </li>
+            <li>
+              <originalTag>LeftEye</originalTag>
+              <replacement>
+                <rotation>South</rotation>
+                <tag>LeftEye</tag>
+                <canMirror>true</canMirror>
+                <offset>(0.095, 0, 0.30)</offset>
+                <range>0</range>
+                <layer>Head</layer>
+                <debugColor>(0, 0, 0, 1)</debugColor>
+              </replacement>
+            </li>
+            <li>
+              <originalTag>RightEye</originalTag>
+              <replacement>
+                <rotation>East</rotation>
+                <tag>RightEye</tag>
+                <canMirror>false</canMirror>
+                <range>0</range>
+                <layer>Head</layer>
+                <debugColor>(0, 0, 0, 1)</debugColor>
+                <offset>(0.15, 0, 0.30)</offset>
+              </replacement>
+              <offsets>
+                <east>
+                  <bodyTypes>
+                    <Male>( 0.15, 0.30)</Male>
+                    <Female>( 0.25, 0.30)</Female>
+                    <Hulk>( 0.22, 0.30)</Hulk>
+                    <Thin>( 0.22, 0.30)</Thin>
+                    <Fat>( 0.22, 0.30)</Fat>
+                  </bodyTypes>
+                </east>
+              </offsets>
+            </li>
+            <li>
+              <originalTag>LeftEye</originalTag>
+              <replacement>
+                <rotation>West</rotation>
+                <tag>LeftEye</tag>
+                <canMirror>false</canMirror>
+                <range>0</range>
+                <layer>Head</layer>
+                <debugColor>(0, 0, 0, 1)</debugColor>
+                <offset>(-0.12, 0, 0.30)</offset>
+              </replacement>
+              <offsets>
+                <west>
+                  <bodyTypes>
+                    <Male>( -0.15, 0.30)</Male>
+                    <Female>( -0.25, 0.30)</Female>
+                    <Hulk>( -0.22, 0.30)</Hulk>
+                    <Thin>( -0.22, 0.30)</Thin>
+                    <Fat>( -0.22, 0.30)</Fat>
+                  </bodyTypes>
+                </west>
+              </offsets>
+            </li>
+          </anchorReplacements>
+        </alienPartGenerator>
+        <forcedRaceTraitEntries>
+          <li>
+            <!-- where does a bear beta sleep?  Where ever he/she wants -->
+            <defName>Greedy</defName>
+            <chance>50</chance>
+          </li>
+          <li>
+            <!-- how much food does a bear beta eat? all of it. -->
+            <defName>Gourmand</defName>
+            <chance>50</chance>
+          </li>
+        </forcedRaceTraitEntries>
+      </generalSettings>
+      <graphicPaths>
+        <head>Betas/BetaBear/Head/</head>
+      </graphicPaths>
+      <styleSettings>
+        <li>
+          <key>HairDef</key>
+          <value>
+            <hasStyle>true</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>TattooDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+      </styleSettings>
+    </alienRace>
+    <race>
+      <!-- special leather -->
+      <leatherDef>Leather_Bear</leatherDef>
+      <lifeStageAges>
+        <li>
+          <def>BetaAdult</def>
+          <minAge>18</minAge>
+          <soundWounded>Pawn_Bear_Injured</soundWounded>
+          <soundDeath>Pawn_Bear_Death</soundDeath>
+          <soundCall>Pawn_Bear_Call</soundCall>
+          <soundAngry>Pawn_Bear_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+    <recipes>
+      <li>BetaHumanoids_Install_Biological_OuterEar_Normal</li>
+      <li>BetaHumanoids_Install_Prosthetic_OuterEar_Normal</li>
+      <li>BetaHumanoids_Install_Bionic_OuterEar_Normal</li>
+    </recipes>
+  </AlienRace.ThingDef_AlienRace>
+</Defs>

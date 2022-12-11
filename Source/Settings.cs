@@ -1,5 +1,6 @@
 ﻿using Verse;
 using UnityEngine;
+using System.Collections.Generic;
 
 namespace BetaHumanoids
 {
@@ -17,17 +18,17 @@ namespace BetaHumanoids
     public class Settings : ModSettings
     {
         private Vector2 scrollPosition;
-        public SpeciesControl Bear = new SpeciesControl("Bear", new string[] { "BetaBear" });
-        public SpeciesControl Camel = new SpeciesControl("Camel", new string[] { "BetaCamel" });
-        public SpeciesControl Croc = new SpeciesControl("Croc", new string[] { "BetaCroc" });
-        public SpeciesControl Elephant = new SpeciesControl("Elephant", new string[] { "BetaElephant" });
-        public SpeciesControl Elk = new SpeciesControl("Elk", new string[] { "BetaElk_Female", "BetaElk_Male" });
-        public SpeciesControl Fox = new SpeciesControl("Fox", new string[] { "BetaFox" });
-        public SpeciesControl Gazelle = new SpeciesControl("Gazelle", new string[] { "BetaGazelle" });
-        public SpeciesControl Hog = new SpeciesControl("Hog", new string[] { "BetaHog" });
-        public SpeciesControl Lynx = new SpeciesControl("Lynx", new string[] { "BetaLynx" });
-        public SpeciesControl Raccoon = new SpeciesControl("Raccoon", new string[] { "BetaRaccoon" });
-        public SpeciesControl Wolf = new SpeciesControl("Wolf", new string[] { "BetaWolf" });
+        public SpeciesControl Bear = new SpeciesControl("Bear", new List<string> { "BetaBear" });
+        public SpeciesControl Camel = new SpeciesControl("Camel", new List<string> { "BetaCamel" });
+        public SpeciesControl Croc = new SpeciesControl("Croc", new List<string> { "BetaCroc" });
+        public SpeciesControl Elephant = new SpeciesControl("Elephant", new List<string> { "BetaElephant" });
+        public SpeciesControl Elk = new SpeciesControl("Elk", new List<string> { "BetaElk_Female", "BetaElk_Male" });
+        public SpeciesControl Fox = new SpeciesControl("Fox", new List<string> { "BetaFox" });
+        public SpeciesControl Gazelle = new SpeciesControl("Gazelle", new List<string> { "BetaGazelle" });
+        public SpeciesControl Hog = new SpeciesControl("Hog", new List<string> { "BetaHog" });
+        public SpeciesControl Lynx = new SpeciesControl("Lynx", new List<string> { "BetaLynx" });
+        public SpeciesControl Raccoon = new SpeciesControl("Raccoon", new List<string> { "BetaRaccoon" });
+        public SpeciesControl Wolf = new SpeciesControl("Wolf", new List<string> { "BetaWolf" });
         public void DoWindowContents(Rect canvas)
         {
             SpeciesControl[] speciesList = new SpeciesControl[] { Bear, Camel, Croc, Elephant, Elk, Fox, Gazelle, Hog, Lynx, Raccoon, Wolf };
@@ -84,22 +85,22 @@ namespace BetaHumanoids
             GUI.EndGroup();
         }
 
-        public float spawnChance = 60f;
+        public float spawnChance = 30f;
         public override void ExposeData()
         {
             SpeciesControl[] speciesList = new SpeciesControl[] { Bear, Camel, Croc, Elephant, Elk, Fox, Gazelle, Hog, Lynx, Raccoon, Wolf };
             base.ExposeData();
-            Scribe_Values.Look(ref spawnChance, "BetaHumanoids.SpawnChance", 70f);
+            Scribe_Values.Look(ref spawnChance, "BetaHumanoids.SpawnChance", 30f);
             for (int x = 0; x < speciesList.Length; x++)
             {
                 Scribe_Values.Look(ref speciesList[x].Colonist, "BetaHumanoids." + speciesList[x].Label + ".IncludeAsColonist", true);
                 Scribe_Values.Look(ref speciesList[x].Wanderer, "BetaHumanoids." + speciesList[x].Label + ".IncludeAsWanderer", true);
                 Scribe_Values.Look(ref speciesList[x].Refugee, "BetaHumanoids." + speciesList[x].Label + ".IncludeAsRefugee", true);
-                Scribe_Values.Look(ref speciesList[x].Slave, "BetaHumanoids." + speciesList[x].Label + ".IncludeAsSlave", false);
+                Scribe_Values.Look(ref speciesList[x].Slave, "BetaHumanoids." + speciesList[x].Label + ".IncludeAsSlave", true);
 
                 Scribe_Values.Look(ref speciesList[x].Pirate, "BetaHumanoids." + speciesList[x].Label + ".IncludeAsPirate", true);
-                Scribe_Values.Look(ref speciesList[x].Outlander, "BetaHumanoids." + speciesList[x].Label + ".IncludeAsOutlander", false);
-                Scribe_Values.Look(ref speciesList[x].Tribal, "BetaHumanoids." + speciesList[x].Label + ".IncludeAsTribal", false);
+                Scribe_Values.Look(ref speciesList[x].Outlander, "BetaHumanoids." + speciesList[x].Label + ".IncludeAsOutlander", true);
+                Scribe_Values.Look(ref speciesList[x].Tribal, "BetaHumanoids." + speciesList[x].Label + ".IncludeAsTribal", true);
                 if (Scribe.mode == LoadSaveMode.Saving)
                 {
                     RaceSettingsUpdater.AdjustSpawnChance();
@@ -110,9 +111,9 @@ namespace BetaHumanoids
     }
     public class SpeciesControl
     {
-        public string[] DefNames;
+        public List<string> DefNames;
         public string Label;
-        public SpeciesControl(string label, string[] defName)
+        public SpeciesControl(string label, List<string> defName)
         {
             Label = label;
             DefNames = defName;

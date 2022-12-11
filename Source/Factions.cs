@@ -1,6 +1,7 @@
 ﻿using Verse;
 using RimWorld;
-using AlienRace;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace BetaHumanoids
 {
@@ -8,99 +9,103 @@ namespace BetaHumanoids
     {
         public static void AddAliensToNPCFactions()
         {
-            UpdateNPCFactions(ref SettingsController.Settings.Bear);
-            UpdateNPCFactions(ref SettingsController.Settings.Camel);
-            UpdateNPCFactions(ref SettingsController.Settings.Croc);
-            UpdateNPCFactions(ref SettingsController.Settings.Elephant);
-            UpdateNPCFactions(ref SettingsController.Settings.Elk);
-            UpdateNPCFactions(ref SettingsController.Settings.Fox);
-            UpdateNPCFactions(ref SettingsController.Settings.Gazelle);
-            UpdateNPCFactions(ref SettingsController.Settings.Hog);
-            UpdateNPCFactions(ref SettingsController.Settings.Lynx);
-            UpdateNPCFactions(ref SettingsController.Settings.Raccoon);
-            UpdateNPCFactions(ref SettingsController.Settings.Wolf);
+            List<SpeciesControl> x = new List<SpeciesControl> {
+                SettingsController.Settings.Bear,
+                SettingsController.Settings.Camel,
+                SettingsController.Settings.Croc,
+                SettingsController.Settings.Elephant,
+                SettingsController.Settings.Elk,
+                SettingsController.Settings.Fox,
+                SettingsController.Settings.Gazelle,
+                SettingsController.Settings.Hog,
+                SettingsController.Settings.Lynx,
+                SettingsController.Settings.Raccoon,
+                SettingsController.Settings.Wolf,
+                };
+            UpdateNPCFactions(x);
         }
-        private static void UpdateNPCFactions(ref SpeciesControl speciesControl)
+        private static void UpdateNPCFactions(List<SpeciesControl> speciesControl)
         {
-            if (speciesControl.Pirate)
+            if (speciesControl.Any(s => s.Pirate == false))
             {
-                UpdateNPCFaction("Pirate", speciesControl.DefNames, speciesControl.Label);
+                List<string> defNames = new List<string> { };
+                foreach (SpeciesControl s in speciesControl)
+                {
+                    if (!s.Pirate)
+                    {
+                        foreach (string defname in s.DefNames)
+                        {
+                            defNames.Add(defname);
+                        }
+                    }
+                };
+                UpdateNPCFaction("Pirate", defNames);
             }
-            if (speciesControl.Outlander)
+            if (speciesControl.Any(s => s.Outlander == false))
             {
-                UpdateNPCFaction("OutlanderCivil", speciesControl.DefNames, speciesControl.Label);
-                UpdateNPCFaction("OutlanderRough", speciesControl.DefNames, speciesControl.Label);
+                List<string> defNames = new List<string> { };
+                foreach (SpeciesControl s in speciesControl)
+                {
+                    if (!s.Outlander)
+                    {
+                        foreach (string defname in s.DefNames)
+                        {
+                            defNames.Add(defname);
+                        }
+                    }
+                };
+                UpdateNPCFaction("OutlanderCivil", defNames);
+                UpdateNPCFaction("OutlanderRough", defNames);
             }
-            if (speciesControl.Tribal)
+            if (speciesControl.Any(s => s.Tribal == false))
             {
-                UpdateNPCFaction("TribeCivil", speciesControl.DefNames, speciesControl.Label);
-                UpdateNPCFaction("TribeRough", speciesControl.DefNames, speciesControl.Label);
-                UpdateNPCFaction("TribeSavage", speciesControl.DefNames, speciesControl.Label);
+                List<string> defNames = new List<string> { };
+                foreach (SpeciesControl s in speciesControl)
+                {
+                    if (!s.Tribal)
+                    {
+                        foreach (string defname in s.DefNames)
+                        {
+                            defNames.Add(defname);
+                        }
+                    }
+                };
+                UpdateNPCFaction("TribeCivil", defNames);
+                UpdateNPCFaction("TribeRough", defNames);
+                UpdateNPCFaction("TribeSavage", defNames);
             }
+
+            DefDatabase<FactionDef>.AddAllInMods();
         }
-        private static void UpdateNPCFaction(string factionName, string[] raceDefs, string label)
+        private static void UpdateNPCFaction(string factionName, List<string> labels)
         {
             FactionDef f = DefDatabase<FactionDef>.GetNamedSilentFail(factionName);
             if (f == null) { return; };
+            Log.Message($"Removing {f.label} faction pawnkinds for races: {string.Join(", ", labels)}");
             PawnGroupMaker[] g = f.pawnGroupMakers.ToArray();
             for (int x = 0; x < g.Length; x++)
             {
-                f.pawnGroupMakers[x] = AddPawnKindsToFactions(g[x], raceDefs, label);
-            }
-        }
-        private static PawnGroupMaker AddPawnKindsToFactions(PawnGroupMaker pgm, string[] raceDefs, string label)
-        {
-            // groups can be either an options or a guards for whatever reason, so check for both.
-            PawnGenOption[] options = pgm.options.ToArray();
-            for (int i = 0; i < options.Length; i++)
-            {
-                foreach (string defName in raceDefs)
+                // groups can be either an options or a guards for whatever reason, so check for both.
+                // they default to an empty array so if there are no entries for one of them it will skip
+                PawnGenOption[] options = g[x].options.ToArray();
+                for (int i = 0; i < options.Length; i++)
                 {
-                    PawnGenOption pgo = MakePawnGenOption(options[i], label, defName);
-                    if (pgo != null) { pgm.AddPawn(pgo, false); }
-                }
-            }
-            PawnGenOption[] guards = pgm.guards.ToArray();
-            for (int j = 0; j < guards.Length; j++)
-            {
-                foreach (string defName in raceDefs)
-                {
-                    PawnGenOption pgo = MakePawnGenOption(guards[j], label, defName);
-                    if (pgo != null) { pgm.AddPawn(pgo, true); }
-                }
-            }
+                    if (labels.Any(l => options[i].kind.defName.StartsWith(l)))
+                    {
 
-            return pgm;
-        }
-        private static void AddPawn(this PawnGroupMaker pgm, PawnGenOption pgo, bool isTrader = false)
-        {
-            if (pgo.kind == null) { return; };
-            if (isTrader)
-            {
-                pgm.guards.Add(pgo);
-                return;
+                        g[x].options.Remove(options[i]);
+                    }
+                }
+                PawnGenOption[] guards = g[x].guards.ToArray();
+                for (int j = 0; j < guards.Length; j++)
+                {
+                    if (labels.Any(l => guards[j].kind.defName.StartsWith(l)))
+                    {
+                        g[x].guards.Remove(guards[j]);
+                    }
+                }
+                f.pawnGroupMakers[x] = g[x];
             }
-            pgm.options.Add(pgo);
-        }
-        private static PawnGenOption MakePawnGenOption(PawnGenOption existing, string label, string defName)
-        {
-            string existingDefName = existing.kind.defName;
-            PawnKindDef pkOld = PawnKindDef.Named(existingDefName);
-            if (existingDefName.StartsWith(defName) || pkOld.race != ThingDefOf.Human || pkOld.factionLeader)
-            {
-                return null;
-            }
-            string newDefName = defName + "_" + pkOld.defName;
-            // if the pawnkind does not exist then skip it
-            if (DefDatabase<PawnKindDef>.GetNamedSilentFail(newDefName) == null)
-            {
-                return null;
-            }
-            return new PawnGenOption
-            {
-                selectionWeight = existing.selectionWeight,
-                kind = PawnKindDef.Named(newDefName)
-            };
         }
     }
 }
