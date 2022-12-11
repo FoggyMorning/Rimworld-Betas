@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <LifeStageDef>
+    <defName>BetaTeenager</defName>
+    <label>teenager</label>
+    <workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeAdult</workerClass>
+    <adjective>teenage</adjective>
+    <reproductive>false</reproductive>
+    <bodySizeFactor>0.8</bodySizeFactor>
+    <healthScaleFactor>0.90</healthScaleFactor>
+    <foodMaxFactor>1.25</foodMaxFactor> <!-- bodySizeFactor * foodMaxFactor = maxFood = 1.0 -->
+    <meleeDamageFactor>0.75</meleeDamageFactor>
+    <equipmentDrawDistanceFactor>0.65</equipmentDrawDistanceFactor>
+    <sittingOffset>0.23</sittingOffset>
+    <statFactors>
+      <MoveSpeed>0.95</MoveSpeed>
+    </statFactors>
+  </LifeStageDef>
+  
+  <LifeStageDef>
+    <defName>BetaAdult</defName>
+    <workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeAdult</workerClass>
+    <visible>false</visible>
+    <sittingOffset>0.18</sittingOffset>
+    <reproductive>false</reproductive>
+  </LifeStageDef>
+  
+  <LifeStageDef>
+    <defName>BetaTeenager_Croc</defName>
+    <label>teenager</label>
+    <adjective>teenage</adjective>
+    <reproductive>false</reproductive>
+    <bodySizeFactor>0.8</bodySizeFactor>
+    <healthScaleFactor>0.90</healthScaleFactor>
+    <foodMaxFactor>1.25</foodMaxFactor> <!-- bodySizeFactor * foodMaxFactor = maxFood = 1.0 -->
+    <meleeDamageFactor>0.75</meleeDamageFactor>
+    <equipmentDrawDistanceFactor>0.65</equipmentDrawDistanceFactor>
+    <sittingOffset>0.23</sittingOffset>
+    <statFactors>
+      <MoveSpeed>0.95</MoveSpeed>
+    </statFactors>
+  </LifeStageDef>
+  
+  <LifeStageDef>
+    <defName>BetaAdult_Croc1</defName>
+    <label>adult</label>
+    <visible>false</visible>
+    <reproductive>false</reproductive>
+    <workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeAdult</workerClass>
+    <sittingOffset>0.18</sittingOffset>
+  </LifeStageDef>
+
+  <LifeStageDef>
+    <defName>BetaAdult_Croc2</defName>
+    <label>adult</label>
+    <visible>false</visible>
+    <reproductive>false</reproductive>
+    <bodySizeFactor>1.25</bodySizeFactor>
+    <healthScaleFactor>1.25</healthScaleFactor>
+    <meleeDamageFactor>1.1</meleeDamageFactor>
+    <workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeAdult</workerClass>
+    <sittingOffset>0.18</sittingOffset>
+  </LifeStageDef>
+  
+  <LifeStageDef>
+    <defName>BetaAdult_Croc3</defName>
+    <label>adult</label>
+    <visible>false</visible>
+    <reproductive>false</reproductive>
+    <bodySizeFactor>1.5</bodySizeFactor>
+    <healthScaleFactor>1.4</healthScaleFactor>
+    <meleeDamageFactor>1.3</meleeDamageFactor>
+    <workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeAdult</workerClass>
+    <sittingOffset>0.18</sittingOffset>
+  </LifeStageDef>
+
+  
+  <LifeStageDef>
+    <defName>BetaAdult_Croc4</defName>
+    <label>adult</label>
+    <visible>false</visible>
+    <reproductive>false</reproductive>
+    <bodySizeFactor>2</bodySizeFactor>
+    <healthScaleFactor>1.75</healthScaleFactor>
+    <meleeDamageFactor>1.4</meleeDamageFactor>
+    <workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeAdult</workerClass>
+    <sittingOffset>0.18</sittingOffset>
+  </LifeStageDef>
+</Defs>

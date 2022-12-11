@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
+    <defName>BetaHumanoids_Install_Biological_OuterEar_Normal</defName>
+    <label>graft outer ear</label>
+    <description>Graft a biological outer ear.</description>
+    <descriptionHyperlinks>
+      <ThingDef>BetaHumanoids_Thing_Biological_OuterEar_Normal</ThingDef>
+    </descriptionHyperlinks>
+    <jobString>An outer ear.</jobString>
+    <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>6</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BetaHumanoids_Thing_Biological_OuterEar_Normal</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>BetaHumanoids_Thing_Biological_OuterEar_Normal</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>BetaHumanoids_BodyPart_OuterEar_Normal_Left</li>
+      <li>BetaHumanoids_BodyPart_OuterEar_Normal_Right</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>BetaHumanoids_Install_Prosthetic_OuterEar_Normal</defName>
+    <label>install outer ear prosthesis</label>
+    <description>Install an outer ear prosthesis.</description>
+    <descriptionHyperlinks>
+      <ThingDef>BetaHumanoids_Thing_Prosthetic_OuterEar_Normal</ThingDef>
+      <HediffDef>BetaHumanoids_Hediff_Prosthetic_OuterEar_Normal</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing an outer ear prosthesis.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BetaHumanoids_Thing_Prosthetic_OuterEar_Normal</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>BetaHumanoids_Thing_Prosthetic_OuterEar_Normal</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>BetaHumanoids_BodyPart_OuterEar_Normal_Left</li>
+      <li>BetaHumanoids_BodyPart_OuterEar_Normal_Right</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>BetaHumanoids_Hediff_Prosthetic_OuterEar_Normal</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>BetaHumanoids_Install_Bionic_OuterEar_Normal</defName>
+    <label>install bionic outer ear</label>
+    <description>Install a bionic outer ear.</description>
+    <descriptionHyperlinks>
+      <ThingDef>BetaHumanoids_Thing_Bionic_OuterEar_Normal</ThingDef>
+      <HediffDef>BetaHumanoids_Hediff_Bionic_OuterEar_Normal</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing a bionic outer ear.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BetaHumanoids_Thing_Bionic_OuterEar_Normal</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>BetaHumanoids_Thing_Bionic_OuterEar_Normal</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>BetaHumanoids_BodyPart_OuterEar_Normal_Left</li>
+      <li>BetaHumanoids_BodyPart_OuterEar_Normal_Right</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>BetaHumanoids_Hediff_Bionic_OuterEar_Normal</addsHediff>
+  </RecipeDef>
+
+</Defs>

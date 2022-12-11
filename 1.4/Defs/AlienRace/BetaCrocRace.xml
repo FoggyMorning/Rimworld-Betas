@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.ThingDef_AlienRace ParentName="BaseBetaPawn">
+    <defName>BetaCroc</defName>
+    <label>beta-humanoid (crocodile)</label>
+    <description>A "Beta", a Beta Class Humanoid Lifeform. Part human and part Crocodile or Alligator.</description>
+    <statBases>
+      <!-- not very fast walkers -->
+      <MoveSpeed>4.3</MoveSpeed>
+      <!-- extra mass -->
+      <Mass>70</Mass>
+      <ComfyTemperatureMin>6</ComfyTemperatureMin>
+      <ComfyTemperatureMax>46</ComfyTemperatureMax>
+      <!-- extra leather -->
+      <LeatherAmount>60</LeatherAmount>
+      <!-- extra value -->
+      <MarketValue>2750</MarketValue>
+      <!-- extra carrying capacity -->
+      <CarryingCapacity>70</CarryingCapacity>
+      <!--Crocs are big and scary so have a stronger social impact-->
+      <SocialImpact>1.1</SocialImpact>
+    </statBases>
+    <tools Inherit="False">
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>powerful bite</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>23.6</power>
+        <cooldownTime>2.6</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>1</chanceFactor>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <alienRace>
+      <thoughtSettings>
+        <cannotReceiveThoughts>
+          <!-- Aquatic and cold blooded-->
+          <li>SleptInHeat</li>
+          <li>SoakingWet</li>
+        </cannotReceiveThoughts>
+        <ateThoughtSpecific></ateThoughtSpecific>
+        <replacerList></replacerList>
+      </thoughtSettings>
+      <generalSettings>
+        <alienPartGenerator>
+          <headTypes Inherit="False">
+            <li>BetaHumanoids_BetaCroc_Male_Average_Normal</li>
+            <li>BetaHumanoids_BetaCroc_Female_Average_Normal</li>
+            <li>BetaHumanoids_BetaCroc_Male_Narrow_Wide</li>
+            <li>BetaHumanoids_BetaCroc_Female_Narrow_Wide</li>
+          </headTypes>
+          <headOffset>( 0,0 )</headOffset>
+          <customDrawSize>( 1, 1 )</customDrawSize>
+          <customHeadDrawSize>( 1, 1 )</customHeadDrawSize>
+          <customPortraitDrawSize>( 1, 1 )</customPortraitDrawSize>
+          <customPortraitHeadDrawSize>( 1, 1 )</customPortraitHeadDrawSize>
+          <colorChannels Inherit="False">
+            <li>
+              <name>skin</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <!-- dark green #245c26-->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.141, 0.360, 0.149,1)</only>
+                  </li>
+                  <!-- dark green #468b46 -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.274, 0.545, 0.274,1)</only>
+                  </li>
+                  <!-- dark green #638c65 -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(0.388, 0.549, 0.396,1)</only>
+                  </li>
+                </options>
+              </first>
+              <second Class="ColorGenerator_Options">
+                <options>
+                  <!-- yellow green #bbc615 -->
+                  <li>
+                    <weight>8</weight>
+                    <only>RGBA(0.733, 0.776, 0.082,1)</only>
+                  </li>
+                  <!-- yellow green #b7c62a -->
+                  <li>
+                    <weight>8</weight>
+                    <only>RGBA(0.717, 0.776, 0.164,1)</only>
+                  </li>
+                  <!-- yellow green #d7daa4 -->
+                  <li>
+                    <weight>8</weight>
+                    <only>RGBA(0.843, 0.854, 0.643,1)</only>
+                  </li>
+                </options>
+              </second>
+            </li>
+          </colorChannels>
+          <anchorReplacements Inherit="False">
+            <li>
+              <originalTag>RightEye</originalTag>
+              <replacement>
+                <rotation>South</rotation>
+                <tag>RightEye</tag>
+                <offset>(-0.095, 0, 0.28)</offset>
+                <canMirror>true</canMirror>
+                <range>0</range>
+                <layer>Head</layer>
+                <debugColor>( 0, 0, 0, 1 )</debugColor>
+              </replacement>
+            </li>
+            <li>
+              <originalTag>LeftEye</originalTag>
+              <replacement>
+                <rotation>South</rotation>
+                <tag>LeftEye</tag>
+                <canMirror>true</canMirror>
+                <offset>(0.095, 0, 0.28)</offset>
+                <range>0</range>
+                <layer>Head</layer>
+                <debugColor>( 0, 0, 0, 1 )</debugColor>
+              </replacement>
+            </li>
+            <li>
+              <originalTag>RightEye</originalTag>
+              <replacement>
+                <rotation>East</rotation>
+                <tag>RightEye</tag>
+                <canMirror>false</canMirror>
+                <range>0</range>
+                <layer>Head</layer>
+                <debugColor>( 0, 0, 0, 1 )</debugColor>
+                <offset>(0.15, 0, 0.28)</offset>
+              </replacement>
+              <offsets>
+                <east>
+                  <bodyTypes>
+                    <Male>( 0.2,0.28)</Male>
+                    <Female>( 0.23,0.28)</Female>
+                    <Hulk>( 0.22,0.28)</Hulk>
+                    <Thin>( 0.22,0.28)</Thin>
+                    <Fat>( 0.22,0.28)</Fat>
+                  </bodyTypes>
+                </east>
+              </offsets>
+            </li>
+            <li>
+              <originalTag>LeftEye</originalTag>
+              <replacement>
+                <rotation>West</rotation>
+                <tag>LeftEye</tag>
+                <canMirror>false</canMirror>
+                <range>0</range>
+                <layer>Head</layer>
+                <debugColor>( 0, 0, 0, 1 )</debugColor>
+                <offset>(-0.15, 0, 0.28)</offset>
+              </replacement>
+              <offsets>
+                <west>
+                  <bodyTypes>
+                    <Male>( -0.2,0.28)</Male>
+                    <Female>( -0.23,0.28)</Female>
+                    <Hulk>( -0.22,0.28)</Hulk>
+                    <Thin>( -0.22,0.28)</Thin>
+                    <Fat>( -0.22,0.28)</Fat>
+                  </bodyTypes>
+                </west>
+              </offsets>
+            </li>
+          </anchorReplacements>
+        </alienPartGenerator>
+        <forcedRaceTraitEntries>
+          <li>
+            <!-- Croc skin is very tough -->
+            <defName>Tough</defName>
+            <chance>100</chance>
+          </li>
+        </forcedRaceTraitEntries>
+      </generalSettings>
+      <graphicPaths>
+        <head>Betas/BetaCroc/Head/</head> 
+        <body>Betas/BetaCroc/Body/</body>
+      </graphicPaths>
+      <styleSettings>
+        <li>
+          <key>HairDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>TattooDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+      </styleSettings>
+    </alienRace>
+    <race>
+      <body>Human</body>
+      <leatherDef>Leather_Lizard</leatherDef>
+      <manhunterOnDamageChance>0.80</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.80</manhunterOnTameFailChance>
+      <lifeStageAges>
+        <li>
+          <def>BetaAdult_Croc1</def>
+          <minAge>18</minAge>
+        </li>
+        <li>
+          <def>BetaAdult_Croc2</def>
+          <minAge>25</minAge>
+        </li>
+        <li>
+          <def>BetaAdult_Croc3</def>
+          <minAge>30</minAge>
+        </li>
+        <li>
+          <def>BetaAdult_Croc4</def>
+          <minAge>50</minAge>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+  </AlienRace.ThingDef_AlienRace>
+</Defs>

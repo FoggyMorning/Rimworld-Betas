@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>BetaHumanoids_Hediff_Prosthetic_OuterEar_Normal</defName>
+    <label>prosthetic outer ear</label>
+    <labelNoun>a prosthetic outer ear</labelNoun>
+    <description>An installed prosthetic outer ear.</description>
+    <descriptionHyperlinks>
+      <ThingDef>BetaHumanoids_Thing_Prosthetic_OuterEar_Normal</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>BetaHumanoids_Thing_Prosthetic_OuterEar_Normal</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>false</solid>
+      <partEfficiency>0.4</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>BetaHumanoids_Hediff_Bionic_OuterEar_Normal</defName>
+    <label>bionic outer ear</label>
+    <labelNoun>a bionic outer ear</labelNoun>
+    <description>An installed bionic outer ear.</description>
+    <descriptionHyperlinks>
+      <ThingDef>BetaHumanoids_Thing_Bionic_OuterEar_Normal</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>BetaHumanoids_Thing_Bionic_OuterEar_Normal</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>false</solid>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>BetaHumanoids_Hediff_Prosthetic_OuterEar_Large</defName>
+    <label>prosthetic large sized outer ear</label>
+    <labelNoun>a prosthetic large sized outer ear</labelNoun>
+    <description>An installed prosthetic large sized outer ear.</description>
+    <descriptionHyperlinks>
+      <ThingDef>BetaHumanoids_Thing_Prosthetic_OuterEar_Large</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>BetaHumanoids_Thing_Prosthetic_OuterEar_Large</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>false</solid>
+      <partEfficiency>0.4</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>BetaHumanoids_Hediff_Bionic_OuterEar_Large</defName>
+    <label>bionic large sized outer ear</label>
+    <labelNoun>a bionic large sized outer ear</labelNoun>
+    <description>An installed bionic large sized outer ear.</description>
+    <descriptionHyperlinks>
+      <ThingDef>BetaHumanoids_Thing_Bionic_OuterEar_Large</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>BetaHumanoids_Thing_Bionic_OuterEar_Large</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>false</solid>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>BetaHumanoids_Hediff_Prosthetic_Antler_Large</defName>
+    <label>prosthetic large antler</label>
+    <labelNoun>a prosthetic large antler</labelNoun>
+    <description>An installed prosthetic large antler.</description>
+    <descriptionHyperlinks>
+      <ThingDef>BetaHumanoids_Thing_Prosthetic_Antler_Large</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>BetaHumanoids_Thing_Prosthetic_Antler_Large</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>false</solid>
+      <partEfficiency>0.4</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>BetaHumanoids_Hediff_Prosthetic_Tusk_Small</defName>
+    <label>prosthetic small tusk</label>
+    <labelNoun>a prosthetic small tusk</labelNoun>
+    <description>An installed prosthetic small tusk.</description>
+    <descriptionHyperlinks>
+      <ThingDef>BetaHumanoids_Thing_Prosthetic_Tusk_Small</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>BetaHumanoids_Thing_Prosthetic_Tusk_Small</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>false</solid>
+      <partEfficiency>0.4</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>BetaHumanoids_Hediff_Prosthetic_Tusk_Elephant</defName>
+    <label>prosthetic large tusk</label>
+    <labelNoun>a prosthetic large tusk</labelNoun>
+    <description>An installed prosthetic large tusk.</description>
+    <descriptionHyperlinks>
+      <ThingDef>BetaHumanoids_Thing_Prosthetic_Tusk_Elephant</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>BetaHumanoids_Thing_Prosthetic_Tusk_Elephant</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>false</solid>
+      <partEfficiency>0.4</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>BetaHumanoids_Hediff_Prosthetic_Trunk_Elephant</defName>
+    <label>prosthetic elephant trunk</label>
+    <labelNoun>a prosthetic elephant trunk</labelNoun>
+    <description>An installed prosthetic elephant trunk.</description>
+    <descriptionHyperlinks>
+      <ThingDef>BetaHumanoids_Thing_Prosthetic_Trunk_Elephant</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>BetaHumanoids_Thing_Prosthetic_Trunk_Elephant</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>false</solid>
+      <partEfficiency>0.4</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>BetaHumanoids_Hediff_Bionic_Trunk_Elephant</defName>
+    <label>bionic elephant trunk</label>
+    <labelNoun>a bionic elephant trunk</labelNoun>
+    <description>An installed bionic elephant trunk.</description>
+    <descriptionHyperlinks>
+      <ThingDef>BetaHumanoids_Thing_Bionic_Trunk_Elephant</ThingDef>
+    </descriptionHyperlinks>
+    <spawnThingOnRemoved>BetaHumanoids_Thing_Bionic_Trunk_Elephant</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>false</solid>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+</Defs>

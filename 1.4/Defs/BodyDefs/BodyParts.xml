@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <BodyPartDef>
+    <defName>BetaHumanoids_BodyPart_OuterEar_Normal_Left</defName>
+    <label>normal sized outer ear</label>
+    <hitPoints>15</hitPoints>
+    <frostbiteVulnerability>5</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+    <beautyRelated>true</beautyRelated>
+    <canSuggestAmputation>true</canSuggestAmputation>
+    <spawnThingOnRemoved>BetaHumanoids_Thing_Biological_OuterEar_Normal</spawnThingOnRemoved>
+    <forceAlwaysRemovable>true</forceAlwaysRemovable>
+    <removeRecipeLabelOverride>remove</removeRecipeLabelOverride>
+    <canScarify>true</canScarify>
+    <tags>
+      <li>HearingSource</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>BetaHumanoids_BodyPart_OuterEar_Normal_Right</defName>
+    <label>normal sized outer ear</label>
+    <hitPoints>15</hitPoints>
+    <frostbiteVulnerability>5</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+    <beautyRelated>true</beautyRelated>
+    <canSuggestAmputation>true</canSuggestAmputation>
+    <spawnThingOnRemoved>BetaHumanoids_Thing_Biological_OuterEar_Normal</spawnThingOnRemoved>
+    <forceAlwaysRemovable>true</forceAlwaysRemovable>
+    <removeRecipeLabelOverride>remove</removeRecipeLabelOverride>
+    <canScarify>true</canScarify>
+    <tags>
+      <li>HearingSource</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>BetaHumanoids_BodyPart_Tusk_Small_Left</defName>
+    <label>tusk</label>
+    <hitPoints>20</hitPoints>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+    <canSuggestAmputation>true</canSuggestAmputation>
+    <forceAlwaysRemovable>true</forceAlwaysRemovable>
+    <removeRecipeLabelOverride>remove</removeRecipeLabelOverride>
+    <canScarify>false</canScarify>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>BetaHumanoids_BodyPart_Tusk_Small_Right</defName>
+    <label>tusk</label>
+    <hitPoints>20</hitPoints>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+    <canSuggestAmputation>true</canSuggestAmputation>
+    <forceAlwaysRemovable>true</forceAlwaysRemovable>
+    <removeRecipeLabelOverride>remove</removeRecipeLabelOverride>
+    <canScarify>false</canScarify>
+  </BodyPartDef>
+
+
+  <BodyPartDef>
+    <defName>BetaHumanoids_BodyPart_OuterEar_Large_Left</defName>
+    <label>large sized outer ear</label>
+    <hitPoints>25</hitPoints>
+    <frostbiteVulnerability>5</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+    <beautyRelated>true</beautyRelated>
+    <canSuggestAmputation>true</canSuggestAmputation>
+    <forceAlwaysRemovable>true</forceAlwaysRemovable>
+    <removeRecipeLabelOverride>remove</removeRecipeLabelOverride>
+    <canScarify>true</canScarify>
+    <tags>
+      <li>HearingSource</li>
+    </tags>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>BetaHumanoids_BodyPart_OuterEar_Large_Right</defName>
+    <label>large sized outer ear</label>
+    <hitPoints>25</hitPoints>
+    <frostbiteVulnerability>5</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+    <beautyRelated>true</beautyRelated>
+    <canSuggestAmputation>true</canSuggestAmputation>
+    <forceAlwaysRemovable>true</forceAlwaysRemovable>
+    <removeRecipeLabelOverride>remove</removeRecipeLabelOverride>
+    <canScarify>true</canScarify>
+    <tags>
+      <li>HearingSource</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>BetaHumanoids_BodyPart_Tusk_Elephant_Left</defName>
+    <label>tusk</label>
+    <hitPoints>25</hitPoints>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+    <canSuggestAmputation>true</canSuggestAmputation>
+    <spawnThingOnRemoved>ElephantTusk</spawnThingOnRemoved>
+    <forceAlwaysRemovable>true</forceAlwaysRemovable>
+    <removeRecipeLabelOverride>remove</removeRecipeLabelOverride>
+    <canScarify>false</canScarify>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>BetaHumanoids_BodyPart_Tusk_Elephant_Right</defName>
+    <label>tusk</label>
+    <hitPoints>25</hitPoints>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+    <canSuggestAmputation>true</canSuggestAmputation>
+    <spawnThingOnRemoved>ElephantTusk</spawnThingOnRemoved>
+    <forceAlwaysRemovable>true</forceAlwaysRemovable>
+    <removeRecipeLabelOverride>remove</removeRecipeLabelOverride>
+    <canScarify>false</canScarify>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>BetaHumanoids_BodyPart_Trunk_Elephant</defName>
+    <label>trunk</label>
+    <hitPoints>15</hitPoints>
+    <frostbiteVulnerability>5</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>TalkingSource</li>
+      <li>ManipulationLimbCore</li>
+    </tags>
+    <canSuggestAmputation>true</canSuggestAmputation>
+    <canScarify>false</canScarify>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>BetaHumanoids_BodyPart_Antler_Large_Left</defName>
+    <label>antler</label>
+    <hitPoints>20</hitPoints>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+    <canSuggestAmputation>true</canSuggestAmputation>
+    <forceAlwaysRemovable>true</forceAlwaysRemovable>
+    <removeRecipeLabelOverride>remove</removeRecipeLabelOverride>
+    <canScarify>false</canScarify>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>BetaHumanoids_BodyPart_Antler_Large_Right</defName>
+    <label>antler</label>
+    <hitPoints>20</hitPoints>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+    <canSuggestAmputation>true</canSuggestAmputation>
+    <forceAlwaysRemovable>true</forceAlwaysRemovable>
+    <removeRecipeLabelOverride>remove</removeRecipeLabelOverride>
+    <canScarify>false</canScarify>
+  </BodyPartDef>
+</Defs>

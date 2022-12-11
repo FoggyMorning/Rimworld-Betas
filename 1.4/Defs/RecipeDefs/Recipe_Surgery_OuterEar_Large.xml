@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
+    <defName>BetaHumanoids_Install_Biological_OuterEar_Large</defName>
+    <label>graft large sized outer ear</label>
+    <description>Graft a biological large sized outer ear.</description>
+    <descriptionHyperlinks>
+      <ThingDef>BetaHumanoids_Thing_Biological_OuterEar_Large</ThingDef>
+    </descriptionHyperlinks>
+    <jobString>A large sized outer ear.</jobString>
+    <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>6</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BetaHumanoids_Thing_Biological_OuterEar_Large</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>BetaHumanoids_Thing_Biological_OuterEar_Large</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>BetaHumanoids_BodyPart_OuterEar_Large_Left</li>
+      <li>BetaHumanoids_BodyPart_OuterEar_Large_Right</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+    <defName>BetaHumanoids_Install_Prosthetic_OuterEar_Large</defName>
+    <label>install large sized outer ear prosthesis</label>
+    <description>Install an large sized outer ear prosthesis.</description>
+    <descriptionHyperlinks>
+      <ThingDef>BetaHumanoids_Thing_Prosthetic_OuterEar_Large</ThingDef>
+      <HediffDef>BetaHumanoids_Hediff_Prosthetic_OuterEar_Large</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing an large sized outer ear prosthesis.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BetaHumanoids_Thing_Prosthetic_OuterEar_Large</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>BetaHumanoids_Thing_Prosthetic_OuterEar_Large</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>BetaHumanoids_BodyPart_OuterEar_Large_Left</li>
+      <li>BetaHumanoids_BodyPart_OuterEar_Large_Right</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>BetaHumanoids_Hediff_Prosthetic_OuterEar_Large</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+    <defName>BetaHumanoids_Install_Bionic_OuterEar_Large</defName>
+    <label>install bionic large sized outer ear</label>
+    <description>Install a bionic large sized outer ear.</description>
+    <descriptionHyperlinks>
+      <ThingDef>BetaHumanoids_Thing_Bionic_OuterEar_Large</ThingDef>
+      <HediffDef>BetaHumanoids_Hediff_Bionic_OuterEar_Large</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing a bionic large sized outer ear.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BetaHumanoids_Thing_Bionic_OuterEar_Large</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>BetaHumanoids_Thing_Bionic_OuterEar_Large</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>BetaHumanoids_BodyPart_OuterEar_Large_Left</li>
+      <li>BetaHumanoids_BodyPart_OuterEar_Large_Right</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>BetaHumanoids_Hediff_Bionic_OuterEar_Large</addsHediff>
+  </RecipeDef>
+
+</Defs>

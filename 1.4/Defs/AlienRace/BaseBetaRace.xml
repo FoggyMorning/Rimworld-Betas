@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.ThingDef_AlienRace ParentName="BasePawn" Abstract="True" Name="BaseBetaPawn">
+
+    <alienRace>
+      <generalSettings>
+        <humanRecipeImport>true</humanRecipeImport>
+        <allowHumanBios>true</allowHumanBios>
+        <alienPartGenerator>
+          <headTypes>
+            <li>Male_AverageNormal</li>
+            <li>Male_AverageWide</li>
+            <li>Male_AveragePointy</li>
+            <li>Male_NarrowNormal</li>
+            <li>Male_NarrowPointy</li>
+            <li>Male_NarrowWide</li>
+            <li>Female_AverageNormal</li>
+            <li>Female_AverageWide</li>
+            <li>Female_AveragePointy</li>
+            <li>Female_NarrowNormal</li>
+            <li>Female_NarrowPointy</li>
+            <li>Female_NarrowWide</li>
+          </headTypes>
+          <bodyTypes>
+            <li>Male</li>
+            <li>Female</li>
+            <li>Thin</li>
+            <li>Hulk</li>
+            <li>Fat</li>
+          </bodyTypes>
+        </alienPartGenerator>
+      </generalSettings>
+      <thoughtSettings>
+        <cannotReceiveThoughts></cannotReceiveThoughts>
+        <canStillReceiveThoughts></canStillReceiveThoughts>
+      </thoughtSettings>
+      <relationSettings>
+        <relationChanceModifierLover>1</relationChanceModifierLover>
+        <relationChanceModifierExLover>1</relationChanceModifierExLover>
+        <relationChanceModifierFiance>1</relationChanceModifierFiance>
+        <relationChanceModifierSpouse>1</relationChanceModifierSpouse>
+        <relationChanceModifierExSpouse>1</relationChanceModifierExSpouse>
+        <!-- Betas are vat-grown from sperm and eggs harvested from other Betas by the corporations that create them. When the Beta is sexually mature.
+                    After the sperm and eggs are harvested, the Beta are sterilized. 
+                    Even free Betas are sterile, and the procedure to reverse this is rare and expensive.
+                    As a consequence they have no true family structure and one sperm donor may have offspring with many different egg donors.  -->
+        <relationChanceModifierParent>.1</relationChanceModifierParent>
+        <relationChanceModifierChild>.1</relationChanceModifierChild>
+        <relationChanceModifierSibling>.1</relationChanceModifierSibling>
+        <renamer>
+          <li>
+            <relation>Parent</relation>
+            <label>Sperm Donor</label>
+            <femaleLabel>Egg Donor</femaleLabel>
+          </li>
+          <li>
+            <relation>Sibling</relation>
+            <label>Biological Sibling</label>
+            <femaleLabel>Biological Sibling</femaleLabel>
+          </li>
+          <li>
+            <relation>Child</relation>
+            <label>Biological Offspring</label>
+            <femaleLabel>Biological Offspring</femaleLabel>
+          </li>
+        </renamer>
+      </relationSettings>
+      <raceRestriction>
+        <apparelList></apparelList>
+        <whiteApparelList></whiteApparelList>
+        <weaponList></weaponList>
+        <whiteWeaponList></whiteWeaponList>
+        <buildingList></buildingList>
+        <whiteBuildingList></whiteBuildingList>
+        <recipeList></recipeList>
+        <plantList></plantList>
+        <whitePlantList></whitePlantList>
+        <traitList></traitList>
+        <whiteTraitList></whiteTraitList>
+        <foodList></foodList>
+        <petList></petList>
+        <conceptList></conceptList>
+        <workGiverList></workGiverList>
+      </raceRestriction>
+      <graphicPaths>
+        <skinShader>Cutout</skinShader>
+      </graphicPaths>
+    </alienRace>
+    <race>
+      <fleshType>BetaHumanoids_FleshType</fleshType>
+      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+      <intelligence>Humanlike</intelligence>
+      <makesFootprints>true</makesFootprints>
+      <lifeExpectancy>80</lifeExpectancy>
+      <leatherDef>Leather_Human</leatherDef>
+      <nameCategory>HumanStandard</nameCategory>
+      <body>BetaHumanoids_Bodies_HumanLikeWithAmputatableOuterEar</body>
+      <baseBodySize>1</baseBodySize>
+      <baseHealthScale>1</baseHealthScale>
+      <foodType>OmnivoreHuman</foodType>
+      <gestationPeriodDays>18</gestationPeriodDays>
+      <meatMarketValue>0.1</meatMarketValue>
+      <manhunterOnDamageChance>0.5</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.1</manhunterOnTameFailChance>
+      <soundCallIntervalRange>1000~2000</soundCallIntervalRange>
+      <lifeStageAges>
+        <li>
+          <def>BetaAdult</def>
+          <minAge>17</minAge>
+        </li>
+        <li>
+          <def>BetaAdult</def>
+          <minAge>18</minAge>
+        </li>
+      </lifeStageAges>
+      <lifeStageWorkSettings MayRequire="Ludeon.RimWorld.Biotech">
+        <Firefighter>7</Firefighter>
+        <Patient>0</Patient>
+        <Doctor>10</Doctor>
+        <PatientBedRest>0</PatientBedRest>
+        <Childcare MayRequire="Ludeon.RimWorld.Biotech">0</Childcare>
+        <BasicWorker>7</BasicWorker>
+        <Warden>10</Warden>
+        <Handling>7</Handling>
+        <Cooking>7</Cooking>
+        <Hunting>7</Hunting>
+        <Construction>10</Construction>
+        <Growing>7</Growing>
+        <Mining>7</Mining>
+        <PlantCutting>7</PlantCutting>
+        <Smithing>13</Smithing>
+        <Tailoring>7</Tailoring>
+        <Art>10</Art>
+        <Crafting>7</Crafting>
+        <Hauling>3</Hauling>
+        <Cleaning>3</Cleaning>
+        <Research>13</Research>
+      </lifeStageWorkSettings>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0.02)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+      <specialShadowData>
+        <volume>(0.3, 0.8, 0.4)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </specialShadowData>
+      <ageGenerationCurve>
+        <points>
+          <li>(17,0)</li>
+          <li>(18,100)</li>
+          <li>(50,100)</li>
+          <li>(60,30)</li>
+          <li>(70,18)</li>
+          <li>(80,10)</li>
+          <li>(90,3)</li>
+          <li>(100,0)</li>
+        </points>
+      </ageGenerationCurve>
+      <hediffGiverSets>
+        <li>OrganicStandard</li>
+        <li>Human</li>
+      </hediffGiverSets>
+      <useMeatFrom>Human</useMeatFrom>
+    </race>
+    <recipes>
+      <li>ExciseCarcinoma</li>
+      <li>AdministerMechSerumHealer</li>
+      <li>RemoveBodyPart</li>
+      <li>Euthanize</li>
+      <li>Anesthetize</li>
+      <li>CureScaria</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">Vasectomy</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">ReverseVasectomy</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">TubalLigation</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">ExtractOvum</li>
+      <li MayRequire="Ludeon.RimWorld.Royalty">CureBloodRot</li>
+      <li MayRequire="Ludeon.RimWorld.Royalty">CureAbasia</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">ExtractHemogenPack</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">BloodTransfusion</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">ImplantXenogerm</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">ImplantIUD</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">RemoveIUD</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">TerminatePregnancy</li>
+    </recipes>
+    <ingredient>
+      <mergeCompatibilityTags>
+        <li>HumanMeat</li>
+      </mergeCompatibilityTags>
+    </ingredient>
+  </AlienRace.ThingDef_AlienRace>
+</Defs>
