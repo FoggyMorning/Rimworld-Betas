@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[@Name="VFEM_MedievalFactionBase"]/pawnGroupMakers</xpath>
+    <value>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <Tribal_Hunter>1</Tribal_Hunter>
+          <BetaBear_Tribal_Hunter>1.00</BetaBear_Tribal_Hunter>
+          <BetaCamel_Tribal_Hunter>1.00</BetaCamel_Tribal_Hunter>
+          <BetaCroc_Tribal_Hunter>0.70</BetaCroc_Tribal_Hunter>
+          <BetaElephant_Tribal_Hunter>0.25</BetaElephant_Tribal_Hunter>
+          <BetaElk_Female_Tribal_Hunter>0.05</BetaElk_Female_Tribal_Hunter>
+          <BetaElk_Male_Tribal_Hunter>0.05</BetaElk_Male_Tribal_Hunter>
+          <BetaFox_Tribal_Hunter>1.00</BetaFox_Tribal_Hunter>
+          <BetaGazelle_Tribal_Hunter>1.00</BetaGazelle_Tribal_Hunter>
+          <BetaHog_Tribal_Hunter>1.00</BetaHog_Tribal_Hunter>
+          <BetaLynx_Tribal_Hunter>1.00</BetaLynx_Tribal_Hunter>
+          <BetaRaccoon_Tribal_Hunter>1.00</BetaRaccoon_Tribal_Hunter>
+          <BetaWolf_Tribal_Hunter>1.00</BetaWolf_Tribal_Hunter>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaBear_Tribal_Hunter>1.00</BetaBear_Tribal_Hunter>
+          <BetaCamel_Tribal_Hunter>1.00</BetaCamel_Tribal_Hunter>
+          <BetaCroc_Tribal_Hunter>0.70</BetaCroc_Tribal_Hunter>
+          <BetaElephant_Tribal_Hunter>0.25</BetaElephant_Tribal_Hunter>
+          <BetaElk_Female_Tribal_Hunter>0.05</BetaElk_Female_Tribal_Hunter>
+          <BetaElk_Male_Tribal_Hunter>0.05</BetaElk_Male_Tribal_Hunter>
+          <BetaFox_Tribal_Hunter>1.00</BetaFox_Tribal_Hunter>
+          <BetaGazelle_Tribal_Hunter>1.00</BetaGazelle_Tribal_Hunter>
+          <BetaHog_Tribal_Hunter>1.00</BetaHog_Tribal_Hunter>
+          <BetaLynx_Tribal_Hunter>1.00</BetaLynx_Tribal_Hunter>
+          <BetaRaccoon_Tribal_Hunter>1.00</BetaRaccoon_Tribal_Hunter>
+          <BetaWolf_Tribal_Hunter>1.00</BetaWolf_Tribal_Hunter>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaBear_Tribal_Hunter>1.00</BetaBear_Tribal_Hunter>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaCamel_Tribal_Hunter>1.00</BetaCamel_Tribal_Hunter>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaCroc_Tribal_Hunter>0.70</BetaCroc_Tribal_Hunter>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaElephant_Tribal_Hunter>0.25</BetaElephant_Tribal_Hunter>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaElk_Female_Tribal_Hunter>0.05</BetaElk_Female_Tribal_Hunter>
+          <BetaElk_Male_Tribal_Hunter>0.05</BetaElk_Male_Tribal_Hunter>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaFox_Tribal_Hunter>1.00</BetaFox_Tribal_Hunter>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaGazelle_Tribal_Hunter>1.00</BetaGazelle_Tribal_Hunter>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaHog_Tribal_Hunter>1.00</BetaHog_Tribal_Hunter>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaLynx_Tribal_Hunter>1.00</BetaLynx_Tribal_Hunter>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaRaccoon_Tribal_Hunter>1.00</BetaRaccoon_Tribal_Hunter>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaWolf_Tribal_Hunter>1.00</BetaWolf_Tribal_Hunter>
+        </options>
+      </li>
+    </value>
+  </Operation>
+</Patch>

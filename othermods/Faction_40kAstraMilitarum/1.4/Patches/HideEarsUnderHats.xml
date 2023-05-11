@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[@Name="OG_Imperial_Apparel_Armor_Headgear_PowerArmourHelmet_Base"]/apparel/tags</xpath>
+    <value>
+      <li>BetaHumanoids_EarsTag</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[@Name="OG_Imperial_Apparel_Armor_Headgear_Terminator_Helmet_Base"]/apparel</xpath>
+    <value>
+      <tags>
+        <li>BetaHumanoids_EarsTag</li>
+      </tags>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[@Name="OGAM_Apparel_SkitariiLegionnaireHelmet"]/apparel/tags</xpath>
+    <value>
+      <li>BetaHumanoids_EarsTag</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="OGAM_Apparel_EnginseerHood"]/apparel/tags</xpath>
+    <value>
+      <li>BetaHumanoids_EarsTag</li>
+    </value>
+  </Operation>
+</Patch>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Apparel_HuskerHood"]/apparel/tags</xpath>
+    <value>
+      <li>BetaHumanoids_EarsTag</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Apparel_SkulkerHood"]/apparel/tags</xpath>
+    <value>
+      <li>BetaHumanoids_EarsTag</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Apparel_ThumperHood"]/apparel/tags</xpath>
+    <value>
+      <li>BetaHumanoids_EarsTag</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Apparel_GrinderHelmet"]/apparel/tags</xpath>
+    <value>
+      <li>BetaHumanoids_EarsTag</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Apparel_FeralExoH"]/apparel/tags</xpath>
+    <value>
+      <li>BetaHumanoids_EarsTag</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Apparel_ScorcherHelmet"]/apparel/tags</xpath>
+    <value>
+      <li>BetaHumanoids_EarsTag</li>
+    </value>
+  </Operation>
+</Patch>

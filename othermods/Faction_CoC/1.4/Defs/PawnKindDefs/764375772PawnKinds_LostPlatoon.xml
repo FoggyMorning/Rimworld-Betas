@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_LostPlatoon_Soldier">
+    <race>BetaBear</race>
+    <label>beta bear Lost Soldier</label>
+    <defName>BetaBear_ROM_LostPlatoon_Soldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_LostPlatoon_Soldier">
+    <race>BetaCamel</race>
+    <label>beta camel Lost Soldier</label>
+    <defName>BetaCamel_ROM_LostPlatoon_Soldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_LostPlatoon_Soldier">
+    <race>BetaCroc</race>
+    <label>beta crocodile Lost Soldier</label>
+    <defName>BetaCroc_ROM_LostPlatoon_Soldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_LostPlatoon_Soldier">
+    <race>BetaElephant</race>
+    <label>beta elephant Lost Soldier</label>
+    <defName>BetaElephant_ROM_LostPlatoon_Soldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_LostPlatoon_Soldier">
+    <race>BetaElk_Female</race>
+    <label>beta elk Lost Soldier</label>
+    <defName>BetaElk_Female_ROM_LostPlatoon_Soldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_LostPlatoon_Soldier">
+    <race>BetaElk_Male</race>
+    <label>beta elk Lost Soldier</label>
+    <defName>BetaElk_Male_ROM_LostPlatoon_Soldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_LostPlatoon_Soldier">
+    <race>BetaFox</race>
+    <label>beta fox Lost Soldier</label>
+    <defName>BetaFox_ROM_LostPlatoon_Soldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_LostPlatoon_Soldier">
+    <race>BetaGazelle</race>
+    <label>beta gazelle Lost Soldier</label>
+    <defName>BetaGazelle_ROM_LostPlatoon_Soldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_LostPlatoon_Soldier">
+    <race>BetaHog</race>
+    <label>beta hog Lost Soldier</label>
+    <defName>BetaHog_ROM_LostPlatoon_Soldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_LostPlatoon_Soldier">
+    <race>BetaLynx</race>
+    <label>beta lynx Lost Soldier</label>
+    <defName>BetaLynx_ROM_LostPlatoon_Soldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_LostPlatoon_Soldier">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon Lost Soldier</label>
+    <defName>BetaRaccoon_ROM_LostPlatoon_Soldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_LostPlatoon_Soldier">
+    <race>BetaWolf</race>
+    <label>beta wolf Lost Soldier</label>
+    <defName>BetaWolf_ROM_LostPlatoon_Soldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_LostPlatoon_Captain">
+    <race>BetaBear</race>
+    <label>beta bear Lost Soldier</label>
+    <defName>BetaBear_ROM_LostPlatoon_Captain</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_LostPlatoon_Captain">
+    <race>BetaCamel</race>
+    <label>beta camel Lost Soldier</label>
+    <defName>BetaCamel_ROM_LostPlatoon_Captain</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_LostPlatoon_Captain">
+    <race>BetaCroc</race>
+    <label>beta crocodile Lost Soldier</label>
+    <defName>BetaCroc_ROM_LostPlatoon_Captain</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_LostPlatoon_Captain">
+    <race>BetaElephant</race>
+    <label>beta elephant Lost Soldier</label>
+    <defName>BetaElephant_ROM_LostPlatoon_Captain</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_LostPlatoon_Captain">
+    <race>BetaElk_Female</race>
+    <label>beta elk Lost Soldier</label>
+    <defName>BetaElk_Female_ROM_LostPlatoon_Captain</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_LostPlatoon_Captain">
+    <race>BetaElk_Male</race>
+    <label>beta elk Lost Soldier</label>
+    <defName>BetaElk_Male_ROM_LostPlatoon_Captain</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_LostPlatoon_Captain">
+    <race>BetaFox</race>
+    <label>beta fox Lost Soldier</label>
+    <defName>BetaFox_ROM_LostPlatoon_Captain</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_LostPlatoon_Captain">
+    <race>BetaGazelle</race>
+    <label>beta gazelle Lost Soldier</label>
+    <defName>BetaGazelle_ROM_LostPlatoon_Captain</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_LostPlatoon_Captain">
+    <race>BetaHog</race>
+    <label>beta hog Lost Soldier</label>
+    <defName>BetaHog_ROM_LostPlatoon_Captain</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_LostPlatoon_Captain">
+    <race>BetaLynx</race>
+    <label>beta lynx Lost Soldier</label>
+    <defName>BetaLynx_ROM_LostPlatoon_Captain</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_LostPlatoon_Captain">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon Lost Soldier</label>
+    <defName>BetaRaccoon_ROM_LostPlatoon_Captain</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_LostPlatoon_Captain">
+    <race>BetaWolf</race>
+    <label>beta wolf Lost Soldier</label>
+    <defName>BetaWolf_ROM_LostPlatoon_Captain</defName>
+  </PawnKindDef>
+</Defs>

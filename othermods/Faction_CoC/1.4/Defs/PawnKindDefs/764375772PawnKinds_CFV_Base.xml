@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkVillager">
+    <race>BetaBear</race>
+    <label>beta bear villager</label>
+    <defName>BetaBear_ROM_TownsfolkVillager</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkVillager">
+    <race>BetaCamel</race>
+    <label>beta camel villager</label>
+    <defName>BetaCamel_ROM_TownsfolkVillager</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkVillager">
+    <race>BetaCroc</race>
+    <label>beta crocodile villager</label>
+    <defName>BetaCroc_ROM_TownsfolkVillager</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkVillager">
+    <race>BetaElephant</race>
+    <label>beta elephant villager</label>
+    <defName>BetaElephant_ROM_TownsfolkVillager</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkVillager">
+    <race>BetaElk_Female</race>
+    <label>beta elk villager</label>
+    <defName>BetaElk_Female_ROM_TownsfolkVillager</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkVillager">
+    <race>BetaElk_Male</race>
+    <label>beta elk villager</label>
+    <defName>BetaElk_Male_ROM_TownsfolkVillager</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkVillager">
+    <race>BetaFox</race>
+    <label>beta fox villager</label>
+    <defName>BetaFox_ROM_TownsfolkVillager</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkVillager">
+    <race>BetaGazelle</race>
+    <label>beta gazelle villager</label>
+    <defName>BetaGazelle_ROM_TownsfolkVillager</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkVillager">
+    <race>BetaHog</race>
+    <label>beta hog villager</label>
+    <defName>BetaHog_ROM_TownsfolkVillager</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkVillager">
+    <race>BetaLynx</race>
+    <label>beta lynx villager</label>
+    <defName>BetaLynx_ROM_TownsfolkVillager</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkVillager">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon villager</label>
+    <defName>BetaRaccoon_ROM_TownsfolkVillager</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkVillager">
+    <race>BetaWolf</race>
+    <label>beta wolf villager</label>
+    <defName>BetaWolf_ROM_TownsfolkVillager</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkMayor">
+    <race>BetaBear</race>
+    <label>beta bear town mayor</label>
+    <defName>BetaBear_ROM_TownsfolkMayor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkMayor">
+    <race>BetaCamel</race>
+    <label>beta camel town mayor</label>
+    <defName>BetaCamel_ROM_TownsfolkMayor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkMayor">
+    <race>BetaCroc</race>
+    <label>beta crocodile town mayor</label>
+    <defName>BetaCroc_ROM_TownsfolkMayor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkMayor">
+    <race>BetaElephant</race>
+    <label>beta elephant town mayor</label>
+    <defName>BetaElephant_ROM_TownsfolkMayor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkMayor">
+    <race>BetaElk_Female</race>
+    <label>beta elk town mayor</label>
+    <defName>BetaElk_Female_ROM_TownsfolkMayor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkMayor">
+    <race>BetaElk_Male</race>
+    <label>beta elk town mayor</label>
+    <defName>BetaElk_Male_ROM_TownsfolkMayor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkMayor">
+    <race>BetaFox</race>
+    <label>beta fox town mayor</label>
+    <defName>BetaFox_ROM_TownsfolkMayor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkMayor">
+    <race>BetaGazelle</race>
+    <label>beta gazelle town mayor</label>
+    <defName>BetaGazelle_ROM_TownsfolkMayor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkMayor">
+    <race>BetaHog</race>
+    <label>beta hog town mayor</label>
+    <defName>BetaHog_ROM_TownsfolkMayor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkMayor">
+    <race>BetaLynx</race>
+    <label>beta lynx town mayor</label>
+    <defName>BetaLynx_ROM_TownsfolkMayor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkMayor">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon town mayor</label>
+    <defName>BetaRaccoon_ROM_TownsfolkMayor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkMayor">
+    <race>BetaWolf</race>
+    <label>beta wolf town mayor</label>
+    <defName>BetaWolf_ROM_TownsfolkMayor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkTrader">
+    <race>BetaBear</race>
+    <label>beta bear villager</label>
+    <defName>BetaBear_ROM_TownsfolkTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkTrader">
+    <race>BetaCamel</race>
+    <label>beta camel villager</label>
+    <defName>BetaCamel_ROM_TownsfolkTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkTrader">
+    <race>BetaCroc</race>
+    <label>beta crocodile villager</label>
+    <defName>BetaCroc_ROM_TownsfolkTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkTrader">
+    <race>BetaElephant</race>
+    <label>beta elephant villager</label>
+    <defName>BetaElephant_ROM_TownsfolkTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkTrader">
+    <race>BetaElk_Female</race>
+    <label>beta elk villager</label>
+    <defName>BetaElk_Female_ROM_TownsfolkTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkTrader">
+    <race>BetaElk_Male</race>
+    <label>beta elk villager</label>
+    <defName>BetaElk_Male_ROM_TownsfolkTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkTrader">
+    <race>BetaFox</race>
+    <label>beta fox villager</label>
+    <defName>BetaFox_ROM_TownsfolkTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkTrader">
+    <race>BetaGazelle</race>
+    <label>beta gazelle villager</label>
+    <defName>BetaGazelle_ROM_TownsfolkTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkTrader">
+    <race>BetaHog</race>
+    <label>beta hog villager</label>
+    <defName>BetaHog_ROM_TownsfolkTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkTrader">
+    <race>BetaLynx</race>
+    <label>beta lynx villager</label>
+    <defName>BetaLynx_ROM_TownsfolkTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkTrader">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon villager</label>
+    <defName>BetaRaccoon_ROM_TownsfolkTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkTrader">
+    <race>BetaWolf</race>
+    <label>beta wolf villager</label>
+    <defName>BetaWolf_ROM_TownsfolkTrader</defName>
+  </PawnKindDef>
+</Defs>

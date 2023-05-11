@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="BetaHumanoids_VFES_Bandit">
+    <race>BetaBear</race>
+    <label>beta bear bandit</label>
+    <defName>BetaBear_VFES_Bandit</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFES_Bandit">
+    <race>BetaCamel</race>
+    <label>beta camel bandit</label>
+    <defName>BetaCamel_VFES_Bandit</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFES_Bandit">
+    <race>BetaCroc</race>
+    <label>beta crocodile bandit</label>
+    <defName>BetaCroc_VFES_Bandit</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFES_Bandit">
+    <race>BetaElephant</race>
+    <label>beta elephant bandit</label>
+    <defName>BetaElephant_VFES_Bandit</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFES_Bandit">
+    <race>BetaElk_Female</race>
+    <label>beta elk bandit</label>
+    <defName>BetaElk_Female_VFES_Bandit</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFES_Bandit">
+    <race>BetaElk_Male</race>
+    <label>beta elk bandit</label>
+    <defName>BetaElk_Male_VFES_Bandit</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFES_Bandit">
+    <race>BetaFox</race>
+    <label>beta fox bandit</label>
+    <defName>BetaFox_VFES_Bandit</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFES_Bandit">
+    <race>BetaGazelle</race>
+    <label>beta gazelle bandit</label>
+    <defName>BetaGazelle_VFES_Bandit</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFES_Bandit">
+    <race>BetaHog</race>
+    <label>beta hog bandit</label>
+    <defName>BetaHog_VFES_Bandit</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFES_Bandit">
+    <race>BetaLynx</race>
+    <label>beta lynx bandit</label>
+    <defName>BetaLynx_VFES_Bandit</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFES_Bandit">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon bandit</label>
+    <defName>BetaRaccoon_VFES_Bandit</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFES_Bandit">
+    <race>BetaWolf</race>
+    <label>beta wolf bandit</label>
+    <defName>BetaWolf_VFES_Bandit</defName>
+  </PawnKindDef>
+</Defs>

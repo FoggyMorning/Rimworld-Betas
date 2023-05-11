@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveInvestigator">
+    <race>BetaBear</race>
+    <label>beta bear Investigator</label>
+    <defName>BetaBear_ROM_DetectiveInvestigator</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveInvestigator">
+    <race>BetaCamel</race>
+    <label>beta camel Investigator</label>
+    <defName>BetaCamel_ROM_DetectiveInvestigator</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveInvestigator">
+    <race>BetaCroc</race>
+    <label>beta crocodile Investigator</label>
+    <defName>BetaCroc_ROM_DetectiveInvestigator</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveInvestigator">
+    <race>BetaElephant</race>
+    <label>beta elephant Investigator</label>
+    <defName>BetaElephant_ROM_DetectiveInvestigator</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveInvestigator">
+    <race>BetaElk_Female</race>
+    <label>beta elk Investigator</label>
+    <defName>BetaElk_Female_ROM_DetectiveInvestigator</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveInvestigator">
+    <race>BetaElk_Male</race>
+    <label>beta elk Investigator</label>
+    <defName>BetaElk_Male_ROM_DetectiveInvestigator</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveInvestigator">
+    <race>BetaFox</race>
+    <label>beta fox Investigator</label>
+    <defName>BetaFox_ROM_DetectiveInvestigator</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveInvestigator">
+    <race>BetaGazelle</race>
+    <label>beta gazelle Investigator</label>
+    <defName>BetaGazelle_ROM_DetectiveInvestigator</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveInvestigator">
+    <race>BetaHog</race>
+    <label>beta hog Investigator</label>
+    <defName>BetaHog_ROM_DetectiveInvestigator</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveInvestigator">
+    <race>BetaLynx</race>
+    <label>beta lynx Investigator</label>
+    <defName>BetaLynx_ROM_DetectiveInvestigator</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveInvestigator">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon Investigator</label>
+    <defName>BetaRaccoon_ROM_DetectiveInvestigator</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveInvestigator">
+    <race>BetaWolf</race>
+    <label>beta wolf Investigator</label>
+    <defName>BetaWolf_ROM_DetectiveInvestigator</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveChief">
+    <race>BetaBear</race>
+    <label>beta bear Investigator</label>
+    <defName>BetaBear_ROM_DetectiveChief</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveChief">
+    <race>BetaCamel</race>
+    <label>beta camel Investigator</label>
+    <defName>BetaCamel_ROM_DetectiveChief</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveChief">
+    <race>BetaCroc</race>
+    <label>beta crocodile Investigator</label>
+    <defName>BetaCroc_ROM_DetectiveChief</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveChief">
+    <race>BetaElephant</race>
+    <label>beta elephant Investigator</label>
+    <defName>BetaElephant_ROM_DetectiveChief</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveChief">
+    <race>BetaElk_Female</race>
+    <label>beta elk Investigator</label>
+    <defName>BetaElk_Female_ROM_DetectiveChief</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveChief">
+    <race>BetaElk_Male</race>
+    <label>beta elk Investigator</label>
+    <defName>BetaElk_Male_ROM_DetectiveChief</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveChief">
+    <race>BetaFox</race>
+    <label>beta fox Investigator</label>
+    <defName>BetaFox_ROM_DetectiveChief</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveChief">
+    <race>BetaGazelle</race>
+    <label>beta gazelle Investigator</label>
+    <defName>BetaGazelle_ROM_DetectiveChief</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveChief">
+    <race>BetaHog</race>
+    <label>beta hog Investigator</label>
+    <defName>BetaHog_ROM_DetectiveChief</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveChief">
+    <race>BetaLynx</race>
+    <label>beta lynx Investigator</label>
+    <defName>BetaLynx_ROM_DetectiveChief</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveChief">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon Investigator</label>
+    <defName>BetaRaccoon_ROM_DetectiveChief</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveChief">
+    <race>BetaWolf</race>
+    <label>beta wolf Investigator</label>
+    <defName>BetaWolf_ROM_DetectiveChief</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveTrader">
+    <race>BetaBear</race>
+    <label>beta bear Investigator</label>
+    <defName>BetaBear_ROM_DetectiveTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveTrader">
+    <race>BetaCamel</race>
+    <label>beta camel Investigator</label>
+    <defName>BetaCamel_ROM_DetectiveTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveTrader">
+    <race>BetaCroc</race>
+    <label>beta crocodile Investigator</label>
+    <defName>BetaCroc_ROM_DetectiveTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveTrader">
+    <race>BetaElephant</race>
+    <label>beta elephant Investigator</label>
+    <defName>BetaElephant_ROM_DetectiveTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveTrader">
+    <race>BetaElk_Female</race>
+    <label>beta elk Investigator</label>
+    <defName>BetaElk_Female_ROM_DetectiveTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveTrader">
+    <race>BetaElk_Male</race>
+    <label>beta elk Investigator</label>
+    <defName>BetaElk_Male_ROM_DetectiveTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveTrader">
+    <race>BetaFox</race>
+    <label>beta fox Investigator</label>
+    <defName>BetaFox_ROM_DetectiveTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveTrader">
+    <race>BetaGazelle</race>
+    <label>beta gazelle Investigator</label>
+    <defName>BetaGazelle_ROM_DetectiveTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveTrader">
+    <race>BetaHog</race>
+    <label>beta hog Investigator</label>
+    <defName>BetaHog_ROM_DetectiveTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveTrader">
+    <race>BetaLynx</race>
+    <label>beta lynx Investigator</label>
+    <defName>BetaLynx_ROM_DetectiveTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveTrader">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon Investigator</label>
+    <defName>BetaRaccoon_ROM_DetectiveTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveTrader">
+    <race>BetaWolf</race>
+    <label>beta wolf Investigator</label>
+    <defName>BetaWolf_ROM_DetectiveTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveJunior">
+    <race>BetaBear</race>
+    <label>beta bear junior agent</label>
+    <defName>BetaBear_ROM_DetectiveJunior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveJunior">
+    <race>BetaCamel</race>
+    <label>beta camel junior agent</label>
+    <defName>BetaCamel_ROM_DetectiveJunior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveJunior">
+    <race>BetaCroc</race>
+    <label>beta crocodile junior agent</label>
+    <defName>BetaCroc_ROM_DetectiveJunior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveJunior">
+    <race>BetaElephant</race>
+    <label>beta elephant junior agent</label>
+    <defName>BetaElephant_ROM_DetectiveJunior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveJunior">
+    <race>BetaElk_Female</race>
+    <label>beta elk junior agent</label>
+    <defName>BetaElk_Female_ROM_DetectiveJunior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveJunior">
+    <race>BetaElk_Male</race>
+    <label>beta elk junior agent</label>
+    <defName>BetaElk_Male_ROM_DetectiveJunior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveJunior">
+    <race>BetaFox</race>
+    <label>beta fox junior agent</label>
+    <defName>BetaFox_ROM_DetectiveJunior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveJunior">
+    <race>BetaGazelle</race>
+    <label>beta gazelle junior agent</label>
+    <defName>BetaGazelle_ROM_DetectiveJunior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveJunior">
+    <race>BetaHog</race>
+    <label>beta hog junior agent</label>
+    <defName>BetaHog_ROM_DetectiveJunior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveJunior">
+    <race>BetaLynx</race>
+    <label>beta lynx junior agent</label>
+    <defName>BetaLynx_ROM_DetectiveJunior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveJunior">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon junior agent</label>
+    <defName>BetaRaccoon_ROM_DetectiveJunior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveJunior">
+    <race>BetaWolf</race>
+    <label>beta wolf junior agent</label>
+    <defName>BetaWolf_ROM_DetectiveJunior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveStandard">
+    <race>BetaBear</race>
+    <label>beta bear agent</label>
+    <defName>BetaBear_ROM_DetectiveStandard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveStandard">
+    <race>BetaCamel</race>
+    <label>beta camel agent</label>
+    <defName>BetaCamel_ROM_DetectiveStandard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveStandard">
+    <race>BetaCroc</race>
+    <label>beta crocodile agent</label>
+    <defName>BetaCroc_ROM_DetectiveStandard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveStandard">
+    <race>BetaElephant</race>
+    <label>beta elephant agent</label>
+    <defName>BetaElephant_ROM_DetectiveStandard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveStandard">
+    <race>BetaElk_Female</race>
+    <label>beta elk agent</label>
+    <defName>BetaElk_Female_ROM_DetectiveStandard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveStandard">
+    <race>BetaElk_Male</race>
+    <label>beta elk agent</label>
+    <defName>BetaElk_Male_ROM_DetectiveStandard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveStandard">
+    <race>BetaFox</race>
+    <label>beta fox agent</label>
+    <defName>BetaFox_ROM_DetectiveStandard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveStandard">
+    <race>BetaGazelle</race>
+    <label>beta gazelle agent</label>
+    <defName>BetaGazelle_ROM_DetectiveStandard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveStandard">
+    <race>BetaHog</race>
+    <label>beta hog agent</label>
+    <defName>BetaHog_ROM_DetectiveStandard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveStandard">
+    <race>BetaLynx</race>
+    <label>beta lynx agent</label>
+    <defName>BetaLynx_ROM_DetectiveStandard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveStandard">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon agent</label>
+    <defName>BetaRaccoon_ROM_DetectiveStandard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveStandard">
+    <race>BetaWolf</race>
+    <label>beta wolf agent</label>
+    <defName>BetaWolf_ROM_DetectiveStandard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveGrizzled">
+    <race>BetaBear</race>
+    <label>beta bear veteran agent</label>
+    <defName>BetaBear_ROM_DetectiveGrizzled</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveGrizzled">
+    <race>BetaCamel</race>
+    <label>beta camel veteran agent</label>
+    <defName>BetaCamel_ROM_DetectiveGrizzled</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveGrizzled">
+    <race>BetaCroc</race>
+    <label>beta crocodile veteran agent</label>
+    <defName>BetaCroc_ROM_DetectiveGrizzled</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveGrizzled">
+    <race>BetaElephant</race>
+    <label>beta elephant veteran agent</label>
+    <defName>BetaElephant_ROM_DetectiveGrizzled</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveGrizzled">
+    <race>BetaElk_Female</race>
+    <label>beta elk veteran agent</label>
+    <defName>BetaElk_Female_ROM_DetectiveGrizzled</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveGrizzled">
+    <race>BetaElk_Male</race>
+    <label>beta elk veteran agent</label>
+    <defName>BetaElk_Male_ROM_DetectiveGrizzled</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveGrizzled">
+    <race>BetaFox</race>
+    <label>beta fox veteran agent</label>
+    <defName>BetaFox_ROM_DetectiveGrizzled</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveGrizzled">
+    <race>BetaGazelle</race>
+    <label>beta gazelle veteran agent</label>
+    <defName>BetaGazelle_ROM_DetectiveGrizzled</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveGrizzled">
+    <race>BetaHog</race>
+    <label>beta hog veteran agent</label>
+    <defName>BetaHog_ROM_DetectiveGrizzled</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveGrizzled">
+    <race>BetaLynx</race>
+    <label>beta lynx veteran agent</label>
+    <defName>BetaLynx_ROM_DetectiveGrizzled</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveGrizzled">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon veteran agent</label>
+    <defName>BetaRaccoon_ROM_DetectiveGrizzled</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_DetectiveGrizzled">
+    <race>BetaWolf</race>
+    <label>beta wolf veteran agent</label>
+    <defName>BetaWolf_ROM_DetectiveGrizzled</defName>
+  </PawnKindDef>
+</Defs>

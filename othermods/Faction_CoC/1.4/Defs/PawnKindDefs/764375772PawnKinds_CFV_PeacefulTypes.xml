@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkDoctor">
+    <race>BetaBear</race>
+    <label>beta bear doctor</label>
+    <defName>BetaBear_ROM_TownsfolkDoctor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkDoctor">
+    <race>BetaCamel</race>
+    <label>beta camel doctor</label>
+    <defName>BetaCamel_ROM_TownsfolkDoctor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkDoctor">
+    <race>BetaCroc</race>
+    <label>beta crocodile doctor</label>
+    <defName>BetaCroc_ROM_TownsfolkDoctor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkDoctor">
+    <race>BetaElephant</race>
+    <label>beta elephant doctor</label>
+    <defName>BetaElephant_ROM_TownsfolkDoctor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkDoctor">
+    <race>BetaElk_Female</race>
+    <label>beta elk doctor</label>
+    <defName>BetaElk_Female_ROM_TownsfolkDoctor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkDoctor">
+    <race>BetaElk_Male</race>
+    <label>beta elk doctor</label>
+    <defName>BetaElk_Male_ROM_TownsfolkDoctor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkDoctor">
+    <race>BetaFox</race>
+    <label>beta fox doctor</label>
+    <defName>BetaFox_ROM_TownsfolkDoctor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkDoctor">
+    <race>BetaGazelle</race>
+    <label>beta gazelle doctor</label>
+    <defName>BetaGazelle_ROM_TownsfolkDoctor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkDoctor">
+    <race>BetaHog</race>
+    <label>beta hog doctor</label>
+    <defName>BetaHog_ROM_TownsfolkDoctor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkDoctor">
+    <race>BetaLynx</race>
+    <label>beta lynx doctor</label>
+    <defName>BetaLynx_ROM_TownsfolkDoctor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkDoctor">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon doctor</label>
+    <defName>BetaRaccoon_ROM_TownsfolkDoctor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkDoctor">
+    <race>BetaWolf</race>
+    <label>beta wolf doctor</label>
+    <defName>BetaWolf_ROM_TownsfolkDoctor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkNurse">
+    <race>BetaBear</race>
+    <label>beta bear nurse</label>
+    <defName>BetaBear_ROM_TownsfolkNurse</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkNurse">
+    <race>BetaCamel</race>
+    <label>beta camel nurse</label>
+    <defName>BetaCamel_ROM_TownsfolkNurse</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkNurse">
+    <race>BetaCroc</race>
+    <label>beta crocodile nurse</label>
+    <defName>BetaCroc_ROM_TownsfolkNurse</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkNurse">
+    <race>BetaElephant</race>
+    <label>beta elephant nurse</label>
+    <defName>BetaElephant_ROM_TownsfolkNurse</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkNurse">
+    <race>BetaElk_Female</race>
+    <label>beta elk nurse</label>
+    <defName>BetaElk_Female_ROM_TownsfolkNurse</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkNurse">
+    <race>BetaElk_Male</race>
+    <label>beta elk nurse</label>
+    <defName>BetaElk_Male_ROM_TownsfolkNurse</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkNurse">
+    <race>BetaFox</race>
+    <label>beta fox nurse</label>
+    <defName>BetaFox_ROM_TownsfolkNurse</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkNurse">
+    <race>BetaGazelle</race>
+    <label>beta gazelle nurse</label>
+    <defName>BetaGazelle_ROM_TownsfolkNurse</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkNurse">
+    <race>BetaHog</race>
+    <label>beta hog nurse</label>
+    <defName>BetaHog_ROM_TownsfolkNurse</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkNurse">
+    <race>BetaLynx</race>
+    <label>beta lynx nurse</label>
+    <defName>BetaLynx_ROM_TownsfolkNurse</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkNurse">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon nurse</label>
+    <defName>BetaRaccoon_ROM_TownsfolkNurse</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkNurse">
+    <race>BetaWolf</race>
+    <label>beta wolf nurse</label>
+    <defName>BetaWolf_ROM_TownsfolkNurse</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkTeacher">
+    <race>BetaBear</race>
+    <label>beta bear villager</label>
+    <defName>BetaBear_ROM_TownsfolkTeacher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkTeacher">
+    <race>BetaCamel</race>
+    <label>beta camel villager</label>
+    <defName>BetaCamel_ROM_TownsfolkTeacher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkTeacher">
+    <race>BetaCroc</race>
+    <label>beta crocodile villager</label>
+    <defName>BetaCroc_ROM_TownsfolkTeacher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkTeacher">
+    <race>BetaElephant</race>
+    <label>beta elephant villager</label>
+    <defName>BetaElephant_ROM_TownsfolkTeacher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkTeacher">
+    <race>BetaElk_Female</race>
+    <label>beta elk villager</label>
+    <defName>BetaElk_Female_ROM_TownsfolkTeacher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkTeacher">
+    <race>BetaElk_Male</race>
+    <label>beta elk villager</label>
+    <defName>BetaElk_Male_ROM_TownsfolkTeacher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkTeacher">
+    <race>BetaFox</race>
+    <label>beta fox villager</label>
+    <defName>BetaFox_ROM_TownsfolkTeacher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkTeacher">
+    <race>BetaGazelle</race>
+    <label>beta gazelle villager</label>
+    <defName>BetaGazelle_ROM_TownsfolkTeacher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkTeacher">
+    <race>BetaHog</race>
+    <label>beta hog villager</label>
+    <defName>BetaHog_ROM_TownsfolkTeacher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkTeacher">
+    <race>BetaLynx</race>
+    <label>beta lynx villager</label>
+    <defName>BetaLynx_ROM_TownsfolkTeacher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkTeacher">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon villager</label>
+    <defName>BetaRaccoon_ROM_TownsfolkTeacher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkTeacher">
+    <race>BetaWolf</race>
+    <label>beta wolf villager</label>
+    <defName>BetaWolf_ROM_TownsfolkTeacher</defName>
+  </PawnKindDef>
+</Defs>

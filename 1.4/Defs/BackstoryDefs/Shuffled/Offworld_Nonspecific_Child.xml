@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!--============================== Non-specific (could work for various planet types) ============================-->
+
+  <BackstoryDef>
+    <defName>BetaHumanoidsBackstoryVatgrownSoldier8</defName>
+    <title>vatgrown soldier</title>
+    <titleShort>vatgrown</titleShort>
+    <baseDesc>[PAWN_nameDef] wasn't made as a person, but as an instrument of destruction. 
+      Grown in a bioweapons facility and taught combat during [PAWN_possessive] accelerated growth, 
+      [PAWN_nameDef] still has a proclivity for combat of all kinds and an aversion to human contact.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <key>Melee</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Shooting</key>
+        <value>4</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>BetaHumanoidsBackstory</li>
+      <li>BetaHumanoidsBackstoryPirate</li>
+      <li>BetaHumanoidsBackstoryImperialCommon</li>
+      <li>BetaHumanoidsBackstoryImperialFighter</li>
+      <li>BetaHumanoidsBackstoryVatgrown</li>
+      <li>BetaHumanoidsBackstoryTribal</li>
+    </spawnCategories>
+    <workDisables>
+      <li>Social</li>
+      <li>Caring</li>
+    </workDisables>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>BetaHumanoidsBackstoryMute34</defName>
+    <title>mute</title>
+    <titleShort>mute</titleShort>
+    <baseDesc>[PAWN_nameDef] wasn't made as a person, but as an instrument of destruction. 
+      Grown in a bioweapons facility and taught combat during [PAWN_possessive] accelerated growth, 
+      Something went horribly wrong however and [PAWN_nameDef] was greatly affected by a traumatic event early in [PAWN_possessive] life. 
+      For many years [PAWN_pronoun] refused to speak to people, preferring instead to play with the stray animals that roamed near the corporate outpost.</baseDesc>
+    <slot>Childhood</slot>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+    <skillGains>
+      <li>
+        <key>Animals</key>
+        <value>5</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>BetaHumanoidsBackstory</li>
+      <li>BetaHumanoidsBackstoryOutlander</li>
+      <li>BetaHumanoidsBackstoryImperialCommon</li>
+      <li>BetaHumanoidsBackstoryImperialFighter</li>
+      <li>BetaHumanoidsBackstoryTribal</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>BetaHumanoidsBackstoryOrganFarm67</defName>
+    <title>former organ farm</title>
+    <titleShort>organ farm</titleShort>
+    <baseDesc>[PAWN_nameDef] wasn't made as a person. Grown in a corporate organ harvesting facility. [PAWN_possessive] body was used to grow organic implants for sick or aging c-suite executives. 
+      A group of radical free Beta-Humanoids raided this operation and freed all the organ farms they could.
+      Though [PAWN_possessive] upbringing has left [PAWN_objective] haunted, it has also given [PAWN_objective] a unique understanding of human biology.</baseDesc>
+    <slot>Childhood</slot>
+    <workDisables>
+      <li>Violent</li>
+    </workDisables>
+    <skillGains>
+      <li>
+        <key>Medicine</key>
+        <value>5</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>BetaHumanoidsBackstory</li>
+      <li>BetaHumanoidsBackstoryOutlander</li>
+      <li>BetaHumanoidsBackstoryImperialCommon</li>
+      <li>BetaHumanoidsBackstoryMadman</li>
+      <li>BetaHumanoidsBackstoryTribal</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>BetaHumanoidsBackstoryMedicalAssistant12</defName>
+    <title>medical assistant</title>
+    <titleShort>medic</titleShort>
+    <baseDesc>[PAWN_nameDef] wasn't made as a person, but as an instrument of healing. 
+      Grown in a medical facility [PAWN_pronoun] was given medical training during their accelerated aging.
+      Shortly after being activated a massive fire broke out and [PAWN_nameDef] assisted in the treatment of the burn victims. [PAWN_pronoun] was left with a lifelong fear of fire.</baseDesc>
+    <slot>Childhood</slot>
+    <workDisables>
+      <li>Firefighting</li>
+    </workDisables>
+    <skillGains>
+      <li>
+        <key>Medicine</key>
+        <value>5</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>BetaHumanoidsBackstory</li>
+      <li>BetaHumanoidsBackstoryOutlander</li>
+      <li>BetaHumanoidsBackstoryPirate</li>
+      <li>BetaHumanoidsBackstoryImperialCommon</li>
+      <li>BetaHumanoidsBackstoryImperialFighter</li>
+      <li>BetaHumanoidsBackstoryScientist</li>
+      <li>BetaHumanoidsBackstoryTribal</li>
+    </spawnCategories>
+    <disallowedTraits>
+      <Pyromaniac />
+    </disallowedTraits>
+  </BackstoryDef>
+
+</Defs>

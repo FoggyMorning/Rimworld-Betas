@@ -4,12 +4,15 @@
     <xpath>/Defs/ThingDef[@ParentName="ApparelArmorHelmetReconBase"]/apparel/tags</xpath>
     <value>
       <li>BetaHumanoids_EarsTag</li>
+      <li>BetaHumanoids_ElephantEarsTag</li>
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/ThingDef[@ParentName="ApparelArmorHelmetPowerBase"]/apparel/tags</xpath>
     <value>
       <li>BetaHumanoids_EarsTag</li>
+      <li>BetaHumanoids_ElephantEarsTag</li>
+      <li>BetaHumanoids_ElephantTrunkTag</li>
     </value>
   </Operation>
 </Patch>

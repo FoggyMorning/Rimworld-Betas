@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers</xpath>
+    <value>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <Logger>1</Logger>
+          <BetaBear_Logger>1.00</BetaBear_Logger>
+          <BetaCamel_Logger>1.00</BetaCamel_Logger>
+          <BetaCroc_Logger>0.70</BetaCroc_Logger>
+          <BetaElephant_Logger>0.25</BetaElephant_Logger>
+          <BetaElk_Female_Logger>0.05</BetaElk_Female_Logger>
+          <BetaElk_Male_Logger>0.05</BetaElk_Male_Logger>
+          <BetaFox_Logger>1.00</BetaFox_Logger>
+          <BetaGazelle_Logger>1.00</BetaGazelle_Logger>
+          <BetaHog_Logger>1.00</BetaHog_Logger>
+          <BetaLynx_Logger>1.00</BetaLynx_Logger>
+          <BetaRaccoon_Logger>1.00</BetaRaccoon_Logger>
+          <BetaWolf_Logger>1.00</BetaWolf_Logger>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaBear_Logger>1.00</BetaBear_Logger>
+          <BetaCamel_Logger>1.00</BetaCamel_Logger>
+          <BetaCroc_Logger>0.70</BetaCroc_Logger>
+          <BetaElephant_Logger>0.25</BetaElephant_Logger>
+          <BetaElk_Female_Logger>0.05</BetaElk_Female_Logger>
+          <BetaElk_Male_Logger>0.05</BetaElk_Male_Logger>
+          <BetaFox_Logger>1.00</BetaFox_Logger>
+          <BetaGazelle_Logger>1.00</BetaGazelle_Logger>
+          <BetaHog_Logger>1.00</BetaHog_Logger>
+          <BetaLynx_Logger>1.00</BetaLynx_Logger>
+          <BetaRaccoon_Logger>1.00</BetaRaccoon_Logger>
+          <BetaWolf_Logger>1.00</BetaWolf_Logger>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaBear_Logger>1.00</BetaBear_Logger>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaCamel_Logger>1.00</BetaCamel_Logger>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaCroc_Logger>0.70</BetaCroc_Logger>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaElephant_Logger>0.25</BetaElephant_Logger>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaElk_Female_Logger>0.05</BetaElk_Female_Logger>
+          <BetaElk_Male_Logger>0.05</BetaElk_Male_Logger>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaFox_Logger>1.00</BetaFox_Logger>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaGazelle_Logger>1.00</BetaGazelle_Logger>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaHog_Logger>1.00</BetaHog_Logger>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaLynx_Logger>1.00</BetaLynx_Logger>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaRaccoon_Logger>1.00</BetaRaccoon_Logger>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaWolf_Logger>1.00</BetaWolf_Logger>
+        </options>
+      </li>
+    </value>
+  </Operation>
+</Patch>

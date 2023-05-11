@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.RaceSettings>
+    <defName>BetaRaceSettings_VEFVikings</defName>
+    <pawnKindSettings>
+
+      <startingColonists>
+        <li>
+          <pawnKindEntries>
+            <li>
+              <kindDefs>
+                <li>BetaBear_VFEV_Member</li>
+                <li>BetaElephant_VFEV_Member</li>
+                <li>BetaFox_VFEV_Member</li>
+                <li>BetaGazelle_VFEV_Member</li>
+                <li>BetaLynx_VFEV_Member</li>
+                <li>BetaHog_VFEV_Member</li>
+                <li>BetaRaccoon_VFEV_Member</li>
+                <li>BetaWolf_VFEV_Member</li>
+                <li>BetaCroc_VFEV_Member</li>
+              </kindDefs>
+              <chance>70</chance>
+            </li>
+          </pawnKindEntries>
+          <factionDefs>
+            <li>VFEV_PlayerClan</li>
+          </factionDefs>
+        </li>
+        <li>
+          <pawnKindEntries>
+            <li>
+              <kindDefs>
+                <li>BetaElk_Male_VFEV_Member</li>
+                <li>BetaElk_Female_VFEV_Member</li>
+                <li>BetaCamel_VFEV_Member</li>
+              </kindDefs>
+              <chance>10</chance>
+            </li>
+          </pawnKindEntries>
+          <factionDefs>
+            <li>VFEV_PlayerClan</li>
+          </factionDefs>
+        </li>
+      </startingColonists>
+
+      <alienwandererkinds>
+        <li>
+          <pawnKindEntries>
+            <li>
+              <kindDefs>
+                <li>BetaBear_VFEV_Member</li>
+                <li>BetaCroc_VFEV_Member</li>
+                <li>BetaElephant_VFEV_Member</li>
+                <li>BetaFox_VFEV_Member</li>
+                <li>BetaGazelle_VFEV_Member</li>
+                <li>BetaHog_VFEV_Member</li>
+                <li>BetaLynx_VFEV_Member</li>
+                <li>BetaRaccoon_VFEV_Member</li>
+                <li>BetaWolf_VFEV_Member</li>
+              </kindDefs>
+              <chance>70</chance>
+            </li>
+          </pawnKindEntries>
+          <factionDefs>
+            <li>VFEV_PlayerClan</li>
+          </factionDefs>
+        </li>
+        <li>
+          <pawnKindEntries>
+            <li>
+              <kindDefs>
+                <li>BetaElk_Male_VFEV_Member</li>
+                <li>BetaElk_Female_VFEV_Member</li>
+                <li>BetaCamel_VFEV_Member</li>
+              </kindDefs>
+              <chance>10</chance>
+            </li>
+          </pawnKindEntries>
+          <factionDefs>
+            <li>VFEV_PlayerClan</li>
+          </factionDefs>
+        </li>
+      </alienwandererkinds>
+
+
+      <alienslavekinds>
+        <li>
+          <kindDefs>
+            <li>BetaBear_VFEV_Slave</li>
+            <li>BetaCroc_VFEV_Slave</li>
+            <li>BetaElephant_VFEV_Slave</li>
+            <li>BetaFox_VFEV_Slave</li>
+            <li>BetaGazelle_VFEV_Slave</li>
+            <li>BetaHog_VFEV_Slave</li>
+            <li>BetaLynx_VFEV_Slave</li>
+            <li>BetaRaccoon_VFEV_Slave</li>
+            <li>BetaWolf_VFEV_Slave</li>
+          </kindDefs>
+          <chance>40</chance>
+        </li>
+        <li>
+          <kindDefs>
+            <li>BetaElk_Male_VFEV_Slave</li>
+            <li>BetaElk_Female_VFEV_Slave</li>
+            <li>BetaCamel_VFEV_Slave</li>
+          </kindDefs>
+          <chance>10</chance>
+        </li>
+      </alienslavekinds>
+
+
+    </pawnKindSettings>
+
+  </AlienRace.RaceSettings>
+</Defs>

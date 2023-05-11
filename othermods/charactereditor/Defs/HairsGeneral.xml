@@ -1,0 +1,636 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- ==================== Rural ==================== -->
+
+  <HairDef>
+    <defName>BetaHumanoids_BriefPonytail</defName>
+    <label>bh brief ponytail</label>
+    <styleGender>Male</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Gaston</texPath>
+    <category>Rural</category>
+    <styleTags>
+      <li>BetaHumanoids_Rural</li>
+      <li>BetaHumanoids_HairShort</li>
+      <li>BetaHumanoids_HairLong</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Princess</defName>
+    <label>bh princess</label>
+    <styleGender>Female</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Princess</texPath>
+    <category>Rural</category>
+    <styleTags>
+      <li>BetaHumanoids_Rural</li>
+      <li>BetaHumanoids_HairLong</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Scatman</defName>
+    <label>bh scatman</label>
+    <styleGender>Male</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Scat</texPath>
+    <category>Rural</category>
+    <styleTags>
+      <li>BetaHumanoids_Soldier</li>
+      <li>BetaHumanoids_Balding</li>
+    </styleTags>
+  </HairDef>
+
+  <!-- ==================== Urban ==================== -->
+
+  <HairDef>
+    <defName>BetaHumanoids_Lackland</defName>
+    <label>bh lackland</label>
+    <styleGender>Male</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Lackland</texPath>
+    <category>Urban</category>
+    <styleTags>
+      <li>BetaHumanoids_Urban</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Revolt</defName>
+    <label>bh revolt</label>
+    <styleGender>Male</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Revolt</texPath>
+    <category>Urban</category>
+    <styleTags>
+      <li>BetaHumanoids_Urban</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Pigtails</defName>
+    <label>bh pigtails</label>
+    <styleGender>Female</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Pigtails</texPath>
+    <category>Urban</category>
+    <styleTags>
+      <li>BetaHumanoids_Urban</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Afro</defName>
+    <label>bh afro</label>
+    <styleGender>Any</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Afro</texPath>
+    <category>Urban</category>
+    <styleTags>
+      <li>BetaHumanoids_Urban</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Bob</defName>
+    <label>bh bob</label>
+    <styleGender>Female</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Bob</texPath>
+    <category>Urban</category>
+    <styleTags>
+      <li>BetaHumanoids_Soldier</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Burgundy</defName>
+    <label>bh burgundy</label>
+    <styleGender>Male</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Burgundy</texPath>
+    <category>Urban</category>
+    <styleTags>
+      <li>BetaHumanoids_Urban</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Troubadour</defName>
+    <label>bh troubadour</label>
+    <styleGender>Male</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Troubadour</texPath>
+    <category>Urban</category>
+    <styleTags>
+      <li>BetaHumanoids_Urban</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_GreasySwoop</defName>
+    <label>bh greasy swoop</label>
+    <styleGender>Male</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/GreasySwoop</texPath>
+    <category>Urban</category>
+    <styleTags>
+      <li>BetaHumanoids_Urban</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Cleopatra</defName>
+    <label>bh cleopatra</label>
+    <styleGender>Female</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Cleopatra</texPath>
+    <category>Urban</category>
+    <styleTags>
+      <li>BetaHumanoids_Soldier</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Cute</defName>
+    <label>bh cute</label>
+    <styleGender>Female</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Cute</texPath>
+    <category>Urban</category>
+    <styleTags>
+      <li>BetaHumanoids_Urban</li>
+      <li>BetaHumanoids_HairLong</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Decent</defName>
+    <label>bh decent</label>
+    <styleGender>Female</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Decent</texPath>
+    <category>Urban</category>
+    <styleTags>
+      <li>BetaHumanoids_Urban</li>
+      <li>BetaHumanoids_HairLong</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_FancyBun</defName>
+    <label>bh fancy bun</label>
+    <styleGender>Female</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/FancyBun</texPath>
+    <category>Urban</category>
+    <styleTags>
+      <li>BetaHumanoids_Urban</li>
+      <li>BetaHumanoids_HairLong</li>
+    </styleTags>
+  </HairDef>
+
+  <!-- ==================== Urban/Rural ==================== -->
+
+  <HairDef>
+    <defName>BetaHumanoids_Senorita</defName>
+    <label>bh senorita</label>
+    <styleGender>Female</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Senorita</texPath>
+    <category>Urban</category>
+    <styleTags>
+      <li>BetaHumanoids_Urban</li>
+      <li>BetaHumanoids_Rural</li>
+      <li>BetaHumanoids_HairLong</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Flowy</defName>
+    <label>bh flowy</label>
+    <styleGender>Female</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Flowy</texPath>
+    <category>Rural</category>
+    <styleTags>
+      <li>BetaHumanoids_Urban</li>
+      <li>BetaHumanoids_Rural</li>
+      <li>BetaHumanoids_HairLong</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Long</defName>
+    <label>bh long</label>
+    <styleGender>Female</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Long</texPath>
+    <category>Rural</category>
+    <styleTags>
+      <li>BetaHumanoids_Urban</li>
+      <li>BetaHumanoids_Rural</li>
+      <li>BetaHumanoids_HairLong</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Mop</defName>
+    <label>bh mop</label>
+    <styleGender>MaleUsually</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Mop</texPath>
+    <category>Rural</category>
+    <styleTags>
+      <li>BetaHumanoids_Urban</li>
+      <li>BetaHumanoids_Rural</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Wavy</defName>
+    <label>bh wavy</label>
+    <styleGender>Any</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Wavy</texPath>
+    <category>Rural</category>
+    <styleTags>
+      <li>BetaHumanoids_Urban</li>
+      <li>BetaHumanoids_Rural</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Messy</defName>
+    <label>bh messy</label>
+    <styleGender>Male</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Mess</texPath>
+    <category>Rural</category>
+    <styleTags>
+      <li>BetaHumanoids_Urban</li>
+      <li>BetaHumanoids_Rural</li>
+      <li>BetaHumanoids_HairShort</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Curly</defName>
+    <label>bh curly</label>
+    <styleGender>Female</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Curly</texPath>
+    <category>Rural</category>
+    <styleTags>
+      <li>BetaHumanoids_Urban</li>
+      <li>BetaHumanoids_Rural</li>
+      <li>BetaHumanoids_HairShort</li>
+      <li>BetaHumanoids_HairLong</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Fringe</defName>
+    <label>bh fringe</label>
+    <styleGender>Female</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Fringe</texPath>
+    <category>Urban</category>
+    <styleTags>
+      <li>BetaHumanoids_Urban</li>
+      <li>BetaHumanoids_Rural</li>
+      <li>BetaHumanoids_HairShort</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Frozen</defName>
+    <label>bh frozen</label>
+    <styleGender>Female</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Frozen</texPath>
+    <category>Urban</category>
+    <styleTags>
+      <li>BetaHumanoids_Urban</li>
+      <li>BetaHumanoids_HairLong</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Ponytails</defName>
+    <label>bh ponytails</label>
+    <styleGender>Female</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Ponytails</texPath>
+    <category>Urban</category>
+    <styleTags>
+      <li>BetaHumanoids_Urban</li>
+      <li>BetaHumanoids_Rural</li>
+      <li>BetaHumanoids_HairLong</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Bowlcut</defName>
+    <label>bh bowlcut</label>
+    <styleGender>Male</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Bowlcut</texPath>
+    <category>Urban</category>
+    <styleTags>
+      <li>BetaHumanoids_Urban</li>
+      <li>BetaHumanoids_Rural</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Bravo</defName>
+    <label>bh bravo</label>
+    <styleGender>Male</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Bravo</texPath>
+    <category>Urban</category>
+    <styleTags>
+      <li>BetaHumanoids_Urban</li>
+      <li>BetaHumanoids_Rural</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Recruit</defName>
+    <label>bh recruit</label>
+    <styleGender>Male</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Recruit</texPath>
+    <category>Soldier</category>
+    <styleTags>
+      <li>BetaHumanoids_Soldier</li>
+      <li>BetaHumanoids_HairShort</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Rockstar</defName>
+    <label>bh rockstar</label>
+    <styleGender>Male</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Rockstar</texPath>
+    <category>Urban</category>
+    <styleTags>
+      <li>BetaHumanoids_Urban</li>
+      <li>BetaHumanoids_Rural</li>
+      <li>BetaHumanoids_HairLong</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Snazzy</defName>
+    <label>bh snazzy</label>
+    <styleGender>Male</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Snazzy</texPath>
+    <category>Urban</category>
+    <styleTags>
+      <li>BetaHumanoids_Urban</li>
+      <li>BetaHumanoids_Rural</li>
+      <li>BetaHumanoids_HairLong</li>
+    </styleTags>
+  </HairDef>
+
+  <!-- ====================== Punk ====================== -->
+
+  <HairDef>
+    <defName>BetaHumanoids_Firestarter</defName>
+    <label>bh firestarter</label>
+    <styleGender>MaleUsually</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Firestarter</texPath>
+    <category>Punk</category>
+    <styleTags>
+      <li>BetaHumanoids_Punk</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Junkie</defName>
+    <label>bh junkie</label>
+    <styleGender>FemaleUsually</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Junkie</texPath>
+    <category>Punk</category>
+    <styleTags>
+      <li>BetaHumanoids_Punk</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Scrapper</defName>
+    <label>bh scrapper</label>
+    <styleGender>FemaleUsually</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Scrapper</texPath>
+    <category>Punk</category>
+    <styleTags>
+      <li>BetaHumanoids_Punk</li>
+      <li>BetaHumanoids_Wild</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Randy</defName>
+    <label>bh randy</label>
+    <styleGender>MaleUsually</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Randy</texPath>
+    <category>Punk</category>
+    <styleTags>
+      <li>BetaHumanoids_Punk</li>
+      <li>BetaHumanoids_HairShort</li>
+      <li>BetaHumanoids_Wild</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Rookie</defName>
+    <label>bh rookie</label>
+    <styleGender>MaleUsually</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Rookie</texPath>
+    <category>Punk</category>
+    <styleTags>
+      <li>BetaHumanoids_Punk</li>
+      <li>BetaHumanoids_HairShort</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Spikes</defName>
+    <label>bh spikes</label>
+    <styleGender>MaleUsually</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Spikes</texPath>
+    <category>Punk</category>
+    <styleTags>
+      <li>BetaHumanoids_Punk</li>
+      <li>BetaHumanoids_Wild</li>
+    </styleTags>
+  </HairDef>
+
+  <!--================ Tribal ==================-->
+
+  <HairDef>
+    <defName>BetaHumanoids_ShaveTopBraid</defName>
+    <label>bh shave top braid</label>
+    <styleGender>Any</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/ShaveTopBraid</texPath>
+    <category>Tribal</category>
+    <styleTags>
+      <li>BetaHumanoids_Tribal</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_BraidedKnot</defName>
+    <label>bh braided knot</label>
+    <styleGender>Any</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Braidbun</texPath>
+    <category>Tribal</category>
+    <styleTags>
+      <li>BetaHumanoids_Tribal</li>
+      <li>BetaHumanoids_HairShort</li>
+      <li>BetaHumanoids_HairLong</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Keeper</defName>
+    <label>bh keeper</label>
+    <styleGender>FemaleUsually</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Keeper</texPath>
+    <category>Tribal</category>
+    <styleTags>
+      <li>BetaHumanoids_Tribal</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Primal</defName>
+    <label>bh primal</label>
+    <styleGender>FemaleUsually</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Primal</texPath>
+    <category>Tribal</category>
+    <styleTags>
+      <li>BetaHumanoids_Tribal</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Warden</defName>
+    <label>bh warden</label>
+    <styleGender>FemaleUsually</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Warden</texPath>
+    <category>Tribal</category>
+    <styleTags>
+      <li>BetaHumanoids_Tribal</li>
+      <li>BetaHumanoids_HairShort</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Elder</defName>
+    <label>bh elder</label>
+    <styleGender>Male</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Elder</texPath>
+    <category>Tribal</category>
+    <styleTags>
+      <li>BetaHumanoids_Tribal</li>
+      <li>BetaHumanoids_HairShort</li>
+      <li>BetaHumanoids_Balding</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Locks</defName>
+    <label>bh locks</label>
+    <styleGender>MaleUsually</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Locks</texPath>
+    <category>Tribal</category>
+    <styleTags>
+      <li>BetaHumanoids_Tribal</li>
+      <li>BetaHumanoids_HairLong</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Savage</defName>
+    <label>bh savage</label>
+    <styleGender>MaleUsually</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Savage</texPath>
+    <category>Tribal</category>
+    <styleTags>
+      <li>BetaHumanoids_Tribal</li>
+      <li>BetaHumanoids_HairLong</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Sticky</defName>
+    <label>bh sticky</label>
+    <styleGender>Any</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Sticky</texPath>
+    <category>Tribal</category>
+    <styleTags>
+      <li>BetaHumanoids_Tribal</li>
+      <li>BetaHumanoids_HairLong</li>
+    </styleTags>
+  </HairDef>
+
+  <!-- =============== Other mix ================== -->
+
+  <HairDef>
+    <defName>BetaHumanoids_Bald</defName>
+    <label>bh bald</label>
+    <styleGender>Any</styleGender>
+    <category>Minimal</category>
+    <noGraphic>true</noGraphic>
+    <styleTags>
+      <li>BetaHumanoids_Bald</li>
+      <li>BetaHumanoids_HairShort</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Shaved</defName>
+    <label>bh shaved</label>
+    <styleGender>Any</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Shaved</texPath>
+    <category>Minimal</category>
+    <styleTags>
+      <li>BetaHumanoids_Shaved</li>
+      <li>BetaHumanoids_Urban</li>
+      <li>BetaHumanoids_Punk</li>
+      <li>BetaHumanoids_Rural</li>
+      <li>BetaHumanoids_Tribal</li>
+      <li>BetaHumanoids_Soldier</li>
+      <li>BetaHumanoids_HairShort</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Tuft</defName>
+    <label>bh tuft</label>
+    <styleGender>MaleUsually</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Tuft</texPath>
+    <category>Tribal</category>
+    <styleTags>
+      <li>BetaHumanoids_Punk</li>
+      <li>BetaHumanoids_Tribal</li>
+      <li>BetaHumanoids_HairShort</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_ScorpionTail</defName>
+    <label>bh scorpion tail</label>
+    <styleGender>Any</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Scorpiontail</texPath>
+    <category>Tribal</category>
+    <styleTags>
+      <li>BetaHumanoids_Punk</li>
+      <li>BetaHumanoids_Tribal</li>
+      <li>BetaHumanoids_Wild</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Topdog</defName>
+    <label>bh topdog</label>
+    <styleGender>Male</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Topdog</texPath>
+    <category>Soldier</category>
+    <styleTags>
+      <li>BetaHumanoids_Soldier</li>
+      <li>BetaHumanoids_HairShort</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BetaHumanoids_Mohawk</defName>
+    <label>bh mohawk</label>
+    <styleGender>MaleUsually</styleGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Mohawk</texPath>
+    <category>Punk</category>
+    <styleTags>
+      <li>BetaHumanoids_Urban</li>
+      <li>BetaHumanoids_Punk</li>
+      <li>BetaHumanoids_Wild</li>
+    </styleTags>
+  </HairDef>
+
+</Defs>

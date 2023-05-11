@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus">
+    <race>BetaBear</race>
+    <label>beta bear colonist (Mechanicus)</label>
+    <defName>BetaBear_Colonist_OG_Mechanicus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus">
+    <race>BetaCamel</race>
+    <label>beta camel colonist (Mechanicus)</label>
+    <defName>BetaCamel_Colonist_OG_Mechanicus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus">
+    <race>BetaCroc</race>
+    <label>beta crocodile colonist (Mechanicus)</label>
+    <defName>BetaCroc_Colonist_OG_Mechanicus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus">
+    <race>BetaElephant</race>
+    <label>beta elephant colonist (Mechanicus)</label>
+    <defName>BetaElephant_Colonist_OG_Mechanicus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus">
+    <race>BetaElk_Female</race>
+    <label>beta elk colonist (Mechanicus)</label>
+    <defName>BetaElk_Female_Colonist_OG_Mechanicus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus">
+    <race>BetaElk_Male</race>
+    <label>beta elk colonist (Mechanicus)</label>
+    <defName>BetaElk_Male_Colonist_OG_Mechanicus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus">
+    <race>BetaFox</race>
+    <label>beta fox colonist (Mechanicus)</label>
+    <defName>BetaFox_Colonist_OG_Mechanicus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus">
+    <race>BetaGazelle</race>
+    <label>beta gazelle colonist (Mechanicus)</label>
+    <defName>BetaGazelle_Colonist_OG_Mechanicus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus">
+    <race>BetaHog</race>
+    <label>beta hog colonist (Mechanicus)</label>
+    <defName>BetaHog_Colonist_OG_Mechanicus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus">
+    <race>BetaLynx</race>
+    <label>beta lynx colonist (Mechanicus)</label>
+    <defName>BetaLynx_Colonist_OG_Mechanicus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon colonist (Mechanicus)</label>
+    <defName>BetaRaccoon_Colonist_OG_Mechanicus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus">
+    <race>BetaWolf</race>
+    <label>beta wolf colonist (Mechanicus)</label>
+    <defName>BetaWolf_Colonist_OG_Mechanicus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Servitor">
+    <race>BetaBear</race>
+    <label>beta bear colonist (Mechanicus)</label>
+    <defName>BetaBear_Colonist_OG_Mechanicus_Servitor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Servitor">
+    <race>BetaCamel</race>
+    <label>beta camel colonist (Mechanicus)</label>
+    <defName>BetaCamel_Colonist_OG_Mechanicus_Servitor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Servitor">
+    <race>BetaCroc</race>
+    <label>beta crocodile colonist (Mechanicus)</label>
+    <defName>BetaCroc_Colonist_OG_Mechanicus_Servitor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Servitor">
+    <race>BetaElephant</race>
+    <label>beta elephant colonist (Mechanicus)</label>
+    <defName>BetaElephant_Colonist_OG_Mechanicus_Servitor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Servitor">
+    <race>BetaElk_Female</race>
+    <label>beta elk colonist (Mechanicus)</label>
+    <defName>BetaElk_Female_Colonist_OG_Mechanicus_Servitor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Servitor">
+    <race>BetaElk_Male</race>
+    <label>beta elk colonist (Mechanicus)</label>
+    <defName>BetaElk_Male_Colonist_OG_Mechanicus_Servitor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Servitor">
+    <race>BetaFox</race>
+    <label>beta fox colonist (Mechanicus)</label>
+    <defName>BetaFox_Colonist_OG_Mechanicus_Servitor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Servitor">
+    <race>BetaGazelle</race>
+    <label>beta gazelle colonist (Mechanicus)</label>
+    <defName>BetaGazelle_Colonist_OG_Mechanicus_Servitor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Servitor">
+    <race>BetaHog</race>
+    <label>beta hog colonist (Mechanicus)</label>
+    <defName>BetaHog_Colonist_OG_Mechanicus_Servitor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Servitor">
+    <race>BetaLynx</race>
+    <label>beta lynx colonist (Mechanicus)</label>
+    <defName>BetaLynx_Colonist_OG_Mechanicus_Servitor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Servitor">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon colonist (Mechanicus)</label>
+    <defName>BetaRaccoon_Colonist_OG_Mechanicus_Servitor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Servitor">
+    <race>BetaWolf</race>
+    <label>beta wolf colonist (Mechanicus)</label>
+    <defName>BetaWolf_Colonist_OG_Mechanicus_Servitor</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Tech_Priest">
+    <race>BetaBear</race>
+    <label>beta bear colonist (Mechanicus)</label>
+    <defName>BetaBear_Colonist_OG_Mechanicus_Tech_Priest</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Tech_Priest">
+    <race>BetaCamel</race>
+    <label>beta camel colonist (Mechanicus)</label>
+    <defName>BetaCamel_Colonist_OG_Mechanicus_Tech_Priest</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Tech_Priest">
+    <race>BetaCroc</race>
+    <label>beta crocodile colonist (Mechanicus)</label>
+    <defName>BetaCroc_Colonist_OG_Mechanicus_Tech_Priest</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Tech_Priest">
+    <race>BetaElephant</race>
+    <label>beta elephant colonist (Mechanicus)</label>
+    <defName>BetaElephant_Colonist_OG_Mechanicus_Tech_Priest</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Tech_Priest">
+    <race>BetaElk_Female</race>
+    <label>beta elk colonist (Mechanicus)</label>
+    <defName>BetaElk_Female_Colonist_OG_Mechanicus_Tech_Priest</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Tech_Priest">
+    <race>BetaElk_Male</race>
+    <label>beta elk colonist (Mechanicus)</label>
+    <defName>BetaElk_Male_Colonist_OG_Mechanicus_Tech_Priest</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Tech_Priest">
+    <race>BetaFox</race>
+    <label>beta fox colonist (Mechanicus)</label>
+    <defName>BetaFox_Colonist_OG_Mechanicus_Tech_Priest</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Tech_Priest">
+    <race>BetaGazelle</race>
+    <label>beta gazelle colonist (Mechanicus)</label>
+    <defName>BetaGazelle_Colonist_OG_Mechanicus_Tech_Priest</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Tech_Priest">
+    <race>BetaHog</race>
+    <label>beta hog colonist (Mechanicus)</label>
+    <defName>BetaHog_Colonist_OG_Mechanicus_Tech_Priest</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Tech_Priest">
+    <race>BetaLynx</race>
+    <label>beta lynx colonist (Mechanicus)</label>
+    <defName>BetaLynx_Colonist_OG_Mechanicus_Tech_Priest</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Tech_Priest">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon colonist (Mechanicus)</label>
+    <defName>BetaRaccoon_Colonist_OG_Mechanicus_Tech_Priest</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Tech_Priest">
+    <race>BetaWolf</race>
+    <label>beta wolf colonist (Mechanicus)</label>
+    <defName>BetaWolf_Colonist_OG_Mechanicus_Tech_Priest</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Tech_Priest_Enginseer">
+    <race>BetaBear</race>
+    <label>beta bear colonist (Mechanicus)</label>
+    <defName>BetaBear_Colonist_OG_Mechanicus_Tech_Priest_Enginseer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Tech_Priest_Enginseer">
+    <race>BetaCamel</race>
+    <label>beta camel colonist (Mechanicus)</label>
+    <defName>BetaCamel_Colonist_OG_Mechanicus_Tech_Priest_Enginseer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Tech_Priest_Enginseer">
+    <race>BetaCroc</race>
+    <label>beta crocodile colonist (Mechanicus)</label>
+    <defName>BetaCroc_Colonist_OG_Mechanicus_Tech_Priest_Enginseer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Tech_Priest_Enginseer">
+    <race>BetaElephant</race>
+    <label>beta elephant colonist (Mechanicus)</label>
+    <defName>BetaElephant_Colonist_OG_Mechanicus_Tech_Priest_Enginseer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Tech_Priest_Enginseer">
+    <race>BetaElk_Female</race>
+    <label>beta elk colonist (Mechanicus)</label>
+    <defName>BetaElk_Female_Colonist_OG_Mechanicus_Tech_Priest_Enginseer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Tech_Priest_Enginseer">
+    <race>BetaElk_Male</race>
+    <label>beta elk colonist (Mechanicus)</label>
+    <defName>BetaElk_Male_Colonist_OG_Mechanicus_Tech_Priest_Enginseer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Tech_Priest_Enginseer">
+    <race>BetaFox</race>
+    <label>beta fox colonist (Mechanicus)</label>
+    <defName>BetaFox_Colonist_OG_Mechanicus_Tech_Priest_Enginseer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Tech_Priest_Enginseer">
+    <race>BetaGazelle</race>
+    <label>beta gazelle colonist (Mechanicus)</label>
+    <defName>BetaGazelle_Colonist_OG_Mechanicus_Tech_Priest_Enginseer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Tech_Priest_Enginseer">
+    <race>BetaHog</race>
+    <label>beta hog colonist (Mechanicus)</label>
+    <defName>BetaHog_Colonist_OG_Mechanicus_Tech_Priest_Enginseer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Tech_Priest_Enginseer">
+    <race>BetaLynx</race>
+    <label>beta lynx colonist (Mechanicus)</label>
+    <defName>BetaLynx_Colonist_OG_Mechanicus_Tech_Priest_Enginseer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Tech_Priest_Enginseer">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon colonist (Mechanicus)</label>
+    <defName>BetaRaccoon_Colonist_OG_Mechanicus_Tech_Priest_Enginseer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Mechanicus_Tech_Priest_Enginseer">
+    <race>BetaWolf</race>
+    <label>beta wolf colonist (Mechanicus)</label>
+    <defName>BetaWolf_Colonist_OG_Mechanicus_Tech_Priest_Enginseer</defName>
+  </PawnKindDef>
+</Defs>

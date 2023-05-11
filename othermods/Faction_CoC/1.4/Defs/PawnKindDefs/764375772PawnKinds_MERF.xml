@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_MERF">
+    <race>BetaBear</race>
+    <label>beta bear MERF</label>
+    <defName>BetaBear_ROM_MERF</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_MERF">
+    <race>BetaCamel</race>
+    <label>beta camel MERF</label>
+    <defName>BetaCamel_ROM_MERF</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_MERF">
+    <race>BetaCroc</race>
+    <label>beta crocodile MERF</label>
+    <defName>BetaCroc_ROM_MERF</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_MERF">
+    <race>BetaElephant</race>
+    <label>beta elephant MERF</label>
+    <defName>BetaElephant_ROM_MERF</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_MERF">
+    <race>BetaElk_Female</race>
+    <label>beta elk MERF</label>
+    <defName>BetaElk_Female_ROM_MERF</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_MERF">
+    <race>BetaElk_Male</race>
+    <label>beta elk MERF</label>
+    <defName>BetaElk_Male_ROM_MERF</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_MERF">
+    <race>BetaFox</race>
+    <label>beta fox MERF</label>
+    <defName>BetaFox_ROM_MERF</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_MERF">
+    <race>BetaGazelle</race>
+    <label>beta gazelle MERF</label>
+    <defName>BetaGazelle_ROM_MERF</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_MERF">
+    <race>BetaHog</race>
+    <label>beta hog MERF</label>
+    <defName>BetaHog_ROM_MERF</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_MERF">
+    <race>BetaLynx</race>
+    <label>beta lynx MERF</label>
+    <defName>BetaLynx_ROM_MERF</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_MERF">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon MERF</label>
+    <defName>BetaRaccoon_ROM_MERF</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_MERF">
+    <race>BetaWolf</race>
+    <label>beta wolf MERF</label>
+    <defName>BetaWolf_ROM_MERF</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_HeavyMERF">
+    <race>BetaBear</race>
+    <label>beta bear MERF Heavy</label>
+    <defName>BetaBear_ROM_HeavyMERF</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_HeavyMERF">
+    <race>BetaCamel</race>
+    <label>beta camel MERF Heavy</label>
+    <defName>BetaCamel_ROM_HeavyMERF</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_HeavyMERF">
+    <race>BetaCroc</race>
+    <label>beta crocodile MERF Heavy</label>
+    <defName>BetaCroc_ROM_HeavyMERF</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_HeavyMERF">
+    <race>BetaElephant</race>
+    <label>beta elephant MERF Heavy</label>
+    <defName>BetaElephant_ROM_HeavyMERF</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_HeavyMERF">
+    <race>BetaElk_Female</race>
+    <label>beta elk MERF Heavy</label>
+    <defName>BetaElk_Female_ROM_HeavyMERF</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_HeavyMERF">
+    <race>BetaElk_Male</race>
+    <label>beta elk MERF Heavy</label>
+    <defName>BetaElk_Male_ROM_HeavyMERF</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_HeavyMERF">
+    <race>BetaFox</race>
+    <label>beta fox MERF Heavy</label>
+    <defName>BetaFox_ROM_HeavyMERF</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_HeavyMERF">
+    <race>BetaGazelle</race>
+    <label>beta gazelle MERF Heavy</label>
+    <defName>BetaGazelle_ROM_HeavyMERF</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_HeavyMERF">
+    <race>BetaHog</race>
+    <label>beta hog MERF Heavy</label>
+    <defName>BetaHog_ROM_HeavyMERF</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_HeavyMERF">
+    <race>BetaLynx</race>
+    <label>beta lynx MERF Heavy</label>
+    <defName>BetaLynx_ROM_HeavyMERF</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_HeavyMERF">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon MERF Heavy</label>
+    <defName>BetaRaccoon_ROM_HeavyMERF</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_HeavyMERF">
+    <race>BetaWolf</race>
+    <label>beta wolf MERF Heavy</label>
+    <defName>BetaWolf_ROM_HeavyMERF</defName>
+  </PawnKindDef>
+</Defs>

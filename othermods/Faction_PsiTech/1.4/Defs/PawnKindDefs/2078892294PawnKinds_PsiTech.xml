@@ -1,0 +1,603 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Penitent" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaBear</race>
+    <label>beta bear penitent</label>
+    <defName>BetaBear_Psion_Penitent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Penitent" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaCamel</race>
+    <label>beta camel penitent</label>
+    <defName>BetaCamel_Psion_Penitent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Penitent" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaCroc</race>
+    <label>beta crocodile penitent</label>
+    <defName>BetaCroc_Psion_Penitent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Penitent" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaElephant</race>
+    <label>beta elephant penitent</label>
+    <defName>BetaElephant_Psion_Penitent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Penitent" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaElk_Female</race>
+    <label>beta elk penitent</label>
+    <defName>BetaElk_Female_Psion_Penitent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Penitent" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaElk_Male</race>
+    <label>beta elk penitent</label>
+    <defName>BetaElk_Male_Psion_Penitent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Penitent" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaFox</race>
+    <label>beta fox penitent</label>
+    <defName>BetaFox_Psion_Penitent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Penitent" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaGazelle</race>
+    <label>beta gazelle penitent</label>
+    <defName>BetaGazelle_Psion_Penitent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Penitent" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaHog</race>
+    <label>beta hog penitent</label>
+    <defName>BetaHog_Psion_Penitent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Penitent" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaLynx</race>
+    <label>beta lynx penitent</label>
+    <defName>BetaLynx_Psion_Penitent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Penitent" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon penitent</label>
+    <defName>BetaRaccoon_Psion_Penitent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Penitent" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaWolf</race>
+    <label>beta wolf penitent</label>
+    <defName>BetaWolf_Psion_Penitent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Uninitiated" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaBear</race>
+    <label>beta bear uninitiated</label>
+    <defName>BetaBear_Psion_Uninitiated</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Uninitiated" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaCamel</race>
+    <label>beta camel uninitiated</label>
+    <defName>BetaCamel_Psion_Uninitiated</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Uninitiated" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaCroc</race>
+    <label>beta crocodile uninitiated</label>
+    <defName>BetaCroc_Psion_Uninitiated</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Uninitiated" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaElephant</race>
+    <label>beta elephant uninitiated</label>
+    <defName>BetaElephant_Psion_Uninitiated</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Uninitiated" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaElk_Female</race>
+    <label>beta elk uninitiated</label>
+    <defName>BetaElk_Female_Psion_Uninitiated</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Uninitiated" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaElk_Male</race>
+    <label>beta elk uninitiated</label>
+    <defName>BetaElk_Male_Psion_Uninitiated</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Uninitiated" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaFox</race>
+    <label>beta fox uninitiated</label>
+    <defName>BetaFox_Psion_Uninitiated</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Uninitiated" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaGazelle</race>
+    <label>beta gazelle uninitiated</label>
+    <defName>BetaGazelle_Psion_Uninitiated</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Uninitiated" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaHog</race>
+    <label>beta hog uninitiated</label>
+    <defName>BetaHog_Psion_Uninitiated</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Uninitiated" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaLynx</race>
+    <label>beta lynx uninitiated</label>
+    <defName>BetaLynx_Psion_Uninitiated</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Uninitiated" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon uninitiated</label>
+    <defName>BetaRaccoon_Psion_Uninitiated</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Uninitiated" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaWolf</race>
+    <label>beta wolf uninitiated</label>
+    <defName>BetaWolf_Psion_Uninitiated</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Initiate" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaBear</race>
+    <label>beta bear initiate</label>
+    <defName>BetaBear_Psion_Initiate</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Initiate" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaCamel</race>
+    <label>beta camel initiate</label>
+    <defName>BetaCamel_Psion_Initiate</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Initiate" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaCroc</race>
+    <label>beta crocodile initiate</label>
+    <defName>BetaCroc_Psion_Initiate</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Initiate" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaElephant</race>
+    <label>beta elephant initiate</label>
+    <defName>BetaElephant_Psion_Initiate</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Initiate" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaElk_Female</race>
+    <label>beta elk initiate</label>
+    <defName>BetaElk_Female_Psion_Initiate</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Initiate" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaElk_Male</race>
+    <label>beta elk initiate</label>
+    <defName>BetaElk_Male_Psion_Initiate</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Initiate" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaFox</race>
+    <label>beta fox initiate</label>
+    <defName>BetaFox_Psion_Initiate</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Initiate" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaGazelle</race>
+    <label>beta gazelle initiate</label>
+    <defName>BetaGazelle_Psion_Initiate</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Initiate" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaHog</race>
+    <label>beta hog initiate</label>
+    <defName>BetaHog_Psion_Initiate</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Initiate" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaLynx</race>
+    <label>beta lynx initiate</label>
+    <defName>BetaLynx_Psion_Initiate</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Initiate" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon initiate</label>
+    <defName>BetaRaccoon_Psion_Initiate</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Initiate" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaWolf</race>
+    <label>beta wolf initiate</label>
+    <defName>BetaWolf_Psion_Initiate</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Acolyte" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaBear</race>
+    <label>beta bear acolyte</label>
+    <defName>BetaBear_Psion_Acolyte</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Acolyte" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaCamel</race>
+    <label>beta camel acolyte</label>
+    <defName>BetaCamel_Psion_Acolyte</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Acolyte" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaCroc</race>
+    <label>beta crocodile acolyte</label>
+    <defName>BetaCroc_Psion_Acolyte</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Acolyte" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaElephant</race>
+    <label>beta elephant acolyte</label>
+    <defName>BetaElephant_Psion_Acolyte</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Acolyte" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaElk_Female</race>
+    <label>beta elk acolyte</label>
+    <defName>BetaElk_Female_Psion_Acolyte</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Acolyte" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaElk_Male</race>
+    <label>beta elk acolyte</label>
+    <defName>BetaElk_Male_Psion_Acolyte</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Acolyte" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaFox</race>
+    <label>beta fox acolyte</label>
+    <defName>BetaFox_Psion_Acolyte</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Acolyte" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaGazelle</race>
+    <label>beta gazelle acolyte</label>
+    <defName>BetaGazelle_Psion_Acolyte</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Acolyte" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaHog</race>
+    <label>beta hog acolyte</label>
+    <defName>BetaHog_Psion_Acolyte</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Acolyte" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaLynx</race>
+    <label>beta lynx acolyte</label>
+    <defName>BetaLynx_Psion_Acolyte</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Acolyte" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon acolyte</label>
+    <defName>BetaRaccoon_Psion_Acolyte</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Acolyte" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaWolf</race>
+    <label>beta wolf acolyte</label>
+    <defName>BetaWolf_Psion_Acolyte</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Ascendant" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaBear</race>
+    <label>beta bear ascendant</label>
+    <defName>BetaBear_Psion_Ascendant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Ascendant" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaCamel</race>
+    <label>beta camel ascendant</label>
+    <defName>BetaCamel_Psion_Ascendant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Ascendant" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaCroc</race>
+    <label>beta crocodile ascendant</label>
+    <defName>BetaCroc_Psion_Ascendant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Ascendant" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaElephant</race>
+    <label>beta elephant ascendant</label>
+    <defName>BetaElephant_Psion_Ascendant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Ascendant" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaElk_Female</race>
+    <label>beta elk ascendant</label>
+    <defName>BetaElk_Female_Psion_Ascendant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Ascendant" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaElk_Male</race>
+    <label>beta elk ascendant</label>
+    <defName>BetaElk_Male_Psion_Ascendant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Ascendant" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaFox</race>
+    <label>beta fox ascendant</label>
+    <defName>BetaFox_Psion_Ascendant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Ascendant" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaGazelle</race>
+    <label>beta gazelle ascendant</label>
+    <defName>BetaGazelle_Psion_Ascendant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Ascendant" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaHog</race>
+    <label>beta hog ascendant</label>
+    <defName>BetaHog_Psion_Ascendant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Ascendant" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaLynx</race>
+    <label>beta lynx ascendant</label>
+    <defName>BetaLynx_Psion_Ascendant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Ascendant" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon ascendant</label>
+    <defName>BetaRaccoon_Psion_Ascendant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Ascendant" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaWolf</race>
+    <label>beta wolf ascendant</label>
+    <defName>BetaWolf_Psion_Ascendant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PsionEliteTierBase" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaBear</race>
+    <label>beta bear drifter</label>
+    <defName>BetaBear_PsionEliteTierBase</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PsionEliteTierBase" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaCamel</race>
+    <label>beta camel drifter</label>
+    <defName>BetaCamel_PsionEliteTierBase</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PsionEliteTierBase" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaCroc</race>
+    <label>beta crocodile drifter</label>
+    <defName>BetaCroc_PsionEliteTierBase</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PsionEliteTierBase" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaElephant</race>
+    <label>beta elephant drifter</label>
+    <defName>BetaElephant_PsionEliteTierBase</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PsionEliteTierBase" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaElk_Female</race>
+    <label>beta elk drifter</label>
+    <defName>BetaElk_Female_PsionEliteTierBase</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PsionEliteTierBase" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaElk_Male</race>
+    <label>beta elk drifter</label>
+    <defName>BetaElk_Male_PsionEliteTierBase</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PsionEliteTierBase" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaFox</race>
+    <label>beta fox drifter</label>
+    <defName>BetaFox_PsionEliteTierBase</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PsionEliteTierBase" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaGazelle</race>
+    <label>beta gazelle drifter</label>
+    <defName>BetaGazelle_PsionEliteTierBase</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PsionEliteTierBase" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaHog</race>
+    <label>beta hog drifter</label>
+    <defName>BetaHog_PsionEliteTierBase</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PsionEliteTierBase" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaLynx</race>
+    <label>beta lynx drifter</label>
+    <defName>BetaLynx_PsionEliteTierBase</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PsionEliteTierBase" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon drifter</label>
+    <defName>BetaRaccoon_PsionEliteTierBase</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PsionEliteTierBase" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaWolf</race>
+    <label>beta wolf drifter</label>
+    <defName>BetaWolf_PsionEliteTierBase</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Commando" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaBear</race>
+    <label>beta bear commando</label>
+    <defName>BetaBear_Psion_Commando</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Commando" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaCamel</race>
+    <label>beta camel commando</label>
+    <defName>BetaCamel_Psion_Commando</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Commando" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaCroc</race>
+    <label>beta crocodile commando</label>
+    <defName>BetaCroc_Psion_Commando</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Commando" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaElephant</race>
+    <label>beta elephant commando</label>
+    <defName>BetaElephant_Psion_Commando</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Commando" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaElk_Female</race>
+    <label>beta elk commando</label>
+    <defName>BetaElk_Female_Psion_Commando</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Commando" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaElk_Male</race>
+    <label>beta elk commando</label>
+    <defName>BetaElk_Male_Psion_Commando</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Commando" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaFox</race>
+    <label>beta fox commando</label>
+    <defName>BetaFox_Psion_Commando</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Commando" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaGazelle</race>
+    <label>beta gazelle commando</label>
+    <defName>BetaGazelle_Psion_Commando</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Commando" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaHog</race>
+    <label>beta hog commando</label>
+    <defName>BetaHog_Psion_Commando</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Commando" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaLynx</race>
+    <label>beta lynx commando</label>
+    <defName>BetaLynx_Psion_Commando</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Commando" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon commando</label>
+    <defName>BetaRaccoon_Psion_Commando</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Commando" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaWolf</race>
+    <label>beta wolf commando</label>
+    <defName>BetaWolf_Psion_Commando</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Warrior" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaBear</race>
+    <label>beta bear warrior</label>
+    <defName>BetaBear_Psion_Warrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Warrior" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaCamel</race>
+    <label>beta camel warrior</label>
+    <defName>BetaCamel_Psion_Warrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Warrior" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaCroc</race>
+    <label>beta crocodile warrior</label>
+    <defName>BetaCroc_Psion_Warrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Warrior" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaElephant</race>
+    <label>beta elephant warrior</label>
+    <defName>BetaElephant_Psion_Warrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Warrior" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaElk_Female</race>
+    <label>beta elk warrior</label>
+    <defName>BetaElk_Female_Psion_Warrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Warrior" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaElk_Male</race>
+    <label>beta elk warrior</label>
+    <defName>BetaElk_Male_Psion_Warrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Warrior" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaFox</race>
+    <label>beta fox warrior</label>
+    <defName>BetaFox_Psion_Warrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Warrior" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaGazelle</race>
+    <label>beta gazelle warrior</label>
+    <defName>BetaGazelle_Psion_Warrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Warrior" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaHog</race>
+    <label>beta hog warrior</label>
+    <defName>BetaHog_Psion_Warrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Warrior" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaLynx</race>
+    <label>beta lynx warrior</label>
+    <defName>BetaLynx_Psion_Warrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Warrior" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon warrior</label>
+    <defName>BetaRaccoon_Psion_Warrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Warrior" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaWolf</race>
+    <label>beta wolf warrior</label>
+    <defName>BetaWolf_Psion_Warrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Conduit" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaBear</race>
+    <label>beta bear conduit</label>
+    <defName>BetaBear_Psion_Conduit</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Conduit" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaCamel</race>
+    <label>beta camel conduit</label>
+    <defName>BetaCamel_Psion_Conduit</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Conduit" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaCroc</race>
+    <label>beta crocodile conduit</label>
+    <defName>BetaCroc_Psion_Conduit</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Conduit" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaElephant</race>
+    <label>beta elephant conduit</label>
+    <defName>BetaElephant_Psion_Conduit</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Conduit" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaElk_Female</race>
+    <label>beta elk conduit</label>
+    <defName>BetaElk_Female_Psion_Conduit</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Conduit" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaElk_Male</race>
+    <label>beta elk conduit</label>
+    <defName>BetaElk_Male_Psion_Conduit</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Conduit" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaFox</race>
+    <label>beta fox conduit</label>
+    <defName>BetaFox_Psion_Conduit</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Conduit" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaGazelle</race>
+    <label>beta gazelle conduit</label>
+    <defName>BetaGazelle_Psion_Conduit</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Conduit" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaHog</race>
+    <label>beta hog conduit</label>
+    <defName>BetaHog_Psion_Conduit</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Conduit" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaLynx</race>
+    <label>beta lynx conduit</label>
+    <defName>BetaLynx_Psion_Conduit</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Conduit" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon conduit</label>
+    <defName>BetaRaccoon_Psion_Conduit</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Conduit" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaWolf</race>
+    <label>beta wolf conduit</label>
+    <defName>BetaWolf_Psion_Conduit</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Transcendent" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaBear</race>
+    <label>beta bear transcendent</label>
+    <defName>BetaBear_Psion_Transcendent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Transcendent" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaCamel</race>
+    <label>beta camel transcendent</label>
+    <defName>BetaCamel_Psion_Transcendent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Transcendent" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaCroc</race>
+    <label>beta crocodile transcendent</label>
+    <defName>BetaCroc_Psion_Transcendent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Transcendent" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaElephant</race>
+    <label>beta elephant transcendent</label>
+    <defName>BetaElephant_Psion_Transcendent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Transcendent" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaElk_Female</race>
+    <label>beta elk transcendent</label>
+    <defName>BetaElk_Female_Psion_Transcendent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Transcendent" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaElk_Male</race>
+    <label>beta elk transcendent</label>
+    <defName>BetaElk_Male_Psion_Transcendent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Transcendent" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaFox</race>
+    <label>beta fox transcendent</label>
+    <defName>BetaFox_Psion_Transcendent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Transcendent" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaGazelle</race>
+    <label>beta gazelle transcendent</label>
+    <defName>BetaGazelle_Psion_Transcendent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Transcendent" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaHog</race>
+    <label>beta hog transcendent</label>
+    <defName>BetaHog_Psion_Transcendent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Transcendent" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaLynx</race>
+    <label>beta lynx transcendent</label>
+    <defName>BetaLynx_Psion_Transcendent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Transcendent" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon transcendent</label>
+    <defName>BetaRaccoon_Psion_Transcendent</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Psion_Transcendent" Class="PsiTech.Misc.PsiTechPawnKindDef">
+    <race>BetaWolf</race>
+    <label>beta wolf transcendent</label>
+    <defName>BetaWolf_Psion_Transcendent</defName>
+  </PawnKindDef>
+</Defs>

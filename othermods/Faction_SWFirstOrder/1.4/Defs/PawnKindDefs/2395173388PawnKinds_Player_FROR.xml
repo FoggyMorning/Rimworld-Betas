@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_FROR_Stormtrooper">
+    <race>BetaBear</race>
+    <label>beta bear First Order Stormtrooper</label>
+    <defName>BetaBear_Colonist_FROR_Stormtrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_FROR_Stormtrooper">
+    <race>BetaCamel</race>
+    <label>beta camel First Order Stormtrooper</label>
+    <defName>BetaCamel_Colonist_FROR_Stormtrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_FROR_Stormtrooper">
+    <race>BetaCroc</race>
+    <label>beta crocodile First Order Stormtrooper</label>
+    <defName>BetaCroc_Colonist_FROR_Stormtrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_FROR_Stormtrooper">
+    <race>BetaElephant</race>
+    <label>beta elephant First Order Stormtrooper</label>
+    <defName>BetaElephant_Colonist_FROR_Stormtrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_FROR_Stormtrooper">
+    <race>BetaElk_Female</race>
+    <label>beta elk First Order Stormtrooper</label>
+    <defName>BetaElk_Female_Colonist_FROR_Stormtrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_FROR_Stormtrooper">
+    <race>BetaElk_Male</race>
+    <label>beta elk First Order Stormtrooper</label>
+    <defName>BetaElk_Male_Colonist_FROR_Stormtrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_FROR_Stormtrooper">
+    <race>BetaFox</race>
+    <label>beta fox First Order Stormtrooper</label>
+    <defName>BetaFox_Colonist_FROR_Stormtrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_FROR_Stormtrooper">
+    <race>BetaGazelle</race>
+    <label>beta gazelle First Order Stormtrooper</label>
+    <defName>BetaGazelle_Colonist_FROR_Stormtrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_FROR_Stormtrooper">
+    <race>BetaHog</race>
+    <label>beta hog First Order Stormtrooper</label>
+    <defName>BetaHog_Colonist_FROR_Stormtrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_FROR_Stormtrooper">
+    <race>BetaLynx</race>
+    <label>beta lynx First Order Stormtrooper</label>
+    <defName>BetaLynx_Colonist_FROR_Stormtrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_FROR_Stormtrooper">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon First Order Stormtrooper</label>
+    <defName>BetaRaccoon_Colonist_FROR_Stormtrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_FROR_Stormtrooper">
+    <race>BetaWolf</race>
+    <label>beta wolf First Order Stormtrooper</label>
+    <defName>BetaWolf_Colonist_FROR_Stormtrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_FROR_SithTrooper">
+    <race>BetaBear</race>
+    <label>beta bear Sith Trooper</label>
+    <defName>BetaBear_Colonist_FROR_SithTrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_FROR_SithTrooper">
+    <race>BetaCamel</race>
+    <label>beta camel Sith Trooper</label>
+    <defName>BetaCamel_Colonist_FROR_SithTrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_FROR_SithTrooper">
+    <race>BetaCroc</race>
+    <label>beta crocodile Sith Trooper</label>
+    <defName>BetaCroc_Colonist_FROR_SithTrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_FROR_SithTrooper">
+    <race>BetaElephant</race>
+    <label>beta elephant Sith Trooper</label>
+    <defName>BetaElephant_Colonist_FROR_SithTrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_FROR_SithTrooper">
+    <race>BetaElk_Female</race>
+    <label>beta elk Sith Trooper</label>
+    <defName>BetaElk_Female_Colonist_FROR_SithTrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_FROR_SithTrooper">
+    <race>BetaElk_Male</race>
+    <label>beta elk Sith Trooper</label>
+    <defName>BetaElk_Male_Colonist_FROR_SithTrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_FROR_SithTrooper">
+    <race>BetaFox</race>
+    <label>beta fox Sith Trooper</label>
+    <defName>BetaFox_Colonist_FROR_SithTrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_FROR_SithTrooper">
+    <race>BetaGazelle</race>
+    <label>beta gazelle Sith Trooper</label>
+    <defName>BetaGazelle_Colonist_FROR_SithTrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_FROR_SithTrooper">
+    <race>BetaHog</race>
+    <label>beta hog Sith Trooper</label>
+    <defName>BetaHog_Colonist_FROR_SithTrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_FROR_SithTrooper">
+    <race>BetaLynx</race>
+    <label>beta lynx Sith Trooper</label>
+    <defName>BetaLynx_Colonist_FROR_SithTrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_FROR_SithTrooper">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon Sith Trooper</label>
+    <defName>BetaRaccoon_Colonist_FROR_SithTrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_FROR_SithTrooper">
+    <race>BetaWolf</race>
+    <label>beta wolf Sith Trooper</label>
+    <defName>BetaWolf_Colonist_FROR_SithTrooper</defName>
+  </PawnKindDef>
+</Defs>

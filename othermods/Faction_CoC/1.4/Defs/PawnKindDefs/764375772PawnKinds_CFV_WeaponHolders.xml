@@ -1,0 +1,423 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkThug">
+    <race>BetaBear</race>
+    <label>beta bear thug</label>
+    <defName>BetaBear_ROM_TownsfolkThug</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkThug">
+    <race>BetaCamel</race>
+    <label>beta camel thug</label>
+    <defName>BetaCamel_ROM_TownsfolkThug</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkThug">
+    <race>BetaCroc</race>
+    <label>beta crocodile thug</label>
+    <defName>BetaCroc_ROM_TownsfolkThug</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkThug">
+    <race>BetaElephant</race>
+    <label>beta elephant thug</label>
+    <defName>BetaElephant_ROM_TownsfolkThug</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkThug">
+    <race>BetaElk_Female</race>
+    <label>beta elk thug</label>
+    <defName>BetaElk_Female_ROM_TownsfolkThug</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkThug">
+    <race>BetaElk_Male</race>
+    <label>beta elk thug</label>
+    <defName>BetaElk_Male_ROM_TownsfolkThug</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkThug">
+    <race>BetaFox</race>
+    <label>beta fox thug</label>
+    <defName>BetaFox_ROM_TownsfolkThug</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkThug">
+    <race>BetaGazelle</race>
+    <label>beta gazelle thug</label>
+    <defName>BetaGazelle_ROM_TownsfolkThug</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkThug">
+    <race>BetaHog</race>
+    <label>beta hog thug</label>
+    <defName>BetaHog_ROM_TownsfolkThug</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkThug">
+    <race>BetaLynx</race>
+    <label>beta lynx thug</label>
+    <defName>BetaLynx_ROM_TownsfolkThug</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkThug">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon thug</label>
+    <defName>BetaRaccoon_ROM_TownsfolkThug</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkThug">
+    <race>BetaWolf</race>
+    <label>beta wolf thug</label>
+    <defName>BetaWolf_ROM_TownsfolkThug</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkFarmer">
+    <race>BetaBear</race>
+    <label>beta bear farmer</label>
+    <defName>BetaBear_ROM_TownsfolkFarmer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkFarmer">
+    <race>BetaCamel</race>
+    <label>beta camel farmer</label>
+    <defName>BetaCamel_ROM_TownsfolkFarmer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkFarmer">
+    <race>BetaCroc</race>
+    <label>beta crocodile farmer</label>
+    <defName>BetaCroc_ROM_TownsfolkFarmer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkFarmer">
+    <race>BetaElephant</race>
+    <label>beta elephant farmer</label>
+    <defName>BetaElephant_ROM_TownsfolkFarmer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkFarmer">
+    <race>BetaElk_Female</race>
+    <label>beta elk farmer</label>
+    <defName>BetaElk_Female_ROM_TownsfolkFarmer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkFarmer">
+    <race>BetaElk_Male</race>
+    <label>beta elk farmer</label>
+    <defName>BetaElk_Male_ROM_TownsfolkFarmer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkFarmer">
+    <race>BetaFox</race>
+    <label>beta fox farmer</label>
+    <defName>BetaFox_ROM_TownsfolkFarmer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkFarmer">
+    <race>BetaGazelle</race>
+    <label>beta gazelle farmer</label>
+    <defName>BetaGazelle_ROM_TownsfolkFarmer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkFarmer">
+    <race>BetaHog</race>
+    <label>beta hog farmer</label>
+    <defName>BetaHog_ROM_TownsfolkFarmer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkFarmer">
+    <race>BetaLynx</race>
+    <label>beta lynx farmer</label>
+    <defName>BetaLynx_ROM_TownsfolkFarmer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkFarmer">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon farmer</label>
+    <defName>BetaRaccoon_ROM_TownsfolkFarmer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkFarmer">
+    <race>BetaWolf</race>
+    <label>beta wolf farmer</label>
+    <defName>BetaWolf_ROM_TownsfolkFarmer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkRancher">
+    <race>BetaBear</race>
+    <label>beta bear rancher</label>
+    <defName>BetaBear_ROM_TownsfolkRancher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkRancher">
+    <race>BetaCamel</race>
+    <label>beta camel rancher</label>
+    <defName>BetaCamel_ROM_TownsfolkRancher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkRancher">
+    <race>BetaCroc</race>
+    <label>beta crocodile rancher</label>
+    <defName>BetaCroc_ROM_TownsfolkRancher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkRancher">
+    <race>BetaElephant</race>
+    <label>beta elephant rancher</label>
+    <defName>BetaElephant_ROM_TownsfolkRancher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkRancher">
+    <race>BetaElk_Female</race>
+    <label>beta elk rancher</label>
+    <defName>BetaElk_Female_ROM_TownsfolkRancher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkRancher">
+    <race>BetaElk_Male</race>
+    <label>beta elk rancher</label>
+    <defName>BetaElk_Male_ROM_TownsfolkRancher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkRancher">
+    <race>BetaFox</race>
+    <label>beta fox rancher</label>
+    <defName>BetaFox_ROM_TownsfolkRancher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkRancher">
+    <race>BetaGazelle</race>
+    <label>beta gazelle rancher</label>
+    <defName>BetaGazelle_ROM_TownsfolkRancher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkRancher">
+    <race>BetaHog</race>
+    <label>beta hog rancher</label>
+    <defName>BetaHog_ROM_TownsfolkRancher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkRancher">
+    <race>BetaLynx</race>
+    <label>beta lynx rancher</label>
+    <defName>BetaLynx_ROM_TownsfolkRancher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkRancher">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon rancher</label>
+    <defName>BetaRaccoon_ROM_TownsfolkRancher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkRancher">
+    <race>BetaWolf</race>
+    <label>beta wolf rancher</label>
+    <defName>BetaWolf_ROM_TownsfolkRancher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkLumberjack">
+    <race>BetaBear</race>
+    <label>beta bear lumberjack</label>
+    <defName>BetaBear_ROM_TownsfolkLumberjack</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkLumberjack">
+    <race>BetaCamel</race>
+    <label>beta camel lumberjack</label>
+    <defName>BetaCamel_ROM_TownsfolkLumberjack</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkLumberjack">
+    <race>BetaCroc</race>
+    <label>beta crocodile lumberjack</label>
+    <defName>BetaCroc_ROM_TownsfolkLumberjack</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkLumberjack">
+    <race>BetaElephant</race>
+    <label>beta elephant lumberjack</label>
+    <defName>BetaElephant_ROM_TownsfolkLumberjack</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkLumberjack">
+    <race>BetaElk_Female</race>
+    <label>beta elk lumberjack</label>
+    <defName>BetaElk_Female_ROM_TownsfolkLumberjack</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkLumberjack">
+    <race>BetaElk_Male</race>
+    <label>beta elk lumberjack</label>
+    <defName>BetaElk_Male_ROM_TownsfolkLumberjack</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkLumberjack">
+    <race>BetaFox</race>
+    <label>beta fox lumberjack</label>
+    <defName>BetaFox_ROM_TownsfolkLumberjack</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkLumberjack">
+    <race>BetaGazelle</race>
+    <label>beta gazelle lumberjack</label>
+    <defName>BetaGazelle_ROM_TownsfolkLumberjack</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkLumberjack">
+    <race>BetaHog</race>
+    <label>beta hog lumberjack</label>
+    <defName>BetaHog_ROM_TownsfolkLumberjack</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkLumberjack">
+    <race>BetaLynx</race>
+    <label>beta lynx lumberjack</label>
+    <defName>BetaLynx_ROM_TownsfolkLumberjack</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkLumberjack">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon lumberjack</label>
+    <defName>BetaRaccoon_ROM_TownsfolkLumberjack</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkLumberjack">
+    <race>BetaWolf</race>
+    <label>beta wolf lumberjack</label>
+    <defName>BetaWolf_ROM_TownsfolkLumberjack</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkButcher">
+    <race>BetaBear</race>
+    <label>beta bear butcher</label>
+    <defName>BetaBear_ROM_TownsfolkButcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkButcher">
+    <race>BetaCamel</race>
+    <label>beta camel butcher</label>
+    <defName>BetaCamel_ROM_TownsfolkButcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkButcher">
+    <race>BetaCroc</race>
+    <label>beta crocodile butcher</label>
+    <defName>BetaCroc_ROM_TownsfolkButcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkButcher">
+    <race>BetaElephant</race>
+    <label>beta elephant butcher</label>
+    <defName>BetaElephant_ROM_TownsfolkButcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkButcher">
+    <race>BetaElk_Female</race>
+    <label>beta elk butcher</label>
+    <defName>BetaElk_Female_ROM_TownsfolkButcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkButcher">
+    <race>BetaElk_Male</race>
+    <label>beta elk butcher</label>
+    <defName>BetaElk_Male_ROM_TownsfolkButcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkButcher">
+    <race>BetaFox</race>
+    <label>beta fox butcher</label>
+    <defName>BetaFox_ROM_TownsfolkButcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkButcher">
+    <race>BetaGazelle</race>
+    <label>beta gazelle butcher</label>
+    <defName>BetaGazelle_ROM_TownsfolkButcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkButcher">
+    <race>BetaHog</race>
+    <label>beta hog butcher</label>
+    <defName>BetaHog_ROM_TownsfolkButcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkButcher">
+    <race>BetaLynx</race>
+    <label>beta lynx butcher</label>
+    <defName>BetaLynx_ROM_TownsfolkButcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkButcher">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon butcher</label>
+    <defName>BetaRaccoon_ROM_TownsfolkButcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkButcher">
+    <race>BetaWolf</race>
+    <label>beta wolf butcher</label>
+    <defName>BetaWolf_ROM_TownsfolkButcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkPolice">
+    <race>BetaBear</race>
+    <label>beta bear patrol officer</label>
+    <defName>BetaBear_ROM_TownsfolkPolice</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkPolice">
+    <race>BetaCamel</race>
+    <label>beta camel patrol officer</label>
+    <defName>BetaCamel_ROM_TownsfolkPolice</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkPolice">
+    <race>BetaCroc</race>
+    <label>beta crocodile patrol officer</label>
+    <defName>BetaCroc_ROM_TownsfolkPolice</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkPolice">
+    <race>BetaElephant</race>
+    <label>beta elephant patrol officer</label>
+    <defName>BetaElephant_ROM_TownsfolkPolice</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkPolice">
+    <race>BetaElk_Female</race>
+    <label>beta elk patrol officer</label>
+    <defName>BetaElk_Female_ROM_TownsfolkPolice</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkPolice">
+    <race>BetaElk_Male</race>
+    <label>beta elk patrol officer</label>
+    <defName>BetaElk_Male_ROM_TownsfolkPolice</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkPolice">
+    <race>BetaFox</race>
+    <label>beta fox patrol officer</label>
+    <defName>BetaFox_ROM_TownsfolkPolice</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkPolice">
+    <race>BetaGazelle</race>
+    <label>beta gazelle patrol officer</label>
+    <defName>BetaGazelle_ROM_TownsfolkPolice</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkPolice">
+    <race>BetaHog</race>
+    <label>beta hog patrol officer</label>
+    <defName>BetaHog_ROM_TownsfolkPolice</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkPolice">
+    <race>BetaLynx</race>
+    <label>beta lynx patrol officer</label>
+    <defName>BetaLynx_ROM_TownsfolkPolice</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkPolice">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon patrol officer</label>
+    <defName>BetaRaccoon_ROM_TownsfolkPolice</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkPolice">
+    <race>BetaWolf</race>
+    <label>beta wolf patrol officer</label>
+    <defName>BetaWolf_ROM_TownsfolkPolice</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkAngler">
+    <race>BetaBear</race>
+    <label>beta bear angler</label>
+    <defName>BetaBear_ROM_TownsfolkAngler</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkAngler">
+    <race>BetaCamel</race>
+    <label>beta camel angler</label>
+    <defName>BetaCamel_ROM_TownsfolkAngler</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkAngler">
+    <race>BetaCroc</race>
+    <label>beta crocodile angler</label>
+    <defName>BetaCroc_ROM_TownsfolkAngler</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkAngler">
+    <race>BetaElephant</race>
+    <label>beta elephant angler</label>
+    <defName>BetaElephant_ROM_TownsfolkAngler</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkAngler">
+    <race>BetaElk_Female</race>
+    <label>beta elk angler</label>
+    <defName>BetaElk_Female_ROM_TownsfolkAngler</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkAngler">
+    <race>BetaElk_Male</race>
+    <label>beta elk angler</label>
+    <defName>BetaElk_Male_ROM_TownsfolkAngler</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkAngler">
+    <race>BetaFox</race>
+    <label>beta fox angler</label>
+    <defName>BetaFox_ROM_TownsfolkAngler</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkAngler">
+    <race>BetaGazelle</race>
+    <label>beta gazelle angler</label>
+    <defName>BetaGazelle_ROM_TownsfolkAngler</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkAngler">
+    <race>BetaHog</race>
+    <label>beta hog angler</label>
+    <defName>BetaHog_ROM_TownsfolkAngler</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkAngler">
+    <race>BetaLynx</race>
+    <label>beta lynx angler</label>
+    <defName>BetaLynx_ROM_TownsfolkAngler</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkAngler">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon angler</label>
+    <defName>BetaRaccoon_ROM_TownsfolkAngler</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ROM_TownsfolkAngler">
+    <race>BetaWolf</race>
+    <label>beta wolf angler</label>
+    <defName>BetaWolf_ROM_TownsfolkAngler</defName>
+  </PawnKindDef>
+</Defs>

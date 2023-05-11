@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="BetaHumanoids_FPCAuxiliary">
+    <race>BetaBear</race>
+    <label>beta bear auxiliary</label>
+    <defName>BetaBear_FPCAuxiliary</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCAuxiliary">
+    <race>BetaCamel</race>
+    <label>beta camel auxiliary</label>
+    <defName>BetaCamel_FPCAuxiliary</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCAuxiliary">
+    <race>BetaCroc</race>
+    <label>beta crocodile auxiliary</label>
+    <defName>BetaCroc_FPCAuxiliary</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCAuxiliary">
+    <race>BetaElephant</race>
+    <label>beta elephant auxiliary</label>
+    <defName>BetaElephant_FPCAuxiliary</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCAuxiliary">
+    <race>BetaElk_Female</race>
+    <label>beta elk auxiliary</label>
+    <defName>BetaElk_Female_FPCAuxiliary</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCAuxiliary">
+    <race>BetaElk_Male</race>
+    <label>beta elk auxiliary</label>
+    <defName>BetaElk_Male_FPCAuxiliary</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCAuxiliary">
+    <race>BetaFox</race>
+    <label>beta fox auxiliary</label>
+    <defName>BetaFox_FPCAuxiliary</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCAuxiliary">
+    <race>BetaGazelle</race>
+    <label>beta gazelle auxiliary</label>
+    <defName>BetaGazelle_FPCAuxiliary</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCAuxiliary">
+    <race>BetaHog</race>
+    <label>beta hog auxiliary</label>
+    <defName>BetaHog_FPCAuxiliary</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCAuxiliary">
+    <race>BetaLynx</race>
+    <label>beta lynx auxiliary</label>
+    <defName>BetaLynx_FPCAuxiliary</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCAuxiliary">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon auxiliary</label>
+    <defName>BetaRaccoon_FPCAuxiliary</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCAuxiliary">
+    <race>BetaWolf</race>
+    <label>beta wolf auxiliary</label>
+    <defName>BetaWolf_FPCAuxiliary</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCBomber">
+    <race>BetaBear</race>
+    <label>beta bear suicide bomber</label>
+    <defName>BetaBear_FPCBomber</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCBomber">
+    <race>BetaCamel</race>
+    <label>beta camel suicide bomber</label>
+    <defName>BetaCamel_FPCBomber</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCBomber">
+    <race>BetaCroc</race>
+    <label>beta crocodile suicide bomber</label>
+    <defName>BetaCroc_FPCBomber</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCBomber">
+    <race>BetaElephant</race>
+    <label>beta elephant suicide bomber</label>
+    <defName>BetaElephant_FPCBomber</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCBomber">
+    <race>BetaElk_Female</race>
+    <label>beta elk suicide bomber</label>
+    <defName>BetaElk_Female_FPCBomber</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCBomber">
+    <race>BetaElk_Male</race>
+    <label>beta elk suicide bomber</label>
+    <defName>BetaElk_Male_FPCBomber</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCBomber">
+    <race>BetaFox</race>
+    <label>beta fox suicide bomber</label>
+    <defName>BetaFox_FPCBomber</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCBomber">
+    <race>BetaGazelle</race>
+    <label>beta gazelle suicide bomber</label>
+    <defName>BetaGazelle_FPCBomber</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCBomber">
+    <race>BetaHog</race>
+    <label>beta hog suicide bomber</label>
+    <defName>BetaHog_FPCBomber</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCBomber">
+    <race>BetaLynx</race>
+    <label>beta lynx suicide bomber</label>
+    <defName>BetaLynx_FPCBomber</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCBomber">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon suicide bomber</label>
+    <defName>BetaRaccoon_FPCBomber</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCBomber">
+    <race>BetaWolf</race>
+    <label>beta wolf suicide bomber</label>
+    <defName>BetaWolf_FPCBomber</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCCommander">
+    <race>BetaBear</race>
+    <label>beta bear commander</label>
+    <defName>BetaBear_FPCCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCCommander">
+    <race>BetaCamel</race>
+    <label>beta camel commander</label>
+    <defName>BetaCamel_FPCCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCCommander">
+    <race>BetaCroc</race>
+    <label>beta crocodile commander</label>
+    <defName>BetaCroc_FPCCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCCommander">
+    <race>BetaElephant</race>
+    <label>beta elephant commander</label>
+    <defName>BetaElephant_FPCCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCCommander">
+    <race>BetaElk_Female</race>
+    <label>beta elk commander</label>
+    <defName>BetaElk_Female_FPCCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCCommander">
+    <race>BetaElk_Male</race>
+    <label>beta elk commander</label>
+    <defName>BetaElk_Male_FPCCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCCommander">
+    <race>BetaFox</race>
+    <label>beta fox commander</label>
+    <defName>BetaFox_FPCCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCCommander">
+    <race>BetaGazelle</race>
+    <label>beta gazelle commander</label>
+    <defName>BetaGazelle_FPCCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCCommander">
+    <race>BetaHog</race>
+    <label>beta hog commander</label>
+    <defName>BetaHog_FPCCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCCommander">
+    <race>BetaLynx</race>
+    <label>beta lynx commander</label>
+    <defName>BetaLynx_FPCCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCCommander">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon commander</label>
+    <defName>BetaRaccoon_FPCCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCCommander">
+    <race>BetaWolf</race>
+    <label>beta wolf commander</label>
+    <defName>BetaWolf_FPCCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCAssassin">
+    <race>BetaBear</race>
+    <label>beta bear assassin</label>
+    <defName>BetaBear_FPCAssassin</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCAssassin">
+    <race>BetaCamel</race>
+    <label>beta camel assassin</label>
+    <defName>BetaCamel_FPCAssassin</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCAssassin">
+    <race>BetaCroc</race>
+    <label>beta crocodile assassin</label>
+    <defName>BetaCroc_FPCAssassin</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCAssassin">
+    <race>BetaElephant</race>
+    <label>beta elephant assassin</label>
+    <defName>BetaElephant_FPCAssassin</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCAssassin">
+    <race>BetaElk_Female</race>
+    <label>beta elk assassin</label>
+    <defName>BetaElk_Female_FPCAssassin</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCAssassin">
+    <race>BetaElk_Male</race>
+    <label>beta elk assassin</label>
+    <defName>BetaElk_Male_FPCAssassin</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCAssassin">
+    <race>BetaFox</race>
+    <label>beta fox assassin</label>
+    <defName>BetaFox_FPCAssassin</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCAssassin">
+    <race>BetaGazelle</race>
+    <label>beta gazelle assassin</label>
+    <defName>BetaGazelle_FPCAssassin</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCAssassin">
+    <race>BetaHog</race>
+    <label>beta hog assassin</label>
+    <defName>BetaHog_FPCAssassin</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCAssassin">
+    <race>BetaLynx</race>
+    <label>beta lynx assassin</label>
+    <defName>BetaLynx_FPCAssassin</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCAssassin">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon assassin</label>
+    <defName>BetaRaccoon_FPCAssassin</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCAssassin">
+    <race>BetaWolf</race>
+    <label>beta wolf assassin</label>
+    <defName>BetaWolf_FPCAssassin</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCUnityGuard">
+    <race>BetaBear</race>
+    <label>beta bear unity guard</label>
+    <defName>BetaBear_FPCUnityGuard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCUnityGuard">
+    <race>BetaCamel</race>
+    <label>beta camel unity guard</label>
+    <defName>BetaCamel_FPCUnityGuard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCUnityGuard">
+    <race>BetaCroc</race>
+    <label>beta crocodile unity guard</label>
+    <defName>BetaCroc_FPCUnityGuard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCUnityGuard">
+    <race>BetaElephant</race>
+    <label>beta elephant unity guard</label>
+    <defName>BetaElephant_FPCUnityGuard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCUnityGuard">
+    <race>BetaElk_Female</race>
+    <label>beta elk unity guard</label>
+    <defName>BetaElk_Female_FPCUnityGuard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCUnityGuard">
+    <race>BetaElk_Male</race>
+    <label>beta elk unity guard</label>
+    <defName>BetaElk_Male_FPCUnityGuard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCUnityGuard">
+    <race>BetaFox</race>
+    <label>beta fox unity guard</label>
+    <defName>BetaFox_FPCUnityGuard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCUnityGuard">
+    <race>BetaGazelle</race>
+    <label>beta gazelle unity guard</label>
+    <defName>BetaGazelle_FPCUnityGuard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCUnityGuard">
+    <race>BetaHog</race>
+    <label>beta hog unity guard</label>
+    <defName>BetaHog_FPCUnityGuard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCUnityGuard">
+    <race>BetaLynx</race>
+    <label>beta lynx unity guard</label>
+    <defName>BetaLynx_FPCUnityGuard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCUnityGuard">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon unity guard</label>
+    <defName>BetaRaccoon_FPCUnityGuard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_FPCUnityGuard">
+    <race>BetaWolf</race>
+    <label>beta wolf unity guard</label>
+    <defName>BetaWolf_FPCUnityGuard</defName>
+  </PawnKindDef>
+</Defs>

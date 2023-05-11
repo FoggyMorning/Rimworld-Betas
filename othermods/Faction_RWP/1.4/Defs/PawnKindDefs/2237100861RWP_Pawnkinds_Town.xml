@@ -1,0 +1,483 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Townsperson">
+    <race>BetaBear</race>
+    <label>beta bear townsperson</label>
+    <defName>BetaBear_RWP_Town_Townsperson</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Townsperson">
+    <race>BetaCamel</race>
+    <label>beta camel townsperson</label>
+    <defName>BetaCamel_RWP_Town_Townsperson</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Townsperson">
+    <race>BetaCroc</race>
+    <label>beta crocodile townsperson</label>
+    <defName>BetaCroc_RWP_Town_Townsperson</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Townsperson">
+    <race>BetaElephant</race>
+    <label>beta elephant townsperson</label>
+    <defName>BetaElephant_RWP_Town_Townsperson</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Townsperson">
+    <race>BetaElk_Female</race>
+    <label>beta elk townsperson</label>
+    <defName>BetaElk_Female_RWP_Town_Townsperson</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Townsperson">
+    <race>BetaElk_Male</race>
+    <label>beta elk townsperson</label>
+    <defName>BetaElk_Male_RWP_Town_Townsperson</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Townsperson">
+    <race>BetaFox</race>
+    <label>beta fox townsperson</label>
+    <defName>BetaFox_RWP_Town_Townsperson</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Townsperson">
+    <race>BetaGazelle</race>
+    <label>beta gazelle townsperson</label>
+    <defName>BetaGazelle_RWP_Town_Townsperson</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Townsperson">
+    <race>BetaHog</race>
+    <label>beta hog townsperson</label>
+    <defName>BetaHog_RWP_Town_Townsperson</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Townsperson">
+    <race>BetaLynx</race>
+    <label>beta lynx townsperson</label>
+    <defName>BetaLynx_RWP_Town_Townsperson</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Townsperson">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon townsperson</label>
+    <defName>BetaRaccoon_RWP_Town_Townsperson</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Townsperson">
+    <race>BetaWolf</race>
+    <label>beta wolf townsperson</label>
+    <defName>BetaWolf_RWP_Town_Townsperson</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Socialite">
+    <race>BetaBear</race>
+    <label>beta bear socialite</label>
+    <defName>BetaBear_RWP_Town_Socialite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Socialite">
+    <race>BetaCamel</race>
+    <label>beta camel socialite</label>
+    <defName>BetaCamel_RWP_Town_Socialite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Socialite">
+    <race>BetaCroc</race>
+    <label>beta crocodile socialite</label>
+    <defName>BetaCroc_RWP_Town_Socialite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Socialite">
+    <race>BetaElephant</race>
+    <label>beta elephant socialite</label>
+    <defName>BetaElephant_RWP_Town_Socialite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Socialite">
+    <race>BetaElk_Female</race>
+    <label>beta elk socialite</label>
+    <defName>BetaElk_Female_RWP_Town_Socialite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Socialite">
+    <race>BetaElk_Male</race>
+    <label>beta elk socialite</label>
+    <defName>BetaElk_Male_RWP_Town_Socialite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Socialite">
+    <race>BetaFox</race>
+    <label>beta fox socialite</label>
+    <defName>BetaFox_RWP_Town_Socialite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Socialite">
+    <race>BetaGazelle</race>
+    <label>beta gazelle socialite</label>
+    <defName>BetaGazelle_RWP_Town_Socialite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Socialite">
+    <race>BetaHog</race>
+    <label>beta hog socialite</label>
+    <defName>BetaHog_RWP_Town_Socialite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Socialite">
+    <race>BetaLynx</race>
+    <label>beta lynx socialite</label>
+    <defName>BetaLynx_RWP_Town_Socialite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Socialite">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon socialite</label>
+    <defName>BetaRaccoon_RWP_Town_Socialite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Socialite">
+    <race>BetaWolf</race>
+    <label>beta wolf socialite</label>
+    <defName>BetaWolf_RWP_Town_Socialite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Trader">
+    <race>BetaBear</race>
+    <label>beta bear caravan merchant</label>
+    <defName>BetaBear_RWP_Town_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Trader">
+    <race>BetaCamel</race>
+    <label>beta camel caravan merchant</label>
+    <defName>BetaCamel_RWP_Town_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Trader">
+    <race>BetaCroc</race>
+    <label>beta crocodile caravan merchant</label>
+    <defName>BetaCroc_RWP_Town_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Trader">
+    <race>BetaElephant</race>
+    <label>beta elephant caravan merchant</label>
+    <defName>BetaElephant_RWP_Town_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Trader">
+    <race>BetaElk_Female</race>
+    <label>beta elk caravan merchant</label>
+    <defName>BetaElk_Female_RWP_Town_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Trader">
+    <race>BetaElk_Male</race>
+    <label>beta elk caravan merchant</label>
+    <defName>BetaElk_Male_RWP_Town_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Trader">
+    <race>BetaFox</race>
+    <label>beta fox caravan merchant</label>
+    <defName>BetaFox_RWP_Town_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Trader">
+    <race>BetaGazelle</race>
+    <label>beta gazelle caravan merchant</label>
+    <defName>BetaGazelle_RWP_Town_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Trader">
+    <race>BetaHog</race>
+    <label>beta hog caravan merchant</label>
+    <defName>BetaHog_RWP_Town_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Trader">
+    <race>BetaLynx</race>
+    <label>beta lynx caravan merchant</label>
+    <defName>BetaLynx_RWP_Town_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Trader">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon caravan merchant</label>
+    <defName>BetaRaccoon_RWP_Town_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Trader">
+    <race>BetaWolf</race>
+    <label>beta wolf caravan merchant</label>
+    <defName>BetaWolf_RWP_Town_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Guard">
+    <race>BetaBear</race>
+    <label>beta bear caravan guard</label>
+    <defName>BetaBear_RWP_Town_Guard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Guard">
+    <race>BetaCamel</race>
+    <label>beta camel caravan guard</label>
+    <defName>BetaCamel_RWP_Town_Guard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Guard">
+    <race>BetaCroc</race>
+    <label>beta crocodile caravan guard</label>
+    <defName>BetaCroc_RWP_Town_Guard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Guard">
+    <race>BetaElephant</race>
+    <label>beta elephant caravan guard</label>
+    <defName>BetaElephant_RWP_Town_Guard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Guard">
+    <race>BetaElk_Female</race>
+    <label>beta elk caravan guard</label>
+    <defName>BetaElk_Female_RWP_Town_Guard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Guard">
+    <race>BetaElk_Male</race>
+    <label>beta elk caravan guard</label>
+    <defName>BetaElk_Male_RWP_Town_Guard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Guard">
+    <race>BetaFox</race>
+    <label>beta fox caravan guard</label>
+    <defName>BetaFox_RWP_Town_Guard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Guard">
+    <race>BetaGazelle</race>
+    <label>beta gazelle caravan guard</label>
+    <defName>BetaGazelle_RWP_Town_Guard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Guard">
+    <race>BetaHog</race>
+    <label>beta hog caravan guard</label>
+    <defName>BetaHog_RWP_Town_Guard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Guard">
+    <race>BetaLynx</race>
+    <label>beta lynx caravan guard</label>
+    <defName>BetaLynx_RWP_Town_Guard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Guard">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon caravan guard</label>
+    <defName>BetaRaccoon_RWP_Town_Guard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Guard">
+    <race>BetaWolf</race>
+    <label>beta wolf caravan guard</label>
+    <defName>BetaWolf_RWP_Town_Guard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Gunslinger">
+    <race>BetaBear</race>
+    <label>beta bear deputy sheriff</label>
+    <defName>BetaBear_RWP_Town_Gunslinger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Gunslinger">
+    <race>BetaCamel</race>
+    <label>beta camel deputy sheriff</label>
+    <defName>BetaCamel_RWP_Town_Gunslinger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Gunslinger">
+    <race>BetaCroc</race>
+    <label>beta crocodile deputy sheriff</label>
+    <defName>BetaCroc_RWP_Town_Gunslinger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Gunslinger">
+    <race>BetaElephant</race>
+    <label>beta elephant deputy sheriff</label>
+    <defName>BetaElephant_RWP_Town_Gunslinger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Gunslinger">
+    <race>BetaElk_Female</race>
+    <label>beta elk deputy sheriff</label>
+    <defName>BetaElk_Female_RWP_Town_Gunslinger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Gunslinger">
+    <race>BetaElk_Male</race>
+    <label>beta elk deputy sheriff</label>
+    <defName>BetaElk_Male_RWP_Town_Gunslinger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Gunslinger">
+    <race>BetaFox</race>
+    <label>beta fox deputy sheriff</label>
+    <defName>BetaFox_RWP_Town_Gunslinger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Gunslinger">
+    <race>BetaGazelle</race>
+    <label>beta gazelle deputy sheriff</label>
+    <defName>BetaGazelle_RWP_Town_Gunslinger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Gunslinger">
+    <race>BetaHog</race>
+    <label>beta hog deputy sheriff</label>
+    <defName>BetaHog_RWP_Town_Gunslinger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Gunslinger">
+    <race>BetaLynx</race>
+    <label>beta lynx deputy sheriff</label>
+    <defName>BetaLynx_RWP_Town_Gunslinger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Gunslinger">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon deputy sheriff</label>
+    <defName>BetaRaccoon_RWP_Town_Gunslinger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Gunslinger">
+    <race>BetaWolf</race>
+    <label>beta wolf deputy sheriff</label>
+    <defName>BetaWolf_RWP_Town_Gunslinger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Rifleman">
+    <race>BetaBear</race>
+    <label>beta bear deputy sheriff</label>
+    <defName>BetaBear_RWP_Town_Rifleman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Rifleman">
+    <race>BetaCamel</race>
+    <label>beta camel deputy sheriff</label>
+    <defName>BetaCamel_RWP_Town_Rifleman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Rifleman">
+    <race>BetaCroc</race>
+    <label>beta crocodile deputy sheriff</label>
+    <defName>BetaCroc_RWP_Town_Rifleman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Rifleman">
+    <race>BetaElephant</race>
+    <label>beta elephant deputy sheriff</label>
+    <defName>BetaElephant_RWP_Town_Rifleman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Rifleman">
+    <race>BetaElk_Female</race>
+    <label>beta elk deputy sheriff</label>
+    <defName>BetaElk_Female_RWP_Town_Rifleman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Rifleman">
+    <race>BetaElk_Male</race>
+    <label>beta elk deputy sheriff</label>
+    <defName>BetaElk_Male_RWP_Town_Rifleman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Rifleman">
+    <race>BetaFox</race>
+    <label>beta fox deputy sheriff</label>
+    <defName>BetaFox_RWP_Town_Rifleman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Rifleman">
+    <race>BetaGazelle</race>
+    <label>beta gazelle deputy sheriff</label>
+    <defName>BetaGazelle_RWP_Town_Rifleman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Rifleman">
+    <race>BetaHog</race>
+    <label>beta hog deputy sheriff</label>
+    <defName>BetaHog_RWP_Town_Rifleman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Rifleman">
+    <race>BetaLynx</race>
+    <label>beta lynx deputy sheriff</label>
+    <defName>BetaLynx_RWP_Town_Rifleman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Rifleman">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon deputy sheriff</label>
+    <defName>BetaRaccoon_RWP_Town_Rifleman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Rifleman">
+    <race>BetaWolf</race>
+    <label>beta wolf deputy sheriff</label>
+    <defName>BetaWolf_RWP_Town_Rifleman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Sniper">
+    <race>BetaBear</race>
+    <label>beta bear deputy sheriff</label>
+    <defName>BetaBear_RWP_Town_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Sniper">
+    <race>BetaCamel</race>
+    <label>beta camel deputy sheriff</label>
+    <defName>BetaCamel_RWP_Town_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Sniper">
+    <race>BetaCroc</race>
+    <label>beta crocodile deputy sheriff</label>
+    <defName>BetaCroc_RWP_Town_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Sniper">
+    <race>BetaElephant</race>
+    <label>beta elephant deputy sheriff</label>
+    <defName>BetaElephant_RWP_Town_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Sniper">
+    <race>BetaElk_Female</race>
+    <label>beta elk deputy sheriff</label>
+    <defName>BetaElk_Female_RWP_Town_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Sniper">
+    <race>BetaElk_Male</race>
+    <label>beta elk deputy sheriff</label>
+    <defName>BetaElk_Male_RWP_Town_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Sniper">
+    <race>BetaFox</race>
+    <label>beta fox deputy sheriff</label>
+    <defName>BetaFox_RWP_Town_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Sniper">
+    <race>BetaGazelle</race>
+    <label>beta gazelle deputy sheriff</label>
+    <defName>BetaGazelle_RWP_Town_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Sniper">
+    <race>BetaHog</race>
+    <label>beta hog deputy sheriff</label>
+    <defName>BetaHog_RWP_Town_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Sniper">
+    <race>BetaLynx</race>
+    <label>beta lynx deputy sheriff</label>
+    <defName>BetaLynx_RWP_Town_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Sniper">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon deputy sheriff</label>
+    <defName>BetaRaccoon_RWP_Town_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Sniper">
+    <race>BetaWolf</race>
+    <label>beta wolf deputy sheriff</label>
+    <defName>BetaWolf_RWP_Town_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Boss">
+    <race>BetaBear</race>
+    <label>beta bear Town Sheriff</label>
+    <defName>BetaBear_RWP_Town_Boss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Boss">
+    <race>BetaCamel</race>
+    <label>beta camel Town Sheriff</label>
+    <defName>BetaCamel_RWP_Town_Boss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Boss">
+    <race>BetaCroc</race>
+    <label>beta crocodile Town Sheriff</label>
+    <defName>BetaCroc_RWP_Town_Boss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Boss">
+    <race>BetaElephant</race>
+    <label>beta elephant Town Sheriff</label>
+    <defName>BetaElephant_RWP_Town_Boss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Boss">
+    <race>BetaElk_Female</race>
+    <label>beta elk Town Sheriff</label>
+    <defName>BetaElk_Female_RWP_Town_Boss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Boss">
+    <race>BetaElk_Male</race>
+    <label>beta elk Town Sheriff</label>
+    <defName>BetaElk_Male_RWP_Town_Boss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Boss">
+    <race>BetaFox</race>
+    <label>beta fox Town Sheriff</label>
+    <defName>BetaFox_RWP_Town_Boss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Boss">
+    <race>BetaGazelle</race>
+    <label>beta gazelle Town Sheriff</label>
+    <defName>BetaGazelle_RWP_Town_Boss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Boss">
+    <race>BetaHog</race>
+    <label>beta hog Town Sheriff</label>
+    <defName>BetaHog_RWP_Town_Boss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Boss">
+    <race>BetaLynx</race>
+    <label>beta lynx Town Sheriff</label>
+    <defName>BetaLynx_RWP_Town_Boss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Boss">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon Town Sheriff</label>
+    <defName>BetaRaccoon_RWP_Town_Boss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Town_Boss">
+    <race>BetaWolf</race>
+    <label>beta wolf Town Sheriff</label>
+    <defName>BetaWolf_RWP_Town_Boss</defName>
+  </PawnKindDef>
+</Defs>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffGiverSetDef>
+    <defName>BetaHumanoids_Sterilized_HediffGiverSet</defName>
+    <hediffGivers>
+      <li Class="HediffGiver_Birthday">
+        <hediff>BetaHumanoids_Sterilized</hediff>
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+
+  <HediffGiverSetDef>
+    <defName>BetaHumanoids_BearBlack_TraitsGiver</defName>
+    <hediffGivers>
+      <li Class="HediffGiver_Birthday">
+        <hediff>BetaHumanoids_BearBlack_RacialTrait</hediff>
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+
+  <HediffGiverSetDef>
+    <defName>BetaHumanoids_Camel_TraitsGiver</defName>
+    <hediffGivers>
+      <li Class="HediffGiver_Birthday">
+        <hediff>BetaHumanoids_Camel_RacialTrait</hediff>
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+
+  <HediffGiverSetDef>
+    <defName>BetaHumanoids_Crocodile_TraitsGiver</defName>
+    <hediffGivers>
+      <li Class="HediffGiver_Birthday">
+        <hediff>BetaHumanoids_Crocodile_RacialTrait</hediff>
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+
+  <HediffGiverSetDef>
+    <defName>BetaHumanoids_Elephant_TraitsGiver</defName>
+    <hediffGivers>
+      <li Class="HediffGiver_Birthday">
+        <hediff>BetaHumanoids_Elephant_RacialTrait</hediff>
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+
+  <HediffGiverSetDef>
+    <defName>BetaHumanoids_Elk_TraitsGiver</defName>
+    <hediffGivers>
+      <li Class="HediffGiver_Birthday">
+        <hediff>BetaHumanoids_Elk_RacialTrait</hediff>
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+
+  <HediffGiverSetDef>
+    <defName>BetaHumanoids_Fox_TraitsGiver</defName>
+    <hediffGivers>
+      <li Class="HediffGiver_Birthday">
+        <hediff>BetaHumanoids_Fox_RacialTrait</hediff>
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+
+  <HediffGiverSetDef>
+    <defName>BetaHumanoids_Gazelle_TraitsGiver</defName>
+    <hediffGivers>
+      <li Class="HediffGiver_Birthday">
+        <hediff>BetaHumanoids_Gazelle_RacialTrait</hediff>
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+
+  <HediffGiverSetDef>
+    <defName>BetaHumanoids_Hog_TraitsGiver</defName>
+    <hediffGivers>
+      <li Class="HediffGiver_Birthday">
+        <hediff>BetaHumanoids_Hog_RacialTrait</hediff>
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+
+  <HediffGiverSetDef>
+    <defName>BetaHumanoids_Lynx_TraitsGiver</defName>
+    <hediffGivers>
+      <li Class="HediffGiver_Birthday">
+        <hediff>BetaHumanoids_Lynx_RacialTrait</hediff>
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+
+  <HediffGiverSetDef>
+    <defName>BetaHumanoids_Raccoon_TraitsGiver</defName>
+    <hediffGivers>
+      <li Class="HediffGiver_Birthday">
+        <hediff>BetaHumanoids_Raccoon_RacialTrait</hediff>
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+
+  <HediffGiverSetDef>
+    <defName>BetaHumanoids_Wolf_TraitsGiver</defName>
+    <hediffGivers>
+      <li Class="HediffGiver_Birthday">
+        <hediff>BetaHumanoids_Wolf_RacialTrait</hediff>
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+</Defs>

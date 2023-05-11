@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_SellSword">
+    <race>BetaBear</race>
+    <label>beta bear sellsword</label>
+    <defName>BetaBear_VFEM_SellSword</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_SellSword">
+    <race>BetaCamel</race>
+    <label>beta camel sellsword</label>
+    <defName>BetaCamel_VFEM_SellSword</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_SellSword">
+    <race>BetaCroc</race>
+    <label>beta crocodile sellsword</label>
+    <defName>BetaCroc_VFEM_SellSword</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_SellSword">
+    <race>BetaElephant</race>
+    <label>beta elephant sellsword</label>
+    <defName>BetaElephant_VFEM_SellSword</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_SellSword">
+    <race>BetaElk_Female</race>
+    <label>beta elk sellsword</label>
+    <defName>BetaElk_Female_VFEM_SellSword</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_SellSword">
+    <race>BetaElk_Male</race>
+    <label>beta elk sellsword</label>
+    <defName>BetaElk_Male_VFEM_SellSword</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_SellSword">
+    <race>BetaFox</race>
+    <label>beta fox sellsword</label>
+    <defName>BetaFox_VFEM_SellSword</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_SellSword">
+    <race>BetaGazelle</race>
+    <label>beta gazelle sellsword</label>
+    <defName>BetaGazelle_VFEM_SellSword</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_SellSword">
+    <race>BetaHog</race>
+    <label>beta hog sellsword</label>
+    <defName>BetaHog_VFEM_SellSword</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_SellSword">
+    <race>BetaLynx</race>
+    <label>beta lynx sellsword</label>
+    <defName>BetaLynx_VFEM_SellSword</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_SellSword">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon sellsword</label>
+    <defName>BetaRaccoon_VFEM_SellSword</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_SellSword">
+    <race>BetaWolf</race>
+    <label>beta wolf sellsword</label>
+    <defName>BetaWolf_VFEM_SellSword</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_KnightInBlack">
+    <race>BetaBear</race>
+    <label>beta bear knight</label>
+    <defName>BetaBear_VFEM_KnightInBlack</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_KnightInBlack">
+    <race>BetaCamel</race>
+    <label>beta camel knight</label>
+    <defName>BetaCamel_VFEM_KnightInBlack</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_KnightInBlack">
+    <race>BetaCroc</race>
+    <label>beta crocodile knight</label>
+    <defName>BetaCroc_VFEM_KnightInBlack</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_KnightInBlack">
+    <race>BetaElephant</race>
+    <label>beta elephant knight</label>
+    <defName>BetaElephant_VFEM_KnightInBlack</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_KnightInBlack">
+    <race>BetaElk_Female</race>
+    <label>beta elk knight</label>
+    <defName>BetaElk_Female_VFEM_KnightInBlack</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_KnightInBlack">
+    <race>BetaElk_Male</race>
+    <label>beta elk knight</label>
+    <defName>BetaElk_Male_VFEM_KnightInBlack</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_KnightInBlack">
+    <race>BetaFox</race>
+    <label>beta fox knight</label>
+    <defName>BetaFox_VFEM_KnightInBlack</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_KnightInBlack">
+    <race>BetaGazelle</race>
+    <label>beta gazelle knight</label>
+    <defName>BetaGazelle_VFEM_KnightInBlack</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_KnightInBlack">
+    <race>BetaHog</race>
+    <label>beta hog knight</label>
+    <defName>BetaHog_VFEM_KnightInBlack</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_KnightInBlack">
+    <race>BetaLynx</race>
+    <label>beta lynx knight</label>
+    <defName>BetaLynx_VFEM_KnightInBlack</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_KnightInBlack">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon knight</label>
+    <defName>BetaRaccoon_VFEM_KnightInBlack</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_KnightInBlack">
+    <race>BetaWolf</race>
+    <label>beta wolf knight</label>
+    <defName>BetaWolf_VFEM_KnightInBlack</defName>
+  </PawnKindDef>
+</Defs>

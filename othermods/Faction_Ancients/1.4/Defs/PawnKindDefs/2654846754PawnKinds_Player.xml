@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="BetaHumanoids_VFEA_PlayerAncientSoldierOneAbility">
+    <race>BetaBear</race>
+    <label>beta bear ancient soldier</label>
+    <defName>BetaBear_VFEA_PlayerAncientSoldierOneAbility</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEA_PlayerAncientSoldierOneAbility">
+    <race>BetaCamel</race>
+    <label>beta camel ancient soldier</label>
+    <defName>BetaCamel_VFEA_PlayerAncientSoldierOneAbility</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEA_PlayerAncientSoldierOneAbility">
+    <race>BetaCroc</race>
+    <label>beta crocodile ancient soldier</label>
+    <defName>BetaCroc_VFEA_PlayerAncientSoldierOneAbility</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEA_PlayerAncientSoldierOneAbility">
+    <race>BetaElephant</race>
+    <label>beta elephant ancient soldier</label>
+    <defName>BetaElephant_VFEA_PlayerAncientSoldierOneAbility</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEA_PlayerAncientSoldierOneAbility">
+    <race>BetaElk_Female</race>
+    <label>beta elk ancient soldier</label>
+    <defName>BetaElk_Female_VFEA_PlayerAncientSoldierOneAbility</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEA_PlayerAncientSoldierOneAbility">
+    <race>BetaElk_Male</race>
+    <label>beta elk ancient soldier</label>
+    <defName>BetaElk_Male_VFEA_PlayerAncientSoldierOneAbility</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEA_PlayerAncientSoldierOneAbility">
+    <race>BetaFox</race>
+    <label>beta fox ancient soldier</label>
+    <defName>BetaFox_VFEA_PlayerAncientSoldierOneAbility</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEA_PlayerAncientSoldierOneAbility">
+    <race>BetaGazelle</race>
+    <label>beta gazelle ancient soldier</label>
+    <defName>BetaGazelle_VFEA_PlayerAncientSoldierOneAbility</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEA_PlayerAncientSoldierOneAbility">
+    <race>BetaHog</race>
+    <label>beta hog ancient soldier</label>
+    <defName>BetaHog_VFEA_PlayerAncientSoldierOneAbility</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEA_PlayerAncientSoldierOneAbility">
+    <race>BetaLynx</race>
+    <label>beta lynx ancient soldier</label>
+    <defName>BetaLynx_VFEA_PlayerAncientSoldierOneAbility</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEA_PlayerAncientSoldierOneAbility">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon ancient soldier</label>
+    <defName>BetaRaccoon_VFEA_PlayerAncientSoldierOneAbility</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEA_PlayerAncientSoldierOneAbility">
+    <race>BetaWolf</race>
+    <label>beta wolf ancient soldier</label>
+    <defName>BetaWolf_VFEA_PlayerAncientSoldierOneAbility</defName>
+  </PawnKindDef>
+</Defs>

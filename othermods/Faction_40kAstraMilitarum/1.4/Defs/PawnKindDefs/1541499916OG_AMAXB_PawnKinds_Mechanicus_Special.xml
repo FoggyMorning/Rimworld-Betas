@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="BetaHumanoids_StrangerInBlackMechanicus">
+    <race>BetaBear</race>
+    <label>beta bear stranger in black</label>
+    <defName>BetaBear_StrangerInBlackMechanicus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_StrangerInBlackMechanicus">
+    <race>BetaCamel</race>
+    <label>beta camel stranger in black</label>
+    <defName>BetaCamel_StrangerInBlackMechanicus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_StrangerInBlackMechanicus">
+    <race>BetaCroc</race>
+    <label>beta crocodile stranger in black</label>
+    <defName>BetaCroc_StrangerInBlackMechanicus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_StrangerInBlackMechanicus">
+    <race>BetaElephant</race>
+    <label>beta elephant stranger in black</label>
+    <defName>BetaElephant_StrangerInBlackMechanicus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_StrangerInBlackMechanicus">
+    <race>BetaElk_Female</race>
+    <label>beta elk stranger in black</label>
+    <defName>BetaElk_Female_StrangerInBlackMechanicus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_StrangerInBlackMechanicus">
+    <race>BetaElk_Male</race>
+    <label>beta elk stranger in black</label>
+    <defName>BetaElk_Male_StrangerInBlackMechanicus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_StrangerInBlackMechanicus">
+    <race>BetaFox</race>
+    <label>beta fox stranger in black</label>
+    <defName>BetaFox_StrangerInBlackMechanicus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_StrangerInBlackMechanicus">
+    <race>BetaGazelle</race>
+    <label>beta gazelle stranger in black</label>
+    <defName>BetaGazelle_StrangerInBlackMechanicus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_StrangerInBlackMechanicus">
+    <race>BetaHog</race>
+    <label>beta hog stranger in black</label>
+    <defName>BetaHog_StrangerInBlackMechanicus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_StrangerInBlackMechanicus">
+    <race>BetaLynx</race>
+    <label>beta lynx stranger in black</label>
+    <defName>BetaLynx_StrangerInBlackMechanicus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_StrangerInBlackMechanicus">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon stranger in black</label>
+    <defName>BetaRaccoon_StrangerInBlackMechanicus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_StrangerInBlackMechanicus">
+    <race>BetaWolf</race>
+    <label>beta wolf stranger in black</label>
+    <defName>BetaWolf_StrangerInBlackMechanicus</defName>
+  </PawnKindDef>
+</Defs>

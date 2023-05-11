@@ -1,0 +1,483 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Trader">
+    <race>BetaBear</race>
+    <label>beta bear Mechanicus logistician</label>
+    <defName>BetaBear_OG_Mechanicus_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Trader">
+    <race>BetaCamel</race>
+    <label>beta camel Mechanicus logistician</label>
+    <defName>BetaCamel_OG_Mechanicus_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Trader">
+    <race>BetaCroc</race>
+    <label>beta crocodile Mechanicus logistician</label>
+    <defName>BetaCroc_OG_Mechanicus_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Trader">
+    <race>BetaElephant</race>
+    <label>beta elephant Mechanicus logistician</label>
+    <defName>BetaElephant_OG_Mechanicus_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Trader">
+    <race>BetaElk_Female</race>
+    <label>beta elk Mechanicus logistician</label>
+    <defName>BetaElk_Female_OG_Mechanicus_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Trader">
+    <race>BetaElk_Male</race>
+    <label>beta elk Mechanicus logistician</label>
+    <defName>BetaElk_Male_OG_Mechanicus_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Trader">
+    <race>BetaFox</race>
+    <label>beta fox Mechanicus logistician</label>
+    <defName>BetaFox_OG_Mechanicus_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Trader">
+    <race>BetaGazelle</race>
+    <label>beta gazelle Mechanicus logistician</label>
+    <defName>BetaGazelle_OG_Mechanicus_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Trader">
+    <race>BetaHog</race>
+    <label>beta hog Mechanicus logistician</label>
+    <defName>BetaHog_OG_Mechanicus_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Trader">
+    <race>BetaLynx</race>
+    <label>beta lynx Mechanicus logistician</label>
+    <defName>BetaLynx_OG_Mechanicus_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Trader">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon Mechanicus logistician</label>
+    <defName>BetaRaccoon_OG_Mechanicus_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Trader">
+    <race>BetaWolf</race>
+    <label>beta wolf Mechanicus logistician</label>
+    <defName>BetaWolf_OG_Mechanicus_Trader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Faction_Tech_Priest">
+    <race>BetaBear</race>
+    <label>beta bear tech-priest lord</label>
+    <defName>BetaBear_OG_Mechanicus_Faction_Tech_Priest</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Faction_Tech_Priest">
+    <race>BetaCamel</race>
+    <label>beta camel tech-priest lord</label>
+    <defName>BetaCamel_OG_Mechanicus_Faction_Tech_Priest</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Faction_Tech_Priest">
+    <race>BetaCroc</race>
+    <label>beta crocodile tech-priest lord</label>
+    <defName>BetaCroc_OG_Mechanicus_Faction_Tech_Priest</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Faction_Tech_Priest">
+    <race>BetaElephant</race>
+    <label>beta elephant tech-priest lord</label>
+    <defName>BetaElephant_OG_Mechanicus_Faction_Tech_Priest</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Faction_Tech_Priest">
+    <race>BetaElk_Female</race>
+    <label>beta elk tech-priest lord</label>
+    <defName>BetaElk_Female_OG_Mechanicus_Faction_Tech_Priest</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Faction_Tech_Priest">
+    <race>BetaElk_Male</race>
+    <label>beta elk tech-priest lord</label>
+    <defName>BetaElk_Male_OG_Mechanicus_Faction_Tech_Priest</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Faction_Tech_Priest">
+    <race>BetaFox</race>
+    <label>beta fox tech-priest lord</label>
+    <defName>BetaFox_OG_Mechanicus_Faction_Tech_Priest</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Faction_Tech_Priest">
+    <race>BetaGazelle</race>
+    <label>beta gazelle tech-priest lord</label>
+    <defName>BetaGazelle_OG_Mechanicus_Faction_Tech_Priest</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Faction_Tech_Priest">
+    <race>BetaHog</race>
+    <label>beta hog tech-priest lord</label>
+    <defName>BetaHog_OG_Mechanicus_Faction_Tech_Priest</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Faction_Tech_Priest">
+    <race>BetaLynx</race>
+    <label>beta lynx tech-priest lord</label>
+    <defName>BetaLynx_OG_Mechanicus_Faction_Tech_Priest</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Faction_Tech_Priest">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon tech-priest lord</label>
+    <defName>BetaRaccoon_OG_Mechanicus_Faction_Tech_Priest</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Faction_Tech_Priest">
+    <race>BetaWolf</race>
+    <label>beta wolf tech-priest lord</label>
+    <defName>BetaWolf_OG_Mechanicus_Faction_Tech_Priest</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Tech_Priest_Dominus">
+    <race>BetaBear</race>
+    <label>beta bear Tech-Priest</label>
+    <defName>BetaBear_OG_Mechanicus_Tech_Priest_Dominus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Tech_Priest_Dominus">
+    <race>BetaCamel</race>
+    <label>beta camel Tech-Priest</label>
+    <defName>BetaCamel_OG_Mechanicus_Tech_Priest_Dominus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Tech_Priest_Dominus">
+    <race>BetaCroc</race>
+    <label>beta crocodile Tech-Priest</label>
+    <defName>BetaCroc_OG_Mechanicus_Tech_Priest_Dominus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Tech_Priest_Dominus">
+    <race>BetaElephant</race>
+    <label>beta elephant Tech-Priest</label>
+    <defName>BetaElephant_OG_Mechanicus_Tech_Priest_Dominus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Tech_Priest_Dominus">
+    <race>BetaElk_Female</race>
+    <label>beta elk Tech-Priest</label>
+    <defName>BetaElk_Female_OG_Mechanicus_Tech_Priest_Dominus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Tech_Priest_Dominus">
+    <race>BetaElk_Male</race>
+    <label>beta elk Tech-Priest</label>
+    <defName>BetaElk_Male_OG_Mechanicus_Tech_Priest_Dominus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Tech_Priest_Dominus">
+    <race>BetaFox</race>
+    <label>beta fox Tech-Priest</label>
+    <defName>BetaFox_OG_Mechanicus_Tech_Priest_Dominus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Tech_Priest_Dominus">
+    <race>BetaGazelle</race>
+    <label>beta gazelle Tech-Priest</label>
+    <defName>BetaGazelle_OG_Mechanicus_Tech_Priest_Dominus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Tech_Priest_Dominus">
+    <race>BetaHog</race>
+    <label>beta hog Tech-Priest</label>
+    <defName>BetaHog_OG_Mechanicus_Tech_Priest_Dominus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Tech_Priest_Dominus">
+    <race>BetaLynx</race>
+    <label>beta lynx Tech-Priest</label>
+    <defName>BetaLynx_OG_Mechanicus_Tech_Priest_Dominus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Tech_Priest_Dominus">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon Tech-Priest</label>
+    <defName>BetaRaccoon_OG_Mechanicus_Tech_Priest_Dominus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Tech_Priest_Dominus">
+    <race>BetaWolf</race>
+    <label>beta wolf Tech-Priest</label>
+    <defName>BetaWolf_OG_Mechanicus_Tech_Priest_Dominus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Tech_Priest_Engineer">
+    <race>BetaBear</race>
+    <label>beta bear Tech-Priest</label>
+    <defName>BetaBear_OG_Mechanicus_Tech_Priest_Engineer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Tech_Priest_Engineer">
+    <race>BetaCamel</race>
+    <label>beta camel Tech-Priest</label>
+    <defName>BetaCamel_OG_Mechanicus_Tech_Priest_Engineer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Tech_Priest_Engineer">
+    <race>BetaCroc</race>
+    <label>beta crocodile Tech-Priest</label>
+    <defName>BetaCroc_OG_Mechanicus_Tech_Priest_Engineer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Tech_Priest_Engineer">
+    <race>BetaElephant</race>
+    <label>beta elephant Tech-Priest</label>
+    <defName>BetaElephant_OG_Mechanicus_Tech_Priest_Engineer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Tech_Priest_Engineer">
+    <race>BetaElk_Female</race>
+    <label>beta elk Tech-Priest</label>
+    <defName>BetaElk_Female_OG_Mechanicus_Tech_Priest_Engineer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Tech_Priest_Engineer">
+    <race>BetaElk_Male</race>
+    <label>beta elk Tech-Priest</label>
+    <defName>BetaElk_Male_OG_Mechanicus_Tech_Priest_Engineer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Tech_Priest_Engineer">
+    <race>BetaFox</race>
+    <label>beta fox Tech-Priest</label>
+    <defName>BetaFox_OG_Mechanicus_Tech_Priest_Engineer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Tech_Priest_Engineer">
+    <race>BetaGazelle</race>
+    <label>beta gazelle Tech-Priest</label>
+    <defName>BetaGazelle_OG_Mechanicus_Tech_Priest_Engineer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Tech_Priest_Engineer">
+    <race>BetaHog</race>
+    <label>beta hog Tech-Priest</label>
+    <defName>BetaHog_OG_Mechanicus_Tech_Priest_Engineer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Tech_Priest_Engineer">
+    <race>BetaLynx</race>
+    <label>beta lynx Tech-Priest</label>
+    <defName>BetaLynx_OG_Mechanicus_Tech_Priest_Engineer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Tech_Priest_Engineer">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon Tech-Priest</label>
+    <defName>BetaRaccoon_OG_Mechanicus_Tech_Priest_Engineer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Tech_Priest_Engineer">
+    <race>BetaWolf</race>
+    <label>beta wolf Tech-Priest</label>
+    <defName>BetaWolf_OG_Mechanicus_Tech_Priest_Engineer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Ranger">
+    <race>BetaBear</race>
+    <label>beta bear skitarii warrior</label>
+    <defName>BetaBear_OG_Mechanicus_Skitarii_Ranger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Ranger">
+    <race>BetaCamel</race>
+    <label>beta camel skitarii warrior</label>
+    <defName>BetaCamel_OG_Mechanicus_Skitarii_Ranger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Ranger">
+    <race>BetaCroc</race>
+    <label>beta crocodile skitarii warrior</label>
+    <defName>BetaCroc_OG_Mechanicus_Skitarii_Ranger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Ranger">
+    <race>BetaElephant</race>
+    <label>beta elephant skitarii warrior</label>
+    <defName>BetaElephant_OG_Mechanicus_Skitarii_Ranger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Ranger">
+    <race>BetaElk_Female</race>
+    <label>beta elk skitarii warrior</label>
+    <defName>BetaElk_Female_OG_Mechanicus_Skitarii_Ranger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Ranger">
+    <race>BetaElk_Male</race>
+    <label>beta elk skitarii warrior</label>
+    <defName>BetaElk_Male_OG_Mechanicus_Skitarii_Ranger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Ranger">
+    <race>BetaFox</race>
+    <label>beta fox skitarii warrior</label>
+    <defName>BetaFox_OG_Mechanicus_Skitarii_Ranger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Ranger">
+    <race>BetaGazelle</race>
+    <label>beta gazelle skitarii warrior</label>
+    <defName>BetaGazelle_OG_Mechanicus_Skitarii_Ranger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Ranger">
+    <race>BetaHog</race>
+    <label>beta hog skitarii warrior</label>
+    <defName>BetaHog_OG_Mechanicus_Skitarii_Ranger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Ranger">
+    <race>BetaLynx</race>
+    <label>beta lynx skitarii warrior</label>
+    <defName>BetaLynx_OG_Mechanicus_Skitarii_Ranger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Ranger">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon skitarii warrior</label>
+    <defName>BetaRaccoon_OG_Mechanicus_Skitarii_Ranger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Ranger">
+    <race>BetaWolf</race>
+    <label>beta wolf skitarii warrior</label>
+    <defName>BetaWolf_OG_Mechanicus_Skitarii_Ranger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Ranger_Primus">
+    <race>BetaBear</race>
+    <label>beta bear skitarii warrior</label>
+    <defName>BetaBear_OG_Mechanicus_Skitarii_Ranger_Primus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Ranger_Primus">
+    <race>BetaCamel</race>
+    <label>beta camel skitarii warrior</label>
+    <defName>BetaCamel_OG_Mechanicus_Skitarii_Ranger_Primus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Ranger_Primus">
+    <race>BetaCroc</race>
+    <label>beta crocodile skitarii warrior</label>
+    <defName>BetaCroc_OG_Mechanicus_Skitarii_Ranger_Primus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Ranger_Primus">
+    <race>BetaElephant</race>
+    <label>beta elephant skitarii warrior</label>
+    <defName>BetaElephant_OG_Mechanicus_Skitarii_Ranger_Primus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Ranger_Primus">
+    <race>BetaElk_Female</race>
+    <label>beta elk skitarii warrior</label>
+    <defName>BetaElk_Female_OG_Mechanicus_Skitarii_Ranger_Primus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Ranger_Primus">
+    <race>BetaElk_Male</race>
+    <label>beta elk skitarii warrior</label>
+    <defName>BetaElk_Male_OG_Mechanicus_Skitarii_Ranger_Primus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Ranger_Primus">
+    <race>BetaFox</race>
+    <label>beta fox skitarii warrior</label>
+    <defName>BetaFox_OG_Mechanicus_Skitarii_Ranger_Primus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Ranger_Primus">
+    <race>BetaGazelle</race>
+    <label>beta gazelle skitarii warrior</label>
+    <defName>BetaGazelle_OG_Mechanicus_Skitarii_Ranger_Primus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Ranger_Primus">
+    <race>BetaHog</race>
+    <label>beta hog skitarii warrior</label>
+    <defName>BetaHog_OG_Mechanicus_Skitarii_Ranger_Primus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Ranger_Primus">
+    <race>BetaLynx</race>
+    <label>beta lynx skitarii warrior</label>
+    <defName>BetaLynx_OG_Mechanicus_Skitarii_Ranger_Primus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Ranger_Primus">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon skitarii warrior</label>
+    <defName>BetaRaccoon_OG_Mechanicus_Skitarii_Ranger_Primus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Ranger_Primus">
+    <race>BetaWolf</race>
+    <label>beta wolf skitarii warrior</label>
+    <defName>BetaWolf_OG_Mechanicus_Skitarii_Ranger_Primus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Vanguard">
+    <race>BetaBear</race>
+    <label>beta bear skitarii warrior</label>
+    <defName>BetaBear_OG_Mechanicus_Skitarii_Vanguard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Vanguard">
+    <race>BetaCamel</race>
+    <label>beta camel skitarii warrior</label>
+    <defName>BetaCamel_OG_Mechanicus_Skitarii_Vanguard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Vanguard">
+    <race>BetaCroc</race>
+    <label>beta crocodile skitarii warrior</label>
+    <defName>BetaCroc_OG_Mechanicus_Skitarii_Vanguard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Vanguard">
+    <race>BetaElephant</race>
+    <label>beta elephant skitarii warrior</label>
+    <defName>BetaElephant_OG_Mechanicus_Skitarii_Vanguard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Vanguard">
+    <race>BetaElk_Female</race>
+    <label>beta elk skitarii warrior</label>
+    <defName>BetaElk_Female_OG_Mechanicus_Skitarii_Vanguard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Vanguard">
+    <race>BetaElk_Male</race>
+    <label>beta elk skitarii warrior</label>
+    <defName>BetaElk_Male_OG_Mechanicus_Skitarii_Vanguard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Vanguard">
+    <race>BetaFox</race>
+    <label>beta fox skitarii warrior</label>
+    <defName>BetaFox_OG_Mechanicus_Skitarii_Vanguard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Vanguard">
+    <race>BetaGazelle</race>
+    <label>beta gazelle skitarii warrior</label>
+    <defName>BetaGazelle_OG_Mechanicus_Skitarii_Vanguard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Vanguard">
+    <race>BetaHog</race>
+    <label>beta hog skitarii warrior</label>
+    <defName>BetaHog_OG_Mechanicus_Skitarii_Vanguard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Vanguard">
+    <race>BetaLynx</race>
+    <label>beta lynx skitarii warrior</label>
+    <defName>BetaLynx_OG_Mechanicus_Skitarii_Vanguard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Vanguard">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon skitarii warrior</label>
+    <defName>BetaRaccoon_OG_Mechanicus_Skitarii_Vanguard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Vanguard">
+    <race>BetaWolf</race>
+    <label>beta wolf skitarii warrior</label>
+    <defName>BetaWolf_OG_Mechanicus_Skitarii_Vanguard</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Vanguard_Primus">
+    <race>BetaBear</race>
+    <label>beta bear skitarii warrior</label>
+    <defName>BetaBear_OG_Mechanicus_Skitarii_Vanguard_Primus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Vanguard_Primus">
+    <race>BetaCamel</race>
+    <label>beta camel skitarii warrior</label>
+    <defName>BetaCamel_OG_Mechanicus_Skitarii_Vanguard_Primus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Vanguard_Primus">
+    <race>BetaCroc</race>
+    <label>beta crocodile skitarii warrior</label>
+    <defName>BetaCroc_OG_Mechanicus_Skitarii_Vanguard_Primus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Vanguard_Primus">
+    <race>BetaElephant</race>
+    <label>beta elephant skitarii warrior</label>
+    <defName>BetaElephant_OG_Mechanicus_Skitarii_Vanguard_Primus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Vanguard_Primus">
+    <race>BetaElk_Female</race>
+    <label>beta elk skitarii warrior</label>
+    <defName>BetaElk_Female_OG_Mechanicus_Skitarii_Vanguard_Primus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Vanguard_Primus">
+    <race>BetaElk_Male</race>
+    <label>beta elk skitarii warrior</label>
+    <defName>BetaElk_Male_OG_Mechanicus_Skitarii_Vanguard_Primus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Vanguard_Primus">
+    <race>BetaFox</race>
+    <label>beta fox skitarii warrior</label>
+    <defName>BetaFox_OG_Mechanicus_Skitarii_Vanguard_Primus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Vanguard_Primus">
+    <race>BetaGazelle</race>
+    <label>beta gazelle skitarii warrior</label>
+    <defName>BetaGazelle_OG_Mechanicus_Skitarii_Vanguard_Primus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Vanguard_Primus">
+    <race>BetaHog</race>
+    <label>beta hog skitarii warrior</label>
+    <defName>BetaHog_OG_Mechanicus_Skitarii_Vanguard_Primus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Vanguard_Primus">
+    <race>BetaLynx</race>
+    <label>beta lynx skitarii warrior</label>
+    <defName>BetaLynx_OG_Mechanicus_Skitarii_Vanguard_Primus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Vanguard_Primus">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon skitarii warrior</label>
+    <defName>BetaRaccoon_OG_Mechanicus_Skitarii_Vanguard_Primus</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Mechanicus_Skitarii_Vanguard_Primus">
+    <race>BetaWolf</race>
+    <label>beta wolf skitarii warrior</label>
+    <defName>BetaWolf_OG_Mechanicus_Skitarii_Vanguard_Primus</defName>
+  </PawnKindDef>
+</Defs>

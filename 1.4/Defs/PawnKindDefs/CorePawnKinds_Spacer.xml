@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="BetaHumanoids_SpaceRefugee">
+    <race>BetaBear</race>
+    <label>beta bear space refugee</label>
+    <defName>BetaBear_SpaceRefugee</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SpaceRefugee">
+    <race>BetaCamel</race>
+    <label>beta camel space refugee</label>
+    <defName>BetaCamel_SpaceRefugee</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SpaceRefugee">
+    <race>BetaCroc</race>
+    <label>beta crocodile space refugee</label>
+    <defName>BetaCroc_SpaceRefugee</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SpaceRefugee">
+    <race>BetaElephant</race>
+    <label>beta elephant space refugee</label>
+    <defName>BetaElephant_SpaceRefugee</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SpaceRefugee">
+    <race>BetaElk_Female</race>
+    <label>beta elk space refugee</label>
+    <defName>BetaElk_Female_SpaceRefugee</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SpaceRefugee">
+    <race>BetaElk_Male</race>
+    <label>beta elk space refugee</label>
+    <defName>BetaElk_Male_SpaceRefugee</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SpaceRefugee">
+    <race>BetaFox</race>
+    <label>beta fox space refugee</label>
+    <defName>BetaFox_SpaceRefugee</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SpaceRefugee">
+    <race>BetaGazelle</race>
+    <label>beta gazelle space refugee</label>
+    <defName>BetaGazelle_SpaceRefugee</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SpaceRefugee">
+    <race>BetaHog</race>
+    <label>beta hog space refugee</label>
+    <defName>BetaHog_SpaceRefugee</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SpaceRefugee">
+    <race>BetaLynx</race>
+    <label>beta lynx space refugee</label>
+    <defName>BetaLynx_SpaceRefugee</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SpaceRefugee">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon space refugee</label>
+    <defName>BetaRaccoon_SpaceRefugee</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SpaceRefugee">
+    <race>BetaWolf</race>
+    <label>beta wolf space refugee</label>
+    <defName>BetaWolf_SpaceRefugee</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SpaceRefugee_Clothed">
+    <race>BetaBear</race>
+    <label>beta bear space refugee</label>
+    <defName>BetaBear_SpaceRefugee_Clothed</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SpaceRefugee_Clothed">
+    <race>BetaCamel</race>
+    <label>beta camel space refugee</label>
+    <defName>BetaCamel_SpaceRefugee_Clothed</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SpaceRefugee_Clothed">
+    <race>BetaCroc</race>
+    <label>beta crocodile space refugee</label>
+    <defName>BetaCroc_SpaceRefugee_Clothed</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SpaceRefugee_Clothed">
+    <race>BetaElephant</race>
+    <label>beta elephant space refugee</label>
+    <defName>BetaElephant_SpaceRefugee_Clothed</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SpaceRefugee_Clothed">
+    <race>BetaElk_Female</race>
+    <label>beta elk space refugee</label>
+    <defName>BetaElk_Female_SpaceRefugee_Clothed</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SpaceRefugee_Clothed">
+    <race>BetaElk_Male</race>
+    <label>beta elk space refugee</label>
+    <defName>BetaElk_Male_SpaceRefugee_Clothed</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SpaceRefugee_Clothed">
+    <race>BetaFox</race>
+    <label>beta fox space refugee</label>
+    <defName>BetaFox_SpaceRefugee_Clothed</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SpaceRefugee_Clothed">
+    <race>BetaGazelle</race>
+    <label>beta gazelle space refugee</label>
+    <defName>BetaGazelle_SpaceRefugee_Clothed</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SpaceRefugee_Clothed">
+    <race>BetaHog</race>
+    <label>beta hog space refugee</label>
+    <defName>BetaHog_SpaceRefugee_Clothed</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SpaceRefugee_Clothed">
+    <race>BetaLynx</race>
+    <label>beta lynx space refugee</label>
+    <defName>BetaLynx_SpaceRefugee_Clothed</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SpaceRefugee_Clothed">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon space refugee</label>
+    <defName>BetaRaccoon_SpaceRefugee_Clothed</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SpaceRefugee_Clothed">
+    <race>BetaWolf</race>
+    <label>beta wolf space refugee</label>
+    <defName>BetaWolf_SpaceRefugee_Clothed</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_AncientSoldier">
+    <race>BetaBear</race>
+    <label>beta bear ancient soldier</label>
+    <defName>BetaBear_AncientSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_AncientSoldier">
+    <race>BetaCamel</race>
+    <label>beta camel ancient soldier</label>
+    <defName>BetaCamel_AncientSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_AncientSoldier">
+    <race>BetaCroc</race>
+    <label>beta crocodile ancient soldier</label>
+    <defName>BetaCroc_AncientSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_AncientSoldier">
+    <race>BetaElephant</race>
+    <label>beta elephant ancient soldier</label>
+    <defName>BetaElephant_AncientSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_AncientSoldier">
+    <race>BetaElk_Female</race>
+    <label>beta elk ancient soldier</label>
+    <defName>BetaElk_Female_AncientSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_AncientSoldier">
+    <race>BetaElk_Male</race>
+    <label>beta elk ancient soldier</label>
+    <defName>BetaElk_Male_AncientSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_AncientSoldier">
+    <race>BetaFox</race>
+    <label>beta fox ancient soldier</label>
+    <defName>BetaFox_AncientSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_AncientSoldier">
+    <race>BetaGazelle</race>
+    <label>beta gazelle ancient soldier</label>
+    <defName>BetaGazelle_AncientSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_AncientSoldier">
+    <race>BetaHog</race>
+    <label>beta hog ancient soldier</label>
+    <defName>BetaHog_AncientSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_AncientSoldier">
+    <race>BetaLynx</race>
+    <label>beta lynx ancient soldier</label>
+    <defName>BetaLynx_AncientSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_AncientSoldier">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon ancient soldier</label>
+    <defName>BetaRaccoon_AncientSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_AncientSoldier">
+    <race>BetaWolf</race>
+    <label>beta wolf ancient soldier</label>
+    <defName>BetaWolf_AncientSoldier</defName>
+  </PawnKindDef>
+</Defs>

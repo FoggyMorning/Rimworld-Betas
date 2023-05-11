@@ -1,0 +1,603 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Peasant">
+    <race>BetaBear</race>
+    <label>beta bear peasant</label>
+    <defName>BetaBear_VFEM_Medieval_Peasant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Peasant">
+    <race>BetaCamel</race>
+    <label>beta camel peasant</label>
+    <defName>BetaCamel_VFEM_Medieval_Peasant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Peasant">
+    <race>BetaCroc</race>
+    <label>beta crocodile peasant</label>
+    <defName>BetaCroc_VFEM_Medieval_Peasant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Peasant">
+    <race>BetaElephant</race>
+    <label>beta elephant peasant</label>
+    <defName>BetaElephant_VFEM_Medieval_Peasant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Peasant">
+    <race>BetaElk_Female</race>
+    <label>beta elk peasant</label>
+    <defName>BetaElk_Female_VFEM_Medieval_Peasant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Peasant">
+    <race>BetaElk_Male</race>
+    <label>beta elk peasant</label>
+    <defName>BetaElk_Male_VFEM_Medieval_Peasant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Peasant">
+    <race>BetaFox</race>
+    <label>beta fox peasant</label>
+    <defName>BetaFox_VFEM_Medieval_Peasant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Peasant">
+    <race>BetaGazelle</race>
+    <label>beta gazelle peasant</label>
+    <defName>BetaGazelle_VFEM_Medieval_Peasant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Peasant">
+    <race>BetaHog</race>
+    <label>beta hog peasant</label>
+    <defName>BetaHog_VFEM_Medieval_Peasant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Peasant">
+    <race>BetaLynx</race>
+    <label>beta lynx peasant</label>
+    <defName>BetaLynx_VFEM_Medieval_Peasant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Peasant">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon peasant</label>
+    <defName>BetaRaccoon_VFEM_Medieval_Peasant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Peasant">
+    <race>BetaWolf</race>
+    <label>beta wolf peasant</label>
+    <defName>BetaWolf_VFEM_Medieval_Peasant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Merchant">
+    <race>BetaBear</race>
+    <label>beta bear merchant</label>
+    <defName>BetaBear_VFEM_Medieval_Merchant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Merchant">
+    <race>BetaCamel</race>
+    <label>beta camel merchant</label>
+    <defName>BetaCamel_VFEM_Medieval_Merchant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Merchant">
+    <race>BetaCroc</race>
+    <label>beta crocodile merchant</label>
+    <defName>BetaCroc_VFEM_Medieval_Merchant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Merchant">
+    <race>BetaElephant</race>
+    <label>beta elephant merchant</label>
+    <defName>BetaElephant_VFEM_Medieval_Merchant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Merchant">
+    <race>BetaElk_Female</race>
+    <label>beta elk merchant</label>
+    <defName>BetaElk_Female_VFEM_Medieval_Merchant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Merchant">
+    <race>BetaElk_Male</race>
+    <label>beta elk merchant</label>
+    <defName>BetaElk_Male_VFEM_Medieval_Merchant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Merchant">
+    <race>BetaFox</race>
+    <label>beta fox merchant</label>
+    <defName>BetaFox_VFEM_Medieval_Merchant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Merchant">
+    <race>BetaGazelle</race>
+    <label>beta gazelle merchant</label>
+    <defName>BetaGazelle_VFEM_Medieval_Merchant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Merchant">
+    <race>BetaHog</race>
+    <label>beta hog merchant</label>
+    <defName>BetaHog_VFEM_Medieval_Merchant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Merchant">
+    <race>BetaLynx</race>
+    <label>beta lynx merchant</label>
+    <defName>BetaLynx_VFEM_Medieval_Merchant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Merchant">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon merchant</label>
+    <defName>BetaRaccoon_VFEM_Medieval_Merchant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Merchant">
+    <race>BetaWolf</race>
+    <label>beta wolf merchant</label>
+    <defName>BetaWolf_VFEM_Medieval_Merchant</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Squire">
+    <race>BetaBear</race>
+    <label>beta bear squire</label>
+    <defName>BetaBear_VFEM_Medieval_Squire</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Squire">
+    <race>BetaCamel</race>
+    <label>beta camel squire</label>
+    <defName>BetaCamel_VFEM_Medieval_Squire</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Squire">
+    <race>BetaCroc</race>
+    <label>beta crocodile squire</label>
+    <defName>BetaCroc_VFEM_Medieval_Squire</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Squire">
+    <race>BetaElephant</race>
+    <label>beta elephant squire</label>
+    <defName>BetaElephant_VFEM_Medieval_Squire</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Squire">
+    <race>BetaElk_Female</race>
+    <label>beta elk squire</label>
+    <defName>BetaElk_Female_VFEM_Medieval_Squire</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Squire">
+    <race>BetaElk_Male</race>
+    <label>beta elk squire</label>
+    <defName>BetaElk_Male_VFEM_Medieval_Squire</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Squire">
+    <race>BetaFox</race>
+    <label>beta fox squire</label>
+    <defName>BetaFox_VFEM_Medieval_Squire</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Squire">
+    <race>BetaGazelle</race>
+    <label>beta gazelle squire</label>
+    <defName>BetaGazelle_VFEM_Medieval_Squire</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Squire">
+    <race>BetaHog</race>
+    <label>beta hog squire</label>
+    <defName>BetaHog_VFEM_Medieval_Squire</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Squire">
+    <race>BetaLynx</race>
+    <label>beta lynx squire</label>
+    <defName>BetaLynx_VFEM_Medieval_Squire</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Squire">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon squire</label>
+    <defName>BetaRaccoon_VFEM_Medieval_Squire</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Squire">
+    <race>BetaWolf</race>
+    <label>beta wolf squire</label>
+    <defName>BetaWolf_VFEM_Medieval_Squire</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Bowman">
+    <race>BetaBear</race>
+    <label>beta bear bowman</label>
+    <defName>BetaBear_VFEM_Medieval_Bowman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Bowman">
+    <race>BetaCamel</race>
+    <label>beta camel bowman</label>
+    <defName>BetaCamel_VFEM_Medieval_Bowman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Bowman">
+    <race>BetaCroc</race>
+    <label>beta crocodile bowman</label>
+    <defName>BetaCroc_VFEM_Medieval_Bowman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Bowman">
+    <race>BetaElephant</race>
+    <label>beta elephant bowman</label>
+    <defName>BetaElephant_VFEM_Medieval_Bowman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Bowman">
+    <race>BetaElk_Female</race>
+    <label>beta elk bowman</label>
+    <defName>BetaElk_Female_VFEM_Medieval_Bowman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Bowman">
+    <race>BetaElk_Male</race>
+    <label>beta elk bowman</label>
+    <defName>BetaElk_Male_VFEM_Medieval_Bowman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Bowman">
+    <race>BetaFox</race>
+    <label>beta fox bowman</label>
+    <defName>BetaFox_VFEM_Medieval_Bowman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Bowman">
+    <race>BetaGazelle</race>
+    <label>beta gazelle bowman</label>
+    <defName>BetaGazelle_VFEM_Medieval_Bowman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Bowman">
+    <race>BetaHog</race>
+    <label>beta hog bowman</label>
+    <defName>BetaHog_VFEM_Medieval_Bowman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Bowman">
+    <race>BetaLynx</race>
+    <label>beta lynx bowman</label>
+    <defName>BetaLynx_VFEM_Medieval_Bowman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Bowman">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon bowman</label>
+    <defName>BetaRaccoon_VFEM_Medieval_Bowman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Bowman">
+    <race>BetaWolf</race>
+    <label>beta wolf bowman</label>
+    <defName>BetaWolf_VFEM_Medieval_Bowman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Footsoldier">
+    <race>BetaBear</race>
+    <label>beta bear footsoldier</label>
+    <defName>BetaBear_VFEM_Medieval_Footsoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Footsoldier">
+    <race>BetaCamel</race>
+    <label>beta camel footsoldier</label>
+    <defName>BetaCamel_VFEM_Medieval_Footsoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Footsoldier">
+    <race>BetaCroc</race>
+    <label>beta crocodile footsoldier</label>
+    <defName>BetaCroc_VFEM_Medieval_Footsoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Footsoldier">
+    <race>BetaElephant</race>
+    <label>beta elephant footsoldier</label>
+    <defName>BetaElephant_VFEM_Medieval_Footsoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Footsoldier">
+    <race>BetaElk_Female</race>
+    <label>beta elk footsoldier</label>
+    <defName>BetaElk_Female_VFEM_Medieval_Footsoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Footsoldier">
+    <race>BetaElk_Male</race>
+    <label>beta elk footsoldier</label>
+    <defName>BetaElk_Male_VFEM_Medieval_Footsoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Footsoldier">
+    <race>BetaFox</race>
+    <label>beta fox footsoldier</label>
+    <defName>BetaFox_VFEM_Medieval_Footsoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Footsoldier">
+    <race>BetaGazelle</race>
+    <label>beta gazelle footsoldier</label>
+    <defName>BetaGazelle_VFEM_Medieval_Footsoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Footsoldier">
+    <race>BetaHog</race>
+    <label>beta hog footsoldier</label>
+    <defName>BetaHog_VFEM_Medieval_Footsoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Footsoldier">
+    <race>BetaLynx</race>
+    <label>beta lynx footsoldier</label>
+    <defName>BetaLynx_VFEM_Medieval_Footsoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Footsoldier">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon footsoldier</label>
+    <defName>BetaRaccoon_VFEM_Medieval_Footsoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Footsoldier">
+    <race>BetaWolf</race>
+    <label>beta wolf footsoldier</label>
+    <defName>BetaWolf_VFEM_Medieval_Footsoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Knight">
+    <race>BetaBear</race>
+    <label>beta bear knight</label>
+    <defName>BetaBear_VFEM_Medieval_Knight</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Knight">
+    <race>BetaCamel</race>
+    <label>beta camel knight</label>
+    <defName>BetaCamel_VFEM_Medieval_Knight</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Knight">
+    <race>BetaCroc</race>
+    <label>beta crocodile knight</label>
+    <defName>BetaCroc_VFEM_Medieval_Knight</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Knight">
+    <race>BetaElephant</race>
+    <label>beta elephant knight</label>
+    <defName>BetaElephant_VFEM_Medieval_Knight</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Knight">
+    <race>BetaElk_Female</race>
+    <label>beta elk knight</label>
+    <defName>BetaElk_Female_VFEM_Medieval_Knight</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Knight">
+    <race>BetaElk_Male</race>
+    <label>beta elk knight</label>
+    <defName>BetaElk_Male_VFEM_Medieval_Knight</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Knight">
+    <race>BetaFox</race>
+    <label>beta fox knight</label>
+    <defName>BetaFox_VFEM_Medieval_Knight</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Knight">
+    <race>BetaGazelle</race>
+    <label>beta gazelle knight</label>
+    <defName>BetaGazelle_VFEM_Medieval_Knight</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Knight">
+    <race>BetaHog</race>
+    <label>beta hog knight</label>
+    <defName>BetaHog_VFEM_Medieval_Knight</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Knight">
+    <race>BetaLynx</race>
+    <label>beta lynx knight</label>
+    <defName>BetaLynx_VFEM_Medieval_Knight</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Knight">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon knight</label>
+    <defName>BetaRaccoon_VFEM_Medieval_Knight</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Knight">
+    <race>BetaWolf</race>
+    <label>beta wolf knight</label>
+    <defName>BetaWolf_VFEM_Medieval_Knight</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Lord">
+    <race>BetaBear</race>
+    <label>beta bear knight</label>
+    <defName>BetaBear_VFEM_Medieval_Lord</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Lord">
+    <race>BetaCamel</race>
+    <label>beta camel knight</label>
+    <defName>BetaCamel_VFEM_Medieval_Lord</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Lord">
+    <race>BetaCroc</race>
+    <label>beta crocodile knight</label>
+    <defName>BetaCroc_VFEM_Medieval_Lord</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Lord">
+    <race>BetaElephant</race>
+    <label>beta elephant knight</label>
+    <defName>BetaElephant_VFEM_Medieval_Lord</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Lord">
+    <race>BetaElk_Female</race>
+    <label>beta elk knight</label>
+    <defName>BetaElk_Female_VFEM_Medieval_Lord</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Lord">
+    <race>BetaElk_Male</race>
+    <label>beta elk knight</label>
+    <defName>BetaElk_Male_VFEM_Medieval_Lord</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Lord">
+    <race>BetaFox</race>
+    <label>beta fox knight</label>
+    <defName>BetaFox_VFEM_Medieval_Lord</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Lord">
+    <race>BetaGazelle</race>
+    <label>beta gazelle knight</label>
+    <defName>BetaGazelle_VFEM_Medieval_Lord</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Lord">
+    <race>BetaHog</race>
+    <label>beta hog knight</label>
+    <defName>BetaHog_VFEM_Medieval_Lord</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Lord">
+    <race>BetaLynx</race>
+    <label>beta lynx knight</label>
+    <defName>BetaLynx_VFEM_Medieval_Lord</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Lord">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon knight</label>
+    <defName>BetaRaccoon_VFEM_Medieval_Lord</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Lord">
+    <race>BetaWolf</race>
+    <label>beta wolf knight</label>
+    <defName>BetaWolf_VFEM_Medieval_Lord</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Jester">
+    <race>BetaBear</race>
+    <label>beta bear jester</label>
+    <defName>BetaBear_VFEM_Medieval_Jester</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Jester">
+    <race>BetaCamel</race>
+    <label>beta camel jester</label>
+    <defName>BetaCamel_VFEM_Medieval_Jester</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Jester">
+    <race>BetaCroc</race>
+    <label>beta crocodile jester</label>
+    <defName>BetaCroc_VFEM_Medieval_Jester</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Jester">
+    <race>BetaElephant</race>
+    <label>beta elephant jester</label>
+    <defName>BetaElephant_VFEM_Medieval_Jester</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Jester">
+    <race>BetaElk_Female</race>
+    <label>beta elk jester</label>
+    <defName>BetaElk_Female_VFEM_Medieval_Jester</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Jester">
+    <race>BetaElk_Male</race>
+    <label>beta elk jester</label>
+    <defName>BetaElk_Male_VFEM_Medieval_Jester</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Jester">
+    <race>BetaFox</race>
+    <label>beta fox jester</label>
+    <defName>BetaFox_VFEM_Medieval_Jester</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Jester">
+    <race>BetaGazelle</race>
+    <label>beta gazelle jester</label>
+    <defName>BetaGazelle_VFEM_Medieval_Jester</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Jester">
+    <race>BetaHog</race>
+    <label>beta hog jester</label>
+    <defName>BetaHog_VFEM_Medieval_Jester</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Jester">
+    <race>BetaLynx</race>
+    <label>beta lynx jester</label>
+    <defName>BetaLynx_VFEM_Medieval_Jester</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Jester">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon jester</label>
+    <defName>BetaRaccoon_VFEM_Medieval_Jester</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Jester">
+    <race>BetaWolf</race>
+    <label>beta wolf jester</label>
+    <defName>BetaWolf_VFEM_Medieval_Jester</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Dame">
+    <race>BetaBear</race>
+    <label>beta bear dame</label>
+    <defName>BetaBear_VFEM_Medieval_Dame</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Dame">
+    <race>BetaCamel</race>
+    <label>beta camel dame</label>
+    <defName>BetaCamel_VFEM_Medieval_Dame</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Dame">
+    <race>BetaCroc</race>
+    <label>beta crocodile dame</label>
+    <defName>BetaCroc_VFEM_Medieval_Dame</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Dame">
+    <race>BetaElephant</race>
+    <label>beta elephant dame</label>
+    <defName>BetaElephant_VFEM_Medieval_Dame</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Dame">
+    <race>BetaElk_Female</race>
+    <label>beta elk dame</label>
+    <defName>BetaElk_Female_VFEM_Medieval_Dame</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Dame">
+    <race>BetaElk_Male</race>
+    <label>beta elk dame</label>
+    <defName>BetaElk_Male_VFEM_Medieval_Dame</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Dame">
+    <race>BetaFox</race>
+    <label>beta fox dame</label>
+    <defName>BetaFox_VFEM_Medieval_Dame</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Dame">
+    <race>BetaGazelle</race>
+    <label>beta gazelle dame</label>
+    <defName>BetaGazelle_VFEM_Medieval_Dame</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Dame">
+    <race>BetaHog</race>
+    <label>beta hog dame</label>
+    <defName>BetaHog_VFEM_Medieval_Dame</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Dame">
+    <race>BetaLynx</race>
+    <label>beta lynx dame</label>
+    <defName>BetaLynx_VFEM_Medieval_Dame</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Dame">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon dame</label>
+    <defName>BetaRaccoon_VFEM_Medieval_Dame</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_Dame">
+    <race>BetaWolf</race>
+    <label>beta wolf dame</label>
+    <defName>BetaWolf_VFEM_Medieval_Dame</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_King">
+    <race>BetaBear</race>
+    <label>beta bear knight</label>
+    <defName>BetaBear_VFEM_Medieval_King</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_King">
+    <race>BetaCamel</race>
+    <label>beta camel knight</label>
+    <defName>BetaCamel_VFEM_Medieval_King</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_King">
+    <race>BetaCroc</race>
+    <label>beta crocodile knight</label>
+    <defName>BetaCroc_VFEM_Medieval_King</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_King">
+    <race>BetaElephant</race>
+    <label>beta elephant knight</label>
+    <defName>BetaElephant_VFEM_Medieval_King</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_King">
+    <race>BetaElk_Female</race>
+    <label>beta elk knight</label>
+    <defName>BetaElk_Female_VFEM_Medieval_King</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_King">
+    <race>BetaElk_Male</race>
+    <label>beta elk knight</label>
+    <defName>BetaElk_Male_VFEM_Medieval_King</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_King">
+    <race>BetaFox</race>
+    <label>beta fox knight</label>
+    <defName>BetaFox_VFEM_Medieval_King</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_King">
+    <race>BetaGazelle</race>
+    <label>beta gazelle knight</label>
+    <defName>BetaGazelle_VFEM_Medieval_King</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_King">
+    <race>BetaHog</race>
+    <label>beta hog knight</label>
+    <defName>BetaHog_VFEM_Medieval_King</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_King">
+    <race>BetaLynx</race>
+    <label>beta lynx knight</label>
+    <defName>BetaLynx_VFEM_Medieval_King</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_King">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon knight</label>
+    <defName>BetaRaccoon_VFEM_Medieval_King</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Medieval_King">
+    <race>BetaWolf</race>
+    <label>beta wolf knight</label>
+    <defName>BetaWolf_VFEM_Medieval_King</defName>
+  </PawnKindDef>
+</Defs>

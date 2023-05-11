@@ -1,0 +1,543 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="BetaHumanoids_ImpBase">
+    <race>BetaBear</race>
+    <label>beta bear imperial</label>
+    <defName>BetaBear_ImpBase</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ImpBase">
+    <race>BetaCamel</race>
+    <label>beta camel imperial</label>
+    <defName>BetaCamel_ImpBase</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ImpBase">
+    <race>BetaCroc</race>
+    <label>beta crocodile imperial</label>
+    <defName>BetaCroc_ImpBase</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ImpBase">
+    <race>BetaElephant</race>
+    <label>beta elephant imperial</label>
+    <defName>BetaElephant_ImpBase</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ImpBase">
+    <race>BetaElk_Female</race>
+    <label>beta elk imperial</label>
+    <defName>BetaElk_Female_ImpBase</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ImpBase">
+    <race>BetaElk_Male</race>
+    <label>beta elk imperial</label>
+    <defName>BetaElk_Male_ImpBase</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ImpBase">
+    <race>BetaFox</race>
+    <label>beta fox imperial</label>
+    <defName>BetaFox_ImpBase</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ImpBase">
+    <race>BetaGazelle</race>
+    <label>beta gazelle imperial</label>
+    <defName>BetaGazelle_ImpBase</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ImpBase">
+    <race>BetaHog</race>
+    <label>beta hog imperial</label>
+    <defName>BetaHog_ImpBase</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ImpBase">
+    <race>BetaLynx</race>
+    <label>beta lynx imperial</label>
+    <defName>BetaLynx_ImpBase</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ImpBase">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon imperial</label>
+    <defName>BetaRaccoon_ImpBase</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_ImpBase">
+    <race>BetaWolf</race>
+    <label>beta wolf imperial</label>
+    <defName>BetaWolf_ImpBase</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpInspector">
+    <race>BetaBear</race>
+    <label>beta bear imperial</label>
+    <defName>BetaBear_PJ_ImpInspector</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpInspector">
+    <race>BetaCamel</race>
+    <label>beta camel imperial</label>
+    <defName>BetaCamel_PJ_ImpInspector</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpInspector">
+    <race>BetaCroc</race>
+    <label>beta crocodile imperial</label>
+    <defName>BetaCroc_PJ_ImpInspector</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpInspector">
+    <race>BetaElephant</race>
+    <label>beta elephant imperial</label>
+    <defName>BetaElephant_PJ_ImpInspector</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpInspector">
+    <race>BetaElk_Female</race>
+    <label>beta elk imperial</label>
+    <defName>BetaElk_Female_PJ_ImpInspector</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpInspector">
+    <race>BetaElk_Male</race>
+    <label>beta elk imperial</label>
+    <defName>BetaElk_Male_PJ_ImpInspector</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpInspector">
+    <race>BetaFox</race>
+    <label>beta fox imperial</label>
+    <defName>BetaFox_PJ_ImpInspector</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpInspector">
+    <race>BetaGazelle</race>
+    <label>beta gazelle imperial</label>
+    <defName>BetaGazelle_PJ_ImpInspector</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpInspector">
+    <race>BetaHog</race>
+    <label>beta hog imperial</label>
+    <defName>BetaHog_PJ_ImpInspector</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpInspector">
+    <race>BetaLynx</race>
+    <label>beta lynx imperial</label>
+    <defName>BetaLynx_PJ_ImpInspector</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpInspector">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon imperial</label>
+    <defName>BetaRaccoon_PJ_ImpInspector</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpInspector">
+    <race>BetaWolf</race>
+    <label>beta wolf imperial</label>
+    <defName>BetaWolf_PJ_ImpInspector</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpTaxOfficer">
+    <race>BetaBear</race>
+    <label>beta bear imperial</label>
+    <defName>BetaBear_PJ_ImpTaxOfficer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpTaxOfficer">
+    <race>BetaCamel</race>
+    <label>beta camel imperial</label>
+    <defName>BetaCamel_PJ_ImpTaxOfficer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpTaxOfficer">
+    <race>BetaCroc</race>
+    <label>beta crocodile imperial</label>
+    <defName>BetaCroc_PJ_ImpTaxOfficer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpTaxOfficer">
+    <race>BetaElephant</race>
+    <label>beta elephant imperial</label>
+    <defName>BetaElephant_PJ_ImpTaxOfficer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpTaxOfficer">
+    <race>BetaElk_Female</race>
+    <label>beta elk imperial</label>
+    <defName>BetaElk_Female_PJ_ImpTaxOfficer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpTaxOfficer">
+    <race>BetaElk_Male</race>
+    <label>beta elk imperial</label>
+    <defName>BetaElk_Male_PJ_ImpTaxOfficer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpTaxOfficer">
+    <race>BetaFox</race>
+    <label>beta fox imperial</label>
+    <defName>BetaFox_PJ_ImpTaxOfficer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpTaxOfficer">
+    <race>BetaGazelle</race>
+    <label>beta gazelle imperial</label>
+    <defName>BetaGazelle_PJ_ImpTaxOfficer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpTaxOfficer">
+    <race>BetaHog</race>
+    <label>beta hog imperial</label>
+    <defName>BetaHog_PJ_ImpTaxOfficer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpTaxOfficer">
+    <race>BetaLynx</race>
+    <label>beta lynx imperial</label>
+    <defName>BetaLynx_PJ_ImpTaxOfficer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpTaxOfficer">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon imperial</label>
+    <defName>BetaRaccoon_PJ_ImpTaxOfficer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpTaxOfficer">
+    <race>BetaWolf</race>
+    <label>beta wolf imperial</label>
+    <defName>BetaWolf_PJ_ImpTaxOfficer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpSoldier">
+    <race>BetaBear</race>
+    <label>beta bear imperial</label>
+    <defName>BetaBear_PJ_ImpSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpSoldier">
+    <race>BetaCamel</race>
+    <label>beta camel imperial</label>
+    <defName>BetaCamel_PJ_ImpSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpSoldier">
+    <race>BetaCroc</race>
+    <label>beta crocodile imperial</label>
+    <defName>BetaCroc_PJ_ImpSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpSoldier">
+    <race>BetaElephant</race>
+    <label>beta elephant imperial</label>
+    <defName>BetaElephant_PJ_ImpSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpSoldier">
+    <race>BetaElk_Female</race>
+    <label>beta elk imperial</label>
+    <defName>BetaElk_Female_PJ_ImpSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpSoldier">
+    <race>BetaElk_Male</race>
+    <label>beta elk imperial</label>
+    <defName>BetaElk_Male_PJ_ImpSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpSoldier">
+    <race>BetaFox</race>
+    <label>beta fox imperial</label>
+    <defName>BetaFox_PJ_ImpSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpSoldier">
+    <race>BetaGazelle</race>
+    <label>beta gazelle imperial</label>
+    <defName>BetaGazelle_PJ_ImpSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpSoldier">
+    <race>BetaHog</race>
+    <label>beta hog imperial</label>
+    <defName>BetaHog_PJ_ImpSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpSoldier">
+    <race>BetaLynx</race>
+    <label>beta lynx imperial</label>
+    <defName>BetaLynx_PJ_ImpSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpSoldier">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon imperial</label>
+    <defName>BetaRaccoon_PJ_ImpSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpSoldier">
+    <race>BetaWolf</race>
+    <label>beta wolf imperial</label>
+    <defName>BetaWolf_PJ_ImpSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpTrader">
+    <race>BetaBear</race>
+    <label>beta bear imperial</label>
+    <defName>BetaBear_PJ_ImpTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpTrader">
+    <race>BetaCamel</race>
+    <label>beta camel imperial</label>
+    <defName>BetaCamel_PJ_ImpTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpTrader">
+    <race>BetaCroc</race>
+    <label>beta crocodile imperial</label>
+    <defName>BetaCroc_PJ_ImpTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpTrader">
+    <race>BetaElephant</race>
+    <label>beta elephant imperial</label>
+    <defName>BetaElephant_PJ_ImpTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpTrader">
+    <race>BetaElk_Female</race>
+    <label>beta elk imperial</label>
+    <defName>BetaElk_Female_PJ_ImpTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpTrader">
+    <race>BetaElk_Male</race>
+    <label>beta elk imperial</label>
+    <defName>BetaElk_Male_PJ_ImpTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpTrader">
+    <race>BetaFox</race>
+    <label>beta fox imperial</label>
+    <defName>BetaFox_PJ_ImpTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpTrader">
+    <race>BetaGazelle</race>
+    <label>beta gazelle imperial</label>
+    <defName>BetaGazelle_PJ_ImpTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpTrader">
+    <race>BetaHog</race>
+    <label>beta hog imperial</label>
+    <defName>BetaHog_PJ_ImpTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpTrader">
+    <race>BetaLynx</race>
+    <label>beta lynx imperial</label>
+    <defName>BetaLynx_PJ_ImpTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpTrader">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon imperial</label>
+    <defName>BetaRaccoon_PJ_ImpTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpTrader">
+    <race>BetaWolf</race>
+    <label>beta wolf imperial</label>
+    <defName>BetaWolf_PJ_ImpTrader</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_Stormtrooper">
+    <race>BetaBear</race>
+    <label>beta bear imperial</label>
+    <defName>BetaBear_PJ_Stormtrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_Stormtrooper">
+    <race>BetaCamel</race>
+    <label>beta camel imperial</label>
+    <defName>BetaCamel_PJ_Stormtrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_Stormtrooper">
+    <race>BetaCroc</race>
+    <label>beta crocodile imperial</label>
+    <defName>BetaCroc_PJ_Stormtrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_Stormtrooper">
+    <race>BetaElephant</race>
+    <label>beta elephant imperial</label>
+    <defName>BetaElephant_PJ_Stormtrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_Stormtrooper">
+    <race>BetaElk_Female</race>
+    <label>beta elk imperial</label>
+    <defName>BetaElk_Female_PJ_Stormtrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_Stormtrooper">
+    <race>BetaElk_Male</race>
+    <label>beta elk imperial</label>
+    <defName>BetaElk_Male_PJ_Stormtrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_Stormtrooper">
+    <race>BetaFox</race>
+    <label>beta fox imperial</label>
+    <defName>BetaFox_PJ_Stormtrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_Stormtrooper">
+    <race>BetaGazelle</race>
+    <label>beta gazelle imperial</label>
+    <defName>BetaGazelle_PJ_Stormtrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_Stormtrooper">
+    <race>BetaHog</race>
+    <label>beta hog imperial</label>
+    <defName>BetaHog_PJ_Stormtrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_Stormtrooper">
+    <race>BetaLynx</race>
+    <label>beta lynx imperial</label>
+    <defName>BetaLynx_PJ_Stormtrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_Stormtrooper">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon imperial</label>
+    <defName>BetaRaccoon_PJ_Stormtrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_Stormtrooper">
+    <race>BetaWolf</race>
+    <label>beta wolf imperial</label>
+    <defName>BetaWolf_PJ_Stormtrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_StormtrooperSO">
+    <race>BetaBear</race>
+    <label>beta bear imperial</label>
+    <defName>BetaBear_PJ_StormtrooperSO</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_StormtrooperSO">
+    <race>BetaCamel</race>
+    <label>beta camel imperial</label>
+    <defName>BetaCamel_PJ_StormtrooperSO</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_StormtrooperSO">
+    <race>BetaCroc</race>
+    <label>beta crocodile imperial</label>
+    <defName>BetaCroc_PJ_StormtrooperSO</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_StormtrooperSO">
+    <race>BetaElephant</race>
+    <label>beta elephant imperial</label>
+    <defName>BetaElephant_PJ_StormtrooperSO</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_StormtrooperSO">
+    <race>BetaElk_Female</race>
+    <label>beta elk imperial</label>
+    <defName>BetaElk_Female_PJ_StormtrooperSO</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_StormtrooperSO">
+    <race>BetaElk_Male</race>
+    <label>beta elk imperial</label>
+    <defName>BetaElk_Male_PJ_StormtrooperSO</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_StormtrooperSO">
+    <race>BetaFox</race>
+    <label>beta fox imperial</label>
+    <defName>BetaFox_PJ_StormtrooperSO</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_StormtrooperSO">
+    <race>BetaGazelle</race>
+    <label>beta gazelle imperial</label>
+    <defName>BetaGazelle_PJ_StormtrooperSO</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_StormtrooperSO">
+    <race>BetaHog</race>
+    <label>beta hog imperial</label>
+    <defName>BetaHog_PJ_StormtrooperSO</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_StormtrooperSO">
+    <race>BetaLynx</race>
+    <label>beta lynx imperial</label>
+    <defName>BetaLynx_PJ_StormtrooperSO</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_StormtrooperSO">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon imperial</label>
+    <defName>BetaRaccoon_PJ_StormtrooperSO</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_StormtrooperSO">
+    <race>BetaWolf</race>
+    <label>beta wolf imperial</label>
+    <defName>BetaWolf_PJ_StormtrooperSO</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpCommander">
+    <race>BetaBear</race>
+    <label>beta bear commander</label>
+    <defName>BetaBear_PJ_ImpCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpCommander">
+    <race>BetaCamel</race>
+    <label>beta camel commander</label>
+    <defName>BetaCamel_PJ_ImpCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpCommander">
+    <race>BetaCroc</race>
+    <label>beta crocodile commander</label>
+    <defName>BetaCroc_PJ_ImpCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpCommander">
+    <race>BetaElephant</race>
+    <label>beta elephant commander</label>
+    <defName>BetaElephant_PJ_ImpCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpCommander">
+    <race>BetaElk_Female</race>
+    <label>beta elk commander</label>
+    <defName>BetaElk_Female_PJ_ImpCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpCommander">
+    <race>BetaElk_Male</race>
+    <label>beta elk commander</label>
+    <defName>BetaElk_Male_PJ_ImpCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpCommander">
+    <race>BetaFox</race>
+    <label>beta fox commander</label>
+    <defName>BetaFox_PJ_ImpCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpCommander">
+    <race>BetaGazelle</race>
+    <label>beta gazelle commander</label>
+    <defName>BetaGazelle_PJ_ImpCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpCommander">
+    <race>BetaHog</race>
+    <label>beta hog commander</label>
+    <defName>BetaHog_PJ_ImpCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpCommander">
+    <race>BetaLynx</race>
+    <label>beta lynx commander</label>
+    <defName>BetaLynx_PJ_ImpCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpCommander">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon commander</label>
+    <defName>BetaRaccoon_PJ_ImpCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ImpCommander">
+    <race>BetaWolf</race>
+    <label>beta wolf commander</label>
+    <defName>BetaWolf_PJ_ImpCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ScoutTrooper">
+    <race>BetaBear</race>
+    <label>beta bear Scout trooper</label>
+    <defName>BetaBear_PJ_ScoutTrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ScoutTrooper">
+    <race>BetaCamel</race>
+    <label>beta camel Scout trooper</label>
+    <defName>BetaCamel_PJ_ScoutTrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ScoutTrooper">
+    <race>BetaCroc</race>
+    <label>beta crocodile Scout trooper</label>
+    <defName>BetaCroc_PJ_ScoutTrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ScoutTrooper">
+    <race>BetaElephant</race>
+    <label>beta elephant Scout trooper</label>
+    <defName>BetaElephant_PJ_ScoutTrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ScoutTrooper">
+    <race>BetaElk_Female</race>
+    <label>beta elk Scout trooper</label>
+    <defName>BetaElk_Female_PJ_ScoutTrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ScoutTrooper">
+    <race>BetaElk_Male</race>
+    <label>beta elk Scout trooper</label>
+    <defName>BetaElk_Male_PJ_ScoutTrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ScoutTrooper">
+    <race>BetaFox</race>
+    <label>beta fox Scout trooper</label>
+    <defName>BetaFox_PJ_ScoutTrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ScoutTrooper">
+    <race>BetaGazelle</race>
+    <label>beta gazelle Scout trooper</label>
+    <defName>BetaGazelle_PJ_ScoutTrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ScoutTrooper">
+    <race>BetaHog</race>
+    <label>beta hog Scout trooper</label>
+    <defName>BetaHog_PJ_ScoutTrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ScoutTrooper">
+    <race>BetaLynx</race>
+    <label>beta lynx Scout trooper</label>
+    <defName>BetaLynx_PJ_ScoutTrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ScoutTrooper">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon Scout trooper</label>
+    <defName>BetaRaccoon_PJ_ScoutTrooper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PJ_ScoutTrooper">
+    <race>BetaWolf</race>
+    <label>beta wolf Scout trooper</label>
+    <defName>BetaWolf_PJ_ScoutTrooper</defName>
+  </PawnKindDef>
+</Defs>
