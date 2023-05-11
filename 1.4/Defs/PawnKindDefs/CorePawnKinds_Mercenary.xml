@@ -1,0 +1,783 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_Destructive">
+    <race>BetaBear</race>
+    <label>beta bear grenadier</label>
+    <defName>BetaBear_Grenadier_Destructive</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_Destructive">
+    <race>BetaCamel</race>
+    <label>beta camel grenadier</label>
+    <defName>BetaCamel_Grenadier_Destructive</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_Destructive">
+    <race>BetaCroc</race>
+    <label>beta crocodile grenadier</label>
+    <defName>BetaCroc_Grenadier_Destructive</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_Destructive">
+    <race>BetaElephant</race>
+    <label>beta elephant grenadier</label>
+    <defName>BetaElephant_Grenadier_Destructive</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_Destructive">
+    <race>BetaElk_Female</race>
+    <label>beta elk grenadier</label>
+    <defName>BetaElk_Female_Grenadier_Destructive</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_Destructive">
+    <race>BetaElk_Male</race>
+    <label>beta elk grenadier</label>
+    <defName>BetaElk_Male_Grenadier_Destructive</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_Destructive">
+    <race>BetaFox</race>
+    <label>beta fox grenadier</label>
+    <defName>BetaFox_Grenadier_Destructive</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_Destructive">
+    <race>BetaGazelle</race>
+    <label>beta gazelle grenadier</label>
+    <defName>BetaGazelle_Grenadier_Destructive</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_Destructive">
+    <race>BetaHog</race>
+    <label>beta hog grenadier</label>
+    <defName>BetaHog_Grenadier_Destructive</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_Destructive">
+    <race>BetaLynx</race>
+    <label>beta lynx grenadier</label>
+    <defName>BetaLynx_Grenadier_Destructive</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_Destructive">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon grenadier</label>
+    <defName>BetaRaccoon_Grenadier_Destructive</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_Destructive">
+    <race>BetaWolf</race>
+    <label>beta wolf grenadier</label>
+    <defName>BetaWolf_Grenadier_Destructive</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_EMP">
+    <race>BetaBear</race>
+    <label>beta bear EMP grenadier</label>
+    <defName>BetaBear_Grenadier_EMP</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_EMP">
+    <race>BetaCamel</race>
+    <label>beta camel EMP grenadier</label>
+    <defName>BetaCamel_Grenadier_EMP</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_EMP">
+    <race>BetaCroc</race>
+    <label>beta crocodile EMP grenadier</label>
+    <defName>BetaCroc_Grenadier_EMP</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_EMP">
+    <race>BetaElephant</race>
+    <label>beta elephant EMP grenadier</label>
+    <defName>BetaElephant_Grenadier_EMP</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_EMP">
+    <race>BetaElk_Female</race>
+    <label>beta elk EMP grenadier</label>
+    <defName>BetaElk_Female_Grenadier_EMP</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_EMP">
+    <race>BetaElk_Male</race>
+    <label>beta elk EMP grenadier</label>
+    <defName>BetaElk_Male_Grenadier_EMP</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_EMP">
+    <race>BetaFox</race>
+    <label>beta fox EMP grenadier</label>
+    <defName>BetaFox_Grenadier_EMP</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_EMP">
+    <race>BetaGazelle</race>
+    <label>beta gazelle EMP grenadier</label>
+    <defName>BetaGazelle_Grenadier_EMP</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_EMP">
+    <race>BetaHog</race>
+    <label>beta hog EMP grenadier</label>
+    <defName>BetaHog_Grenadier_EMP</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_EMP">
+    <race>BetaLynx</race>
+    <label>beta lynx EMP grenadier</label>
+    <defName>BetaLynx_Grenadier_EMP</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_EMP">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon EMP grenadier</label>
+    <defName>BetaRaccoon_Grenadier_EMP</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_EMP">
+    <race>BetaWolf</race>
+    <label>beta wolf EMP grenadier</label>
+    <defName>BetaWolf_Grenadier_EMP</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_Smoke">
+    <race>BetaBear</race>
+    <label>beta bear smoke grenadier</label>
+    <defName>BetaBear_Grenadier_Smoke</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_Smoke">
+    <race>BetaCamel</race>
+    <label>beta camel smoke grenadier</label>
+    <defName>BetaCamel_Grenadier_Smoke</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_Smoke">
+    <race>BetaCroc</race>
+    <label>beta crocodile smoke grenadier</label>
+    <defName>BetaCroc_Grenadier_Smoke</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_Smoke">
+    <race>BetaElephant</race>
+    <label>beta elephant smoke grenadier</label>
+    <defName>BetaElephant_Grenadier_Smoke</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_Smoke">
+    <race>BetaElk_Female</race>
+    <label>beta elk smoke grenadier</label>
+    <defName>BetaElk_Female_Grenadier_Smoke</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_Smoke">
+    <race>BetaElk_Male</race>
+    <label>beta elk smoke grenadier</label>
+    <defName>BetaElk_Male_Grenadier_Smoke</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_Smoke">
+    <race>BetaFox</race>
+    <label>beta fox smoke grenadier</label>
+    <defName>BetaFox_Grenadier_Smoke</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_Smoke">
+    <race>BetaGazelle</race>
+    <label>beta gazelle smoke grenadier</label>
+    <defName>BetaGazelle_Grenadier_Smoke</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_Smoke">
+    <race>BetaHog</race>
+    <label>beta hog smoke grenadier</label>
+    <defName>BetaHog_Grenadier_Smoke</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_Smoke">
+    <race>BetaLynx</race>
+    <label>beta lynx smoke grenadier</label>
+    <defName>BetaLynx_Grenadier_Smoke</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_Smoke">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon smoke grenadier</label>
+    <defName>BetaRaccoon_Grenadier_Smoke</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Grenadier_Smoke">
+    <race>BetaWolf</race>
+    <label>beta wolf smoke grenadier</label>
+    <defName>BetaWolf_Grenadier_Smoke</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Gunner">
+    <race>BetaBear</race>
+    <label>beta bear mercenary gunner</label>
+    <defName>BetaBear_Mercenary_Gunner</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Gunner">
+    <race>BetaCamel</race>
+    <label>beta camel mercenary gunner</label>
+    <defName>BetaCamel_Mercenary_Gunner</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Gunner">
+    <race>BetaCroc</race>
+    <label>beta crocodile mercenary gunner</label>
+    <defName>BetaCroc_Mercenary_Gunner</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Gunner">
+    <race>BetaElephant</race>
+    <label>beta elephant mercenary gunner</label>
+    <defName>BetaElephant_Mercenary_Gunner</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Gunner">
+    <race>BetaElk_Female</race>
+    <label>beta elk mercenary gunner</label>
+    <defName>BetaElk_Female_Mercenary_Gunner</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Gunner">
+    <race>BetaElk_Male</race>
+    <label>beta elk mercenary gunner</label>
+    <defName>BetaElk_Male_Mercenary_Gunner</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Gunner">
+    <race>BetaFox</race>
+    <label>beta fox mercenary gunner</label>
+    <defName>BetaFox_Mercenary_Gunner</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Gunner">
+    <race>BetaGazelle</race>
+    <label>beta gazelle mercenary gunner</label>
+    <defName>BetaGazelle_Mercenary_Gunner</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Gunner">
+    <race>BetaHog</race>
+    <label>beta hog mercenary gunner</label>
+    <defName>BetaHog_Mercenary_Gunner</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Gunner">
+    <race>BetaLynx</race>
+    <label>beta lynx mercenary gunner</label>
+    <defName>BetaLynx_Mercenary_Gunner</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Gunner">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon mercenary gunner</label>
+    <defName>BetaRaccoon_Mercenary_Gunner</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Gunner">
+    <race>BetaWolf</race>
+    <label>beta wolf mercenary gunner</label>
+    <defName>BetaWolf_Mercenary_Gunner</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Gunner_Acidifier">
+    <race>BetaBear</race>
+    <label>beta bear mercenary gunner</label>
+    <defName>BetaBear_Mercenary_Gunner_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Gunner_Acidifier">
+    <race>BetaCamel</race>
+    <label>beta camel mercenary gunner</label>
+    <defName>BetaCamel_Mercenary_Gunner_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Gunner_Acidifier">
+    <race>BetaCroc</race>
+    <label>beta crocodile mercenary gunner</label>
+    <defName>BetaCroc_Mercenary_Gunner_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Gunner_Acidifier">
+    <race>BetaElephant</race>
+    <label>beta elephant mercenary gunner</label>
+    <defName>BetaElephant_Mercenary_Gunner_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Gunner_Acidifier">
+    <race>BetaElk_Female</race>
+    <label>beta elk mercenary gunner</label>
+    <defName>BetaElk_Female_Mercenary_Gunner_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Gunner_Acidifier">
+    <race>BetaElk_Male</race>
+    <label>beta elk mercenary gunner</label>
+    <defName>BetaElk_Male_Mercenary_Gunner_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Gunner_Acidifier">
+    <race>BetaFox</race>
+    <label>beta fox mercenary gunner</label>
+    <defName>BetaFox_Mercenary_Gunner_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Gunner_Acidifier">
+    <race>BetaGazelle</race>
+    <label>beta gazelle mercenary gunner</label>
+    <defName>BetaGazelle_Mercenary_Gunner_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Gunner_Acidifier">
+    <race>BetaHog</race>
+    <label>beta hog mercenary gunner</label>
+    <defName>BetaHog_Mercenary_Gunner_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Gunner_Acidifier">
+    <race>BetaLynx</race>
+    <label>beta lynx mercenary gunner</label>
+    <defName>BetaLynx_Mercenary_Gunner_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Gunner_Acidifier">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon mercenary gunner</label>
+    <defName>BetaRaccoon_Mercenary_Gunner_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Gunner_Acidifier">
+    <race>BetaWolf</race>
+    <label>beta wolf mercenary gunner</label>
+    <defName>BetaWolf_Mercenary_Gunner_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Sniper">
+    <race>BetaBear</race>
+    <label>beta bear mercenary sniper</label>
+    <defName>BetaBear_Mercenary_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Sniper">
+    <race>BetaCamel</race>
+    <label>beta camel mercenary sniper</label>
+    <defName>BetaCamel_Mercenary_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Sniper">
+    <race>BetaCroc</race>
+    <label>beta crocodile mercenary sniper</label>
+    <defName>BetaCroc_Mercenary_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Sniper">
+    <race>BetaElephant</race>
+    <label>beta elephant mercenary sniper</label>
+    <defName>BetaElephant_Mercenary_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Sniper">
+    <race>BetaElk_Female</race>
+    <label>beta elk mercenary sniper</label>
+    <defName>BetaElk_Female_Mercenary_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Sniper">
+    <race>BetaElk_Male</race>
+    <label>beta elk mercenary sniper</label>
+    <defName>BetaElk_Male_Mercenary_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Sniper">
+    <race>BetaFox</race>
+    <label>beta fox mercenary sniper</label>
+    <defName>BetaFox_Mercenary_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Sniper">
+    <race>BetaGazelle</race>
+    <label>beta gazelle mercenary sniper</label>
+    <defName>BetaGazelle_Mercenary_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Sniper">
+    <race>BetaHog</race>
+    <label>beta hog mercenary sniper</label>
+    <defName>BetaHog_Mercenary_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Sniper">
+    <race>BetaLynx</race>
+    <label>beta lynx mercenary sniper</label>
+    <defName>BetaLynx_Mercenary_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Sniper">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon mercenary sniper</label>
+    <defName>BetaRaccoon_Mercenary_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Sniper">
+    <race>BetaWolf</race>
+    <label>beta wolf mercenary sniper</label>
+    <defName>BetaWolf_Mercenary_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Sniper_Acidifier">
+    <race>BetaBear</race>
+    <label>beta bear mercenary sniper</label>
+    <defName>BetaBear_Mercenary_Sniper_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Sniper_Acidifier">
+    <race>BetaCamel</race>
+    <label>beta camel mercenary sniper</label>
+    <defName>BetaCamel_Mercenary_Sniper_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Sniper_Acidifier">
+    <race>BetaCroc</race>
+    <label>beta crocodile mercenary sniper</label>
+    <defName>BetaCroc_Mercenary_Sniper_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Sniper_Acidifier">
+    <race>BetaElephant</race>
+    <label>beta elephant mercenary sniper</label>
+    <defName>BetaElephant_Mercenary_Sniper_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Sniper_Acidifier">
+    <race>BetaElk_Female</race>
+    <label>beta elk mercenary sniper</label>
+    <defName>BetaElk_Female_Mercenary_Sniper_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Sniper_Acidifier">
+    <race>BetaElk_Male</race>
+    <label>beta elk mercenary sniper</label>
+    <defName>BetaElk_Male_Mercenary_Sniper_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Sniper_Acidifier">
+    <race>BetaFox</race>
+    <label>beta fox mercenary sniper</label>
+    <defName>BetaFox_Mercenary_Sniper_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Sniper_Acidifier">
+    <race>BetaGazelle</race>
+    <label>beta gazelle mercenary sniper</label>
+    <defName>BetaGazelle_Mercenary_Sniper_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Sniper_Acidifier">
+    <race>BetaHog</race>
+    <label>beta hog mercenary sniper</label>
+    <defName>BetaHog_Mercenary_Sniper_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Sniper_Acidifier">
+    <race>BetaLynx</race>
+    <label>beta lynx mercenary sniper</label>
+    <defName>BetaLynx_Mercenary_Sniper_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Sniper_Acidifier">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon mercenary sniper</label>
+    <defName>BetaRaccoon_Mercenary_Sniper_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Sniper_Acidifier">
+    <race>BetaWolf</race>
+    <label>beta wolf mercenary sniper</label>
+    <defName>BetaWolf_Mercenary_Sniper_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Slasher">
+    <race>BetaBear</race>
+    <label>beta bear mercenary slasher</label>
+    <defName>BetaBear_Mercenary_Slasher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Slasher">
+    <race>BetaCamel</race>
+    <label>beta camel mercenary slasher</label>
+    <defName>BetaCamel_Mercenary_Slasher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Slasher">
+    <race>BetaCroc</race>
+    <label>beta crocodile mercenary slasher</label>
+    <defName>BetaCroc_Mercenary_Slasher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Slasher">
+    <race>BetaElephant</race>
+    <label>beta elephant mercenary slasher</label>
+    <defName>BetaElephant_Mercenary_Slasher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Slasher">
+    <race>BetaElk_Female</race>
+    <label>beta elk mercenary slasher</label>
+    <defName>BetaElk_Female_Mercenary_Slasher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Slasher">
+    <race>BetaElk_Male</race>
+    <label>beta elk mercenary slasher</label>
+    <defName>BetaElk_Male_Mercenary_Slasher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Slasher">
+    <race>BetaFox</race>
+    <label>beta fox mercenary slasher</label>
+    <defName>BetaFox_Mercenary_Slasher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Slasher">
+    <race>BetaGazelle</race>
+    <label>beta gazelle mercenary slasher</label>
+    <defName>BetaGazelle_Mercenary_Slasher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Slasher">
+    <race>BetaHog</race>
+    <label>beta hog mercenary slasher</label>
+    <defName>BetaHog_Mercenary_Slasher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Slasher">
+    <race>BetaLynx</race>
+    <label>beta lynx mercenary slasher</label>
+    <defName>BetaLynx_Mercenary_Slasher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Slasher">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon mercenary slasher</label>
+    <defName>BetaRaccoon_Mercenary_Slasher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Slasher">
+    <race>BetaWolf</race>
+    <label>beta wolf mercenary slasher</label>
+    <defName>BetaWolf_Mercenary_Slasher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Slasher_Acidifier">
+    <race>BetaBear</race>
+    <label>beta bear mercenary slasher</label>
+    <defName>BetaBear_Mercenary_Slasher_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Slasher_Acidifier">
+    <race>BetaCamel</race>
+    <label>beta camel mercenary slasher</label>
+    <defName>BetaCamel_Mercenary_Slasher_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Slasher_Acidifier">
+    <race>BetaCroc</race>
+    <label>beta crocodile mercenary slasher</label>
+    <defName>BetaCroc_Mercenary_Slasher_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Slasher_Acidifier">
+    <race>BetaElephant</race>
+    <label>beta elephant mercenary slasher</label>
+    <defName>BetaElephant_Mercenary_Slasher_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Slasher_Acidifier">
+    <race>BetaElk_Female</race>
+    <label>beta elk mercenary slasher</label>
+    <defName>BetaElk_Female_Mercenary_Slasher_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Slasher_Acidifier">
+    <race>BetaElk_Male</race>
+    <label>beta elk mercenary slasher</label>
+    <defName>BetaElk_Male_Mercenary_Slasher_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Slasher_Acidifier">
+    <race>BetaFox</race>
+    <label>beta fox mercenary slasher</label>
+    <defName>BetaFox_Mercenary_Slasher_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Slasher_Acidifier">
+    <race>BetaGazelle</race>
+    <label>beta gazelle mercenary slasher</label>
+    <defName>BetaGazelle_Mercenary_Slasher_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Slasher_Acidifier">
+    <race>BetaHog</race>
+    <label>beta hog mercenary slasher</label>
+    <defName>BetaHog_Mercenary_Slasher_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Slasher_Acidifier">
+    <race>BetaLynx</race>
+    <label>beta lynx mercenary slasher</label>
+    <defName>BetaLynx_Mercenary_Slasher_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Slasher_Acidifier">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon mercenary slasher</label>
+    <defName>BetaRaccoon_Mercenary_Slasher_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Slasher_Acidifier">
+    <race>BetaWolf</race>
+    <label>beta wolf mercenary slasher</label>
+    <defName>BetaWolf_Mercenary_Slasher_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Heavy">
+    <race>BetaBear</race>
+    <label>beta bear heavy mercenary</label>
+    <defName>BetaBear_Mercenary_Heavy</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Heavy">
+    <race>BetaCamel</race>
+    <label>beta camel heavy mercenary</label>
+    <defName>BetaCamel_Mercenary_Heavy</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Heavy">
+    <race>BetaCroc</race>
+    <label>beta crocodile heavy mercenary</label>
+    <defName>BetaCroc_Mercenary_Heavy</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Heavy">
+    <race>BetaElephant</race>
+    <label>beta elephant heavy mercenary</label>
+    <defName>BetaElephant_Mercenary_Heavy</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Heavy">
+    <race>BetaElk_Female</race>
+    <label>beta elk heavy mercenary</label>
+    <defName>BetaElk_Female_Mercenary_Heavy</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Heavy">
+    <race>BetaElk_Male</race>
+    <label>beta elk heavy mercenary</label>
+    <defName>BetaElk_Male_Mercenary_Heavy</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Heavy">
+    <race>BetaFox</race>
+    <label>beta fox heavy mercenary</label>
+    <defName>BetaFox_Mercenary_Heavy</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Heavy">
+    <race>BetaGazelle</race>
+    <label>beta gazelle heavy mercenary</label>
+    <defName>BetaGazelle_Mercenary_Heavy</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Heavy">
+    <race>BetaHog</race>
+    <label>beta hog heavy mercenary</label>
+    <defName>BetaHog_Mercenary_Heavy</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Heavy">
+    <race>BetaLynx</race>
+    <label>beta lynx heavy mercenary</label>
+    <defName>BetaLynx_Mercenary_Heavy</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Heavy">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon heavy mercenary</label>
+    <defName>BetaRaccoon_Mercenary_Heavy</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Heavy">
+    <race>BetaWolf</race>
+    <label>beta wolf heavy mercenary</label>
+    <defName>BetaWolf_Mercenary_Heavy</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PirateBoss">
+    <race>BetaBear</race>
+    <label>beta bear boss</label>
+    <defName>BetaBear_PirateBoss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PirateBoss">
+    <race>BetaCamel</race>
+    <label>beta camel boss</label>
+    <defName>BetaCamel_PirateBoss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PirateBoss">
+    <race>BetaCroc</race>
+    <label>beta crocodile boss</label>
+    <defName>BetaCroc_PirateBoss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PirateBoss">
+    <race>BetaElephant</race>
+    <label>beta elephant boss</label>
+    <defName>BetaElephant_PirateBoss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PirateBoss">
+    <race>BetaElk_Female</race>
+    <label>beta elk boss</label>
+    <defName>BetaElk_Female_PirateBoss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PirateBoss">
+    <race>BetaElk_Male</race>
+    <label>beta elk boss</label>
+    <defName>BetaElk_Male_PirateBoss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PirateBoss">
+    <race>BetaFox</race>
+    <label>beta fox boss</label>
+    <defName>BetaFox_PirateBoss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PirateBoss">
+    <race>BetaGazelle</race>
+    <label>beta gazelle boss</label>
+    <defName>BetaGazelle_PirateBoss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PirateBoss">
+    <race>BetaHog</race>
+    <label>beta hog boss</label>
+    <defName>BetaHog_PirateBoss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PirateBoss">
+    <race>BetaLynx</race>
+    <label>beta lynx boss</label>
+    <defName>BetaLynx_PirateBoss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PirateBoss">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon boss</label>
+    <defName>BetaRaccoon_PirateBoss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PirateBoss">
+    <race>BetaWolf</race>
+    <label>beta wolf boss</label>
+    <defName>BetaWolf_PirateBoss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Elite">
+    <race>BetaBear</race>
+    <label>beta bear elite mercenary</label>
+    <defName>BetaBear_Mercenary_Elite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Elite">
+    <race>BetaCamel</race>
+    <label>beta camel elite mercenary</label>
+    <defName>BetaCamel_Mercenary_Elite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Elite">
+    <race>BetaCroc</race>
+    <label>beta crocodile elite mercenary</label>
+    <defName>BetaCroc_Mercenary_Elite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Elite">
+    <race>BetaElephant</race>
+    <label>beta elephant elite mercenary</label>
+    <defName>BetaElephant_Mercenary_Elite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Elite">
+    <race>BetaElk_Female</race>
+    <label>beta elk elite mercenary</label>
+    <defName>BetaElk_Female_Mercenary_Elite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Elite">
+    <race>BetaElk_Male</race>
+    <label>beta elk elite mercenary</label>
+    <defName>BetaElk_Male_Mercenary_Elite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Elite">
+    <race>BetaFox</race>
+    <label>beta fox elite mercenary</label>
+    <defName>BetaFox_Mercenary_Elite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Elite">
+    <race>BetaGazelle</race>
+    <label>beta gazelle elite mercenary</label>
+    <defName>BetaGazelle_Mercenary_Elite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Elite">
+    <race>BetaHog</race>
+    <label>beta hog elite mercenary</label>
+    <defName>BetaHog_Mercenary_Elite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Elite">
+    <race>BetaLynx</race>
+    <label>beta lynx elite mercenary</label>
+    <defName>BetaLynx_Mercenary_Elite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Elite">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon elite mercenary</label>
+    <defName>BetaRaccoon_Mercenary_Elite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Elite">
+    <race>BetaWolf</race>
+    <label>beta wolf elite mercenary</label>
+    <defName>BetaWolf_Mercenary_Elite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Elite_Acidifier">
+    <race>BetaBear</race>
+    <label>beta bear elite mercenary</label>
+    <defName>BetaBear_Mercenary_Elite_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Elite_Acidifier">
+    <race>BetaCamel</race>
+    <label>beta camel elite mercenary</label>
+    <defName>BetaCamel_Mercenary_Elite_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Elite_Acidifier">
+    <race>BetaCroc</race>
+    <label>beta crocodile elite mercenary</label>
+    <defName>BetaCroc_Mercenary_Elite_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Elite_Acidifier">
+    <race>BetaElephant</race>
+    <label>beta elephant elite mercenary</label>
+    <defName>BetaElephant_Mercenary_Elite_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Elite_Acidifier">
+    <race>BetaElk_Female</race>
+    <label>beta elk elite mercenary</label>
+    <defName>BetaElk_Female_Mercenary_Elite_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Elite_Acidifier">
+    <race>BetaElk_Male</race>
+    <label>beta elk elite mercenary</label>
+    <defName>BetaElk_Male_Mercenary_Elite_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Elite_Acidifier">
+    <race>BetaFox</race>
+    <label>beta fox elite mercenary</label>
+    <defName>BetaFox_Mercenary_Elite_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Elite_Acidifier">
+    <race>BetaGazelle</race>
+    <label>beta gazelle elite mercenary</label>
+    <defName>BetaGazelle_Mercenary_Elite_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Elite_Acidifier">
+    <race>BetaHog</race>
+    <label>beta hog elite mercenary</label>
+    <defName>BetaHog_Mercenary_Elite_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Elite_Acidifier">
+    <race>BetaLynx</race>
+    <label>beta lynx elite mercenary</label>
+    <defName>BetaLynx_Mercenary_Elite_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Elite_Acidifier">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon elite mercenary</label>
+    <defName>BetaRaccoon_Mercenary_Elite_Acidifier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Mercenary_Elite_Acidifier">
+    <race>BetaWolf</race>
+    <label>beta wolf elite mercenary</label>
+    <defName>BetaWolf_Mercenary_Elite_Acidifier</defName>
+  </PawnKindDef>
+</Defs>

@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[defName="VFEV_VikingsClan"]/pawnGroupMakers</xpath>
+    <value>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <Farmer>1</Farmer>
+          <BetaBear_Farmer>1.00</BetaBear_Farmer>
+          <BetaCamel_Farmer>1.00</BetaCamel_Farmer>
+          <BetaCroc_Farmer>0.70</BetaCroc_Farmer>
+          <BetaElephant_Farmer>0.25</BetaElephant_Farmer>
+          <BetaElk_Female_Farmer>0.05</BetaElk_Female_Farmer>
+          <BetaElk_Male_Farmer>0.05</BetaElk_Male_Farmer>
+          <BetaFox_Farmer>1.00</BetaFox_Farmer>
+          <BetaGazelle_Farmer>1.00</BetaGazelle_Farmer>
+          <BetaHog_Farmer>1.00</BetaHog_Farmer>
+          <BetaLynx_Farmer>1.00</BetaLynx_Farmer>
+          <BetaRaccoon_Farmer>1.00</BetaRaccoon_Farmer>
+          <BetaWolf_Farmer>1.00</BetaWolf_Farmer>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaBear_Farmer>1.00</BetaBear_Farmer>
+          <BetaCamel_Farmer>1.00</BetaCamel_Farmer>
+          <BetaCroc_Farmer>0.70</BetaCroc_Farmer>
+          <BetaElephant_Farmer>0.25</BetaElephant_Farmer>
+          <BetaElk_Female_Farmer>0.05</BetaElk_Female_Farmer>
+          <BetaElk_Male_Farmer>0.05</BetaElk_Male_Farmer>
+          <BetaFox_Farmer>1.00</BetaFox_Farmer>
+          <BetaGazelle_Farmer>1.00</BetaGazelle_Farmer>
+          <BetaHog_Farmer>1.00</BetaHog_Farmer>
+          <BetaLynx_Farmer>1.00</BetaLynx_Farmer>
+          <BetaRaccoon_Farmer>1.00</BetaRaccoon_Farmer>
+          <BetaWolf_Farmer>1.00</BetaWolf_Farmer>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaBear_Farmer>1.00</BetaBear_Farmer>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaCamel_Farmer>1.00</BetaCamel_Farmer>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaCroc_Farmer>0.70</BetaCroc_Farmer>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaElephant_Farmer>0.25</BetaElephant_Farmer>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaElk_Female_Farmer>0.05</BetaElk_Female_Farmer>
+          <BetaElk_Male_Farmer>0.05</BetaElk_Male_Farmer>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaFox_Farmer>1.00</BetaFox_Farmer>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaGazelle_Farmer>1.00</BetaGazelle_Farmer>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaHog_Farmer>1.00</BetaHog_Farmer>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaLynx_Farmer>1.00</BetaLynx_Farmer>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaRaccoon_Farmer>1.00</BetaRaccoon_Farmer>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaWolf_Farmer>1.00</BetaWolf_Farmer>
+        </options>
+      </li>
+    </value>
+  </Operation>
+</Patch>

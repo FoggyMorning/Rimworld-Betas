@@ -1,0 +1,603 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalWarrior">
+    <race>BetaBear</race>
+    <label>beta bear warmonger</label>
+    <defName>BetaBear_NorbalWarrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalWarrior">
+    <race>BetaCamel</race>
+    <label>beta camel warmonger</label>
+    <defName>BetaCamel_NorbalWarrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalWarrior">
+    <race>BetaCroc</race>
+    <label>beta crocodile warmonger</label>
+    <defName>BetaCroc_NorbalWarrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalWarrior">
+    <race>BetaElephant</race>
+    <label>beta elephant warmonger</label>
+    <defName>BetaElephant_NorbalWarrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalWarrior">
+    <race>BetaElk_Female</race>
+    <label>beta elk warmonger</label>
+    <defName>BetaElk_Female_NorbalWarrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalWarrior">
+    <race>BetaElk_Male</race>
+    <label>beta elk warmonger</label>
+    <defName>BetaElk_Male_NorbalWarrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalWarrior">
+    <race>BetaFox</race>
+    <label>beta fox warmonger</label>
+    <defName>BetaFox_NorbalWarrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalWarrior">
+    <race>BetaGazelle</race>
+    <label>beta gazelle warmonger</label>
+    <defName>BetaGazelle_NorbalWarrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalWarrior">
+    <race>BetaHog</race>
+    <label>beta hog warmonger</label>
+    <defName>BetaHog_NorbalWarrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalWarrior">
+    <race>BetaLynx</race>
+    <label>beta lynx warmonger</label>
+    <defName>BetaLynx_NorbalWarrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalWarrior">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon warmonger</label>
+    <defName>BetaRaccoon_NorbalWarrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalWarrior">
+    <race>BetaWolf</race>
+    <label>beta wolf warmonger</label>
+    <defName>BetaWolf_NorbalWarrior</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalRager">
+    <race>BetaBear</race>
+    <label>beta bear Berserker</label>
+    <defName>BetaBear_NorbalRager</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalRager">
+    <race>BetaCamel</race>
+    <label>beta camel Berserker</label>
+    <defName>BetaCamel_NorbalRager</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalRager">
+    <race>BetaCroc</race>
+    <label>beta crocodile Berserker</label>
+    <defName>BetaCroc_NorbalRager</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalRager">
+    <race>BetaElephant</race>
+    <label>beta elephant Berserker</label>
+    <defName>BetaElephant_NorbalRager</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalRager">
+    <race>BetaElk_Female</race>
+    <label>beta elk Berserker</label>
+    <defName>BetaElk_Female_NorbalRager</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalRager">
+    <race>BetaElk_Male</race>
+    <label>beta elk Berserker</label>
+    <defName>BetaElk_Male_NorbalRager</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalRager">
+    <race>BetaFox</race>
+    <label>beta fox Berserker</label>
+    <defName>BetaFox_NorbalRager</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalRager">
+    <race>BetaGazelle</race>
+    <label>beta gazelle Berserker</label>
+    <defName>BetaGazelle_NorbalRager</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalRager">
+    <race>BetaHog</race>
+    <label>beta hog Berserker</label>
+    <defName>BetaHog_NorbalRager</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalRager">
+    <race>BetaLynx</race>
+    <label>beta lynx Berserker</label>
+    <defName>BetaLynx_NorbalRager</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalRager">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon Berserker</label>
+    <defName>BetaRaccoon_NorbalRager</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalRager">
+    <race>BetaWolf</race>
+    <label>beta wolf Berserker</label>
+    <defName>BetaWolf_NorbalRager</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalDestroyer">
+    <race>BetaBear</race>
+    <label>beta bear Thunderer</label>
+    <defName>BetaBear_NorbalDestroyer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalDestroyer">
+    <race>BetaCamel</race>
+    <label>beta camel Thunderer</label>
+    <defName>BetaCamel_NorbalDestroyer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalDestroyer">
+    <race>BetaCroc</race>
+    <label>beta crocodile Thunderer</label>
+    <defName>BetaCroc_NorbalDestroyer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalDestroyer">
+    <race>BetaElephant</race>
+    <label>beta elephant Thunderer</label>
+    <defName>BetaElephant_NorbalDestroyer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalDestroyer">
+    <race>BetaElk_Female</race>
+    <label>beta elk Thunderer</label>
+    <defName>BetaElk_Female_NorbalDestroyer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalDestroyer">
+    <race>BetaElk_Male</race>
+    <label>beta elk Thunderer</label>
+    <defName>BetaElk_Male_NorbalDestroyer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalDestroyer">
+    <race>BetaFox</race>
+    <label>beta fox Thunderer</label>
+    <defName>BetaFox_NorbalDestroyer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalDestroyer">
+    <race>BetaGazelle</race>
+    <label>beta gazelle Thunderer</label>
+    <defName>BetaGazelle_NorbalDestroyer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalDestroyer">
+    <race>BetaHog</race>
+    <label>beta hog Thunderer</label>
+    <defName>BetaHog_NorbalDestroyer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalDestroyer">
+    <race>BetaLynx</race>
+    <label>beta lynx Thunderer</label>
+    <defName>BetaLynx_NorbalDestroyer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalDestroyer">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon Thunderer</label>
+    <defName>BetaRaccoon_NorbalDestroyer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalDestroyer">
+    <race>BetaWolf</race>
+    <label>beta wolf Thunderer</label>
+    <defName>BetaWolf_NorbalDestroyer</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalArcher">
+    <race>BetaBear</race>
+    <label>beta bear skirmisher</label>
+    <defName>BetaBear_NorbalArcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalArcher">
+    <race>BetaCamel</race>
+    <label>beta camel skirmisher</label>
+    <defName>BetaCamel_NorbalArcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalArcher">
+    <race>BetaCroc</race>
+    <label>beta crocodile skirmisher</label>
+    <defName>BetaCroc_NorbalArcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalArcher">
+    <race>BetaElephant</race>
+    <label>beta elephant skirmisher</label>
+    <defName>BetaElephant_NorbalArcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalArcher">
+    <race>BetaElk_Female</race>
+    <label>beta elk skirmisher</label>
+    <defName>BetaElk_Female_NorbalArcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalArcher">
+    <race>BetaElk_Male</race>
+    <label>beta elk skirmisher</label>
+    <defName>BetaElk_Male_NorbalArcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalArcher">
+    <race>BetaFox</race>
+    <label>beta fox skirmisher</label>
+    <defName>BetaFox_NorbalArcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalArcher">
+    <race>BetaGazelle</race>
+    <label>beta gazelle skirmisher</label>
+    <defName>BetaGazelle_NorbalArcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalArcher">
+    <race>BetaHog</race>
+    <label>beta hog skirmisher</label>
+    <defName>BetaHog_NorbalArcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalArcher">
+    <race>BetaLynx</race>
+    <label>beta lynx skirmisher</label>
+    <defName>BetaLynx_NorbalArcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalArcher">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon skirmisher</label>
+    <defName>BetaRaccoon_NorbalArcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalArcher">
+    <race>BetaWolf</race>
+    <label>beta wolf skirmisher</label>
+    <defName>BetaWolf_NorbalArcher</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalSage">
+    <race>BetaBear</race>
+    <label>beta bear Sage</label>
+    <defName>BetaBear_NorbalSage</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalSage">
+    <race>BetaCamel</race>
+    <label>beta camel Sage</label>
+    <defName>BetaCamel_NorbalSage</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalSage">
+    <race>BetaCroc</race>
+    <label>beta crocodile Sage</label>
+    <defName>BetaCroc_NorbalSage</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalSage">
+    <race>BetaElephant</race>
+    <label>beta elephant Sage</label>
+    <defName>BetaElephant_NorbalSage</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalSage">
+    <race>BetaElk_Female</race>
+    <label>beta elk Sage</label>
+    <defName>BetaElk_Female_NorbalSage</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalSage">
+    <race>BetaElk_Male</race>
+    <label>beta elk Sage</label>
+    <defName>BetaElk_Male_NorbalSage</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalSage">
+    <race>BetaFox</race>
+    <label>beta fox Sage</label>
+    <defName>BetaFox_NorbalSage</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalSage">
+    <race>BetaGazelle</race>
+    <label>beta gazelle Sage</label>
+    <defName>BetaGazelle_NorbalSage</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalSage">
+    <race>BetaHog</race>
+    <label>beta hog Sage</label>
+    <defName>BetaHog_NorbalSage</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalSage">
+    <race>BetaLynx</race>
+    <label>beta lynx Sage</label>
+    <defName>BetaLynx_NorbalSage</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalSage">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon Sage</label>
+    <defName>BetaRaccoon_NorbalSage</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalSage">
+    <race>BetaWolf</race>
+    <label>beta wolf Sage</label>
+    <defName>BetaWolf_NorbalSage</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalGrandSage">
+    <race>BetaBear</race>
+    <label>beta bear Sage</label>
+    <defName>BetaBear_NorbalGrandSage</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalGrandSage">
+    <race>BetaCamel</race>
+    <label>beta camel Sage</label>
+    <defName>BetaCamel_NorbalGrandSage</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalGrandSage">
+    <race>BetaCroc</race>
+    <label>beta crocodile Sage</label>
+    <defName>BetaCroc_NorbalGrandSage</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalGrandSage">
+    <race>BetaElephant</race>
+    <label>beta elephant Sage</label>
+    <defName>BetaElephant_NorbalGrandSage</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalGrandSage">
+    <race>BetaElk_Female</race>
+    <label>beta elk Sage</label>
+    <defName>BetaElk_Female_NorbalGrandSage</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalGrandSage">
+    <race>BetaElk_Male</race>
+    <label>beta elk Sage</label>
+    <defName>BetaElk_Male_NorbalGrandSage</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalGrandSage">
+    <race>BetaFox</race>
+    <label>beta fox Sage</label>
+    <defName>BetaFox_NorbalGrandSage</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalGrandSage">
+    <race>BetaGazelle</race>
+    <label>beta gazelle Sage</label>
+    <defName>BetaGazelle_NorbalGrandSage</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalGrandSage">
+    <race>BetaHog</race>
+    <label>beta hog Sage</label>
+    <defName>BetaHog_NorbalGrandSage</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalGrandSage">
+    <race>BetaLynx</race>
+    <label>beta lynx Sage</label>
+    <defName>BetaLynx_NorbalGrandSage</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalGrandSage">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon Sage</label>
+    <defName>BetaRaccoon_NorbalGrandSage</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalGrandSage">
+    <race>BetaWolf</race>
+    <label>beta wolf Sage</label>
+    <defName>BetaWolf_NorbalGrandSage</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalHero">
+    <race>BetaBear</race>
+    <label>beta bear hersir</label>
+    <defName>BetaBear_NorbalHero</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalHero">
+    <race>BetaCamel</race>
+    <label>beta camel hersir</label>
+    <defName>BetaCamel_NorbalHero</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalHero">
+    <race>BetaCroc</race>
+    <label>beta crocodile hersir</label>
+    <defName>BetaCroc_NorbalHero</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalHero">
+    <race>BetaElephant</race>
+    <label>beta elephant hersir</label>
+    <defName>BetaElephant_NorbalHero</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalHero">
+    <race>BetaElk_Female</race>
+    <label>beta elk hersir</label>
+    <defName>BetaElk_Female_NorbalHero</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalHero">
+    <race>BetaElk_Male</race>
+    <label>beta elk hersir</label>
+    <defName>BetaElk_Male_NorbalHero</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalHero">
+    <race>BetaFox</race>
+    <label>beta fox hersir</label>
+    <defName>BetaFox_NorbalHero</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalHero">
+    <race>BetaGazelle</race>
+    <label>beta gazelle hersir</label>
+    <defName>BetaGazelle_NorbalHero</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalHero">
+    <race>BetaHog</race>
+    <label>beta hog hersir</label>
+    <defName>BetaHog_NorbalHero</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalHero">
+    <race>BetaLynx</race>
+    <label>beta lynx hersir</label>
+    <defName>BetaLynx_NorbalHero</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalHero">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon hersir</label>
+    <defName>BetaRaccoon_NorbalHero</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalHero">
+    <race>BetaWolf</race>
+    <label>beta wolf hersir</label>
+    <defName>BetaWolf_NorbalHero</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalThane">
+    <race>BetaBear</race>
+    <label>beta bear jarl</label>
+    <defName>BetaBear_NorbalThane</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalThane">
+    <race>BetaCamel</race>
+    <label>beta camel jarl</label>
+    <defName>BetaCamel_NorbalThane</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalThane">
+    <race>BetaCroc</race>
+    <label>beta crocodile jarl</label>
+    <defName>BetaCroc_NorbalThane</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalThane">
+    <race>BetaElephant</race>
+    <label>beta elephant jarl</label>
+    <defName>BetaElephant_NorbalThane</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalThane">
+    <race>BetaElk_Female</race>
+    <label>beta elk jarl</label>
+    <defName>BetaElk_Female_NorbalThane</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalThane">
+    <race>BetaElk_Male</race>
+    <label>beta elk jarl</label>
+    <defName>BetaElk_Male_NorbalThane</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalThane">
+    <race>BetaFox</race>
+    <label>beta fox jarl</label>
+    <defName>BetaFox_NorbalThane</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalThane">
+    <race>BetaGazelle</race>
+    <label>beta gazelle jarl</label>
+    <defName>BetaGazelle_NorbalThane</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalThane">
+    <race>BetaHog</race>
+    <label>beta hog jarl</label>
+    <defName>BetaHog_NorbalThane</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalThane">
+    <race>BetaLynx</race>
+    <label>beta lynx jarl</label>
+    <defName>BetaLynx_NorbalThane</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalThane">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon jarl</label>
+    <defName>BetaRaccoon_NorbalThane</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalThane">
+    <race>BetaWolf</race>
+    <label>beta wolf jarl</label>
+    <defName>BetaWolf_NorbalThane</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalSnorb">
+    <race>BetaBear</race>
+    <label>beta bear thrall</label>
+    <defName>BetaBear_NorbalSnorb</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalSnorb">
+    <race>BetaCamel</race>
+    <label>beta camel thrall</label>
+    <defName>BetaCamel_NorbalSnorb</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalSnorb">
+    <race>BetaCroc</race>
+    <label>beta crocodile thrall</label>
+    <defName>BetaCroc_NorbalSnorb</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalSnorb">
+    <race>BetaElephant</race>
+    <label>beta elephant thrall</label>
+    <defName>BetaElephant_NorbalSnorb</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalSnorb">
+    <race>BetaElk_Female</race>
+    <label>beta elk thrall</label>
+    <defName>BetaElk_Female_NorbalSnorb</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalSnorb">
+    <race>BetaElk_Male</race>
+    <label>beta elk thrall</label>
+    <defName>BetaElk_Male_NorbalSnorb</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalSnorb">
+    <race>BetaFox</race>
+    <label>beta fox thrall</label>
+    <defName>BetaFox_NorbalSnorb</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalSnorb">
+    <race>BetaGazelle</race>
+    <label>beta gazelle thrall</label>
+    <defName>BetaGazelle_NorbalSnorb</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalSnorb">
+    <race>BetaHog</race>
+    <label>beta hog thrall</label>
+    <defName>BetaHog_NorbalSnorb</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalSnorb">
+    <race>BetaLynx</race>
+    <label>beta lynx thrall</label>
+    <defName>BetaLynx_NorbalSnorb</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalSnorb">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon thrall</label>
+    <defName>BetaRaccoon_NorbalSnorb</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalSnorb">
+    <race>BetaWolf</race>
+    <label>beta wolf thrall</label>
+    <defName>BetaWolf_NorbalSnorb</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalKarl">
+    <race>BetaBear</race>
+    <label>beta bear karl</label>
+    <defName>BetaBear_NorbalKarl</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalKarl">
+    <race>BetaCamel</race>
+    <label>beta camel karl</label>
+    <defName>BetaCamel_NorbalKarl</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalKarl">
+    <race>BetaCroc</race>
+    <label>beta crocodile karl</label>
+    <defName>BetaCroc_NorbalKarl</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalKarl">
+    <race>BetaElephant</race>
+    <label>beta elephant karl</label>
+    <defName>BetaElephant_NorbalKarl</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalKarl">
+    <race>BetaElk_Female</race>
+    <label>beta elk karl</label>
+    <defName>BetaElk_Female_NorbalKarl</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalKarl">
+    <race>BetaElk_Male</race>
+    <label>beta elk karl</label>
+    <defName>BetaElk_Male_NorbalKarl</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalKarl">
+    <race>BetaFox</race>
+    <label>beta fox karl</label>
+    <defName>BetaFox_NorbalKarl</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalKarl">
+    <race>BetaGazelle</race>
+    <label>beta gazelle karl</label>
+    <defName>BetaGazelle_NorbalKarl</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalKarl">
+    <race>BetaHog</race>
+    <label>beta hog karl</label>
+    <defName>BetaHog_NorbalKarl</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalKarl">
+    <race>BetaLynx</race>
+    <label>beta lynx karl</label>
+    <defName>BetaLynx_NorbalKarl</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalKarl">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon karl</label>
+    <defName>BetaRaccoon_NorbalKarl</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_NorbalKarl">
+    <race>BetaWolf</race>
+    <label>beta wolf karl</label>
+    <defName>BetaWolf_NorbalKarl</defName>
+  </PawnKindDef>
+</Defs>

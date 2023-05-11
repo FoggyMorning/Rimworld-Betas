@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFSoldier">
+    <race>BetaBear</race>
+    <label>beta bear soldier</label>
+    <defName>BetaBear_Polarisbloc_SFSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFSoldier">
+    <race>BetaCamel</race>
+    <label>beta camel soldier</label>
+    <defName>BetaCamel_Polarisbloc_SFSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFSoldier">
+    <race>BetaCroc</race>
+    <label>beta crocodile soldier</label>
+    <defName>BetaCroc_Polarisbloc_SFSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFSoldier">
+    <race>BetaElephant</race>
+    <label>beta elephant soldier</label>
+    <defName>BetaElephant_Polarisbloc_SFSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFSoldier">
+    <race>BetaElk_Female</race>
+    <label>beta elk soldier</label>
+    <defName>BetaElk_Female_Polarisbloc_SFSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFSoldier">
+    <race>BetaElk_Male</race>
+    <label>beta elk soldier</label>
+    <defName>BetaElk_Male_Polarisbloc_SFSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFSoldier">
+    <race>BetaFox</race>
+    <label>beta fox soldier</label>
+    <defName>BetaFox_Polarisbloc_SFSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFSoldier">
+    <race>BetaGazelle</race>
+    <label>beta gazelle soldier</label>
+    <defName>BetaGazelle_Polarisbloc_SFSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFSoldier">
+    <race>BetaHog</race>
+    <label>beta hog soldier</label>
+    <defName>BetaHog_Polarisbloc_SFSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFSoldier">
+    <race>BetaLynx</race>
+    <label>beta lynx soldier</label>
+    <defName>BetaLynx_Polarisbloc_SFSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFSoldier">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon soldier</label>
+    <defName>BetaRaccoon_Polarisbloc_SFSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFSoldier">
+    <race>BetaWolf</race>
+    <label>beta wolf soldier</label>
+    <defName>BetaWolf_Polarisbloc_SFSoldier</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFCaptain">
+    <race>BetaBear</race>
+    <label>beta bear captain</label>
+    <defName>BetaBear_Polarisbloc_SFCaptain</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFCaptain">
+    <race>BetaCamel</race>
+    <label>beta camel captain</label>
+    <defName>BetaCamel_Polarisbloc_SFCaptain</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFCaptain">
+    <race>BetaCroc</race>
+    <label>beta crocodile captain</label>
+    <defName>BetaCroc_Polarisbloc_SFCaptain</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFCaptain">
+    <race>BetaElephant</race>
+    <label>beta elephant captain</label>
+    <defName>BetaElephant_Polarisbloc_SFCaptain</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFCaptain">
+    <race>BetaElk_Female</race>
+    <label>beta elk captain</label>
+    <defName>BetaElk_Female_Polarisbloc_SFCaptain</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFCaptain">
+    <race>BetaElk_Male</race>
+    <label>beta elk captain</label>
+    <defName>BetaElk_Male_Polarisbloc_SFCaptain</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFCaptain">
+    <race>BetaFox</race>
+    <label>beta fox captain</label>
+    <defName>BetaFox_Polarisbloc_SFCaptain</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFCaptain">
+    <race>BetaGazelle</race>
+    <label>beta gazelle captain</label>
+    <defName>BetaGazelle_Polarisbloc_SFCaptain</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFCaptain">
+    <race>BetaHog</race>
+    <label>beta hog captain</label>
+    <defName>BetaHog_Polarisbloc_SFCaptain</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFCaptain">
+    <race>BetaLynx</race>
+    <label>beta lynx captain</label>
+    <defName>BetaLynx_Polarisbloc_SFCaptain</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFCaptain">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon captain</label>
+    <defName>BetaRaccoon_Polarisbloc_SFCaptain</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFCaptain">
+    <race>BetaWolf</race>
+    <label>beta wolf captain</label>
+    <defName>BetaWolf_Polarisbloc_SFCaptain</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFCommander">
+    <race>BetaBear</race>
+    <label>beta bear commander</label>
+    <defName>BetaBear_Polarisbloc_SFCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFCommander">
+    <race>BetaCamel</race>
+    <label>beta camel commander</label>
+    <defName>BetaCamel_Polarisbloc_SFCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFCommander">
+    <race>BetaCroc</race>
+    <label>beta crocodile commander</label>
+    <defName>BetaCroc_Polarisbloc_SFCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFCommander">
+    <race>BetaElephant</race>
+    <label>beta elephant commander</label>
+    <defName>BetaElephant_Polarisbloc_SFCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFCommander">
+    <race>BetaElk_Female</race>
+    <label>beta elk commander</label>
+    <defName>BetaElk_Female_Polarisbloc_SFCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFCommander">
+    <race>BetaElk_Male</race>
+    <label>beta elk commander</label>
+    <defName>BetaElk_Male_Polarisbloc_SFCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFCommander">
+    <race>BetaFox</race>
+    <label>beta fox commander</label>
+    <defName>BetaFox_Polarisbloc_SFCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFCommander">
+    <race>BetaGazelle</race>
+    <label>beta gazelle commander</label>
+    <defName>BetaGazelle_Polarisbloc_SFCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFCommander">
+    <race>BetaHog</race>
+    <label>beta hog commander</label>
+    <defName>BetaHog_Polarisbloc_SFCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFCommander">
+    <race>BetaLynx</race>
+    <label>beta lynx commander</label>
+    <defName>BetaLynx_Polarisbloc_SFCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFCommander">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon commander</label>
+    <defName>BetaRaccoon_Polarisbloc_SFCommander</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Polarisbloc_SFCommander">
+    <race>BetaWolf</race>
+    <label>beta wolf commander</label>
+    <defName>BetaWolf_Polarisbloc_SFCommander</defName>
+  </PawnKindDef>
+</Defs>

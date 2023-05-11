@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="TM_WizardHat"]/apparel/tags</xpath>
+    <value>
+      <li>BetaHumanoids_EarsTag</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="ArcaneHood"]/apparel/tags</xpath>
+    <value>
+      <li>BetaHumanoids_EarsTag</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="HoodOfMadness"]/apparel/tags</xpath>
+    <value>
+      <li>BetaHumanoids_EarsTag</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="RoyalHelm"]/apparel/tags</xpath>
+    <value>
+      <li>BetaHumanoids_EarsTag</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="ParagonHelm"]/apparel/tags</xpath>
+    <value>
+      <li>BetaHumanoids_EarsTag</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="TM_DreamcatcherCoronet"]/apparel/tags</xpath>
+    <value>
+      <li>BetaHumanoids_EarsTag</li>
+    </value>
+  </Operation>
+</Patch>

@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="BetaHumanoids_Beggar">
+    <race>BetaBear</race>
+    <label>beta bear beggar</label>
+    <defName>BetaBear_Beggar</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Beggar">
+    <race>BetaCamel</race>
+    <label>beta camel beggar</label>
+    <defName>BetaCamel_Beggar</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Beggar">
+    <race>BetaCroc</race>
+    <label>beta crocodile beggar</label>
+    <defName>BetaCroc_Beggar</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Beggar">
+    <race>BetaElephant</race>
+    <label>beta elephant beggar</label>
+    <defName>BetaElephant_Beggar</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Beggar">
+    <race>BetaElk_Female</race>
+    <label>beta elk beggar</label>
+    <defName>BetaElk_Female_Beggar</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Beggar">
+    <race>BetaElk_Male</race>
+    <label>beta elk beggar</label>
+    <defName>BetaElk_Male_Beggar</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Beggar">
+    <race>BetaFox</race>
+    <label>beta fox beggar</label>
+    <defName>BetaFox_Beggar</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Beggar">
+    <race>BetaGazelle</race>
+    <label>beta gazelle beggar</label>
+    <defName>BetaGazelle_Beggar</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Beggar">
+    <race>BetaHog</race>
+    <label>beta hog beggar</label>
+    <defName>BetaHog_Beggar</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Beggar">
+    <race>BetaLynx</race>
+    <label>beta lynx beggar</label>
+    <defName>BetaLynx_Beggar</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Beggar">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon beggar</label>
+    <defName>BetaRaccoon_Beggar</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Beggar">
+    <race>BetaWolf</race>
+    <label>beta wolf beggar</label>
+    <defName>BetaWolf_Beggar</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PovertyPilgrim">
+    <race>BetaBear</race>
+    <label>beta bear pilgrim</label>
+    <defName>BetaBear_PovertyPilgrim</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PovertyPilgrim">
+    <race>BetaCamel</race>
+    <label>beta camel pilgrim</label>
+    <defName>BetaCamel_PovertyPilgrim</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PovertyPilgrim">
+    <race>BetaCroc</race>
+    <label>beta crocodile pilgrim</label>
+    <defName>BetaCroc_PovertyPilgrim</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PovertyPilgrim">
+    <race>BetaElephant</race>
+    <label>beta elephant pilgrim</label>
+    <defName>BetaElephant_PovertyPilgrim</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PovertyPilgrim">
+    <race>BetaElk_Female</race>
+    <label>beta elk pilgrim</label>
+    <defName>BetaElk_Female_PovertyPilgrim</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PovertyPilgrim">
+    <race>BetaElk_Male</race>
+    <label>beta elk pilgrim</label>
+    <defName>BetaElk_Male_PovertyPilgrim</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PovertyPilgrim">
+    <race>BetaFox</race>
+    <label>beta fox pilgrim</label>
+    <defName>BetaFox_PovertyPilgrim</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PovertyPilgrim">
+    <race>BetaGazelle</race>
+    <label>beta gazelle pilgrim</label>
+    <defName>BetaGazelle_PovertyPilgrim</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PovertyPilgrim">
+    <race>BetaHog</race>
+    <label>beta hog pilgrim</label>
+    <defName>BetaHog_PovertyPilgrim</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PovertyPilgrim">
+    <race>BetaLynx</race>
+    <label>beta lynx pilgrim</label>
+    <defName>BetaLynx_PovertyPilgrim</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PovertyPilgrim">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon pilgrim</label>
+    <defName>BetaRaccoon_PovertyPilgrim</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_PovertyPilgrim">
+    <race>BetaWolf</race>
+    <label>beta wolf pilgrim</label>
+    <defName>BetaWolf_PovertyPilgrim</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_WellEquippedTraveler">
+    <race>BetaBear</race>
+    <label>beta bear well-equipped traveler</label>
+    <defName>BetaBear_WellEquippedTraveler</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_WellEquippedTraveler">
+    <race>BetaCamel</race>
+    <label>beta camel well-equipped traveler</label>
+    <defName>BetaCamel_WellEquippedTraveler</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_WellEquippedTraveler">
+    <race>BetaCroc</race>
+    <label>beta crocodile well-equipped traveler</label>
+    <defName>BetaCroc_WellEquippedTraveler</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_WellEquippedTraveler">
+    <race>BetaElephant</race>
+    <label>beta elephant well-equipped traveler</label>
+    <defName>BetaElephant_WellEquippedTraveler</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_WellEquippedTraveler">
+    <race>BetaElk_Female</race>
+    <label>beta elk well-equipped traveler</label>
+    <defName>BetaElk_Female_WellEquippedTraveler</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_WellEquippedTraveler">
+    <race>BetaElk_Male</race>
+    <label>beta elk well-equipped traveler</label>
+    <defName>BetaElk_Male_WellEquippedTraveler</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_WellEquippedTraveler">
+    <race>BetaFox</race>
+    <label>beta fox well-equipped traveler</label>
+    <defName>BetaFox_WellEquippedTraveler</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_WellEquippedTraveler">
+    <race>BetaGazelle</race>
+    <label>beta gazelle well-equipped traveler</label>
+    <defName>BetaGazelle_WellEquippedTraveler</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_WellEquippedTraveler">
+    <race>BetaHog</race>
+    <label>beta hog well-equipped traveler</label>
+    <defName>BetaHog_WellEquippedTraveler</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_WellEquippedTraveler">
+    <race>BetaLynx</race>
+    <label>beta lynx well-equipped traveler</label>
+    <defName>BetaLynx_WellEquippedTraveler</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_WellEquippedTraveler">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon well-equipped traveler</label>
+    <defName>BetaRaccoon_WellEquippedTraveler</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_WellEquippedTraveler">
+    <race>BetaWolf</race>
+    <label>beta wolf well-equipped traveler</label>
+    <defName>BetaWolf_WellEquippedTraveler</defName>
+  </PawnKindDef>
+</Defs>

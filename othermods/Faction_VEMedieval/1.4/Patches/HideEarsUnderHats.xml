@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="VFEM_Apparel_PlateHelmetHeavy"]/apparel/tags</xpath>
+    <value>
+      <li>BetaHumanoids_EarsTag</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="VFEM_Apparel_PlagueMask"]/apparel/tags</xpath>
+    <value>
+      <li>BetaHumanoids_EarsTag</li>
+    </value>
+  </Operation>
+</Patch>

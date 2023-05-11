@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Apparello_NorbalThunder"]/apparel/tags</xpath>
+    <value>
+      <li>BetaHumanoids_EarsTag</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Apparello_NorbalWarrior"]/apparel/tags</xpath>
+    <value>
+      <li>BetaHumanoids_EarsTag</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Apparello_NorbalArcher"]/apparel/tags</xpath>
+    <value>
+      <li>BetaHumanoids_EarsTag</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Apparello_NorbalSagecowl"]/apparel/tags</xpath>
+    <value>
+      <li>BetaHumanoids_EarsTag</li>
+    </value>
+  </Operation>
+</Patch>

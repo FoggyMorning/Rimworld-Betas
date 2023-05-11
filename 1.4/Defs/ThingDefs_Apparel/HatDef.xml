@@ -6,14 +6,15 @@
     <label>beta-humanoid marine helmet</label>
     <description>A marine armor helmet shaped for Beta-Humanoids, with a built-in status computer and layered plasteel-weave plates.\n\nArmor like this is often used by rapid-incursion space marines.</description>
     <apparel>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/BetaHumanoid_PowerArmorHelmet</wornGraphicPath>
+      <wornGraphicPath>Betas/Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</wornGraphicPath>
       <tags>
         <li>BetaHumanoid_SpacerMilitary</li>
         <li>BetaHumanoids_EarsTag</li>
+        <li>BetaHumanoids_ElephantEarsTag</li>
       </tags>
     </apparel>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/BetaHumanoid_PowerArmorHelmet_south</texPath>
+      <texPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costList>
@@ -24,17 +25,18 @@
 
   <ThingDef ParentName="ApparelArmorHelmetPowerBase">
     <defName>BetaHumanoid_Apparel_PowerArmorHelmet_Upgrade</defName>
-    <label>beta-humanoid marine helmet</label>
+    <label>marine helmet beta-humanoid modification</label>
     <description>A marine armor helmet shaped for Beta-Humanoids, with a built-in status computer and layered plasteel-weave plates.\n\nArmor like this is often used by rapid-incursion space marines.</description>
     <apparel>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/BetaHumanoid_PowerArmorHelmet</wornGraphicPath>
+      <wornGraphicPath>Betas/Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</wornGraphicPath>
       <tags>
         <li>BetaHumanoid_SpacerMilitary</li>
         <li>BetaHumanoids_EarsTag</li>
+        <li>BetaHumanoids_ElephantEarsTag</li>
       </tags>
     </apparel>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/BetaHumanoid_PowerArmorHelmet_south</texPath>
+      <texPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costList>
