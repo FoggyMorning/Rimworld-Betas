@@ -41,6 +41,11 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_NorbalRager">
     <label>Berserker</label>
@@ -83,6 +88,11 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_NorbalDestroyer">
     <label>Thunderer</label>
@@ -125,6 +135,11 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_NorbalArcher">
     <label>skirmisher</label>
@@ -166,6 +181,11 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_NorbalSage">
     <label>Sage</label>
@@ -229,6 +249,11 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_NorbalGrandSage">
     <label>Sage</label>
@@ -294,6 +319,11 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_NorbalHero">
     <label>hersir</label>
@@ -332,6 +362,11 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_NorbalThane">
     <label>jarl</label>
@@ -369,6 +404,11 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_NorbalSnorb">
     <label>thrall</label>
@@ -404,6 +444,11 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_NorbalKarl">
     <label>karl</label>
@@ -438,5 +483,10 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
 </Defs>

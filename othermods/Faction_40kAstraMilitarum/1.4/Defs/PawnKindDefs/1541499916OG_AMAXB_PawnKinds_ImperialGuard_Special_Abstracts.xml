@@ -52,6 +52,11 @@
       </li>
     </modExtensions>
     <minGenerationAge>20</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_StrangerInBlack_Inquisitor">
     <label>stranger in black</label>
@@ -104,5 +109,10 @@
       </li>
     </modExtensions>
     <minGenerationAge>45</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
 </Defs>

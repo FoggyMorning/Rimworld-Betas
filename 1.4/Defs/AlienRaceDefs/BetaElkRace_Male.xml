@@ -233,6 +233,14 @@
           </headtypeGraphics>
         </head>
       </graphicPaths>
+      <raceRestriction>
+        <xenotypeList MayRequire="Ludeon.RimWord.Biotech">
+          <li MayRequire="Ludeon.RimWord.Biotech">BetaHumanoids_Baseliner</li>
+        </xenotypeList>
+        <onlyUseRaceRestrictedXenotypes>
+          true
+        </onlyUseRaceRestrictedXenotypes>
+      </raceRestriction>
     </alienRace>
     <race>
       <!-- need gendered body defs -->

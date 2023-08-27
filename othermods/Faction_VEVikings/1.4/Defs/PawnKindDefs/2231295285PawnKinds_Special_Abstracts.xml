@@ -34,6 +34,11 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_VFEV_VikingHero">
     <race>Human</race>
@@ -98,6 +103,11 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_VFEV_VikingLegend">
     <race>Human</race>
@@ -144,5 +154,10 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
 </Defs>

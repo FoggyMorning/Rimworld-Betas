@@ -287,6 +287,12 @@
           <li MayRequire="Ludeon.RimWord.Biotech">Eyes_Red</li>
           <li MayRequire="Ludeon.RimWord.Biotech">Eyes_Gray</li>
         </blackGeneList>
+        <xenotypeList MayRequire="Ludeon.RimWord.Biotech">
+          <li MayRequire="Ludeon.RimWord.Biotech">BetaHumanoids_Baseliner</li>
+        </xenotypeList>
+        <onlyUseRaceRestrictedXenotypes>
+          true
+        </onlyUseRaceRestrictedXenotypes>
       </raceRestriction>
     </alienRace>
     <race>

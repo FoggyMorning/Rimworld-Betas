@@ -19,6 +19,11 @@
     </apparelMoney>
     <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_Colonist_OG_Militarum_Kreig_Guardsmen">
     <race>Human</race>
@@ -61,5 +66,10 @@
     </skills>
     <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
 </Defs>

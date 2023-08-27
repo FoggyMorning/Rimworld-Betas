@@ -73,6 +73,11 @@
     <initialWillRange IgnoreIfNoMatchingField="True">3~5</initialWillRange>
     <initialResistanceRange IgnoreIfNoMatchingField="True">17~27</initialResistanceRange>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_OG_Militarum_Trader">
     <defaultFactionType>OG_Militarum_PlayerColony</defaultFactionType>
@@ -145,6 +150,11 @@
     <initialWillRange IgnoreIfNoMatchingField="True">0~1</initialWillRange>
     <initialResistanceRange IgnoreIfNoMatchingField="True">7~12</initialResistanceRange>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_Slave_OG_Militarum">
     <defaultFactionType>OG_Militarum_PlayerColony</defaultFactionType>
@@ -216,6 +226,11 @@
     <initialWillRange IgnoreIfNoMatchingField="True">0~1</initialWillRange>
     <initialResistanceRange IgnoreIfNoMatchingField="True">7~12</initialResistanceRange>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_OG_Militarum_Refugee">
     <defaultFactionType>OG_Militarum_PlayerColony</defaultFactionType>
@@ -287,6 +302,11 @@
     <initialWillRange IgnoreIfNoMatchingField="True">0~1</initialWillRange>
     <initialResistanceRange IgnoreIfNoMatchingField="True">7~12</initialResistanceRange>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_OG_Militarum_Guardsman_Ranged">
     <defaultFactionType>OG_Militarum_PlayerColony</defaultFactionType>
@@ -365,6 +385,11 @@
     <initialWillRange IgnoreIfNoMatchingField="True">1~3</initialWillRange>
     <initialResistanceRange IgnoreIfNoMatchingField="True">17~26</initialResistanceRange>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_OG_Militarum_Guardsman_Ranged_Special">
     <defaultFactionType>OG_Militarum_PlayerColony</defaultFactionType>
@@ -440,6 +465,11 @@
     <initialWillRange IgnoreIfNoMatchingField="True">1~3</initialWillRange>
     <initialResistanceRange IgnoreIfNoMatchingField="True">17~26</initialResistanceRange>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_OG_Militarum_Guardsman_Melee">
     <defaultFactionType>OG_Militarum_PlayerColony</defaultFactionType>
@@ -515,6 +545,11 @@
     <initialWillRange IgnoreIfNoMatchingField="True">1~3</initialWillRange>
     <initialResistanceRange IgnoreIfNoMatchingField="True">17~26</initialResistanceRange>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_OG_Militarum_Guardsman_Melee_Special">
     <defaultFactionType>OG_Militarum_PlayerColony</defaultFactionType>
@@ -590,6 +625,11 @@
     <initialWillRange IgnoreIfNoMatchingField="True">1~3</initialWillRange>
     <initialResistanceRange IgnoreIfNoMatchingField="True">17~26</initialResistanceRange>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_OG_Militarum_Guardsman_Heavy_Weapons">
     <defaultFactionType>OG_Militarum_PlayerColony</defaultFactionType>
@@ -665,6 +705,11 @@
     <initialWillRange IgnoreIfNoMatchingField="True">1~3</initialWillRange>
     <initialResistanceRange IgnoreIfNoMatchingField="True">17~26</initialResistanceRange>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_OG_Militarum_Sergeant">
     <defaultFactionType>OG_Militarum_PlayerColony</defaultFactionType>
@@ -740,6 +785,11 @@
     <initialWillRange IgnoreIfNoMatchingField="True">2~3</initialWillRange>
     <initialResistanceRange IgnoreIfNoMatchingField="True">17~26</initialResistanceRange>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_OG_Militarum_Commissar">
     <defaultFactionType>OG_Militarum_PlayerColony</defaultFactionType>
@@ -819,6 +869,11 @@
     <initialWillRange IgnoreIfNoMatchingField="True">6~8</initialWillRange>
     <initialResistanceRange IgnoreIfNoMatchingField="True">37~66</initialResistanceRange>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_OG_Militarum_Guardsman_Marksman">
     <defaultFactionType>OG_Militarum_PlayerColony</defaultFactionType>
@@ -894,5 +949,10 @@
     <initialWillRange IgnoreIfNoMatchingField="True">2~3</initialWillRange>
     <initialResistanceRange IgnoreIfNoMatchingField="True">17~26</initialResistanceRange>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
 </Defs>

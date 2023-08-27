@@ -71,6 +71,11 @@
     <initialWillRange>0~1</initialWillRange>
     <initialResistanceRange>7~12</initialResistanceRange>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_OG_Mechanicus_Faction_Tech_Priest">
     <defaultFactionType>OG_Mechanicus_PlayerColony</defaultFactionType>
@@ -150,6 +155,11 @@
     <initialWillRange>3~5</initialWillRange>
     <initialResistanceRange>17~27</initialResistanceRange>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_OG_Mechanicus_Tech_Priest_Dominus">
     <defaultFactionType>OG_Mechanicus_PlayerColony</defaultFactionType>
@@ -228,6 +238,11 @@
     <initialWillRange>3~5</initialWillRange>
     <initialResistanceRange>17~27</initialResistanceRange>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_OG_Mechanicus_Tech_Priest_Engineer">
     <defaultFactionType>OG_Mechanicus_PlayerColony</defaultFactionType>
@@ -306,6 +321,11 @@
     <initialWillRange>3~5</initialWillRange>
     <initialResistanceRange>17~27</initialResistanceRange>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_OG_Mechanicus_Skitarii_Ranger">
     <defaultFactionType>OG_Mechanicus_PlayerColony</defaultFactionType>
@@ -388,6 +408,11 @@
     <initialWillRange>3~5</initialWillRange>
     <initialResistanceRange>17~27</initialResistanceRange>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_OG_Mechanicus_Skitarii_Ranger_Primus">
     <defaultFactionType>OG_Mechanicus_PlayerColony</defaultFactionType>
@@ -470,6 +495,11 @@
     <initialWillRange>3~5</initialWillRange>
     <initialResistanceRange>17~27</initialResistanceRange>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_OG_Mechanicus_Skitarii_Vanguard">
     <defaultFactionType>OG_Mechanicus_PlayerColony</defaultFactionType>
@@ -552,6 +582,11 @@
     <initialWillRange>3~5</initialWillRange>
     <initialResistanceRange>17~27</initialResistanceRange>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_OG_Mechanicus_Skitarii_Vanguard_Primus">
     <defaultFactionType>OG_Mechanicus_PlayerColony</defaultFactionType>
@@ -634,5 +669,10 @@
     <initialWillRange>3~5</initialWillRange>
     <initialResistanceRange>17~27</initialResistanceRange>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
 </Defs>

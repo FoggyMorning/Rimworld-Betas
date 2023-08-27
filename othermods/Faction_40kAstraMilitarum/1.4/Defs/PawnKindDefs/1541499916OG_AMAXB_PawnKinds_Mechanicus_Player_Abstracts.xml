@@ -36,6 +36,11 @@
     <techHediffsChance>1</techHediffsChance>
     <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_Colonist_OG_Mechanicus_Servitor">
     <race>OG_Human_Mechanicus</race>
@@ -74,6 +79,11 @@
     <techHediffsChance>1</techHediffsChance>
     <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_Colonist_OG_Mechanicus_Tech_Priest">
     <race>OG_Human_Mechanicus</race>
@@ -122,6 +132,11 @@
       <li>MacroStubber</li>
     </weaponTags>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_Colonist_OG_Mechanicus_Tech_Priest_Enginseer">
     <race>OG_Human_Mechanicus</race>
@@ -170,5 +185,10 @@
       <li>MacroStubber</li>
     </weaponTags>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
 </Defs>

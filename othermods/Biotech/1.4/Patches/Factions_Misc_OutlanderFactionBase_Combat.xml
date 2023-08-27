@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[defName="OutlanderRoughPig"]/pawnGroupMakers</xpath>
+    <value>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>20</commonality>
+        <options>
+          <Villager>5</Villager>
+          <Town_Guard>10</Town_Guard>
+          <Grenadier_Destructive>1.5</Grenadier_Destructive>
+          <Mercenary_Slasher>7</Mercenary_Slasher>
+          <Mercenary_Gunner>10</Mercenary_Gunner>
+          <Mercenary_Elite>10</Mercenary_Elite>
+          <Town_Councilman>10</Town_Councilman>
+          <BetaHog_Villager>5.00</BetaHog_Villager>
+          <BetaHog_Town_Guard>10.00</BetaHog_Town_Guard>
+          <BetaHog_Grenadier_Destructive>1.50</BetaHog_Grenadier_Destructive>
+          <BetaHog_Mercenary_Slasher>7.00</BetaHog_Mercenary_Slasher>
+          <BetaHog_Mercenary_Gunner>10.00</BetaHog_Mercenary_Gunner>
+          <BetaHog_Mercenary_Elite>10.00</BetaHog_Mercenary_Elite>
+          <BetaHog_Town_Councilman>10.00</BetaHog_Town_Councilman>
+        </options>
+      </li>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>20</commonality>
+        <options>
+          <BetaHog_Villager>5.00</BetaHog_Villager>
+          <BetaHog_Town_Guard>10.00</BetaHog_Town_Guard>
+          <BetaHog_Grenadier_Destructive>1.50</BetaHog_Grenadier_Destructive>
+          <BetaHog_Mercenary_Slasher>7.00</BetaHog_Mercenary_Slasher>
+          <BetaHog_Mercenary_Gunner>10.00</BetaHog_Mercenary_Gunner>
+          <BetaHog_Mercenary_Elite>10.00</BetaHog_Mercenary_Elite>
+          <BetaHog_Town_Councilman>10.00</BetaHog_Town_Councilman>
+        </options>
+      </li>
+    </value>
+  </Operation>
+</Patch>

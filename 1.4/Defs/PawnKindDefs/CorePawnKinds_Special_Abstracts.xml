@@ -36,7 +36,13 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
+
   <PawnKindDef Abstract="True" Name="BetaHumanoids_WildMan">
     <label>wild man</label>
     <labelPlural>wild men</labelPlural>
@@ -66,7 +72,13 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
+
   <PawnKindDef Abstract="True" Name="BetaHumanoids_StrangerInBlack">
     <label>stranger in black</label>
     <labelMale>man in black</labelMale>
@@ -131,5 +143,10 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>20</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
 </Defs>

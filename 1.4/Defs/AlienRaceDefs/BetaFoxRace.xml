@@ -404,6 +404,14 @@
           </value>
         </li>
       </styleSettings>
+      <raceRestriction>
+        <xenotypeList MayRequire="Ludeon.RimWord.Biotech">
+          <li MayRequire="Ludeon.RimWord.Biotech">BetaHumanoids_Baseliner</li>
+        </xenotypeList>
+        <onlyUseRaceRestrictedXenotypes>
+          true
+        </onlyUseRaceRestrictedXenotypes>
+      </raceRestriction>
     </alienRace>
     <race>
       <leatherDef>Leather_Fox</leatherDef>
