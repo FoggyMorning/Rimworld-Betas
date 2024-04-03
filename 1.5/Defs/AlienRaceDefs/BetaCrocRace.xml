@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.ThingDef_AlienRace ParentName="BaseBetaPawn" Name="BetaCroc">
+    <defName>BetaCroc</defName>
+    <label>beta-humanoid (crocodile)</label>
+    <description>A "Beta", a Beta Class Humanoid Lifeform. Part human and part Crocodile or
+      Alligator.</description>
+    <statBases></statBases>
+    <tools Inherit="False">
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>powerful bite</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>23.6</power>
+        <cooldownTime>3.6</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>1</chanceFactor>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <alienRace>
+      <thoughtSettings>
+        <cannotReceiveThoughts>
+          <!-- Aquatic and cold blooded-->
+          <li>SleptInHeat</li>
+          <li>SoakingWet</li>
+        </cannotReceiveThoughts>
+        <ateThoughtSpecific></ateThoughtSpecific>
+        <replacerList></replacerList>
+      </thoughtSettings>
+      <generalSettings>
+        <alienPartGenerator>
+          <headTypes Inherit="False">
+            <li>BetaHumanoids_BetaCroc_Male_Average_Normal</li>
+            <li>BetaHumanoids_BetaCroc_Female_Average_Normal</li>
+            <li>BetaHumanoids_BetaCroc_Male_Narrow_Normal</li>
+            <li>BetaHumanoids_BetaCroc_Female_Narrow_Normal</li>
+            <li>BetaHumanoids_BetaCroc_Male_Narrow_Wide</li>
+            <li>BetaHumanoids_BetaCroc_Female_Narrow_Wide</li>
+
+            <li MayRequire="Ludeon.RimWorld.Biotech">Gaunt</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Gaunt</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Average1</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Average2</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Average3</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Male_HeavyJawNormal</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Female_HeavyJawNormal</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Narrow1</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Narrow2</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Narrow3</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Heavy1</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Heavy2</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Heavy3</li>
+          </headTypes>
+          <headOffset>( 0,0 )</headOffset>
+          <customDrawSize>( 1, 1 )</customDrawSize>
+          <customHeadDrawSize>( 1, 1 )</customHeadDrawSize>
+          <customPortraitDrawSize>( 1, 1 )</customPortraitDrawSize>
+          <customPortraitHeadDrawSize>( 1, 1 )</customPortraitHeadDrawSize>
+          <colorChannels Inherit="False">
+            <li>
+              <name>skin</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <!-- black green -->
+                  <li>
+                    <weight>80</weight>
+                    <only>RGBA(36, 51, 42, 255)</only>
+                  </li>
+                  <!-- dark green -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(78, 93, 84, 255)</only>
+                  </li>
+                  <!-- dark green #638c65 -->
+                  <li>
+                    <weight>10</weight>
+                    <only>RGBA(14, 35, 22, 255)</only>
+                  </li>
+                  <!-- dark green #245c26-->
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.141, 0.360, 0.149,1)</only>
+                  </li>
+                  <!-- dark green #468b46 -->
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.274, 0.545, 0.274,1)</only>
+                  </li>
+                  <!-- dark green #638c65 -->
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.388, 0.549, 0.396,1)</only>
+                  </li>
+                </options>
+              </first>
+              <second Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(169, 174, 151, 255)</only>
+                  </li>
+                  <li>
+                    <weight>100</weight>
+                    <only>RGBA(211, 217, 191, 255)</only>
+                  </li>
+                  <li>
+                    <weight>80</weight>
+                    <only>RGBA(226, 238, 187, 255)</only>
+                  </li>
+                  <li>
+                    <weight>60</weight>
+                    <only>RGBA(171, 182, 180, 255)</only>
+                  </li>
+                  <!-- yellow green #bbc615 -->
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.733, 0.776, 0.082,1)</only>
+                  </li>
+                  <!-- yellow green #b7c62a -->
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.717, 0.776, 0.164,1)</only>
+                  </li>
+                  <!-- yellow green #d7daa4 -->
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.843, 0.854, 0.643,1)</only>
+                  </li>
+                </options>
+              </second>
+            </li>
+          </colorChannels>
+        </alienPartGenerator>
+        <forcedRaceTraitEntries>
+          <li>
+            <!-- Croc skin is very tough -->
+            <defName>Tough</defName>
+            <chance>100</chance>
+          </li>
+        </forcedRaceTraitEntries>
+      </generalSettings>
+      <graphicPaths>
+        <apparel>
+          <individualPaths>
+            <li>
+              <key>Apparel_WarMask</key>
+              <value>Betas/Things/Pawn/Humanlike/Apparel/WarMask/WideEyes/WarMask</value>
+            </li>
+            <li>
+              <key>Apparel_WarVeil</key>
+              <value>Betas/Things/Pawn/Humanlike/Apparel/Veil/LongSnout/Veil</value>
+            </li>
+            <li>
+              <key>Apparel_PowerArmorHelmet</key>
+              <value>Betas/Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/LongSnout/PowerArmorHelmet</value>
+            </li>
+            <li>
+              <key>BetaHumanoid_Apparel_PowerArmorHelmet</key>
+              <value>Betas/Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/LongSnout/PowerArmorHelmet</value>
+            </li>
+            <li>
+              <key>BetaHumanoid_Apparel_PowerArmorHelmet_Upgrade</key>
+              <value>Betas/Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/LongSnout/PowerArmorHelmet</value>
+            </li>
+          </individualPaths>
+        </apparel>
+        <head>
+          <headtypeGraphics>
+            <BetaHumanoids_BetaCroc_Male_Average_Normal>Betas/BetaCroc/Head/Male_Average_Normal</BetaHumanoids_BetaCroc_Male_Average_Normal>
+            <BetaHumanoids_BetaCroc_Female_Average_Normal>Betas/BetaCroc/Head/Female_Average_Normal</BetaHumanoids_BetaCroc_Female_Average_Normal>
+            <BetaHumanoids_BetaCroc_Male_Narrow_Normal>Betas/BetaCroc/Head/Male_Narrow_Normal</BetaHumanoids_BetaCroc_Male_Narrow_Normal>
+            <BetaHumanoids_BetaCroc_Female_Narrow_Normal>Betas/BetaCroc/Head/Female_Narrow_Normal</BetaHumanoids_BetaCroc_Female_Narrow_Normal>
+            <BetaHumanoids_BetaCroc_Male_Narrow_Wide>Betas/BetaCroc/Head/Male_Narrow_Wide</BetaHumanoids_BetaCroc_Male_Narrow_Wide>
+            <BetaHumanoids_BetaCroc_Female_Narrow_Wide>Betas/BetaCroc/Head/Female_Narrow_Wide</BetaHumanoids_BetaCroc_Female_Narrow_Wide>
+            <!-- fucking biotech -->
+            <Gaunt MayRequire="Ludeon.RimWorld.Biotech">
+              Things/Pawn/Humanlike/Heads/Genes/None_Gaunt_Average</Gaunt>
+            <Furskin_Gaunt MayRequire="Ludeon.RimWorld.Biotech">
+              Things/Pawn/Humanlike/Heads/FurCovered_Gaunt_Normal</Furskin_Gaunt>
+            <Furskin_Average1 MayRequire="Ludeon.RimWorld.Biotech">
+              Things/Pawn/Humanlike/Heads/FurCovered_Average1_Normal</Furskin_Average1>
+            <Furskin_Average2 MayRequire="Ludeon.RimWorld.Biotech">
+              Things/Pawn/Humanlike/Heads/FurCovered_Average2_Normal</Furskin_Average2>
+            <Furskin_Average3 MayRequire="Ludeon.RimWorld.Biotech">
+              Things/Pawn/Humanlike/Heads/FurCovered_Average3_Normal</Furskin_Average3>
+            <Male_HeavyJawNormal MayRequire="Ludeon.RimWorld.Biotech">
+              Things/Pawn/Humanlike/Heads/Male/Male_HeavyJaw_Normal</Male_HeavyJawNormal>
+            <Female_HeavyJawNormal MayRequire="Ludeon.RimWorld.Biotech">
+              Things/Pawn/Humanlike/Heads/Female/Female_HeavyJaw_Normal</Female_HeavyJawNormal>
+            <Furskin_Narrow1 MayRequire="Ludeon.RimWorld.Biotech">
+              Things/Pawn/Humanlike/Heads/FurCovered_Narrow1_Normal</Furskin_Narrow1>
+            <Furskin_Narrow2 MayRequire="Ludeon.RimWorld.Biotech">
+              Things/Pawn/Humanlike/Heads/FurCovered_Narrow2_Normal</Furskin_Narrow2>
+            <Furskin_Narrow3 MayRequire="Ludeon.RimWorld.Biotech">
+              Things/Pawn/Humanlike/Heads/FurCovered_Narrow3_Normal</Furskin_Narrow3>
+            <Furskin_Heavy1 MayRequire="Ludeon.RimWorld.Biotech">
+              Things/Pawn/Humanlike/Heads/FurCovered_Wide1_Normal</Furskin_Heavy1>
+            <Furskin_Heavy2 MayRequire="Ludeon.RimWorld.Biotech">
+              Things/Pawn/Humanlike/Heads/FurCovered_Wide2_Normal</Furskin_Heavy2>
+            <Furskin_Heavy3 MayRequire="Ludeon.RimWorld.Biotech">
+              Things/Pawn/Humanlike/Heads/FurCovered_Wide3_Normal</Furskin_Heavy3>
+          </headtypeGraphics>
+        </head>
+        <headMasks>
+          <headtypeGraphics>
+            <BetaHumanoids_BetaCroc_Male_Average_Normal>Betas/BetaCroc/Head/Mask_Average_Normal</BetaHumanoids_BetaCroc_Male_Average_Normal>
+            <BetaHumanoids_BetaCroc_Female_Average_Normal>Betas/BetaCroc/Head/Mask_Average_Normal</BetaHumanoids_BetaCroc_Female_Average_Normal>
+            <BetaHumanoids_BetaCroc_Male_Narrow_Normal>Betas/BetaCroc/Head/Mask_Narrow_Normal</BetaHumanoids_BetaCroc_Male_Narrow_Normal>
+            <BetaHumanoids_BetaCroc_Female_Narrow_Normal>Betas/BetaCroc/Head/Mask_Narrow_Normal</BetaHumanoids_BetaCroc_Female_Narrow_Normal>
+            <BetaHumanoids_BetaCroc_Male_Narrow_Wide>Betas/BetaCroc/Head/Mask_Narrow_Wide</BetaHumanoids_BetaCroc_Male_Narrow_Wide>
+            <BetaHumanoids_BetaCroc_Female_Narrow_Wide>Betas/BetaCroc/Head/Mask_Narrow_Wide</BetaHumanoids_BetaCroc_Female_Narrow_Wide>
+          </headtypeGraphics>
+        </headMasks>
+        <body>
+          <bodytypeGraphics>
+            <Male>Betas/BetaCroc/Body/Naked_Male</Male>
+            <Female>Betas/BetaCroc/Body/Naked_Female</Female>
+            <Thin>Betas/BetaCroc/Body/Naked_Thin</Thin>
+            <Fat>Betas/BetaCroc/Body/Naked_Fat</Fat>
+            <Hulk>Betas/BetaCroc/Body/Naked_Hulk</Hulk>
+            <Baby MayRequire="Ludeon.RimWorld.Biotech">
+              Things/Pawn/Humanlike/Apparel/SwaddledBaby/Swaddled_Child</Baby>
+            <Child MayRequire="Ludeon.RimWorld.Biotech">Things/Pawn/Humanlike/Bodies/Naked_Child</Child>
+          </bodytypeGraphics>
+        </body>
+      </graphicPaths>
+      <styleSettings Inherit="False">
+        <li>
+          <key>HairDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>TattooDef</key>
+          <value>
+            <hasStyle>true</hasStyle>
+          </value>
+        </li>
+      </styleSettings>
+      <raceRestriction>
+        <blackGeneList MayRequire="Ludeon.RimWord.Biotech">
+          <li MayRequire="Ludeon.RimWord.Biotech">Eyes_Red</li>
+          <li MayRequire="Ludeon.RimWord.Biotech">Eyes_Gray</li>
+        </blackGeneList>
+        <xenotypeList MayRequire="Ludeon.RimWord.Biotech">
+          <li MayRequire="Ludeon.RimWord.Biotech">BetaHumanoids_Baseliner</li>
+        </xenotypeList>
+        <onlyUseRaceRestrictedXenotypes>
+          true
+        </onlyUseRaceRestrictedXenotypes>
+      </raceRestriction>
+    </alienRace>
+    <race>
+      <body>Human</body>
+      <leatherDef>Leather_Lizard</leatherDef>
+      <manhunterOnDamageChance>0.80</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.80</manhunterOnTameFailChance>
+      <lifeStageAges>
+        <li>
+          <def>BetaAdult_Croc1</def>
+          <minAge>18</minAge>
+        </li>
+        <li>
+          <def>BetaAdult_Croc2</def>
+          <minAge>25</minAge>
+        </li>
+        <li>
+          <def>BetaAdult_Croc3</def>
+          <minAge>30</minAge>
+        </li>
+        <li>
+          <def>BetaAdult_Croc4</def>
+          <minAge>50</minAge>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+      <hediffGiverSets>
+        <li>BetaHumanoids_Crocodile_TraitsGiver</li>
+      </hediffGiverSets>
+    </race>
+  </AlienRace.ThingDef_AlienRace>
+</Defs>

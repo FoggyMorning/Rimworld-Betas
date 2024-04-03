@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- based on the lotr traits -->
+  <HediffDef Name="BetaHumanoids_RacialTraits" Abstract="True">
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.0, 0.8, 0.0)</defaultLabelColor>
+    <initialSeverity>1</initialSeverity>
+    <isBad>false</isBad>
+    <scenarioCanAdd>false</scenarioCanAdd>
+  </HediffDef>
+
+  <!-- non reversible -->
+  <HediffDef>
+    <defName>BetaHumanoids_Sterilized</defName>
+    <label>sterilized</label>
+    <description>This creature's reproductive system has been permanently shut down.</description>
+    <hediffClass>Hediff</hediffClass>
+    <defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor>
+    <initialSeverity>1</initialSeverity>
+    <preventsPregnancy>true</preventsPregnancy>
+    <tags>
+      <li>Sterilized</li>
+    </tags>
+    <stages>
+      <li>
+        <statFactors MayRequire="Ludeon.RimWorld.Biotech">
+          <Fertility MayRequire="Ludeon.RimWorld.Biotech">0</Fertility>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+
+  <HediffDef ParentName="BetaHumanoids_RacialTraits">
+    <defName>BetaHumanoids_BearBlack_RacialTrait</defName>
+    <label>Beta-Humanoid: Black Bear</label>
+    <description>This person is a Beta-Humanoid black bear.  They have powerful bite and claw attacks.</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+          <ComfyTemperatureMax>0</ComfyTemperatureMax>
+          <Mass>10</Mass>
+          <MarketValue>250</MarketValue>
+          <CarryingCapacity>10</CarryingCapacity>
+          <SocialImpact>0.1</SocialImpact>
+          <ArrestSuccessChance>0.1</ArrestSuccessChance>
+          <MaxHitPoints>10</MaxHitPoints>
+          <BondAnimalChanceFactor>0.2</BondAnimalChanceFactor>
+          <RoyalFavorValue>1</RoyalFavorValue>
+          <MeatAmount>10</MeatAmount>
+          <LeatherAmount>10</LeatherAmount>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="BetaHumanoids_RacialTraits">
+    <defName>BetaHumanoids_Camel_RacialTrait</defName>
+    <label>Beta-Humanoid: Camel</label>
+    <description>This person is a Beta-Humanoid camel. They have a reduced hunger rate and so, need food less often.</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+          <ComfyTemperatureMax>20</ComfyTemperatureMax>
+          <Mass>10</Mass>
+          <MarketValue>120</MarketValue>
+          <CarryingCapacity>20</CarryingCapacity>
+          <SocialImpact>0.1</SocialImpact>
+          <BondAnimalChanceFactor>0.1</BondAnimalChanceFactor>
+          <RoyalFavorValue>1</RoyalFavorValue>
+          <MoveSpeed>2</MoveSpeed>
+          <MeatAmount>10</MeatAmount>
+          <LeatherAmount>10</LeatherAmount>
+          <NegotiationAbility>1</NegotiationAbility>
+          <MaxHitPoints>10</MaxHitPoints>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+
+  <HediffDef ParentName="BetaHumanoids_RacialTraits">
+    <defName>BetaHumanoids_Crocodile_RacialTrait</defName>
+    <label>Beta-Humanoid: Crocodile</label>
+    <description>This person is a Beta-Humanoid crocodile. They have a powerful bite attack.  They do not get upset about sleeping in the heat or being soaking wet.</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+          <ComfyTemperatureMax>20</ComfyTemperatureMax>
+          <Mass>10</Mass>
+          <MarketValue>120</MarketValue>
+          <SocialImpact>0.1</SocialImpact>
+          <BondAnimalChanceFactor>0.1</BondAnimalChanceFactor>
+          <RoyalFavorValue>1</RoyalFavorValue>
+          <MoveSpeed>-1</MoveSpeed>
+          <LeatherAmount>10</LeatherAmount>
+          <CarryingCapacity>-20</CarryingCapacity>
+          <ArrestSuccessChance>0.1</ArrestSuccessChance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="BetaHumanoids_RacialTraits">
+    <defName>BetaHumanoids_Elephant_RacialTrait</defName>
+    <label>Beta-Humanoid: Elephant</label>
+    <description>This person is a Beta-Humanoid elephant. Elephants are exceptionally large and have increased health.  They also have a large appetite. They have a trunk which increases manipulation. They have powerful fist and tusk attacks.</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>30</Mass>
+          <MarketValue>1000</MarketValue>
+          <CarryingCapacity>50</CarryingCapacity>
+          <SocialImpact>0.5</SocialImpact>
+          <BondAnimalChanceFactor>0.5</BondAnimalChanceFactor>
+          <RoyalFavorValue>1</RoyalFavorValue>
+          <MoveSpeed>-1</MoveSpeed>
+          <LeatherAmount>20</LeatherAmount>
+          <MaxHitPoints>10</MaxHitPoints>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="BetaHumanoids_RacialTraits">
+    <defName>BetaHumanoids_Elk_RacialTrait</defName>
+    <label>Beta-Humanoid: Elk</label>
+    <description>This person is a Beta-Humanoid elk. Male Elks have powerful antler attacks.</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+          <Mass>20</Mass>
+          <MarketValue>150</MarketValue>
+          <CarryingCapacity>10</CarryingCapacity>
+          <SocialImpact>0.1</SocialImpact>
+          <BondAnimalChanceFactor>0.5</BondAnimalChanceFactor>
+          <RoyalFavorValue>1</RoyalFavorValue>
+          <MoveSpeed>2</MoveSpeed>
+          <LeatherAmount>20</LeatherAmount>
+          <MaxHitPoints>10</MaxHitPoints>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="BetaHumanoids_RacialTraits">
+    <defName>BetaHumanoids_Fox_RacialTrait</defName>
+    <label>Beta-Humanoid: Fox</label>
+    <description>This person is a Beta-Humanoid fox.  They have increased hunting stealth. They have weak bite and claw attacks. Due to their small size their health is lower than humans.</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+          <Mass>-10</Mass>
+          <MarketValue>-100</MarketValue>
+          <CarryingCapacity>-20</CarryingCapacity>
+          <SocialImpact>-0.1</SocialImpact>
+          <BondAnimalChanceFactor>-0.1</BondAnimalChanceFactor>
+          <RoyalFavorValue>1</RoyalFavorValue>
+          <MoveSpeed>-0.1</MoveSpeed>
+          <LeatherAmount>-20</LeatherAmount>
+          <HuntingStealth>2</HuntingStealth>
+          <ResearchSpeed>2</ResearchSpeed>
+          <MaxHitPoints>-10</MaxHitPoints>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="BetaHumanoids_RacialTraits">
+    <defName>BetaHumanoids_Gazelle_RacialTrait</defName>
+    <label>Beta-Humanoid: Gazelle</label>
+    <description>This person is a Beta-Humanoid gazelle.  Gazelle's of both sexes have antlers which can be used in melee attacks.  They are fairly fragile and have lower health than humans.</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <Mass>-10</Mass>
+          <MarketValue>100</MarketValue>
+          <CarryingCapacity>-20</CarryingCapacity>
+          <SocialImpact>0.1</SocialImpact>
+          <BondAnimalChanceFactor>0.1</BondAnimalChanceFactor>
+          <RoyalFavorValue>1</RoyalFavorValue>
+          <MoveSpeed>3</MoveSpeed>
+          <LeatherAmount>-20</LeatherAmount>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="BetaHumanoids_RacialTraits">
+    <defName>BetaHumanoids_Hog_RacialTrait</defName>
+    <label>Beta-Humanoid: Hog</label>
+    <description>This person is a Beta-Humanoid hog.  Only male Hogs have visible tusks, but both sexes can use tusks to attack. Hogs are slightly smaller than humans with less health.</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <BondAnimalChanceFactor>1.2</BondAnimalChanceFactor>
+          <PlantWorkSpeed>1.2</PlantWorkSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="BetaHumanoids_RacialTraits">
+    <defName>BetaHumanoids_Lynx_RacialTrait</defName>
+    <label>Beta-Humanoid: Lynx</label>
+    <description>This person is a Beta-Humanoid lynx.  They have increased hunting stealth, and weak bite and claw attacks.  The Lynx are smaller than humans and so have less health.</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+          <Mass>-10</Mass>
+          <MarketValue>100</MarketValue>
+          <CarryingCapacity>-20</CarryingCapacity>
+          <SocialImpact>-0.1</SocialImpact>
+          <BondAnimalChanceFactor>-0.1</BondAnimalChanceFactor>
+          <RoyalFavorValue>1</RoyalFavorValue>
+          <LeatherAmount>-20</LeatherAmount>
+          <HuntingStealth>2</HuntingStealth>
+          <MaxHitPoints>-10</MaxHitPoints>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="BetaHumanoids_RacialTraits">
+    <defName>BetaHumanoids_Raccoon_RacialTrait</defName>
+    <label>Beta-Humanoid: Raccoon</label>
+    <description>This person is a Beta-Humanoid raccoon.  They do not get upset about eating kibble or insect meat. They also have weak bite and claw attacks. They are smaller than humans and so have less health.</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+          <Mass>-10</Mass>
+          <MarketValue>-100</MarketValue>
+          <CarryingCapacity>-20</CarryingCapacity>
+          <SocialImpact>-0.1</SocialImpact>
+          <BondAnimalChanceFactor>-0.1</BondAnimalChanceFactor>
+          <RoyalFavorValue>1</RoyalFavorValue>
+          <LeatherAmount>-20</LeatherAmount>
+          <HuntingStealth>2</HuntingStealth>
+          <MaxHitPoints>-10</MaxHitPoints>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="BetaHumanoids_RacialTraits">
+    <defName>BetaHumanoids_Wolf_RacialTrait</defName>
+    <label>Beta-Humanoid: Wolf</label>
+    <description>This person is a Beta-Humanoid wolf.  They have strong bite attacks.</description>
+    <stages>
+      <li>
+        <statOffsets>
+          <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+          <ComfyTemperatureMax>0</ComfyTemperatureMax>
+          <Mass>10</Mass>
+          <MarketValue>250</MarketValue>
+          <SocialImpact>0.1</SocialImpact>
+          <ArrestSuccessChance>0.1</ArrestSuccessChance>
+          <BondAnimalChanceFactor>1.2</BondAnimalChanceFactor>
+          <RoyalFavorValue>1</RoyalFavorValue>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+</Defs>

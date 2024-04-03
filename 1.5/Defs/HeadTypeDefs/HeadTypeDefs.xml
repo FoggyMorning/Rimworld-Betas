@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>BetaHumanoids_BetaBear_Male_Average_Normal</defName>
+    <graphicPath>Betas/BetaBear/Head/Male_Average_Normal</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>BetaHumanoids_BetaBear_Female_Average_Normal</defName>
+    <graphicPath>Betas/BetaBear/Head/Female_Average_Normal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>BetaHumanoids_BetaCamel_Male_Average_Normal</defName>
+    <graphicPath>Betas/BetaCamel/Head/Male_Average_Normal</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>BetaHumanoids_BetaCamel_Female_Average_Normal</defName>
+    <graphicPath>Betas/BetaCamel/Head/Female_Average_Normal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>BetaHumanoids_BetaCamel_Male_Average_Bump</defName>
+    <graphicPath>Betas/BetaCamel/Head/Male_Average_Bump</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>BetaHumanoids_BetaCamel_Female_Average_Bump</defName>
+    <graphicPath>Betas/BetaCamel/Head/Female_Average_Bump</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>BetaHumanoids_BetaCroc_Male_Average_Normal</defName>
+    <graphicPath>Betas/BetaCroc/Head/Male_Average_Normal</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>BetaHumanoids_BetaCroc_Female_Average_Normal</defName>
+    <graphicPath>Betas/BetaCroc/Head/Female_Average_Normal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="NarrowBase">
+    <defName>BetaHumanoids_BetaCroc_Male_Narrow_Normal</defName>
+    <graphicPath>Betas/BetaCroc/Head/Male_Narrow_Normal</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="NarrowBase">
+    <defName>BetaHumanoids_BetaCroc_Female_Narrow_Normal</defName>
+    <graphicPath>Betas/BetaCroc/Head/Female_Narrow_Normal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>BetaHumanoids_BetaCroc_Male_Narrow_Wide</defName>
+    <graphicPath>Betas/BetaCroc/Head/Male_Narrow_Wide</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>BetaHumanoids_BetaCroc_Female_Narrow_Wide</defName>
+    <graphicPath>Betas/BetaCroc/Head/Female_Narrow_Wide</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+
+  <HeadTypeDef Name="BetaElephantBase" Abstract="True">
+    <hairMeshSize>(1.5, 1.5)</hairMeshSize>
+    <beardMeshSize>(1.5, 1.5)</beardMeshSize>
+    <eyeOffsetEastWest>(0.25, 0.1, 0.0)</eyeOffsetEastWest>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="BetaElephantBase">
+    <defName>BetaHumanoids_BetaElephant_Male_Average_Normal</defName>
+    <graphicPath>Betas/BetaElephant/Head/Male_Average_Normal</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="BetaElephantBase">
+    <defName>BetaHumanoids_BetaElephant_Female_Average_Normal</defName>
+    <graphicPath>Betas/BetaElephant/Head/Female_Average_Normal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>BetaHumanoids_BetaElk_Male_Average_Normal</defName>
+    <graphicPath>Betas/BetaElk/Head/Male_Average_Normal</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>BetaHumanoids_BetaElk_Female_Average_Normal</defName>
+    <graphicPath>Betas/BetaElk/Head/Female_Average_Normal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>BetaHumanoids_BetaFox_Male_Average_Normal</defName>
+    <graphicPath>Betas/BetaFox/Head/Male_Average_Normal</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>BetaHumanoids_BetaFox_Female_Average_Normal</defName>
+    <graphicPath>Betas/BetaFox/Head/Female_Average_Normal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>BetaHumanoids_BetaFox_Male_Average_Normal_1</defName>
+    <graphicPath>Betas/BetaFox/Head/Male_Average_Normal_1</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>BetaHumanoids_BetaFox_Female_Average_Normal_1</defName>
+    <graphicPath>Betas/BetaFox/Head/Female_Average_Normal_1</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>BetaHumanoids_BetaGazelle_Male_Average_Normal</defName>
+    <graphicPath>Betas/BetaGazelle/Head/Male_Average_Normal</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>BetaHumanoids_BetaGazelle_Female_Average_Normal</defName>
+    <graphicPath>Betas/BetaGazelle/Head/Female_Average_Normal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>BetaHumanoids_BetaHog_Male_Average_Normal</defName>
+    <graphicPath>Betas/BetaHog/Head/Male_Average_Normal</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>BetaHumanoids_BetaHog_Female_Average_Normal</defName>
+    <graphicPath>Betas/BetaHog/Head/Female_Average_Normal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>BetaHumanoids_BetaLynx_Male_Average_Normal</defName>
+    <graphicPath>Betas/BetaLynx/Head/Male_Average_Normal</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>BetaHumanoids_BetaLynx_Female_Average_Normal</defName>
+    <graphicPath>Betas/BetaLynx/Head/Female_Average_Normal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>BetaHumanoids_BetaRaccoon_Male_Average_Normal</defName>
+    <graphicPath>Betas/BetaRaccoon/Head/Male_Average_Normal</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>BetaHumanoids_BetaRaccoon_Female_Average_Normal</defName>
+    <graphicPath>Betas/BetaRaccoon/Head/Female_Average_Normal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>BetaHumanoids_BetaWolf_Male_Average_Normal</defName>
+    <graphicPath>Betas/BetaWolf/Head/Male_Average_Normal</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>BetaHumanoids_BetaWolf_Female_Average_Normal</defName>
+    <graphicPath>Betas/BetaWolf/Head/Female_Average_Normal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+</Defs>

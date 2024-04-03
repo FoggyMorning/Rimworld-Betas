@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <BackstoryDef>
+    <defName>BetaHumanoidsBackstory_NavyScientist52</defName>
+    <title>corporate scientist</title>
+    <titleShort>scientist</titleShort>
+    <baseDesc>Interstellar warfare is won by technology, so corporate navies are always on the peak of modern research.
+      Some Beta-Humanoids are created specifically to avoid Human qualms about the destructive potential of the tech being created.
+      Even better, they have first access to archotechnological artifacts because they find them in space.\n\n[PAWN_nameDef] worked in a corporate lab.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Intellectual</key>
+        <value>8</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>BetaHumanoidsBackstory</li>
+      <li>BetaHumanoidsBackstoryScientist</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>BetaHumanoidsBackstory_GlitterworldEmpath26</defName>
+    <title>glitterworld empath</title>
+    <titleShort>empath</titleShort>
+    <baseDesc>[PAWN_nameDef] had an amazing ability to relate to others and mediate conflict. [PAWN_pronoun] created to serve as an empath. 
+      The programing instilled during the creation process intensified [PAWN_possessive] natural abilities, but [PAWN_pronoun] became unable to harm others.</baseDesc>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Violent</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Social</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li>
+        <key>Social</key>
+        <value>8</value>
+      </li>
+      <li>
+        <key>Medicine</key>
+        <value>2</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>BetaHumanoidsBackstory</li>
+    </spawnCategories>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <disallowedTraits>
+      <Psychopath>0</Psychopath>
+    </disallowedTraits>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>BetaHumanoidsBackstory_GlitterworldSurgeon15</defName>
+    <title>glitterworld surgeon</title>
+    <titleShort>surgeon</titleShort>
+    <baseDesc>[PAWN_nameDef] worked as a surgeon on a world mostly free of disease and human suffering.\n\n
+      [PAWN_possessive] job mostly involved elaborate and creative cosmetic surgeries. 
+      [PAWN_pronoun] has a good understanding of human biology, but never had to remove a cancer — or a bullet.</baseDesc>
+    <slot>Adulthood</slot>
+    <requiredWorkTags>
+      <li>Caring</li>
+      <li>Artistic</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li>
+        <key>Artistic</key>
+        <value>5</value>
+      </li>
+      <li>
+        <key>Medicine</key>
+        <value>3</value>
+      </li>
+      <li>
+        <key>Social</key>
+        <value>1</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>BetaHumanoidsBackstory</li>
+      <li>BetaHumanoidsBackstoryPirate</li>
+      <li>BetaHumanoidsBackstoryScientist</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <possessions>
+      <li>
+        <key>MedicineUltratech</key>
+        <value>2</value>
+      </li>
+    </possessions>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>BetaHumanoidsBackstoryGlitterworldOfficer60</defName>
+    <title>corporate officer</title>
+    <titleShort>officer</titleShort>
+    <baseDesc>Though glitterworlds are peaceful places, they often remain prepared for war. 
+      [PAWN_nameDef]'s unit rarely saw any real action.\n\n
+      Though [PAWN_pronoun] pursued [PAWN_possessive] artistic hobbies, [PAWN_possessive] subordinates preferred to entertain themselves by brawling, so [PAWN_nameDef] got good at breaking up fights.</baseDesc>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li>
+        <key>Melee</key>
+        <value>6</value>
+      </li>
+      <li>
+        <key>Artistic</key>
+        <value>4</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>BetaHumanoidsBackstory</li>
+      <li>BetaHumanoidsBackstoryPirate</li>
+    </spawnCategories>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>BetaHumanoidsBackstoryArchitect28</defName>
+    <title>architect</title>
+    <titleShort>architect</titleShort>
+    <baseDesc>[PAWN_nameDef] designed and constructed buildings. On [PAWN_possessive] corporate master's glitterworld home, most of the technical aspects of architecture were handled by an AI. 
+      This enabled [PAWN_objective] to push the artistic limits of the craft, but also meant [PAWN_pronoun] never had to get [PAWN_possessive] hands dirty at building sites.</baseDesc>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li>
+        <key>Construction</key>
+        <value>5</value>
+      </li>
+      <li>
+        <key>Artistic</key>
+        <value>7</value>
+      </li>
+      <li>
+        <key>Crafting</key>
+        <value>-3</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>BetaHumanoidsBackstory</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>BetaHumanoidsBackstorySculptor63</defName>
+    <title>sculptor</title>
+    <titleShort>sculptor</titleShort>
+    <baseDesc>[PAWN_nameDef] started off sculpting person-sized chunks of stone, but [PAWN_pronoun] soon began to think bigger. 
+      With the help of mining robots, [PAWN_pronoun] learned how to carve huge monuments out of cliffsides. 
+      Soon the corporate parks of the glitterworld where [PAWN_pronoun] lived were full of giant rock figures.</baseDesc>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>ManualDumb</li>
+      <li>Crafting</li>
+      <li>Cooking</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Artistic</li>
+    </requiredWorkTags>
+    <skillGains>
+      <li>
+        <key>Plants</key>
+        <value>-4</value>
+      </li>
+      <li>
+        <key>Mining</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Artistic</key>
+        <value>9</value>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>BetaHumanoidsBackstory</li>
+    </spawnCategories>
+    <bodyTypeMale>Fat</bodyTypeMale>
+    <bodyTypeFemale>Fat</bodyTypeFemale>
+    <possessions>
+      <li>
+        <key>BlocksMarble</key>
+        <value>10</value>
+      </li>
+    </possessions>
+  </BackstoryDef>
+
+</Defs>

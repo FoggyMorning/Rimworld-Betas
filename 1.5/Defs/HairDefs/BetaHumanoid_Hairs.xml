@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HairDef>
+    <defName>BetaHogMohawk</defName>
+    <label>Hog Razorback Mohawk</label>
+    <texPath>Betas/Things/Pawn/Humanlike/Hairs/Mohawk</texPath>
+    <styleTags>
+      <li>BetaHog</li>
+      <li>Punk</li>
+      <li>Wild</li>
+      <li>Tribal</li>
+    </styleTags>
+    <styleGender>Male</styleGender>
+  </HairDef>
+  <HairDef>
+    <defName>BetaNoHair</defName>
+    <label>No Hair</label>
+    <texPath>Betas/Things/Pawn/Humanlike/Hairs/NoHair</texPath>
+    <styleTags>
+      <li>BetaHog</li>
+      <li>NoHair</li>
+      <li>Bald</li>
+      <li>Shaved</li>
+      <li>Tribal</li>
+    </styleTags>
+  </HairDef>
+</Defs>

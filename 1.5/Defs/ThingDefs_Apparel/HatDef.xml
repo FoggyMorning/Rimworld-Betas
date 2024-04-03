@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="ApparelArmorHelmetPowerBase">
+    <defName>BetaHumanoid_Apparel_PowerArmorHelmet</defName>
+    <label>beta-humanoid marine helmet</label>
+    <description>A marine armor helmet shaped for Beta-Humanoids, with a built-in status computer and layered plasteel-weave plates.\n\nArmor like this is often used by rapid-incursion space marines.</description>
+    <apparel>
+      <wornGraphicPath>Betas/Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</wornGraphicPath>
+      <tags>
+        <li>BetaHumanoid_SpacerMilitary</li>
+        <li>BetaHumanoids_EarsTag</li>
+        <li>BetaHumanoids_ElephantEarsTag</li>
+      </tags>
+    </apparel>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <ComponentSpacer>1</ComponentSpacer>
+      <Plasteel>40</Plasteel>
+    </costList>
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelArmorHelmetPowerBase">
+    <defName>BetaHumanoid_Apparel_PowerArmorHelmet_Upgrade</defName>
+    <label>marine helmet beta-humanoid modification</label>
+    <description>A marine armor helmet shaped for Beta-Humanoids, with a built-in status computer and layered plasteel-weave plates.\n\nArmor like this is often used by rapid-incursion space marines.</description>
+    <apparel>
+      <wornGraphicPath>Betas/Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</wornGraphicPath>
+      <tags>
+        <li>BetaHumanoid_SpacerMilitary</li>
+        <li>BetaHumanoids_EarsTag</li>
+        <li>BetaHumanoids_ElephantEarsTag</li>
+      </tags>
+    </apparel>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/PowerArmorHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Apparel_PowerArmorHelmet>1</Apparel_PowerArmorHelmet>
+      <Plasteel>5</Plasteel>
+    </costList>
+  </ThingDef>
+
+</Defs>
