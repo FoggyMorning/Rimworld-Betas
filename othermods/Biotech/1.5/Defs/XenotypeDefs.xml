@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <XenotypeDef>
+        <defName>BetaHumanoids_Baseliner</defName>
+        <label>beta humanoid</label>
+        <description>An animal human hybrid created in a lab.</description>
+        <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+        <displayPriority>1000</displayPriority>
+        <factionlessGenerationWeight>0</factionlessGenerationWeight>
+    </XenotypeDef>
+</Defs>

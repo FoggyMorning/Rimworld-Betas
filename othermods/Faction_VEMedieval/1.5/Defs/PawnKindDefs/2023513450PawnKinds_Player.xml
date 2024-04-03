@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Subject">
+    <race>BetaBear</race>
+    <label>beta bear subject</label>
+    <defName>BetaBear_VFEM_Subject</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Subject">
+    <race>BetaCamel</race>
+    <label>beta camel subject</label>
+    <defName>BetaCamel_VFEM_Subject</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Subject">
+    <race>BetaCroc</race>
+    <label>beta crocodile subject</label>
+    <defName>BetaCroc_VFEM_Subject</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Subject">
+    <race>BetaElephant</race>
+    <label>beta elephant subject</label>
+    <defName>BetaElephant_VFEM_Subject</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Subject">
+    <race>BetaElk_Female</race>
+    <label>beta elk subject</label>
+    <defName>BetaElk_Female_VFEM_Subject</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Subject">
+    <race>BetaElk_Male</race>
+    <label>beta elk subject</label>
+    <defName>BetaElk_Male_VFEM_Subject</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Subject">
+    <race>BetaFox</race>
+    <label>beta fox subject</label>
+    <defName>BetaFox_VFEM_Subject</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Subject">
+    <race>BetaGazelle</race>
+    <label>beta gazelle subject</label>
+    <defName>BetaGazelle_VFEM_Subject</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Subject">
+    <race>BetaHog</race>
+    <label>beta hog subject</label>
+    <defName>BetaHog_VFEM_Subject</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Subject">
+    <race>BetaLynx</race>
+    <label>beta lynx subject</label>
+    <defName>BetaLynx_VFEM_Subject</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Subject">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon subject</label>
+    <defName>BetaRaccoon_VFEM_Subject</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_VFEM_Subject">
+    <race>BetaWolf</race>
+    <label>beta wolf subject</label>
+    <defName>BetaWolf_VFEM_Subject</defName>
+  </PawnKindDef>
+</Defs>

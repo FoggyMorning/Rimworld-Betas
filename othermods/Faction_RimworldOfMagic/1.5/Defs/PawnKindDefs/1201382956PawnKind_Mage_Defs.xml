@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="BetaHumanoids_SeerDefender">
+    <race>BetaBear</race>
+    <label>beta bear Magic Protector</label>
+    <defName>BetaBear_SeerDefender</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerDefender">
+    <race>BetaCamel</race>
+    <label>beta camel Magic Protector</label>
+    <defName>BetaCamel_SeerDefender</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerDefender">
+    <race>BetaCroc</race>
+    <label>beta crocodile Magic Protector</label>
+    <defName>BetaCroc_SeerDefender</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerDefender">
+    <race>BetaElephant</race>
+    <label>beta elephant Magic Protector</label>
+    <defName>BetaElephant_SeerDefender</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerDefender">
+    <race>BetaElk_Female</race>
+    <label>beta elk Magic Protector</label>
+    <defName>BetaElk_Female_SeerDefender</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerDefender">
+    <race>BetaElk_Male</race>
+    <label>beta elk Magic Protector</label>
+    <defName>BetaElk_Male_SeerDefender</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerDefender">
+    <race>BetaFox</race>
+    <label>beta fox Magic Protector</label>
+    <defName>BetaFox_SeerDefender</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerDefender">
+    <race>BetaGazelle</race>
+    <label>beta gazelle Magic Protector</label>
+    <defName>BetaGazelle_SeerDefender</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerDefender">
+    <race>BetaHog</race>
+    <label>beta hog Magic Protector</label>
+    <defName>BetaHog_SeerDefender</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerDefender">
+    <race>BetaLynx</race>
+    <label>beta lynx Magic Protector</label>
+    <defName>BetaLynx_SeerDefender</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerDefender">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon Magic Protector</label>
+    <defName>BetaRaccoon_SeerDefender</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerDefender">
+    <race>BetaWolf</race>
+    <label>beta wolf Magic Protector</label>
+    <defName>BetaWolf_SeerDefender</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerSpearman">
+    <race>BetaBear</race>
+    <label>beta bear Guardsman</label>
+    <defName>BetaBear_SeerSpearman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerSpearman">
+    <race>BetaCamel</race>
+    <label>beta camel Guardsman</label>
+    <defName>BetaCamel_SeerSpearman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerSpearman">
+    <race>BetaCroc</race>
+    <label>beta crocodile Guardsman</label>
+    <defName>BetaCroc_SeerSpearman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerSpearman">
+    <race>BetaElephant</race>
+    <label>beta elephant Guardsman</label>
+    <defName>BetaElephant_SeerSpearman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerSpearman">
+    <race>BetaElk_Female</race>
+    <label>beta elk Guardsman</label>
+    <defName>BetaElk_Female_SeerSpearman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerSpearman">
+    <race>BetaElk_Male</race>
+    <label>beta elk Guardsman</label>
+    <defName>BetaElk_Male_SeerSpearman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerSpearman">
+    <race>BetaFox</race>
+    <label>beta fox Guardsman</label>
+    <defName>BetaFox_SeerSpearman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerSpearman">
+    <race>BetaGazelle</race>
+    <label>beta gazelle Guardsman</label>
+    <defName>BetaGazelle_SeerSpearman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerSpearman">
+    <race>BetaHog</race>
+    <label>beta hog Guardsman</label>
+    <defName>BetaHog_SeerSpearman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerSpearman">
+    <race>BetaLynx</race>
+    <label>beta lynx Guardsman</label>
+    <defName>BetaLynx_SeerSpearman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerSpearman">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon Guardsman</label>
+    <defName>BetaRaccoon_SeerSpearman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerSpearman">
+    <race>BetaWolf</race>
+    <label>beta wolf Guardsman</label>
+    <defName>BetaWolf_SeerSpearman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerBowman">
+    <race>BetaBear</race>
+    <label>beta bear Seer Archer</label>
+    <defName>BetaBear_SeerBowman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerBowman">
+    <race>BetaCamel</race>
+    <label>beta camel Seer Archer</label>
+    <defName>BetaCamel_SeerBowman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerBowman">
+    <race>BetaCroc</race>
+    <label>beta crocodile Seer Archer</label>
+    <defName>BetaCroc_SeerBowman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerBowman">
+    <race>BetaElephant</race>
+    <label>beta elephant Seer Archer</label>
+    <defName>BetaElephant_SeerBowman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerBowman">
+    <race>BetaElk_Female</race>
+    <label>beta elk Seer Archer</label>
+    <defName>BetaElk_Female_SeerBowman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerBowman">
+    <race>BetaElk_Male</race>
+    <label>beta elk Seer Archer</label>
+    <defName>BetaElk_Male_SeerBowman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerBowman">
+    <race>BetaFox</race>
+    <label>beta fox Seer Archer</label>
+    <defName>BetaFox_SeerBowman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerBowman">
+    <race>BetaGazelle</race>
+    <label>beta gazelle Seer Archer</label>
+    <defName>BetaGazelle_SeerBowman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerBowman">
+    <race>BetaHog</race>
+    <label>beta hog Seer Archer</label>
+    <defName>BetaHog_SeerBowman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerBowman">
+    <race>BetaLynx</race>
+    <label>beta lynx Seer Archer</label>
+    <defName>BetaLynx_SeerBowman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerBowman">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon Seer Archer</label>
+    <defName>BetaRaccoon_SeerBowman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerBowman">
+    <race>BetaWolf</race>
+    <label>beta wolf Seer Archer</label>
+    <defName>BetaWolf_SeerBowman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerElite">
+    <race>BetaBear</race>
+    <label>beta bear Seer Elite</label>
+    <defName>BetaBear_SeerElite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerElite">
+    <race>BetaCamel</race>
+    <label>beta camel Seer Elite</label>
+    <defName>BetaCamel_SeerElite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerElite">
+    <race>BetaCroc</race>
+    <label>beta crocodile Seer Elite</label>
+    <defName>BetaCroc_SeerElite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerElite">
+    <race>BetaElephant</race>
+    <label>beta elephant Seer Elite</label>
+    <defName>BetaElephant_SeerElite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerElite">
+    <race>BetaElk_Female</race>
+    <label>beta elk Seer Elite</label>
+    <defName>BetaElk_Female_SeerElite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerElite">
+    <race>BetaElk_Male</race>
+    <label>beta elk Seer Elite</label>
+    <defName>BetaElk_Male_SeerElite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerElite">
+    <race>BetaFox</race>
+    <label>beta fox Seer Elite</label>
+    <defName>BetaFox_SeerElite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerElite">
+    <race>BetaGazelle</race>
+    <label>beta gazelle Seer Elite</label>
+    <defName>BetaGazelle_SeerElite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerElite">
+    <race>BetaHog</race>
+    <label>beta hog Seer Elite</label>
+    <defName>BetaHog_SeerElite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerElite">
+    <race>BetaLynx</race>
+    <label>beta lynx Seer Elite</label>
+    <defName>BetaLynx_SeerElite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerElite">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon Seer Elite</label>
+    <defName>BetaRaccoon_SeerElite</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_SeerElite">
+    <race>BetaWolf</race>
+    <label>beta wolf Seer Elite</label>
+    <defName>BetaWolf_SeerElite</defName>
+  </PawnKindDef>
+</Defs>

@@ -7,22 +7,13 @@
     <defName>BetaHumanoidsBackstoryIndustrialOrphan13</defName>
     <title>industrial drone</title>
     <titleShort>drone</titleShort>
-    <baseDesc>[PAWN_nameDef] wasn't made as a person, but as drone to work in the vast urbworld factories owned by the corporations.
-      [PAWN_possessive] earliest memories were of drudgery in the mines and workhouses of [PAWN_possessive] industrial world.</baseDesc>
+    <description>[PAWN_nameDef] wasn't made as a person, but as drone to work in the vast urbworld factories owned by the corporations.
+      [PAWN_possessive] earliest memories were of drudgery in the mines and workhouses of [PAWN_possessive] industrial world.</description>
     <slot>Childhood</slot>
     <skillGains>
-      <li>
-        <key>Crafting</key>
-        <value>3</value>
-      </li>
-      <li>
-        <key>Mining</key>
-        <value>3</value>
-      </li>
-      <li>
-        <key>Intellectual</key>
-        <value>-2</value>
-      </li>
+      <Crafting>3</Crafting>
+      <Mining>3</Mining>
+      <Intellectual>-2</Intellectual>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -37,18 +28,12 @@
     <defName>BetaHumanoidsBackstoryUrbworldUrchin61</defName>
     <title>urbworld urchin</title>
     <titleShort>urchin</titleShort>
-    <baseDesc>[PAWN_nameDef] wasn't made as a person, but as drone to work in the vast urbworld factories owned by the corporations. However [PAWN_pronoun] escaped and fled into the darkness of the undercity.
-    [PAWN_nameDef] became an adult in the dark, unwanted reaches of such a place. [PAWN_pronoun] had to fight for every scrap of food.</baseDesc>
+    <description>[PAWN_nameDef] wasn't made as a person, but as drone to work in the vast urbworld factories owned by the corporations. However [PAWN_pronoun] escaped and fled into the darkness of the undercity.
+    [PAWN_nameDef] became an adult in the dark, unwanted reaches of such a place. [PAWN_pronoun] had to fight for every scrap of food.</description>
     <slot>Childhood</slot>
     <skillGains>
-      <li>
-        <key>Melee</key>
-        <value>4</value>
-      </li>
-      <li>
-        <key>Shooting</key>
-        <value>2</value>
-      </li>
+      <Melee>4</Melee>
+      <Shooting>2</Shooting>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -61,8 +46,8 @@
     <defName>BetaHumanoidsBackstoryTestSubject15</defName>
     <title>test subject</title>
     <titleShort>testee</titleShort>
-    <baseDesc>[PAWN_nameDef] wasn't made as a person, but as a test subject for medical experiments considered unsavory to perform on Humans.
-      [PAWN_nameDef] was kept alone in a sealed facility from birth and subjected to a variety of behavioural experiments in an attempt to turn [PAWN_objective] into a perfect super-soldier.</baseDesc>
+    <description>[PAWN_nameDef] wasn't made as a person, but as a test subject for medical experiments considered unsavory to perform on Humans.
+      [PAWN_nameDef] was kept alone in a sealed facility from birth and subjected to a variety of behavioural experiments in an attempt to turn [PAWN_objective] into a perfect super-soldier.</description>
     <slot>Childhood</slot>
     <workDisables>
       <li>Social</li>
@@ -70,10 +55,7 @@
       <li>Firefighting</li>
     </workDisables>
     <skillGains>
-      <li>
-        <key>Shooting</key>
-        <value>4</value>
-      </li>
+      <Shooting>4</Shooting>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -89,18 +71,12 @@
     <defName>BetaHumanoidsBackstoryWreckageExplorer93</defName>
     <title>wreckage explorer</title>
     <titleShort>explorer</titleShort>
-    <baseDesc>[PAWN_nameDef] wasn't made as a person, but as a slave to the corporations. However the facility they were created in was heavily damaged when war broke out on the planet. [PAWN_possessive] training was never completed.
-        [PAWN_nameDef] was tasked with watching [PAWN_possessive] corporation's livestock among the ruins, but often shirked [PAWN_possessive] duties to go exploring the crashed warships scattered around the planet.</baseDesc>
+    <description>[PAWN_nameDef] wasn't made as a person, but as a slave to the corporations. However the facility they were created in was heavily damaged when war broke out on the planet. [PAWN_possessive] training was never completed.
+        [PAWN_nameDef] was tasked with watching [PAWN_possessive] corporation's livestock among the ruins, but often shirked [PAWN_possessive] duties to go exploring the crashed warships scattered around the planet.</description>
     <slot>Childhood</slot>
     <skillGains>
-      <li>
-        <key>Animals</key>
-        <value>3</value>
-      </li>
-      <li>
-        <key>Intellectual</key>
-        <value>3</value>
-      </li>
+      <Animals>3</Animals>
+      <Intellectual>3</Intellectual>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -115,24 +91,15 @@
     <defName>BetaHumanoidsBackstoryApocalypseSurvivor23</defName>
     <title>apocalypse survivor</title>
     <titleShort>survivor</titleShort>
-    <baseDesc>[PAWN_nameDef] wasn't made as a person, but as a slave to the corporations.
+    <description>[PAWN_nameDef] wasn't made as a person, but as a slave to the corporations.
           [PAWN_nameDef] creation occurred during a time of unrest on [PAWN_possessive] homeworld, as climate change threatened mass starvation and flooding. 
           As [PAWN_pronoun] training completed the situation worsened - billions died and peaceful states descended into anarchy. 
-          [PAWN_nameDef] was able to escape and did whatever they had to to survive.</baseDesc>
+          [PAWN_nameDef] was able to escape and did whatever they had to to survive.</description>
     <slot>Childhood</slot>
     <skillGains>
-      <li>
-        <key>Shooting</key>
-        <value>4</value>
-      </li>
-      <li>
-        <key>Artistic</key>
-        <value>-3</value>
-      </li>
-      <li>
-        <key>Intellectual</key>
-        <value>-3</value>
-      </li>
+      <Shooting>4</Shooting>
+      <Artistic>-3</Artistic>
+      <Intellectual>-3</Intellectual>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -147,23 +114,14 @@
     <defName>BetaHumanoidsBackstoryCaveworldTender26</defName>
     <title>caveworld tender</title>
     <titleShort>cave kid</titleShort>
-    <baseDesc>[PAWN_nameDef] wasn't made as a person, but as a slave to the corporations.
+    <description>[PAWN_nameDef] wasn't made as a person, but as a slave to the corporations.
           [PAWN_nameDef] escaped into a cave complex deep beneath the surface of an inhospitable world where [PAWN_pronoun] joined a tribe living there. 
-          [PAWN_pronoun] worked with the others tending the tribe's fungus crops.</baseDesc>
+          [PAWN_pronoun] worked with the others tending the tribe's fungus crops.</description>
     <slot>Childhood</slot>
     <skillGains>
-      <li>
-        <key>Plants</key>
-        <value>4</value>
-      </li>
-      <li>
-        <key>Mining</key>
-        <value>2</value>
-      </li>
-      <li>
-        <key>Shooting</key>
-        <value>-3</value>
-      </li>
+      <Plants>4</Plants>
+      <Mining>2</Mining>
+      <Shooting>-3</Shooting>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -180,25 +138,16 @@
     <defName>BetaHumanoidsBackstoryCaveworldTunneler48</defName>
     <title>caveworld tunneler</title>
     <titleShort>tunneler</titleShort>
-    <baseDesc>[PAWN_nameDef] wasn't made as a person, but as a slave to the corporations. [PAWN_nameDef] worked as a digger in the massive underground cave complex.\n\n[PAWN_pronoun] knows rock so well that [PAWN_pronoun] can almost navigate caves by smell.</baseDesc>
+    <description>[PAWN_nameDef] wasn't made as a person, but as a slave to the corporations. [PAWN_nameDef] worked as a digger in the massive underground cave complex.\n\n[PAWN_pronoun] knows rock so well that [PAWN_pronoun] can almost navigate caves by smell.</description>
     <slot>Childhood</slot>
     <workDisables>
       <li>Intellectual</li>
       <li>Crafting</li>
     </workDisables>
     <skillGains>
-      <li>
-        <key>Construction</key>
-        <value>1</value>
-      </li>
-      <li>
-        <key>Mining</key>
-        <value>6</value>
-      </li>
-      <li>
-        <key>Shooting</key>
-        <value>-2</value>
-      </li>
+      <Construction>1</Construction>
+      <Mining>6</Mining>
+      <Shooting>-2</Shooting>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -219,25 +168,16 @@
     <defName>BetaHumanoidsBackstoryScout44</defName>
     <title>scout</title>
     <titleShort>scout</titleShort>
-    <baseDesc>[PAWN_nameDef] wasn't made as a person, but as a slave to the corporations. [PAWN_nameDef] training included military scouting skills.\n\n[PAWN_pronoun] learned to survive in the wilderness, to obey, and not to ask questions.</baseDesc>
+    <description>[PAWN_nameDef] wasn't made as a person, but as a slave to the corporations. [PAWN_nameDef] training included military scouting skills.\n\n[PAWN_pronoun] learned to survive in the wilderness, to obey, and not to ask questions.</description>
     <slot>Childhood</slot>
     <workDisables>
       <li>Artistic</li>
       <li>Intellectual</li>
     </workDisables>
     <skillGains>
-      <li>
-        <key>Shooting</key>
-        <value>3</value>
-      </li>
-      <li>
-        <key>Crafting</key>
-        <value>2</value>
-      </li>
-      <li>
-        <key>Construction</key>
-        <value>1</value>
-      </li>
+      <Shooting>3</Shooting>
+      <Crafting>2</Crafting>
+      <Construction>1</Construction>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -254,29 +194,14 @@
     <defName>BetaHumanoidsBackstoryShelterChild50</defName>
     <title>shelter child</title>
     <titleShort>shelterkid</titleShort>
-    <baseDesc>[PAWN_nameDef] wasn't made as a person, but as a slave to the corporations. [PAWN_nameDef] worked in a shelter deep beneath a toxic world. [PAWN_pronoun] received a comprehensive education, but had no opportunity to do physical labour.</baseDesc>
+    <description>[PAWN_nameDef] wasn't made as a person, but as a slave to the corporations. [PAWN_nameDef] worked in a shelter deep beneath a toxic world. [PAWN_pronoun] received a comprehensive education, but had no opportunity to do physical labour.</description>
     <slot>Childhood</slot>
     <skillGains>
-      <li>
-        <key>Intellectual</key>
-        <value>3</value>
-      </li>
-      <li>
-        <key>Medicine</key>
-        <value>3</value>
-      </li>
-      <li>
-        <key>Social</key>
-        <value>2</value>
-      </li>
-      <li>
-        <key>Construction</key>
-        <value>-2</value>
-      </li>
-      <li>
-        <key>Mining</key>
-        <value>-2</value>
-      </li>
+      <Intellectual>3</Intellectual>
+      <Medicine>3</Medicine>
+      <Social>2</Social>
+      <Construction>-2</Construction>
+      <Mining>-2</Mining>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>

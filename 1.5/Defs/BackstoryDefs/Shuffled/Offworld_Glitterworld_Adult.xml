@@ -5,15 +5,12 @@
     <defName>BetaHumanoidsBackstory_NavyScientist52</defName>
     <title>corporate scientist</title>
     <titleShort>scientist</titleShort>
-    <baseDesc>Interstellar warfare is won by technology, so corporate navies are always on the peak of modern research.
+    <description>Interstellar warfare is won by technology, so corporate navies are always on the peak of modern research.
       Some Beta-Humanoids are created specifically to avoid Human qualms about the destructive potential of the tech being created.
-      Even better, they have first access to archotechnological artifacts because they find them in space.\n\n[PAWN_nameDef] worked in a corporate lab.</baseDesc>
+      Even better, they have first access to archotechnological artifacts because they find them in space.\n\n[PAWN_nameDef] worked in a corporate lab.</description>
     <slot>Adulthood</slot>
     <skillGains>
-      <li>
-        <key>Intellectual</key>
-        <value>8</value>
-      </li>
+      <Intellectual>8</Intellectual>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -30,8 +27,8 @@
     <defName>BetaHumanoidsBackstory_GlitterworldEmpath26</defName>
     <title>glitterworld empath</title>
     <titleShort>empath</titleShort>
-    <baseDesc>[PAWN_nameDef] had an amazing ability to relate to others and mediate conflict. [PAWN_pronoun] created to serve as an empath. 
-      The programing instilled during the creation process intensified [PAWN_possessive] natural abilities, but [PAWN_pronoun] became unable to harm others.</baseDesc>
+    <description>[PAWN_nameDef] had an amazing ability to relate to others and mediate conflict. [PAWN_pronoun] created to serve as an empath. 
+      The programing instilled during the creation process intensified [PAWN_possessive] natural abilities, but [PAWN_pronoun] became unable to harm others.</description>
     <slot>Adulthood</slot>
     <workDisables>
       <li>Violent</li>
@@ -40,14 +37,8 @@
       <li>Social</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Social</key>
-        <value>8</value>
-      </li>
-      <li>
-        <key>Medicine</key>
-        <value>2</value>
-      </li>
+      <Social>8</Social>
+      <Medicine>2</Medicine>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -63,27 +54,18 @@
     <defName>BetaHumanoidsBackstory_GlitterworldSurgeon15</defName>
     <title>glitterworld surgeon</title>
     <titleShort>surgeon</titleShort>
-    <baseDesc>[PAWN_nameDef] worked as a surgeon on a world mostly free of disease and human suffering.\n\n
+    <description>[PAWN_nameDef] worked as a surgeon on a world mostly free of disease and human suffering.\n\n
       [PAWN_possessive] job mostly involved elaborate and creative cosmetic surgeries. 
-      [PAWN_pronoun] has a good understanding of human biology, but never had to remove a cancer — or a bullet.</baseDesc>
+      [PAWN_pronoun] has a good understanding of human biology, but never had to remove a cancer — or a bullet.</description>
     <slot>Adulthood</slot>
     <requiredWorkTags>
       <li>Caring</li>
       <li>Artistic</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Artistic</key>
-        <value>5</value>
-      </li>
-      <li>
-        <key>Medicine</key>
-        <value>3</value>
-      </li>
-      <li>
-        <key>Social</key>
-        <value>1</value>
-      </li>
+      <Artistic>5</Artistic>
+      <Medicine>3</Medicine>
+      <Social>1</Social>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -93,10 +75,7 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <possessions>
-      <li>
-        <key>MedicineUltratech</key>
-        <value>2</value>
-      </li>
+      <MedicineUltratech>2</MedicineUltratech>
     </possessions>
   </BackstoryDef>
 
@@ -104,9 +83,9 @@
     <defName>BetaHumanoidsBackstoryGlitterworldOfficer60</defName>
     <title>corporate officer</title>
     <titleShort>officer</titleShort>
-    <baseDesc>Though glitterworlds are peaceful places, they often remain prepared for war. 
+    <description>Though glitterworlds are peaceful places, they often remain prepared for war. 
       [PAWN_nameDef]'s unit rarely saw any real action.\n\n
-      Though [PAWN_pronoun] pursued [PAWN_possessive] artistic hobbies, [PAWN_possessive] subordinates preferred to entertain themselves by brawling, so [PAWN_nameDef] got good at breaking up fights.</baseDesc>
+      Though [PAWN_pronoun] pursued [PAWN_possessive] artistic hobbies, [PAWN_possessive] subordinates preferred to entertain themselves by brawling, so [PAWN_nameDef] got good at breaking up fights.</description>
     <slot>Adulthood</slot>
     <workDisables>
       <li>ManualDumb</li>
@@ -115,14 +94,8 @@
       <li>Violent</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Melee</key>
-        <value>6</value>
-      </li>
-      <li>
-        <key>Artistic</key>
-        <value>4</value>
-      </li>
+      <Melee>6</Melee>
+      <Artistic>4</Artistic>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -136,8 +109,8 @@
     <defName>BetaHumanoidsBackstoryArchitect28</defName>
     <title>architect</title>
     <titleShort>architect</titleShort>
-    <baseDesc>[PAWN_nameDef] designed and constructed buildings. On [PAWN_possessive] corporate master's glitterworld home, most of the technical aspects of architecture were handled by an AI. 
-      This enabled [PAWN_objective] to push the artistic limits of the craft, but also meant [PAWN_pronoun] never had to get [PAWN_possessive] hands dirty at building sites.</baseDesc>
+    <description>[PAWN_nameDef] designed and constructed buildings. On [PAWN_possessive] corporate master's glitterworld home, most of the technical aspects of architecture were handled by an AI. 
+      This enabled [PAWN_objective] to push the artistic limits of the craft, but also meant [PAWN_pronoun] never had to get [PAWN_possessive] hands dirty at building sites.</description>
     <slot>Adulthood</slot>
     <workDisables>
       <li>ManualDumb</li>
@@ -146,18 +119,9 @@
       <li>Intellectual</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Construction</key>
-        <value>5</value>
-      </li>
-      <li>
-        <key>Artistic</key>
-        <value>7</value>
-      </li>
-      <li>
-        <key>Crafting</key>
-        <value>-3</value>
-      </li>
+      <Construction>5</Construction>
+      <Artistic>7</Artistic>
+      <Crafting>-3</Crafting>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -170,9 +134,9 @@
     <defName>BetaHumanoidsBackstorySculptor63</defName>
     <title>sculptor</title>
     <titleShort>sculptor</titleShort>
-    <baseDesc>[PAWN_nameDef] started off sculpting person-sized chunks of stone, but [PAWN_pronoun] soon began to think bigger. 
+    <description>[PAWN_nameDef] started off sculpting person-sized chunks of stone, but [PAWN_pronoun] soon began to think bigger. 
       With the help of mining robots, [PAWN_pronoun] learned how to carve huge monuments out of cliffsides. 
-      Soon the corporate parks of the glitterworld where [PAWN_pronoun] lived were full of giant rock figures.</baseDesc>
+      Soon the corporate parks of the glitterworld where [PAWN_pronoun] lived were full of giant rock figures.</description>
     <slot>Adulthood</slot>
     <workDisables>
       <li>ManualDumb</li>
@@ -183,18 +147,9 @@
       <li>Artistic</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Plants</key>
-        <value>-4</value>
-      </li>
-      <li>
-        <key>Mining</key>
-        <value>4</value>
-      </li>
-      <li>
-        <key>Artistic</key>
-        <value>9</value>
-      </li>
+      <Plants>-4</Plants>
+      <Mining>4</Mining>
+      <Artistic>9</Artistic>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -202,10 +157,7 @@
     <bodyTypeMale>Fat</bodyTypeMale>
     <bodyTypeFemale>Fat</bodyTypeFemale>
     <possessions>
-      <li>
-        <key>BlocksMarble</key>
-        <value>10</value>
-      </li>
+      <BlocksMarble>10</BlocksMarble>
     </possessions>
   </BackstoryDef>
 

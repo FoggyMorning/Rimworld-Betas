@@ -7,7 +7,7 @@
     <defName>BetaHumanoidsBackstoryFactoryWorker58</defName>
     <title>factory worker</title>
     <titleShort>worker</titleShort>
-    <baseDesc>[PAWN_nameDef] did menial, unskilled work in an industrial factory. [PAWN_possessive] job also included caring for the mules and horses which transported the goods.</baseDesc>
+    <description>[PAWN_nameDef] did menial, unskilled work in an industrial factory. [PAWN_possessive] job also included caring for the mules and horses which transported the goods.</description>
     <slot>Adulthood</slot>
     <workDisables>
       <li>Intellectual</li>
@@ -20,18 +20,9 @@
       <li>Animals</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Animals</key>
-        <value>3</value>
-      </li>
-      <li>
-        <key>Construction</key>
-        <value>3</value>
-      </li>
-      <li>
-        <key>Crafting</key>
-        <value>2</value>
-      </li>
+      <Animals>3</Animals>
+      <Construction>3</Construction>
+      <Crafting>2</Crafting>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -46,7 +37,7 @@
     <defName>BetaHumanoidsBackstoryPsychiatricPatient94</defName>
     <title>psychiatric patient</title>
     <titleShort>patient</titleShort>
-    <baseDesc>[PAWN_nameDef] spent most of [PAWN_possessive] adult life in an insane asylum. [PAWN_possessive] industrial homeworld had a poor understanding of mental illness, and [PAWN_pronoun] was treated more like an animal than a person.\n\nThough [PAWN_pronoun] eventually recovered and was released, [PAWN_possessive] experience dampened many of [PAWN_possessive] basic life skills.</baseDesc>
+    <description>[PAWN_nameDef] spent most of [PAWN_possessive] adult life in an insane asylum. [PAWN_possessive] industrial homeworld had a poor understanding of mental illness, and [PAWN_pronoun] was treated more like an animal than a person.\n\nThough [PAWN_pronoun] eventually recovered and was released, [PAWN_possessive] experience dampened many of [PAWN_possessive] basic life skills.</description>
     <slot>Adulthood</slot>
     <workDisables>
       <li>Social</li>
@@ -54,14 +45,8 @@
       <li>Violent</li>
     </workDisables>
     <skillGains>
-      <li>
-        <key>Cooking</key>
-        <value>-2</value>
-      </li>
-      <li>
-        <key>Crafting</key>
-        <value>-2</value>
-      </li>
+      <Cooking>-2</Cooking>
+      <Crafting>-2</Crafting>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -76,7 +61,7 @@
     <defName>BetaHumanoidsBackstoryHumanComputer83</defName>
     <title>human computer</title>
     <titleShort>computer</titleShort>
-    <baseDesc>[PAWN_nameDef] turned out to have an excellent memory and a gift for performing complex calculations in [PAWN_possessive] head. An industrial-world dictator decided to employ [PAWN_nameDef] to keep track of [PAWN_possessive] state's finances and expenditure.</baseDesc>
+    <description>[PAWN_nameDef] turned out to have an excellent memory and a gift for performing complex calculations in [PAWN_possessive] head. An industrial-world dictator decided to employ [PAWN_nameDef] to keep track of [PAWN_possessive] state's finances and expenditure.</description>
     <slot>Adulthood</slot>
     <workDisables>
       <li>Artistic</li>
@@ -85,14 +70,8 @@
       <li>Intellectual</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Shooting</key>
-        <value>3</value>
-      </li>
-      <li>
-        <key>Intellectual</key>
-        <value>7</value>
-      </li>
+      <Shooting>3</Shooting>
+      <Intellectual>7</Intellectual>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -107,24 +86,15 @@
     <defName>BetaHumanoidsBackstorySheriff52</defName>
     <title>sheriff</title>
     <titleShort>sheriff</titleShort>
-    <baseDesc>[PAWN_nameDef] was the law enforcer in an isolated industrial town. [PAWN_pronoun] dealt with petty crime, dispute resolution, and the occasional drunken saloon shootout.</baseDesc>
+    <description>[PAWN_nameDef] was the law enforcer in an isolated industrial town. [PAWN_pronoun] dealt with petty crime, dispute resolution, and the occasional drunken saloon shootout.</description>
     <slot>Adulthood</slot>
     <requiredWorkTags>
       <li>Violent</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Shooting</key>
-        <value>4</value>
-      </li>
-      <li>
-        <key>Melee</key>
-        <value>4</value>
-      </li>
-      <li>
-        <key>Social</key>
-        <value>4</value>
-      </li>
+      <Shooting>4</Shooting>
+      <Melee>4</Melee>
+      <Social>4</Social>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -134,10 +104,7 @@
     <bodyTypeMale>Fat</bodyTypeMale>
     <bodyTypeFemale>Fat</bodyTypeFemale>
     <possessions>
-      <li>
-        <key>Apparel_Duster</key>
-        <value>1</value>
-      </li>
+      <Apparel_Duster>1</Apparel_Duster>
     </possessions>
   </BackstoryDef>
 
@@ -148,7 +115,7 @@
     <defName>BetaHumanoidsBackstoryJoywireArtist8</defName>
     <title>joywire artist</title>
     <titleShort>joywirer</titleShort>
-    <baseDesc>[PAWN_nameDef] worked in an urbworld lab developing cutting-edge joywire software to maximize user pleasure.\n\nWhen the local government imposed harsh restrictions on joywire manufacturing, [PAWN_pronoun] began selling [PAWN_possessive] products on the black market.</baseDesc>
+    <description>[PAWN_nameDef] worked in an urbworld lab developing cutting-edge joywire software to maximize user pleasure.\n\nWhen the local government imposed harsh restrictions on joywire manufacturing, [PAWN_pronoun] began selling [PAWN_possessive] products on the black market.</description>
     <slot>Adulthood</slot>
     <workDisables>
       <li>ManualDumb</li>
@@ -157,18 +124,9 @@
       <li>Intellectual</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Artistic</key>
-        <value>3</value>
-      </li>
-      <li>
-        <key>Intellectual</key>
-        <value>2</value>
-      </li>
-      <li>
-        <key>Medicine</key>
-        <value>2</value>
-      </li>
+      <Artistic>3</Artistic>
+      <Intellectual>2</Intellectual>
+      <Medicine>2</Medicine>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -183,7 +141,7 @@
     <defName>BetaHumanoidsBackstoryMafiaBoss17</defName>
     <title>mafia boss</title>
     <titleShort>boss</titleShort>
-    <baseDesc>[PAWN_nameDef] was a high-ranking member of an urbworld crime syndicate.\n\n[PAWN_pronoun] bribed officials, maintained the loyalty of [PAWN_possessive] subordinates, and extracted overdue payments - by any means necessary.</baseDesc>
+    <description>[PAWN_nameDef] was a high-ranking member of an urbworld crime syndicate.\n\n[PAWN_pronoun] bribed officials, maintained the loyalty of [PAWN_possessive] subordinates, and extracted overdue payments - by any means necessary.</description>
     <slot>Adulthood</slot>
     <workDisables>
       <li>ManualDumb</li>
@@ -194,18 +152,9 @@
       <li>Social</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Shooting</key>
-        <value>4</value>
-      </li>
-      <li>
-        <key>Melee</key>
-        <value>3</value>
-      </li>
-      <li>
-        <key>Social</key>
-        <value>4</value>
-      </li>
+      <Shooting>4</Shooting>
+      <Melee>3</Melee>
+      <Social>4</Social>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -219,7 +168,7 @@
     <defName>BetaHumanoidsBackstoryUrbworldDrone32</defName>
     <title>urbworld drone</title>
     <titleShort>drone</titleShort>
-    <baseDesc>[PAWN_nameDef] worked as a mindless construction drone on a massive urbworld. Though [PAWN_pronoun] is now freed from the brutal social experiments to which [PAWN_pronoun] was subjected, [PAWN_pronoun] remains incapable of creative thought and leadership.</baseDesc>
+    <description>[PAWN_nameDef] worked as a mindless construction drone on a massive urbworld. Though [PAWN_pronoun] is now freed from the brutal social experiments to which [PAWN_pronoun] was subjected, [PAWN_pronoun] remains incapable of creative thought and leadership.</description>
     <slot>Adulthood</slot>
     <workDisables>
       <li>Artistic</li>
@@ -230,18 +179,9 @@
       <li>ManualSkilled</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Construction</key>
-        <value>5</value>
-      </li>
-      <li>
-        <key>Mining</key>
-        <value>4</value>
-      </li>
-      <li>
-        <key>Social</key>
-        <value>-2</value>
-      </li>
+      <Construction>5</Construction>
+      <Mining>4</Mining>
+      <Social>-2</Social>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -256,7 +196,7 @@
     <defName>BetaHumanoidsBackstoryUrbworldRebel56</defName>
     <title>urbworld rebel</title>
     <titleShort>rebel</titleShort>
-    <baseDesc>Most of the people on [PAWN_nameDef]'s world gave up their individuality to join together in an online hivemind. [PAWN_nameDef] joined a rebel faction that rejected technology entirely.</baseDesc>
+    <description>Most of the people on [PAWN_nameDef]'s world gave up their individuality to join together in an online hivemind. [PAWN_nameDef] joined a rebel faction that rejected technology entirely.</description>
     <slot>Adulthood</slot>
     <workDisables>
       <li>Intellectual</li>
@@ -266,18 +206,9 @@
       <li>ManualDumb</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Melee</key>
-        <value>3</value>
-      </li>
-      <li>
-        <key>Construction</key>
-        <value>3</value>
-      </li>
-      <li>
-        <key>Mining</key>
-        <value>2</value>
-      </li>
+      <Melee>3</Melee>
+      <Construction>3</Construction>
+      <Mining>2</Mining>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -297,21 +228,12 @@
     <defName>BetaHumanoidsBackstoryColonySettler53</defName>
     <title>colony settler</title>
     <titleShort>settler</titleShort>
-    <baseDesc>[PAWN_nameDef] was a settler on a new colony world.\n\nSuch a life requires a jack-of-all trades at basic hands-on tasks.</baseDesc>
+    <description>[PAWN_nameDef] was a settler on a new colony world.\n\nSuch a life requires a jack-of-all trades at basic hands-on tasks.</description>
     <slot>Adulthood</slot>
     <skillGains>
-      <li>
-        <key>Construction</key>
-        <value>4</value>
-      </li>
-      <li>
-        <key>Plants</key>
-        <value>4</value>
-      </li>
-      <li>
-        <key>Mining</key>
-        <value>4</value>
-      </li>
+      <Construction>4</Construction>
+      <Plants>4</Plants>
+      <Mining>4</Mining>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -335,21 +257,12 @@
     <defName>BetaHumanoidsBackstoryDeepSpaceMiner3</defName>
     <title>deep space miner</title>
     <titleShort>miner</titleShort>
-    <baseDesc>[PAWN_nameDef] did the sweaty, grimy work of pulling metal out of asteroids on a deep space rig. [PAWN_pronoun] used [PAWN_possessive] hands-on industrial skills daily - and wasn't bad in a bar fight either.</baseDesc>
+    <description>[PAWN_nameDef] did the sweaty, grimy work of pulling metal out of asteroids on a deep space rig. [PAWN_pronoun] used [PAWN_possessive] hands-on industrial skills daily - and wasn't bad in a bar fight either.</description>
     <slot>Adulthood</slot>
     <skillGains>
-      <li>
-        <key>Mining</key>
-        <value>7</value>
-      </li>
-      <li>
-        <key>Construction</key>
-        <value>3</value>
-      </li>
-      <li>
-        <key>Melee</key>
-        <value>2</value>
-      </li>
+      <Mining>7</Mining>
+      <Construction>3</Construction>
+      <Melee>2</Melee>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -368,21 +281,15 @@
     <defName>BetaHumanoidsBackstoryStarshipJanitor33</defName>
     <title>starship janitor</title>
     <titleShort>janitor</titleShort>
-    <baseDesc>While other passengers pass the years between star systems in cryptosleep sarcophagi, [PAWN_nameDef] had to wake up at periodic intervals to perform inspections, check the navigation systems, and to oil the mechanoids.</baseDesc>
+    <description>While other passengers pass the years between star systems in cryptosleep sarcophagi, [PAWN_nameDef] had to wake up at periodic intervals to perform inspections, check the navigation systems, and to oil the mechanoids.</description>
     <slot>Adulthood</slot>
     <requiredWorkTags>
       <li>ManualDumb</li>
       <li>ManualSkilled</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Construction</key>
-        <value>2</value>
-      </li>
-      <li>
-        <key>Crafting</key>
-        <value>3</value>
-      </li>
+      <Construction>2</Construction>
+      <Crafting>3</Crafting>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -396,7 +303,7 @@
     <defName>BetaHumanoidsBackstoryCastaway57</defName>
     <title>castaway</title>
     <titleShort>castaway</titleShort>
-    <baseDesc>[PAWN_nameDef] was the only survivor of a ship crash on an unhabited animal world. For many years until [PAWN_possessive] rescue [PAWN_pronoun] scrounged an existence out of whatever [PAWN_pronoun] could find.\n\n[PAWN_possessive] survival skills became razor-sharp, but spending so long alone severely dampened [PAWN_possessive] conversatial abilities.</baseDesc>
+    <description>[PAWN_nameDef] was the only survivor of a ship crash on an unhabited animal world. For many years until [PAWN_possessive] rescue [PAWN_pronoun] scrounged an existence out of whatever [PAWN_pronoun] could find.\n\n[PAWN_possessive] survival skills became razor-sharp, but spending so long alone severely dampened [PAWN_possessive] conversatial abilities.</description>
     <slot>Adulthood</slot>
     <workDisables>
       <li>Intellectual</li>
@@ -408,18 +315,9 @@
       <li>PlantWork</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Melee</key>
-        <value>5</value>
-      </li>
-      <li>
-        <key>Animals</key>
-        <value>3</value>
-      </li>
-      <li>
-        <key>Construction</key>
-        <value>4</value>
-      </li>
+      <Melee>5</Melee>
+      <Animals>3</Animals>
+      <Construction>4</Construction>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -434,7 +332,7 @@
     <defName>BetaHumanoidsBackstoryTaxonomist0</defName>
     <title>taxonomist</title>
     <titleShort>taxonomist</titleShort>
-    <baseDesc>[PAWN_nameDef] travelled between star systems, studying and classifying the plant and animal life [PAWN_pronoun] found in the hopes of creating a complete catalogue.</baseDesc>
+    <description>[PAWN_nameDef] travelled between star systems, studying and classifying the plant and animal life [PAWN_pronoun] found in the hopes of creating a complete catalogue.</description>
     <slot>Adulthood</slot>
     <workDisables>
       <li>Violent</li>
@@ -443,14 +341,8 @@
       <li>Intellectual</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Animals</key>
-        <value>5</value>
-      </li>
-      <li>
-        <key>Plants</key>
-        <value>5</value>
-      </li>
+      <Animals>5</Animals>
+      <Plants>5</Plants>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -464,7 +356,7 @@
     <defName>BetaHumanoidsBackstorySpaceTactician28</defName>
     <title>space tactician</title>
     <titleShort>tactician</titleShort>
-    <baseDesc>[PAWN_nameDef] joined the space navy in an unstable system, fraught with large-scale interplanetary wars. [PAWN_pronoun] turned out to have a sharp mind for battle, and became adept at commanding combat units to great effect.</baseDesc>
+    <description>[PAWN_nameDef] joined the space navy in an unstable system, fraught with large-scale interplanetary wars. [PAWN_pronoun] turned out to have a sharp mind for battle, and became adept at commanding combat units to great effect.</description>
     <slot>Adulthood</slot>
     <workDisables>
       <li>Social</li>
@@ -474,14 +366,8 @@
       <li>Intellectual</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Shooting</key>
-        <value>4</value>
-      </li>
-      <li>
-        <key>Intellectual</key>
-        <value>4</value>
-      </li>
+      <Shooting>4</Shooting>
+      <Intellectual>4</Intellectual>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>

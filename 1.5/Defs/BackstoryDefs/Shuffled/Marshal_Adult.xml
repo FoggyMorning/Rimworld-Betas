@@ -5,8 +5,8 @@
     <defName>BetaHumanoidsBackstory_CaesicMarshal72</defName>
     <title>corporate marshal</title>
     <titleShort>marshal</titleShort>
-    <baseDesc>Corporate law enforcement is primarily focused on hunting down runaway Beta-Humanoids.  Beta-Humanoids who worked in this field are despised as traitors, and those that are free now, are hard as coffin nails.
-    [PAWN_nameDef] dominated because of [PAWN_possessive] strategic genius, machine-like focus, and tolerance for suffering - both [PAWN_objective] own and that of others.</baseDesc>
+    <description>Corporate law enforcement is primarily focused on hunting down runaway Beta-Humanoids.  Beta-Humanoids who worked in this field are despised as traitors, and those that are free now, are hard as coffin nails.
+    [PAWN_nameDef] dominated because of [PAWN_possessive] strategic genius, machine-like focus, and tolerance for suffering - both [PAWN_objective] own and that of others.</description>
     <slot>Adulthood</slot>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -14,26 +14,11 @@
       <li>BetaHumanoidsBackstory</li>
     </spawnCategories>
     <skillGains>
-      <li>
-        <key>Shooting</key>
-        <value>7</value>
-      </li>
-      <li>
-        <key>Melee</key>
-        <value>7</value>
-      </li>
-      <li>
-        <key>Social</key>
-        <value>9</value>
-      </li>
-      <li>
-        <key>Intellectual</key>
-        <value>5</value>
-      </li>
-      <li>
-        <key>Artistic</key>
-        <value>3</value>
-      </li>
+      <Shooting>7</Shooting>
+      <Melee>7</Melee>
+      <Social>9</Social>
+      <Intellectual>5</Intellectual>
+      <Artistic>3</Artistic>
     </skillGains>
   </BackstoryDef>
 

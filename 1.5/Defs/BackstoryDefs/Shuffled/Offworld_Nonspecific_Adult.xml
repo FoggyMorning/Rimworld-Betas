@@ -12,25 +12,16 @@
     <slot>Adulthood</slot>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
-    <baseDesc>[PAWN_nameDef] kept the peace as a line officer in a municipal police force.
-\n[PAWN_pronoun] was trained in de-escalation, physical control, shooting, and other police skills.</baseDesc>
+    <description>[PAWN_nameDef] kept the peace as a line officer in a municipal police force.
+\n[PAWN_pronoun] was trained in de-escalation, physical control, shooting, and other police skills.</description>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
       <li>BetaHumanoidsBackstoryOutlander</li>
     </spawnCategories>
     <skillGains>
-      <li>
-        <key>Social</key>
-        <value>3</value>
-      </li>
-      <li>
-        <key>Shooting</key>
-        <value>4</value>
-      </li>
-      <li>
-        <key>Melee</key>
-        <value>3</value>
-      </li>
+      <Social>3</Social>
+      <Shooting>4</Shooting>
+      <Melee>3</Melee>
     </skillGains>
     <requiredWorkTags>
       <li>Social</li>
@@ -42,8 +33,8 @@
     <defName>BetaHumanoidsBackstoryChef52</defName>
     <title>chef</title>
     <titleShort>chef</titleShort>
-    <baseDesc>[PAWN_nameDef] ran a high-class restaurant. [PAWN_pronoun] was famous among patrons for [PAWN_possessive] creative culinary specialties, 
-      and infamous among kitchen workers for [PAWN_possessive] casual disdain for grunt work.</baseDesc>
+    <description>[PAWN_nameDef] ran a high-class restaurant. [PAWN_pronoun] was famous among patrons for [PAWN_possessive] creative culinary specialties, 
+      and infamous among kitchen workers for [PAWN_possessive] casual disdain for grunt work.</description>
     <slot>Adulthood</slot>
     <workDisables>
       <li>Cleaning</li>
@@ -53,14 +44,8 @@
       <li>Cooking</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Cooking</key>
-        <value>6</value>
-      </li>
-      <li>
-        <key>Social</key>
-        <value>2</value>
-      </li>
+      <Cooking>6</Cooking>
+      <Social>2</Social>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -69,10 +54,7 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <possessions>
-      <li>
-        <key>MealFine</key>
-        <value>3</value>
-      </li>
+      <MealFine>3</MealFine>
     </possessions>
   </BackstoryDef>
 
@@ -80,22 +62,16 @@
     <defName>BetaHumanoidsBackstoryTeacher20</defName>
     <title>teacher</title>
     <titleShort>teacher</titleShort>
-    <baseDesc>[PAWN_nameDef] was educated in the liberal arts and taught at a corporate school for c-suite children. 
-      [PAWN_pronoun] was widely knowledgeable and well-liked by [PAWN_possessive] students.</baseDesc>
+    <description>[PAWN_nameDef] was educated in the liberal arts and taught at a corporate school for c-suite children. 
+      [PAWN_pronoun] was widely knowledgeable and well-liked by [PAWN_possessive] students.</description>
     <slot>Adulthood</slot>
     <requiredWorkTags>
       <li>Intellectual</li>
       <li>Social</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Intellectual</key>
-        <value>3</value>
-      </li>
-      <li>
-        <key>Social</key>
-        <value>4</value>
-      </li>
+      <Intellectual>3</Intellectual>
+      <Social>4</Social>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -109,21 +85,12 @@
     <defName>BetaHumanoidsBackstoryCivilServant2</defName>
     <title>civil servant</title>
     <titleShort>bureaucrat</titleShort>
-    <baseDesc>[PAWN_nameDef] worked as a low-ranking administrator for a moribund corporate bureaucracy. [PAWN_pronoun] is most at home filling out complicated paperwork and playing office politics.</baseDesc>
+    <description>[PAWN_nameDef] worked as a low-ranking administrator for a moribund corporate bureaucracy. [PAWN_pronoun] is most at home filling out complicated paperwork and playing office politics.</description>
     <slot>Adulthood</slot>
     <skillGains>
-      <li>
-        <key>Social</key>
-        <value>3</value>
-      </li>
-      <li>
-        <key>Intellectual</key>
-        <value>3</value>
-      </li>
-      <li>
-        <key>Construction</key>
-        <value>-2</value>
-      </li>
+      <Social>3</Social>
+      <Intellectual>3</Intellectual>
+      <Construction>-2</Construction>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -137,25 +104,16 @@
     <defName>BetaHumanoidsBackstoryBartender62</defName>
     <title>bartender</title>
     <titleShort>barkeep</titleShort>
-    <baseDesc>After purchasing their freedom from the corps, [PAWN_nameDef] worked as a bartender in a seedy establishment. The job was one part drink-mixing, one part diplomacy, and one part head-bashing.</baseDesc>
+    <description>After purchasing their freedom from the corps, [PAWN_nameDef] worked as a bartender in a seedy establishment. The job was one part drink-mixing, one part diplomacy, and one part head-bashing.</description>
     <slot>Adulthood</slot>
     <requiredWorkTags>
       <li>Social</li>
       <li>Cooking</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Social</key>
-        <value>4</value>
-      </li>
-      <li>
-        <key>Melee</key>
-        <value>2</value>
-      </li>
-      <li>
-        <key>Cooking</key>
-        <value>2</value>
-      </li>
+      <Social>4</Social>
+      <Melee>2</Melee>
+      <Cooking>2</Cooking>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -166,10 +124,7 @@
     <bodyTypeMale>Hulk</bodyTypeMale>
     <bodyTypeFemale>Fat</bodyTypeFemale>
     <possessions>
-      <li>
-        <key>Beer</key>
-        <value>6</value>
-      </li>
+      <Beer>6</Beer>
     </possessions>
   </BackstoryDef>
 
@@ -177,7 +132,7 @@
     <defName>BetaHumanoidsBackstoryConceptualArtist39</defName>
     <title>conceptual artist</title>
     <titleShort>artist</titleShort>
-    <baseDesc>After purchasing their freedom, [PAWN_nameDef] was well-known in art circles on [PAWN_possessive] home world for [PAWN_possessive] unique and creative conceptual artworks.\n\nNobody was sure exactly what [PAWN_pronoun] was trying to communicate, but [PAWN_possessive] pieces were highly valued by collectors.</baseDesc>
+    <description>After purchasing their freedom, [PAWN_nameDef] was well-known in art circles on [PAWN_possessive] home world for [PAWN_possessive] unique and creative conceptual artworks.\n\nNobody was sure exactly what [PAWN_pronoun] was trying to communicate, but [PAWN_possessive] pieces were highly valued by collectors.</description>
     <slot>Adulthood</slot>
     <workDisables>
       <li>Social</li>
@@ -188,14 +143,8 @@
       <li>Artistic</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Artistic</key>
-        <value>8</value>
-      </li>
-      <li>
-        <key>Crafting</key>
-        <value>1</value>
-      </li>
+      <Artistic>8</Artistic>
+      <Crafting>1</Crafting>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -208,25 +157,16 @@
     <defName>BetaHumanoidsBackstoryEvangelist39</defName>
     <title>evangelist</title>
     <titleShort>evangelist</titleShort>
-    <baseDesc>After being freed early, [PAWN_nameDef] experienced a religious awakening. [PAWN_pronoun] decided to spend the rest of [PAWN_possessive] life spreading the word of [PAWN_possessive] deity, the beauty of its culture, and its unusual medical tradition.</baseDesc>
+    <description>After being freed early, [PAWN_nameDef] experienced a religious awakening. [PAWN_pronoun] decided to spend the rest of [PAWN_possessive] life spreading the word of [PAWN_possessive] deity, the beauty of its culture, and its unusual medical tradition.</description>
     <slot>Adulthood</slot>
     <requiredWorkTags>
       <li>Social</li>
       <li>Caring</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Social</key>
-        <value>4</value>
-      </li>
-      <li>
-        <key>Artistic</key>
-        <value>4</value>
-      </li>
-      <li>
-        <key>Medicine</key>
-        <value>-3</value>
-      </li>
+      <Social>4</Social>
+      <Artistic>4</Artistic>
+      <Medicine>-3</Medicine>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -240,7 +180,7 @@
     <defName>BetaHumanoidsBackstoryAsceticPriest84</defName>
     <title>ascetic priest</title>
     <titleShort>priest</titleShort>
-    <baseDesc>After escaping capitivity from their creators and taking a vow of silence, [PAWN_nameDef] joined a monastery to spend [PAWN_possessive] days in quiet contemplation.\n\n[PAWN_pronoun] found happiness growing vegetables in the garden and making cheese in the monastery cellars.</baseDesc>
+    <description>After escaping capitivity from their creators and taking a vow of silence, [PAWN_nameDef] joined a monastery to spend [PAWN_possessive] days in quiet contemplation.\n\n[PAWN_pronoun] found happiness growing vegetables in the garden and making cheese in the monastery cellars.</description>
     <slot>Adulthood</slot>
     <workDisables>
       <li>Violent</li>
@@ -251,18 +191,9 @@
       <li>ManualDumb</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Plants</key>
-        <value>4</value>
-      </li>
-      <li>
-        <key>Medicine</key>
-        <value>2</value>
-      </li>
-      <li>
-        <key>Cooking</key>
-        <value>2</value>
-      </li>
+      <Plants>4</Plants>
+      <Medicine>2</Medicine>
+      <Cooking>2</Cooking>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -279,7 +210,7 @@
     <defName>BetaHumanoidsBackstoryEscapedConvict90</defName>
     <title>escaped convict</title>
     <titleShort>escapee</titleShort>
-    <baseDesc>[PAWN_nameDef] denies involvement in the crimes that brought about [PAWN_possessive] incarceration in a brutal penal colony. [PAWN_pronoun] escaped by tunneling beneath the perimeter using modified cutlery.</baseDesc>
+    <description>[PAWN_nameDef] denies involvement in the crimes that brought about [PAWN_possessive] incarceration in a brutal penal colony. [PAWN_pronoun] escaped by tunneling beneath the perimeter using modified cutlery.</description>
     <slot>Adulthood</slot>
     <workDisables>
       <li>Caring</li>
@@ -288,14 +219,8 @@
       <li>Violent</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Mining</key>
-        <value>4</value>
-      </li>
-      <li>
-        <key>Crafting</key>
-        <value>2</value>
-      </li>
+      <Mining>4</Mining>
+      <Crafting>2</Crafting>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -311,7 +236,7 @@
     <defName>BetaHumanoidsBackstoryNurse61</defName>
     <title>nurse</title>
     <titleShort>nurse</titleShort>
-    <baseDesc>[PAWN_nameDef] worked in a hospital, doing routine work such as changing bandages and taking temperatures.\n\nIt was a busy job, but [PAWN_pronoun] could always find time for a chat with a patient.</baseDesc>
+    <description>[PAWN_nameDef] worked in a hospital, doing routine work such as changing bandages and taking temperatures.\n\nIt was a busy job, but [PAWN_pronoun] could always find time for a chat with a patient.</description>
     <slot>Adulthood</slot>
     <workDisables>
       <li>Violent</li>
@@ -320,14 +245,8 @@
       <li>Caring</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Social</key>
-        <value>4</value>
-      </li>
-      <li>
-        <key>Medicine</key>
-        <value>5</value>
-      </li>
+      <Social>4</Social>
+      <Medicine>5</Medicine>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -343,7 +262,7 @@
     <defName>BetaHumanoidsBackstoryHouseServant63</defName>
     <title>house servant</title>
     <titleShort>servant</titleShort>
-    <baseDesc>[PAWN_nameDef] was a domestic servant to wealthy homeowners.\n\n[PAWN_pronoun] got to know the kitchens and basements of [PAWN_possessive] master's mansion well, but never did any work outside.</baseDesc>
+    <description>[PAWN_nameDef] was a domestic servant to wealthy homeowners.\n\n[PAWN_pronoun] got to know the kitchens and basements of [PAWN_possessive] master's mansion well, but never did any work outside.</description>
     <slot>Adulthood</slot>
     <workDisables>
       <li>Intellectual</li>
@@ -353,18 +272,9 @@
       <li>Cleaning</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Cooking</key>
-        <value>4</value>
-      </li>
-      <li>
-        <key>Plants</key>
-        <value>-3</value>
-      </li>
-      <li>
-        <key>Mining</key>
-        <value>-3</value>
-      </li>
+      <Cooking>4</Cooking>
+      <Plants>-3</Plants>
+      <Mining>-3</Mining>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -380,7 +290,7 @@
     <defName>BetaHumanoidsBackstoryBodyguard58</defName>
     <title>bodyguard</title>
     <titleShort>bodyguard</titleShort>
-    <baseDesc>[PAWN_nameDef] protected whoever paid [PAWN_objective]. [PAWN_pronoun] gained proficiency in many different combat forms, and was known for [PAWN_possessive] ruthlessness against those who crossed [PAWN_objective].</baseDesc>
+    <description>[PAWN_nameDef] protected whoever paid [PAWN_objective]. [PAWN_pronoun] gained proficiency in many different combat forms, and was known for [PAWN_possessive] ruthlessness against those who crossed [PAWN_objective].</description>
     <slot>Adulthood</slot>
     <workDisables>
       <li>Social</li>
@@ -389,14 +299,8 @@
       <li>Violent</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Shooting</key>
-        <value>4</value>
-      </li>
-      <li>
-        <key>Melee</key>
-        <value>4</value>
-      </li>
+      <Shooting>4</Shooting>
+      <Melee>4</Melee>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -406,10 +310,7 @@
     <bodyTypeMale>Hulk</bodyTypeMale>
     <bodyTypeFemale>Hulk</bodyTypeFemale>
     <possessions>
-      <li>
-        <key>Gun_Autopistol</key>
-        <value>1</value>
-      </li>
+      <Gun_Autopistol>1</Gun_Autopistol>
     </possessions>
   </BackstoryDef>
 
@@ -417,7 +318,7 @@
     <defName>BetaHumanoidsBackstoryMathematician6</defName>
     <title>mathematician</title>
     <titleShort>math prof</titleShort>
-    <baseDesc>[PAWN_nameDef] did mathematical research at a corporate research facility.\n\n[PAWN_pronoun] spent much of [PAWN_possessive] spare time immersed in shooting simulations, though [PAWN_pronoun] was frequently ridiculed by other players for [PAWN_possessive] terrible aim.</baseDesc>
+    <description>[PAWN_nameDef] did mathematical research at a corporate research facility.\n\n[PAWN_pronoun] spent much of [PAWN_possessive] spare time immersed in shooting simulations, though [PAWN_pronoun] was frequently ridiculed by other players for [PAWN_possessive] terrible aim.</description>
     <slot>Adulthood</slot>
     <workDisables>
       <li>ManualDumb</li>
@@ -426,14 +327,8 @@
       <li>Intellectual</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Shooting</key>
-        <value>-3</value>
-      </li>
-      <li>
-        <key>Intellectual</key>
-        <value>8</value>
-      </li>
+      <Shooting>-3</Shooting>
+      <Intellectual>8</Intellectual>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -446,21 +341,15 @@
     <defName>BetaHumanoidsBackstoryParamedic45</defName>
     <title>paramedic</title>
     <titleShort>paramedic</titleShort>
-    <baseDesc>[PAWN_nameDef]'s job was to respond rapidly to medical emergencies. [PAWN_pronoun] is used to dealing with severe injuries with only limited medical supplies.\n\n[PAWN_pronoun] treated so many gunshot wounds over the years that even seeing a gun made [PAWN_objective] uncomfortable.</baseDesc>
+    <description>[PAWN_nameDef]'s job was to respond rapidly to medical emergencies. [PAWN_pronoun] is used to dealing with severe injuries with only limited medical supplies.\n\n[PAWN_pronoun] treated so many gunshot wounds over the years that even seeing a gun made [PAWN_objective] uncomfortable.</description>
     <slot>Adulthood</slot>
     <requiredWorkTags>
       <li>Caring</li>
       <li>Violent</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Shooting</key>
-        <value>-5</value>
-      </li>
-      <li>
-        <key>Medicine</key>
-        <value>6</value>
-      </li>
+      <Shooting>-5</Shooting>
+      <Medicine>6</Medicine>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -476,7 +365,7 @@
     <defName>BetaHumanoidsBackstoryGardener99</defName>
     <title>gardener</title>
     <titleShort>gardener</titleShort>
-    <baseDesc>[PAWN_nameDef] worked at the mansion of a powerful family, tending the lavish gardens as part of a team of servants.</baseDesc>
+    <description>[PAWN_nameDef] worked at the mansion of a powerful family, tending the lavish gardens as part of a team of servants.</description>
     <slot>Adulthood</slot>
     <workDisables>
       <li>Intellectual</li>
@@ -487,10 +376,7 @@
       <li>PlantWork</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Plants</key>
-        <value>8</value>
-      </li>
+      <Plants>8</Plants>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -501,10 +387,7 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <possessions>
-      <li>
-        <key>PlantPot</key>
-        <value>1</value>
-      </li>
+      <PlantPot>1</PlantPot>
     </possessions>
   </BackstoryDef>
 
@@ -512,7 +395,7 @@
     <defName>BetaHumanoidsBackstoryTorturer37</defName>
     <title>torturer</title>
     <titleShort>torturer</titleShort>
-    <baseDesc>Working for a tyrannical dictator, [PAWN_nameDef] earned a reputation as an expert in 'persuasion.' Any prisoner who went down into the dungeons left with no secrets - and with [PAWN_nameDef]'s smile scarred permanently into their nightmares.</baseDesc>
+    <description>Working for a tyrannical dictator, [PAWN_nameDef] earned a reputation as an expert in 'persuasion.' Any prisoner who went down into the dungeons left with no secrets - and with [PAWN_nameDef]'s smile scarred permanently into their nightmares.</description>
     <slot>Adulthood</slot>
     <workDisables>
       <li>Social</li>
@@ -522,10 +405,7 @@
       <li>Violent</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Melee</key>
-        <value>6</value>
-      </li>
+      <Melee>6</Melee>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -544,7 +424,7 @@
     <defName>BetaHumanoidsBackstoryDefector78</defName>
     <title>runaway beta-humanoid</title>
     <titleShort>runaway beta-humanoid</titleShort>
-    <baseDesc>Early in [PAWN_possessive] adulthood, [PAWN_nameDef] decided to leave the oppressive corporation where [PAWN_pronoun] was enslaved. [PAWN_possessive] defection was not well-received, and agents were sent out after [PAWN_objective].\n\n[PAWN_pronoun] spent years on the run, treating [PAWN_possessive] own wounds so no doctor could betray [PAWN_objective]. The ordeal made [PAWN_objective] bitter and untrusting.</baseDesc>
+    <description>Early in [PAWN_possessive] adulthood, [PAWN_nameDef] decided to leave the oppressive corporation where [PAWN_pronoun] was enslaved. [PAWN_possessive] defection was not well-received, and agents were sent out after [PAWN_objective].\n\n[PAWN_pronoun] spent years on the run, treating [PAWN_possessive] own wounds so no doctor could betray [PAWN_objective]. The ordeal made [PAWN_objective] bitter and untrusting.</description>
     <slot>Adulthood</slot>
     <workDisables>
       <li>Artistic</li>
@@ -554,18 +434,9 @@
       <li>Caring</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Shooting</key>
-        <value>5</value>
-      </li>
-      <li>
-        <key>Social</key>
-        <value>-4</value>
-      </li>
-      <li>
-        <key>Medicine</key>
-        <value>3</value>
-      </li>
+      <Shooting>5</Shooting>
+      <Social>-4</Social>
+      <Medicine>3</Medicine>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -580,7 +451,7 @@
     <defName>BetaHumanoidsBackstoryConstructionEngineer32</defName>
     <title>construction engineer</title>
     <titleShort>builder</titleShort>
-    <baseDesc>[PAWN_nameDef] was a construction worker. [PAWN_pronoun] lead a team which built everything from office blocks to cathedrals.\n\n[PAWN_possessive] busy job and numerous nearby fast-food outlets meant [PAWN_pronoun] never cooked for [PAWN_objective]self.</baseDesc>
+    <description>[PAWN_nameDef] was a construction worker. [PAWN_pronoun] lead a team which built everything from office blocks to cathedrals.\n\n[PAWN_possessive] busy job and numerous nearby fast-food outlets meant [PAWN_pronoun] never cooked for [PAWN_objective]self.</description>
     <slot>Adulthood</slot>
     <workDisables>
       <li>Intellectual</li>
@@ -590,14 +461,8 @@
       <li>ManualSkilled</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Construction</key>
-        <value>8</value>
-      </li>
-      <li>
-        <key>Plants</key>
-        <value>-3</value>
-      </li>
+      <Construction>8</Construction>
+      <Plants>-3</Plants>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -611,7 +476,7 @@
     <defName>BetaHumanoidsBackstoryRancher43</defName>
     <title>rancher</title>
     <titleShort>rancher</titleShort>
-    <baseDesc>[PAWN_nameDef] worked on a successful ranch where [PAWN_pronoun] raised animals for meat and wool.\n\nAfter escaping [PAWN_pronoun] refused to do any dumb labour ever again.</baseDesc>
+    <description>[PAWN_nameDef] worked on a successful ranch where [PAWN_pronoun] raised animals for meat and wool.\n\nAfter escaping [PAWN_pronoun] refused to do any dumb labour ever again.</description>
     <slot>Adulthood</slot>
     <workDisables>
       <li>ManualDumb</li>
@@ -620,18 +485,9 @@
       <li>Animals</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Animals</key>
-        <value>8</value>
-      </li>
-      <li>
-        <key>Cooking</key>
-        <value>-4</value>
-      </li>
-      <li>
-        <key>Mining</key>
-        <value>-4</value>
-      </li>
+      <Animals>8</Animals>
+      <Cooking>-4</Cooking>
+      <Mining>-4</Mining>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstoryOffworld</li>
@@ -642,10 +498,7 @@
     <bodyTypeMale>Fat</bodyTypeMale>
     <bodyTypeFemale>Fat</bodyTypeFemale>
     <possessions>
-      <li>
-        <key>Apparel_CowboyHat</key>
-        <value>1</value>
-      </li>
+      <Apparel_CowboyHat>1</Apparel_CowboyHat>
     </possessions>
   </BackstoryDef>
 
@@ -653,7 +506,7 @@
     <defName>BetaHumanoidsBackstoryModel99</defName>
     <title>model</title>
     <titleShort>model</titleShort>
-    <baseDesc>[PAWN_nameDef] modelled clothes and jewellery for advertisers, and was also used as a physical blueprint for characters in virtual reality simulations.</baseDesc>
+    <description>[PAWN_nameDef] modelled clothes and jewellery for advertisers, and was also used as a physical blueprint for characters in virtual reality simulations.</description>
     <slot>Adulthood</slot>
     <workDisables>
       <li>ManualDumb</li>
@@ -666,14 +519,8 @@
       <li>Artistic</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Social</key>
-        <value>5</value>
-      </li>
-      <li>
-        <key>Artistic</key>
-        <value>6</value>
-      </li>
+      <Social>5</Social>
+      <Artistic>6</Artistic>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -689,20 +536,14 @@
     <defName>BetaHumanoidsBackstoryGeologist66</defName>
     <title>geologist</title>
     <titleShort>geologist</titleShort>
-    <baseDesc>[PAWN_nameDef] worked with miners and cave-diggers, identifying rock types and natural formations.\n\nDuring [PAWN_possessive] years underground [PAWN_pronoun] also gained experience repairing drilling machines and other technical equipment.</baseDesc>
+    <description>[PAWN_nameDef] worked with miners and cave-diggers, identifying rock types and natural formations.\n\nDuring [PAWN_possessive] years underground [PAWN_pronoun] also gained experience repairing drilling machines and other technical equipment.</description>
     <slot>Adulthood</slot>
     <requiredWorkTags>
       <li>Intellectual</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Mining</key>
-        <value>8</value>
-      </li>
-      <li>
-        <key>Crafting</key>
-        <value>3</value>
-      </li>
+      <Mining>8</Mining>
+      <Crafting>3</Crafting>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -714,10 +555,7 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <possessions>
-      <li>
-        <key>Jade</key>
-        <value>2</value>
-      </li>
+      <Jade>2</Jade>
     </possessions>
   </BackstoryDef>
 
@@ -725,7 +563,7 @@
     <defName>BetaHumanoidsBackstoryJailbird40</defName>
     <title>jailbird</title>
     <titleShort>jailbird</titleShort>
-    <baseDesc>[PAWN_nameDef] spent most of [PAWN_possessive] life in prisons, where [PAWN_pronoun] was put to work in the kitchens. [PAWN_pronoun] had a habit of getting into fights, and developed an aggressive way of speaking.</baseDesc>
+    <description>[PAWN_nameDef] spent most of [PAWN_possessive] life in prisons, where [PAWN_pronoun] was put to work in the kitchens. [PAWN_pronoun] had a habit of getting into fights, and developed an aggressive way of speaking.</description>
     <slot>Adulthood</slot>
     <workDisables>
       <li>Social</li>
@@ -735,14 +573,8 @@
       <li>Violent</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Melee</key>
-        <value>5</value>
-      </li>
-      <li>
-        <key>Cooking</key>
-        <value>3</value>
-      </li>
+      <Melee>5</Melee>
+      <Cooking>3</Cooking>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -758,24 +590,15 @@
     <defName>BetaHumanoidsBackstoryVeterinarian99</defName>
     <title>veterinarian</title>
     <titleShort>vet</titleShort>
-    <baseDesc>[PAWN_nameDef] treated sick and injured animals for a living. Seeing their suffering affected [PAWN_possessive] stance on the practice of eating meat, and for many years [PAWN_pronoun] lived as a vegetarian.</baseDesc>
+    <description>[PAWN_nameDef] treated sick and injured animals for a living. Seeing their suffering affected [PAWN_possessive] stance on the practice of eating meat, and for many years [PAWN_pronoun] lived as a vegetarian.</description>
     <slot>Adulthood</slot>
     <requiredWorkTags>
       <li>Caring</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Animals</key>
-        <value>4</value>
-      </li>
-      <li>
-        <key>Medicine</key>
-        <value>4</value>
-      </li>
-      <li>
-        <key>Cooking</key>
-        <value>-4</value>
-      </li>
+      <Animals>4</Animals>
+      <Medicine>4</Medicine>
+      <Cooking>-4</Cooking>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -790,7 +613,7 @@
     <defName>BetaHumanoidsBackstoryExplosivesExpert26</defName>
     <title>explosives expert</title>
     <titleShort>blaster</titleShort>
-    <baseDesc>[PAWN_nameDef] was an explosive engineer employed in mines. [PAWN_pronoun] took [PAWN_possessive] job very seriously and was well-versed in the technicalities - so much so that [PAWN_pronoun] refused to demean [PAWN_objective]self by helping with the clean-up once [PAWN_possessive] carefully-calculated explosion was complete.</baseDesc>
+    <description>[PAWN_nameDef] was an explosive engineer employed in mines. [PAWN_pronoun] took [PAWN_possessive] job very seriously and was well-versed in the technicalities - so much so that [PAWN_pronoun] refused to demean [PAWN_objective]self by helping with the clean-up once [PAWN_possessive] carefully-calculated explosion was complete.</description>
     <slot>Adulthood</slot>
     <workDisables>
       <li>ManualDumb</li>
@@ -799,14 +622,8 @@
       <li>Violent</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Mining</key>
-        <value>5</value>
-      </li>
-      <li>
-        <key>Intellectual</key>
-        <value>5</value>
-      </li>
+      <Mining>5</Mining>
+      <Intellectual>5</Intellectual>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -823,7 +640,7 @@
     <defName>BetaHumanoidsBackstoryCounselor26</defName>
     <title>counselor</title>
     <titleShort>counselor</titleShort>
-    <baseDesc>Beta-Humanoids are born and forced into dangerous jobs as disposable resources almost immediately. Those that survive have extensive trauma.  [PAWN_nameDef] devoted their life as a free Beta-Humanoid to helping others overcome their emotional problems.</baseDesc>
+    <description>Beta-Humanoids are born and forced into dangerous jobs as disposable resources almost immediately. Those that survive have extensive trauma.  [PAWN_nameDef] devoted their life as a free Beta-Humanoid to helping others overcome their emotional problems.</description>
     <slot>Adulthood</slot>
     <workDisables>
       <li>Cooking</li>
@@ -832,10 +649,7 @@
       <li>Social</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Social</key>
-        <value>9</value>
-      </li>
+      <Social>9</Social>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -849,8 +663,8 @@
     <defName>BetaHumanoidsBackstoryRecruiter14</defName>
     <title>recruiter</title>
     <titleShort>recruiter</titleShort>
-    <baseDesc>[PAWN_nameDef] was part of a revered order of martial artists, infamous both for their skill in combat and for their practice of refusing to treat their wounded.\n\n
-      [PAWN_pronoun] was assigned to work with newly created Beta-Humanoids to determine if they might be suitable for training.</baseDesc>
+    <description>[PAWN_nameDef] was part of a revered order of martial artists, infamous both for their skill in combat and for their practice of refusing to treat their wounded.\n\n
+      [PAWN_pronoun] was assigned to work with newly created Beta-Humanoids to determine if they might be suitable for training.</description>
     <slot>Adulthood</slot>
     <workDisables>
       <li>Caring</li>
@@ -859,14 +673,8 @@
       <li>Social</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Melee</key>
-        <value>5</value>
-      </li>
-      <li>
-        <key>Social</key>
-        <value>5</value>
-      </li>
+      <Melee>5</Melee>
+      <Social>5</Social>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -882,21 +690,12 @@
     <defName>BetaHumanoidsBackstoryDrifter67</defName>
     <title>drifter</title>
     <titleShort>drifter</titleShort>
-    <baseDesc>After running away from corporate slavery, [PAWN_nameDef] never figured out what to do with [PAWN_possessive] life. [PAWN_pronoun] travelled often, taking up casual work wherever [PAWN_pronoun] found it.\n\n[PAWN_pronoun] also occasionally worked on a novel that [PAWN_pronoun] knew would be a bestseller - just as soon as [PAWN_pronoun] could find a publisher who was interested.</baseDesc>
+    <description>After running away from corporate slavery, [PAWN_nameDef] never figured out what to do with [PAWN_possessive] life. [PAWN_pronoun] travelled often, taking up casual work wherever [PAWN_pronoun] found it.\n\n[PAWN_pronoun] also occasionally worked on a novel that [PAWN_pronoun] knew would be a bestseller - just as soon as [PAWN_pronoun] could find a publisher who was interested.</description>
     <slot>Adulthood</slot>
     <skillGains>
-      <li>
-        <key>Cooking</key>
-        <value>3</value>
-      </li>
-      <li>
-        <key>Construction</key>
-        <value>3</value>
-      </li>
-      <li>
-        <key>Artistic</key>
-        <value>-4</value>
-      </li>
+      <Cooking>3</Cooking>
+      <Construction>3</Construction>
+      <Artistic>-4</Artistic>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -911,24 +710,15 @@
     <defName>BetaHumanoidsBackstoryMachineCollector55</defName>
     <title>machine collector</title>
     <titleShort>collector</titleShort>
-    <baseDesc>[PAWN_nameDef] was obsessed with old machines and arcane pieces of technology. [PAWN_pronoun] obtained them wherever [PAWN_pronoun] could, and loved taking them apart to see how they worked.\n\n[PAWN_pronoun] had a habit of talking about [PAWN_possessive] collection long after people around [PAWN_objective] had stopped listening.</baseDesc>
+    <description>[PAWN_nameDef] was obsessed with old machines and arcane pieces of technology. [PAWN_pronoun] obtained them wherever [PAWN_pronoun] could, and loved taking them apart to see how they worked.\n\n[PAWN_pronoun] had a habit of talking about [PAWN_possessive] collection long after people around [PAWN_objective] had stopped listening.</description>
     <slot>Adulthood</slot>
     <requiredWorkTags>
       <li>Crafting</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Social</key>
-        <value>-3</value>
-      </li>
-      <li>
-        <key>Crafting</key>
-        <value>6</value>
-      </li>
-      <li>
-        <key>Intellectual</key>
-        <value>6</value>
-      </li>
+      <Social>-3</Social>
+      <Crafting>6</Crafting>
+      <Intellectual>6</Intellectual>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -943,13 +733,10 @@
     <defName>BetaHumanoidsBackstoryConArtist80</defName>
     <title>con artist</title>
     <titleShort>con artist</titleShort>
-    <baseDesc>[PAWN_nameDef] never created anything in [PAWN_possessive] life. [PAWN_pronoun] did, however, prove to be a natural at getting others to give [PAWN_objective] what they had created.</baseDesc>
+    <description>[PAWN_nameDef] never created anything in [PAWN_possessive] life. [PAWN_pronoun] did, however, prove to be a natural at getting others to give [PAWN_objective] what they had created.</description>
     <slot>Adulthood</slot>
     <skillGains>
-      <li>
-        <key>Social</key>
-        <value>10</value>
-      </li>
+      <Social>10</Social>
     </skillGains>
     <requiredWorkTags>
       <li>Social</li>
@@ -969,16 +756,13 @@
     <defName>BetaHumanoidsBackstoryCaveExplorer45</defName>
     <title>cave explorer</title>
     <titleShort>cave explorer</titleShort>
-    <baseDesc>[PAWN_nameDef] made a living mapping out dark tunnels and near-inaccessible crevices in search of valuable minerals. [PAWN_possessive] work was very dangerous, but the pay was good.</baseDesc>
+    <description>[PAWN_nameDef] made a living mapping out dark tunnels and near-inaccessible crevices in search of valuable minerals. [PAWN_possessive] work was very dangerous, but the pay was good.</description>
     <slot>Adulthood</slot>
     <requiredWorkTags>
       <li>Mining</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Mining</key>
-        <value>8</value>
-      </li>
+      <Mining>8</Mining>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -995,16 +779,13 @@
     <defName>BetaHumanoidsBackstoryQuarryWorker29</defName>
     <title>quarry worker</title>
     <titleShort>quarry worker</titleShort>
-    <baseDesc>[PAWN_nameDef] worked in a quarry helping to extract valuable stone from the hillside. [PAWN_pronoun] learned to sense opportunities and dangers in the stone by sight, touch, and intuition.</baseDesc>
+    <description>[PAWN_nameDef] worked in a quarry helping to extract valuable stone from the hillside. [PAWN_pronoun] learned to sense opportunities and dangers in the stone by sight, touch, and intuition.</description>
     <slot>Adulthood</slot>
     <requiredWorkTags>
       <li>Mining</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Mining</key>
-        <value>8</value>
-      </li>
+      <Mining>8</Mining>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -1021,16 +802,13 @@
     <defName>BetaHumanoidsBackstoryContractMiner86</defName>
     <title>contract miner</title>
     <titleShort>contract miner</titleShort>
-    <baseDesc>[PAWN_nameDef] moved from job to job, extracting minerals and ancient valuables in tunnels and strip-mines. The work was tough and dirty, but [PAWN_pronoun] found it rewarding.</baseDesc>
+    <description>[PAWN_nameDef] moved from job to job, extracting minerals and ancient valuables in tunnels and strip-mines. The work was tough and dirty, but [PAWN_pronoun] found it rewarding.</description>
     <slot>Adulthood</slot>
     <requiredWorkTags>
       <li>Mining</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Mining</key>
-        <value>8</value>
-      </li>
+      <Mining>8</Mining>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -1047,16 +825,13 @@
     <defName>BetaHumanoidsBackstoryLogger95</defName>
     <title>logger</title>
     <titleShort>logger</titleShort>
-    <baseDesc>[PAWN_nameDef] took down trees and collected wood in hilly passes and ravines. [PAWN_pronoun] learned both how to fell the trees safely, and how to manage the forest to keep it healthy.</baseDesc>
+    <description>[PAWN_nameDef] took down trees and collected wood in hilly passes and ravines. [PAWN_pronoun] learned both how to fell the trees safely, and how to manage the forest to keep it healthy.</description>
     <slot>Adulthood</slot>
     <requiredWorkTags>
       <li>PlantWork</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Plants</key>
-        <value>8</value>
-      </li>
+      <Plants>8</Plants>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -1068,10 +843,7 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <possessions>
-      <li>
-        <key>WoodLog</key>
-        <value>10</value>
-      </li>
+      <WoodLog>10</WoodLog>
     </possessions>
   </BackstoryDef>
 
@@ -1079,7 +851,7 @@
     <defName>BetaHumanoidsBackstoryRanger96</defName>
     <title>ranger</title>
     <titleShort>ranger</titleShort>
-    <baseDesc>[PAWN_nameDef] tracked animals and people for [PAWN_possessive] corporate masters. [PAWN_pronoun] became adept at reading spoor, finding food in the wild, and stalking prey.</baseDesc>
+    <description>[PAWN_nameDef] tracked animals and people for [PAWN_possessive] corporate masters. [PAWN_pronoun] became adept at reading spoor, finding food in the wild, and stalking prey.</description>
     <slot>Adulthood</slot>
     <requiredWorkTags>
       <li>PlantWork</li>
@@ -1107,7 +879,7 @@
     <defName>BetaHumanoidsBackstoryForester96</defName>
     <title>forester</title>
     <titleShort>forester</titleShort>
-    <baseDesc>[PAWN_nameDef] grew and harvested forests. [PAWN_pronoun] understood both the practical challenges of soil types, wind, and rain, as well as the long-term planning of forest growth.</baseDesc>
+    <description>[PAWN_nameDef] grew and harvested forests. [PAWN_pronoun] understood both the practical challenges of soil types, wind, and rain, as well as the long-term planning of forest growth.</description>
     <slot>Adulthood</slot>
     <requiredWorkTags>
       <li>PlantWork</li>
@@ -1135,21 +907,15 @@
     <defName>BetaHumanoidsBackstoryFurnitureBuilder83</defName>
     <title>furniture builder</title>
     <titleShort>builder</titleShort>
-    <baseDesc>[PAWN_pronoun] was assigned the job of building beautiful furniture for wealthy glitterworld clients.</baseDesc>
+    <description>[PAWN_pronoun] was assigned the job of building beautiful furniture for wealthy glitterworld clients.</description>
     <slot>Adulthood</slot>
     <requiredWorkTags>
       <li>PlantWork</li>
       <li>Constructing</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Construction</key>
-        <value>4</value>
-      </li>
-      <li>
-        <key>Plants</key>
-        <value>3</value>
-      </li>
+      <Construction>4</Construction>
+      <Plants>3</Plants>
     </skillGains>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>
@@ -1166,7 +932,7 @@
     <defName>BetaHumanoidsBackstoryHunter89</defName>
     <title>hunter</title>
     <titleShort>hunter</titleShort>
-    <baseDesc>[PAWN_nameDef] hunted wild animals for trophies for [PAWN_possessive] corporate masters.</baseDesc>
+    <description>[PAWN_nameDef] hunted wild animals for trophies for [PAWN_possessive] corporate masters.</description>
     <slot>Adulthood</slot>
     <requiredWorkTags>
       <li>Violent</li>
@@ -1190,10 +956,7 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <possessions>
-      <li>
-        <key>Leather_Bear</key>
-        <value>10</value>
-      </li>
+      <Leather_Bear>10</Leather_Bear>
     </possessions>
   </BackstoryDef>
 
@@ -1201,7 +964,7 @@
     <defName>BetaHumanoidsBackstorySlaughterer58</defName>
     <title>slaughterer</title>
     <titleShort>slaughterer</titleShort>
-    <baseDesc>[PAWN_nameDef] slaughtered animals for a living. Others looked down on this work as filthy, but the skills required to manage and cleanly slaughter large numbers of animals were never simple.</baseDesc>
+    <description>[PAWN_nameDef] slaughtered animals for a living. Others looked down on this work as filthy, but the skills required to manage and cleanly slaughter large numbers of animals were never simple.</description>
     <slot>Adulthood</slot>
     <requiredWorkTags>
       <li>Violent</li>
@@ -1225,10 +988,7 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <possessions>
-      <li>
-        <key>Meat_Pig</key>
-        <value>5</value>
-      </li>
+      <Meat_Pig>5</Meat_Pig>
     </possessions>
   </BackstoryDef>
 
@@ -1236,7 +996,7 @@
     <defName>BetaHumanoidsBackstoryAnimalFarmer21</defName>
     <title>animal farmer</title>
     <titleShort>animal farmer</titleShort>
-    <baseDesc>[PAWN_nameDef] raised a variety of animals to provide meat, milk, eggs, and leather.</baseDesc>
+    <description>[PAWN_nameDef] raised a variety of animals to provide meat, milk, eggs, and leather.</description>
     <slot>Adulthood</slot>
     <requiredWorkTags>
       <li>Violent</li>
@@ -1260,10 +1020,7 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <possessions>
-      <li>
-        <key>Kibble</key>
-        <value>10</value>
-      </li>
+      <Kibble>10</Kibble>
     </possessions>
   </BackstoryDef>
 
@@ -1271,7 +1028,7 @@
     <defName>BetaHumanoidsBackstoryCropFarmer17</defName>
     <title>crop farmer</title>
     <titleShort>farmer</titleShort>
-    <baseDesc>[PAWN_nameDef] worked on a giant corporate farm. [PAWN_pronoun] analyzed soil, agricultural equipment, weather patterns, and price trends to optimize the planting and harvesting of massive crop fields.</baseDesc>
+    <description>[PAWN_nameDef] worked on a giant corporate farm. [PAWN_pronoun] analyzed soil, agricultural equipment, weather patterns, and price trends to optimize the planting and harvesting of massive crop fields.</description>
     <slot>Adulthood</slot>
     <bodyTypeMale>Hulk</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -1281,19 +1038,13 @@
       <li>BetaHumanoidsBackstoryFarmer</li>
     </spawnCategories>
     <skillGains>
-      <li>
-        <key>Plants</key>
-        <value>8</value>
-      </li>
+      <Plants>8</Plants>
     </skillGains>
     <requiredWorkTags>
       <li>PlantWork</li>
     </requiredWorkTags>
     <possessions>
-      <li>
-        <key>SunLamp</key>
-        <value>1</value>
-      </li>
+      <SunLamp>1</SunLamp>
     </possessions>
   </BackstoryDef>
 
@@ -1301,7 +1052,7 @@
     <defName>BetaHumanoidsBackstoryLivestockFarmer8</defName>
     <title>livestock farmer</title>
     <titleShort>farmer</titleShort>
-    <baseDesc>[PAWN_nameDef] worked on a giant corporate livestock farm. [PAWN_pronoun] analyzed animal genetics, feed types, birth and slaughter methods, and price trends to optimize the raising of huge animal herds.</baseDesc>
+    <description>[PAWN_nameDef] worked on a giant corporate livestock farm. [PAWN_pronoun] analyzed animal genetics, feed types, birth and slaughter methods, and price trends to optimize the raising of huge animal herds.</description>
     <slot>Adulthood</slot>
     <bodyTypeMale>Hulk</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -1311,19 +1062,13 @@
       <li>BetaHumanoidsBackstoryHunter</li>
     </spawnCategories>
     <skillGains>
-      <li>
-        <key>Animals</key>
-        <value>7</value>
-      </li>
+      <Animals>7</Animals>
     </skillGains>
     <requiredWorkTags>
       <li>Animals</li>
     </requiredWorkTags>
     <possessions>
-      <li>
-        <key>Milk</key>
-        <value>3</value>
-      </li>
+      <Milk>3</Milk>
     </possessions>
   </BackstoryDef>
 

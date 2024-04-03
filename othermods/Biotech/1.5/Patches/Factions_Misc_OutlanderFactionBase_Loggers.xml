@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[defName="OutlanderRoughPig"]/pawnGroupMakers</xpath>
+    <value>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <Logger>1</Logger>
+          <BetaHog_Logger>1.00</BetaHog_Logger>
+        </options>
+      </li>
+    </value>
+  </Operation>
+</Patch>

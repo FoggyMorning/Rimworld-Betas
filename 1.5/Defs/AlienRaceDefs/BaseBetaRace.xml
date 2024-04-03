@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <AlienRace.ThingDef_AlienRace ParentName="HumanRace" Abstract="True" Name="BaseBetaPawn">
+  <AlienRace.ThingDef_AlienRace ParentName="Human" Abstract="True" Name="BaseBetaPawn">
 
     <alienRace>
       <generalSettings>
         <humanRecipeImport>true</humanRecipeImport>
         <alienPartGenerator>
-          <getsGreyAt>200</getsGreyAt>
         </alienPartGenerator>
       </generalSettings>
       <relationSettings>
@@ -57,6 +56,12 @@
         <blackEndoCategories>
           <li>Melanin</li>
         </blackEndoCategories>
+        <xenotypeList MayRequire="Ludeon.RimWord.Biotech">
+          <li MayRequire="Ludeon.RimWord.Biotech">BetaHumanoids_Baseliner</li>
+        </xenotypeList>
+        <onlyUseRaceRestrictedXenotypes>
+          true
+        </onlyUseRaceRestrictedXenotypes>
       </raceRestriction>
       <graphicPaths>
         <apparel>
@@ -66,6 +71,8 @@
       </graphicPaths>
     </alienRace>
     <race>
+      <bloodDef>Filth_Blood</bloodDef>
+      <renderTree>Humanlike</renderTree>
       <body>BetaHumanoids_Bodies_HumanLikeWithAmputatableOuterEar</body>
 
       <lifeStageAges Inherit="False">

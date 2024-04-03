@@ -185,6 +185,21 @@
           </colorChannels>
           <bodyAddons Inherit="False">
             <li>
+              <conditions>
+                <RotStage>Fresh,Rotting</RotStage>
+                <BodyPart>
+                  <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Left</bodyPart>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+                <Apparel>
+                  <hiddenUnderApparelFor>
+                    <li>UpperHead</li>
+                  </hiddenUnderApparelFor>
+                  <hiddenUnderApparelTag>
+                    <li>BetaHumanoids_EarsTag</li>
+                  </hiddenUnderApparelTag>
+                </Apparel>
+              </conditions>
               <geneGraphics MayRequire="Ludeon.RimWorld.Biotech">
                 <Ears_Pig MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Ears_Pig>
                 <Ears_Floppy MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Ears_Floppy>
@@ -192,9 +207,7 @@
                 <Ears_Pointed MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Ears_Pointed>
               </geneGraphics>
               <debug>false</debug>
-              <drawnDesiccated>false</drawnDesiccated>
               <path>Betas/BetaHog/Ears/Ear_Left</path>
-              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Left</bodyPart>
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
               <inFrontOfBody>true</inFrontOfBody>
               <alignWithHead>true</alignWithHead>
@@ -216,14 +229,24 @@
                   <offset>( 0.0, 0.0 )</offset>
                 </west>
               </offsets>
-              <hiddenUnderApparelFor>
-                <li>UpperHead</li>
-              </hiddenUnderApparelFor>
-              <hiddenUnderApparelTag>
-                <li>BetaHumanoids_EarsTag</li>
-              </hiddenUnderApparelTag>
             </li>
             <li>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <conditions>
+                <RotStage>Fresh,Rotting</RotStage>
+                <BodyPart>
+                  <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Right</bodyPart>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+                <Apparel>
+                  <hiddenUnderApparelFor>
+                    <li>UpperHead</li>
+                  </hiddenUnderApparelFor>
+                  <hiddenUnderApparelTag>
+                    <li>BetaHumanoids_EarsTag</li>
+                  </hiddenUnderApparelTag>
+                </Apparel>
+              </conditions>
               <geneGraphics MayRequire="Ludeon.RimWorld.Biotech">
                 <Ears_Pig MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Ears_Pig>
                 <Ears_Floppy MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Ears_Floppy>
@@ -231,10 +254,7 @@
                 <Ears_Pointed MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Ears_Pointed>
               </geneGraphics>
               <debug>false</debug>
-              <drawnDesiccated>false</drawnDesiccated>
               <path>Betas/BetaHog/Ears/Ear_Right</path>
-              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Right</bodyPart>
-              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
               <inFrontOfBody>true</inFrontOfBody>
               <alignWithHead>true</alignWithHead>
@@ -256,20 +276,27 @@
                   <offset>( -0.1028939, 0.0 )</offset>
                 </west>
               </offsets>
-              <hiddenUnderApparelFor>
-                <li>UpperHead</li>
-              </hiddenUnderApparelFor>
-              <hiddenUnderApparelTag>
-                <li>BetaHumanoids_EarsTag</li>
-              </hiddenUnderApparelTag>
             </li>
             <li>
+              <conditions>
+                <BodyPart>
+                  <bodyPart>BetaHumanoids_BodyPart_Tusk_Small_Left</bodyPart>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+                <Apparel>
+                  <hiddenUnderApparelFor Inherit="False">
+                    <li>FullHead</li>
+                  </hiddenUnderApparelFor>
+                  <hiddenUnderApparelTag Inherit="False">
+                  </hiddenUnderApparelTag>
+                </Apparel>
+                <Gender>Male</Gender>
+              </conditions>
               <ageGraphics>
                 <HumanlikeBaby>Betas/Things/notexture</HumanlikeBaby>
               </ageGraphics>
               <debug>false</debug>
               <path>Betas/BetaHog/Tusks/Tusk_Left</path>
-              <bodyPart>BetaHumanoids_BodyPart_Tusk_Small_Left</bodyPart>
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
               <inFrontOfBody>true</inFrontOfBody>
               <alignWithHead>true</alignWithHead>
@@ -292,20 +319,28 @@
                   <offset>( 0.0, 0.0 )</offset>
                 </west>
               </offsets>
-              <hiddenUnderApparelFor>
-                <li>FullHead</li>
-              </hiddenUnderApparelFor>
-              <!-- females don't have visible tusks -->
-              <drawForFemale>false</drawForFemale>
             </li>
             <li>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <conditions>
+                <BodyPart>
+                  <bodyPart>BetaHumanoids_BodyPart_Tusk_Small_Right</bodyPart>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+                <Apparel>
+                  <hiddenUnderApparelFor Inherit="False">
+                    <li>FullHead</li>
+                  </hiddenUnderApparelFor>
+                  <hiddenUnderApparelTag Inherit="False">
+                  </hiddenUnderApparelTag>
+                </Apparel>
+                <Gender>Male</Gender>
+              </conditions>
               <ageGraphics>
                 <HumanlikeBaby>Betas/Things/notexture</HumanlikeBaby>
               </ageGraphics>
               <debug>false</debug>
               <path>Betas/BetaHog/Tusks/Tusk_Right</path>
-              <bodyPart>BetaHumanoids_BodyPart_Tusk_Small_Right</bodyPart>
-              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
               <inFrontOfBody>true</inFrontOfBody>
               <alignWithHead>true</alignWithHead>
@@ -328,11 +363,6 @@
                   <offset>( -0.02572347, 0.0 )</offset>
                 </west>
               </offsets>
-              <hiddenUnderApparelFor>
-                <li>FullHead</li>
-              </hiddenUnderApparelFor>
-              <!-- females don't have visible tusks -->
-              <drawForFemale>false</drawForFemale>
             </li>
           </bodyAddons>
         </alienPartGenerator>
@@ -446,12 +476,6 @@
         </li>
       </styleSettings>
       <raceRestriction>
-        <xenotypeList MayRequire="Ludeon.RimWord.Biotech">
-          <li MayRequire="Ludeon.RimWord.Biotech">BetaHumanoids_Baseliner</li>
-        </xenotypeList>
-        <onlyUseRaceRestrictedXenotypes>
-          true
-        </onlyUseRaceRestrictedXenotypes>
       </raceRestriction>
     </alienRace>
     <race>

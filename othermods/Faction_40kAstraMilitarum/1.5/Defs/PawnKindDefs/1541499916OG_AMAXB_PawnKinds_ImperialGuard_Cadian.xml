@@ -1,0 +1,543 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_LordMarshal_Cadian">
+    <race>BetaBear</race>
+    <label>beta bear lord marshal</label>
+    <defName>BetaBear_OG_Militarum_LordMarshal_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_LordMarshal_Cadian">
+    <race>BetaCamel</race>
+    <label>beta camel lord marshal</label>
+    <defName>BetaCamel_OG_Militarum_LordMarshal_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_LordMarshal_Cadian">
+    <race>BetaCroc</race>
+    <label>beta crocodile lord marshal</label>
+    <defName>BetaCroc_OG_Militarum_LordMarshal_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_LordMarshal_Cadian">
+    <race>BetaElephant</race>
+    <label>beta elephant lord marshal</label>
+    <defName>BetaElephant_OG_Militarum_LordMarshal_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_LordMarshal_Cadian">
+    <race>BetaElk_Female</race>
+    <label>beta elk lord marshal</label>
+    <defName>BetaElk_Female_OG_Militarum_LordMarshal_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_LordMarshal_Cadian">
+    <race>BetaElk_Male</race>
+    <label>beta elk lord marshal</label>
+    <defName>BetaElk_Male_OG_Militarum_LordMarshal_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_LordMarshal_Cadian">
+    <race>BetaFox</race>
+    <label>beta fox lord marshal</label>
+    <defName>BetaFox_OG_Militarum_LordMarshal_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_LordMarshal_Cadian">
+    <race>BetaGazelle</race>
+    <label>beta gazelle lord marshal</label>
+    <defName>BetaGazelle_OG_Militarum_LordMarshal_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_LordMarshal_Cadian">
+    <race>BetaHog</race>
+    <label>beta hog lord marshal</label>
+    <defName>BetaHog_OG_Militarum_LordMarshal_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_LordMarshal_Cadian">
+    <race>BetaLynx</race>
+    <label>beta lynx lord marshal</label>
+    <defName>BetaLynx_OG_Militarum_LordMarshal_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_LordMarshal_Cadian">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon lord marshal</label>
+    <defName>BetaRaccoon_OG_Militarum_LordMarshal_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_LordMarshal_Cadian">
+    <race>BetaWolf</race>
+    <label>beta wolf lord marshal</label>
+    <defName>BetaWolf_OG_Militarum_LordMarshal_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Ranged_Cadian">
+    <race>BetaBear</race>
+    <label>beta bear guardsman</label>
+    <defName>BetaBear_OG_Militarum_Guardsman_Ranged_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Ranged_Cadian">
+    <race>BetaCamel</race>
+    <label>beta camel guardsman</label>
+    <defName>BetaCamel_OG_Militarum_Guardsman_Ranged_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Ranged_Cadian">
+    <race>BetaCroc</race>
+    <label>beta crocodile guardsman</label>
+    <defName>BetaCroc_OG_Militarum_Guardsman_Ranged_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Ranged_Cadian">
+    <race>BetaElephant</race>
+    <label>beta elephant guardsman</label>
+    <defName>BetaElephant_OG_Militarum_Guardsman_Ranged_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Ranged_Cadian">
+    <race>BetaElk_Female</race>
+    <label>beta elk guardsman</label>
+    <defName>BetaElk_Female_OG_Militarum_Guardsman_Ranged_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Ranged_Cadian">
+    <race>BetaElk_Male</race>
+    <label>beta elk guardsman</label>
+    <defName>BetaElk_Male_OG_Militarum_Guardsman_Ranged_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Ranged_Cadian">
+    <race>BetaFox</race>
+    <label>beta fox guardsman</label>
+    <defName>BetaFox_OG_Militarum_Guardsman_Ranged_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Ranged_Cadian">
+    <race>BetaGazelle</race>
+    <label>beta gazelle guardsman</label>
+    <defName>BetaGazelle_OG_Militarum_Guardsman_Ranged_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Ranged_Cadian">
+    <race>BetaHog</race>
+    <label>beta hog guardsman</label>
+    <defName>BetaHog_OG_Militarum_Guardsman_Ranged_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Ranged_Cadian">
+    <race>BetaLynx</race>
+    <label>beta lynx guardsman</label>
+    <defName>BetaLynx_OG_Militarum_Guardsman_Ranged_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Ranged_Cadian">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon guardsman</label>
+    <defName>BetaRaccoon_OG_Militarum_Guardsman_Ranged_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Ranged_Cadian">
+    <race>BetaWolf</race>
+    <label>beta wolf guardsman</label>
+    <defName>BetaWolf_OG_Militarum_Guardsman_Ranged_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Ranged_Special_Cadian">
+    <race>BetaBear</race>
+    <label>beta bear guardsman</label>
+    <defName>BetaBear_OG_Militarum_Guardsman_Ranged_Special_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Ranged_Special_Cadian">
+    <race>BetaCamel</race>
+    <label>beta camel guardsman</label>
+    <defName>BetaCamel_OG_Militarum_Guardsman_Ranged_Special_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Ranged_Special_Cadian">
+    <race>BetaCroc</race>
+    <label>beta crocodile guardsman</label>
+    <defName>BetaCroc_OG_Militarum_Guardsman_Ranged_Special_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Ranged_Special_Cadian">
+    <race>BetaElephant</race>
+    <label>beta elephant guardsman</label>
+    <defName>BetaElephant_OG_Militarum_Guardsman_Ranged_Special_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Ranged_Special_Cadian">
+    <race>BetaElk_Female</race>
+    <label>beta elk guardsman</label>
+    <defName>BetaElk_Female_OG_Militarum_Guardsman_Ranged_Special_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Ranged_Special_Cadian">
+    <race>BetaElk_Male</race>
+    <label>beta elk guardsman</label>
+    <defName>BetaElk_Male_OG_Militarum_Guardsman_Ranged_Special_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Ranged_Special_Cadian">
+    <race>BetaFox</race>
+    <label>beta fox guardsman</label>
+    <defName>BetaFox_OG_Militarum_Guardsman_Ranged_Special_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Ranged_Special_Cadian">
+    <race>BetaGazelle</race>
+    <label>beta gazelle guardsman</label>
+    <defName>BetaGazelle_OG_Militarum_Guardsman_Ranged_Special_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Ranged_Special_Cadian">
+    <race>BetaHog</race>
+    <label>beta hog guardsman</label>
+    <defName>BetaHog_OG_Militarum_Guardsman_Ranged_Special_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Ranged_Special_Cadian">
+    <race>BetaLynx</race>
+    <label>beta lynx guardsman</label>
+    <defName>BetaLynx_OG_Militarum_Guardsman_Ranged_Special_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Ranged_Special_Cadian">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon guardsman</label>
+    <defName>BetaRaccoon_OG_Militarum_Guardsman_Ranged_Special_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Ranged_Special_Cadian">
+    <race>BetaWolf</race>
+    <label>beta wolf guardsman</label>
+    <defName>BetaWolf_OG_Militarum_Guardsman_Ranged_Special_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Melee_Cadian">
+    <race>BetaBear</race>
+    <label>beta bear guardsman</label>
+    <defName>BetaBear_OG_Militarum_Guardsman_Melee_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Melee_Cadian">
+    <race>BetaCamel</race>
+    <label>beta camel guardsman</label>
+    <defName>BetaCamel_OG_Militarum_Guardsman_Melee_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Melee_Cadian">
+    <race>BetaCroc</race>
+    <label>beta crocodile guardsman</label>
+    <defName>BetaCroc_OG_Militarum_Guardsman_Melee_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Melee_Cadian">
+    <race>BetaElephant</race>
+    <label>beta elephant guardsman</label>
+    <defName>BetaElephant_OG_Militarum_Guardsman_Melee_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Melee_Cadian">
+    <race>BetaElk_Female</race>
+    <label>beta elk guardsman</label>
+    <defName>BetaElk_Female_OG_Militarum_Guardsman_Melee_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Melee_Cadian">
+    <race>BetaElk_Male</race>
+    <label>beta elk guardsman</label>
+    <defName>BetaElk_Male_OG_Militarum_Guardsman_Melee_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Melee_Cadian">
+    <race>BetaFox</race>
+    <label>beta fox guardsman</label>
+    <defName>BetaFox_OG_Militarum_Guardsman_Melee_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Melee_Cadian">
+    <race>BetaGazelle</race>
+    <label>beta gazelle guardsman</label>
+    <defName>BetaGazelle_OG_Militarum_Guardsman_Melee_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Melee_Cadian">
+    <race>BetaHog</race>
+    <label>beta hog guardsman</label>
+    <defName>BetaHog_OG_Militarum_Guardsman_Melee_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Melee_Cadian">
+    <race>BetaLynx</race>
+    <label>beta lynx guardsman</label>
+    <defName>BetaLynx_OG_Militarum_Guardsman_Melee_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Melee_Cadian">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon guardsman</label>
+    <defName>BetaRaccoon_OG_Militarum_Guardsman_Melee_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Melee_Cadian">
+    <race>BetaWolf</race>
+    <label>beta wolf guardsman</label>
+    <defName>BetaWolf_OG_Militarum_Guardsman_Melee_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Melee_Special_Cadian">
+    <race>BetaBear</race>
+    <label>beta bear guardsman</label>
+    <defName>BetaBear_OG_Militarum_Guardsman_Melee_Special_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Melee_Special_Cadian">
+    <race>BetaCamel</race>
+    <label>beta camel guardsman</label>
+    <defName>BetaCamel_OG_Militarum_Guardsman_Melee_Special_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Melee_Special_Cadian">
+    <race>BetaCroc</race>
+    <label>beta crocodile guardsman</label>
+    <defName>BetaCroc_OG_Militarum_Guardsman_Melee_Special_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Melee_Special_Cadian">
+    <race>BetaElephant</race>
+    <label>beta elephant guardsman</label>
+    <defName>BetaElephant_OG_Militarum_Guardsman_Melee_Special_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Melee_Special_Cadian">
+    <race>BetaElk_Female</race>
+    <label>beta elk guardsman</label>
+    <defName>BetaElk_Female_OG_Militarum_Guardsman_Melee_Special_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Melee_Special_Cadian">
+    <race>BetaElk_Male</race>
+    <label>beta elk guardsman</label>
+    <defName>BetaElk_Male_OG_Militarum_Guardsman_Melee_Special_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Melee_Special_Cadian">
+    <race>BetaFox</race>
+    <label>beta fox guardsman</label>
+    <defName>BetaFox_OG_Militarum_Guardsman_Melee_Special_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Melee_Special_Cadian">
+    <race>BetaGazelle</race>
+    <label>beta gazelle guardsman</label>
+    <defName>BetaGazelle_OG_Militarum_Guardsman_Melee_Special_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Melee_Special_Cadian">
+    <race>BetaHog</race>
+    <label>beta hog guardsman</label>
+    <defName>BetaHog_OG_Militarum_Guardsman_Melee_Special_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Melee_Special_Cadian">
+    <race>BetaLynx</race>
+    <label>beta lynx guardsman</label>
+    <defName>BetaLynx_OG_Militarum_Guardsman_Melee_Special_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Melee_Special_Cadian">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon guardsman</label>
+    <defName>BetaRaccoon_OG_Militarum_Guardsman_Melee_Special_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Melee_Special_Cadian">
+    <race>BetaWolf</race>
+    <label>beta wolf guardsman</label>
+    <defName>BetaWolf_OG_Militarum_Guardsman_Melee_Special_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Heavy_Weapons_Cadian">
+    <race>BetaBear</race>
+    <label>beta bear guardsman</label>
+    <defName>BetaBear_OG_Militarum_Guardsman_Heavy_Weapons_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Heavy_Weapons_Cadian">
+    <race>BetaCamel</race>
+    <label>beta camel guardsman</label>
+    <defName>BetaCamel_OG_Militarum_Guardsman_Heavy_Weapons_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Heavy_Weapons_Cadian">
+    <race>BetaCroc</race>
+    <label>beta crocodile guardsman</label>
+    <defName>BetaCroc_OG_Militarum_Guardsman_Heavy_Weapons_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Heavy_Weapons_Cadian">
+    <race>BetaElephant</race>
+    <label>beta elephant guardsman</label>
+    <defName>BetaElephant_OG_Militarum_Guardsman_Heavy_Weapons_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Heavy_Weapons_Cadian">
+    <race>BetaElk_Female</race>
+    <label>beta elk guardsman</label>
+    <defName>BetaElk_Female_OG_Militarum_Guardsman_Heavy_Weapons_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Heavy_Weapons_Cadian">
+    <race>BetaElk_Male</race>
+    <label>beta elk guardsman</label>
+    <defName>BetaElk_Male_OG_Militarum_Guardsman_Heavy_Weapons_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Heavy_Weapons_Cadian">
+    <race>BetaFox</race>
+    <label>beta fox guardsman</label>
+    <defName>BetaFox_OG_Militarum_Guardsman_Heavy_Weapons_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Heavy_Weapons_Cadian">
+    <race>BetaGazelle</race>
+    <label>beta gazelle guardsman</label>
+    <defName>BetaGazelle_OG_Militarum_Guardsman_Heavy_Weapons_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Heavy_Weapons_Cadian">
+    <race>BetaHog</race>
+    <label>beta hog guardsman</label>
+    <defName>BetaHog_OG_Militarum_Guardsman_Heavy_Weapons_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Heavy_Weapons_Cadian">
+    <race>BetaLynx</race>
+    <label>beta lynx guardsman</label>
+    <defName>BetaLynx_OG_Militarum_Guardsman_Heavy_Weapons_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Heavy_Weapons_Cadian">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon guardsman</label>
+    <defName>BetaRaccoon_OG_Militarum_Guardsman_Heavy_Weapons_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Heavy_Weapons_Cadian">
+    <race>BetaWolf</race>
+    <label>beta wolf guardsman</label>
+    <defName>BetaWolf_OG_Militarum_Guardsman_Heavy_Weapons_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Sergeant_Cadian">
+    <race>BetaBear</race>
+    <label>beta bear sergeant</label>
+    <defName>BetaBear_OG_Militarum_Sergeant_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Sergeant_Cadian">
+    <race>BetaCamel</race>
+    <label>beta camel sergeant</label>
+    <defName>BetaCamel_OG_Militarum_Sergeant_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Sergeant_Cadian">
+    <race>BetaCroc</race>
+    <label>beta crocodile sergeant</label>
+    <defName>BetaCroc_OG_Militarum_Sergeant_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Sergeant_Cadian">
+    <race>BetaElephant</race>
+    <label>beta elephant sergeant</label>
+    <defName>BetaElephant_OG_Militarum_Sergeant_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Sergeant_Cadian">
+    <race>BetaElk_Female</race>
+    <label>beta elk sergeant</label>
+    <defName>BetaElk_Female_OG_Militarum_Sergeant_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Sergeant_Cadian">
+    <race>BetaElk_Male</race>
+    <label>beta elk sergeant</label>
+    <defName>BetaElk_Male_OG_Militarum_Sergeant_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Sergeant_Cadian">
+    <race>BetaFox</race>
+    <label>beta fox sergeant</label>
+    <defName>BetaFox_OG_Militarum_Sergeant_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Sergeant_Cadian">
+    <race>BetaGazelle</race>
+    <label>beta gazelle sergeant</label>
+    <defName>BetaGazelle_OG_Militarum_Sergeant_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Sergeant_Cadian">
+    <race>BetaHog</race>
+    <label>beta hog sergeant</label>
+    <defName>BetaHog_OG_Militarum_Sergeant_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Sergeant_Cadian">
+    <race>BetaLynx</race>
+    <label>beta lynx sergeant</label>
+    <defName>BetaLynx_OG_Militarum_Sergeant_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Sergeant_Cadian">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon sergeant</label>
+    <defName>BetaRaccoon_OG_Militarum_Sergeant_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Sergeant_Cadian">
+    <race>BetaWolf</race>
+    <label>beta wolf sergeant</label>
+    <defName>BetaWolf_OG_Militarum_Sergeant_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Commissar_Cadian">
+    <race>BetaBear</race>
+    <label>beta bear commissar</label>
+    <defName>BetaBear_OG_Militarum_Commissar_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Commissar_Cadian">
+    <race>BetaCamel</race>
+    <label>beta camel commissar</label>
+    <defName>BetaCamel_OG_Militarum_Commissar_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Commissar_Cadian">
+    <race>BetaCroc</race>
+    <label>beta crocodile commissar</label>
+    <defName>BetaCroc_OG_Militarum_Commissar_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Commissar_Cadian">
+    <race>BetaElephant</race>
+    <label>beta elephant commissar</label>
+    <defName>BetaElephant_OG_Militarum_Commissar_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Commissar_Cadian">
+    <race>BetaElk_Female</race>
+    <label>beta elk commissar</label>
+    <defName>BetaElk_Female_OG_Militarum_Commissar_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Commissar_Cadian">
+    <race>BetaElk_Male</race>
+    <label>beta elk commissar</label>
+    <defName>BetaElk_Male_OG_Militarum_Commissar_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Commissar_Cadian">
+    <race>BetaFox</race>
+    <label>beta fox commissar</label>
+    <defName>BetaFox_OG_Militarum_Commissar_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Commissar_Cadian">
+    <race>BetaGazelle</race>
+    <label>beta gazelle commissar</label>
+    <defName>BetaGazelle_OG_Militarum_Commissar_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Commissar_Cadian">
+    <race>BetaHog</race>
+    <label>beta hog commissar</label>
+    <defName>BetaHog_OG_Militarum_Commissar_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Commissar_Cadian">
+    <race>BetaLynx</race>
+    <label>beta lynx commissar</label>
+    <defName>BetaLynx_OG_Militarum_Commissar_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Commissar_Cadian">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon commissar</label>
+    <defName>BetaRaccoon_OG_Militarum_Commissar_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Commissar_Cadian">
+    <race>BetaWolf</race>
+    <label>beta wolf commissar</label>
+    <defName>BetaWolf_OG_Militarum_Commissar_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Marksman_Cadian">
+    <race>BetaBear</race>
+    <label>beta bear marksman</label>
+    <defName>BetaBear_OG_Militarum_Guardsman_Marksman_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Marksman_Cadian">
+    <race>BetaCamel</race>
+    <label>beta camel marksman</label>
+    <defName>BetaCamel_OG_Militarum_Guardsman_Marksman_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Marksman_Cadian">
+    <race>BetaCroc</race>
+    <label>beta crocodile marksman</label>
+    <defName>BetaCroc_OG_Militarum_Guardsman_Marksman_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Marksman_Cadian">
+    <race>BetaElephant</race>
+    <label>beta elephant marksman</label>
+    <defName>BetaElephant_OG_Militarum_Guardsman_Marksman_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Marksman_Cadian">
+    <race>BetaElk_Female</race>
+    <label>beta elk marksman</label>
+    <defName>BetaElk_Female_OG_Militarum_Guardsman_Marksman_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Marksman_Cadian">
+    <race>BetaElk_Male</race>
+    <label>beta elk marksman</label>
+    <defName>BetaElk_Male_OG_Militarum_Guardsman_Marksman_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Marksman_Cadian">
+    <race>BetaFox</race>
+    <label>beta fox marksman</label>
+    <defName>BetaFox_OG_Militarum_Guardsman_Marksman_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Marksman_Cadian">
+    <race>BetaGazelle</race>
+    <label>beta gazelle marksman</label>
+    <defName>BetaGazelle_OG_Militarum_Guardsman_Marksman_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Marksman_Cadian">
+    <race>BetaHog</race>
+    <label>beta hog marksman</label>
+    <defName>BetaHog_OG_Militarum_Guardsman_Marksman_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Marksman_Cadian">
+    <race>BetaLynx</race>
+    <label>beta lynx marksman</label>
+    <defName>BetaLynx_OG_Militarum_Guardsman_Marksman_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Marksman_Cadian">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon marksman</label>
+    <defName>BetaRaccoon_OG_Militarum_Guardsman_Marksman_Cadian</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_OG_Militarum_Guardsman_Marksman_Cadian">
+    <race>BetaWolf</race>
+    <label>beta wolf marksman</label>
+    <defName>BetaWolf_OG_Militarum_Guardsman_Marksman_Cadian</defName>
+  </PawnKindDef>
+</Defs>

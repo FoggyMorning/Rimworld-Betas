@@ -86,10 +86,18 @@
             <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Heavy3</li>
           </headTypes>
           <headOffsetDirectional>
-            <north>(0.0, 0.0)</north>
-            <south>(0.0, 0.18)</south>
-            <east>(0.435, 0.1)</east>
-            <west>(-0.435, 0.1)</west>
+            <south>
+              <offset>(0.0, 0.18)</offset>
+            </south>
+            <north>
+              <offset>(0.0, 0.0)</offset>
+            </north>
+            <east>
+              <offset>(0.435, 0.1)</offset>
+            </east>
+            <west>
+              <offset>(-0.435, 0.1)</offset>
+            </west>
           </headOffsetDirectional>
           <borderScale>2</borderScale>
           <atlasScale>2</atlasScale>
@@ -97,6 +105,21 @@
           <customHeadDrawSize>(1,1)</customHeadDrawSize>
           <bodyAddons Inherit="False">
             <li>
+              <conditions>
+                <RotStage>Fresh,Rotting</RotStage>
+                <BodyPart>
+                  <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Left</bodyPart>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+                <Apparel>
+                  <hiddenUnderApparelFor>
+                    <li>UpperHead</li>
+                  </hiddenUnderApparelFor>
+                  <hiddenUnderApparelTag>
+                    <li>BetaHumanoids_EarsTag</li>
+                  </hiddenUnderApparelTag>
+                </Apparel>
+              </conditions>
               <geneGraphics MayRequire="Ludeon.RimWorld.Biotech">
                 <Ears_Pig MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Ears_Pig>
                 <Ears_Floppy MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Ears_Floppy>
@@ -107,11 +130,9 @@
               </geneGraphics>
               <debug>false</debug>
               <inFrontOfBody>true</inFrontOfBody>
-              <drawnDesiccated>false</drawnDesiccated>
               <alignWithHead>true</alignWithHead>
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
               <path>Betas/BetaCamel/Ears/Ear_Left</path>
-              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Left</bodyPart>
               <offsets>
                 <south>
                   <layerOffset>-0.28</layerOffset>
@@ -130,14 +151,23 @@
                   <offset>( 0.0, -0.0 )</offset>
                 </west>
               </offsets>
-              <hiddenUnderApparelFor>
-                <li>UpperHead</li>
-              </hiddenUnderApparelFor>
-              <hiddenUnderApparelTag>
-                <li>BetaHumanoids_EarsTag</li>
-              </hiddenUnderApparelTag>
             </li>
             <li>
+              <conditions>
+                <RotStage>Fresh,Rotting</RotStage>
+                <BodyPart>
+                  <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Right</bodyPart>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+                <Apparel>
+                  <hiddenUnderApparelFor>
+                    <li>UpperHead</li>
+                  </hiddenUnderApparelFor>
+                  <hiddenUnderApparelTag>
+                    <li>BetaHumanoids_EarsTag</li>
+                  </hiddenUnderApparelTag>
+                </Apparel>
+              </conditions>
               <geneGraphics MayRequire="Ludeon.RimWorld.Biotech">
                 <Ears_Pig MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Ears_Pig>
                 <Ears_Floppy MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Ears_Floppy>
@@ -148,12 +178,10 @@
               </geneGraphics>
               <debug>false</debug>
               <inFrontOfBody>true</inFrontOfBody>
-              <drawnDesiccated>false</drawnDesiccated>
               <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
               <alignWithHead>true</alignWithHead>
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
               <path>Betas/BetaCamel/Ears/Ear_Right</path>
-              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Right</bodyPart>
               <offsets>
                 <south>
                   <layerOffset>-0.28</layerOffset>
@@ -172,19 +200,22 @@
                   <offset>( 0.0, -0.0 )</offset>
                 </east>
               </offsets>
-              <hiddenUnderApparelFor>
-                <li>UpperHead</li>
-              </hiddenUnderApparelFor>
-              <hiddenUnderApparelTag>
-                <li>BetaHumanoids_EarsTag</li>
-              </hiddenUnderApparelTag>
             </li>
             <li>
+              <conditions>
+                <BodyPart>
+                  <bodyPart>Neck</bodyPart>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+                <Apparel>
+                  <hiddenUnderApparelFor Inherit="False">
+                  </hiddenUnderApparelFor>
+                </Apparel>
+              </conditions>
               <debug>false</debug>
               <path>Betas/BetaCamel/Head/Neck</path>
               <alignWithHead>true</alignWithHead>
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-              <bodyPart>Neck</bodyPart>
               <offsets>
                 <south>
                   <layerOffset>-0.322</layerOffset>
@@ -388,12 +419,6 @@
           <li MayRequire="Ludeon.RimWord.Biotech">Eyes_Red</li>
           <li MayRequire="Ludeon.RimWord.Biotech">Eyes_Gray</li>
         </blackGeneList>
-        <xenotypeList MayRequire="Ludeon.RimWord.Biotech">
-          <li MayRequire="Ludeon.RimWord.Biotech">BetaHumanoids_Baseliner</li>
-        </xenotypeList>
-        <onlyUseRaceRestrictedXenotypes>
-          true
-        </onlyUseRaceRestrictedXenotypes>
       </raceRestriction>
     </alienRace>
     <race>

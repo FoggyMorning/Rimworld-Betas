@@ -48,6 +48,13 @@
         <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
       </li>
     </v1.4>
+    <v1.5>
+      <li>
+        <packageId>erdelf.HumanoidAlienRaces</packageId>
+        <displayName>Humanoid Alien Races 2.0</displayName>
+        <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+      </li>
+    </v1.5>
   </modDependenciesByVersion>
   <loadAfter>
     <li>erdelf.HumanoidAlienRaces</li>
@@ -76,7 +83,7 @@
     <li>Xeva.XevaFaction.11</li>
   </loadAfter>
 
-  <description>Updated for 1.4!
+  <description>Updated for 1.5!
     The "Beta Humanoids" mod gives a chance for the Beta-humanoids races to be available at Colony
     start
     (PlayerColony and PlayerTribe)

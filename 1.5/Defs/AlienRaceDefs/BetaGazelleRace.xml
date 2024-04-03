@@ -227,6 +227,21 @@
               </offsets>
             </li>
             <li>
+              <conditions>
+                <RotStage>Fresh,Rotting</RotStage>
+                <BodyPart>
+                  <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Left</bodyPart>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+                <Apparel>
+                  <hiddenUnderApparelFor>
+                    <li>UpperHead</li>
+                  </hiddenUnderApparelFor>
+                  <hiddenUnderApparelTag>
+                    <li>BetaHumanoids_EarsTag</li>
+                  </hiddenUnderApparelTag>
+                </Apparel>
+              </conditions>
               <geneGraphics MayRequire="Ludeon.RimWorld.Biotech">
                 <Ears_Pig MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Ears_Pig>
                 <Ears_Floppy MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Ears_Floppy>
@@ -235,9 +250,7 @@
                 <Head_Gaunt MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Head_Gaunt>
               </geneGraphics>
               <debug>False</debug>
-              <drawnDesiccated>false</drawnDesiccated>
               <path>Betas/BetaGazelle/Ear/Ear_Left</path>
-              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Left</bodyPart>
               <alignWithHead>true</alignWithHead>
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
               <offsets>
@@ -258,14 +271,24 @@
                   <offset>(-0.04608684,-0.0128625)</offset>
                 </west>
               </offsets>
-              <hiddenUnderApparelFor>
-                <li>UpperHead</li>
-              </hiddenUnderApparelFor>
-              <hiddenUnderApparelTag>
-                <li>BetaHumanoids_EarsTag</li>
-              </hiddenUnderApparelTag>
             </li>
             <li>
+              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+              <conditions>
+                <RotStage>Fresh,Rotting</RotStage>
+                <BodyPart>
+                  <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Right</bodyPart>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+                <Apparel>
+                  <hiddenUnderApparelFor>
+                    <li>UpperHead</li>
+                  </hiddenUnderApparelFor>
+                  <hiddenUnderApparelTag>
+                    <li>BetaHumanoids_EarsTag</li>
+                  </hiddenUnderApparelTag>
+                </Apparel>
+              </conditions>
               <geneGraphics MayRequire="Ludeon.RimWorld.Biotech">
                 <Ears_Pig MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Ears_Pig>
                 <Ears_Floppy MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Ears_Floppy>
@@ -274,10 +297,7 @@
                 <Head_Gaunt MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Head_Gaunt>
               </geneGraphics>
               <debug>False</debug>
-              <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
-              <drawnDesiccated>false</drawnDesiccated>
               <path>Betas/BetaGazelle/Ear/Ear_Right</path>
-              <bodyPart>BetaHumanoids_BodyPart_OuterEar_Normal_Right</bodyPart>
               <alignWithHead>true</alignWithHead>
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
               <offsets>
@@ -298,12 +318,6 @@
                   <offset>(-0.1018231,0.003215438)</offset>
                 </west>
               </offsets>
-              <hiddenUnderApparelFor>
-                <li>UpperHead</li>
-              </hiddenUnderApparelFor>
-              <hiddenUnderApparelTag>
-                <li>BetaHumanoids_EarsTag</li>
-              </hiddenUnderApparelTag>
             </li>
           </bodyAddons>
         </alienPartGenerator>
@@ -436,12 +450,6 @@
         </li>
       </styleSettings>
       <raceRestriction>
-        <xenotypeList MayRequire="Ludeon.RimWord.Biotech">
-          <li MayRequire="Ludeon.RimWord.Biotech">BetaHumanoids_Baseliner</li>
-        </xenotypeList>
-        <onlyUseRaceRestrictedXenotypes>
-          true
-        </onlyUseRaceRestrictedXenotypes>
       </raceRestriction>
     </alienRace>
     <race>

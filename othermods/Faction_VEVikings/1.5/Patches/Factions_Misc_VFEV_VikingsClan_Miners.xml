@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[defName="VFEV_VikingsClan"]/pawnGroupMakers</xpath>
+    <value>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <Miner>1</Miner>
+          <BetaBear_Miner>1.00</BetaBear_Miner>
+          <BetaCamel_Miner>1.00</BetaCamel_Miner>
+          <BetaCroc_Miner>0.70</BetaCroc_Miner>
+          <BetaElephant_Miner>0.25</BetaElephant_Miner>
+          <BetaElk_Female_Miner>0.05</BetaElk_Female_Miner>
+          <BetaElk_Male_Miner>0.05</BetaElk_Male_Miner>
+          <BetaFox_Miner>1.00</BetaFox_Miner>
+          <BetaGazelle_Miner>1.00</BetaGazelle_Miner>
+          <BetaHog_Miner>1.00</BetaHog_Miner>
+          <BetaLynx_Miner>1.00</BetaLynx_Miner>
+          <BetaRaccoon_Miner>1.00</BetaRaccoon_Miner>
+          <BetaWolf_Miner>1.00</BetaWolf_Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaBear_Miner>1.00</BetaBear_Miner>
+          <BetaCamel_Miner>1.00</BetaCamel_Miner>
+          <BetaCroc_Miner>0.70</BetaCroc_Miner>
+          <BetaElephant_Miner>0.25</BetaElephant_Miner>
+          <BetaElk_Female_Miner>0.05</BetaElk_Female_Miner>
+          <BetaElk_Male_Miner>0.05</BetaElk_Male_Miner>
+          <BetaFox_Miner>1.00</BetaFox_Miner>
+          <BetaGazelle_Miner>1.00</BetaGazelle_Miner>
+          <BetaHog_Miner>1.00</BetaHog_Miner>
+          <BetaLynx_Miner>1.00</BetaLynx_Miner>
+          <BetaRaccoon_Miner>1.00</BetaRaccoon_Miner>
+          <BetaWolf_Miner>1.00</BetaWolf_Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaBear_Miner>1.00</BetaBear_Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaCamel_Miner>1.00</BetaCamel_Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaCroc_Miner>0.70</BetaCroc_Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaElephant_Miner>0.25</BetaElephant_Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaElk_Female_Miner>0.05</BetaElk_Female_Miner>
+          <BetaElk_Male_Miner>0.05</BetaElk_Male_Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaFox_Miner>1.00</BetaFox_Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaGazelle_Miner>1.00</BetaGazelle_Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaHog_Miner>1.00</BetaHog_Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaLynx_Miner>1.00</BetaLynx_Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaRaccoon_Miner>1.00</BetaRaccoon_Miner>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <BetaWolf_Miner>1.00</BetaWolf_Miner>
+        </options>
+      </li>
+    </value>
+  </Operation>
+</Patch>

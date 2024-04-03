@@ -5,8 +5,8 @@
     <defName>BetaHumanoidsBackstoryGrownMate56</defName>
     <title>vatgrown mate</title>
     <titleShort>vatgrown</titleShort>
-    <baseDesc>[PAWN_nameDef] was created to serve the tastes of a specific client.\n\n
-      Engineered and trained as a perfect pleasure-giving mate, [PAWN_pronoun] learned skills that would baffle even the most seductive baseline human lovers. They were able to escape as their owner slept.</baseDesc>
+    <description>[PAWN_nameDef] was created to serve the tastes of a specific client.\n\n
+      Engineered and trained as a perfect pleasure-giving mate, [PAWN_pronoun] learned skills that would baffle even the most seductive baseline human lovers. They were able to escape as their owner slept.</description>
     <slot>Childhood</slot>
     <spawnCategories>
       <li>BetaHumanoidsBackstory</li>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[defName="OutlanderRoughPig"]/pawnGroupMakers</xpath>
+    <value>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <Villager>20</Villager>
+          <Villager_Child MayRequire="Ludeon.RimWorld.Biotech">10</Villager_Child>
+          <BetaHog_Villager>20.00</BetaHog_Villager>
+          <BetaHog_Town_Guard>10.00</BetaHog_Town_Guard>
+          <BetaHog_Town_Councilman>10.00</BetaHog_Town_Councilman>
+        </options>
+      </li>
+    </value>
+  </Operation>
+</Patch>

@@ -7,8 +7,8 @@
     <defName>BetaHumanoidsBackstoryHunter74</defName>
     <title>hunter</title>
     <titleShort>hunter</titleShort>
-    <baseDesc>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. [PAWN_nameDef] tracked, trapped and killed animals for their meat and leather.
-\n[PAWN_nameDef] used both ranged and melee weapons. Sometimes, [PAWN_pronoun] hunted alongside animals.</baseDesc>
+    <description>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. [PAWN_nameDef] tracked, trapped and killed animals for their meat and leather.
+\n[PAWN_nameDef] used both ranged and melee weapons. Sometimes, [PAWN_pronoun] hunted alongside animals.</description>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>BetaHumanoidsBackstoryTribal</li>
@@ -17,18 +17,9 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <skillGains>
-      <li>
-        <key>Shooting</key>
-        <value>4</value>
-      </li>
-      <li>
-        <key>Melee</key>
-        <value>3</value>
-      </li>
-      <li>
-        <key>Animals</key>
-        <value>2</value>
-      </li>
+      <Shooting>4</Shooting>
+      <Melee>3</Melee>
+      <Animals>2</Animals>
     </skillGains>
     <requiredWorkTags>
       <li>Violent</li>
@@ -40,8 +31,8 @@
     <defName>BetaHumanoidsBackstoryLogger16</defName>
     <title>logger</title>
     <titleShort>logger</titleShort>
-    <baseDesc>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. 
-      [PAWN_nameDef] chopped trees and hauled their lumber back to the tribe. [PAWN_pronoun] wielded [PAWN_possessive] axe with the finesse of an artist and the force of a charging muffalo.</baseDesc>
+    <description>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. 
+      [PAWN_nameDef] chopped trees and hauled their lumber back to the tribe. [PAWN_pronoun] wielded [PAWN_possessive] axe with the finesse of an artist and the force of a charging muffalo.</description>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>BetaHumanoidsBackstoryTribal</li>
@@ -50,23 +41,14 @@
     <bodyTypeMale>Hulk</bodyTypeMale>
     <bodyTypeFemale>Hulk</bodyTypeFemale>
     <skillGains>
-      <li>
-        <key>Plants</key>
-        <value>6</value>
-      </li>
-      <li>
-        <key>Melee</key>
-        <value>3</value>
-      </li>
+      <Plants>6</Plants>
+      <Melee>3</Melee>
     </skillGains>
     <requiredWorkTags>
       <li>PlantWork</li>
     </requiredWorkTags>
     <possessions>
-      <li>
-        <key>WoodLog</key>
-        <value>10</value>
-      </li>
+      <WoodLog>10</WoodLog>
     </possessions>
   </BackstoryDef>
 
@@ -74,8 +56,8 @@
     <defName>BetaHumanoidsBackstoryGatherer70</defName>
     <title>gatherer</title>
     <titleShort>gatherer</titleShort>
-    <baseDesc>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. 
-      Using [PAWN_possessive] knowledge of plants, roots, and berries, [PAWN_nameDef] could find food in even the most barren landscapes. [PAWN_pronoun] stayed away from animals.</baseDesc>
+    <description>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. 
+      Using [PAWN_possessive] knowledge of plants, roots, and berries, [PAWN_nameDef] could find food in even the most barren landscapes. [PAWN_pronoun] stayed away from animals.</description>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>BetaHumanoidsBackstoryTribal</li>
@@ -84,14 +66,8 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <skillGains>
-      <li>
-        <key>Plants</key>
-        <value>8</value>
-      </li>
-      <li>
-        <key>Animals</key>
-        <value>-2</value>
-      </li>
+      <Plants>8</Plants>
+      <Animals>-2</Animals>
     </skillGains>
     <requiredWorkTags>
       <li>PlantWork</li>
@@ -102,8 +78,8 @@
     <defName>BetaHumanoidsBackstoryBetaHumanoidsBackstoryDigger66</defName>
     <title>digger</title>
     <titleShort>digger</titleShort>
-    <baseDesc>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. 
-      [PAWN_nameDef] carved living spaces and mined minerals from the sides of hills and mountains. [PAWN_pronoun] learned to feel at home picking through rock and shoring up cave walls.</baseDesc>
+    <description>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. 
+      [PAWN_nameDef] carved living spaces and mined minerals from the sides of hills and mountains. [PAWN_pronoun] learned to feel at home picking through rock and shoring up cave walls.</description>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>BetaHumanoidsBackstoryTribal</li>
@@ -112,14 +88,8 @@
     <bodyTypeMale>Hulk</bodyTypeMale>
     <bodyTypeFemale>Hulk</bodyTypeFemale>
     <skillGains>
-      <li>
-        <key>Mining</key>
-        <value>6</value>
-      </li>
-      <li>
-        <key>Construction</key>
-        <value>2</value>
-      </li>
+      <Mining>6</Mining>
+      <Construction>2</Construction>
     </skillGains>
     <requiredWorkTags>
       <li>Mining</li>
@@ -128,10 +98,7 @@
       <Undergrounder>0</Undergrounder>
     </forcedTraits>
     <possessions>
-      <li>
-        <key>Jade</key>
-        <value>3</value>
-      </li>
+      <Jade>3</Jade>
     </possessions>
   </BackstoryDef>
 
@@ -139,8 +106,8 @@
     <defName>BetaHumanoidsBackstoryWeaver63</defName>
     <title>weaver</title>
     <titleShort>weaver</titleShort>
-    <baseDesc>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. 
-      [PAWN_nameDef] was an expert at working wool, plant fibers and natural dyes into beautiful clothing for [PAWN_possessive] kin. [PAWN_possessive] handicrafts were traded frequently with other settlements.</baseDesc>
+    <description>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. 
+      [PAWN_nameDef] was an expert at working wool, plant fibers and natural dyes into beautiful clothing for [PAWN_possessive] kin. [PAWN_possessive] handicrafts were traded frequently with other settlements.</description>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>BetaHumanoidsBackstoryTribal</li>
@@ -148,23 +115,14 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <skillGains>
-      <li>
-        <key>Crafting</key>
-        <value>6</value>
-      </li>
-      <li>
-        <key>Plants</key>
-        <value>2</value>
-      </li>
+      <Crafting>6</Crafting>
+      <Plants>2</Plants>
     </skillGains>
     <requiredWorkTags>
       <li>Crafting</li>
     </requiredWorkTags>
     <possessions>
-      <li>
-        <key>Cloth</key>
-        <value>10</value>
-      </li>
+      <Cloth>10</Cloth>
     </possessions>
   </BackstoryDef>
 
@@ -172,9 +130,9 @@
     <defName>BetaHumanoidsBackstoryFramer37</defName>
     <title>framer</title>
     <titleShort>framer</titleShort>
-    <baseDesc>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. 
+    <description>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. 
       [PAWN_nameDef] was responsible for erecting structures for [PAWN_possessive] fellow tribespeople to live in. 
-      This included both temporary structures for nomadic travel, and permanent settlements. Gathering building materials from local plant life was part of the job.</baseDesc>
+      This included both temporary structures for nomadic travel, and permanent settlements. Gathering building materials from local plant life was part of the job.</description>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>BetaHumanoidsBackstoryTribal</li>
@@ -182,14 +140,8 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <skillGains>
-      <li>
-        <key>Construction</key>
-        <value>6</value>
-      </li>
-      <li>
-        <key>Plants</key>
-        <value>2</value>
-      </li>
+      <Construction>6</Construction>
+      <Plants>2</Plants>
     </skillGains>
     <requiredWorkTags>
       <li>ManualSkilled</li>
@@ -200,9 +152,9 @@
     <defName>BetaHumanoidsBackstoryStewKeeper95</defName>
     <title>stew keeper</title>
     <titleShort>stewkeeper</titleShort>
-    <baseDesc>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. 
+    <description>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. 
       [PAWN_nameDef] prepared meals from the plants and animals brought in by gatherers, farmers, and hunters of [PAWN_possessive] tribe. 
-      [PAWN_pronoun] had to make sure it was calorie-efficient, long-lasting, and healthy. [PAWN_pronoun] often processed and sometime gathered plants [PAWN_objective]self.</baseDesc>
+      [PAWN_pronoun] had to make sure it was calorie-efficient, long-lasting, and healthy. [PAWN_pronoun] often processed and sometime gathered plants [PAWN_objective]self.</description>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>BetaHumanoidsBackstoryTribal</li>
@@ -210,14 +162,8 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <skillGains>
-      <li>
-        <key>Cooking</key>
-        <value>6</value>
-      </li>
-      <li>
-        <key>Plants</key>
-        <value>2</value>
-      </li>
+      <Cooking>6</Cooking>
+      <Plants>2</Plants>
     </skillGains>
     <requiredWorkTags>
       <li>Cooking</li>
@@ -228,9 +174,9 @@
     <defName>BetaHumanoidsBackstoryTamer79</defName>
     <title>tamer</title>
     <titleShort>tamer</titleShort>
-    <baseDesc>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. 
+    <description>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. 
       [PAWN_nameDef]'s role in [PAWN_possessive] tribe was to connect with the natural world around - especially the world of animals. 
-      In addition to fulfilling a spiritual role, [PAWN_pronoun] also tamed wild beasts and cared for them as they served the tribe.</baseDesc>
+      In addition to fulfilling a spiritual role, [PAWN_pronoun] also tamed wild beasts and cared for them as they served the tribe.</description>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>BetaHumanoidsBackstoryTribal</li>
@@ -238,14 +184,8 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <skillGains>
-      <li>
-        <key>Animals</key>
-        <value>6</value>
-      </li>
-      <li>
-        <key>Social</key>
-        <value>2</value>
-      </li>
+      <Animals>6</Animals>
+      <Social>2</Social>
     </skillGains>
     <requiredWorkTags>
       <li>Animals</li>
@@ -256,9 +196,9 @@
     <defName>BetaHumanoidsBackstoryCarver1</defName>
     <title>carver</title>
     <titleShort>carver</titleShort>
-    <baseDesc>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. 
+    <description>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. 
       [PAWN_nameDef] carved artworks for [PAWN_possessive] tribe from wood, stone, and occasionally, more exotic materials. 
-      The work was sometimes sold, and sometimes kept to beautify settlements and provide a focus for rituals.</baseDesc>
+      The work was sometimes sold, and sometimes kept to beautify settlements and provide a focus for rituals.</description>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>BetaHumanoidsBackstoryTribal</li>
@@ -266,19 +206,13 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <skillGains>
-      <li>
-        <key>Artistic</key>
-        <value>7</value>
-      </li>
+      <Artistic>7</Artistic>
     </skillGains>
     <requiredWorkTags>
       <li>Artistic</li>
     </requiredWorkTags>
     <possessions>
-      <li>
-        <key>WoodLog</key>
-        <value>1</value>
-      </li>
+      <WoodLog>1</WoodLog>
     </possessions>
   </BackstoryDef>
 
@@ -286,9 +220,9 @@
     <defName>BetaHumanoidsBackstoryHealer46</defName>
     <title>healer</title>
     <titleShort>healer</titleShort>
-    <baseDesc>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. 
+    <description>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. 
       After [PAWN_possessive] tribe's elder healer was killed in a raid, [PAWN_nameDef] took on the role. 
-      [PAWN_pronoun] spent [PAWN_possessive] days scrounging up herbs and mineral compounds from the nearby area to use in surprisingly effective remedies.</baseDesc>
+      [PAWN_pronoun] spent [PAWN_possessive] days scrounging up herbs and mineral compounds from the nearby area to use in surprisingly effective remedies.</description>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>BetaHumanoidsBackstoryTribal</li>
@@ -297,23 +231,14 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <skillGains>
-      <li>
-        <key>Medicine</key>
-        <value>5</value>
-      </li>
-      <li>
-        <key>Plants</key>
-        <value>3</value>
-      </li>
+      <Medicine>5</Medicine>
+      <Plants>3</Plants>
     </skillGains>
     <requiredWorkTags>
       <li>Caring</li>
     </requiredWorkTags>
     <possessions>
-      <li>
-        <key>MedicineHerbal</key>
-        <value>5</value>
-      </li>
+      <MedicineHerbal>5</MedicineHerbal>
     </possessions>
   </BackstoryDef>
 
@@ -321,8 +246,8 @@
     <defName>BetaHumanoidsBackstoryHearthTender66</defName>
     <title>hearth tender</title>
     <titleShort>tender</titleShort>
-    <baseDesc>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. 
-      While the others were out hunting and foraging, [PAWN_nameDef] would stay at home to cook and take care of the young and sick.</baseDesc>
+    <description>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. 
+      While the others were out hunting and foraging, [PAWN_nameDef] would stay at home to cook and take care of the young and sick.</description>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>BetaHumanoidsBackstoryTribal</li>
@@ -330,18 +255,9 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <skillGains>
-      <li>
-        <key>Cooking</key>
-        <value>4</value>
-      </li>
-      <li>
-        <key>Medicine</key>
-        <value>3</value>
-      </li>
-      <li>
-        <key>Crafting</key>
-        <value>2</value>
-      </li>
+      <Cooking>4</Cooking>
+      <Medicine>3</Medicine>
+      <Crafting>2</Crafting>
     </skillGains>
     <forcedTraits>
       <Undergrounder>0</Undergrounder>
@@ -354,8 +270,8 @@
     <defName>BetaHumanoidsBackstoryWarrior94</defName>
     <title>warrior</title>
     <titleShort>warrior</titleShort>
-    <baseDesc>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. 
-      [PAWN_nameDef] was a fearsome warrior, proficient with many weapons. [PAWN_pronoun] participated in many battles.</baseDesc>
+    <description>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. 
+      [PAWN_nameDef] was a fearsome warrior, proficient with many weapons. [PAWN_pronoun] participated in many battles.</description>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>BetaHumanoidsBackstoryTribal</li>
@@ -364,23 +280,14 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <skillGains>
-      <li>
-        <key>Melee</key>
-        <value>4</value>
-      </li>
-      <li>
-        <key>Shooting</key>
-        <value>4</value>
-      </li>
+      <Melee>4</Melee>
+      <Shooting>4</Shooting>
     </skillGains>
     <requiredWorkTags>
       <li>Violent</li>
     </requiredWorkTags>
     <possessions>
-      <li>
-        <key>Pila</key>
-        <value>1</value>
-      </li>
+      <Pila>1</Pila>
     </possessions>
   </BackstoryDef>
 
@@ -388,7 +295,7 @@
     <defName>BetaHumanoidsBackstoryArcher25</defName>
     <title>archer</title>
     <titleShort>archer</titleShort>
-    <baseDesc>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. [PAWN_nameDef] fought for [PAWN_possessive] tribe. [PAWN_pronoun] and specialized in the use of bows, pila, and other ranged weapons.</baseDesc>
+    <description>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. [PAWN_nameDef] fought for [PAWN_possessive] tribe. [PAWN_pronoun] and specialized in the use of bows, pila, and other ranged weapons.</description>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>BetaHumanoidsBackstoryTribal</li>
@@ -397,23 +304,14 @@
     <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Thin</bodyTypeFemale>
     <skillGains>
-      <li>
-        <key>Melee</key>
-        <value>2</value>
-      </li>
-      <li>
-        <key>Shooting</key>
-        <value>7</value>
-      </li>
+      <Melee>2</Melee>
+      <Shooting>7</Shooting>
     </skillGains>
     <requiredWorkTags>
       <li>Violent</li>
     </requiredWorkTags>
     <possessions>
-      <li>
-        <key>Bow_Short</key>
-        <value>1</value>
-      </li>
+      <Bow_Short>1</Bow_Short>
     </possessions>
   </BackstoryDef>
 
@@ -421,7 +319,7 @@
     <defName>BetaHumanoidsBackstoryBrave88</defName>
     <title>brave</title>
     <titleShort>brave</titleShort>
-    <baseDesc>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. [PAWN_nameDef] wielded ikwa, axes, clubs, and other close-ranged weapons in battles for [PAWN_possessive] tribe.</baseDesc>
+    <description>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. [PAWN_nameDef] wielded ikwa, axes, clubs, and other close-ranged weapons in battles for [PAWN_possessive] tribe.</description>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>BetaHumanoidsBackstoryTribal</li>
@@ -429,14 +327,8 @@
     <bodyTypeMale>Hulk</bodyTypeMale>
     <bodyTypeFemale>Hulk</bodyTypeFemale>
     <skillGains>
-      <li>
-        <key>Melee</key>
-        <value>7</value>
-      </li>
-      <li>
-        <key>Shooting</key>
-        <value>2</value>
-      </li>
+      <Melee>7</Melee>
+      <Shooting>2</Shooting>
     </skillGains>
     <requiredWorkTags>
       <li>Violent</li>
@@ -447,7 +339,7 @@
     <defName>BetaHumanoidsBackstoryScout59</defName>
     <title>scout</title>
     <titleShort>scout</titleShort>
-    <baseDesc>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. Since [PAWN_possessive] tribe made contact with local outlanders, [PAWN_nameDef] contracted [PAWN_possessive] services out as a guide. Frequent contact with ancient technology made [PAWN_objective] comfortable with the lost machines.</baseDesc>
+    <description>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. Since [PAWN_possessive] tribe made contact with local outlanders, [PAWN_nameDef] contracted [PAWN_possessive] services out as a guide. Frequent contact with ancient technology made [PAWN_objective] comfortable with the lost machines.</description>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>BetaHumanoidsBackstoryTribal</li>
@@ -456,18 +348,9 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <skillGains>
-      <li>
-        <key>Shooting</key>
-        <value>2</value>
-      </li>
-      <li>
-        <key>Intellectual</key>
-        <value>2</value>
-      </li>
-      <li>
-        <key>Social</key>
-        <value>2</value>
-      </li>
+      <Shooting>2</Shooting>
+      <Intellectual>2</Intellectual>
+      <Social>2</Social>
     </skillGains>
     <requiredWorkTags>
       <li>Violent</li>
@@ -481,7 +364,7 @@
     <defName>BetaHumanoidsBackstoryVengefulHunter32</defName>
     <title>vengeful hunter</title>
     <titleShort>vengeful</titleShort>
-    <baseDesc>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. Following the death of a close friend by animal attack, [PAWN_nameDef] hunted the beast responsible. [PAWN_pronoun] tracked it to a nearby village, only to find one of the villagers wearing its pelt.</baseDesc>
+    <description>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. Following the death of a close friend by animal attack, [PAWN_nameDef] hunted the beast responsible. [PAWN_pronoun] tracked it to a nearby village, only to find one of the villagers wearing its pelt.</description>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>BetaHumanoidsBackstoryTribal</li>
@@ -490,14 +373,8 @@
     <bodyTypeMale>Hulk</bodyTypeMale>
     <bodyTypeFemale>Hulk</bodyTypeFemale>
     <skillGains>
-      <li>
-        <key>Shooting</key>
-        <value>4</value>
-      </li>
-      <li>
-        <key>Melee</key>
-        <value>6</value>
-      </li>
+      <Shooting>4</Shooting>
+      <Melee>6</Melee>
     </skillGains>
     <requiredWorkTags>
       <li>Violent</li>
@@ -506,10 +383,7 @@
       <li>Animals</li>
     </workDisables>
     <possessions>
-      <li>
-        <key>MeleeWeapon_Spear</key>
-        <value>1</value>
-      </li>
+      <MeleeWeapon_Spear>1</MeleeWeapon_Spear>
     </possessions>
   </BackstoryDef>
 
@@ -519,7 +393,7 @@
     <defName>BetaHumanoidsBackstoryMuffaloShaman95</defName>
     <title>muffalo shaman</title>
     <titleShort>shaman</titleShort>
-    <baseDesc>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. Because of [PAWN_possessive] quiet wisdom and great strength, [PAWN_nameDef] became the spiritual guide for [PAWN_possessive] tribe. [PAWN_pronoun] had a special connection with the great spirit of the muffalo.</baseDesc>
+    <description>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. Because of [PAWN_possessive] quiet wisdom and great strength, [PAWN_nameDef] became the spiritual guide for [PAWN_possessive] tribe. [PAWN_pronoun] had a special connection with the great spirit of the muffalo.</description>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>BetaHumanoidsBackstoryTribal</li>
@@ -527,14 +401,8 @@
     <bodyTypeMale>Hulk</bodyTypeMale>
     <bodyTypeFemale>Hulk</bodyTypeFemale>
     <skillGains>
-      <li>
-        <key>Melee</key>
-        <value>5</value>
-      </li>
-      <li>
-        <key>Social</key>
-        <value>2</value>
-      </li>
+      <Melee>5</Melee>
+      <Social>2</Social>
     </skillGains>
   </BackstoryDef>
 
@@ -542,7 +410,7 @@
     <defName>BetaHumanoidsBackstoryLoreKeeper51</defName>
     <title>lore keeper</title>
     <titleShort>keeper</titleShort>
-    <baseDesc>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. Every night around the fire, [PAWN_pronoun] would pass on ancient knowledge and helpful wisdom through stories.</baseDesc>
+    <description>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. Every night around the fire, [PAWN_pronoun] would pass on ancient knowledge and helpful wisdom through stories.</description>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>BetaHumanoidsBackstoryTribal</li>
@@ -550,18 +418,9 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <skillGains>
-      <li>
-        <key>Intellectual</key>
-        <value>2</value>
-      </li>
-      <li>
-        <key>Social</key>
-        <value>3</value>
-      </li>
-      <li>
-        <key>Artistic</key>
-        <value>2</value>
-      </li>
+      <Intellectual>2</Intellectual>
+      <Social>3</Social>
+      <Artistic>2</Artistic>
     </skillGains>
     <requiredWorkTags>
       <li>Intellectual</li>
@@ -574,8 +433,8 @@
     <defName>BetaHumanoidsBackstoryLoner61</defName>
     <title>loner</title>
     <titleShort>loner</titleShort>
-    <baseDesc>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. [PAWN_nameDef] never much liked the tribal council or the yearly festivals. [PAWN_pronoun] preferred the open plain and the whistle of wind through the rocks.
-\n[PAWN_pronoun] visited [PAWN_possessive] tribe from time to time, but mostly took care of [PAWN_objective]self using [PAWN_possessive] own survival skills.</baseDesc>
+    <description>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. [PAWN_nameDef] never much liked the tribal council or the yearly festivals. [PAWN_pronoun] preferred the open plain and the whistle of wind through the rocks.
+\n[PAWN_pronoun] visited [PAWN_possessive] tribe from time to time, but mostly took care of [PAWN_objective]self using [PAWN_possessive] own survival skills.</description>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>BetaHumanoidsBackstoryTribal</li>
@@ -585,22 +444,10 @@
     <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Thin</bodyTypeFemale>
     <skillGains>
-      <li>
-        <key>Shooting</key>
-        <value>3</value>
-      </li>
-      <li>
-        <key>Melee</key>
-        <value>2</value>
-      </li>
-      <li>
-        <key>Plants</key>
-        <value>5</value>
-      </li>
-      <li>
-        <key>Construction</key>
-        <value>1</value>
-      </li>
+      <Shooting>3</Shooting>
+      <Melee>2</Melee>
+      <Plants>5</Plants>
+      <Construction>1</Construction>
     </skillGains>
     <workDisables>
       <li>Social</li>
@@ -611,8 +458,8 @@
     <defName>BetaHumanoidsBackstoryBanished68</defName>
     <title>banished</title>
     <titleShort>banished</titleShort>
-    <baseDesc>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. 
-      [PAWN_nameDef]'s tribe banished [PAWN_objective] following a bloody dispute. [PAWN_pronoun] survived in the wilds alone for a long time.</baseDesc>
+    <description>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. 
+      [PAWN_nameDef]'s tribe banished [PAWN_objective] following a bloody dispute. [PAWN_pronoun] survived in the wilds alone for a long time.</description>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>BetaHumanoidsBackstoryTribal</li>
@@ -621,18 +468,9 @@
     <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Thin</bodyTypeFemale>
     <skillGains>
-      <li>
-        <key>Melee</key>
-        <value>3</value>
-      </li>
-      <li>
-        <key>Shooting</key>
-        <value>2</value>
-      </li>
-      <li>
-        <key>Plants</key>
-        <value>4</value>
-      </li>
+      <Melee>3</Melee>
+      <Shooting>2</Shooting>
+      <Plants>4</Plants>
     </skillGains>
     <workDisables>
       <li>Social</li>
@@ -643,7 +481,7 @@
     <defName>BetaHumanoidsBackstoryMalingerer28</defName>
     <title>malingerer</title>
     <titleShort>malingerer</titleShort>
-    <baseDesc>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. [PAWN_nameDef] often feigned sickness in order to avoid [PAWN_possessive] responsibilities. While resting in the sick hut, [PAWN_pronoun] told stories to the children.</baseDesc>
+    <description>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. [PAWN_nameDef] often feigned sickness in order to avoid [PAWN_possessive] responsibilities. While resting in the sick hut, [PAWN_pronoun] told stories to the children.</description>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>BetaHumanoidsBackstoryTribal</li>
@@ -651,14 +489,8 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <skillGains>
-      <li>
-        <key>Intellectual</key>
-        <value>2</value>
-      </li>
-      <li>
-        <key>Social</key>
-        <value>5</value>
-      </li>
+      <Intellectual>2</Intellectual>
+      <Social>5</Social>
     </skillGains>
     <workDisables>
       <li>ManualDumb</li>
@@ -669,7 +501,7 @@
     <defName>BetaHumanoidsBackstoryExcavator55</defName>
     <title>excavator</title>
     <titleShort>excavator</titleShort>
-    <baseDesc>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. [PAWN_nameDef] worked at dig sites, extracting valuable items and materials from ancient compacted ruins. [PAWN_pronoun] learned how to spot valuables in the ground and use a variety of excavating tools.</baseDesc>
+    <description>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. [PAWN_nameDef] worked at dig sites, extracting valuable items and materials from ancient compacted ruins. [PAWN_pronoun] learned how to spot valuables in the ground and use a variety of excavating tools.</description>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>BetaHumanoidsBackstoryTribal</li>
@@ -681,10 +513,7 @@
       <li>Mining</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Mining</key>
-        <value>8</value>
-      </li>
+      <Mining>8</Mining>
     </skillGains>
   </BackstoryDef>
 
@@ -692,7 +521,7 @@
     <defName>BetaHumanoidsBackstoryDigger31</defName>
     <title>digger</title>
     <titleShort>digger</titleShort>
-    <baseDesc>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. [PAWN_nameDef] labored in mines and caves, digging out spaces for storing items and hiding from threats. [PAWN_possessive] work provided hiding spots for [PAWN_possessive] friends on many occasions.</baseDesc>
+    <description>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. [PAWN_nameDef] labored in mines and caves, digging out spaces for storing items and hiding from threats. [PAWN_possessive] work provided hiding spots for [PAWN_possessive] friends on many occasions.</description>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>BetaHumanoidsBackstoryTribal</li>
@@ -704,10 +533,7 @@
       <li>Mining</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Mining</key>
-        <value>8</value>
-      </li>
+      <Mining>8</Mining>
     </skillGains>
   </BackstoryDef>
 
@@ -715,7 +541,7 @@
     <defName>BetaHumanoidsBackstoryCaveBuilder81</defName>
     <title>cave builder</title>
     <titleShort>cave builder</titleShort>
-    <baseDesc>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. [PAWN_nameDef] specialized in cave complex excavation and construction.</baseDesc>
+    <description>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. [PAWN_nameDef] specialized in cave complex excavation and construction.</description>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>BetaHumanoidsBackstoryTribal</li>
@@ -728,14 +554,8 @@
       <li>Constructing</li>
     </requiredWorkTags>
     <skillGains>
-      <li>
-        <key>Mining</key>
-        <value>8</value>
-      </li>
-      <li>
-        <key>Construction</key>
-        <value>2</value>
-      </li>
+      <Mining>8</Mining>
+      <Construction>2</Construction>
     </skillGains>
   </BackstoryDef>
 
@@ -743,7 +563,7 @@
     <defName>BetaHumanoidsBackstoryTreehouseBuilder86</defName>
     <title>treehouse builder</title>
     <titleShort>treehouse builder</titleShort>
-    <baseDesc>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. [PAWN_nameDef] built houses among, and sometimes suspended in, the trees for [PAWN_possessive] people to use while traveling or foraging. [PAWN_nameDef] learned how to best find and use wild plants, and how to fight off wild animals.</baseDesc>
+    <description>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. [PAWN_nameDef] built houses among, and sometimes suspended in, the trees for [PAWN_possessive] people to use while traveling or foraging. [PAWN_nameDef] learned how to best find and use wild plants, and how to fight off wild animals.</description>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>BetaHumanoidsBackstoryTribal</li>
@@ -752,14 +572,8 @@
     <bodyTypeMale>Hulk</bodyTypeMale>
     <bodyTypeFemale>Hulk</bodyTypeFemale>
     <skillGains>
-      <li>
-        <key>Plants</key>
-        <value>6</value>
-      </li>
-      <li>
-        <key>Melee</key>
-        <value>3</value>
-      </li>
+      <Plants>6</Plants>
+      <Melee>3</Melee>
     </skillGains>
     <requiredWorkTags>
       <li>PlantWork</li>
@@ -770,7 +584,7 @@
     <defName>BetaHumanoidsBackstoryPlankCutter72</defName>
     <title>plank cutter</title>
     <titleShort>plank cutter</titleShort>
-    <baseDesc>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. [PAWN_nameDef] helped [PAWN_possessive] tribe build huge wooden structures by cutting trees into sturdy planks. [PAWN_nameDef] developed a fine understanding of how wood grows and splits.</baseDesc>
+    <description>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. [PAWN_nameDef] helped [PAWN_possessive] tribe build huge wooden structures by cutting trees into sturdy planks. [PAWN_nameDef] developed a fine understanding of how wood grows and splits.</description>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>BetaHumanoidsBackstoryTribal</li>
@@ -779,14 +593,8 @@
     <bodyTypeMale>Hulk</bodyTypeMale>
     <bodyTypeFemale>Hulk</bodyTypeFemale>
     <skillGains>
-      <li>
-        <key>Plants</key>
-        <value>6</value>
-      </li>
-      <li>
-        <key>Melee</key>
-        <value>3</value>
-      </li>
+      <Plants>6</Plants>
+      <Melee>3</Melee>
     </skillGains>
     <requiredWorkTags>
       <li>PlantWork</li>
@@ -797,7 +605,7 @@
     <defName>BetaHumanoidsBackstoryHerder33</defName>
     <title>herder</title>
     <titleShort>herder</titleShort>
-    <baseDesc>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. [PAWN_nameDef] herded a variety of animals to help feed and clothe [PAWN_possessive] tribe while on the move. [PAWN_nameDef] learned how to calm and direct the beasts, and how to hunt [PAWN_possessive] own meals on the trail.</baseDesc>
+    <description>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. [PAWN_nameDef] herded a variety of animals to help feed and clothe [PAWN_possessive] tribe while on the move. [PAWN_nameDef] learned how to calm and direct the beasts, and how to hunt [PAWN_possessive] own meals on the trail.</description>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>BetaHumanoidsBackstoryTribal</li>
@@ -806,14 +614,8 @@
     <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Thin</bodyTypeFemale>
     <skillGains>
-      <li>
-        <key>Shooting</key>
-        <value>3</value>
-      </li>
-      <li>
-        <key>Animals</key>
-        <value>5</value>
-      </li>
+      <Shooting>3</Shooting>
+      <Animals>5</Animals>
     </skillGains>
     <requiredWorkTags>
       <li>Violent</li>
@@ -825,7 +627,7 @@
     <defName>BetaHumanoidsBackstoryButcher40</defName>
     <title>butcher</title>
     <titleShort>butcher</titleShort>
-    <baseDesc>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. [PAWN_nameDef]'s main job in the hunting party was the butchering of animals. [PAWN_pronoun] became a master with the knife, able to extract every bit of value from a carcass in a short time.</baseDesc>
+    <description>After escaping from the corporations, [PAWN_nameDef] joined a primitive tribe. [PAWN_nameDef]'s main job in the hunting party was the butchering of animals. [PAWN_pronoun] became a master with the knife, able to extract every bit of value from a carcass in a short time.</description>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>BetaHumanoidsBackstoryTribal</li>
@@ -834,24 +636,15 @@
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <skillGains>
-      <li>
-        <key>Cooking</key>
-        <value>6</value>
-      </li>
-      <li>
-        <key>Animals</key>
-        <value>3</value>
-      </li>
+      <Cooking>6</Cooking>
+      <Animals>3</Animals>
     </skillGains>
     <requiredWorkTags>
       <li>Violent</li>
       <li>Animals</li>
     </requiredWorkTags>
     <possessions>
-      <li>
-        <key>Meat_Bison</key>
-        <value>5</value>
-      </li>
+      <Meat_Bison>5</Meat_Bison>
     </possessions>
   </BackstoryDef>
 

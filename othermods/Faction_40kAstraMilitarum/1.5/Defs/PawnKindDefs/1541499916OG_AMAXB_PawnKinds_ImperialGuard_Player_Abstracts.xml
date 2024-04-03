@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef Abstract="True" Name="BetaHumanoids_Colonist_OG_Militarum">
+    <race>Human</race>
+    <combatPower>40</combatPower>
+    <isFighter>true</isFighter>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+    <apparelTags>
+      <li>OGIGClothing</li>
+    </apparelTags>
+    <label>colonist (Militarum)</label>
+    <defaultFactionType>OG_Militarum_PlayerColony</defaultFactionType>
+    <initialWillRange IgnoreIfNoMatchingField="True">0~0</initialWillRange>
+    <initialResistanceRange IgnoreIfNoMatchingField="True">13~21</initialResistanceRange>
+    <apparelMoney>
+      <min>1000</min>
+      <max>2400</max>
+    </apparelMoney>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+    <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="BetaHumanoids_Colonist_OG_Militarum_Kreig_Guardsmen">
+    <race>Human</race>
+    <combatPower>40</combatPower>
+    <isFighter>true</isFighter>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+    <apparelTags>
+      <li>OGIGClothing</li>
+    </apparelTags>
+    <label>guardsman</label>
+    <defaultFactionType>OG_Militarum_PlayerColony</defaultFactionType>
+    <initialWillRange IgnoreIfNoMatchingField="True">0~0</initialWillRange>
+    <initialResistanceRange IgnoreIfNoMatchingField="True">13~21</initialResistanceRange>
+    <apparelMoney>
+      <min>1000</min>
+      <max>2400</max>
+    </apparelMoney>
+    <apparelRequired>
+      <li>OGIG_Apparel_Krieg_FlakHelmet_TOGGLEDEF_A</li>
+      <li>OGIG_Apparel_Krieg_Uniform_Trenchcoat</li>
+      <li>OGIG_Apparel_Krieg_Gasmask</li>
+    </apparelRequired>
+    <weaponMoney>
+      <min>1400</min>
+      <max>28000</max>
+    </weaponMoney>
+    <weaponTags Inherit="false">
+      <li>KriegGun</li>
+    </weaponTags>
+    <skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>4~8</range>
+      </li>
+      <li>
+        <skill>Melee</skill>
+        <range>3~6</range>
+      </li>
+    </skills>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+    <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+</Defs>

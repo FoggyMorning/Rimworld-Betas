@@ -5,7 +5,7 @@
     <defName>BetaHumanoidsBackstoryVatgrownChild11</defName>
     <title>vatgrown child</title>
     <titleShort>child</titleShort>
-    <baseDesc>[PAWN_nameDef] spent most of [PAWN_possessive] childhood in a growth vat.</baseDesc>
+    <description>[PAWN_nameDef] spent most of [PAWN_possessive] childhood in a growth vat.</description>
     <slot>Childhood</slot>
     <spawnCategories>
       <li>BetaHumanoidsBackstoryVatGrown</li>

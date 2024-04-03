@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef Abstract="True" Name="BetaHumanoids_Colonist_OG_Mechanicus">
+    <race>OG_Human_Mechanicus</race>
+    <defaultFactionType>OG_Mechanicus_PlayerColony</defaultFactionType>
+    <combatPower>50</combatPower>
+    <isFighter>false</isFighter>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+    <label>colonist (Mechanicus)</label>
+    <initialWillRange IgnoreIfNoMatchingField="True">0~0</initialWillRange>
+    <initialResistanceRange IgnoreIfNoMatchingField="True">13~21</initialResistanceRange>
+    <apparelTags>
+      <li>OGAMClothing</li>
+      <li>OGIGClothing</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>1000</min>
+      <max>2400</max>
+    </apparelMoney>
+    <techHediffsMoney>
+      <min>6000</min>
+      <max>12200</max>
+    </techHediffsMoney>
+    <techHediffsRequired>
+		
+		</techHediffsRequired>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsDisallowTags>
+      <li>AAGeneSeed</li>
+      <li>PainCauser</li>
+    </techHediffsDisallowTags>
+    <techHediffsMaxAmount>5</techHediffsMaxAmount>
+    <techHediffsChance>1</techHediffsChance>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+    <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="BetaHumanoids_Colonist_OG_Mechanicus_Servitor">
+    <race>OG_Human_Mechanicus</race>
+    <defaultFactionType>OG_Mechanicus_PlayerColony</defaultFactionType>
+    <combatPower>50</combatPower>
+    <isFighter>false</isFighter>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+    <label>colonist (Mechanicus)</label>
+    <initialWillRange IgnoreIfNoMatchingField="True">0~0</initialWillRange>
+    <initialResistanceRange IgnoreIfNoMatchingField="True">13~21</initialResistanceRange>
+    <apparelTags>
+      <li>OGAMClothing</li>
+      <li>OGIGClothing</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>1000</min>
+      <max>2400</max>
+    </apparelMoney>
+    <techHediffsMoney>
+      <min>6000</min>
+      <max>12200</max>
+    </techHediffsMoney>
+    <techHediffsRequired>
+      <li>Joywire</li>
+      <li MayRequire="Ludeon.RimWorld.Royalty">CircadianHalfCycler</li>
+    </techHediffsRequired>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsDisallowTags>
+      <li>AAGeneSeed</li>
+      <li>PainCauser</li>
+    </techHediffsDisallowTags>
+    <techHediffsMaxAmount>5</techHediffsMaxAmount>
+    <techHediffsChance>1</techHediffsChance>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+    <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="BetaHumanoids_Colonist_OG_Mechanicus_Tech_Priest">
+    <race>OG_Human_Mechanicus</race>
+    <defaultFactionType>OG_Mechanicus_PlayerColony</defaultFactionType>
+    <combatPower>50</combatPower>
+    <isFighter>false</isFighter>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+    <label>colonist (Mechanicus)</label>
+    <initialWillRange IgnoreIfNoMatchingField="True">0~0</initialWillRange>
+    <initialResistanceRange IgnoreIfNoMatchingField="True">13~21</initialResistanceRange>
+    <apparelTags>
+      <li>OGAMClothing</li>
+      <li>OGIGClothing</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>1000</min>
+      <max>2400</max>
+    </apparelMoney>
+    <techHediffsMoney>
+      <min>6000</min>
+      <max>12200</max>
+    </techHediffsMoney>
+    <techHediffsRequired>
+		
+		</techHediffsRequired>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsDisallowTags>
+      <li>AAGeneSeed</li>
+      <li>PainCauser</li>
+    </techHediffsDisallowTags>
+    <techHediffsMaxAmount>5</techHediffsMaxAmount>
+    <techHediffsChance>1</techHediffsChance>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+    <apparelRequired>
+      <li>OGAM_Apparel_EnginseerHood</li>
+      <li>OGAM_Apparel_EnginseerRobe</li>
+    </apparelRequired>
+    <weaponMoney>
+      <min>10000</min>
+      <max>28000</max>
+    </weaponMoney>
+    <weaponTags Inherit="false">
+      <li>MacroStubber</li>
+    </weaponTags>
+    <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+  <PawnKindDef Abstract="True" Name="BetaHumanoids_Colonist_OG_Mechanicus_Tech_Priest_Enginseer">
+    <race>OG_Human_Mechanicus</race>
+    <defaultFactionType>OG_Mechanicus_PlayerColony</defaultFactionType>
+    <combatPower>50</combatPower>
+    <isFighter>false</isFighter>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+    <label>colonist (Mechanicus)</label>
+    <initialWillRange IgnoreIfNoMatchingField="True">0~0</initialWillRange>
+    <initialResistanceRange IgnoreIfNoMatchingField="True">13~21</initialResistanceRange>
+    <apparelTags>
+      <li>OGAMClothing</li>
+      <li>OGIGClothing</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>1000</min>
+      <max>2400</max>
+    </apparelMoney>
+    <techHediffsMoney>
+      <min>6000</min>
+      <max>12200</max>
+    </techHediffsMoney>
+    <techHediffsRequired>
+		
+		</techHediffsRequired>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsDisallowTags>
+      <li>AAGeneSeed</li>
+      <li>PainCauser</li>
+    </techHediffsDisallowTags>
+    <techHediffsMaxAmount>5</techHediffsMaxAmount>
+    <techHediffsChance>1</techHediffsChance>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+    <apparelRequired>
+      <li>OGAM_Apparel_EnginseerHood</li>
+      <li>OGAM_Apparel_EnginseerRobe</li>
+    </apparelRequired>
+    <weaponMoney>
+      <min>10000</min>
+      <max>28000</max>
+    </weaponMoney>
+    <weaponTags Inherit="false">
+      <li>MacroStubber</li>
+    </weaponTags>
+    <minGenerationAge>17</minGenerationAge>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+</Defs>

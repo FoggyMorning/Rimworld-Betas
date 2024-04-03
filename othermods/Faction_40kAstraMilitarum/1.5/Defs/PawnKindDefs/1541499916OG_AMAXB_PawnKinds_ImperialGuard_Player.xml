@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Militarum">
+    <race>BetaBear</race>
+    <label>beta bear colonist (Militarum)</label>
+    <defName>BetaBear_Colonist_OG_Militarum</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Militarum">
+    <race>BetaCamel</race>
+    <label>beta camel colonist (Militarum)</label>
+    <defName>BetaCamel_Colonist_OG_Militarum</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Militarum">
+    <race>BetaCroc</race>
+    <label>beta crocodile colonist (Militarum)</label>
+    <defName>BetaCroc_Colonist_OG_Militarum</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Militarum">
+    <race>BetaElephant</race>
+    <label>beta elephant colonist (Militarum)</label>
+    <defName>BetaElephant_Colonist_OG_Militarum</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Militarum">
+    <race>BetaElk_Female</race>
+    <label>beta elk colonist (Militarum)</label>
+    <defName>BetaElk_Female_Colonist_OG_Militarum</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Militarum">
+    <race>BetaElk_Male</race>
+    <label>beta elk colonist (Militarum)</label>
+    <defName>BetaElk_Male_Colonist_OG_Militarum</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Militarum">
+    <race>BetaFox</race>
+    <label>beta fox colonist (Militarum)</label>
+    <defName>BetaFox_Colonist_OG_Militarum</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Militarum">
+    <race>BetaGazelle</race>
+    <label>beta gazelle colonist (Militarum)</label>
+    <defName>BetaGazelle_Colonist_OG_Militarum</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Militarum">
+    <race>BetaHog</race>
+    <label>beta hog colonist (Militarum)</label>
+    <defName>BetaHog_Colonist_OG_Militarum</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Militarum">
+    <race>BetaLynx</race>
+    <label>beta lynx colonist (Militarum)</label>
+    <defName>BetaLynx_Colonist_OG_Militarum</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Militarum">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon colonist (Militarum)</label>
+    <defName>BetaRaccoon_Colonist_OG_Militarum</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Militarum">
+    <race>BetaWolf</race>
+    <label>beta wolf colonist (Militarum)</label>
+    <defName>BetaWolf_Colonist_OG_Militarum</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Militarum_Kreig_Guardsmen">
+    <race>BetaBear</race>
+    <label>beta bear guardsman</label>
+    <defName>BetaBear_Colonist_OG_Militarum_Kreig_Guardsmen</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Militarum_Kreig_Guardsmen">
+    <race>BetaCamel</race>
+    <label>beta camel guardsman</label>
+    <defName>BetaCamel_Colonist_OG_Militarum_Kreig_Guardsmen</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Militarum_Kreig_Guardsmen">
+    <race>BetaCroc</race>
+    <label>beta crocodile guardsman</label>
+    <defName>BetaCroc_Colonist_OG_Militarum_Kreig_Guardsmen</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Militarum_Kreig_Guardsmen">
+    <race>BetaElephant</race>
+    <label>beta elephant guardsman</label>
+    <defName>BetaElephant_Colonist_OG_Militarum_Kreig_Guardsmen</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Militarum_Kreig_Guardsmen">
+    <race>BetaElk_Female</race>
+    <label>beta elk guardsman</label>
+    <defName>BetaElk_Female_Colonist_OG_Militarum_Kreig_Guardsmen</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Militarum_Kreig_Guardsmen">
+    <race>BetaElk_Male</race>
+    <label>beta elk guardsman</label>
+    <defName>BetaElk_Male_Colonist_OG_Militarum_Kreig_Guardsmen</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Militarum_Kreig_Guardsmen">
+    <race>BetaFox</race>
+    <label>beta fox guardsman</label>
+    <defName>BetaFox_Colonist_OG_Militarum_Kreig_Guardsmen</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Militarum_Kreig_Guardsmen">
+    <race>BetaGazelle</race>
+    <label>beta gazelle guardsman</label>
+    <defName>BetaGazelle_Colonist_OG_Militarum_Kreig_Guardsmen</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Militarum_Kreig_Guardsmen">
+    <race>BetaHog</race>
+    <label>beta hog guardsman</label>
+    <defName>BetaHog_Colonist_OG_Militarum_Kreig_Guardsmen</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Militarum_Kreig_Guardsmen">
+    <race>BetaLynx</race>
+    <label>beta lynx guardsman</label>
+    <defName>BetaLynx_Colonist_OG_Militarum_Kreig_Guardsmen</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Militarum_Kreig_Guardsmen">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon guardsman</label>
+    <defName>BetaRaccoon_Colonist_OG_Militarum_Kreig_Guardsmen</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_Colonist_OG_Militarum_Kreig_Guardsmen">
+    <race>BetaWolf</race>
+    <label>beta wolf guardsman</label>
+    <defName>BetaWolf_Colonist_OG_Militarum_Kreig_Guardsmen</defName>
+  </PawnKindDef>
+</Defs>

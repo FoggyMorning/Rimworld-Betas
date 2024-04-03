@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Gunslinger">
+    <race>BetaBear</race>
+    <label>beta bear deputy marshal</label>
+    <defName>BetaBear_RWP_Marshal_Gunslinger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Gunslinger">
+    <race>BetaCamel</race>
+    <label>beta camel deputy marshal</label>
+    <defName>BetaCamel_RWP_Marshal_Gunslinger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Gunslinger">
+    <race>BetaCroc</race>
+    <label>beta crocodile deputy marshal</label>
+    <defName>BetaCroc_RWP_Marshal_Gunslinger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Gunslinger">
+    <race>BetaElephant</race>
+    <label>beta elephant deputy marshal</label>
+    <defName>BetaElephant_RWP_Marshal_Gunslinger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Gunslinger">
+    <race>BetaElk_Female</race>
+    <label>beta elk deputy marshal</label>
+    <defName>BetaElk_Female_RWP_Marshal_Gunslinger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Gunslinger">
+    <race>BetaElk_Male</race>
+    <label>beta elk deputy marshal</label>
+    <defName>BetaElk_Male_RWP_Marshal_Gunslinger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Gunslinger">
+    <race>BetaFox</race>
+    <label>beta fox deputy marshal</label>
+    <defName>BetaFox_RWP_Marshal_Gunslinger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Gunslinger">
+    <race>BetaGazelle</race>
+    <label>beta gazelle deputy marshal</label>
+    <defName>BetaGazelle_RWP_Marshal_Gunslinger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Gunslinger">
+    <race>BetaHog</race>
+    <label>beta hog deputy marshal</label>
+    <defName>BetaHog_RWP_Marshal_Gunslinger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Gunslinger">
+    <race>BetaLynx</race>
+    <label>beta lynx deputy marshal</label>
+    <defName>BetaLynx_RWP_Marshal_Gunslinger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Gunslinger">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon deputy marshal</label>
+    <defName>BetaRaccoon_RWP_Marshal_Gunslinger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Gunslinger">
+    <race>BetaWolf</race>
+    <label>beta wolf deputy marshal</label>
+    <defName>BetaWolf_RWP_Marshal_Gunslinger</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Rifleman">
+    <race>BetaBear</race>
+    <label>beta bear deputy marshal</label>
+    <defName>BetaBear_RWP_Marshal_Rifleman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Rifleman">
+    <race>BetaCamel</race>
+    <label>beta camel deputy marshal</label>
+    <defName>BetaCamel_RWP_Marshal_Rifleman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Rifleman">
+    <race>BetaCroc</race>
+    <label>beta crocodile deputy marshal</label>
+    <defName>BetaCroc_RWP_Marshal_Rifleman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Rifleman">
+    <race>BetaElephant</race>
+    <label>beta elephant deputy marshal</label>
+    <defName>BetaElephant_RWP_Marshal_Rifleman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Rifleman">
+    <race>BetaElk_Female</race>
+    <label>beta elk deputy marshal</label>
+    <defName>BetaElk_Female_RWP_Marshal_Rifleman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Rifleman">
+    <race>BetaElk_Male</race>
+    <label>beta elk deputy marshal</label>
+    <defName>BetaElk_Male_RWP_Marshal_Rifleman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Rifleman">
+    <race>BetaFox</race>
+    <label>beta fox deputy marshal</label>
+    <defName>BetaFox_RWP_Marshal_Rifleman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Rifleman">
+    <race>BetaGazelle</race>
+    <label>beta gazelle deputy marshal</label>
+    <defName>BetaGazelle_RWP_Marshal_Rifleman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Rifleman">
+    <race>BetaHog</race>
+    <label>beta hog deputy marshal</label>
+    <defName>BetaHog_RWP_Marshal_Rifleman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Rifleman">
+    <race>BetaLynx</race>
+    <label>beta lynx deputy marshal</label>
+    <defName>BetaLynx_RWP_Marshal_Rifleman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Rifleman">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon deputy marshal</label>
+    <defName>BetaRaccoon_RWP_Marshal_Rifleman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Rifleman">
+    <race>BetaWolf</race>
+    <label>beta wolf deputy marshal</label>
+    <defName>BetaWolf_RWP_Marshal_Rifleman</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Sniper">
+    <race>BetaBear</race>
+    <label>beta bear deputy marshal</label>
+    <defName>BetaBear_RWP_Marshal_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Sniper">
+    <race>BetaCamel</race>
+    <label>beta camel deputy marshal</label>
+    <defName>BetaCamel_RWP_Marshal_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Sniper">
+    <race>BetaCroc</race>
+    <label>beta crocodile deputy marshal</label>
+    <defName>BetaCroc_RWP_Marshal_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Sniper">
+    <race>BetaElephant</race>
+    <label>beta elephant deputy marshal</label>
+    <defName>BetaElephant_RWP_Marshal_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Sniper">
+    <race>BetaElk_Female</race>
+    <label>beta elk deputy marshal</label>
+    <defName>BetaElk_Female_RWP_Marshal_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Sniper">
+    <race>BetaElk_Male</race>
+    <label>beta elk deputy marshal</label>
+    <defName>BetaElk_Male_RWP_Marshal_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Sniper">
+    <race>BetaFox</race>
+    <label>beta fox deputy marshal</label>
+    <defName>BetaFox_RWP_Marshal_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Sniper">
+    <race>BetaGazelle</race>
+    <label>beta gazelle deputy marshal</label>
+    <defName>BetaGazelle_RWP_Marshal_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Sniper">
+    <race>BetaHog</race>
+    <label>beta hog deputy marshal</label>
+    <defName>BetaHog_RWP_Marshal_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Sniper">
+    <race>BetaLynx</race>
+    <label>beta lynx deputy marshal</label>
+    <defName>BetaLynx_RWP_Marshal_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Sniper">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon deputy marshal</label>
+    <defName>BetaRaccoon_RWP_Marshal_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Sniper">
+    <race>BetaWolf</race>
+    <label>beta wolf deputy marshal</label>
+    <defName>BetaWolf_RWP_Marshal_Sniper</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Boss">
+    <race>BetaBear</race>
+    <label>beta bear Chief Marshal</label>
+    <defName>BetaBear_RWP_Marshal_Boss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Boss">
+    <race>BetaCamel</race>
+    <label>beta camel Chief Marshal</label>
+    <defName>BetaCamel_RWP_Marshal_Boss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Boss">
+    <race>BetaCroc</race>
+    <label>beta crocodile Chief Marshal</label>
+    <defName>BetaCroc_RWP_Marshal_Boss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Boss">
+    <race>BetaElephant</race>
+    <label>beta elephant Chief Marshal</label>
+    <defName>BetaElephant_RWP_Marshal_Boss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Boss">
+    <race>BetaElk_Female</race>
+    <label>beta elk Chief Marshal</label>
+    <defName>BetaElk_Female_RWP_Marshal_Boss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Boss">
+    <race>BetaElk_Male</race>
+    <label>beta elk Chief Marshal</label>
+    <defName>BetaElk_Male_RWP_Marshal_Boss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Boss">
+    <race>BetaFox</race>
+    <label>beta fox Chief Marshal</label>
+    <defName>BetaFox_RWP_Marshal_Boss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Boss">
+    <race>BetaGazelle</race>
+    <label>beta gazelle Chief Marshal</label>
+    <defName>BetaGazelle_RWP_Marshal_Boss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Boss">
+    <race>BetaHog</race>
+    <label>beta hog Chief Marshal</label>
+    <defName>BetaHog_RWP_Marshal_Boss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Boss">
+    <race>BetaLynx</race>
+    <label>beta lynx Chief Marshal</label>
+    <defName>BetaLynx_RWP_Marshal_Boss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Boss">
+    <race>BetaRaccoon</race>
+    <label>beta raccoon Chief Marshal</label>
+    <defName>BetaRaccoon_RWP_Marshal_Boss</defName>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BetaHumanoids_RWP_Marshal_Boss">
+    <race>BetaWolf</race>
+    <label>beta wolf Chief Marshal</label>
+    <defName>BetaWolf_RWP_Marshal_Boss</defName>
+  </PawnKindDef>
+</Defs>

@@ -1,0 +1,1459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.ThingDef_AlienRace ParentName="BetaBear">
+    <defName>BetaBear_AlienRace_Mechanicus</defName>
+    <description>A "Beta", a Beta Class Humanoid Lifeform. Part human and part Bear.
+          As a member of the Cult Mechanicus they have usually undergone heavy bionic modifications.</description>
+		<alienRace>
+			<generalSettings>
+				<alienPartGenerator>
+				<atlasScale>2</atlasScale>
+				</alienPartGenerator>
+				<notXenophobistTowards>
+				  <li>Human</li>
+				  <li>BetaCamel_AlienRace_Mechanicus</li>
+				  <li>BetaCroc_AlienRace_Mechanicus</li>
+				  <li>BetaElephant_AlienRace_Mechanicus</li>
+				  <li>BetaElk_Female_AlienRace_Mechanicus</li>
+				  <li>BetaElk_Male_AlienRace_Mechanicus</li>
+				  <li>BetaFox_AlienRace_Mechanicus</li>
+				  <li>BetaGazelle_AlienRace_Mechanicus</li>
+				  <li>BetaHog_AlienRace_Mechanicus</li>
+				  <li>BetaLynx_AlienRace_Mechanicus</li>
+				  <li>BetaRaccoon_AlienRace_Mechanicus</li>
+				  <li>BetaRaccoon_AlienRace_Mechanicus</li>
+				  <li>BetaWolf_AlienRace_Mechanicus</li>
+				  <li>OG_Abhuman_Ratlin</li>
+				  <li>OG_Abhuman_Ogryn</li>
+				  <li MayRequire="Ogliss.AdMech.Astartes">OG_Human_Astartes</li>
+				</notXenophobistTowards>
+				<factionRelations>
+					<li>
+						<factions>
+							<li>PlayerColony</li>
+							<li>PlayerTribe</li>
+							<li>OutlanderCivil</li>
+							<li>OutlanderRough</li>
+							<li>TribeCivil</li>
+							<li>TribeRough</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>50</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerTribe</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_Faction</li>
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_PlayerColony</li-->
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_PlayerTribe</li-->
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>10</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Eldar">OG_Eldar_Craftworld_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Eldar">OG_Eldar_Craftworld_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarExodite">OG_Eldar_Exodite_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarExodite">OG_Eldar_Player_Exodite</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarHarlequin">OG_Eldar_Harlequin_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarHarlequin">OG_Eldar_Player_Harlequin</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>25</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_Faction</li>
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_PlayerColony</li-->
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_Cadian_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_Cadian_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Astartes">OG_Astartes_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Astartes">OG_AstartesNeophyte_PlayerColony</li>
+							<li MayRequire="CptOhu.CorruptionCore">PlayerColony_IoM</li>
+						</factions>
+						<goodwill>
+							<min>-10</min>
+							<max>100</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Tek_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Feral_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Waaagh</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerTribe</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.DarkEldar">OG_DarkEldar_Kabal_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.DarkEldar">OG_DarkEldar_Kabal_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Necron_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Tyranid_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Chaos_Deamon_Faction</li>
+							<li MayRequire="CptOhu.CorruptionCore">PlayerColony_Chaos</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_ChaosMarineFaction</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_TraitorGuardFaction</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_TyranidFaction</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>-100</max>
+						</goodwill>
+					</li>
+				</factionRelations>
+			</generalSettings>
+		</alienRace>
+    <race>
+      <nameGenerator>OG_NamerPerson_Mechanicus</nameGenerator>
+      <nameGeneratorFemale>OG_NamerPersonFemale_Mechanicus</nameGeneratorFemale>
+    </race>
+  </AlienRace.ThingDef_AlienRace>
+  <AlienRace.ThingDef_AlienRace ParentName="BetaCamel">
+    <defName>BetaCamel_AlienRace_Mechanicus</defName>
+    <description>A "Beta", a Beta Class Humanoid Lifeform. Part human and part Camel.
+        As a member of the Cult Mechanicus they have usually undergone heavy bionic modifications.</description>
+		<alienRace>
+			<generalSettings>
+				<alienPartGenerator>
+				<atlasScale>2</atlasScale>
+				</alienPartGenerator>
+				<notXenophobistTowards>
+				  <li>Human</li>
+				  <li>BetaBear_AlienRace_Mechanicus</li>
+				  <li>BetaCroc_AlienRace_Mechanicus</li>
+				  <li>BetaElephant_AlienRace_Mechanicus</li>
+				  <li>BetaElk_Female_AlienRace_Mechanicus</li>
+				  <li>BetaElk_Male_AlienRace_Mechanicus</li>
+				  <li>BetaFox_AlienRace_Mechanicus</li>
+				  <li>BetaGazelle_AlienRace_Mechanicus</li>
+				  <li>BetaHog_AlienRace_Mechanicus</li>
+				  <li>BetaLynx_AlienRace_Mechanicus</li>
+				  <li>BetaRaccoon_AlienRace_Mechanicus</li>
+				  <li>BetaRaccoon_AlienRace_Mechanicus</li>
+				  <li>BetaWolf_AlienRace_Mechanicus</li>
+				  <li>OG_Abhuman_Ratlin</li>
+				  <li>OG_Abhuman_Ogryn</li>
+				  <li MayRequire="Ogliss.AdMech.Astartes">OG_Human_Astartes</li>
+				</notXenophobistTowards>
+				<factionRelations>
+					<li>
+						<factions>
+							<li>PlayerColony</li>
+							<li>PlayerTribe</li>
+							<li>OutlanderCivil</li>
+							<li>OutlanderRough</li>
+							<li>TribeCivil</li>
+							<li>TribeRough</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>50</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerTribe</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_Faction</li>
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_PlayerColony</li-->
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_PlayerTribe</li-->
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>10</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Eldar">OG_Eldar_Craftworld_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Eldar">OG_Eldar_Craftworld_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarExodite">OG_Eldar_Exodite_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarExodite">OG_Eldar_Player_Exodite</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarHarlequin">OG_Eldar_Harlequin_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarHarlequin">OG_Eldar_Player_Harlequin</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>25</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_Faction</li>
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_PlayerColony</li-->
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_Cadian_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_Cadian_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Astartes">OG_Astartes_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Astartes">OG_AstartesNeophyte_PlayerColony</li>
+							<li MayRequire="CptOhu.CorruptionCore">PlayerColony_IoM</li>
+						</factions>
+						<goodwill>
+							<min>-10</min>
+							<max>100</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Tek_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Feral_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Waaagh</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerTribe</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.DarkEldar">OG_DarkEldar_Kabal_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.DarkEldar">OG_DarkEldar_Kabal_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Necron_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Tyranid_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Chaos_Deamon_Faction</li>
+							<li MayRequire="CptOhu.CorruptionCore">PlayerColony_Chaos</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_ChaosMarineFaction</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_TraitorGuardFaction</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_TyranidFaction</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>-100</max>
+						</goodwill>
+					</li>
+				</factionRelations>
+			</generalSettings>
+		</alienRace>
+    <race>
+      <nameGenerator>OG_NamerPerson_Mechanicus</nameGenerator>
+      <nameGeneratorFemale>OG_NamerPersonFemale_Mechanicus</nameGeneratorFemale>
+    </race>
+  </AlienRace.ThingDef_AlienRace>
+  <AlienRace.ThingDef_AlienRace ParentName="BetaCroc">
+    <defName>BetaCroc_AlienRace_Mechanicus</defName>
+    <description>A "Beta", a Beta Class Humanoid Lifeform. Part human and part Crocodile.
+        As a member of the Cult Mechanicus they have usually undergone heavy bionic modifications.</description>
+		<alienRace>
+			<generalSettings>
+				<alienPartGenerator>
+				<atlasScale>2</atlasScale>
+				</alienPartGenerator>
+				<notXenophobistTowards>
+				  <li>Human</li>
+				  <li>BetaCamel_AlienRace_Mechanicus</li>
+				  <li>BetaBear_AlienRace_Mechanicus</li>
+				  <li>BetaElephant_AlienRace_Mechanicus</li>
+				  <li>BetaElk_Female_AlienRace_Mechanicus</li>
+				  <li>BetaElk_Male_AlienRace_Mechanicus</li>
+				  <li>BetaFox_AlienRace_Mechanicus</li>
+				  <li>BetaGazelle_AlienRace_Mechanicus</li>
+				  <li>BetaHog_AlienRace_Mechanicus</li>
+				  <li>BetaLynx_AlienRace_Mechanicus</li>
+				  <li>BetaRaccoon_AlienRace_Mechanicus</li>
+				  <li>BetaRaccoon_AlienRace_Mechanicus</li>
+				  <li>BetaWolf_AlienRace_Mechanicus</li>
+				  <li>OG_Abhuman_Ratlin</li>
+				  <li>OG_Abhuman_Ogryn</li>
+				  <li MayRequire="Ogliss.AdMech.Astartes">OG_Human_Astartes</li>
+				</notXenophobistTowards>
+				<factionRelations>
+					<li>
+						<factions>
+							<li>PlayerColony</li>
+							<li>PlayerTribe</li>
+							<li>OutlanderCivil</li>
+							<li>OutlanderRough</li>
+							<li>TribeCivil</li>
+							<li>TribeRough</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>50</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerTribe</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_Faction</li>
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_PlayerColony</li-->
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_PlayerTribe</li-->
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>10</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Eldar">OG_Eldar_Craftworld_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Eldar">OG_Eldar_Craftworld_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarExodite">OG_Eldar_Exodite_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarExodite">OG_Eldar_Player_Exodite</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarHarlequin">OG_Eldar_Harlequin_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarHarlequin">OG_Eldar_Player_Harlequin</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>25</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_Faction</li>
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_PlayerColony</li-->
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_Cadian_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_Cadian_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Astartes">OG_Astartes_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Astartes">OG_AstartesNeophyte_PlayerColony</li>
+							<li MayRequire="CptOhu.CorruptionCore">PlayerColony_IoM</li>
+						</factions>
+						<goodwill>
+							<min>-10</min>
+							<max>100</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Tek_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Feral_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Waaagh</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerTribe</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.DarkEldar">OG_DarkEldar_Kabal_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.DarkEldar">OG_DarkEldar_Kabal_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Necron_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Tyranid_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Chaos_Deamon_Faction</li>
+							<li MayRequire="CptOhu.CorruptionCore">PlayerColony_Chaos</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_ChaosMarineFaction</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_TraitorGuardFaction</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_TyranidFaction</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>-100</max>
+						</goodwill>
+					</li>
+				</factionRelations>
+			</generalSettings>
+		</alienRace>
+    <race>
+      <nameGenerator>OG_NamerPerson_Mechanicus</nameGenerator>
+      <nameGeneratorFemale>OG_NamerPersonFemale_Mechanicus</nameGeneratorFemale>
+    </race>
+  </AlienRace.ThingDef_AlienRace>
+  <AlienRace.ThingDef_AlienRace ParentName="BetaElephant">
+    <defName>BetaElephant_AlienRace_Mechanicus</defName>
+    <description>A "Beta", a Beta Class Humanoid Lifeform. Part human and part Elephant.
+        As a member of the Cult Mechanicus they have usually undergone heavy bionic modifications.</description>
+		<alienRace>
+			<generalSettings>
+				<alienPartGenerator>
+				<atlasScale>2</atlasScale>
+				</alienPartGenerator>
+				<notXenophobistTowards>
+				  <li>Human</li>
+				  <li>BetaCamel_AlienRace_Mechanicus</li>
+				  <li>BetaCroc_AlienRace_Mechanicus</li>
+				  <li>BetaBear_AlienRace_Mechanicus</li>
+				  <li>BetaElk_Female_AlienRace_Mechanicus</li>
+				  <li>BetaElk_Male_AlienRace_Mechanicus</li>
+				  <li>BetaFox_AlienRace_Mechanicus</li>
+				  <li>BetaGazelle_AlienRace_Mechanicus</li>
+				  <li>BetaHog_AlienRace_Mechanicus</li>
+				  <li>BetaLynx_AlienRace_Mechanicus</li>
+				  <li>BetaRaccoon_AlienRace_Mechanicus</li>
+				  <li>BetaRaccoon_AlienRace_Mechanicus</li>
+				  <li>BetaWolf_AlienRace_Mechanicus</li>
+				  <li>OG_Abhuman_Ratlin</li>
+				  <li>OG_Abhuman_Ogryn</li>
+				  <li MayRequire="Ogliss.AdMech.Astartes">OG_Human_Astartes</li>
+				</notXenophobistTowards>
+				<factionRelations>
+					<li>
+						<factions>
+							<li>PlayerColony</li>
+							<li>PlayerTribe</li>
+							<li>OutlanderCivil</li>
+							<li>OutlanderRough</li>
+							<li>TribeCivil</li>
+							<li>TribeRough</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>50</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerTribe</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_Faction</li>
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_PlayerColony</li-->
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_PlayerTribe</li-->
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>10</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Eldar">OG_Eldar_Craftworld_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Eldar">OG_Eldar_Craftworld_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarExodite">OG_Eldar_Exodite_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarExodite">OG_Eldar_Player_Exodite</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarHarlequin">OG_Eldar_Harlequin_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarHarlequin">OG_Eldar_Player_Harlequin</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>25</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_Faction</li>
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_PlayerColony</li-->
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_Cadian_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_Cadian_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Astartes">OG_Astartes_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Astartes">OG_AstartesNeophyte_PlayerColony</li>
+							<li MayRequire="CptOhu.CorruptionCore">PlayerColony_IoM</li>
+						</factions>
+						<goodwill>
+							<min>-10</min>
+							<max>100</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Tek_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Feral_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Waaagh</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerTribe</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.DarkEldar">OG_DarkEldar_Kabal_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.DarkEldar">OG_DarkEldar_Kabal_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Necron_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Tyranid_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Chaos_Deamon_Faction</li>
+							<li MayRequire="CptOhu.CorruptionCore">PlayerColony_Chaos</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_ChaosMarineFaction</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_TraitorGuardFaction</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_TyranidFaction</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>-100</max>
+						</goodwill>
+					</li>
+				</factionRelations>
+			</generalSettings>
+		</alienRace>
+    <race>
+      <nameGenerator>OG_NamerPerson_Mechanicus</nameGenerator>
+      <nameGeneratorFemale>OG_NamerPersonFemale_Mechanicus</nameGeneratorFemale>
+    </race>
+  </AlienRace.ThingDef_AlienRace>
+  <AlienRace.ThingDef_AlienRace ParentName="BetaElk_Female">
+    <defName>BetaElk_Female_AlienRace_Mechanicus</defName>
+    <description>A "Beta", a Beta Class Humanoid Lifeform. Part human and part Elk.
+        As a member of the Cult Mechanicus they have usually undergone heavy bionic modifications.</description>
+		<alienRace>
+			<generalSettings>
+				<alienPartGenerator>
+				<atlasScale>2</atlasScale>
+				</alienPartGenerator>
+				<notXenophobistTowards>
+				  <li>Human</li>
+				  <li>BetaCamel_AlienRace_Mechanicus</li>
+				  <li>BetaCroc_AlienRace_Mechanicus</li>
+				  <li>BetaElephant_AlienRace_Mechanicus</li>
+				  <li>BetaBear_AlienRace_Mechanicus</li>
+				  <li>BetaElk_Male_AlienRace_Mechanicus</li>
+				  <li>BetaFox_AlienRace_Mechanicus</li>
+				  <li>BetaGazelle_AlienRace_Mechanicus</li>
+				  <li>BetaHog_AlienRace_Mechanicus</li>
+				  <li>BetaLynx_AlienRace_Mechanicus</li>
+				  <li>BetaRaccoon_AlienRace_Mechanicus</li>
+				  <li>BetaWolf_AlienRace_Mechanicus</li>
+				  <li>OG_Abhuman_Ratlin</li>
+				  <li>OG_Abhuman_Ogryn</li>
+				  <li MayRequire="Ogliss.AdMech.Astartes">OG_Human_Astartes</li>
+				</notXenophobistTowards>
+				<factionRelations>
+					<li>
+						<factions>
+							<li>PlayerColony</li>
+							<li>PlayerTribe</li>
+							<li>OutlanderCivil</li>
+							<li>OutlanderRough</li>
+							<li>TribeCivil</li>
+							<li>TribeRough</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>50</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerTribe</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_Faction</li>
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_PlayerColony</li-->
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_PlayerTribe</li-->
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>10</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Eldar">OG_Eldar_Craftworld_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Eldar">OG_Eldar_Craftworld_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarExodite">OG_Eldar_Exodite_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarExodite">OG_Eldar_Player_Exodite</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarHarlequin">OG_Eldar_Harlequin_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarHarlequin">OG_Eldar_Player_Harlequin</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>25</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_Faction</li>
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_PlayerColony</li-->
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_Cadian_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_Cadian_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Astartes">OG_Astartes_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Astartes">OG_AstartesNeophyte_PlayerColony</li>
+							<li MayRequire="CptOhu.CorruptionCore">PlayerColony_IoM</li>
+						</factions>
+						<goodwill>
+							<min>-10</min>
+							<max>100</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Tek_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Feral_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Waaagh</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerTribe</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.DarkEldar">OG_DarkEldar_Kabal_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.DarkEldar">OG_DarkEldar_Kabal_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Necron_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Tyranid_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Chaos_Deamon_Faction</li>
+							<li MayRequire="CptOhu.CorruptionCore">PlayerColony_Chaos</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_ChaosMarineFaction</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_TraitorGuardFaction</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_TyranidFaction</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>-100</max>
+						</goodwill>
+					</li>
+				</factionRelations>
+			</generalSettings>
+		</alienRace>
+    <race>
+      <nameGenerator>OG_NamerPerson_Mechanicus</nameGenerator>
+      <nameGeneratorFemale>OG_NamerPersonFemale_Mechanicus</nameGeneratorFemale>
+    </race>
+  </AlienRace.ThingDef_AlienRace>
+  <AlienRace.ThingDef_AlienRace ParentName="BetaElk_Male">
+    <defName>BetaElk_Male_AlienRace_Mechanicus</defName>
+    <description>A "Beta", a Beta Class Humanoid Lifeform. Part human and part Elk.
+        As a member of the Cult Mechanicus they have usually undergone heavy bionic modifications.</description>
+		<alienRace>
+			<generalSettings>
+				<alienPartGenerator>
+				<atlasScale>2</atlasScale>
+				</alienPartGenerator>
+				<notXenophobistTowards>
+				  <li>Human</li>
+				  <li>BetaCamel_AlienRace_Mechanicus</li>
+				  <li>BetaCroc_AlienRace_Mechanicus</li>
+				  <li>BetaElephant_AlienRace_Mechanicus</li>
+				  <li>BetaElk_Female_AlienRace_Mechanicus</li>
+				  <li>BetaBear_AlienRace_Mechanicus</li>
+				  <li>BetaFox_AlienRace_Mechanicus</li>
+				  <li>BetaGazelle_AlienRace_Mechanicus</li>
+				  <li>BetaHog_AlienRace_Mechanicus</li>
+				  <li>BetaLynx_AlienRace_Mechanicus</li>
+				  <li>BetaRaccoon_AlienRace_Mechanicus</li>
+				  <li>BetaWolf_AlienRace_Mechanicus</li>
+				  <li>OG_Abhuman_Ratlin</li>
+				  <li>OG_Abhuman_Ogryn</li>
+				  <li MayRequire="Ogliss.AdMech.Astartes">OG_Human_Astartes</li>
+				</notXenophobistTowards>
+				<factionRelations>
+					<li>
+						<factions>
+							<li>PlayerColony</li>
+							<li>PlayerTribe</li>
+							<li>OutlanderCivil</li>
+							<li>OutlanderRough</li>
+							<li>TribeCivil</li>
+							<li>TribeRough</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>50</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerTribe</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_Faction</li>
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_PlayerColony</li-->
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_PlayerTribe</li-->
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>10</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Eldar">OG_Eldar_Craftworld_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Eldar">OG_Eldar_Craftworld_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarExodite">OG_Eldar_Exodite_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarExodite">OG_Eldar_Player_Exodite</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarHarlequin">OG_Eldar_Harlequin_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarHarlequin">OG_Eldar_Player_Harlequin</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>25</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_Faction</li>
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_PlayerColony</li-->
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_Cadian_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_Cadian_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Astartes">OG_Astartes_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Astartes">OG_AstartesNeophyte_PlayerColony</li>
+							<li MayRequire="CptOhu.CorruptionCore">PlayerColony_IoM</li>
+						</factions>
+						<goodwill>
+							<min>-10</min>
+							<max>100</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Tek_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Feral_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Waaagh</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerTribe</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.DarkEldar">OG_DarkEldar_Kabal_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.DarkEldar">OG_DarkEldar_Kabal_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Necron_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Tyranid_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Chaos_Deamon_Faction</li>
+							<li MayRequire="CptOhu.CorruptionCore">PlayerColony_Chaos</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_ChaosMarineFaction</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_TraitorGuardFaction</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_TyranidFaction</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>-100</max>
+						</goodwill>
+					</li>
+				</factionRelations>
+			</generalSettings>
+		</alienRace>
+    <race>
+      <nameGenerator>OG_NamerPerson_Mechanicus</nameGenerator>
+      <nameGeneratorFemale>OG_NamerPersonFemale_Mechanicus</nameGeneratorFemale>
+    </race>
+  </AlienRace.ThingDef_AlienRace>
+  <AlienRace.ThingDef_AlienRace ParentName="BetaFox">
+    <defName>BetaFox_AlienRace_Mechanicus</defName>
+    <description>A "Beta", a Beta Class Humanoid Lifeform. Part human and part Fox.
+        As a member of the Cult Mechanicus they have usually undergone heavy bionic modifications.</description>
+		<alienRace>
+			<generalSettings>
+				<alienPartGenerator>
+				<atlasScale>2</atlasScale>
+				</alienPartGenerator>
+				<notXenophobistTowards>
+				  <li>Human</li>
+				  <li>BetaCamel_AlienRace_Mechanicus</li>
+				  <li>BetaCroc_AlienRace_Mechanicus</li>
+				  <li>BetaElephant_AlienRace_Mechanicus</li>
+				  <li>BetaElk_Female_AlienRace_Mechanicus</li>
+				  <li>BetaElk_Male_AlienRace_Mechanicus</li>
+				  <li>BetaBear_AlienRace_Mechanicus</li>
+				  <li>BetaGazelle_AlienRace_Mechanicus</li>
+				  <li>BetaHog_AlienRace_Mechanicus</li>
+				  <li>BetaLynx_AlienRace_Mechanicus</li>
+				  <li>BetaRaccoon_AlienRace_Mechanicus</li>
+				  <li>BetaWolf_AlienRace_Mechanicus</li>
+				  <li>OG_Abhuman_Ratlin</li>
+				  <li>OG_Abhuman_Ogryn</li>
+				  <li MayRequire="Ogliss.AdMech.Astartes">OG_Human_Astartes</li>
+				</notXenophobistTowards>
+				<factionRelations>
+					<li>
+						<factions>
+							<li>PlayerColony</li>
+							<li>PlayerTribe</li>
+							<li>OutlanderCivil</li>
+							<li>OutlanderRough</li>
+							<li>TribeCivil</li>
+							<li>TribeRough</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>50</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerTribe</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_Faction</li>
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_PlayerColony</li-->
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_PlayerTribe</li-->
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>10</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Eldar">OG_Eldar_Craftworld_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Eldar">OG_Eldar_Craftworld_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarExodite">OG_Eldar_Exodite_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarExodite">OG_Eldar_Player_Exodite</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarHarlequin">OG_Eldar_Harlequin_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarHarlequin">OG_Eldar_Player_Harlequin</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>25</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_Faction</li>
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_PlayerColony</li-->
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_Cadian_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_Cadian_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Astartes">OG_Astartes_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Astartes">OG_AstartesNeophyte_PlayerColony</li>
+							<li MayRequire="CptOhu.CorruptionCore">PlayerColony_IoM</li>
+						</factions>
+						<goodwill>
+							<min>-10</min>
+							<max>100</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Tek_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Feral_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Waaagh</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerTribe</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.DarkEldar">OG_DarkEldar_Kabal_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.DarkEldar">OG_DarkEldar_Kabal_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Necron_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Tyranid_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Chaos_Deamon_Faction</li>
+							<li MayRequire="CptOhu.CorruptionCore">PlayerColony_Chaos</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_ChaosMarineFaction</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_TraitorGuardFaction</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_TyranidFaction</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>-100</max>
+						</goodwill>
+					</li>
+				</factionRelations>
+			</generalSettings>
+		</alienRace>
+    <race>
+      <nameGenerator>OG_NamerPerson_Mechanicus</nameGenerator>
+      <nameGeneratorFemale>OG_NamerPersonFemale_Mechanicus</nameGeneratorFemale>
+    </race>
+  </AlienRace.ThingDef_AlienRace>
+  <AlienRace.ThingDef_AlienRace ParentName="BetaGazelle">
+    <defName>BetaGazelle_AlienRace_Mechanicus</defName>
+    <description>A "Beta", a Beta Class Humanoid Lifeform. Part human and part Gazelle.
+        As a member of the Cult Mechanicus they have usually undergone heavy bionic modifications.</description>
+		<alienRace>
+			<generalSettings>
+				<alienPartGenerator>
+				<atlasScale>2</atlasScale>
+				</alienPartGenerator>
+				<notXenophobistTowards>
+				  <li>Human</li>
+				  <li>BetaCamel_AlienRace_Mechanicus</li>
+				  <li>BetaCroc_AlienRace_Mechanicus</li>
+				  <li>BetaElephant_AlienRace_Mechanicus</li>
+				  <li>BetaElk_Female_AlienRace_Mechanicus</li>
+				  <li>BetaElk_Male_AlienRace_Mechanicus</li>
+				  <li>BetaFox_AlienRace_Mechanicus</li>
+				  <li>BetaBear_AlienRace_Mechanicus</li>
+				  <li>BetaHog_AlienRace_Mechanicus</li>
+				  <li>BetaLynx_AlienRace_Mechanicus</li>
+				  <li>BetaRaccoon_AlienRace_Mechanicus</li>
+				  <li>BetaWolf_AlienRace_Mechanicus</li>
+				  <li>OG_Abhuman_Ratlin</li>
+				  <li>OG_Abhuman_Ogryn</li>
+				  <li MayRequire="Ogliss.AdMech.Astartes">OG_Human_Astartes</li>
+				</notXenophobistTowards>
+				<factionRelations>
+					<li>
+						<factions>
+							<li>PlayerColony</li>
+							<li>PlayerTribe</li>
+							<li>OutlanderCivil</li>
+							<li>OutlanderRough</li>
+							<li>TribeCivil</li>
+							<li>TribeRough</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>50</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerTribe</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_Faction</li>
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_PlayerColony</li-->
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_PlayerTribe</li-->
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>10</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Eldar">OG_Eldar_Craftworld_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Eldar">OG_Eldar_Craftworld_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarExodite">OG_Eldar_Exodite_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarExodite">OG_Eldar_Player_Exodite</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarHarlequin">OG_Eldar_Harlequin_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarHarlequin">OG_Eldar_Player_Harlequin</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>25</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_Faction</li>
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_PlayerColony</li-->
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_Cadian_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_Cadian_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Astartes">OG_Astartes_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Astartes">OG_AstartesNeophyte_PlayerColony</li>
+							<li MayRequire="CptOhu.CorruptionCore">PlayerColony_IoM</li>
+						</factions>
+						<goodwill>
+							<min>-10</min>
+							<max>100</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Tek_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Feral_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Waaagh</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerTribe</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.DarkEldar">OG_DarkEldar_Kabal_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.DarkEldar">OG_DarkEldar_Kabal_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Necron_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Tyranid_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Chaos_Deamon_Faction</li>
+							<li MayRequire="CptOhu.CorruptionCore">PlayerColony_Chaos</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_ChaosMarineFaction</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_TraitorGuardFaction</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_TyranidFaction</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>-100</max>
+						</goodwill>
+					</li>
+				</factionRelations>
+			</generalSettings>
+		</alienRace>
+    <race>
+      <nameGenerator>OG_NamerPerson_Mechanicus</nameGenerator>
+      <nameGeneratorFemale>OG_NamerPersonFemale_Mechanicus</nameGeneratorFemale>
+    </race>
+  </AlienRace.ThingDef_AlienRace>
+  <AlienRace.ThingDef_AlienRace ParentName="BetaHog">
+    <defName>BetaHog_AlienRace_Mechanicus</defName>
+    <description>A "Beta", a Beta Class Humanoid Lifeform. Part human and part Hog.
+        As a member of the Cult Mechanicus they have usually undergone heavy bionic modifications.</description>
+		<alienRace>
+			<generalSettings>
+				<alienPartGenerator>
+				<atlasScale>2</atlasScale>
+				</alienPartGenerator>
+				<notXenophobistTowards>
+				  <li>Human</li>
+				  <li>BetaCamel_AlienRace_Mechanicus</li>
+				  <li>BetaCroc_AlienRace_Mechanicus</li>
+				  <li>BetaElephant_AlienRace_Mechanicus</li>
+				  <li>BetaElk_Female_AlienRace_Mechanicus</li>
+				  <li>BetaElk_Male_AlienRace_Mechanicus</li>
+				  <li>BetaFox_AlienRace_Mechanicus</li>
+				  <li>BetaGazelle_AlienRace_Mechanicus</li>
+				  <li>BetaBear_AlienRace_Mechanicus</li>
+				  <li>BetaLynx_AlienRace_Mechanicus</li>
+				  <li>BetaRaccoon_AlienRace_Mechanicus</li>
+				  <li>BetaWolf_AlienRace_Mechanicus</li>
+				  <li>OG_Abhuman_Ratlin</li>
+				  <li>OG_Abhuman_Ogryn</li>
+				  <li MayRequire="Ogliss.AdMech.Astartes">OG_Human_Astartes</li>
+				</notXenophobistTowards>
+				<factionRelations>
+					<li>
+						<factions>
+							<li>PlayerColony</li>
+							<li>PlayerTribe</li>
+							<li>OutlanderCivil</li>
+							<li>OutlanderRough</li>
+							<li>TribeCivil</li>
+							<li>TribeRough</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>50</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerTribe</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_Faction</li>
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_PlayerColony</li-->
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_PlayerTribe</li-->
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>10</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Eldar">OG_Eldar_Craftworld_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Eldar">OG_Eldar_Craftworld_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarExodite">OG_Eldar_Exodite_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarExodite">OG_Eldar_Player_Exodite</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarHarlequin">OG_Eldar_Harlequin_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarHarlequin">OG_Eldar_Player_Harlequin</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>25</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_Faction</li>
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_PlayerColony</li-->
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_Cadian_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_Cadian_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Astartes">OG_Astartes_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Astartes">OG_AstartesNeophyte_PlayerColony</li>
+							<li MayRequire="CptOhu.CorruptionCore">PlayerColony_IoM</li>
+						</factions>
+						<goodwill>
+							<min>-10</min>
+							<max>100</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Tek_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Feral_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Waaagh</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerTribe</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.DarkEldar">OG_DarkEldar_Kabal_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.DarkEldar">OG_DarkEldar_Kabal_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Necron_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Tyranid_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Chaos_Deamon_Faction</li>
+							<li MayRequire="CptOhu.CorruptionCore">PlayerColony_Chaos</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_ChaosMarineFaction</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_TraitorGuardFaction</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_TyranidFaction</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>-100</max>
+						</goodwill>
+					</li>
+				</factionRelations>
+			</generalSettings>
+		</alienRace>
+    <race>
+      <nameGenerator>OG_NamerPerson_Mechanicus</nameGenerator>
+      <nameGeneratorFemale>OG_NamerPersonFemale_Mechanicus</nameGeneratorFemale>
+    </race>
+  </AlienRace.ThingDef_AlienRace>
+  <AlienRace.ThingDef_AlienRace ParentName="BetaLynx">
+    <defName>BetaLynx_AlienRace_Mechanicus</defName>
+    <description>A "Beta", a Beta Class Humanoid Lifeform. Part human and part Lynx.
+        As a member of the Cult Mechanicus they have usually undergone heavy bionic modifications.</description>
+		<alienRace>
+			<generalSettings>
+				<alienPartGenerator>
+				<atlasScale>2</atlasScale>
+				</alienPartGenerator>
+				<notXenophobistTowards>
+				  <li>Human</li>
+				  <li>BetaCamel_AlienRace_Mechanicus</li>
+				  <li>BetaCroc_AlienRace_Mechanicus</li>
+				  <li>BetaElephant_AlienRace_Mechanicus</li>
+				  <li>BetaElk_Female_AlienRace_Mechanicus</li>
+				  <li>BetaElk_Male_AlienRace_Mechanicus</li>
+				  <li>BetaFox_AlienRace_Mechanicus</li>
+				  <li>BetaGazelle_AlienRace_Mechanicus</li>
+				  <li>BetaHog_AlienRace_Mechanicus</li>
+				  <li>BetaBear_AlienRace_Mechanicus</li>
+				  <li>BetaRaccoon_AlienRace_Mechanicus</li>
+				  <li>BetaWolf_AlienRace_Mechanicus</li>
+				  <li>OG_Abhuman_Ratlin</li>
+				  <li>OG_Abhuman_Ogryn</li>
+				  <li MayRequire="Ogliss.AdMech.Astartes">OG_Human_Astartes</li>
+				</notXenophobistTowards>
+				<factionRelations>
+					<li>
+						<factions>
+							<li>PlayerColony</li>
+							<li>PlayerTribe</li>
+							<li>OutlanderCivil</li>
+							<li>OutlanderRough</li>
+							<li>TribeCivil</li>
+							<li>TribeRough</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>50</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerTribe</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_Faction</li>
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_PlayerColony</li-->
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_PlayerTribe</li-->
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>10</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Eldar">OG_Eldar_Craftworld_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Eldar">OG_Eldar_Craftworld_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarExodite">OG_Eldar_Exodite_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarExodite">OG_Eldar_Player_Exodite</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarHarlequin">OG_Eldar_Harlequin_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarHarlequin">OG_Eldar_Player_Harlequin</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>25</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_Faction</li>
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_PlayerColony</li-->
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_Cadian_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_Cadian_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Astartes">OG_Astartes_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Astartes">OG_AstartesNeophyte_PlayerColony</li>
+							<li MayRequire="CptOhu.CorruptionCore">PlayerColony_IoM</li>
+						</factions>
+						<goodwill>
+							<min>-10</min>
+							<max>100</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Tek_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Feral_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Waaagh</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerTribe</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.DarkEldar">OG_DarkEldar_Kabal_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.DarkEldar">OG_DarkEldar_Kabal_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Necron_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Tyranid_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Chaos_Deamon_Faction</li>
+							<li MayRequire="CptOhu.CorruptionCore">PlayerColony_Chaos</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_ChaosMarineFaction</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_TraitorGuardFaction</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_TyranidFaction</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>-100</max>
+						</goodwill>
+					</li>
+				</factionRelations>
+			</generalSettings>
+		</alienRace>
+    <race>
+      <nameGenerator>OG_NamerPerson_Mechanicus</nameGenerator>
+      <nameGeneratorFemale>OG_NamerPersonFemale_Mechanicus</nameGeneratorFemale>
+    </race>
+  </AlienRace.ThingDef_AlienRace>
+  <AlienRace.ThingDef_AlienRace ParentName="BetaRaccoon">
+    <defName>BetaRaccoon_AlienRace_Mechanicus</defName>
+    <description>A "Beta", a Beta Class Humanoid Lifeform. Part human and part Raccoon.
+        As a member of the Cult Mechanicus they have usually undergone heavy bionic modifications.</description>
+		<alienRace>
+			<generalSettings>
+				<alienPartGenerator>
+				<atlasScale>2</atlasScale>
+				</alienPartGenerator>
+				<notXenophobistTowards>
+				  <li>Human</li>
+				  <li>BetaCamel_AlienRace_Mechanicus</li>
+				  <li>BetaCroc_AlienRace_Mechanicus</li>
+				  <li>BetaElephant_AlienRace_Mechanicus</li>
+				  <li>BetaElk_Female_AlienRace_Mechanicus</li>
+				  <li>BetaElk_Male_AlienRace_Mechanicus</li>
+				  <li>BetaFox_AlienRace_Mechanicus</li>
+				  <li>BetaGazelle_AlienRace_Mechanicus</li>
+				  <li>BetaHog_AlienRace_Mechanicus</li>
+				  <li>BetaLynx_AlienRace_Mechanicus</li>
+				  <li>BetaBear_AlienRace_Mechanicus</li>
+				  <li>BetaWolf_AlienRace_Mechanicus</li>
+				  <li>OG_Abhuman_Ratlin</li>
+				  <li>OG_Abhuman_Ogryn</li>
+				  <li MayRequire="Ogliss.AdMech.Astartes">OG_Human_Astartes</li>
+				</notXenophobistTowards>
+				<factionRelations>
+					<li>
+						<factions>
+							<li>PlayerColony</li>
+							<li>PlayerTribe</li>
+							<li>OutlanderCivil</li>
+							<li>OutlanderRough</li>
+							<li>TribeCivil</li>
+							<li>TribeRough</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>50</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerTribe</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_Faction</li>
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_PlayerColony</li-->
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_PlayerTribe</li-->
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>10</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Eldar">OG_Eldar_Craftworld_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Eldar">OG_Eldar_Craftworld_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarExodite">OG_Eldar_Exodite_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarExodite">OG_Eldar_Player_Exodite</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarHarlequin">OG_Eldar_Harlequin_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarHarlequin">OG_Eldar_Player_Harlequin</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>25</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_Faction</li>
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_PlayerColony</li-->
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_Cadian_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_Cadian_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Astartes">OG_Astartes_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Astartes">OG_AstartesNeophyte_PlayerColony</li>
+							<li MayRequire="CptOhu.CorruptionCore">PlayerColony_IoM</li>
+						</factions>
+						<goodwill>
+							<min>-10</min>
+							<max>100</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Tek_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Feral_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Waaagh</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerTribe</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.DarkEldar">OG_DarkEldar_Kabal_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.DarkEldar">OG_DarkEldar_Kabal_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Necron_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Tyranid_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Chaos_Deamon_Faction</li>
+							<li MayRequire="CptOhu.CorruptionCore">PlayerColony_Chaos</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_ChaosMarineFaction</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_TraitorGuardFaction</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_TyranidFaction</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>-100</max>
+						</goodwill>
+					</li>
+				</factionRelations>
+			</generalSettings>
+		</alienRace>
+    <race>
+      <nameGenerator>OG_NamerPerson_Mechanicus</nameGenerator>
+      <nameGeneratorFemale>OG_NamerPersonFemale_Mechanicus</nameGeneratorFemale>
+    </race>
+  </AlienRace.ThingDef_AlienRace>
+  <AlienRace.ThingDef_AlienRace ParentName="BetaWolf">
+    <defName>BetaWolf_AlienRace_Mechanicus</defName>
+    <description>A "Beta", a Beta Class Humanoid Lifeform. Part human and part Wolf.
+        As a member of the Cult Mechanicus they have usually undergone heavy bionic modifications.</description>
+		<alienRace>
+			<generalSettings>
+				<alienPartGenerator>
+				<atlasScale>2</atlasScale>
+				</alienPartGenerator>
+				<notXenophobistTowards>
+				  <li>Human</li>
+				  <li>BetaCamel_AlienRace_Mechanicus</li>
+				  <li>BetaCroc_AlienRace_Mechanicus</li>
+				  <li>BetaElephant_AlienRace_Mechanicus</li>
+				  <li>BetaElk_Female_AlienRace_Mechanicus</li>
+				  <li>BetaElk_Male_AlienRace_Mechanicus</li>
+				  <li>BetaFox_AlienRace_Mechanicus</li>
+				  <li>BetaGazelle_AlienRace_Mechanicus</li>
+				  <li>BetaHog_AlienRace_Mechanicus</li>
+				  <li>BetaLynx_AlienRace_Mechanicus</li>
+				  <li>BetaRaccoon_AlienRace_Mechanicus</li>
+				  <li>BetaBear_AlienRace_Mechanicus</li>
+				  <li>OG_Abhuman_Ratlin</li>
+				  <li>OG_Abhuman_Ogryn</li>
+				  <li MayRequire="Ogliss.AdMech.Astartes">OG_Human_Astartes</li>
+				</notXenophobistTowards>
+				<factionRelations>
+					<li>
+						<factions>
+							<li>PlayerColony</li>
+							<li>PlayerTribe</li>
+							<li>OutlanderCivil</li>
+							<li>OutlanderRough</li>
+							<li>TribeCivil</li>
+							<li>TribeRough</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>50</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Tau_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Kroot_PlayerTribe</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_Faction</li>
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_PlayerColony</li-->
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis.Tau">OG_Vespid_PlayerTribe</li-->
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>10</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Eldar">OG_Eldar_Craftworld_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Eldar">OG_Eldar_Craftworld_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarExodite">OG_Eldar_Exodite_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarExodite">OG_Eldar_Player_Exodite</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarHarlequin">OG_Eldar_Harlequin_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.EldarHarlequin">OG_Eldar_Player_Harlequin</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>25</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_Faction</li>
+							<!--li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Mechanicus_PlayerColony</li-->
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_Cadian_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_Cadian_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Militarum_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Astartes">OG_Astartes_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Astartes">OG_AstartesNeophyte_PlayerColony</li>
+							<li MayRequire="CptOhu.CorruptionCore">PlayerColony_IoM</li>
+						</factions>
+						<goodwill>
+							<min>-10</min>
+							<max>100</max>
+						</goodwill>
+					</li>
+					<li>
+						<factions>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Tek_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Feral_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis,Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_Waaagh</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Orkz">OG_Ork_PlayerTribe</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.DarkEldar">OG_DarkEldar_Kabal_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.DarkEldar">OG_DarkEldar_Kabal_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Necrons">OG_Necron_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_PlayerColony</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis.Tyranids">OG_Tyranid_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Necron_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Tyranid_Faction</li>
+							<li MayRequire="Ogliss.AdMech.Xenobiologis">OG_Chaos_Deamon_Faction</li>
+							<li MayRequire="CptOhu.CorruptionCore">PlayerColony_Chaos</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_ChaosMarineFaction</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_TraitorGuardFaction</li>
+							<li MayRequire="QX.AstraMilitarum.Factions">QX_TyranidFaction</li>
+						</factions>
+						<goodwill>
+							<min>-100</min>
+							<max>-100</max>
+						</goodwill>
+					</li>
+				</factionRelations>
+			</generalSettings>
+		</alienRace>
+    <race>
+      <nameGenerator>OG_NamerPerson_Mechanicus</nameGenerator>
+      <nameGeneratorFemale>OG_NamerPersonFemale_Mechanicus</nameGeneratorFemale>
+    </race>
+  </AlienRace.ThingDef_AlienRace>
+</Defs>

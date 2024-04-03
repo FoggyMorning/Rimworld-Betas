@@ -2,8 +2,6 @@
 <Defs>
   <AlienRace.ThingDef_AlienRace ParentName="BetaElk_Female" Name="BetaElk_Male">
     <defName>BetaElk_Male</defName>
-    <label>beta-humanoid (elk)</label>
-    <description>A "Beta", a Beta Class Humanoid Lifeform. Part human and part Elk or Deer.</description>
     <statBases></statBases>
     <tools Inherit="False">
       <li>
@@ -108,6 +106,18 @@
           </headTypes>
           <bodyAddons>
             <li>
+              <conditions>
+                <BodyPart>
+                  <bodyPart>BetaHumanoids_BodyPart_Antler_Large_Left</bodyPart>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+                <Apparel>
+                  <hiddenUnderApparelFor>
+                  </hiddenUnderApparelFor>
+                  <hiddenUnderApparelTag>
+                  </hiddenUnderApparelTag>
+                </Apparel>
+              </conditions>
               <geneGraphics MayRequire="Ludeon.RimWorld.Biotech">
                 <Headbone_MiniHorns MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Headbone_MiniHorns>
                 <Headbone_CenterHorn MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Headbone_CenterHorn>
@@ -120,7 +130,6 @@
               </ageGraphics>
               <debug>false</debug>
               <path>Betas/BetaElk/Antlers/Antler_Left</path>
-              <bodyPart>BetaHumanoids_BodyPart_Antler_Large_Left</bodyPart>
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
               <alignWithHead>true</alignWithHead>
               <colorChannel>antler</colorChannel>
@@ -144,6 +153,18 @@
               </offsets>
             </li>
             <li>
+              <conditions>
+                <BodyPart>
+                  <bodyPart>BetaHumanoids_BodyPart_Antler_Large_Right</bodyPart>
+                  <drawWithoutPart>false</drawWithoutPart>
+                </BodyPart>
+                <Apparel>
+                  <hiddenUnderApparelFor>
+                  </hiddenUnderApparelFor>
+                  <hiddenUnderApparelTag>
+                  </hiddenUnderApparelTag>
+                </Apparel>
+              </conditions>
               <geneGraphics MayRequire="Ludeon.RimWorld.Biotech">
                 <Headbone_MiniHorns MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Headbone_MiniHorns>
                 <Headbone_CenterHorn MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Headbone_CenterHorn>
@@ -156,7 +177,6 @@
               </ageGraphics>
               <debug>false</debug>
               <path>Betas/BetaElk/Antlers/Antler_Right</path>
-              <bodyPart>BetaHumanoids_BodyPart_Antler_Large_Right</bodyPart>
               <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
               <alignWithHead>true</alignWithHead>
@@ -234,12 +254,6 @@
         </head>
       </graphicPaths>
       <raceRestriction>
-        <xenotypeList MayRequire="Ludeon.RimWord.Biotech">
-          <li MayRequire="Ludeon.RimWord.Biotech">BetaHumanoids_Baseliner</li>
-        </xenotypeList>
-        <onlyUseRaceRestrictedXenotypes>
-          true
-        </onlyUseRaceRestrictedXenotypes>
       </raceRestriction>
     </alienRace>
     <race>

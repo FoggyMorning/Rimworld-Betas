@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[defName="OutlanderRoughPig"]/pawnGroupMakers</xpath>
+    <value>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>0.20</commonality>
+        <options>
+          <Farmer>1</Farmer>
+          <BetaHog_Farmer>1.00</BetaHog_Farmer>
+        </options>
+      </li>
+    </value>
+  </Operation>
+</Patch>
