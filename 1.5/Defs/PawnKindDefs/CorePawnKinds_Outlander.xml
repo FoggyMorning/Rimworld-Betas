@@ -4,240 +4,480 @@
     <race>BetaBear</race>
     <label>beta bear villager</label>
     <defName>BetaBear_Villager</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Villager">
     <race>BetaCamel</race>
     <label>beta camel villager</label>
     <defName>BetaCamel_Villager</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Villager">
     <race>BetaCroc</race>
     <label>beta crocodile villager</label>
     <defName>BetaCroc_Villager</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Villager">
     <race>BetaElephant</race>
     <label>beta elephant villager</label>
     <defName>BetaElephant_Villager</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Villager">
     <race>BetaElk_Female</race>
     <label>beta elk villager</label>
     <defName>BetaElk_Female_Villager</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Villager">
     <race>BetaElk_Male</race>
     <label>beta elk villager</label>
     <defName>BetaElk_Male_Villager</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Villager">
     <race>BetaFox</race>
     <label>beta fox villager</label>
     <defName>BetaFox_Villager</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Villager">
     <race>BetaGazelle</race>
     <label>beta gazelle villager</label>
     <defName>BetaGazelle_Villager</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Villager">
     <race>BetaHog</race>
     <label>beta hog villager</label>
     <defName>BetaHog_Villager</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Villager">
     <race>BetaLynx</race>
     <label>beta lynx villager</label>
     <defName>BetaLynx_Villager</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Villager">
     <race>BetaRaccoon</race>
     <label>beta raccoon villager</label>
     <defName>BetaRaccoon_Villager</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Villager">
     <race>BetaWolf</race>
     <label>beta wolf villager</label>
     <defName>BetaWolf_Villager</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Guard">
     <race>BetaBear</race>
     <label>beta bear town guard</label>
     <defName>BetaBear_Town_Guard</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Guard">
     <race>BetaCamel</race>
     <label>beta camel town guard</label>
     <defName>BetaCamel_Town_Guard</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Guard">
     <race>BetaCroc</race>
     <label>beta crocodile town guard</label>
     <defName>BetaCroc_Town_Guard</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Guard">
     <race>BetaElephant</race>
     <label>beta elephant town guard</label>
     <defName>BetaElephant_Town_Guard</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Guard">
     <race>BetaElk_Female</race>
     <label>beta elk town guard</label>
     <defName>BetaElk_Female_Town_Guard</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Guard">
     <race>BetaElk_Male</race>
     <label>beta elk town guard</label>
     <defName>BetaElk_Male_Town_Guard</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Guard">
     <race>BetaFox</race>
     <label>beta fox town guard</label>
     <defName>BetaFox_Town_Guard</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Guard">
     <race>BetaGazelle</race>
     <label>beta gazelle town guard</label>
     <defName>BetaGazelle_Town_Guard</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Guard">
     <race>BetaHog</race>
     <label>beta hog town guard</label>
     <defName>BetaHog_Town_Guard</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Guard">
     <race>BetaLynx</race>
     <label>beta lynx town guard</label>
     <defName>BetaLynx_Town_Guard</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Guard">
     <race>BetaRaccoon</race>
     <label>beta raccoon town guard</label>
     <defName>BetaRaccoon_Town_Guard</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Guard">
     <race>BetaWolf</race>
     <label>beta wolf town guard</label>
     <defName>BetaWolf_Town_Guard</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Trader">
     <race>BetaBear</race>
     <label>beta bear town trader</label>
     <defName>BetaBear_Town_Trader</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Trader">
     <race>BetaCamel</race>
     <label>beta camel town trader</label>
     <defName>BetaCamel_Town_Trader</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Trader">
     <race>BetaCroc</race>
     <label>beta crocodile town trader</label>
     <defName>BetaCroc_Town_Trader</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Trader">
     <race>BetaElephant</race>
     <label>beta elephant town trader</label>
     <defName>BetaElephant_Town_Trader</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Trader">
     <race>BetaElk_Female</race>
     <label>beta elk town trader</label>
     <defName>BetaElk_Female_Town_Trader</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Trader">
     <race>BetaElk_Male</race>
     <label>beta elk town trader</label>
     <defName>BetaElk_Male_Town_Trader</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Trader">
     <race>BetaFox</race>
     <label>beta fox town trader</label>
     <defName>BetaFox_Town_Trader</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Trader">
     <race>BetaGazelle</race>
     <label>beta gazelle town trader</label>
     <defName>BetaGazelle_Town_Trader</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Trader">
     <race>BetaHog</race>
     <label>beta hog town trader</label>
     <defName>BetaHog_Town_Trader</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Trader">
     <race>BetaLynx</race>
     <label>beta lynx town trader</label>
     <defName>BetaLynx_Town_Trader</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Trader">
     <race>BetaRaccoon</race>
     <label>beta raccoon town trader</label>
     <defName>BetaRaccoon_Town_Trader</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Trader">
     <race>BetaWolf</race>
     <label>beta wolf town trader</label>
     <defName>BetaWolf_Town_Trader</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Councilman">
     <race>BetaBear</race>
     <label>beta bear town councilman</label>
     <defName>BetaBear_Town_Councilman</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Councilman">
     <race>BetaCamel</race>
     <label>beta camel town councilman</label>
     <defName>BetaCamel_Town_Councilman</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Councilman">
     <race>BetaCroc</race>
     <label>beta crocodile town councilman</label>
     <defName>BetaCroc_Town_Councilman</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Councilman">
     <race>BetaElephant</race>
     <label>beta elephant town councilman</label>
     <defName>BetaElephant_Town_Councilman</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Councilman">
     <race>BetaElk_Female</race>
     <label>beta elk town councilman</label>
     <defName>BetaElk_Female_Town_Councilman</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Councilman">
     <race>BetaElk_Male</race>
     <label>beta elk town councilman</label>
     <defName>BetaElk_Male_Town_Councilman</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Councilman">
     <race>BetaFox</race>
     <label>beta fox town councilman</label>
     <defName>BetaFox_Town_Councilman</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Councilman">
     <race>BetaGazelle</race>
     <label>beta gazelle town councilman</label>
     <defName>BetaGazelle_Town_Councilman</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Councilman">
     <race>BetaHog</race>
     <label>beta hog town councilman</label>
     <defName>BetaHog_Town_Councilman</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Councilman">
     <race>BetaLynx</race>
     <label>beta lynx town councilman</label>
     <defName>BetaLynx_Town_Councilman</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Councilman">
     <race>BetaRaccoon</race>
     <label>beta raccoon town councilman</label>
     <defName>BetaRaccoon_Town_Councilman</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Town_Councilman">
     <race>BetaWolf</race>
     <label>beta wolf town councilman</label>
     <defName>BetaWolf_Town_Councilman</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
 </Defs>

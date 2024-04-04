@@ -35,13 +35,7 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
-
   <PawnKindDef Abstract="True" Name="BetaHumanoids_Tribal_Archer">
     <race>Human</race>
     <defaultFactionType>TribeCivil</defaultFactionType>
@@ -83,13 +77,7 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
-
   <PawnKindDef Abstract="True" Name="BetaHumanoids_Tribal_Warrior">
     <race>Human</race>
     <defaultFactionType>TribeCivil</defaultFactionType>
@@ -127,13 +115,7 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
-
   <PawnKindDef Abstract="True" Name="BetaHumanoids_Tribal_Hunter">
     <race>Human</race>
     <defaultFactionType>TribeCivil</defaultFactionType>
@@ -172,13 +154,7 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
-
   <PawnKindDef Abstract="True" Name="BetaHumanoids_Tribal_Trader">
     <race>Human</race>
     <defaultFactionType>TribeCivil</defaultFactionType>
@@ -218,13 +194,7 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
-
   <PawnKindDef Abstract="True" Name="BetaHumanoids_Tribal_Berserker">
     <race>Human</race>
     <defaultFactionType>TribeCivil</defaultFactionType>
@@ -260,13 +230,7 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
-
   <PawnKindDef Abstract="True" Name="BetaHumanoids_Tribal_HeavyArcher">
     <race>Human</race>
     <defaultFactionType>TribeCivil</defaultFactionType>
@@ -304,13 +268,7 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
-
   <PawnKindDef Abstract="True" Name="BetaHumanoids_Tribal_ChiefMelee">
     <race>Human</race>
     <defaultFactionType>TribeCivil</defaultFactionType>
@@ -350,13 +308,7 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
-
   <PawnKindDef Abstract="True" Name="BetaHumanoids_Tribal_ChiefRanged">
     <race>Human</race>
     <defaultFactionType>TribeCivil</defaultFactionType>
@@ -398,10 +350,5 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
 </Defs>

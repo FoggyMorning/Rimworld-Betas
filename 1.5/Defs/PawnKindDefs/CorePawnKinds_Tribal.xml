@@ -4,540 +4,1080 @@
     <race>BetaBear</race>
     <label>beta bear penitent</label>
     <defName>BetaBear_Tribal_Penitent</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Penitent">
     <race>BetaCamel</race>
     <label>beta camel penitent</label>
     <defName>BetaCamel_Tribal_Penitent</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Penitent">
     <race>BetaCroc</race>
     <label>beta crocodile penitent</label>
     <defName>BetaCroc_Tribal_Penitent</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Penitent">
     <race>BetaElephant</race>
     <label>beta elephant penitent</label>
     <defName>BetaElephant_Tribal_Penitent</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Penitent">
     <race>BetaElk_Female</race>
     <label>beta elk penitent</label>
     <defName>BetaElk_Female_Tribal_Penitent</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Penitent">
     <race>BetaElk_Male</race>
     <label>beta elk penitent</label>
     <defName>BetaElk_Male_Tribal_Penitent</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Penitent">
     <race>BetaFox</race>
     <label>beta fox penitent</label>
     <defName>BetaFox_Tribal_Penitent</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Penitent">
     <race>BetaGazelle</race>
     <label>beta gazelle penitent</label>
     <defName>BetaGazelle_Tribal_Penitent</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Penitent">
     <race>BetaHog</race>
     <label>beta hog penitent</label>
     <defName>BetaHog_Tribal_Penitent</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Penitent">
     <race>BetaLynx</race>
     <label>beta lynx penitent</label>
     <defName>BetaLynx_Tribal_Penitent</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Penitent">
     <race>BetaRaccoon</race>
     <label>beta raccoon penitent</label>
     <defName>BetaRaccoon_Tribal_Penitent</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Penitent">
     <race>BetaWolf</race>
     <label>beta wolf penitent</label>
     <defName>BetaWolf_Tribal_Penitent</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Archer">
     <race>BetaBear</race>
     <label>beta bear archer</label>
     <defName>BetaBear_Tribal_Archer</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Archer">
     <race>BetaCamel</race>
     <label>beta camel archer</label>
     <defName>BetaCamel_Tribal_Archer</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Archer">
     <race>BetaCroc</race>
     <label>beta crocodile archer</label>
     <defName>BetaCroc_Tribal_Archer</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Archer">
     <race>BetaElephant</race>
     <label>beta elephant archer</label>
     <defName>BetaElephant_Tribal_Archer</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Archer">
     <race>BetaElk_Female</race>
     <label>beta elk archer</label>
     <defName>BetaElk_Female_Tribal_Archer</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Archer">
     <race>BetaElk_Male</race>
     <label>beta elk archer</label>
     <defName>BetaElk_Male_Tribal_Archer</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Archer">
     <race>BetaFox</race>
     <label>beta fox archer</label>
     <defName>BetaFox_Tribal_Archer</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Archer">
     <race>BetaGazelle</race>
     <label>beta gazelle archer</label>
     <defName>BetaGazelle_Tribal_Archer</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Archer">
     <race>BetaHog</race>
     <label>beta hog archer</label>
     <defName>BetaHog_Tribal_Archer</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Archer">
     <race>BetaLynx</race>
     <label>beta lynx archer</label>
     <defName>BetaLynx_Tribal_Archer</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Archer">
     <race>BetaRaccoon</race>
     <label>beta raccoon archer</label>
     <defName>BetaRaccoon_Tribal_Archer</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Archer">
     <race>BetaWolf</race>
     <label>beta wolf archer</label>
     <defName>BetaWolf_Tribal_Archer</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Warrior">
     <race>BetaBear</race>
     <label>beta bear warrior</label>
     <defName>BetaBear_Tribal_Warrior</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Warrior">
     <race>BetaCamel</race>
     <label>beta camel warrior</label>
     <defName>BetaCamel_Tribal_Warrior</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Warrior">
     <race>BetaCroc</race>
     <label>beta crocodile warrior</label>
     <defName>BetaCroc_Tribal_Warrior</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Warrior">
     <race>BetaElephant</race>
     <label>beta elephant warrior</label>
     <defName>BetaElephant_Tribal_Warrior</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Warrior">
     <race>BetaElk_Female</race>
     <label>beta elk warrior</label>
     <defName>BetaElk_Female_Tribal_Warrior</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Warrior">
     <race>BetaElk_Male</race>
     <label>beta elk warrior</label>
     <defName>BetaElk_Male_Tribal_Warrior</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Warrior">
     <race>BetaFox</race>
     <label>beta fox warrior</label>
     <defName>BetaFox_Tribal_Warrior</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Warrior">
     <race>BetaGazelle</race>
     <label>beta gazelle warrior</label>
     <defName>BetaGazelle_Tribal_Warrior</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Warrior">
     <race>BetaHog</race>
     <label>beta hog warrior</label>
     <defName>BetaHog_Tribal_Warrior</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Warrior">
     <race>BetaLynx</race>
     <label>beta lynx warrior</label>
     <defName>BetaLynx_Tribal_Warrior</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Warrior">
     <race>BetaRaccoon</race>
     <label>beta raccoon warrior</label>
     <defName>BetaRaccoon_Tribal_Warrior</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Warrior">
     <race>BetaWolf</race>
     <label>beta wolf warrior</label>
     <defName>BetaWolf_Tribal_Warrior</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Hunter">
     <race>BetaBear</race>
     <label>beta bear hunter</label>
     <defName>BetaBear_Tribal_Hunter</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Hunter">
     <race>BetaCamel</race>
     <label>beta camel hunter</label>
     <defName>BetaCamel_Tribal_Hunter</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Hunter">
     <race>BetaCroc</race>
     <label>beta crocodile hunter</label>
     <defName>BetaCroc_Tribal_Hunter</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Hunter">
     <race>BetaElephant</race>
     <label>beta elephant hunter</label>
     <defName>BetaElephant_Tribal_Hunter</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Hunter">
     <race>BetaElk_Female</race>
     <label>beta elk hunter</label>
     <defName>BetaElk_Female_Tribal_Hunter</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Hunter">
     <race>BetaElk_Male</race>
     <label>beta elk hunter</label>
     <defName>BetaElk_Male_Tribal_Hunter</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Hunter">
     <race>BetaFox</race>
     <label>beta fox hunter</label>
     <defName>BetaFox_Tribal_Hunter</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Hunter">
     <race>BetaGazelle</race>
     <label>beta gazelle hunter</label>
     <defName>BetaGazelle_Tribal_Hunter</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Hunter">
     <race>BetaHog</race>
     <label>beta hog hunter</label>
     <defName>BetaHog_Tribal_Hunter</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Hunter">
     <race>BetaLynx</race>
     <label>beta lynx hunter</label>
     <defName>BetaLynx_Tribal_Hunter</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Hunter">
     <race>BetaRaccoon</race>
     <label>beta raccoon hunter</label>
     <defName>BetaRaccoon_Tribal_Hunter</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Hunter">
     <race>BetaWolf</race>
     <label>beta wolf hunter</label>
     <defName>BetaWolf_Tribal_Hunter</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
     <race>BetaBear</race>
     <label>beta bear hunter</label>
     <defName>BetaBear_Tribal_Trader</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
     <race>BetaCamel</race>
     <label>beta camel hunter</label>
     <defName>BetaCamel_Tribal_Trader</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
     <race>BetaCroc</race>
     <label>beta crocodile hunter</label>
     <defName>BetaCroc_Tribal_Trader</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
     <race>BetaElephant</race>
     <label>beta elephant hunter</label>
     <defName>BetaElephant_Tribal_Trader</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
     <race>BetaElk_Female</race>
     <label>beta elk hunter</label>
     <defName>BetaElk_Female_Tribal_Trader</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
     <race>BetaElk_Male</race>
     <label>beta elk hunter</label>
     <defName>BetaElk_Male_Tribal_Trader</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
     <race>BetaFox</race>
     <label>beta fox hunter</label>
     <defName>BetaFox_Tribal_Trader</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
     <race>BetaGazelle</race>
     <label>beta gazelle hunter</label>
     <defName>BetaGazelle_Tribal_Trader</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
     <race>BetaHog</race>
     <label>beta hog hunter</label>
     <defName>BetaHog_Tribal_Trader</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
     <race>BetaLynx</race>
     <label>beta lynx hunter</label>
     <defName>BetaLynx_Tribal_Trader</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
     <race>BetaRaccoon</race>
     <label>beta raccoon hunter</label>
     <defName>BetaRaccoon_Tribal_Trader</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
     <race>BetaWolf</race>
     <label>beta wolf hunter</label>
     <defName>BetaWolf_Tribal_Trader</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Berserker">
     <race>BetaBear</race>
     <label>beta bear berserker</label>
     <defName>BetaBear_Tribal_Berserker</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Berserker">
     <race>BetaCamel</race>
     <label>beta camel berserker</label>
     <defName>BetaCamel_Tribal_Berserker</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Berserker">
     <race>BetaCroc</race>
     <label>beta crocodile berserker</label>
     <defName>BetaCroc_Tribal_Berserker</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Berserker">
     <race>BetaElephant</race>
     <label>beta elephant berserker</label>
     <defName>BetaElephant_Tribal_Berserker</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Berserker">
     <race>BetaElk_Female</race>
     <label>beta elk berserker</label>
     <defName>BetaElk_Female_Tribal_Berserker</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Berserker">
     <race>BetaElk_Male</race>
     <label>beta elk berserker</label>
     <defName>BetaElk_Male_Tribal_Berserker</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Berserker">
     <race>BetaFox</race>
     <label>beta fox berserker</label>
     <defName>BetaFox_Tribal_Berserker</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Berserker">
     <race>BetaGazelle</race>
     <label>beta gazelle berserker</label>
     <defName>BetaGazelle_Tribal_Berserker</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Berserker">
     <race>BetaHog</race>
     <label>beta hog berserker</label>
     <defName>BetaHog_Tribal_Berserker</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Berserker">
     <race>BetaLynx</race>
     <label>beta lynx berserker</label>
     <defName>BetaLynx_Tribal_Berserker</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Berserker">
     <race>BetaRaccoon</race>
     <label>beta raccoon berserker</label>
     <defName>BetaRaccoon_Tribal_Berserker</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Berserker">
     <race>BetaWolf</race>
     <label>beta wolf berserker</label>
     <defName>BetaWolf_Tribal_Berserker</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_HeavyArcher">
     <race>BetaBear</race>
     <label>beta bear heavy archer</label>
     <defName>BetaBear_Tribal_HeavyArcher</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_HeavyArcher">
     <race>BetaCamel</race>
     <label>beta camel heavy archer</label>
     <defName>BetaCamel_Tribal_HeavyArcher</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_HeavyArcher">
     <race>BetaCroc</race>
     <label>beta crocodile heavy archer</label>
     <defName>BetaCroc_Tribal_HeavyArcher</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_HeavyArcher">
     <race>BetaElephant</race>
     <label>beta elephant heavy archer</label>
     <defName>BetaElephant_Tribal_HeavyArcher</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_HeavyArcher">
     <race>BetaElk_Female</race>
     <label>beta elk heavy archer</label>
     <defName>BetaElk_Female_Tribal_HeavyArcher</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_HeavyArcher">
     <race>BetaElk_Male</race>
     <label>beta elk heavy archer</label>
     <defName>BetaElk_Male_Tribal_HeavyArcher</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_HeavyArcher">
     <race>BetaFox</race>
     <label>beta fox heavy archer</label>
     <defName>BetaFox_Tribal_HeavyArcher</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_HeavyArcher">
     <race>BetaGazelle</race>
     <label>beta gazelle heavy archer</label>
     <defName>BetaGazelle_Tribal_HeavyArcher</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_HeavyArcher">
     <race>BetaHog</race>
     <label>beta hog heavy archer</label>
     <defName>BetaHog_Tribal_HeavyArcher</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_HeavyArcher">
     <race>BetaLynx</race>
     <label>beta lynx heavy archer</label>
     <defName>BetaLynx_Tribal_HeavyArcher</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_HeavyArcher">
     <race>BetaRaccoon</race>
     <label>beta raccoon heavy archer</label>
     <defName>BetaRaccoon_Tribal_HeavyArcher</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_HeavyArcher">
     <race>BetaWolf</race>
     <label>beta wolf heavy archer</label>
     <defName>BetaWolf_Tribal_HeavyArcher</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefMelee">
     <race>BetaBear</race>
     <label>beta bear berserker chief</label>
     <defName>BetaBear_Tribal_ChiefMelee</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefMelee">
     <race>BetaCamel</race>
     <label>beta camel berserker chief</label>
     <defName>BetaCamel_Tribal_ChiefMelee</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefMelee">
     <race>BetaCroc</race>
     <label>beta crocodile berserker chief</label>
     <defName>BetaCroc_Tribal_ChiefMelee</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefMelee">
     <race>BetaElephant</race>
     <label>beta elephant berserker chief</label>
     <defName>BetaElephant_Tribal_ChiefMelee</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefMelee">
     <race>BetaElk_Female</race>
     <label>beta elk berserker chief</label>
     <defName>BetaElk_Female_Tribal_ChiefMelee</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefMelee">
     <race>BetaElk_Male</race>
     <label>beta elk berserker chief</label>
     <defName>BetaElk_Male_Tribal_ChiefMelee</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefMelee">
     <race>BetaFox</race>
     <label>beta fox berserker chief</label>
     <defName>BetaFox_Tribal_ChiefMelee</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefMelee">
     <race>BetaGazelle</race>
     <label>beta gazelle berserker chief</label>
     <defName>BetaGazelle_Tribal_ChiefMelee</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefMelee">
     <race>BetaHog</race>
     <label>beta hog berserker chief</label>
     <defName>BetaHog_Tribal_ChiefMelee</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefMelee">
     <race>BetaLynx</race>
     <label>beta lynx berserker chief</label>
     <defName>BetaLynx_Tribal_ChiefMelee</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefMelee">
     <race>BetaRaccoon</race>
     <label>beta raccoon berserker chief</label>
     <defName>BetaRaccoon_Tribal_ChiefMelee</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefMelee">
     <race>BetaWolf</race>
     <label>beta wolf berserker chief</label>
     <defName>BetaWolf_Tribal_ChiefMelee</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefRanged">
     <race>BetaBear</race>
     <label>beta bear archer chief</label>
     <defName>BetaBear_Tribal_ChiefRanged</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefRanged">
     <race>BetaCamel</race>
     <label>beta camel archer chief</label>
     <defName>BetaCamel_Tribal_ChiefRanged</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefRanged">
     <race>BetaCroc</race>
     <label>beta crocodile archer chief</label>
     <defName>BetaCroc_Tribal_ChiefRanged</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefRanged">
     <race>BetaElephant</race>
     <label>beta elephant archer chief</label>
     <defName>BetaElephant_Tribal_ChiefRanged</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefRanged">
     <race>BetaElk_Female</race>
     <label>beta elk archer chief</label>
     <defName>BetaElk_Female_Tribal_ChiefRanged</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefRanged">
     <race>BetaElk_Male</race>
     <label>beta elk archer chief</label>
     <defName>BetaElk_Male_Tribal_ChiefRanged</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefRanged">
     <race>BetaFox</race>
     <label>beta fox archer chief</label>
     <defName>BetaFox_Tribal_ChiefRanged</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefRanged">
     <race>BetaGazelle</race>
     <label>beta gazelle archer chief</label>
     <defName>BetaGazelle_Tribal_ChiefRanged</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefRanged">
     <race>BetaHog</race>
     <label>beta hog archer chief</label>
     <defName>BetaHog_Tribal_ChiefRanged</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefRanged">
     <race>BetaLynx</race>
     <label>beta lynx archer chief</label>
     <defName>BetaLynx_Tribal_ChiefRanged</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefRanged">
     <race>BetaRaccoon</race>
     <label>beta raccoon archer chief</label>
     <defName>BetaRaccoon_Tribal_ChiefRanged</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_ChiefRanged">
     <race>BetaWolf</race>
     <label>beta wolf archer chief</label>
     <defName>BetaWolf_Tribal_ChiefRanged</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
 </Defs>

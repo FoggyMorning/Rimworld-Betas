@@ -41,13 +41,7 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
-
   <PawnKindDef Abstract="True" Name="BetaHumanoids_Town_Guard">
     <race>Human</race>
     <defaultFactionType>OutlanderCivil</defaultFactionType>
@@ -87,13 +81,7 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
-
   <PawnKindDef Abstract="True" Name="BetaHumanoids_Town_Trader">
     <race>Human</race>
     <defaultFactionType>OutlanderCivil</defaultFactionType>
@@ -138,13 +126,7 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
-
   <PawnKindDef Abstract="True" Name="BetaHumanoids_Town_Councilman">
     <race>Human</race>
     <defaultFactionType>OutlanderCivil</defaultFactionType>
@@ -189,10 +171,5 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
 </Defs>

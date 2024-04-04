@@ -1,119 +1,119 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
-  <PawnKindDef ParentName="BetaHumanoids_Tribal_Breacher">
+  <PawnKindDef ParentName="BetaHumanoids_Refugee">
     <race>BetaBear</race>
-    <label>beta bear breacher</label>
-    <defName>BetaBear_Tribal_Breacher</defName>
+    <label>beta bear refugee</label>
+    <defName>BetaBear_Refugee</defName>
     <xenotypeSet>
       <xenotypeChances>
         <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
       </xenotypeChances>
     </xenotypeSet>
   </PawnKindDef>
-  <PawnKindDef ParentName="BetaHumanoids_Tribal_Breacher">
+  <PawnKindDef ParentName="BetaHumanoids_Refugee">
     <race>BetaCamel</race>
-    <label>beta camel breacher</label>
-    <defName>BetaCamel_Tribal_Breacher</defName>
+    <label>beta camel refugee</label>
+    <defName>BetaCamel_Refugee</defName>
     <xenotypeSet>
       <xenotypeChances>
         <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
       </xenotypeChances>
     </xenotypeSet>
   </PawnKindDef>
-  <PawnKindDef ParentName="BetaHumanoids_Tribal_Breacher">
+  <PawnKindDef ParentName="BetaHumanoids_Refugee">
     <race>BetaCroc</race>
-    <label>beta crocodile breacher</label>
-    <defName>BetaCroc_Tribal_Breacher</defName>
+    <label>beta crocodile refugee</label>
+    <defName>BetaCroc_Refugee</defName>
     <xenotypeSet>
       <xenotypeChances>
         <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
       </xenotypeChances>
     </xenotypeSet>
   </PawnKindDef>
-  <PawnKindDef ParentName="BetaHumanoids_Tribal_Breacher">
+  <PawnKindDef ParentName="BetaHumanoids_Refugee">
     <race>BetaElephant</race>
-    <label>beta elephant breacher</label>
-    <defName>BetaElephant_Tribal_Breacher</defName>
+    <label>beta elephant refugee</label>
+    <defName>BetaElephant_Refugee</defName>
     <xenotypeSet>
       <xenotypeChances>
         <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
       </xenotypeChances>
     </xenotypeSet>
   </PawnKindDef>
-  <PawnKindDef ParentName="BetaHumanoids_Tribal_Breacher">
+  <PawnKindDef ParentName="BetaHumanoids_Refugee">
     <race>BetaElk_Female</race>
-    <label>beta elk breacher</label>
-    <defName>BetaElk_Female_Tribal_Breacher</defName>
+    <label>beta elk refugee</label>
+    <defName>BetaElk_Female_Refugee</defName>
     <xenotypeSet>
       <xenotypeChances>
         <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
       </xenotypeChances>
     </xenotypeSet>
   </PawnKindDef>
-  <PawnKindDef ParentName="BetaHumanoids_Tribal_Breacher">
+  <PawnKindDef ParentName="BetaHumanoids_Refugee">
     <race>BetaElk_Male</race>
-    <label>beta elk breacher</label>
-    <defName>BetaElk_Male_Tribal_Breacher</defName>
+    <label>beta elk refugee</label>
+    <defName>BetaElk_Male_Refugee</defName>
     <xenotypeSet>
       <xenotypeChances>
         <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
       </xenotypeChances>
     </xenotypeSet>
   </PawnKindDef>
-  <PawnKindDef ParentName="BetaHumanoids_Tribal_Breacher">
+  <PawnKindDef ParentName="BetaHumanoids_Refugee">
     <race>BetaFox</race>
-    <label>beta fox breacher</label>
-    <defName>BetaFox_Tribal_Breacher</defName>
+    <label>beta fox refugee</label>
+    <defName>BetaFox_Refugee</defName>
     <xenotypeSet>
       <xenotypeChances>
         <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
       </xenotypeChances>
     </xenotypeSet>
   </PawnKindDef>
-  <PawnKindDef ParentName="BetaHumanoids_Tribal_Breacher">
+  <PawnKindDef ParentName="BetaHumanoids_Refugee">
     <race>BetaGazelle</race>
-    <label>beta gazelle breacher</label>
-    <defName>BetaGazelle_Tribal_Breacher</defName>
+    <label>beta gazelle refugee</label>
+    <defName>BetaGazelle_Refugee</defName>
     <xenotypeSet>
       <xenotypeChances>
         <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
       </xenotypeChances>
     </xenotypeSet>
   </PawnKindDef>
-  <PawnKindDef ParentName="BetaHumanoids_Tribal_Breacher">
+  <PawnKindDef ParentName="BetaHumanoids_Refugee">
     <race>BetaHog</race>
-    <label>beta hog breacher</label>
-    <defName>BetaHog_Tribal_Breacher</defName>
+    <label>beta hog refugee</label>
+    <defName>BetaHog_Refugee</defName>
     <xenotypeSet>
       <xenotypeChances>
         <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
       </xenotypeChances>
     </xenotypeSet>
   </PawnKindDef>
-  <PawnKindDef ParentName="BetaHumanoids_Tribal_Breacher">
+  <PawnKindDef ParentName="BetaHumanoids_Refugee">
     <race>BetaLynx</race>
-    <label>beta lynx breacher</label>
-    <defName>BetaLynx_Tribal_Breacher</defName>
+    <label>beta lynx refugee</label>
+    <defName>BetaLynx_Refugee</defName>
     <xenotypeSet>
       <xenotypeChances>
         <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
       </xenotypeChances>
     </xenotypeSet>
   </PawnKindDef>
-  <PawnKindDef ParentName="BetaHumanoids_Tribal_Breacher">
+  <PawnKindDef ParentName="BetaHumanoids_Refugee">
     <race>BetaRaccoon</race>
-    <label>beta raccoon breacher</label>
-    <defName>BetaRaccoon_Tribal_Breacher</defName>
+    <label>beta raccoon refugee</label>
+    <defName>BetaRaccoon_Refugee</defName>
     <xenotypeSet>
       <xenotypeChances>
         <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
       </xenotypeChances>
     </xenotypeSet>
   </PawnKindDef>
-  <PawnKindDef ParentName="BetaHumanoids_Tribal_Breacher">
+  <PawnKindDef ParentName="BetaHumanoids_Refugee">
     <race>BetaWolf</race>
-    <label>beta wolf breacher</label>
-    <defName>BetaWolf_Tribal_Breacher</defName>
+    <label>beta wolf refugee</label>
+    <defName>BetaWolf_Refugee</defName>
     <xenotypeSet>
       <xenotypeChances>
         <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>

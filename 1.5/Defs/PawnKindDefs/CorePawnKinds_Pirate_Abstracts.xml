@@ -46,13 +46,7 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
-
   <PawnKindDef Abstract="True" Name="BetaHumanoids_Scavenger">
     <race>Human</race>
     <defaultFactionType>Pirate</defaultFactionType>
@@ -99,13 +93,7 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
-
   <PawnKindDef Abstract="True" Name="BetaHumanoids_Thrasher">
     <race>Human</race>
     <defaultFactionType>Pirate</defaultFactionType>
@@ -155,13 +143,7 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
-
   <PawnKindDef Abstract="True" Name="BetaHumanoids_Pirate">
     <race>Human</race>
     <defaultFactionType>Pirate</defaultFactionType>
@@ -212,10 +194,5 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
 </Defs>
