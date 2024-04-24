@@ -190,10 +190,11 @@
           </extendedGraphics>
         </head>
         <headMasks>
+          <path>Things/Pawn/Humanlike/Heads/Masks/BetaCroc/Mask_Average_Normal</path>
           <extendedGraphics>
             <HeadType For="Male_AverageNormal">Things/Pawn/Humanlike/Heads/Masks/BetaCroc/Mask_Average_Normal</HeadType>
-            <HeadType For="Male_AverageWide">Things/Pawn/Humanlike/Heads/Masks/BetaCroc/Male_Average_Normal</HeadType>
-            <HeadType For="Male_AveragePointy">Things/Pawn/Humanlike/Heads/Masks/BetaCroc/Male_Narrow_Normal</HeadType>
+            <HeadType For="Male_AverageWide">Things/Pawn/Humanlike/Heads/Masks/BetaCroc/Mask_Average_Normal</HeadType>
+            <HeadType For="Male_AveragePointy">Things/Pawn/Humanlike/Heads/Masks/BetaCroc/Mask_Narrow_Normal</HeadType>
             <HeadType For="Male_NarrowNormal">Things/Pawn/Humanlike/Heads/Masks/BetaCroc/Mask_Narrow_Normal</HeadType>
             <HeadType For="Male_NarrowPointy">Things/Pawn/Humanlike/Heads/Masks/BetaCroc/Mask_Narrow_Wide</HeadType>
             <HeadType For="Male_NarrowWide">Things/Pawn/Humanlike/Heads/Masks/BetaCroc/Mask_Narrow_Wide</HeadType>
@@ -232,7 +233,7 @@
         <li>
           <key>TattooDef</key>
           <value>
-            <hasStyle>true</hasStyle>
+            <hasStyle>false</hasStyle>
           </value>
         </li>
       </styleSettings>
