@@ -46,11 +46,6 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_BountyHunter">
     <race>Human</race>
@@ -96,11 +91,6 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_Outlaw">
     <race>Human</race>
@@ -130,7 +120,7 @@
       <li>GrenadeDestructive</li>
     </weaponTags>
     <weaponMoney>
-      <min>250</min>
+      <min>200</min>
       <max>500</max>
     </weaponMoney>
     <apparelRequired>
@@ -146,11 +136,6 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_Gunslinger">
     <race>Human</race>
@@ -178,7 +163,7 @@
       <li>Revolver</li>
     </weaponTags>
     <weaponMoney>
-      <min>250</min>
+      <min>200</min>
       <max>300</max>
     </weaponMoney>
     <apparelMoney>
@@ -198,11 +183,6 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_BanditLeader">
     <race>Human</race>
@@ -245,10 +225,5 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
 </Defs>

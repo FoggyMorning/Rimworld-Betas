@@ -68,11 +68,6 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_PJ_ImpInspector">
     <defaultFactionType>PJ_GalacticEmpire</defaultFactionType>
@@ -83,7 +78,6 @@
     <apparelTags>
       <li>PJ_Imp</li>
     </apparelTags>
-    <label>imperial</label>
     <race>Human</race>
     <combatPower>25</combatPower>
     <itemQuality>Poor</itemQuality>
@@ -97,7 +91,6 @@
       <min>6000</min>
       <max>6000</max>
     </apparelMoney>
-    <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
     <weaponMoney>
       <min>2040</min>
       <max>3000</max>
@@ -133,6 +126,8 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
+    <label>Tax Inspector</label>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <apparelRequired>
       <li>PJ_ImpUniform</li>
     </apparelRequired>
@@ -145,11 +140,6 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_PJ_ImpTaxOfficer">
     <defaultFactionType>PJ_GalacticEmpire</defaultFactionType>
@@ -160,7 +150,6 @@
     <apparelTags>
       <li>PJ_Imp</li>
     </apparelTags>
-    <label>imperial</label>
     <race>Human</race>
     <combatPower>25</combatPower>
     <itemQuality>Poor</itemQuality>
@@ -174,7 +163,6 @@
       <min>6000</min>
       <max>6000</max>
     </apparelMoney>
-    <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
     <weaponMoney>
       <min>2040</min>
       <max>3000</max>
@@ -210,6 +198,8 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
+    <label>Tax Officer</label>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <apparelRequired>
       <li>PJ_ImpUniform</li>
     </apparelRequired>
@@ -222,11 +212,6 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_PJ_ImpSoldier">
     <defaultFactionType>PJ_GalacticEmpire</defaultFactionType>
@@ -237,9 +222,7 @@
     <apparelTags>
       <li>PJ_Imp</li>
     </apparelTags>
-    <label>imperial</label>
     <race>Human</race>
-    <combatPower>25</combatPower>
     <itemQuality>Poor</itemQuality>
     <isFighter>true</isFighter>
     <maxGenerationAge>45</maxGenerationAge>
@@ -287,11 +270,13 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
+    <label>Soldier</label>
     <apparelRequired>
       <li>PJ_ImpNavyH</li>
       <li>PJ_ImpUniform</li>
       <li>PJ_ImpNAVYSHELL</li>
     </apparelRequired>
+    <combatPower>85</combatPower>
     <backstoryFiltersOverride Inherit="False">
       <li>
         <categories>
@@ -301,11 +286,6 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_PJ_ImpTrader">
     <defaultFactionType>PJ_GalacticEmpire</defaultFactionType>
@@ -316,11 +296,9 @@
     <apparelTags>
       <li>PJ_Imp</li>
     </apparelTags>
-    <label>imperial</label>
     <race>Human</race>
     <combatPower>25</combatPower>
     <itemQuality>Poor</itemQuality>
-    <isFighter>true</isFighter>
     <maxGenerationAge>45</maxGenerationAge>
     <gearHealthRange>
       <min>0.5</min>
@@ -366,7 +344,9 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
+    <label>Imperial Provisioner</label>
     <trader>true</trader>
+    <isFighter>false</isFighter>
     <backstoryFiltersOverride Inherit="False">
       <li>
         <categories>
@@ -376,11 +356,6 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_PJ_Stormtrooper">
     <defaultFactionType>PJ_GalacticEmpire</defaultFactionType>
@@ -391,9 +366,7 @@
     <apparelTags>
       <li>PJ_Imp</li>
     </apparelTags>
-    <label>imperial</label>
     <race>Human</race>
-    <combatPower>25</combatPower>
     <itemQuality>Poor</itemQuality>
     <isFighter>true</isFighter>
     <maxGenerationAge>45</maxGenerationAge>
@@ -441,11 +414,13 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
+    <label>Stormtrooper</label>
     <apparelRequired>
       <li>PJ_ImpUniform</li>
       <li>PJ_TroopArmor</li>
       <li>PJ_STHelm</li>
     </apparelRequired>
+    <combatPower>95</combatPower>
     <backstoryFiltersOverride Inherit="False">
       <li>
         <categories>
@@ -455,11 +430,6 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_PJ_StormtrooperSO">
     <defaultFactionType>PJ_GalacticEmpire</defaultFactionType>
@@ -470,9 +440,7 @@
     <apparelTags>
       <li>PJ_Imp</li>
     </apparelTags>
-    <label>imperial</label>
     <race>Human</race>
-    <combatPower>25</combatPower>
     <itemQuality>Poor</itemQuality>
     <isFighter>true</isFighter>
     <maxGenerationAge>45</maxGenerationAge>
@@ -520,11 +488,13 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
+    <label>Stormtrooper officer</label>
     <apparelRequired>
       <li>PJ_ImpUniform</li>
       <li>PJ_TroopArmorSO</li>
       <li>PJ_STHelm</li>
     </apparelRequired>
+    <combatPower>95</combatPower>
     <backstoryFiltersOverride Inherit="False">
       <li>
         <categories>
@@ -534,11 +504,6 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_PJ_ImpCommander">
     <label>commander</label>
@@ -612,11 +577,6 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_PJ_ScoutTrooper">
     <label>Scout trooper</label>
@@ -690,10 +650,5 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
 </Defs>

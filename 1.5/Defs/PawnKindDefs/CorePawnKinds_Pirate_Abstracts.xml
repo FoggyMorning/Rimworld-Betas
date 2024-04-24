@@ -5,10 +5,10 @@
     <defaultFactionType>Pirate</defaultFactionType>
     <chemicalAddictionChance>0.12</chemicalAddictionChance>
     <backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
-    <invNutrition>2.55</invNutrition>
     <biocodeWeaponChance>0.1</biocodeWeaponChance>
     <label>drifter</label>
     <combatPower>35</combatPower>
+    <invNutrition>0</invNutrition>
     <gearHealthRange>0.2~0.6</gearHealthRange>
     <itemQuality>Poor</itemQuality>
     <apparelMoney>90~280</apparelMoney>
@@ -150,7 +150,6 @@
     <chemicalAddictionChance>0.12</chemicalAddictionChance>
     <backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
     <invNutrition>2.55</invNutrition>
-    <biocodeWeaponChance>0.1</biocodeWeaponChance>
     <label>pirate gunner</label>
     <combatPower>65</combatPower>
     <maxGenerationAge>65</maxGenerationAge>
@@ -183,6 +182,7 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
+    <biocodeWeaponChance>0.2</biocodeWeaponChance>
     <initialWillRange>2~3</initialWillRange>
     <initialResistanceRange>7~12</initialResistanceRange>
     <backstoryFiltersOverride Inherit="False">

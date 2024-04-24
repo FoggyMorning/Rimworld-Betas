@@ -41,7 +41,6 @@
     <forceNormalGearQuality>true</forceNormalGearQuality>
     <isFighter>false</isFighter>
     <chemicalAddictionChance>0.08</chemicalAddictionChance>
-    <gearHealthRange>0.4~1.4</gearHealthRange>
     <apparelTags>
       <li>IndustrialBasic</li>
     </apparelTags>
@@ -56,6 +55,7 @@
     <techHediffsChance>0.08</techHediffsChance>
     <label>space refugee</label>
     <apparelMoney>200~1000</apparelMoney>
+    <gearHealthRange>1~1</gearHealthRange>
     <disallowedTraits>
       <li>Nudist</li>
     </disallowedTraits>

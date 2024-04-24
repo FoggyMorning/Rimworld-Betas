@@ -88,22 +88,6 @@
           <li>BetaElk_Female</li>
         </notXenophobistTowards>
         <alienPartGenerator>
-          <headTypes Inherit="False">
-            <li>BetaHumanoids_BetaElk_Male_Average_Normal</li>
-
-            <li MayRequire="Ludeon.RimWorld.Biotech">Gaunt</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Gaunt</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Average1</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Average2</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Average3</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Male_HeavyJawNormal</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Narrow1</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Narrow2</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Narrow3</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Heavy1</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Heavy2</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Heavy3</li>
-          </headTypes>
           <bodyAddons>
             <li>
               <conditions>
@@ -111,25 +95,15 @@
                   <bodyPart>BetaHumanoids_BodyPart_Antler_Large_Left</bodyPart>
                   <drawWithoutPart>false</drawWithoutPart>
                 </BodyPart>
-                <Apparel>
-                  <hiddenUnderApparelFor>
-                  </hiddenUnderApparelFor>
-                  <hiddenUnderApparelTag>
-                  </hiddenUnderApparelTag>
-                </Apparel>
               </conditions>
-              <geneGraphics MayRequire="Ludeon.RimWorld.Biotech">
-                <Headbone_MiniHorns MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Headbone_MiniHorns>
-                <Headbone_CenterHorn MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Headbone_CenterHorn>
-                <Head_Gaunt MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Head_Gaunt>
-              </geneGraphics>
-              <ageGraphics>
-                <HumanlikeBaby>Betas/Things/notexture</HumanlikeBaby>
-                <HumanlikeChild>Betas/Things/notexture</HumanlikeChild>
-                <HumanlikePreTeenager MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</HumanlikePreTeenager>
-              </ageGraphics>
+              <extendedGraphics>
+                <Age For="HumanlikeBaby">Things/notexture</Age>
+                <Age For="HumanlikeChild">Things/notexture</Age>
+                <Age MayRequire="Ludeon.RimWorld.Biotech" For="HumanlikePreTeenager">Things/notexture</Age>
+                <Gene MayRequire="Ludeon.RimWorld.Biotech" For="Head_Gaunt">Things/notexture</Gene>
+              </extendedGraphics>
               <debug>false</debug>
-              <path>Betas/BetaElk/Antlers/Antler_Left</path>
+              <path>Things/Pawn/Humanlike/Addons/BetaElk/Antlers/Antler_Left</path>
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
               <alignWithHead>true</alignWithHead>
               <colorChannel>antler</colorChannel>
@@ -158,25 +132,15 @@
                   <bodyPart>BetaHumanoids_BodyPart_Antler_Large_Right</bodyPart>
                   <drawWithoutPart>false</drawWithoutPart>
                 </BodyPart>
-                <Apparel>
-                  <hiddenUnderApparelFor>
-                  </hiddenUnderApparelFor>
-                  <hiddenUnderApparelTag>
-                  </hiddenUnderApparelTag>
-                </Apparel>
               </conditions>
-              <geneGraphics MayRequire="Ludeon.RimWorld.Biotech">
-                <Headbone_MiniHorns MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Headbone_MiniHorns>
-                <Headbone_CenterHorn MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Headbone_CenterHorn>
-                <Head_Gaunt MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Head_Gaunt>
-              </geneGraphics>
-              <ageGraphics>
-                <HumanlikeBaby>Betas/Things/notexture</HumanlikeBaby>
-                <HumanlikeChild>Betas/Things/notexture</HumanlikeChild>
-                <HumanlikePreTeenager MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</HumanlikePreTeenager>
-              </ageGraphics>
+              <extendedGraphics>
+                <Age For="HumanlikeBaby">Things/notexture</Age>
+                <Age For="HumanlikeChild">Things/notexture</Age>
+                <Age MayRequire="Ludeon.RimWorld.Biotech" For="HumanlikePreTeenager">Things/notexture</Age>
+                <Gene MayRequire="Ludeon.RimWorld.Biotech" For="Head_Gaunt">Things/notexture</Gene>
+              </extendedGraphics>
               <debug>false</debug>
-              <path>Betas/BetaElk/Antlers/Antler_Right</path>
+              <path>Things/Pawn/Humanlike/Addons/BetaElk/Antlers/Antler_Right</path>
               <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
               <alignWithHead>true</alignWithHead>
@@ -212,49 +176,6 @@
           </li>
         </forcedRaceTraitEntries>
       </generalSettings>
-      <graphicPaths Inherit="False">
-        <apparel>
-          <individualPaths>
-            <li>
-              <key>Apparel_WarVeil</key>
-              <value>Betas/Things/Pawn/Humanlike/Apparel/Veil/LongSnout/Veil</value>
-            </li>
-            <li>
-              <key>Apparel_PowerArmorHelmet</key>
-              <value>Betas/Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/LongSnout/PowerArmorHelmet</value>
-            </li>
-            <li>
-              <key>BetaHumanoid_Apparel_PowerArmorHelmet</key>
-              <value>Betas/Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/LongSnout/PowerArmorHelmet</value>
-            </li>
-            <li>
-              <key>BetaHumanoid_Apparel_PowerArmorHelmet_Upgrade</key>
-              <value>Betas/Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/LongSnout/PowerArmorHelmet</value>
-            </li>
-          </individualPaths>
-        </apparel>
-        <head>
-          <headtypeGraphics>
-            <BetaHumanoids_BetaElk_Male_Average_Normal>Betas/BetaElk/Head/Male_Average_Normal</BetaHumanoids_BetaElk_Male_Average_Normal>
-            <!-- fucking biotech -->
-            <Gaunt MayRequire="Ludeon.RimWorld.Biotech">Things/Pawn/Humanlike/Heads/Genes/None_Gaunt_Average</Gaunt>
-            <Furskin_Gaunt MayRequire="Ludeon.RimWorld.Biotech">Things/Pawn/Humanlike/Heads/FurCovered_Gaunt_Normal</Furskin_Gaunt>
-            <Furskin_Average1 MayRequire="Ludeon.RimWorld.Biotech">Things/Pawn/Humanlike/Heads/FurCovered_Average1_Normal</Furskin_Average1>
-            <Furskin_Average2 MayRequire="Ludeon.RimWorld.Biotech">Things/Pawn/Humanlike/Heads/FurCovered_Average2_Normal</Furskin_Average2>
-            <Furskin_Average3 MayRequire="Ludeon.RimWorld.Biotech">Things/Pawn/Humanlike/Heads/FurCovered_Average3_Normal</Furskin_Average3>
-            <Male_HeavyJawNormal MayRequire="Ludeon.RimWorld.Biotech">Things/Pawn/Humanlike/Heads/Male/Male_HeavyJaw_Normal</Male_HeavyJawNormal>
-            <Female_HeavyJawNormal MayRequire="Ludeon.RimWorld.Biotech">Things/Pawn/Humanlike/Heads/Female/Female_HeavyJaw_Normal</Female_HeavyJawNormal>
-            <Furskin_Narrow1 MayRequire="Ludeon.RimWorld.Biotech">Things/Pawn/Humanlike/Heads/FurCovered_Narrow1_Normal</Furskin_Narrow1>
-            <Furskin_Narrow2 MayRequire="Ludeon.RimWorld.Biotech">Things/Pawn/Humanlike/Heads/FurCovered_Narrow2_Normal</Furskin_Narrow2>
-            <Furskin_Narrow3 MayRequire="Ludeon.RimWorld.Biotech">Things/Pawn/Humanlike/Heads/FurCovered_Narrow3_Normal</Furskin_Narrow3>
-            <Furskin_Heavy1 MayRequire="Ludeon.RimWorld.Biotech">Things/Pawn/Humanlike/Heads/FurCovered_Wide1_Normal</Furskin_Heavy1>
-            <Furskin_Heavy2 MayRequire="Ludeon.RimWorld.Biotech">Things/Pawn/Humanlike/Heads/FurCovered_Wide2_Normal</Furskin_Heavy2>
-            <Furskin_Heavy3 MayRequire="Ludeon.RimWorld.Biotech">Things/Pawn/Humanlike/Heads/FurCovered_Wide3_Normal</Furskin_Heavy3>
-          </headtypeGraphics>
-        </head>
-      </graphicPaths>
-      <raceRestriction>
-      </raceRestriction>
     </alienRace>
     <race>
       <!-- need gendered body defs -->

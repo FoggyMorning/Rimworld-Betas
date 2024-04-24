@@ -59,24 +59,6 @@
       </thoughtSettings>
       <generalSettings>
         <alienPartGenerator>
-          <headTypes Inherit="False">
-            <li>BetaHumanoids_BetaRaccoon_Male_Average_Normal</li>
-            <li>BetaHumanoids_BetaRaccoon_Female_Average_Normal</li>
-
-            <li MayRequire="Ludeon.RimWorld.Biotech">Gaunt</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Gaunt</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Average1</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Average2</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Average3</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Male_HeavyJawNormal</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Female_HeavyJawNormal</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Narrow1</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Narrow2</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Narrow3</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Heavy1</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Heavy2</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Heavy3</li>
-          </headTypes>
           <customDrawSize>(.65, .65)</customDrawSize>
           <customHeadDrawSize>(.65,.65)</customHeadDrawSize>
           <customPortraitDrawSize>(.65,.65)</customPortraitDrawSize>
@@ -142,15 +124,16 @@
                   </hiddenUnderApparelTag>
                 </Apparel>
               </conditions>
-              <geneGraphics MayRequire="Ludeon.RimWorld.Biotech">
-                <Ears_Pig MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Ears_Pig>
-                <Ears_Floppy MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Ears_Floppy>
-                <Ears_Cat MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Ears_Cat>
-                <Ears_Pointed MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Ears_Pointed>
-                <Head_Gaunt MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Head_Gaunt>
-              </geneGraphics>
+              <extendedGraphics>
+                <Gene MayRequire="Ludeon.RimWorld.Biotech" For="Head_Gaunt">Things/notexture</Gene>
+                <Gene MayRequire="Ludeon.RimWorld.Biotech" For="Ears_Pig">Things/notexture</Gene>
+                <Gene MayRequire="Ludeon.RimWorld.Biotech" For="Ears_Floppy">Things/notexture</Gene>
+                <Gene MayRequire="Ludeon.RimWorld.Biotech" For="Ears_Cat">Things/notexture</Gene>
+                <Gene MayRequire="Ludeon.RimWorld.Biotech" For="Ears_Pointed">Things/notexture</Gene>
+                <Gene MayRequire="Ludeon.RimWorld.Biotech" For="Ears_Human">Things/notexture</Gene>
+              </extendedGraphics>
               <debug>false</debug>
-              <path>Betas/BetaRaccoon/Ears/Ear_Left</path>
+              <path>Things/Pawn/Humanlike/Addons/BetaRaccoon/Ears/Ear_Left</path>
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
               <inFrontOfBody>true</inFrontOfBody>
               <alignWithHead>true</alignWithHead>
@@ -190,15 +173,16 @@
                   </hiddenUnderApparelTag>
                 </Apparel>
               </conditions>
-              <geneGraphics MayRequire="Ludeon.RimWorld.Biotech">
-                <Ears_Pig MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Ears_Pig>
-                <Ears_Floppy MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Ears_Floppy>
-                <Ears_Cat MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Ears_Cat>
-                <Ears_Pointed MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Ears_Pointed>
-                <Head_Gaunt MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Head_Gaunt>
-              </geneGraphics>
+              <extendedGraphics>
+                <Gene MayRequire="Ludeon.RimWorld.Biotech" For="Head_Gaunt">Things/notexture</Gene>
+                <Gene MayRequire="Ludeon.RimWorld.Biotech" For="Ears_Pig">Things/notexture</Gene>
+                <Gene MayRequire="Ludeon.RimWorld.Biotech" For="Ears_Floppy">Things/notexture</Gene>
+                <Gene MayRequire="Ludeon.RimWorld.Biotech" For="Ears_Cat">Things/notexture</Gene>
+                <Gene MayRequire="Ludeon.RimWorld.Biotech" For="Ears_Pointed">Things/notexture</Gene>
+                <Gene MayRequire="Ludeon.RimWorld.Biotech" For="Ears_Human">Things/notexture</Gene>
+              </extendedGraphics>
               <debug>false</debug>
-              <path>Betas/BetaRaccoon/Ears/Ear_Right</path>
+              <path>Things/Pawn/Humanlike/Addons/BetaRaccoon/Ears/Ear_Right</path>
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
               <inFrontOfBody>true</inFrontOfBody>
               <alignWithHead>true</alignWithHead>
@@ -236,19 +220,16 @@
                   </hiddenUnderApparelTag>
                 </Apparel>
               </conditions>
-              <geneGraphics MayRequire="Ludeon.RimWorld.Biotech">
-                <Furskin MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Furskin>
-                <Jaw_Heavy MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Jaw_Heavy>
-                <Head_Gaunt MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Head_Gaunt>
-              </geneGraphics>
-              <ageGraphics>
-                <HumanlikeBaby>Betas/Things/notexture</HumanlikeBaby>
-              </ageGraphics>
+              <extendedGraphics>
+                <Gene MayRequire="Ludeon.RimWorld.Biotech" For="Furskin">Things/notexture</Gene>
+                <Gene MayRequire="Ludeon.RimWorld.Biotech" For="Jaw_Heavy">Things/notexture</Gene>
+                <Gene MayRequire="Ludeon.RimWorld.Biotech" For="Head_Gaunt">Things/notexture</Gene>
+                <Age For="HumanlikeBaby">Things/notexture</Age>
+              </extendedGraphics>
               <debug>false</debug>
-              <path>Betas/BetaRaccoon/Fringe/Fringe</path>
+              <path>Things/Pawn/Humanlike/Addons/BetaRaccoon/Fringe/Fringe</path>
               <inFrontOfBody>true</inFrontOfBody>
               <alignWithHead>true</alignWithHead>
-              <drawnInBed>false</drawnInBed>
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
               <offsets>
                 <south>
@@ -274,19 +255,17 @@
                 <RotStage>Fresh,Rotting</RotStage>
                 <Posture>
                   <drawnStanding>true</drawnStanding>
-                  <drawnOnGround>true</drawnOnGround>
+                  <drawnLaying>true</drawnLaying>
                   <drawnInBed>false</drawnInBed>
                 </Posture>
               </conditions>
-              <geneGraphics MayRequire="Ludeon.RimWorld.Biotech">
-                <Tail_Furry MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Tail_Furry>
-                <Tail_Smooth MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Tail_Smooth>
-              </geneGraphics>
-              <ageGraphics>
-                <HumanlikeBaby>Betas/Things/notexture</HumanlikeBaby>
-              </ageGraphics>
+              <extendedGraphics>
+                <Gene MayRequire="Ludeon.RimWorld.Biotech" For="Tail_Furry">Things/notexture</Gene>
+                <Gene MayRequire="Ludeon.RimWorld.Biotech" For="Tail_Smooth">Things/notexture</Gene>
+                <Age For="HumanlikeBaby">Things/notexture</Age>
+              </extendedGraphics>
               <debug>false</debug>
-              <path>Betas/BetaRaccoon/Tail/Tail</path>
+              <path>Things/Pawn/Humanlike/Addons/BetaRaccoon/Tail/Tail</path>
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
               <alignWithHead>true</alignWithHead>
               <offsets>
@@ -327,56 +306,49 @@
       </generalSettings>
       <graphicPaths>
         <head>
-          <headtypeGraphics>
-            <BetaHumanoids_BetaRaccoon_Male_Average_Normal>
-              Betas/BetaRaccoon/Head/Male_Average_Normal</BetaHumanoids_BetaRaccoon_Male_Average_Normal>
-            <BetaHumanoids_BetaRaccoon_Female_Average_Normal>
-              Betas/BetaRaccoon/Head/Female_Average_Normal</BetaHumanoids_BetaRaccoon_Female_Average_Normal>
-            <!-- fucking biotech -->
-            <Gaunt MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/Genes/None_Gaunt_Average</Gaunt>
-            <Furskin_Gaunt MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/FurCovered_Gaunt_Normal</Furskin_Gaunt>
-            <Furskin_Average1 MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/FurCovered_Average1_Normal</Furskin_Average1>
-            <Furskin_Average2 MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/FurCovered_Average2_Normal</Furskin_Average2>
-            <Furskin_Average3 MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/FurCovered_Average3_Normal</Furskin_Average3>
-            <Male_HeavyJawNormal MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/Male/Male_HeavyJaw_Normal</Male_HeavyJawNormal>
-            <Female_HeavyJawNormal MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/Female/Female_HeavyJaw_Normal</Female_HeavyJawNormal>
-            <Furskin_Narrow1 MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/FurCovered_Narrow1_Normal</Furskin_Narrow1>
-            <Furskin_Narrow2 MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/FurCovered_Narrow2_Normal</Furskin_Narrow2>
-            <Furskin_Narrow3 MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/FurCovered_Narrow3_Normal</Furskin_Narrow3>
-            <Furskin_Heavy1 MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/FurCovered_Wide1_Normal</Furskin_Heavy1>
-            <Furskin_Heavy2 MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/FurCovered_Wide2_Normal</Furskin_Heavy2>
-            <Furskin_Heavy3 MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/FurCovered_Wide3_Normal</Furskin_Heavy3>
-          </headtypeGraphics>
+          <path>Things/Pawn/Humanlike/Heads/Male/BetaRaccoon/Male_Average_Normal</path>
+          <extendedGraphics>
+            <HeadType For="Male_AverageNormal">Things/Pawn/Humanlike/Heads/Male/BetaRaccoon/Male_Average_Normal</HeadType>
+            <HeadType For="Male_AverageWide">Things/Pawn/Humanlike/Heads/Male/BetaRaccoon/Male_Average_Normal</HeadType>
+            <HeadType For="Male_AveragePointy">Things/Pawn/Humanlike/Heads/Male/BetaRaccoon/Male_Average_Normal</HeadType>
+            <HeadType For="Male_NarrowNormal">Things/Pawn/Humanlike/Heads/Male/BetaRaccoon/Male_Average_Normal</HeadType>
+            <HeadType For="Male_NarrowPointy">Things/Pawn/Humanlike/Heads/Male/BetaRaccoon/Male_Average_Normal</HeadType>
+            <HeadType For="Male_NarrowWide">Things/Pawn/Humanlike/Heads/Male/BetaRaccoon/Male_Average_Normal</HeadType>
+            
+            <HeadType For="Female_AverageNormal">Things/Pawn/Humanlike/Heads/Female/BetaRaccoon/Female_Average_Normal</HeadType>
+            <HeadType For="Female_AveragePointy">Things/Pawn/Humanlike/Heads/Female/BetaRaccoon/Female_Average_Normal</HeadType>
+            <HeadType For="Female_AverageWide">Things/Pawn/Humanlike/Heads/Female/BetaRaccoon/Female_Average_Normal</HeadType>
+            <HeadType For="Female_NarrowNormal">Things/Pawn/Humanlike/Heads/Female/BetaRaccoon/Female_Average_Normal</HeadType>
+            <HeadType For="Female_NarrowPointy">Things/Pawn/Humanlike/Heads/Female/BetaRaccoon/Female_Average_Normal</HeadType>
+            <HeadType For="Female_NarrowWide">Things/Pawn/Humanlike/Heads/Female/BetaRaccoon/Female_Average_Normal</HeadType>
+          </extendedGraphics>
         </head>
         <headMasks>
-          <headtypeGraphics>
-            <BetaHumanoids_BetaRaccoon_Male_Average_Normal>
-              Betas/BetaRaccoon/Head/Mask_Average_Normal</BetaHumanoids_BetaRaccoon_Male_Average_Normal>
-            <BetaHumanoids_BetaRaccoon_Female_Average_Normal>
-              Betas/BetaRaccoon/Head/Mask_Average_Normal</BetaHumanoids_BetaRaccoon_Female_Average_Normal>
-          </headtypeGraphics>
+          <path>Things/Pawn/Humanlike/Heads/Masks/BetaRaccoon/Mask_Average_Normal</path>
+          <extendedGraphics>
+            <HeadType For="Male_AverageNormal">Things/Pawn/Humanlike/Heads/Masks/BetaRaccoon/Mask_Average_Normal</HeadType>
+            <HeadType For="Male_AverageWide">Things/Pawn/Humanlike/Heads/Masks/BetaRaccoon/Mask_Average_Normal</HeadType>
+            <HeadType For="Male_AveragePointy">Things/Pawn/Humanlike/Heads/Masks/BetaRaccoon/Mask_Average_Normal</HeadType>
+            <HeadType For="Male_NarrowNormal">Things/Pawn/Humanlike/Heads/Masks/BetaRaccoon/Mask_Average_Normal</HeadType>
+            <HeadType For="Male_NarrowPointy">Things/Pawn/Humanlike/Heads/Masks/BetaRaccoon/Mask_Average_Normal</HeadType>
+            <HeadType For="Male_NarrowWide">Things/Pawn/Humanlike/Heads/Masks/BetaRaccoon/Mask_Average_Normal</HeadType>
+            
+            <HeadType For="Female_AverageNormal">Things/Pawn/Humanlike/Heads/Masks/BetaRaccoon/Mask_Average_Normal</HeadType>
+            <HeadType For="Female_AveragePointy">Things/Pawn/Humanlike/Heads/Masks/BetaRaccoon/Mask_Average_Normal</HeadType>
+            <HeadType For="Female_AverageWide">Things/Pawn/Humanlike/Heads/Masks/BetaRaccoon/Mask_Average_Normal</HeadType>
+            <HeadType For="Female_NarrowNormal">Things/Pawn/Humanlike/Heads/Masks/BetaRaccoon/Mask_Average_Normal</HeadType>
+            <HeadType For="Female_NarrowPointy">Things/Pawn/Humanlike/Heads/Masks/BetaRaccoon/Mask_Average_Normal</HeadType>
+            <HeadType For="Female_NarrowWide">Things/Pawn/Humanlike/Heads/Masks/BetaRaccoon/Mask_Average_Normal</HeadType>
+          </extendedGraphics>
         </headMasks>
         <bodyMasks>
-          <bodytypeGraphics>
-            <Thin>Betas/Body/Mask_Naked_Thin</Thin>
-            <Male>Betas/Body/Mask_Naked_Male</Male>
-            <Hulk>Betas/Body/Mask_Naked_Hulk</Hulk>
-            <Female>Betas/Body/Mask_Naked_Female</Female>
-            <Fat>Betas/Body/Mask_Naked_Fat</Fat>
-          </bodytypeGraphics>
+          <extendedGraphics>
+            <BodyType For="Male">Things/Pawn/Humanlike/Bodies/Masks/BetaHumanoids/Mask_Naked_Male</BodyType>
+            <BodyType For="Female">Things/Pawn/Humanlike/Bodies/Masks/BetaHumanoids/Mask_Naked_Female</BodyType>
+            <BodyType For="Fat">Things/Pawn/Humanlike/Bodies/Masks/BetaHumanoids/Mask_Naked_Fat</BodyType>
+            <BodyType For="Thin">Things/Pawn/Humanlike/Bodies/Masks/BetaHumanoids/Mask_Naked_Thin</BodyType>
+            <BodyType For="Hulk">Things/Pawn/Humanlike/Bodies/Masks/BetaHumanoids/Mask_Naked_Hulk</BodyType>
+          </extendedGraphics>
         </bodyMasks>
       </graphicPaths>
       <styleSettings Inherit="False">

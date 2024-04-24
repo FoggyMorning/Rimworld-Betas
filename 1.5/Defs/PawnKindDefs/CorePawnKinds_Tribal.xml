@@ -482,7 +482,7 @@
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
     <race>BetaBear</race>
-    <label>beta bear hunter</label>
+    <label>beta bear trader</label>
     <defName>BetaBear_Tribal_Trader</defName>
     <xenotypeSet>
       <xenotypeChances>
@@ -492,7 +492,7 @@
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
     <race>BetaCamel</race>
-    <label>beta camel hunter</label>
+    <label>beta camel trader</label>
     <defName>BetaCamel_Tribal_Trader</defName>
     <xenotypeSet>
       <xenotypeChances>
@@ -502,7 +502,7 @@
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
     <race>BetaCroc</race>
-    <label>beta crocodile hunter</label>
+    <label>beta crocodile trader</label>
     <defName>BetaCroc_Tribal_Trader</defName>
     <xenotypeSet>
       <xenotypeChances>
@@ -512,7 +512,7 @@
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
     <race>BetaElephant</race>
-    <label>beta elephant hunter</label>
+    <label>beta elephant trader</label>
     <defName>BetaElephant_Tribal_Trader</defName>
     <xenotypeSet>
       <xenotypeChances>
@@ -522,7 +522,7 @@
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
     <race>BetaElk_Female</race>
-    <label>beta elk hunter</label>
+    <label>beta elk trader</label>
     <defName>BetaElk_Female_Tribal_Trader</defName>
     <xenotypeSet>
       <xenotypeChances>
@@ -532,7 +532,7 @@
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
     <race>BetaElk_Male</race>
-    <label>beta elk hunter</label>
+    <label>beta elk trader</label>
     <defName>BetaElk_Male_Tribal_Trader</defName>
     <xenotypeSet>
       <xenotypeChances>
@@ -542,7 +542,7 @@
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
     <race>BetaFox</race>
-    <label>beta fox hunter</label>
+    <label>beta fox trader</label>
     <defName>BetaFox_Tribal_Trader</defName>
     <xenotypeSet>
       <xenotypeChances>
@@ -552,7 +552,7 @@
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
     <race>BetaGazelle</race>
-    <label>beta gazelle hunter</label>
+    <label>beta gazelle trader</label>
     <defName>BetaGazelle_Tribal_Trader</defName>
     <xenotypeSet>
       <xenotypeChances>
@@ -562,7 +562,7 @@
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
     <race>BetaHog</race>
-    <label>beta hog hunter</label>
+    <label>beta hog trader</label>
     <defName>BetaHog_Tribal_Trader</defName>
     <xenotypeSet>
       <xenotypeChances>
@@ -572,7 +572,7 @@
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
     <race>BetaLynx</race>
-    <label>beta lynx hunter</label>
+    <label>beta lynx trader</label>
     <defName>BetaLynx_Tribal_Trader</defName>
     <xenotypeSet>
       <xenotypeChances>
@@ -582,7 +582,7 @@
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
     <race>BetaRaccoon</race>
-    <label>beta raccoon hunter</label>
+    <label>beta raccoon trader</label>
     <defName>BetaRaccoon_Tribal_Trader</defName>
     <xenotypeSet>
       <xenotypeChances>
@@ -592,7 +592,7 @@
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_Tribal_Trader">
     <race>BetaWolf</race>
-    <label>beta wolf hunter</label>
+    <label>beta wolf trader</label>
     <defName>BetaWolf_Tribal_Trader</defName>
     <xenotypeSet>
       <xenotypeChances>

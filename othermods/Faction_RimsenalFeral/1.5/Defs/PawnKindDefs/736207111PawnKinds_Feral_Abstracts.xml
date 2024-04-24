@@ -6,14 +6,12 @@
     <maxGenerationAge>42</maxGenerationAge>
     <chemicalAddictionChance>0.24</chemicalAddictionChance>
     <backstoryCryptosleepCommonality>0.02</backstoryCryptosleepCommonality>
-    <invNutrition>2.55</invNutrition>
-    <initialWillRange>2~5</initialWillRange>
-    <initialResistanceRange>9~20</initialResistanceRange>
     <requiredWorkTags>
       <li>Violent</li>
     </requiredWorkTags>
     <label>bullet bait</label>
     <combatPower>35</combatPower>
+    <invNutrition>0</invNutrition>
     <gearHealthRange>0.2~0.6</gearHealthRange>
     <itemQuality>Poor</itemQuality>
     <apparelMoney>90~280</apparelMoney>
@@ -40,6 +38,8 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
+    <initialWillRange>0~1</initialWillRange>
+    <initialResistanceRange>7~12</initialResistanceRange>
     <backstoryFiltersOverride Inherit="False">
       <li>
         <categories>
@@ -51,27 +51,22 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_FeralHusker">
     <race>Human</race>
     <defaultFactionType>Feral</defaultFactionType>
     <maxGenerationAge>42</maxGenerationAge>
     <chemicalAddictionChance>0.24</chemicalAddictionChance>
-    <backstoryCryptosleepCommonality>0.02</backstoryCryptosleepCommonality>
-    <invNutrition>2.55</invNutrition>
-    <initialWillRange>2~5</initialWillRange>
     <initialResistanceRange>9~20</initialResistanceRange>
     <requiredWorkTags>
       <li>Violent</li>
     </requiredWorkTags>
     <label>husker</label>
     <combatPower>65</combatPower>
+    <initialWillRange>0~1</initialWillRange>
+    <invNutrition>3</invNutrition>
     <itemQuality>Normal</itemQuality>
+    <backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
     <gearHealthRange>
       <min>0.7</min>
       <max>2.3</max>
@@ -123,19 +118,12 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_FeralMangler">
     <race>Human</race>
     <defaultFactionType>Feral</defaultFactionType>
     <maxGenerationAge>42</maxGenerationAge>
     <chemicalAddictionChance>0.24</chemicalAddictionChance>
-    <backstoryCryptosleepCommonality>0.02</backstoryCryptosleepCommonality>
-    <invNutrition>2.55</invNutrition>
     <initialWillRange>2~5</initialWillRange>
     <initialResistanceRange>9~20</initialResistanceRange>
     <requiredWorkTags>
@@ -144,7 +132,9 @@
     <label>mangler</label>
     <combatPower>85</combatPower>
     <apparelColor>(100,102,75)</apparelColor>
+    <invNutrition>3</invNutrition>
     <itemQuality>Normal</itemQuality>
+    <backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
     <gearHealthRange>
       <min>0.7</min>
       <max>2.3</max>
@@ -197,19 +187,11 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_FeralScorcher">
     <race>Human</race>
     <defaultFactionType>Feral</defaultFactionType>
-    <maxGenerationAge>42</maxGenerationAge>
     <chemicalAddictionChance>0.24</chemicalAddictionChance>
-    <backstoryCryptosleepCommonality>0.02</backstoryCryptosleepCommonality>
-    <invNutrition>2.55</invNutrition>
     <initialWillRange>2~5</initialWillRange>
     <initialResistanceRange>9~20</initialResistanceRange>
     <requiredWorkTags>
@@ -217,7 +199,10 @@
     </requiredWorkTags>
     <label>scorcher</label>
     <combatPower>95</combatPower>
+    <invNutrition>3</invNutrition>
     <itemQuality>Normal</itemQuality>
+    <backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
+    <maxGenerationAge>48</maxGenerationAge>
     <gearHealthRange>
       <min>0.7</min>
       <max>2.3</max>
@@ -282,19 +267,11 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_FeralBoomer">
     <race>Human</race>
     <defaultFactionType>Feral</defaultFactionType>
-    <maxGenerationAge>42</maxGenerationAge>
     <chemicalAddictionChance>0.24</chemicalAddictionChance>
-    <backstoryCryptosleepCommonality>0.02</backstoryCryptosleepCommonality>
-    <invNutrition>2.55</invNutrition>
     <initialWillRange>2~5</initialWillRange>
     <initialResistanceRange>9~20</initialResistanceRange>
     <requiredWorkTags>
@@ -303,7 +280,10 @@
     <label>boomer</label>
     <combatPower>155</combatPower>
     <apparelColor>(145,140,54)</apparelColor>
+    <invNutrition>3</invNutrition>
     <itemQuality>Normal</itemQuality>
+    <backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
+    <maxGenerationAge>48</maxGenerationAge>
     <gearHealthRange>
       <min>0.7</min>
       <max>2.3</max>
@@ -368,19 +348,11 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_FeralThumper">
     <race>Human</race>
     <defaultFactionType>Feral</defaultFactionType>
-    <maxGenerationAge>42</maxGenerationAge>
     <chemicalAddictionChance>0.24</chemicalAddictionChance>
-    <backstoryCryptosleepCommonality>0.02</backstoryCryptosleepCommonality>
-    <invNutrition>2.55</invNutrition>
     <initialWillRange>2~5</initialWillRange>
     <initialResistanceRange>9~20</initialResistanceRange>
     <requiredWorkTags>
@@ -392,6 +364,9 @@
       <li>FeralGunHeavy</li>
     </weaponTags>
     <apparelColor>(166,162,141)</apparelColor>
+    <invNutrition>3</invNutrition>
+    <backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
+    <maxGenerationAge>90</maxGenerationAge>
     <gearHealthRange>
       <min>0.5</min>
       <max>1.4</max>
@@ -434,19 +409,11 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_FeralGrinder">
     <race>Human</race>
     <defaultFactionType>Feral</defaultFactionType>
-    <maxGenerationAge>42</maxGenerationAge>
     <chemicalAddictionChance>0.24</chemicalAddictionChance>
-    <backstoryCryptosleepCommonality>0.02</backstoryCryptosleepCommonality>
-    <invNutrition>2.55</invNutrition>
     <initialWillRange>2~5</initialWillRange>
     <initialResistanceRange>9~20</initialResistanceRange>
     <requiredWorkTags>
@@ -454,6 +421,9 @@
     </requiredWorkTags>
     <label>grinder</label>
     <combatPower>75</combatPower>
+    <invNutrition>3</invNutrition>
+    <backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
+    <maxGenerationAge>50</maxGenerationAge>
     <gearHealthRange>
       <min>0.5</min>
       <max>2.3</max>
@@ -519,19 +489,12 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_FeralSkulker">
     <race>Human</race>
     <defaultFactionType>Feral</defaultFactionType>
     <maxGenerationAge>42</maxGenerationAge>
     <chemicalAddictionChance>0.24</chemicalAddictionChance>
-    <backstoryCryptosleepCommonality>0.02</backstoryCryptosleepCommonality>
-    <invNutrition>2.55</invNutrition>
     <initialWillRange>2~5</initialWillRange>
     <initialResistanceRange>9~20</initialResistanceRange>
     <requiredWorkTags>
@@ -540,7 +503,9 @@
     <label>skulker</label>
     <combatPower>85</combatPower>
     <apparelColor>(95,98,115)</apparelColor>
+    <invNutrition>3</invNutrition>
     <itemQuality>Normal</itemQuality>
+    <backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
     <gearHealthRange>
       <min>0.7</min>
       <max>2.3</max>
@@ -604,25 +569,19 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_FeralLeader">
     <race>Human</race>
     <defaultFactionType>Feral</defaultFactionType>
-    <maxGenerationAge>42</maxGenerationAge>
     <chemicalAddictionChance>0.24</chemicalAddictionChance>
-    <backstoryCryptosleepCommonality>0.02</backstoryCryptosleepCommonality>
     <invNutrition>2.55</invNutrition>
     <initialWillRange>2~5</initialWillRange>
-    <initialResistanceRange>9~20</initialResistanceRange>
     <requiredWorkTags>
       <li>Violent</li>
     </requiredWorkTags>
     <itemQuality>Normal</itemQuality>
+    <backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
+    <maxGenerationAge>45</maxGenerationAge>
     <gearHealthRange>
       <min>0.8</min>
       <max>3.5</max>
@@ -678,6 +637,7 @@
     <weaponTags>
       <li>FeralAssault</li>
     </weaponTags>
+    <initialResistanceRange>25~42</initialResistanceRange>
     <backstoryFiltersOverride Inherit="False">
       <li>
         <categories>
@@ -689,25 +649,19 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_FeralSkullBuster">
     <race>Human</race>
     <defaultFactionType>Feral</defaultFactionType>
-    <maxGenerationAge>42</maxGenerationAge>
     <chemicalAddictionChance>0.24</chemicalAddictionChance>
-    <backstoryCryptosleepCommonality>0.02</backstoryCryptosleepCommonality>
     <invNutrition>2.55</invNutrition>
     <initialWillRange>2~5</initialWillRange>
-    <initialResistanceRange>9~20</initialResistanceRange>
     <requiredWorkTags>
       <li>Violent</li>
     </requiredWorkTags>
     <itemQuality>Normal</itemQuality>
+    <backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
+    <maxGenerationAge>45</maxGenerationAge>
     <gearHealthRange>
       <min>0.8</min>
       <max>3.5</max>
@@ -763,6 +717,7 @@
     <weaponTags>
       <li>FeralAssault</li>
     </weaponTags>
+    <initialResistanceRange>12~24</initialResistanceRange>
     <backstoryFiltersOverride Inherit="False">
       <li>
         <categories>
@@ -774,19 +729,11 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_FeralManiac">
     <race>Human</race>
     <defaultFactionType>Feral</defaultFactionType>
     <maxGenerationAge>42</maxGenerationAge>
-    <chemicalAddictionChance>0.24</chemicalAddictionChance>
-    <backstoryCryptosleepCommonality>0.02</backstoryCryptosleepCommonality>
-    <invNutrition>2.55</invNutrition>
     <initialWillRange>2~5</initialWillRange>
     <initialResistanceRange>9~20</initialResistanceRange>
     <requiredWorkTags>
@@ -795,7 +742,10 @@
     <label>maniac</label>
     <combatPower>75</combatPower>
     <apparelColor>(147,119,150)</apparelColor>
+    <chemicalAddictionChance>0.95</chemicalAddictionChance>
+    <invNutrition>3</invNutrition>
     <itemQuality>Normal</itemQuality>
+    <backstoryCryptosleepCommonality>0.25</backstoryCryptosleepCommonality>
     <combatEnhancingDrugsChance>1</combatEnhancingDrugsChance>
     <combatEnhancingDrugsCount>
       <min>1</min>
@@ -861,10 +811,5 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
 </Defs>

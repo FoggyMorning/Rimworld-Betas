@@ -65,26 +65,6 @@
     <alienRace>
       <generalSettings>
         <alienPartGenerator>
-          <headTypes Inherit="False">
-            <li>BetaHumanoids_BetaCamel_Male_Average_Normal</li>
-            <li>BetaHumanoids_BetaCamel_Female_Average_Normal</li>
-            <li>BetaHumanoids_BetaCamel_Male_Average_Bump</li>
-            <li>BetaHumanoids_BetaCamel_Female_Average_Bump</li>
-
-            <li MayRequire="Ludeon.RimWorld.Biotech">Gaunt</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Gaunt</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Average1</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Average2</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Average3</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Male_HeavyJawNormal</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Female_HeavyJawNormal</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Narrow1</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Narrow2</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Narrow3</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Heavy1</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Heavy2</li>
-            <li MayRequire="Ludeon.RimWorld.Biotech">Furskin_Heavy3</li>
-          </headTypes>
           <headOffsetDirectional>
             <south>
               <offset>(0.0, 0.18)</offset>
@@ -120,19 +100,19 @@
                   </hiddenUnderApparelTag>
                 </Apparel>
               </conditions>
-              <geneGraphics MayRequire="Ludeon.RimWorld.Biotech">
-                <Ears_Pig MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Ears_Pig>
-                <Ears_Floppy MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Ears_Floppy>
-                <Ears_Cat MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Ears_Cat>
-                <Ears_Pointed MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Ears_Pointed>
-                <Head_Gaunt MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Head_Gaunt>
-                <Ears_Human MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Ears_Human>
-              </geneGraphics>
+              <extendedGraphics>
+                <Gene MayRequire="Ludeon.RimWorld.Biotech" For="Head_Gaunt">Things/notexture</Gene>
+                <Gene MayRequire="Ludeon.RimWorld.Biotech" For="Ears_Pig">Things/notexture</Gene>
+                <Gene MayRequire="Ludeon.RimWorld.Biotech" For="Ears_Floppy">Things/notexture</Gene>
+                <Gene MayRequire="Ludeon.RimWorld.Biotech" For="Ears_Cat">Things/notexture</Gene>
+                <Gene MayRequire="Ludeon.RimWorld.Biotech" For="Ears_Pointed">Things/notexture</Gene>
+                <Gene MayRequire="Ludeon.RimWorld.Biotech" For="Ears_Human">Things/notexture</Gene>
+              </extendedGraphics>
               <debug>false</debug>
               <inFrontOfBody>true</inFrontOfBody>
               <alignWithHead>true</alignWithHead>
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-              <path>Betas/BetaCamel/Ears/Ear_Left</path>
+              <path>Things/Pawn/Humanlike/Addons/BetaCamel/Ears/Ear_Left</path>
               <offsets>
                 <south>
                   <layerOffset>-0.28</layerOffset>
@@ -168,20 +148,20 @@
                   </hiddenUnderApparelTag>
                 </Apparel>
               </conditions>
-              <geneGraphics MayRequire="Ludeon.RimWorld.Biotech">
-                <Ears_Pig MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Ears_Pig>
-                <Ears_Floppy MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Ears_Floppy>
-                <Ears_Cat MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Ears_Cat>
-                <Ears_Pointed MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Ears_Pointed>
-                <Head_Gaunt MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Head_Gaunt>
-                <Ears_Human MayRequire="Ludeon.RimWorld.Biotech">Betas/Things/notexture</Ears_Human>
-              </geneGraphics>
+              <extendedGraphics>
+                <Gene MayRequire="Ludeon.RimWorld.Biotech" For="Head_Gaunt">Things/notexture</Gene>
+                <Gene MayRequire="Ludeon.RimWorld.Biotech" For="Ears_Pig">Things/notexture</Gene>
+                <Gene MayRequire="Ludeon.RimWorld.Biotech" For="Ears_Floppy">Things/notexture</Gene>
+                <Gene MayRequire="Ludeon.RimWorld.Biotech" For="Ears_Cat">Things/notexture</Gene>
+                <Gene MayRequire="Ludeon.RimWorld.Biotech" For="Ears_Pointed">Things/notexture</Gene>
+                <Gene MayRequire="Ludeon.RimWorld.Biotech" For="Ears_Human">Things/notexture</Gene>
+              </extendedGraphics>
               <debug>false</debug>
               <inFrontOfBody>true</inFrontOfBody>
               <linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
               <alignWithHead>true</alignWithHead>
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
-              <path>Betas/BetaCamel/Ears/Ear_Right</path>
+              <path>Things/Pawn/Humanlike/Addons/BetaCamel/Ears/Ear_Right</path>
               <offsets>
                 <south>
                   <layerOffset>-0.28</layerOffset>
@@ -213,15 +193,15 @@
                 </Apparel>
               </conditions>
               <debug>false</debug>
-              <path>Betas/BetaCamel/Head/Neck</path>
+              <path>Things/Pawn/Humanlike/Addons/BetaCamel/Neck/Neck</path>
               <alignWithHead>true</alignWithHead>
               <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
               <offsets>
                 <south>
-                  <layerOffset>-0.322</layerOffset>
+                  <layerOffset>-0.3118971</layerOffset>
                 </south>
                 <east>
-                  <layerOffset>-0.32</layerOffset>
+                  <layerOffset>-0.318328</layerOffset>
                   <bodyTypes>
                     <Male>( 0.0, -0.03 )</Male>
                     <Female>( 0.1, -0.0 )</Female>
@@ -325,62 +305,35 @@
           <individualPaths>
             <li>
               <key>Apparel_WarMask</key>
-              <value>Betas/Things/Pawn/Humanlike/Apparel/WarMask/WideEyes/WarMask</value>
+              <value>Things/Pawn/Humanlike/Apparel/WarMask/WideEyes/WarMask</value>
             </li>
             <li>
               <key>Apparel_WarVeil</key>
-              <value>Betas/Things/Pawn/Humanlike/Apparel/Veil/LongSnout/Veil</value>
+              <value>Things/Pawn/Humanlike/Apparel/Veil/LongSnout/Veil</value>
             </li>
             <li>
               <key>Apparel_PowerArmorHelmet</key>
-              <value>Betas/Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/LongSnout/PowerArmorHelmet</value>
-            </li>
-            <li>
-              <key>BetaHumanoid_Apparel_PowerArmorHelmet</key>
-              <value>Betas/Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/LongSnout/PowerArmorHelmet</value>
-            </li>
-            <li>
-              <key>BetaHumanoid_Apparel_PowerArmorHelmet_Upgrade</key>
-              <value>Betas/Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/LongSnout/PowerArmorHelmet</value>
+              <value>Things/Pawn/Humanlike/Apparel/PowerArmorHelmet/LongSnout/PowerArmorHelmet</value>
             </li>
           </individualPaths>
         </apparel>
         <head>
-          <headtypeGraphics>
-            <BetaHumanoids_BetaCamel_Male_Average_Normal>Betas/BetaCamel/Head/Male_Average_Normal</BetaHumanoids_BetaCamel_Male_Average_Normal>
-            <BetaHumanoids_BetaCamel_Male_Average_Bump>Betas/BetaCamel/Head/Male_Average_Bump</BetaHumanoids_BetaCamel_Male_Average_Bump>
-
-            <BetaHumanoids_BetaCamel_Female_Average_Normal>
-              Betas/BetaCamel/Head/Female_Average_Normal</BetaHumanoids_BetaCamel_Female_Average_Normal>
-            <BetaHumanoids_BetaCamel_Female_Average_Bump>Betas/BetaCamel/Head/Female_Average_Bump</BetaHumanoids_BetaCamel_Female_Average_Bump>
-            <!-- fucking biotech -->
-            <Gaunt MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/Genes/None_Gaunt_Average</Gaunt>
-            <Furskin_Gaunt MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/FurCovered_Gaunt_Normal</Furskin_Gaunt>
-            <Furskin_Average1 MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/FurCovered_Average1_Normal</Furskin_Average1>
-            <Furskin_Average2 MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/FurCovered_Average2_Normal</Furskin_Average2>
-            <Furskin_Average3 MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/FurCovered_Average3_Normal</Furskin_Average3>
-            <Male_HeavyJawNormal MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/Male/Male_HeavyJaw_Normal</Male_HeavyJawNormal>
-            <Female_HeavyJawNormal MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/Female/Female_HeavyJaw_Normal</Female_HeavyJawNormal>
-            <Furskin_Narrow1 MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/FurCovered_Narrow1_Normal</Furskin_Narrow1>
-            <Furskin_Narrow2 MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/FurCovered_Narrow2_Normal</Furskin_Narrow2>
-            <Furskin_Narrow3 MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/FurCovered_Narrow3_Normal</Furskin_Narrow3>
-            <Furskin_Heavy1 MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/FurCovered_Wide1_Normal</Furskin_Heavy1>
-            <Furskin_Heavy2 MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/FurCovered_Wide2_Normal</Furskin_Heavy2>
-            <Furskin_Heavy3 MayRequire="Ludeon.RimWorld.Biotech">
-              Things/Pawn/Humanlike/Heads/FurCovered_Wide3_Normal</Furskin_Heavy3>
-          </headtypeGraphics>
+          <path>Things/Pawn/Humanlike/Heads/Male/BetaCamel/Male_Average_Normal</path>
+          <extendedGraphics>
+            <HeadType For="Male_AverageNormal">Things/Pawn/Humanlike/Heads/Male/BetaCamel/Male_Average_Normal</HeadType>
+            <HeadType For="Male_AverageWide">Things/Pawn/Humanlike/Heads/Male/BetaCamel/Male_Average_Normal2</HeadType>
+            <HeadType For="Male_AveragePointy">Things/Pawn/Humanlike/Heads/Male/BetaCamel/Male_Average_Normal1</HeadType>
+            <HeadType For="Male_NarrowNormal">Things/Pawn/Humanlike/Heads/Male/BetaCamel/Male_Average_Bump</HeadType>
+            <HeadType For="Male_NarrowPointy">Things/Pawn/Humanlike/Heads/Male/BetaCamel/Male_Average_Bump2</HeadType>
+            <HeadType For="Male_NarrowWide">Things/Pawn/Humanlike/Heads/Male/BetaCamel/Male_Average_Bump1</HeadType>
+            
+            <HeadType For="Female_AverageNormal">Things/Pawn/Humanlike/Heads/Female/BetaCamel/Female_Average_Normal</HeadType>
+            <HeadType For="Female_AveragePointy">Things/Pawn/Humanlike/Heads/Female/BetaCamel/Female_Average_Normal2</HeadType>
+            <HeadType For="Female_AverageWide">Things/Pawn/Humanlike/Heads/Female/BetaCamel/Female_Average_Normal1</HeadType>
+            <HeadType For="Female_NarrowNormal">Things/Pawn/Humanlike/Heads/Female/BetaCamel/Female_Average_Bump</HeadType>
+            <HeadType For="Female_NarrowPointy">Things/Pawn/Humanlike/Heads/Female/BetaCamel/Female_Average_Bump2</HeadType>
+            <HeadType For="Female_NarrowWide">Things/Pawn/Humanlike/Heads/Female/BetaCamel/Female_Average_Bump1</HeadType>
+          </extendedGraphics>
         </head>
       </graphicPaths>
       <styleSettings Inherit="False">

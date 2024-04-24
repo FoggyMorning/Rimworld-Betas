@@ -49,7 +49,7 @@ def getWorkshopModsPath(modID):
 
 
 def getPersonalPath(folderName: str):
-    return 'E:\\rimworld_modding\\rimworld_mods\\'+folderName
+    return 'C:\\Program Files (x86)\\Steam\\steamapps\\common\\Rimworld\\Mods\\'+folderName
     # return 'D:\\Personal\\rimworld_mods\\'+folderName
 
 
@@ -355,10 +355,9 @@ def getParentStuff(pawnKindDef: ET.Element, possibleParents):
         if classValue != None:
             newPawnKD.attrib['Class'] = classValue
         for ele in parent:
-            if ele.tag == 'race':
-                if ele.text not in nonHumanExceptionList:
-                    updateNonHumanWatchList(parent)
-                    return None
+            if ele.tag == 'race' and ele.text not in nonHumanExceptionList:
+                updateNonHumanWatchList(parent)
+                return None
             if ele.tag == 'minGenerationAge':
                 continue
             if ele.tag == 'backstoryCategories':
@@ -367,13 +366,21 @@ def getParentStuff(pawnKindDef: ET.Element, possibleParents):
                 continue
             if ele.tag == 'backstoryFiltersOverride':
                 continue
+            if ele.tag == 'defName':
+                continue
             existing = newPawnKD.find(ele.tag)
-            if existing != None and ele.text != None:
-                newPawnKD.set(ele.tag, ele.text)
-                continue
-            if existing != None and ele.items() != None:
-                newPawnKD.set(ele.tag, ele.items())
-                continue
+            if existing != None:
+                if ele.text != None:
+                    if existing.text != None and ele.text == existing.text:
+                        continue
+                    newPawnKD.remove(existing)
+                elif ele.items() != None:
+                    if ele.attrib.get('Inherit') != None and ele.attrib.get('Inherit') == 'False':
+                        newPawnKD.remove(existing)
+                        newPawnKD.append(ele)
+                        continue                        
+                    newPawnKD.extend(ele.tag, ele.items())
+                    continue
             newPawnKD.append(ele)
     return newPawnKD
 

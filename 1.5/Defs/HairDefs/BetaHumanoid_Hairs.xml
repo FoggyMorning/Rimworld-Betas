@@ -3,7 +3,7 @@
   <HairDef>
     <defName>BetaHogMohawk</defName>
     <label>Hog Razorback Mohawk</label>
-    <texPath>Betas/Things/Pawn/Humanlike/Hairs/Mohawk</texPath>
+    <texPath>Things/Pawn/Humanlike/Hairs/Mohawk</texPath>
     <styleTags>
       <li>BetaHog</li>
       <li>Punk</li>
@@ -15,7 +15,7 @@
   <HairDef>
     <defName>BetaNoHair</defName>
     <label>No Hair</label>
-    <texPath>Betas/Things/Pawn/Humanlike/Hairs/NoHair</texPath>
+    <texPath>Things/Pawn/Humanlike/Hairs/NoHair</texPath>
     <styleTags>
       <li>BetaHog</li>
       <li>NoHair</li>

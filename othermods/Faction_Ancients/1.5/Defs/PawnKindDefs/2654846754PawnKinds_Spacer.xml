@@ -4,120 +4,240 @@
     <race>BetaBear</race>
     <label>beta bear ancient super-soldier</label>
     <defName>BetaBear_VFEA_AncientSoldierOneAbility</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_VFEA_AncientSoldierOneAbility">
     <race>BetaCamel</race>
     <label>beta camel ancient super-soldier</label>
     <defName>BetaCamel_VFEA_AncientSoldierOneAbility</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_VFEA_AncientSoldierOneAbility">
     <race>BetaCroc</race>
     <label>beta crocodile ancient super-soldier</label>
     <defName>BetaCroc_VFEA_AncientSoldierOneAbility</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_VFEA_AncientSoldierOneAbility">
     <race>BetaElephant</race>
     <label>beta elephant ancient super-soldier</label>
     <defName>BetaElephant_VFEA_AncientSoldierOneAbility</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_VFEA_AncientSoldierOneAbility">
     <race>BetaElk_Female</race>
     <label>beta elk ancient super-soldier</label>
     <defName>BetaElk_Female_VFEA_AncientSoldierOneAbility</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_VFEA_AncientSoldierOneAbility">
     <race>BetaElk_Male</race>
     <label>beta elk ancient super-soldier</label>
     <defName>BetaElk_Male_VFEA_AncientSoldierOneAbility</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_VFEA_AncientSoldierOneAbility">
     <race>BetaFox</race>
     <label>beta fox ancient super-soldier</label>
     <defName>BetaFox_VFEA_AncientSoldierOneAbility</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_VFEA_AncientSoldierOneAbility">
     <race>BetaGazelle</race>
     <label>beta gazelle ancient super-soldier</label>
     <defName>BetaGazelle_VFEA_AncientSoldierOneAbility</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_VFEA_AncientSoldierOneAbility">
     <race>BetaHog</race>
     <label>beta hog ancient super-soldier</label>
     <defName>BetaHog_VFEA_AncientSoldierOneAbility</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_VFEA_AncientSoldierOneAbility">
     <race>BetaLynx</race>
     <label>beta lynx ancient super-soldier</label>
     <defName>BetaLynx_VFEA_AncientSoldierOneAbility</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_VFEA_AncientSoldierOneAbility">
     <race>BetaRaccoon</race>
     <label>beta raccoon ancient super-soldier</label>
     <defName>BetaRaccoon_VFEA_AncientSoldierOneAbility</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_VFEA_AncientSoldierOneAbility">
     <race>BetaWolf</race>
     <label>beta wolf ancient super-soldier</label>
     <defName>BetaWolf_VFEA_AncientSoldierOneAbility</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_VFEA_AncientSoldierTwoAbilities">
     <race>BetaBear</race>
     <label>beta bear ancient super-soldier</label>
     <defName>BetaBear_VFEA_AncientSoldierTwoAbilities</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_VFEA_AncientSoldierTwoAbilities">
     <race>BetaCamel</race>
     <label>beta camel ancient super-soldier</label>
     <defName>BetaCamel_VFEA_AncientSoldierTwoAbilities</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_VFEA_AncientSoldierTwoAbilities">
     <race>BetaCroc</race>
     <label>beta crocodile ancient super-soldier</label>
     <defName>BetaCroc_VFEA_AncientSoldierTwoAbilities</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_VFEA_AncientSoldierTwoAbilities">
     <race>BetaElephant</race>
     <label>beta elephant ancient super-soldier</label>
     <defName>BetaElephant_VFEA_AncientSoldierTwoAbilities</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_VFEA_AncientSoldierTwoAbilities">
     <race>BetaElk_Female</race>
     <label>beta elk ancient super-soldier</label>
     <defName>BetaElk_Female_VFEA_AncientSoldierTwoAbilities</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_VFEA_AncientSoldierTwoAbilities">
     <race>BetaElk_Male</race>
     <label>beta elk ancient super-soldier</label>
     <defName>BetaElk_Male_VFEA_AncientSoldierTwoAbilities</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_VFEA_AncientSoldierTwoAbilities">
     <race>BetaFox</race>
     <label>beta fox ancient super-soldier</label>
     <defName>BetaFox_VFEA_AncientSoldierTwoAbilities</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_VFEA_AncientSoldierTwoAbilities">
     <race>BetaGazelle</race>
     <label>beta gazelle ancient super-soldier</label>
     <defName>BetaGazelle_VFEA_AncientSoldierTwoAbilities</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_VFEA_AncientSoldierTwoAbilities">
     <race>BetaHog</race>
     <label>beta hog ancient super-soldier</label>
     <defName>BetaHog_VFEA_AncientSoldierTwoAbilities</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_VFEA_AncientSoldierTwoAbilities">
     <race>BetaLynx</race>
     <label>beta lynx ancient super-soldier</label>
     <defName>BetaLynx_VFEA_AncientSoldierTwoAbilities</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_VFEA_AncientSoldierTwoAbilities">
     <race>BetaRaccoon</race>
     <label>beta raccoon ancient super-soldier</label>
     <defName>BetaRaccoon_VFEA_AncientSoldierTwoAbilities</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef ParentName="BetaHumanoids_VFEA_AncientSoldierTwoAbilities">
     <race>BetaWolf</race>
     <label>beta wolf ancient super-soldier</label>
     <defName>BetaWolf_VFEA_AncientSoldierTwoAbilities</defName>
+    <xenotypeSet>
+      <xenotypeChances>
+        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
+      </xenotypeChances>
+    </xenotypeSet>
   </PawnKindDef>
 </Defs>

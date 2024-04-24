@@ -366,7 +366,6 @@
     <itemQuality>Normal</itemQuality>
     <weaponMoney>1100~2500</weaponMoney>
     <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
-    <apparelMoney>1250~2500</apparelMoney>
     <apparelTags>
       <li>IndustrialBasic</li>
       <li>IndustrialAdvanced</li>
@@ -398,6 +397,7 @@
       <li>BodyPurist</li>
     </disallowedTraits>
     <combatPower>65</combatPower>
+    <apparelMoney>5000~8000</apparelMoney>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
     </weaponTags>
@@ -450,7 +450,6 @@
     <itemQuality>Normal</itemQuality>
     <weaponMoney>1100~2500</weaponMoney>
     <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
-    <apparelMoney>1250~2500</apparelMoney>
     <apparelTags>
       <li>IndustrialBasic</li>
       <li>IndustrialAdvanced</li>
@@ -489,6 +488,7 @@
     <weaponTags>
       <li>EmpireGrenadeDestructive</li>
     </weaponTags>
+    <apparelMoney>6000~9000</apparelMoney>
     <apparelRequired>
       <li>Apparel_PowerArmorHelmet</li>
       <li>Apparel_PowerArmor</li>
@@ -532,9 +532,7 @@
     <combatEnhancingDrugsCount>0~2</combatEnhancingDrugsCount>
     <invNutrition>2.55</invNutrition>
     <itemQuality>Normal</itemQuality>
-    <weaponMoney>1100~2500</weaponMoney>
     <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
-    <apparelMoney>1250~2500</apparelMoney>
     <apparelTags>
       <li>IndustrialBasic</li>
       <li>IndustrialAdvanced</li>
@@ -566,11 +564,13 @@
       <li>BodyPurist</li>
     </disallowedTraits>
     <combatPower>100</combatPower>
+    <weaponMoney>1550~2700</weaponMoney>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
       <li>SpacerGun</li>
       <li>SniperRifle</li>
     </weaponTags>
+    <apparelMoney>6000~9000</apparelMoney>
     <apparelRequired>
       <li>Apparel_ArmorHelmetRecon</li>
       <li>Apparel_ArmorRecon</li>
@@ -603,7 +603,6 @@
     <race>Human</race>
     <defaultFactionType>Empire</defaultFactionType>
     <minTitleRequired>Freeholder</minTitleRequired>
-    <maxGenerationAge>55</maxGenerationAge>
     <backstoryCryptosleepCommonality>0.08</backstoryCryptosleepCommonality>
     <styleItemTags>
       <li>
@@ -651,6 +650,7 @@
       <li>BodyPurist</li>
     </disallowedTraits>
     <label>champion</label>
+    <maxGenerationAge>40</maxGenerationAge>
     <combatPower>100</combatPower>
     <weaponTags>
       <li>MedievalMeleeDecent</li>
@@ -689,7 +689,6 @@
     <race>Human</race>
     <defaultFactionType>Empire</defaultFactionType>
     <minTitleRequired>Freeholder</minTitleRequired>
-    <maxGenerationAge>55</maxGenerationAge>
     <backstoryCryptosleepCommonality>0.08</backstoryCryptosleepCommonality>
     <styleItemTags>
       <li>
@@ -705,7 +704,6 @@
     <itemQuality>Normal</itemQuality>
     <weaponMoney>1100~2500</weaponMoney>
     <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
-    <apparelMoney>1250~2500</apparelMoney>
     <apparelTags>
       <li>IndustrialBasic</li>
       <li>IndustrialAdvanced</li>
@@ -728,7 +726,6 @@
       </li>
     </specificApparelRequirements>
     <techHediffsChance>0.3</techHediffsChance>
-    <techHediffsMoney>1000~1500</techHediffsMoney>
     <techHediffsRequired>
       <li>DeathAcidifier</li>
     </techHediffsRequired>
@@ -736,6 +733,9 @@
     <disallowedTraits>
       <li>BodyPurist</li>
     </disallowedTraits>
+    <maxGenerationAge>40</maxGenerationAge>
+    <apparelMoney>7000~10000</apparelMoney>
+    <techHediffsMoney>1000~4000</techHediffsMoney>
     <techHediffsMaxAmount>4</techHediffsMaxAmount>
     <allowRoyalRoomRequirements>False</allowRoyalRoomRequirements>
     <label>cataphract</label>
@@ -781,7 +781,6 @@
     <race>Human</race>
     <defaultFactionType>Empire</defaultFactionType>
     <minTitleRequired>Freeholder</minTitleRequired>
-    <maxGenerationAge>55</maxGenerationAge>
     <backstoryCryptosleepCommonality>0.08</backstoryCryptosleepCommonality>
     <styleItemTags>
       <li>
@@ -790,14 +789,10 @@
         <weightFactor>1</weightFactor>
       </li>
     </styleItemTags>
-    <chemicalAddictionChance>0.1</chemicalAddictionChance>
     <combatEnhancingDrugsChance>0.15</combatEnhancingDrugsChance>
     <combatEnhancingDrugsCount>0~2</combatEnhancingDrugsCount>
     <invNutrition>2.55</invNutrition>
-    <itemQuality>Normal</itemQuality>
-    <weaponMoney>1100~2500</weaponMoney>
     <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
-    <apparelMoney>1250~2500</apparelMoney>
     <apparelTags>
       <li>IndustrialBasic</li>
       <li>IndustrialAdvanced</li>
@@ -820,7 +815,6 @@
       </li>
     </specificApparelRequirements>
     <techHediffsChance>0.3</techHediffsChance>
-    <techHediffsMoney>1000~1500</techHediffsMoney>
     <techHediffsRequired>
       <li>DeathAcidifier</li>
     </techHediffsRequired>
@@ -828,11 +822,17 @@
     <disallowedTraits>
       <li>BodyPurist</li>
     </disallowedTraits>
+    <maxGenerationAge>40</maxGenerationAge>
+    <apparelMoney>7000~10000</apparelMoney>
+    <techHediffsMoney>1000~4000</techHediffsMoney>
     <techHediffsMaxAmount>4</techHediffsMaxAmount>
     <allowRoyalRoomRequirements>False</allowRoyalRoomRequirements>
     <royalTitleChance>1</royalTitleChance>
     <combatPower>150</combatPower>
+    <chemicalAddictionChance>0.03</chemicalAddictionChance>
     <initialWillRange>5~7</initialWillRange>
+    <itemQuality>Excellent</itemQuality>
+    <weaponMoney>3000~3500</weaponMoney>
     <apparelColor>(150,50,50)</apparelColor>
     <apparelRequired>
       <li>Apparel_ArmorHelmetCataphractPrestige</li>
@@ -878,7 +878,6 @@
     <race>Human</race>
     <defaultFactionType>Empire</defaultFactionType>
     <minTitleRequired>Freeholder</minTitleRequired>
-    <maxGenerationAge>55</maxGenerationAge>
     <backstoryCryptosleepCommonality>0.08</backstoryCryptosleepCommonality>
     <styleItemTags>
       <li>
@@ -887,14 +886,10 @@
         <weightFactor>1</weightFactor>
       </li>
     </styleItemTags>
-    <chemicalAddictionChance>0.1</chemicalAddictionChance>
     <combatEnhancingDrugsChance>0.15</combatEnhancingDrugsChance>
     <combatEnhancingDrugsCount>0~2</combatEnhancingDrugsCount>
     <invNutrition>2.55</invNutrition>
-    <itemQuality>Normal</itemQuality>
-    <weaponMoney>1100~2500</weaponMoney>
     <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
-    <apparelMoney>1250~2500</apparelMoney>
     <apparelTags>
       <li>IndustrialBasic</li>
       <li>IndustrialAdvanced</li>
@@ -917,7 +912,6 @@
       </li>
     </specificApparelRequirements>
     <techHediffsChance>0.3</techHediffsChance>
-    <techHediffsMoney>1000~1500</techHediffsMoney>
     <techHediffsRequired>
       <li>DeathAcidifier</li>
     </techHediffsRequired>
@@ -925,11 +919,17 @@
     <disallowedTraits>
       <li>BodyPurist</li>
     </disallowedTraits>
+    <maxGenerationAge>40</maxGenerationAge>
+    <apparelMoney>7000~10000</apparelMoney>
+    <techHediffsMoney>1000~4000</techHediffsMoney>
     <techHediffsMaxAmount>4</techHediffsMaxAmount>
     <allowRoyalRoomRequirements>False</allowRoyalRoomRequirements>
     <royalTitleChance>1</royalTitleChance>
     <combatPower>150</combatPower>
+    <chemicalAddictionChance>0.03</chemicalAddictionChance>
     <initialWillRange>5~7</initialWillRange>
+    <itemQuality>Excellent</itemQuality>
+    <weaponMoney>3000~3500</weaponMoney>
     <apparelColor>(150,50,50)</apparelColor>
     <apparelRequired>
       <li>Apparel_ArmorHelmetCataphractPrestige</li>
@@ -976,12 +976,7 @@
     <royalTitleChance>1</royalTitleChance>
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <itemQuality>Excellent</itemQuality>
-    <combatPower>130</combatPower>
     <weaponMoney>2600~3100</weaponMoney>
-    <weaponTags>
-      <li>UltratechMelee</li>
-      <li>Bladelink</li>
-    </weaponTags>
     <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
     <apparelMoney>1000~1500</apparelMoney>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
@@ -1003,7 +998,6 @@
       </li>
     </specificApparelRequirements>
     <techHediffsChance>0.15</techHediffsChance>
-    <techHediffsMoney>500~1500</techHediffsMoney>
     <techHediffsTags>
       <li>Advanced</li>
       <li>ImplantEmpireRoyal</li>
@@ -1024,10 +1018,13 @@
       <li>BodyPurist</li>
     </disallowedTraits>
     <label>noble</label>
+    <combatPower>40</combatPower>
     <titleSelectOne>
       <li>Knight</li>
       <li>Praetor</li>
     </titleSelectOne>
+    <weaponTags Inherit="False" />
+    <techHediffsMoney>0</techHediffsMoney>
     <allowRoyalRoomRequirements>False</allowRoyalRoomRequirements>
     <allowRoyalApparelRequirements>False</allowRoyalApparelRequirements>
     <initialWillRange>5~7</initialWillRange>
@@ -1052,7 +1049,6 @@
     <royalTitleChance>1</royalTitleChance>
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <itemQuality>Excellent</itemQuality>
-    <combatPower>130</combatPower>
     <weaponMoney>2600~3100</weaponMoney>
     <weaponTags>
       <li>UltratechMelee</li>
@@ -1079,7 +1075,6 @@
       </li>
     </specificApparelRequirements>
     <techHediffsChance>0.15</techHediffsChance>
-    <techHediffsMoney>500~1500</techHediffsMoney>
     <techHediffsTags>
       <li>Advanced</li>
       <li>ImplantEmpireRoyal</li>
@@ -1100,7 +1095,9 @@
       <li>BodyPurist</li>
     </disallowedTraits>
     <label>yeoman</label>
+    <combatPower>120</combatPower>
     <titleRequired>Yeoman</titleRequired>
+    <techHediffsMoney>0~500</techHediffsMoney>
     <initialWillRange>8~11</initialWillRange>
     <initialResistanceRange>38~58</initialResistanceRange>
     <useFactionXenotypes>false</useFactionXenotypes>
@@ -1122,7 +1119,6 @@
     <royalTitleChance>1</royalTitleChance>
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <itemQuality>Excellent</itemQuality>
-    <combatPower>130</combatPower>
     <weaponMoney>2600~3100</weaponMoney>
     <weaponTags>
       <li>UltratechMelee</li>
@@ -1149,7 +1145,6 @@
       </li>
     </specificApparelRequirements>
     <techHediffsChance>0.15</techHediffsChance>
-    <techHediffsMoney>500~1500</techHediffsMoney>
     <techHediffsTags>
       <li>Advanced</li>
       <li>ImplantEmpireRoyal</li>
@@ -1170,7 +1165,9 @@
       <li>BodyPurist</li>
     </disallowedTraits>
     <label>acolyte</label>
+    <combatPower>125</combatPower>
     <titleRequired>Acolyte</titleRequired>
+    <techHediffsMoney>300~800</techHediffsMoney>
     <initialWillRange>8~11</initialWillRange>
     <initialResistanceRange>37~56</initialResistanceRange>
     <useFactionXenotypes>false</useFactionXenotypes>
@@ -1219,7 +1216,6 @@
       </li>
     </specificApparelRequirements>
     <techHediffsChance>0.15</techHediffsChance>
-    <techHediffsMoney>500~1500</techHediffsMoney>
     <techHediffsTags>
       <li>Advanced</li>
       <li>ImplantEmpireRoyal</li>
@@ -1243,6 +1239,7 @@
     <labelFemale>dame</labelFemale>
     <titleRequired>Knight</titleRequired>
     <apparelColor>(58,58,58)</apparelColor>
+    <techHediffsMoney>500~1000</techHediffsMoney>
     <initialWillRange>10~13</initialWillRange>
     <initialResistanceRange>38~58</initialResistanceRange>
     <useFactionXenotypes>false</useFactionXenotypes>
@@ -1264,7 +1261,6 @@
     <royalTitleChance>1</royalTitleChance>
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <itemQuality>Excellent</itemQuality>
-    <combatPower>130</combatPower>
     <weaponMoney>2600~3100</weaponMoney>
     <weaponTags>
       <li>UltratechMelee</li>
@@ -1291,7 +1287,6 @@
       </li>
     </specificApparelRequirements>
     <techHediffsChance>0.15</techHediffsChance>
-    <techHediffsMoney>500~1500</techHediffsMoney>
     <techHediffsTags>
       <li>Advanced</li>
       <li>ImplantEmpireRoyal</li>
@@ -1313,6 +1308,8 @@
     </disallowedTraits>
     <label>praetor</label>
     <titleRequired>Praetor</titleRequired>
+    <combatPower>135</combatPower>
+    <techHediffsMoney>1000~1500</techHediffsMoney>
     <initialWillRange>11~14</initialWillRange>
     <initialResistanceRange>38~58</initialResistanceRange>
     <useFactionXenotypes>false</useFactionXenotypes>
@@ -1334,14 +1331,12 @@
     <royalTitleChance>1</royalTitleChance>
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <itemQuality>Excellent</itemQuality>
-    <combatPower>130</combatPower>
     <weaponMoney>2600~3100</weaponMoney>
     <weaponTags>
       <li>UltratechMelee</li>
       <li>Bladelink</li>
     </weaponTags>
     <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
-    <apparelMoney>1000~1500</apparelMoney>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
     <apparelTags>
       <li>IndustrialBasic</li>
@@ -1361,7 +1356,6 @@
       </li>
     </specificApparelRequirements>
     <techHediffsChance>0.15</techHediffsChance>
-    <techHediffsMoney>500~1500</techHediffsMoney>
     <techHediffsTags>
       <li>Advanced</li>
       <li>ImplantEmpireRoyal</li>
@@ -1384,6 +1378,9 @@
     <label>baron</label>
     <labelFemale>baroness</labelFemale>
     <titleRequired>Baron</titleRequired>
+    <combatPower>135</combatPower>
+    <apparelMoney>1500</apparelMoney>
+    <techHediffsMoney>1000~1500</techHediffsMoney>
     <initialWillRange>12~15</initialWillRange>
     <initialResistanceRange>25~39</initialResistanceRange>
     <useFactionXenotypes>false</useFactionXenotypes>
@@ -1405,14 +1402,12 @@
     <royalTitleChance>1</royalTitleChance>
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <itemQuality>Excellent</itemQuality>
-    <combatPower>130</combatPower>
     <weaponMoney>2600~3100</weaponMoney>
     <weaponTags>
       <li>UltratechMelee</li>
       <li>Bladelink</li>
     </weaponTags>
     <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
-    <apparelMoney>1000~1500</apparelMoney>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
     <apparelTags>
       <li>IndustrialBasic</li>
@@ -1432,7 +1427,6 @@
       </li>
     </specificApparelRequirements>
     <techHediffsChance>0.15</techHediffsChance>
-    <techHediffsMoney>500~1500</techHediffsMoney>
     <techHediffsTags>
       <li>Advanced</li>
       <li>ImplantEmpireRoyal</li>
@@ -1455,6 +1449,9 @@
     <label>count</label>
     <labelFemale>countess</labelFemale>
     <titleRequired>Count</titleRequired>
+    <combatPower>135</combatPower>
+    <apparelMoney>9999999</apparelMoney>
+    <techHediffsMoney>1000~2000</techHediffsMoney>
     <initialWillRange>13~16</initialWillRange>
     <initialResistanceRange>38~58</initialResistanceRange>
     <useFactionXenotypes>false</useFactionXenotypes>
@@ -1476,14 +1473,12 @@
     <royalTitleChance>1</royalTitleChance>
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <itemQuality>Excellent</itemQuality>
-    <combatPower>130</combatPower>
     <weaponMoney>2600~3100</weaponMoney>
     <weaponTags>
       <li>UltratechMelee</li>
       <li>Bladelink</li>
     </weaponTags>
     <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
-    <apparelMoney>1000~1500</apparelMoney>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
     <apparelTags>
       <li>IndustrialBasic</li>
@@ -1502,8 +1497,6 @@
         </alternateTagChoices>
       </li>
     </specificApparelRequirements>
-    <techHediffsChance>0.15</techHediffsChance>
-    <techHediffsMoney>500~1500</techHediffsMoney>
     <techHediffsTags>
       <li>Advanced</li>
       <li>ImplantEmpireRoyal</li>
@@ -1526,6 +1519,10 @@
     <label>duke</label>
     <labelFemale>duchess</labelFemale>
     <titleRequired>Duke</titleRequired>
+    <combatPower>135</combatPower>
+    <apparelMoney>9999999</apparelMoney>
+    <techHediffsChance>0.25</techHediffsChance>
+    <techHediffsMoney>1000~2500</techHediffsMoney>
     <techHediffsMaxAmount>2</techHediffsMaxAmount>
     <initialWillRange>14~17</initialWillRange>
     <initialResistanceRange>38~58</initialResistanceRange>
@@ -1548,14 +1545,12 @@
     <royalTitleChance>1</royalTitleChance>
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <itemQuality>Excellent</itemQuality>
-    <combatPower>130</combatPower>
     <weaponMoney>2600~3100</weaponMoney>
     <weaponTags>
       <li>UltratechMelee</li>
       <li>Bladelink</li>
     </weaponTags>
     <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
-    <apparelMoney>1000~1500</apparelMoney>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
     <apparelTags>
       <li>IndustrialBasic</li>
@@ -1574,8 +1569,6 @@
         </alternateTagChoices>
       </li>
     </specificApparelRequirements>
-    <techHediffsChance>0.15</techHediffsChance>
-    <techHediffsMoney>500~1500</techHediffsMoney>
     <techHediffsTags>
       <li>Advanced</li>
       <li>ImplantEmpireRoyal</li>
@@ -1597,6 +1590,10 @@
     </disallowedTraits>
     <label>consul</label>
     <titleRequired>Consul</titleRequired>
+    <combatPower>135</combatPower>
+    <apparelMoney>9999999</apparelMoney>
+    <techHediffsChance>0.25</techHediffsChance>
+    <techHediffsMoney>2000~2500</techHediffsMoney>
     <techHediffsMaxAmount>2</techHediffsMaxAmount>
     <initialWillRange>15~18</initialWillRange>
     <initialResistanceRange>19~30</initialResistanceRange>
@@ -1619,14 +1616,12 @@
     <royalTitleChance>1</royalTitleChance>
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <itemQuality>Excellent</itemQuality>
-    <combatPower>130</combatPower>
     <weaponMoney>2600~3100</weaponMoney>
     <weaponTags>
       <li>UltratechMelee</li>
       <li>Bladelink</li>
     </weaponTags>
     <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
-    <apparelMoney>1000~1500</apparelMoney>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
     <apparelTags>
       <li>IndustrialBasic</li>
@@ -1645,8 +1640,6 @@
         </alternateTagChoices>
       </li>
     </specificApparelRequirements>
-    <techHediffsChance>0.15</techHediffsChance>
-    <techHediffsMoney>500~1500</techHediffsMoney>
     <techHediffsTags>
       <li>Advanced</li>
       <li>ImplantEmpireRoyal</li>
@@ -1669,6 +1662,10 @@
     <label>stellarch</label>
     <factionLeader>true</factionLeader>
     <titleRequired>Stellarch</titleRequired>
+    <combatPower>135</combatPower>
+    <apparelMoney>9999999</apparelMoney>
+    <techHediffsChance>1</techHediffsChance>
+    <techHediffsMoney>3000~4000</techHediffsMoney>
     <techHediffsMaxAmount>3</techHediffsMaxAmount>
     <initialWillRange>16~19</initialWillRange>
     <initialResistanceRange>38~58</initialResistanceRange>
@@ -1691,8 +1688,6 @@
     <royalTitleChance>1</royalTitleChance>
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <itemQuality>Excellent</itemQuality>
-    <combatPower>130</combatPower>
-    <weaponMoney>2600~3100</weaponMoney>
     <weaponTags>
       <li>UltratechMelee</li>
       <li>Bladelink</li>
@@ -1718,7 +1713,6 @@
       </li>
     </specificApparelRequirements>
     <techHediffsChance>0.15</techHediffsChance>
-    <techHediffsMoney>500~1500</techHediffsMoney>
     <techHediffsTags>
       <li>Advanced</li>
       <li>ImplantEmpireRoyal</li>
@@ -1740,6 +1734,9 @@
     </disallowedTraits>
     <label>bestower</label>
     <factionHostileOnDeath>true</factionHostileOnDeath>
+    <combatPower>50</combatPower>
+    <weaponMoney>99999</weaponMoney>
+    <techHediffsMoney>1000~4000</techHediffsMoney>
     <apparelColor>(114,12,12)</apparelColor>
     <useFactionXenotypes>false</useFactionXenotypes>
     <requiredWorkTags>

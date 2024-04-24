@@ -60,11 +60,6 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_EMPGrenadierBlueSunSW">
     <race>Human</race>
@@ -126,11 +121,6 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_SmokeGrenadierBlueSunSW">
     <race>Human</race>
@@ -160,10 +150,6 @@
       <max>1800</max>
     </apparelMoney>
     <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
-    <weaponMoney>
-      <min>900</min>
-      <max>1000</max>
-    </weaponMoney>
     <techHediffsMoney>
       <min>1000</min>
       <max>2000</max>
@@ -180,6 +166,7 @@
     <weaponTags>
       <li>GrenadeSmoke</li>
     </weaponTags>
+    <weaponMoney>400~900</weaponMoney>
     <backstoryFiltersOverride Inherit="False">
       <li>
         <categories>
@@ -191,11 +178,6 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_SniperBlueSunSW">
     <race>Human</race>
@@ -266,11 +248,6 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_SlasherBlueSunSW">
     <race>Human</race>
@@ -345,11 +322,6 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_HeavyWeaponsBlueSunSW">
     <race>Human</race>
@@ -414,11 +386,6 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_SoldierBlueSunSW">
     <race>Human</race>
@@ -488,11 +455,6 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_BlueSunBossSW">
     <race>Human</race>
@@ -500,11 +462,10 @@
     <initialResistanceRange>20~30</initialResistanceRange>
     <initialWillRange>3~5</initialWillRange>
     <invNutrition>2.55</invNutrition>
-    <itemQuality>Good</itemQuality>
     <backstoryCryptosleepCommonality>0.67</backstoryCryptosleepCommonality>
-    <maxGenerationAge>40</maxGenerationAge>
-    <biocodeWeaponChance>0.3</biocodeWeaponChance>
     <combatPower>260</combatPower>
+    <itemQuality>Excellent</itemQuality>
+    <maxGenerationAge>45</maxGenerationAge>
     <gearHealthRange>
       <min>0.8</min>
       <max>3.5</max>
@@ -541,6 +502,7 @@
       <max>4</max>
     </combatEnhancingDrugsCount>
     <combatEnhancingDrugsChance>0.2</combatEnhancingDrugsChance>
+    <biocodeWeaponChance>0.5</biocodeWeaponChance>
     <techHediffsTags>
       <li>Advanced</li>
       <li>AdvancedWeapon</li>
@@ -579,11 +541,6 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_SoldierEliteBlueSunSW">
     <race>Human</race>
@@ -591,11 +548,10 @@
     <initialResistanceRange>20~30</initialResistanceRange>
     <initialWillRange>3~5</initialWillRange>
     <invNutrition>2.55</invNutrition>
-    <itemQuality>Good</itemQuality>
     <backstoryCryptosleepCommonality>0.67</backstoryCryptosleepCommonality>
-    <maxGenerationAge>40</maxGenerationAge>
-    <biocodeWeaponChance>0.3</biocodeWeaponChance>
     <combatPower>260</combatPower>
+    <itemQuality>Excellent</itemQuality>
+    <maxGenerationAge>45</maxGenerationAge>
     <gearHealthRange>
       <min>0.8</min>
       <max>3.5</max>
@@ -632,6 +588,7 @@
       <max>4</max>
     </combatEnhancingDrugsCount>
     <combatEnhancingDrugsChance>0.2</combatEnhancingDrugsChance>
+    <biocodeWeaponChance>0.5</biocodeWeaponChance>
     <techHediffsTags>
       <li>Advanced</li>
       <li>AdvancedWeapon</li>
@@ -669,10 +626,5 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
 </Defs>

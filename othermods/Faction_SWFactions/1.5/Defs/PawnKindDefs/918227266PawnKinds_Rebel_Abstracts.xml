@@ -73,11 +73,6 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_PJ_RebCouncilman">
     <defaultFactionType>PJ_RebelFac</defaultFactionType>
@@ -85,7 +80,6 @@
     <initialWillRange>1~3</initialWillRange>
     <initialResistanceRange>15~24</initialResistanceRange>
     <backstoryCryptosleepCommonality>0.04</backstoryCryptosleepCommonality>
-    <label>villager</label>
     <race>Human</race>
     <combatPower>25</combatPower>
     <isFighter>false</isFighter>
@@ -143,6 +137,7 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
+    <label>rebel base commander</label>
     <labelPlural>rebel base commanders</labelPlural>
     <factionLeader>true</factionLeader>
     <maxGenerationAge>100</maxGenerationAge>
@@ -158,11 +153,6 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_PJ_RebTrader">
     <defaultFactionType>PJ_RebelFac</defaultFactionType>
@@ -170,7 +160,6 @@
     <initialWillRange>1~3</initialWillRange>
     <initialResistanceRange>15~24</initialResistanceRange>
     <backstoryCryptosleepCommonality>0.04</backstoryCryptosleepCommonality>
-    <label>villager</label>
     <race>Human</race>
     <combatPower>25</combatPower>
     <isFighter>false</isFighter>
@@ -228,6 +217,7 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
+    <label>rebel trader</label>
     <trader>true</trader>
     <apparelRequired>
       <li>PJ_RebOfficer</li>
@@ -241,11 +231,6 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_PJ_RebGuard">
     <defaultFactionType>PJ_RebelFac</defaultFactionType>
@@ -308,11 +293,6 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_PJ_RebSoldier">
     <defaultFactionType>PJ_RebelFac</defaultFactionType>
@@ -375,11 +355,6 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_PJ_RebLAVSoldier">
     <defaultFactionType>PJ_RebelFac</defaultFactionType>
@@ -442,11 +417,6 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_PJ_RebNadeSoldier">
     <defaultFactionType>PJ_RebelFac</defaultFactionType>
@@ -508,11 +478,6 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_PJ_RebPilot">
     <defaultFactionType>PJ_RebelFac</defaultFactionType>
@@ -574,11 +539,6 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   <PawnKindDef Abstract="True" Name="BetaHumanoids_PJ_RebMerc">
     <defaultFactionType>PJ_RebelFac</defaultFactionType>
@@ -640,10 +600,5 @@
       </li>
     </backstoryFiltersOverride>
     <minGenerationAge>17</minGenerationAge>
-    <xenotypeSet>
-      <xenotypeChances>
-        <BetaHumanoids_Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</BetaHumanoids_Baseliner>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
 </Defs>

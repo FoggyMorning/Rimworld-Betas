@@ -197,7 +197,7 @@
                 <li>
                   <def>BetaHumanoids_BodyPart_OuterEar_Large_Left</def>
                   <customLabel>left outer ear</customLabel>
-                  <coverage>0.2</coverage>
+                  <coverage>0.125</coverage>
                   <groups>
                     <li>UpperHead</li>
                     <li>FullHead</li>
@@ -206,7 +206,7 @@
                 <li>
                   <def>BetaHumanoids_BodyPart_OuterEar_Large_Right</def>
                   <customLabel>right outer ear</customLabel>
-                  <coverage>0.2</coverage>
+                  <coverage>0.125</coverage>
                   <groups>
                     <li>UpperHead</li>
                     <li>FullHead</li>
@@ -215,7 +215,7 @@
                 <li>
                   <def>BetaHumanoids_BodyPart_Trunk_Elephant</def>
                   <customLabel>trunk</customLabel>
-                  <coverage>0.26</coverage>
+                  <coverage>0.16</coverage>
                   <groups>
                     <li>FullHead</li>
                     <li>BetaHumanoids_TrunkAttackTool</li>
@@ -223,7 +223,7 @@
                 </li>
                 <li>
                   <def>Jaw</def>
-                  <coverage>0.15</coverage>
+                  <coverage>0.08</coverage>
                   <groups>
                     <li>Teeth</li>
                     <li>FullHead</li>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <AlienRace.ThingDef_AlienRace ParentName="Human" Abstract="True" Name="BaseBetaPawn">
-
     <alienRace>
       <generalSettings>
         <humanRecipeImport>true</humanRecipeImport>
@@ -64,9 +63,6 @@
         </onlyUseRaceRestrictedXenotypes>
       </raceRestriction>
       <graphicPaths>
-        <apparel>
-          <pathPrefix>Betas/</pathPrefix>
-        </apparel>
         <skinShader>Cutout</skinShader>
       </graphicPaths>
     </alienRace>
@@ -74,7 +70,6 @@
       <bloodDef>Filth_Blood</bloodDef>
       <renderTree>Humanlike</renderTree>
       <body>BetaHumanoids_Bodies_HumanLikeWithAmputatableOuterEar</body>
-
       <lifeStageAges Inherit="False">
         <li>
           <def>HumanlikeBaby</def>
