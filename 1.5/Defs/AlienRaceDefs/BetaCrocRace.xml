@@ -192,17 +192,17 @@
         <headMasks>
           <extendedGraphics>
             <HeadType For="Male_AverageNormal">Things/Pawn/Humanlike/Heads/Masks/BetaCroc/Mask_Average_Normal</HeadType>
-            <HeadType For="Male_AverageWide">Things/Pawn/Humanlike/Heads/Masks/BetaCroc/Mask_Narrow_Wide</HeadType>
-            <HeadType For="Male_AveragePointy">Things/Pawn/Humanlike/Heads/Masks/BetaCroc/Mask_Average_Normal</HeadType>
+            <HeadType For="Male_AverageWide">Things/Pawn/Humanlike/Heads/Masks/BetaCroc/Male_Average_Normal</HeadType>
+            <HeadType For="Male_AveragePointy">Things/Pawn/Humanlike/Heads/Masks/BetaCroc/Male_Narrow_Normal</HeadType>
             <HeadType For="Male_NarrowNormal">Things/Pawn/Humanlike/Heads/Masks/BetaCroc/Mask_Narrow_Normal</HeadType>
-            <HeadType For="Male_NarrowPointy">Things/Pawn/Humanlike/Heads/Masks/BetaCroc/Mask_Narrow_Normal</HeadType>
+            <HeadType For="Male_NarrowPointy">Things/Pawn/Humanlike/Heads/Masks/BetaCroc/Mask_Narrow_Wide</HeadType>
             <HeadType For="Male_NarrowWide">Things/Pawn/Humanlike/Heads/Masks/BetaCroc/Mask_Narrow_Wide</HeadType>
             
             <HeadType For="Female_AverageNormal">Things/Pawn/Humanlike/Heads/Masks/BetaCroc/Mask_Average_Normal</HeadType>
             <HeadType For="Female_AveragePointy">Things/Pawn/Humanlike/Heads/Masks/BetaCroc/Mask_Average_Normal</HeadType>
-            <HeadType For="Female_AverageWide">Things/Pawn/Humanlike/Heads/Masks/BetaCroc/Mask_Narrow_Wide</HeadType>
+            <HeadType For="Female_AverageWide">Things/Pawn/Humanlike/Heads/Masks/BetaCroc/Mask_Narrow_Normal</HeadType>
             <HeadType For="Female_NarrowNormal">Things/Pawn/Humanlike/Heads/Masks/BetaCroc/Mask_Narrow_Normal</HeadType>
-            <HeadType For="Female_NarrowPointy">Things/Pawn/Humanlike/Heads/Masks/BetaCroc/Mask_Narrow_Normal</HeadType>
+            <HeadType For="Female_NarrowPointy">Things/Pawn/Humanlike/Heads/Masks/BetaCroc/Mask_Narrow_Wide</HeadType>
             <HeadType For="Female_NarrowWide">Things/Pawn/Humanlike/Heads/Masks/BetaCroc/Mask_Narrow_Wide</HeadType>
           </extendedGraphics>
         </headMasks>
